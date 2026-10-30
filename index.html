@@ -39,7 +39,25 @@ function esc(s){return String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;',
 function showPage(id,btn){document.querySelectorAll('main').forEach(x=>x.classList.add('hidden'));document.getElementById(id).classList.remove('hidden');document.querySelectorAll('.tabs button').forEach(x=>x.classList.remove('active'));if(btn)btn.classList.add('active');page=id}
 function renderHome(){let day=currentDay(),news=verbsForDay(day),revs=reviewVerbs(day);document.getElementById('levelBadge').textContent=activeLevel()+' · CURRENT';document.getElementById('dayLabel').textContent='YOUR DAILY PRACTICE · DAY '+day;document.getElementById('streak').textContent=state.streak||0;document.getElementById('total').textContent=state.known.length;document.getElementById('accuracy').textContent=state.answers?Math.round(state.correct/state.answers*100)+'%':'—';document.getElementById('lessonLevel').textContent=news[0]?.level||activeLevel();document.getElementById('lessonTitle').textContent='Day '+day+' · '+(news[0]?.level||activeLevel())+' verbs';document.getElementById('lessonCount').textContent=news.length+' new verbs · '+revs.length+' review verbs';document.getElementById('reviewCount').textContent=revs.length+' verbs';let done=state.completed.includes(day);document.getElementById('lessonStatus').textContent=done?'COMPLETED':'READY';document.getElementById('lessonProgress').style.width=done?'100%':'0%';document.getElementById('todayList').innerHTML=news.map(v=>`<div class="card" onclick="showVerb('${v.id}')"><div class="verb-row"><div><div class="verb">${esc(v.id)}</div><div class="meaning">${esc(v.meaning)}</div></div><span class="tag">${v.level}</span></div><div class="meta">${esc(v.pattern)} · ${esc(v.type)}</div></div>`).join('')||'<div class="empty">No verbs loaded for this lesson yet.</div>'}
 function verbCard(v,full=true){return `<div class="card detail"><div class="verb-row"><div><h2>${esc(v.id)}</h2><div class="meaning">${esc(v.meaning)}</div></div><span class="tag">${v.level}</span></div><div class="meta">${v.type.toUpperCase()} · ${v.reflexive}</div><h3>Verb forms</h3><table class="table"><tr><td>Infinitiv</td><td><b>${esc(v.id)}</b></td></tr>${Object.entries(v.forms).map(([k,val])=>`<tr><td>${esc(k)}</td><td>${esc(val)}</td></tr>`).join('')}<tr><td>Präteritum</td><td>${esc(v.preterite)}</td></tr><tr><td>Perfekt</td><td>${esc(v.perfect)}</td></tr><tr><td>Partizip II</td><td>${esc(v.participle)}</td></tr><tr><td>Auxiliary</td><td>${esc(v.aux)}</td></tr></table><h3>Case & grammar pattern</h3><div class="casebox"><b>${esc(v.case)}</b><br>${esc(v.pattern)}</div><h3>Examples in context</h3>${v.examples.map(x=>`<div class="example"><b>${esc(x[0])}</b><span class="muted">${esc(x[1])}</span></div>`).join('')}<div class="small" style="margin-top:10px">${esc(v.note)}</div></div>`}
-function showVerb(id){let v=VERBS.find(x=>x.id===id);document.getElementById('home').classList.add('hidden');document.getElementById('lesson').classList.remove('hidden');document.getElementById('sessionTitle').textContent='Verb details';document.getElementById('sessionStep').textContent='Library';document.getElementById('sessionContent').innerHTML=verbCard(v);document.getElementById('sessionProgress').style.width='0';document.querySelector('#lesson .actions').innerHTML='<button class="btn ghost" onclick="showPage(\\'home\\',document.querySelector(\\'.tabs button\\'))">← Today</button><button class="btn" onclick="speak(\\''+id.replace(/'/g,"")+ '\\')">🔊 Listen</button>'}
+function showVerb(id){
+  let v=VERBS.find(x=>x.id===id);
+  if(!v)return;
+  document.getElementById('home').classList.add('hidden');
+  document.getElementById('lesson').classList.remove('hidden');
+  document.getElementById('sessionTitle').textContent='Verb details';
+  document.getElementById('sessionStep').textContent='Library';
+  document.getElementById('sessionContent').innerHTML=verbCard(v);
+  document.getElementById('sessionProgress').style.width='0';
+  const actions=document.querySelector('#lesson .actions');
+  actions.innerHTML='';
+  const back=document.createElement('button');
+  back.className='btn ghost'; back.textContent='← Today';
+  back.onclick=()=>{showPage('home',document.querySelector('.tabs button'));renderHome()};
+  const listen=document.createElement('button');
+  listen.className='btn'; listen.textContent='🔊 Listen';
+  listen.onclick=()=>speak(v.id);
+  actions.append(back,listen);
+}
 function speak(word){if('speechSynthesis'in window){let u=new SpeechSynthesisUtterance(word);u.lang='de-DE';speechSynthesis.speak(u)}}
 function startLesson(){let day=currentDay(),news=verbsForDay(day);session=[...news,...reviewVerbs(day)];sessionIndex=0;mode='lesson';showPage('lesson');document.querySelectorAll('.tabs button').forEach(x=>x.classList.remove('active'));renderSession()}
 function renderSession(){let v=session[sessionIndex];if(!v){finishLesson();return}document.getElementById('sessionTitle').textContent=mode==='lesson'?'Learn & revise':'Review';document.getElementById('sessionStep').textContent=(sessionIndex+1)+' / '+session.length;document.getElementById('sessionProgress').style.width=((sessionIndex+1)/session.length*100)+'%';document.getElementById('sessionContent').innerHTML=verbCard(v);document.getElementById('nextBtn').textContent=sessionIndex===session.length-1?'Finish session':'Next →';}
