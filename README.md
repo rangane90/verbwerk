@@ -1,7 +1,11 @@
-# Verbwerk — corrected build
+# Verbwerk upgrade
 
-The previous build had a JavaScript syntax error in the verb-detail screen, which prevented the app script from running. This version fixes that error.
+Adds selectable Quick Learn / Deep Learn, Quick Revision / Deep Revision, Quick Test / Deep Test, plus a searchable bundled starter collection of nouns, adjectives, adverbs, prepositions and expressions. The existing `verbwerk_local_v1` progress key is retained.
 
-Upload all files in this folder to the root of the existing GitHub repository, replacing the old files. Then allow GitHub Pages to redeploy. On iPhone, refresh the website; if it was previously added to the Home Screen, close it fully and reopen after redeployment. If stale content remains, remove the Home Screen shortcut and add it again after confirming the website works in Safari.
+## Deploy
+1. Unzip this package.
+2. Upload every file inside `verbwerk_upgrade` to the root of your existing GitHub repository, replacing matching files.
+3. Commit the changes and wait for GitHub Pages to redeploy.
+4. Refresh in Safari. If the Home Screen app remains stale, close and reopen it; if necessary remove and re-add the shortcut.
 
-The app stores progress in this browser's local storage. Keep regular JSON backups.
+Export a progress backup before replacing files as a precaution. This is a starter vocabulary set, not an exhaustive German dictionary. The verb collection remains the current curated set and should be expanded in subsequent database releases.
