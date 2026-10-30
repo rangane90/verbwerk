@@ -1,11 +1,7 @@
-# Verbwerk upgrade
+# Verbwerk reliability release candidate
 
-Adds selectable Quick Learn / Deep Learn, Quick Revision / Deep Revision, Quick Test / Deep Test, plus a searchable bundled starter collection of nouns, adjectives, adverbs, prepositions and expressions. The existing `verbwerk_local_v1` progress key is retained.
+Adds browser Back handling (`popstate`), in-app Back controls on secondary screens, a dedicated Article Training section, a five-noun daily article lesson, article revision/tests, and a practice setup to select Vocabulary or Articles and Quick or Deep. The existing `verbwerk_local_v1` storage key is preserved; new article progress is added as extra fields.
 
-## Deploy
-1. Unzip this package.
-2. Upload every file inside `verbwerk_upgrade` to the root of your existing GitHub repository, replacing matching files.
-3. Commit the changes and wait for GitHub Pages to redeploy.
-4. Refresh in Safari. If the Home Screen app remains stale, close and reopen it; if necessary remove and re-add the shortcut.
+Deploy: export a progress backup first, unzip, upload every file in this folder to the root of `rangane90/verbwerk`, replace matching files, commit, and wait for GitHub Pages. If the iPhone serves an old cached copy, open the site once with `?refresh=3`.
 
-Export a progress backup before replacing files as a precaution. This is a starter vocabulary set, not an exhaustive German dictionary. The verb collection remains the current curated set and should be expanded in subsequent database releases.
+Validation: JavaScript syntax is checked in this build. Real iOS Safari/Home Screen interaction still requires a final check on the target phone. The bundled article set is a curated starter set, not a complete A1–B1 noun database. Mixed vocabulary+article sessions, full case-declension questions, free-text sentence grading and a full adaptive scheduler are not yet complete.
