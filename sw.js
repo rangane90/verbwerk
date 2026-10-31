@@ -1,4 +1,4 @@
-const CACHE='verbwerk-v8-development';
+const CACHE='verbwerk-v8-level-label-cleanup';
 const PREFIX='verbwerk-v8-';
 const FILES=['./','./index.html','./manifest.webmanifest','./icon.svg','./vocabulary-pilot.js','./vocabulary-general-a1-c2.js','./vocabulary-general-ui.js','./VOCABULARY-LICENSE.md'];
 self.addEventListener('install',event=>event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(FILES)).then(()=>self.skipWaiting())));
