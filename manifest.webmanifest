@@ -1,11 +1,11 @@
 {
-  "name": "Verbwerk — German Verb Trainer",
+  "name": "Verbwerk — German Vocabulary Trainer",
   "short_name": "Verbwerk",
   "start_url": "./index.html",
   "display": "standalone",
   "background_color": "#f5f4ef",
   "theme_color": "#172a24",
-  "description": "A personal German verb trainer with cumulative revision.",
+  "description": "A personal German vocabulary and article trainer with offline support.",
   "icons": [
     {
       "src": "icon.svg",
@@ -15,3 +15,4 @@
     }
   ]
 }
+
