@@ -20,8 +20,8 @@
   window.showMoreGeneral=function(){visibleLimit+=60;window.renderGeneralLibrary();};
   window.renderGeneralLibrary=function(){
     var input=document.getElementById('generalLibrarySearch'),q=norm(input?input.value:'');
-    var all=active(),found=all.filter(function(x){
-      var searchable=[x.display_form,x.lemma,x.meaning,x.german_definition,primary(x)].concat((x.english_terms||[]).map(function(t){return t.term;})).join(' ');
+    var all=active(),summary=document.getElementById('generalLibrarySummary');if(summary)summary.textContent=all.length+' active words and expressions · Available offline.';var found=all.filter(function(x){
+      var searchable=[x.display_form,x.lemma,x.meaning,x.german_definition,x.usage_note,primary(x)].concat((x.english_terms||[]).map(function(t){return t.term;})).join(' ');
       return norm(searchable).indexOf(q)>=0;
     });
     var shown=found.slice(0,visibleLimit);
@@ -84,6 +84,7 @@
     var parts=['<div class="card detail"><div class="verb-row"><div><div class="eyebrow" style="color:var(--green)">WORD DETAILS</div><h2 lang="de">'+escText(word)+'</h2><div class="meaning">'+escText(meaningText)+'</div></div></div>'];
     if(article||pl)parts.push('<div class="casebox"><b>Noun forms</b><br>'+(article?'Article: '+escText(article):'')+(article&&pl?' · ':'')+(pl?'Plural: '+escText(pl):'')+'</div>');
     if(x.german_definition)parts.push('<h3>Meaning in German</h3><div class="example" lang="de">'+escText(x.german_definition)+'</div>');
+    if(x.usage_note)parts.push('<h3>Usage tip</h3><div class="casebox">'+escText(x.usage_note)+'</div>');
     if(english.length)parts.push('<h3>English meanings</h3><div class="casebox">'+english.map(escText).join(' · ')+'</div>');
     var forms=Array.isArray(x.forms)?x.forms.filter(function(f){return f&&f.surface;}):[];
     var seen=Object.create(null),uniqueForms=forms.filter(function(f){var key=[f.surface,f.number,f.case].join('|');if(seen[key])return false;seen[key]=true;return true;}).slice(0,10);
@@ -104,7 +105,7 @@
     window.detailPronunciation=word;
     window.setLibraryKind('detail');
     document.getElementById('verbDetailContent').innerHTML=parts.join('');
-    var listen=document.getElementById('detailListenButton');if(listen)listen.setAttribute('aria-label','Listen to '+word);
+    var listen=document.getElementById('detailListenButton');if(listen)listen.setAttribute('aria-label','Listen to German pronunciation of '+word);var slow=document.getElementById('detailListenSlowButton');if(slow)slow.setAttribute('aria-label','Listen slowly to '+word);
   };
   document.addEventListener('click',function(event){
     var card=event.target.closest('.word-card[data-detail-kind]');
@@ -113,12 +114,35 @@
     if(kind==='verb'){window.showVerb(id);return;}
     window.openVocabularyDetail(kind,id);
   });
+  function enhanceWordCards(){
+    document.querySelectorAll('#todayList .card[onclick*="showVerb("]').forEach(function(card){
+      var title=card.querySelector('.verb');if(!title)return;
+      card.classList.add('word-card');card.dataset.detailKind='verb';card.dataset.detailId=encodeURIComponent(title.textContent.trim());title.setAttribute('lang','de');card.removeAttribute('onclick');
+    });
+    document.querySelectorAll('.word-card[data-detail-kind]').forEach(function(card){
+      var title=card.querySelector('.word-link,.verb'),word=title?title.textContent.replace(/→/g,'').trim():decodeURIComponent(card.dataset.detailId||'');
+      if(title&&title.tagName==='BUTTON'){var plain=document.createElement('span');plain.className=title.className;plain.setAttribute('lang','de');plain.innerHTML=title.innerHTML;title.replaceWith(plain);}
+      var kind=card.dataset.detailKind,id=decodeURIComponent(card.dataset.detailId||'');
+      if(!card.querySelector(':scope > .word-card-open')){
+        var open=document.createElement('button');open.type='button';open.className='word-card-open';open.setAttribute('aria-label','Open details for '+word);
+        open.addEventListener('click',function(){if(kind==='verb')window.showVerb(id);else window.openVocabularyDetail(kind,id);});card.prepend(open);
+      }
+      var speakButton=card.querySelector('button[onclick*="speak("]');
+      if(speakButton&&!speakButton.hasAttribute('aria-label'))speakButton.setAttribute('aria-label','Listen to German pronunciation of '+word);
+      if(speakButton&&!card.querySelector('[data-slow-speech]')){
+        var slow=document.createElement('button');slow.type='button';slow.className='btn ghost slow-speech';slow.dataset.slowSpeech='true';slow.textContent='0.7× Slow';slow.title='Listen slowly';slow.setAttribute('aria-label','Listen slowly to '+word);slow.addEventListener('click',function(event){event.stopPropagation();window.speak(word,true);});speakButton.parentElement.appendChild(slow);
+      }
+      if(kind==='general'){var example=card.querySelector('.small');if(example)example.setAttribute('lang','de');}
+    });
+  }
+  function observeWordCards(id){var root=document.getElementById(id);if(root){new MutationObserver(enhanceWordCards).observe(root,{childList:true,subtree:true});}}
+  enhanceWordCards();observeWordCards('home');observeWordCards('library');
   window.setLibraryKind=function(k){
     var ids={general:'generalLibraryPanel',pilot:'pilotPanel',verbs:'verbLibraryPanel',articles:'articleLibraryPanel',detail:'verbDetailPanel'};
     Object.keys(ids).forEach(function(x){var e=document.getElementById(ids[x]);if(e)e.classList.toggle('hidden',x!==k);});
     var nav=document.getElementById('libraryKinds');if(nav)nav.classList.toggle('hidden',k==='detail');
     if(k!=='detail'&&window.clearLibraryDetail)window.clearLibraryDetail();
-    document.querySelectorAll('#libraryKinds .pill').forEach(function(e){e.classList.toggle('active',e.dataset.libraryKind===k);});
+    document.querySelectorAll('#libraryKinds .pill').forEach(function(e){var selected=e.dataset.libraryKind===k;e.classList.toggle('active',selected);e.setAttribute('aria-pressed',String(selected));});
     if(k==='general')window.renderGeneralLibrary();if(k==='pilot')window.renderPilot();if(k==='verbs')window.renderLibrary();if(k==='articles')window.renderArticleLibrary();
   };
   window.openLibrary=function(k,btn){window.showPage('library',btn);window.setLibraryKind(k||'general');};
@@ -158,9 +182,9 @@
       root.innerHTML='<div class="card empty"><h2>Article practice complete</h2><p>Score: '+access.articleScore+'/'+items.length+'</p><button class="btn full" onclick="vwNav(\'articlePage\',null,true);renderArticleHome()">Back to Article Training</button></div>';
       document.getElementById('reviewProgress').textContent='Complete';return;
     }
-    var x=items[i],deep=String(mode).indexOf('deep')===0,pl=x.p?'Plural: '+x.p:'Plural: not listed in this source';
-    root.innerHTML='<div class="card"><div class="eyebrow">ARTICLE '+(mode==='lesson'?'LESSON':String(mode).toUpperCase())+'</div><div class="sub">'+(i+1)+' / '+items.length+'</div><h2>Which article belongs to <b>'+escText(x.n)+'</b>?</h2><div class="meaning">'+escText(x.en)+'</div>'+['der','die','das'].map(function(a){return '<button class="quizopt" onclick="answerArticle(\''+a+'\')">'+a+'</button>';}).join('')+(access.articleDone?'<div class="feedback">'+(access.articleChoice===x.a?'Correct!':'Correct answer: '+escText(x.a))+'<br>'+escText(x.a+' '+x.n)+' · '+escText(pl)+'</div><button class="btn full" onclick="nextArticle()">Continue</button>':'')+'<div class="small">'+(deep?'After choosing, say the noun in a sentence and consider its case.':'Quick article recall.')+'</div></div>';
-    document.getElementById('reviewProgress').textContent=(i+1)+' / '+items.length;
+    var x=items[i],deep=String(mode).indexOf('deep')===0,pl=x.p?'Plural: '+x.p:'Plural: not listed in this source',keepFocus=window.shouldMoveReviewFocus();
+    root.innerHTML='<div class="card"><div class="eyebrow">ARTICLE '+(mode==='lesson'?'LESSON':String(mode).toUpperCase())+'</div><div class="sub">'+(i+1)+' / '+items.length+'</div><h2>Which article belongs to <b lang="de">'+escText(x.n)+'</b>?</h2><div class="meaning">'+escText(x.en)+'</div>'+['der','die','das'].map(function(a){return '<button class="quizopt" lang="de" onclick="answerArticle(\''+a+'\')">'+a+'</button>';}).join('')+(access.articleDone?'<div class="feedback" role="status" aria-live="polite" aria-atomic="true">'+(access.articleChoice===x.a?'Correct!':'Correct answer: '+escText(x.a))+'<br>'+escText(x.a+' '+x.n)+' · '+escText(pl)+'</div><button class="btn full" onclick="nextArticle()">Continue</button>':'')+'<div class="small">'+(deep?'After choosing, say the noun in a sentence and consider its case.':'Quick article recall.')+'</div></div>';
+    document.getElementById('reviewProgress').textContent=(i+1)+' / '+items.length;if(access.articleDone&&keepFocus)window.focusReviewContinue();
   };
   window.answerArticle=function(a){
     if(access.articleDone)return;access.articleChoice=a;access.articleDone=true;
@@ -187,11 +211,16 @@
     shuffle(candidates).forEach(function(x){var w=x.display_form||x.lemma,k=norm(w);if(out.length<4&&!used.has(k)){used.add(k);out.push({id:x.id,word:w});}});
     return shuffle(out);
   }
+  function meaningOptions(target,pool){
+    var label=meaning(target),out=[{id:target.id,word:label}],used=new Set([norm(label)]);
+    shuffle(pool.filter(function(x){return x.id!==target.id;})).forEach(function(x){var m=meaning(x),key=norm(m);if(out.length<4&&m!=='Meaning not available'&&!used.has(key)){used.add(key);out.push({id:x.id,word:m});}});
+    return shuffle(out);
+  }
   window.startGeneralPractice=function(k){
     var s=ensure(),pool=active(),known=new Set(s.generalKnown);
     pool.sort(function(a,b){var w=(s.generalWeak[b.id]||0)-(s.generalWeak[a.id]||0);if(w)return w;return (known.has(a.id)?1:0)-(known.has(b.id)?1:0);});
-    var n=k==='quickTest'?8:k==='deepTest'?10:6;
-    session={items:pool.slice(0,n).map(function(x){return {target:x,options:options(x,pool)};}),index:0,score:0,answered:false,choice:'',mode:k};
+    var listening=k==='listenQuick',n=listening?6:k==='quickTest'?8:k==='deepTest'?10:6;
+    session={items:pool.slice(0,n).map(function(x){return {target:x,options:listening?meaningOptions(x,pool):options(x,pool)};}),index:0,score:0,answered:false,choice:'',mode:k};
     window.vwNav('review',null,true);window.renderGeneralQuestion();
   };
   window.renderGeneralQuestion=function(){
@@ -200,12 +229,14 @@
       root.innerHTML='<div class="card empty"><h2>General vocabulary practice complete</h2><p>Score: '+session.score+'/'+session.items.length+'</p><p class="small">Progress is saved separately from your Verbwerk course verbs.</p><button class="btn full" onclick="startGeneralPractice(\''+session.mode+'\')">Try another round</button></div>';
       document.getElementById('reviewProgress').textContent='Complete';return;
     }
-    var q=session.items[session.index],x=q.target,deep=String(session.mode).indexOf('deep')===0;
-    var choices=q.options.map(function(o){return '<button class="quizopt" onclick="answerGeneral(\''+encodeURIComponent(o.id)+'\')">'+escText(o.word)+'</button>';}).join('');
+    var q=session.items[session.index],x=q.target,deep=String(session.mode).indexOf('deep')===0,listening=session.mode==='listenQuick',keepFocus=window.shouldMoveReviewFocus();
+    var locale=listening?'en':'de';
+    var choices=q.options.map(function(o){return '<button class="quizopt" lang="'+locale+'" onclick="answerGeneral(\''+encodeURIComponent(o.id)+'\')">'+escText(o.word)+'</button>';}).join('');
     var extra='';
-    if(session.answered){var row=Array.isArray(x.german_examples)&&x.german_examples.length?x.german_examples[0]:null,ex=typeof row==='string'?row:row&&(row.sentence||row.de)||'',example=ex?'<br><br>'+window.renderExampleSet([row],x):'';extra='<div class="feedback">'+(session.choice===x.id?'Correct!':'Correct answer: '+escText(x.display_form||x.lemma))+'<br>'+escText(x.german_definition||meaning(x))+example+'</div><button class="btn full" onclick="nextGeneralQuestion()">Continue</button>';}
-    root.innerHTML='<div class="card"><div class="eyebrow">GENERAL VOCABULARY · '+(deep?'DEEP':'QUICK')+'</div><div class="sub">'+(session.index+1)+' / '+session.items.length+'</div><h3>Choose the German word or expression</h3><div class="meaning">'+escText(meaning(x))+'</div>'+choices+extra+'</div>';
-    document.getElementById('reviewProgress').textContent=(session.index+1)+' / '+session.items.length;
+    if(session.answered){var row=Array.isArray(x.german_examples)&&x.german_examples.length?x.german_examples[0]:null,ex=typeof row==='string'?row:row&&(row.sentence||row.de)||'',example=ex?'<br><br>'+window.renderExampleSet([row],x):'';extra='<div class="feedback" role="status" aria-live="polite" aria-atomic="true">'+(session.choice===x.id?'Correct!':'Correct answer: '+escText(x.display_form||x.lemma))+'<br>'+escText(x.german_definition||meaning(x))+example+'</div><button class="btn full" onclick="nextGeneralQuestion()">Continue</button>'; }
+    var prompt= listening?'<p class="small">Listen to the German pronunciation, then choose its meaning.</p><div class="actions listen-actions"><button class="btn secondary" type="button" aria-label="Play the German pronunciation" onclick="speak(decodeURIComponent(\''+encodeURIComponent(x.display_form||x.lemma)+'\'))">&#128266; Play word</button><button class="btn ghost" type="button" aria-label="Play the German pronunciation slowly" onclick="speak(decodeURIComponent(\''+encodeURIComponent(x.display_form||x.lemma)+'\'),true)">0.7&#215; Slow</button></div>': '<div class="meaning">'+escText(meaning(x))+'</div>';
+    root.innerHTML='<div class="card"><div class="eyebrow">GENERAL VOCABULARY · '+(listening?'LISTENING':deep?'DEEP':'QUICK')+'</div><div class="sub">'+(session.index+1)+' / '+session.items.length+'</div><h3>'+(listening?'Choose the meaning you hear':'Choose the German word or expression')+'</h3>'+prompt+choices+extra+'</div>';
+    document.getElementById('reviewProgress').textContent=(session.index+1)+' / '+session.items.length;if(session.answered&&keepFocus)window.focusReviewContinue();
   };
   window.answerGeneral=function(id){
     if(session.answered)return;var x=session.items[session.index].target,s=ensure();id=decodeURIComponent(id);session.choice=id;session.answered=true;s.generalAnswers++;

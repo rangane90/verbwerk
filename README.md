@@ -1,25 +1,26 @@
 # Verbwerk
 
-A static, offline-capable German vocabulary trainer published with GitHub Pages at https://rangane90.github.io/verbwerk/.
+A static, offline-capable German vocabulary trainer. This folder is the separate v9 release build.
 
 ## App
 
 - Home, Practice and Library sections.
 - Existing daily verb lessons, review, article practice, pronunciation, progress, and backup import/export.
-- General German vocabulary library and separate practice across A1-C2, with 705 active entries from a pinned, permissively licensed source snapshot.
+- Persistent light/dark theme and regular or 0.7× German browser-voice playback.
+- General German vocabulary library and separate practice across A1-C2, with 806 active entries: a 705-entry CC BY 4.0 source core, 24 Wikidata supplements, and 77 EverFlip supplements. Words are presented without per-word CEFR or category labels.
 - The 50-entry Wikidata Lexeme pilot remains available as a separate library.
 - The existing learner progress key remains verbwerk_local_v1; general vocabulary progress is stored separately.
 
 ## Vocabulary data
 
-The general A1-C2 runtime is derived from the Lexicon Platform source revision e45c6d558898b31214a15fda907189c3c43bc511. The deployed app bundles the compact runtime for offline use. Full source-pack files, the combined source dataset, and reproducible builders remain in the separate v8 development copy. This is a curated source snapshot, not an exhaustive German dictionary or an official CEFR vocabulary list.
+The general A1-C2 runtime is derived from the Lexicon Platform source revision e45c6d558898b31214a15fda907189c3c43bc511. The deployed app bundles the compact runtime for offline use. Full source-pack files, the combined source dataset, and reproducible builders are retained in the development workspace and are not included in the static site deployment. This is a curated source snapshot, not an exhaustive German dictionary or an official CEFR vocabulary list.
 
-Lexicon Platform lexical data by Massimo Mazzariol and contributors is licensed under CC BY 4.0. See VOCABULARY-LICENSE.md for attribution and license details.
+Lexicon Platform data is CC BY 4.0; supplemental Wikidata lexical facts are CC0 1.0; and the selected EverFlip card facts and new Verbwerk learner text are CC BY 4.0. See VOCABULARY-LICENSE.md for attribution and source-selection details.
 
 ## Offline behavior
 
-The service worker bundles the app shell and vocabulary runtime. Its cache cleanup is scoped to the v8 cache namespace and preserves the earlier v7 cache. A service-worker simulation passed; offline behavior has not yet been confirmed in a real browser.
+The service worker bundles the app shell and vocabulary runtime. Its cache cleanup removes prior v8/v9 caches while preserving the earlier v7 cache. Requests read from the current v9 cache only, preventing stale assets from older app versions. Chrome checks passed against a local HTTP preview: the 806-entry library loaded, a new word opened with its details, Back and Home navigation updated correctly, and the cached page reloaded after the preview server stopped. The cache key is `verbwerk-v9-release-1`. A local listening round now uses German browser speech with meaning choices; the theme control is a compact, accessible sun/moon button. Physical iPhone Safari gestures still need a device check.
 
 ## Release
 
-The v8 app is published from the repository root on the main branch. The separate stable v7 folder was not modified.
+This v9 release was published after local Chrome testing. The separate stable v7 folder was not modified.
