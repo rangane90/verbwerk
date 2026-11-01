@@ -1342,4 +1342,3 @@ window.VW_PILOT_DATA = [
   }
 ]
 
-
