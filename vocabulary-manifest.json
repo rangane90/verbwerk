@@ -1,0 +1,20 @@
+{
+  "dataset_id": "verbwerk.general.de.a1-c2",
+  "version": "1.0.0",
+  "entry_count": 896,
+  "active_entry_count": 891,
+  "levels": [
+    "A1",
+    "A2",
+    "B1",
+    "B2",
+    "C1",
+    "C2"
+  ],
+  "source_revision": "e45c6d558898b31214a15fda907189c3c43bc511",
+  "license": "CC BY 4.0 for Lexicon and EverFlip content; Wikidata lexical facts are CC0-1.0; DWDS headword data is CC BY-SA 4.0; see VOCABULARY-LICENSE.md",
+  "general_data_asset": "vocabulary-general-a1-c2.js",
+  "general_data_sha256": "bcc9f3f761be992507cc808076884fe976d9860c4f9134b820189e1170e19146",
+  "frequency_data_asset": "vocabulary-wordly-de.js",
+  "generated_at_utc": "2026-11-10T16:51:31.8032419+00:00"
+}

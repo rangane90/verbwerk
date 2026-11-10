@@ -5,7 +5,7 @@
   "display": "standalone",
   "background_color": "#f5f4ef",
   "theme_color": "#172a24",
-  "description": "A personal German vocabulary and article trainer with offline support.",
+  "description": "A personal German vocabulary trainer with saved words, smart review, pronunciation and offline support.",
   "icons": [
     {
       "src": "icon.svg",

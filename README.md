@@ -1,16 +1,18 @@
 # Verbwerk
 
-A static, offline-capable German vocabulary trainer. This is the V10.1 release build, based on the V10 Wordly release.
+A static, offline-capable German vocabulary trainer. Version 11 was QA-checked locally and released from the main branch on 2026-11-10. The stable V7 rollback copy remains separate and unchanged.
 
 **[Open the live app](https://rangane90.github.io/verbwerk/)** — launch the German vocabulary trainer.
 
 ## App
 
 - Home, Practice and Library sections.
-- Existing daily verb lessons, review, article practice, pronunciation, progress, and backup import/export.
+- Daily verb lessons now draw from 1,187 merged verb entries: the original 28 course verbs keep their first six-day sequence, then five new verbs are introduced per day from the expanded bank. Article lessons and article review use 2,449 single-article entries from the 2,600 browsable nouns, after the existing course sequence. Progress, pronunciation, and backup import/export remain supported.
 - Persistent light/dark theme and regular or 0.7× German browser-voice playback.
-- General German vocabulary library and separate practice across A1-C2, with 891 active entries: a 705-entry CC BY 4.0 source core, 24 Wikidata supplements, 77 EverFlip supplements and 85 DWDS-checked additions. The Wortschatz view opens at Alle Wörter and can be narrowed by word type. Konnektoren includes conjunctions and selected connecting adverbs. The separate Wordly reference also supports word-type filtering.
+- General German vocabulary library and separate practice across A1-C2, with 891 active entries: a 705-entry CC BY 4.0 source core, 24 Wikidata supplements, 77 EverFlip supplements and 85 DWDS-checked additions. The All words Library view is the main searchable vocabulary list. Grammar stays separate; specialized collections are grouped under More collections. Search and word type are the primary controls; an optional review-status filter is available under More filters. Matching meanings combine while distinct senses remain separate. Konnektoren includes conjunctions and selected connecting adverbs. The separate Wordly reference also supports word-type filtering.
 - The 50-entry Wikidata Lexeme pilot remains available as a separate library.
+- General words can be saved, practiced as a personal collection, reviewed with per-word intervals, and recalled by typing. Review state is stored with existing progress and included in backup export/import.
+- Vocabulary cards in Wortschatz, the 50-word pilot, verb library, article nouns, and Wordly frequency list support regular and 0.7× pronunciation plus card-level detail. Frequency details reuse an exact curated word-and-type match where available. Other Wordly entries show their source gloss and rank and clearly state when a reviewed example is unavailable.
 - The existing learner progress key remains verbwerk_local_v1; general vocabulary progress is stored separately.
 
 The Library’s Grammatik view has short reference cards, original examples and optional self-checks for nine topics.
@@ -23,10 +25,28 @@ The general A1-C2 runtime is derived from the Lexicon Platform source revision e
 
 Lexicon Platform data is CC BY 4.0; supplemental Wikidata lexical facts are CC0 1.0; and the selected EverFlip card facts and new Verbwerk learner text are CC BY 4.0. See VOCABULARY-LICENSE.md for attribution and source-selection details.
 
+## Online-ready vocabulary data
+
+The V11 service worker checks the general vocabulary runtime, Wordly reference data and `vocabulary-manifest.json` online first, then stores successful responses for offline use. If the network is unavailable, it serves the most recently cached copy. The manifest records dataset version, source revision, license, entry counts and SHA-256. After updating the dataset, run `scripts/update-vocabulary-manifest.ps1` so the manifest reflects the new asset. Publishing updated static assets is still a manual repository release; the preview does not yet connect to a database service.
+
 ## Offline behavior
 
-The service worker bundles the app shell and vocabulary runtime. Its cache cleanup retires prior v8, v9, v10, and v11 preview caches while preserving the earlier v7 cache. Requests read from the current V10.1 cache only. The cache key is verbwerk-v10-1-grammar-1. Isolated Chrome checks covered word-type filters, entry details, listening choices, grammar self-checks, a 320 px layout, and offline reload. Physical iPhone Safari gestures still need a device check.
+The service worker bundles the app shell and vocabulary runtime. Its V11 cache key is verbwerk-v11-online-12. The offline cache includes the unified Library index. Local progress remains available offline. No sign-in or cross-device cloud sync is connected; that requires a backend and an authentication decision. Physical iPhone Safari gestures still need a device check.
+
+## Verification
+
+- Node syntax checks passed for the root JavaScript files and sw.js; all five inline script blocks in index.html parsed successfully.
+- The vocabulary sanity script passed: 896 records, 891 approved active entries, unique active IDs, and required structural fields. It also checked article metadata for the frequency noun rows. These structural checks do not confirm every translation or example linguistically.
+- The generated vocabulary manifest SHA-256 matches the bundled general vocabulary runtime.
+- Local Chrome QA covered daily verb lesson completion and saved progress, the expanded verb bank and article lesson bank, article feedback, quick/deep revision and tests, mixed verb/article practice, general vocabulary recall, Library search/details/sense separation, the 5,396-entry combined list, 1,187 verb entries, 2,600 noun entries with 2,449 eligible for single-article practice, the 5,000-entry frequency list, 50 starter words, in-app Grammar self-checks, theme persistence, and Home/Back navigation. The current build showed no browser console errors during these checks.
+- The service-worker online refresh/offline fallback, backup import through the browser file picker, exported backup contents, and physical iPhone swipe gestures were not verified. Structural dataset checks are not a substitute for full linguistic proofreading.
 
 ## Release
 
-The V10.1 build is published from main at https://rangane90.github.io/verbwerk/.
+Version 11 is published from the main branch at https://rangane90.github.io/verbwerk/.
+
+
+
+
+
+The noun collection is extended with the 2,533 noun rows from the Wordly frequency index, each carrying article options or an explicit note. Multi-article forms are shown together and are excluded from single-answer article practice; frequency-only nouns with one article join the article practice bank after the existing course sequence. The More collections menu displays the current source counts. The frequency introduction is intentionally brief; source/license details remain in VOCABULARY-LICENSE.md.
