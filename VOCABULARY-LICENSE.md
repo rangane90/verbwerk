@@ -44,3 +44,19 @@ The standalone offline asset vocabulary-wordly-de.js wraps the 5,000 rows from [
 Wordly credits Hermit Dave’s [FrequencyWords](https://github.com/hermitdave/FrequencyWords), using OpenSubtitles 2018, for the frequency input, and [Wiktionary contributors](https://en.wiktionary.org/) via [Kaikki Wiktextract](https://kaikki.org/) for meanings and dictionary forms. See the pinned Wordly credits for upstream notices. The imported index includes headwords, ranks, word classes, and short English glosses.
 
 Verbwerk uses the index as a separate reference list and uses case-sensitive German lemma and word-class matches to prioritize its own curated entries. Shared lemmas can have different meanings. Ranks describe corpus frequency at the headword level. The curated corpus keeps its existing sources and terms.
+
+## DWDS-checked vocabulary and grammar supplement
+
+The 2022-07-28 [DWDS headword snapshot](https://clarin.bbaw.de/de/objects/dwds%3A2/) by Digitales Wörterbuch der deutschen Sprache (DWDS), BBAW, is CC BY-SA 4.0. The review pack uses selected headwords, DWDS record IDs, word classes and noun genders. The DWDS-derived data and adaptations are attributed and shared under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Verbwerk authored the definitions, English glosses, example sentences, translations and learner notes and releases that original text under CC BY 4.0. Duden and IDS grammis were consulted as editorial references. Record-level links are in the pack and its correction file. Reviewed 2026-11-10.
+
+Spelling follows [Duden’s guidance on combinations of verbs](https://www.duden.de/sprachwissen/sprachratgeber/Getrennt-und-Zusammenschreibung). The course entry for [sich bewerben](https://www.duden.de/rechtschreibung/bewerben) follows the documented strong forms and prepositions. [IDS grammis](https://grammis.ids-mannheim.de/systematische-grammatik/1615) documents the modal Ersatzinfinitiv. The General Library now has 818 approved active entries and five inactive source records.
+
+## DWDS and Duden review batch 2
+
+The audit pack adds 26 entries and carries DWDS IDs and source word classes from the CC BY-SA 4.0 [DWDS headword snapshot](https://clarin.bbaw.de/de/objects/dwds%3A2/). Definitions, examples, translations and learner notes are original Verbwerk material under CC BY 4.0. Duden was used for editorial checks. Verbwerk teaches nicht as a negation particle following [Duden](https://www.duden.de/sprachwissen/fuer-lernende/wortarten-partikeln). The DWDS snapshot categorizes it as ADV. The curated library now has 844 active entries and five inactive source records.
+
+Editorial checks covered the 15 previously blank noun plurals, all nine existing repeated-lemma groups, and selected gaps in clause order, prepositional cases, negation, personal pronoun cases and verb usage. The DWDS comparison established headword coverage. Sense and grammar agreement still require review of the individual entries.
+
+## DWDS and Duden curation batch 3
+
+This pack uses DWDS headword records under CC BY-SA 4.0 with record-level attribution. Inflected article forms die, das and eine link to their source headword family. Duden references are for checking grammar and usage. Verbwerk wrote the learning text and examples under CC BY 4.0. Grammar cards link to the relevant Duden reference. Earlier counts in this file describe their respective review batches. Current coverage is 891 active entries. The third pack includes all remaining literal headword gaps in Wordly’s top 100. Word-class and sense coverage are measured separately.

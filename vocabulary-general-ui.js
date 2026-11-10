@@ -8,13 +8,40 @@
     return [rankKey(row.lemma,posAliases[row.pos]||row.pos),row.rank];
   }));
   var frequencyBands={500:[1,500],1000:[501,1000],2000:[1001,2000],3500:[2001,3500],upper:[3501,5000],all:[1,5000]};
+  var wordTypes=[
+    ["all","Alle Wörter"],["noun","Nomen"],["verb","Verben"],["adj","Adjektive"],["adv","Adverbien"],
+    ["connector","Konnektoren"],["preposition","Präpositionen"],["pronoun","Pronomen"],
+    ["det","Artikel und Determinative"],["numeral","Numeralia"],["particle","Partikeln"],
+    ["interjection","Interjektionen"],["chunk","Wendungen"],["other","Sonstige"]
+  ];
+  var connectorAdverbs=new Set(["also","außerdem","ansonsten","dagegen","daher","dann","darum","deshalb","deswegen","folglich","sonst","stattdessen","trotzdem","zudem"]);
+  function hasWordType(lemma,pos,type){
+    if(type==="all")return true;
+    if(type==="connector")return pos==="conjunction"||(pos==="adv"&&connectorAdverbs.has(norm(lemma)));
+    return pos===type;
+  }
+  function populateWordTypes(id,entries){
+    var select=document.getElementById(id);
+    wordTypes.forEach(function(pair){
+      var type=pair[0],label=pair[1];
+      if(type==="all"||entries.some(function(entry){return hasWordType(entry.lemma,posAliases[entry.pos]||entry.pos||entry.part_of_speech,type);}))
+        select.add(new Option(label,type));
+    });
+  }
   function rankKey(lemma,pos){return lemma.normalize("NFC")+"|"+pos;}
   function rank(entry){return frequencyRanks.get(rankKey(entry.lemma||entry.display_form||"",entry.part_of_speech))||5001;}
   function active(){return rows.filter(function(x){return x.status==='approved'&&x.is_active!==false;});}
   function escText(x){return window.esc(String(x==null?'':x));}
   function primary(x){var a=Array.isArray(x.english_terms)?x.english_terms:[];var t=a.find(function(y){return y.primary&&y.term;})||a.find(function(y){return y.term;});return t?t.term:'';}
   function meaning(x){return x.meaning||primary(x)||'Meaning not available';}
-  function plural(x){var a=Array.isArray(x.plural_forms)?x.plural_forms:[];return String(a[0]||'').replace(/^(die|der|das)\s+/i,'').trim();}
+  function plurals(x){
+    return (Array.isArray(x.plural_forms)?x.plural_forms:[]).map(function(value){return String(value).replace(/^(die|der|das)\s+/i,"").trim();}).filter(Boolean);
+  }
+  function plural(x){return plurals(x)[0]||"";}
+  function articlePluralLabel(x){
+    if(x.p)return "Plural: "+x.p;
+    return x.pluralUsage==="singular_in_sense"?"In dieser Bedeutung meist Singular":"Plural: not listed in this source";
+  }
   function norm(x){return String(x||'').toLocaleLowerCase().trim();}
   function shuffle(a){return a.slice().sort(function(){return Math.random()-.5;});}
   function ensure(){
@@ -29,8 +56,9 @@
     if(reset)frequencyLimit=60;
     var query=norm(document.getElementById("frequencySearch").value);
     var bounds=frequencyBands[document.getElementById("frequencyBand").value];
+    var type=document.getElementById("frequencyWordType").value;
     var matches=frequencyRows.filter(function(row){
-      return row.rank>=bounds[0]&&row.rank<=bounds[1]&&norm(row.lemma+" "+row.gloss).includes(query);
+      return row.rank>=bounds[0]&&row.rank<=bounds[1]&&hasWordType(row.lemma,posAliases[row.pos]||row.pos,type)&&norm(row.lemma+" "+row.gloss).includes(query);
     });
     var shown=matches.slice(0,frequencyLimit);
     document.getElementById("frequencyCount").textContent=matches.length?("Showing "+shown.length+" of "+matches.length+" entries"):"No matching entries";
@@ -41,11 +69,13 @@
   };
   window.showMoreFrequency=function(){frequencyLimit+=60;window.renderFrequencyList();};
   window.showMoreGeneral=function(){visibleLimit+=60;window.renderGeneralLibrary();};
-  window.renderGeneralLibrary=function(){
+  window.renderGeneralLibrary=function(reset){
+    if(reset)visibleLimit=60;
+    var type=document.getElementById("generalWordType").value;
     var input=document.getElementById('generalLibrarySearch'),q=norm(input?input.value:'');
     var all=active(),summary=document.getElementById('generalLibrarySummary');if(summary)summary.textContent=all.length+' active words and expressions · Available offline.';var found=all.filter(function(x){
-      var searchable=[x.display_form,x.lemma,x.meaning,x.german_definition,x.usage_note,primary(x)].concat((x.english_terms||[]).map(function(t){return t.term;})).join(' ');
-      return norm(searchable).indexOf(q)>=0;
+      var searchable=[x.display_form,x.lemma,x.meaning,x.german_definition,x.usage_note,x.grammar_note,primary(x)].concat((x.english_terms||[]).map(function(t){return t.term;})).join(' ');
+      return hasWordType(x.lemma,x.part_of_speech,type)&&norm(searchable).includes(q);
     });
     var shown=found.slice(0,visibleLimit);
     document.getElementById('generalLibraryCount').textContent='Showing '+shown.length+' of '+found.length+' matches · '+all.length+' active words and expressions';
@@ -62,7 +92,7 @@
     var progress=document.getElementById('generalPracticeProgress');
     if(progress){progress.max=list.length||1;progress.value=count;}
   };  var base=access.baseArticles.slice(), seen=new Set(base.map(function(x){return norm(x.n);}));
-  window.VW_ARTICLE_BANK=base.concat(active().filter(function(x){return x.part_of_speech==='noun'&&['der','die','das'].indexOf(x.article)>=0;}).filter(function(x){var k=norm(x.lemma);if(!k||seen.has(k))return false;seen.add(k);return true;}).map(function(x){return {n:x.lemma,a:x.article,p:plural(x),en:meaning(x),source:'general',id:x.id};}));
+  window.VW_ARTICLE_BANK=base.concat(active().filter(function(x){return x.part_of_speech==='noun'&&['der','die','das'].indexOf(x.article)>=0;}).filter(function(x){var k=norm(x.lemma);if(!k||seen.has(k))return false;seen.add(k);return true;}).map(function(x){return {n:x.lemma,a:x.article,p:plural(x),en:meaning(x),source:'general',id:x.id,pluralUsage:x.plural_usage};}));
 
   function detailRecord(kind,id){
     if(kind==='general')return active().find(function(x){return x.id===id;})||null;
@@ -75,7 +105,7 @@
     if(kind==='article'){
       var a=(window.VW_ARTICLE_BANK||[]).find(function(x){return norm(x.lemma||x.n)===norm(id);});
       if(!a)return null;
-      var matched=active().find(function(x){return norm(x.lemma)===norm(a.lemma||a.n);});
+      var matched=active().find(function(x){return a.id?x.id===a.id:x.part_of_speech==='noun'&&x.article===a.a&&norm(x.lemma)===norm(a.lemma||a.n);});
       return matched?Object.assign({},matched,a):a;
     }
     return null;
@@ -106,10 +136,15 @@
     if(!english.length&&x.en)english=[x.en];
     english=Array.from(new Set(english.filter(Boolean)));
     var article=x.article||x.a||'';
-    var pl=plural(x)||String(x.p||'').replace(/^(die|der|das)\s+/i,'').trim();
-    var parts=['<div class="card detail"><div class="verb-row"><div><div class="eyebrow" style="color:var(--green)">WORD DETAILS</div><h2 lang="de">'+escText(word)+'</h2><div class="meaning">'+escText(meaningText)+'</div></div></div>'];
+    var pl=plurals(x).join(" / ")||String(x.p||'').replace(/^(die|der|das)\s+/i,'').trim();
+    var isVerb=x.part_of_speech==="verb"||x.kind==="Verb";
+    var grammarForm=(Array.isArray(x.forms)?x.forms:[]).find(function(form){return form&&form.tags&&(form.tags.verb_class||form.tags.aux||form.tags.prefix);});
+    var tags=grammarForm?grammarForm.tags:{};
+    var heading=isVerb?window.verbHeading(x.lemma||word,tags.verb_class,tags.modal):'<div class="eyebrow" style="color:var(--green)">WORD DETAILS</div>';
+    var parts=['<div class="card detail">'+heading+'<div class="verb-row"><div><h2 lang="de">'+escText(word)+'</h2><div class="meaning">'+escText(meaningText)+'</div></div></div>'];
     if(article||pl)parts.push('<div class="casebox"><b>Noun forms</b><br>'+(article?'Article: '+escText(article):'')+(article&&pl?' · ':'')+(pl?'Plural: '+escText(pl):'')+'</div>');
     if(x.german_definition)parts.push('<h3>Meaning in German</h3><div class="example" lang="de">'+escText(x.german_definition)+'</div>');
+    if(x.grammar_note)parts.push('<h3 lang="de">Grammatik</h3><div class="casebox" lang="de">'+escText(x.grammar_note)+'</div>');
     if(x.usage_note)parts.push('<h3>Usage tip</h3><div class="casebox">'+escText(x.usage_note)+'</div>');
     if(english.length)parts.push('<h3>English meanings</h3><div class="casebox">'+english.map(escText).join(' · ')+'</div>');
     var forms=Array.isArray(x.forms)?x.forms.filter(function(f){return f&&f.surface;}):[];
@@ -118,10 +153,12 @@
       var cases={nom:'Nominative',acc:'Accusative',dat:'Dative',gen:'Genitive'};
       parts.push('<h3>Word forms</h3><table class="table"><thead><tr><th>Form</th><th>Number</th><th>Case</th></tr></thead><tbody>'+uniqueForms.map(function(f){return '<tr><td lang="de">'+escText(f.surface)+'</td><td>'+escText(f.number==='sg'?'Singular':f.number==='pl'?'Plural':'—')+'</td><td>'+escText(cases[f.case]||f.case||'Base form')+'</td></tr>';}).join('')+'</tbody></table>');
     }
-    var tags=uniqueForms.length&&uniqueForms[0].tags?uniqueForms[0].tags:{},notes=[];
-    if(tags.aux)notes.push('Auxiliary: '+tags.aux);
-    if(tags.prefix)notes.push('Prefix: '+tags.prefix);
-    if(notes.length)parts.push('<h3>Verb notes</h3><div class="casebox">'+notes.map(escText).join(' · ')+'</div>');
+    if(isVerb){
+      var auxiliary=window.vocabularyAuxiliary(x.lemma||word,tags.aux),notes=[];
+      if(auxiliary)notes.push("Hilfsverb: "+auxiliary);
+      if(tags.prefix)notes.push("Präfix: "+tags.prefix);
+      if(notes.length)parts.push('<h3 lang="de">Verbgrammatik</h3><div class="casebox" lang="de">'+notes.map(escText).join(" · ")+"</div>");
+    }
     var examples=Array.isArray(x.german_examples)?x.german_examples:(Array.isArray(x.examples)?x.examples:[]);
     if(examples.length)parts.push('<h3>Examples in context</h3>'+window.renderExampleSet(examples.slice(0,3),x));
     if(Array.isArray(x.domains)&&x.domains.length)parts.push('<div class="meta">Topics: '+x.domains.map(escText).join(' · ')+'</div>');
@@ -164,7 +201,7 @@
   function observeWordCards(id){var root=document.getElementById(id);if(root){new MutationObserver(enhanceWordCards).observe(root,{childList:true,subtree:true});}}
   enhanceWordCards();observeWordCards('home');observeWordCards('library');
   window.setLibraryKind=function(k,button){
-    var ids={general:'generalLibraryPanel',frequency:'frequencyPanel',pilot:'pilotPanel',verbs:'verbLibraryPanel',articles:'articleLibraryPanel',detail:'verbDetailPanel'};
+    var ids={general:'generalLibraryPanel',frequency:'frequencyPanel',grammar:'grammarPanel',pilot:'pilotPanel',verbs:'verbLibraryPanel',articles:'articleLibraryPanel',detail:'verbDetailPanel'};
     Object.keys(ids).forEach(function(x){var e=document.getElementById(ids[x]);if(e)e.classList.toggle('hidden',x!==k);});
     var nav=document.getElementById('libraryKinds');if(nav)nav.classList.toggle('hidden',k==='detail');
     if(k!=='detail'&&window.clearLibraryDetail)window.clearLibraryDetail();
@@ -181,7 +218,7 @@
     var q=norm((document.getElementById('articleLibrarySearch')||{}).value||''),list=window.VW_ARTICLE_BANK.filter(function(x){return norm([x.a,x.n,x.en,x.p].join(' ')).indexOf(q)>=0;});
     document.getElementById('articleLibraryCount').textContent=list.length+' nouns';
     document.getElementById('articleLibrary').innerHTML=list.map(function(x){
-      var pl=x.p?'Plural: '+x.p:'Plural: not listed in this source';
+      var pl=articlePluralLabel(x);
       return '<div class="card word-card" data-detail-kind="article" data-detail-id="'+encodeURIComponent(x.n)+'"><div class="verb-row"><div><button class="word-link" type="button" lang="de" onclick="openVocabularyDetail(\'article\',decodeURIComponent(\''+encodeURIComponent(x.n)+'\'))">'+escText(x.a+' '+x.n)+' <span aria-hidden="true">&#8594;</span></button><div class="meaning">'+escText(x.en)+'</div></div></div><div class="meta">'+escText(pl)+'</div><button class="btn secondary" style="margin-top:10px" onclick="speak(decodeURIComponent(\''+encodeURIComponent(x.a+' '+x.n)+'\'))">🔊 Listen</button></div>';
     }).join('')||'<div class="empty">No matching nouns found.</div>';
   };
@@ -213,7 +250,7 @@
       root.innerHTML='<div class="card empty"><h2>Article practice complete</h2><p>Score: '+access.articleScore+'/'+items.length+'</p><button class="btn full" onclick="vwNav(\'articlePage\',null,true);renderArticleHome()">Back to Article Training</button></div>';
       document.getElementById('reviewProgress').textContent='Complete';return;
     }
-    var x=items[i],deep=String(mode).indexOf('deep')===0,pl=x.p?'Plural: '+x.p:'Plural: not listed in this source',keepFocus=window.shouldMoveReviewFocus();
+    var x=items[i],deep=String(mode).indexOf('deep')===0,pl=articlePluralLabel(x),keepFocus=window.shouldMoveReviewFocus();
     root.innerHTML='<div class="card"><div class="eyebrow">ARTICLE '+(mode==='lesson'?'LESSON':String(mode).toUpperCase())+'</div><div class="sub">'+(i+1)+' / '+items.length+'</div><h2>Which article belongs to <b lang="de">'+escText(x.n)+'</b>?</h2><div class="meaning">'+escText(x.en)+'</div>'+['der','die','das'].map(function(a){return '<button class="quizopt" lang="de" onclick="answerArticle(\''+a+'\')">'+a+'</button>';}).join('')+(access.articleDone?'<div class="feedback" role="status" aria-live="polite" aria-atomic="true">'+(access.articleChoice===x.a?'Correct!':'Correct answer: '+escText(x.a))+'<br>'+escText(x.a+' '+x.n)+' · '+escText(pl)+'</div><button class="btn full" onclick="nextArticle()">Continue</button>':'')+'<div class="small">'+(deep?'After choosing, say the noun in a sentence and consider its case.':'Quick article recall.')+'</div></div>';
     document.getElementById('reviewProgress').textContent=(i+1)+' / '+items.length;if(access.articleDone&&keepFocus)window.focusReviewContinue();
   };
@@ -244,7 +281,9 @@
   }
   function meaningOptions(target,pool){
     var label=meaning(target),out=[{id:target.id,word:label}],used=new Set([norm(label)]);
-    shuffle(pool.filter(function(x){return x.id!==target.id;})).forEach(function(x){var m=meaning(x),key=norm(m);if(out.length<4&&m!=='Meaning not available'&&!used.has(key)){used.add(key);out.push({id:x.id,word:m});}});
+    var spoken=norm(target.display_form||target.lemma);
+    var distractors=pool.filter(function(x){return x.id!==target.id&&norm(x.display_form||x.lemma)!==spoken;});
+    shuffle(distractors).forEach(function(x){var m=meaning(x),key=norm(m);if(out.length<4&&m!=='Meaning not available'&&!used.has(key)){used.add(key);out.push({id:x.id,word:m});}});
     return shuffle(out);
   }
   window.startGeneralPractice=function(k){
@@ -278,5 +317,7 @@
   window.nextGeneralQuestion=function(){session.index++;session.answered=false;session.choice='';window.renderGeneralQuestion();};
   var oldProgress=window.renderProgress;
   window.renderProgress=function(){oldProgress();var e=document.getElementById('generalProgressSummary');if(e){var s=ensure();e.textContent=s.generalKnown.length+' general entries learned · '+s.generalAnswers+' practice answers · '+s.generalCorrect+' correct. This is separate from your course verbs.';}};
+  populateWordTypes("generalWordType",active());
+  populateWordTypes("frequencyWordType",frequencyRows);
   window.setLibraryKind('general');
 })();
