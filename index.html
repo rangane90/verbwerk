@@ -66,6 +66,21 @@ button:disabled{cursor:not-allowed;opacity:.52}
 .example-inline-gloss.vocab-modal{color:#523c68}
 .example-study .example-sentence{margin:0 0 5px;line-height:1.9}
 .example-study .example-translation{display:block;color:var(--muted);font-size:12px}
+.example-word{appearance:none;border:0;font:inherit;font-weight:800;line-height:inherit;padding:1px 4px;border-radius:5px;cursor:pointer;vertical-align:baseline;box-decoration-break:clone;-webkit-box-decoration-break:clone}
+.example-word:hover{filter:brightness(.96)}
+.example-word:focus-visible{outline:3px solid var(--focus);outline-offset:2px}
+.example-word[aria-expanded="true"]{outline:2px solid var(--focus);outline-offset:1px}
+.example-word-stack{position:relative;display:inline-block;vertical-align:baseline;line-height:1.35;margin:0;white-space:normal}
+.example-meaning-popover{position:absolute;z-index:20;top:calc(100% + 7px);left:50%;transform:translateX(-50%);display:block;min-width:110px;max-width:min(240px,calc(100vw - 32px));padding:8px 10px;border:1px solid var(--line);border-radius:10px;background:var(--card);color:var(--ink);box-shadow:var(--shadow);font-size:12px;font-weight:600;line-height:1.4;text-align:left;white-space:normal}
+.example-meaning-popover[hidden]{display:none}
+.example-translation-mark{padding:0 2px;border-radius:4px;font-weight:700;box-decoration-break:clone;-webkit-box-decoration-break:clone}
+.example-translation-mark.vocab-verb{background:#e7f1e8;color:#214b3a}
+.example-translation-mark.vocab-noun{background:#f3e7ca;color:#694b12}
+.example-translation-mark.vocab-modal{background:#e6d9ef;color:#412551}
+.example-hint{color:var(--muted);font-size:11px}
+:root[data-theme="dark"] .example-translation-mark.vocab-verb{background:var(--verb-mark-bg);color:var(--verb-mark-ink)}
+:root[data-theme="dark"] .example-translation-mark.vocab-noun{background:var(--noun-mark-bg);color:var(--noun-mark-ink)}
+:root[data-theme="dark"] .example-translation-mark.vocab-modal{background:var(--modal-mark-bg);color:var(--modal-mark-ink)}
 .example-glosses{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
 .example-gloss{display:inline-flex;flex-wrap:wrap;align-items:baseline;gap:5px;border-radius:8px;padding:5px 7px;font-size:11px;line-height:1.35}
 .example-gloss b{font-size:11px}
@@ -110,6 +125,21 @@ button:disabled{cursor:not-allowed;opacity:.52}
 :root[data-theme="dark"] .word-card:hover{border-color:var(--card-hover-border);box-shadow:0 12px 28px rgba(0,0,0,.32)}
 :root[data-theme="dark"] .btn:not(.ghost):not(.secondary):hover:not(:disabled){background:#315640}
 @media(max-width:359.95px){.theme-toggle{width:42px;height:42px;min-width:42px}}
+.frequency-intro{background:var(--mint);border-color:var(--card-hover-border);padding:clamp(18px,4vw,28px);box-shadow:none}
+.frequency-intro h2{font-size:clamp(24px,5vw,34px);letter-spacing:-.03em;line-height:1.15;margin:6px 0}
+.frequency-intro .sub{color:var(--ink);font-weight:750;letter-spacing:.09em;text-transform:uppercase}
+.frequency-intro p{max-width:55ch;margin:0 0 14px}
+.frequency-tools{display:grid;grid-template-columns:minmax(0,1fr) minmax(155px,.55fr);gap:10px;margin:14px 0}
+.frequency-tools label{display:grid;gap:4px;font-size:13px;font-weight:700}
+.frequency-tools .search{margin:0;min-width:0;min-height:46px;color:var(--ink);background:var(--card)}
+.frequency-tools select:focus-visible{outline:3px solid var(--focus);outline-offset:2px}
+.frequency-list{list-style:none;padding:0;margin:8px 0;border-top:1px solid var(--line)}
+.frequency-list li{display:grid;grid-template-columns:4ch minmax(0,1fr);align-items:baseline;gap:12px;border-bottom:1px solid var(--line);padding:12px 4px}
+.frequency-list .rank{color:var(--muted);font-size:13px;font-variant-numeric:tabular-nums;text-align:right}
+.frequency-list strong{font-size:18px;overflow-wrap:anywhere}
+.frequency-list .meaning{overflow-wrap:anywhere}
+.frequency-meter{display:block;width:100%;height:8px;margin:10px 0;accent-color:var(--green)}
+@media(max-width:460px){.frequency-tools{grid-template-columns:1fr}}
 </style></head><body>
 <div class="app">
 <header class="top"><div class="top-start"><button id="backButton" class="back-button hidden" type="button" onclick="vwBack()" aria-label="Go back to the previous page" title="Back">← <span>Back</span></button><button class="brand" type="button" onclick="brandHome()" aria-label="Verbwerk DE — Home" title="Go to Home and refresh dashboard">VERB<span>WERK</span> <span style="font-size:11px;color:var(--muted);font-weight:600">DE</span></button></div><button id="themeToggle" class="theme-toggle" type="button" onclick="toggleAppTheme()" aria-label="Switch to dark mode" aria-pressed="false" title="Switch to dark mode"><span class="theme-icon" aria-hidden="true"><svg id="themeIcon" class="theme-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20.4 15.1A8.4 8.4 0 0 1 8.9 3.6 8.6 8.6 0 1 0 20.4 15.1Z"/></svg><svg class="theme-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3.7"/><path d="M12 2v2m0 16v2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M2 12h2m16 0h2M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42"/></svg></span></button></header>
@@ -118,6 +148,12 @@ button:disabled{cursor:not-allowed;opacity:.52}
 <div class="stats"><div class="stat"><b id="streak">0</b><small>day streak</small></div><div class="stat"><b id="total">0</b><small>verbs learned</small></div><div class="stat"><b id="accuracy">—</b><small>accuracy</small></div></div></section>
 <div class="section-head"><h2>Today's lesson</h2><span class="sub" id="reviewCount">0 verbs to review</span></div>
 <div class="card"><div class="verb-row"><div><div style="font-weight:800;font-size:18px;margin-top:4px" id="lessonTitle">Day 1 · Verbs</div><div class="meaning" id="lessonDesc">Five new verbs with a short cumulative review.</div></div><span class="tag" id="lessonStatus">READY</span></div><div class="progress"><i id="lessonProgress"></i></div><div class="sub" id="lessonCount">5 new verbs · 0 review verbs</div><div class="actions" style="margin-top:12px"><button class="btn" onclick="startLesson()">Start today's lesson →</button><button class="btn secondary" onclick="showPage('practiceHome')">More practice</button></div></div>
+<section class="card frequency-intro" aria-labelledby="commonWordsTitle">
+  <div class="sub">Everyday German</div>
+  <h2 id="commonWordsTitle">Start with common words</h2>
+  <p>Practise everyday German first or browse 5,000 words ranked by frequency in subtitles.</p>
+  <div class="actions"><button class="btn" type="button" onclick="openPractice('quickRevision');setPracticeTrack('general')">Practise vocabulary</button><button class="btn ghost" type="button" onclick="openLibrary('frequency')">Browse by frequency</button></div>
+</section>
 <div class="section-head"><h2>Today's verbs</h2><span class="sub">Tap a word for details</span></div><div id="todayList"></div>
 <div class="actions"><button class="btn secondary" onclick="openLibrary('general')">Browse the library</button><button class="btn ghost" onclick="showPage('progressPage');renderProgress()">Progress & backup</button></div>
 </main>
@@ -133,8 +169,21 @@ button:disabled{cursor:not-allowed;opacity:.52}
 <main id="review" class="hidden"><div class="section-head"><h2>Review & quiz</h2><span class="sub" id="reviewProgress">Ready</span></div><div id="reviewContent"></div></main>
 <main id="library" class="hidden">
 <div class="section-head"><h2>Library</h2><span class="sub">Words and grammar in one place</span></div>
-<div class="pillrow" id="libraryKinds" role="group" aria-label="Library categories"><button class="pill active" aria-pressed="true" data-library-kind="general" onclick="setLibraryKind('general',this)">General vocabulary</button><button class="pill" aria-pressed="false" data-library-kind="pilot" onclick="setLibraryKind('pilot',this)">50-word pilot</button><button class="pill" aria-pressed="false" data-library-kind="verbs" onclick="setLibraryKind('verbs',this)">Verb library</button><button class="pill" aria-pressed="false" data-library-kind="articles" onclick="setLibraryKind('articles',this)">Article nouns</button></div>
+<div class="pillrow" id="libraryKinds" role="group" aria-label="Library categories"><button class="pill active" aria-pressed="true" data-library-kind="general" onclick="setLibraryKind('general',this)">General vocabulary</button><button class="pill" type="button" aria-pressed="false" data-library-kind="frequency" onclick="setLibraryKind('frequency',this)">Frequency list</button><button class="pill" aria-pressed="false" data-library-kind="pilot" onclick="setLibraryKind('pilot',this)">50-word pilot</button><button class="pill" aria-pressed="false" data-library-kind="verbs" onclick="setLibraryKind('verbs',this)">Verb library</button><button class="pill" aria-pressed="false" data-library-kind="articles" onclick="setLibraryKind('articles',this)">Article nouns</button></div>
 <div id="generalLibraryPanel" class="hidden"><div class="card"><div class="verb-row"><div><b>General German vocabulary</b><div class="meaning">A broad collection of German words and expressions.</div></div></div><div class="small" id="generalLibrarySummary">Loading general vocabulary…</div></div><input class="search" id="generalLibrarySearch" aria-label="Search German or English vocabulary" placeholder="Search German or English..." oninput="renderGeneralLibrary()"><div class="sub" id="generalLibraryCount"></div><div id="generalLibraryList"></div><div id="generalShowMore" class="actions"><button class="btn secondary full" onclick="showMoreGeneral()">Show more entries</button></div><p class="footer-note">Lexicon Platform and EverFlip (CC BY 4.0), Wikidata (CC0), and Verbwerk learning text (CC BY 4.0). <a href="./VOCABULARY-LICENSE.md">Source and license notes</a>.</p></div>
+<section id="frequencyPanel" class="hidden" aria-labelledby="frequencyTitle">
+  <div class="card frequency-intro"><div class="sub">Wordly · German</div><h2 id="frequencyTitle">German by frequency</h2><p>Explore 5,000 entries ranked using OpenSubtitles. The bands describe frequency in that corpus and carry no CEFR rating. This reference list uses Wordly’s glosses.</p></div>
+  <div class="frequency-tools">
+    <label>Search words<input class="search" id="frequencySearch" type="search" placeholder="German or English" oninput="renderFrequencyList(true)"></label>
+    <label>Frequency band<select class="search" id="frequencyBand" onchange="renderFrequencyList(true)">
+      <option value="all">All ranks</option><option value="500">1–500 · Beginner</option><option value="1000">501–1,000 · Elementary</option><option value="2000">1,001–2,000 · Pre-intermediate</option><option value="3500">2,001–3,500 · Intermediate</option><option value="upper">3,501–5,000 · Upper-intermediate</option>
+    </select></label>
+  </div>
+  <div class="sub" id="frequencyCount" role="status"></div>
+  <ul class="frequency-list" id="frequencyList"></ul>
+  <button class="btn secondary full" id="frequencyMore" type="button" onclick="showMoreFrequency()">Show more words</button>
+  <p class="footer-note">Wordly German index (CC BY-SA 4.0). <a href="./VOCABULARY-LICENSE.md#wordly-german-frequency-index">Source and license notes</a>.</p>
+</section>
 <div id="pilotPanel"><div class="card"><div class="verb-row"><div><b>Curated vocabulary pilot</b><div class="meaning">50 starter entries, available offline.</div></div><span class="tag">50 ENTRIES</span></div></div>
 <input class="search" id="pilotSearch" aria-label="Search German or English vocabulary" placeholder="Search German or English…" oninput="renderPilot()">
 <div class="sub" id="pilotCount">50 entries</div><div id="pilotList"></div>
@@ -157,7 +206,7 @@ button:disabled{cursor:not-allowed;opacity:.52}
 <main id="practiceSetup" class="hidden"><div class="section-head"><h2 id="setupTitle">Practice setup</h2><span class="sub">Choose what to train</span></div>
 <div class="card"><b>Training content</b><div class="mode-grid" style="margin-top:10px">
 <button class="mode-card active" id="trackVocab" onclick="setPracticeTrack('vocab')"><b>Verb course</b><small>Existing verb meanings and usage.</small></button><button class="mode-card" id="trackArticles" onclick="setPracticeTrack('articles')"><b>Articles</b><small>Gender and noun recall.</small></button><button class="mode-card" id="trackBoth" onclick="setPracticeTrack('both')"><b>Both</b><small>Mixed verb and article practice.</small></button><button class="mode-card" id="trackGeneral" onclick="setPracticeTrack('general')"><b>General vocabulary</b><small>Words and expressions from the full Library.</small></button></div>
-<div id="generalPracticeInfoPanel" class="hidden"><div class="small" id="generalPracticeInfo">Practice draws from the full vocabulary library.</div><div class="general-listening"><div><b>Listening practice</b><div class="small">Hear a German word, then choose what you heard.</div></div><button class="btn secondary" type="button" onclick="startGeneralPractice('listenQuick')">Listen and identify</button></div></div>
+<div id="generalPracticeInfoPanel" class="hidden"><div class="small" id="generalPracticeInfo"></div><progress class="frequency-meter" id="generalPracticeProgress" aria-label="General vocabulary learned"></progress><div class="small">Words you miss come back first. Among new entries, words ranked higher in Wordly’s frequency list come first.</div><div class="general-listening"><div><b>Listening practice</b><div class="small">Hear a German word, then choose its English meaning.</div></div><button class="btn secondary" type="button" onclick="startGeneralPractice('listenQuick')">Listen and identify</button></div></div>
 <div class="section-head"><h3>Difficulty</h3></div><div class="mode-grid">
 <button class="mode-card active" id="difficultyQuick" onclick="setPracticeDifficulty('quick')">⚡ <b>Quick</b><small>Fast recall.</small></button>
 <button class="mode-card" id="difficultyDeep" onclick="setPracticeDifficulty('deep')">📘 <b>Deep</b><small>Grammar and sentence use.</small></button></div>
@@ -191,7 +240,7 @@ const exampleWordPattern=/[A-Za-zÄÖÜäöüßẞ]+(?:['’][A-Za-zÄÖÜäöü
 let exampleVocabularyCache=null;
 function exampleNormalize(value){return String(value||'').toLocaleLowerCase('de-DE')}
 function exampleMeaning(record){if(!record)return '';if(record.meaning)return record.meaning;let terms=Array.isArray(record.english_terms)?record.english_terms.map(x=>x&&x.term).filter(Boolean):[];if(!terms.length&&record.en)terms=[record.en];return terms.join(' · ')}
-function exampleRecord(kind,lemma,meaning){return {kind:kind,lemma:String(lemma||''),meaning:String(meaning||'')}}
+function exampleRecord(kind,lemma,meaning,englishTerms){return {kind:kind,lemma:String(lemma||''),meaning:String(meaning||''),englishTerms:Array.isArray(englishTerms)?englishTerms:[]}}
 function exampleAddNoun(map,surface,record){let words=String(surface||'').match(exampleWordPattern)||[];if(words.length)map.set(exampleNormalize(words[words.length-1]),record)}
 const exampleIrregularPresent=new Map([
   ['sein',['bin','bist','ist','sind','seid']],['haben',['habe','hast','hat','haben','habt']],['werden',['werde','wirst','wird','werden','werdet']],
@@ -223,11 +272,11 @@ function exampleVocabulary(){
     if(x.status!=='approved'||x.is_active===false)return;
     let lemma=x.lemma||x.display_form||'',m=exampleMeaning(x);
     if(x.part_of_speech==='noun'){
-      let rec=exampleRecord('noun',lemma,m);exampleAddNoun(nouns,x.lemma,rec);exampleAddNoun(nouns,x.display_form,rec);
+      let rec=exampleRecord('noun',lemma,m,x.english_terms);exampleAddNoun(nouns,x.lemma,rec);exampleAddNoun(nouns,x.display_form,rec);
       (Array.isArray(x.plural_forms)?x.plural_forms:[]).forEach(function(f){exampleAddNoun(nouns,f,rec)});
       (Array.isArray(x.forms)?x.forms:[]).forEach(function(f){if(f&&f.surface)exampleAddNoun(nouns,f.surface,rec)});
     }else if(x.part_of_speech==='verb'){
-      let rec=exampleRecord('verb',lemma,m);exampleAddVerb(verbs,x.lemma,rec,prefixes,verbInflections,true);exampleAddVerb(verbs,x.display_form,rec,prefixes,verbInflections,false);
+      let rec=exampleRecord('verb',lemma,m,x.english_terms);exampleAddVerb(verbs,x.lemma,rec,prefixes,verbInflections,true);exampleAddVerb(verbs,x.display_form,rec,prefixes,verbInflections,false);
       (Array.isArray(x.forms)?x.forms:[]).forEach(function(f){if(f&&f.surface)exampleAddVerb(verbs,f.surface,rec,prefixes,verbInflections,false)});
     }
   });
@@ -248,13 +297,70 @@ function exampleVocabulary(){
   modalRows.forEach(function(row){let rec=exampleRecord('modal',row[0],row[1]);row[2].split(' ').forEach(function(form){modals.set(exampleNormalize(form),rec)})});
   return exampleVocabularyCache={verbs:verbs,verbInflections:verbInflections,nouns:nouns,modals:modals,prefixes:prefixes};
 }
-function exampleColorLegend(){return '<div class="example-legend" aria-label="Example color key"><span class="example-key"><span class="example-color vocab-verb"></span>Verb</span><span class="example-key"><span class="example-color vocab-noun"></span>Noun</span><span class="example-key"><span class="example-color vocab-modal"></span>Modal verb</span></div>'}
+function exampleColorLegend(){return '<div class="example-legend" aria-label="Example color key"><span class="example-key"><span class="example-color vocab-verb"></span>Verb</span><span class="example-key"><span class="example-color vocab-noun"></span>Noun</span><span class="example-key"><span class="example-color vocab-modal"></span>Modal verb</span><span class="example-hint">Tap a highlighted German word for its meaning.</span></div>'}
+let exampleMeaningCounter=0;
+function exampleDisplayMeaning(record){
+  let raw=(record&&record.englishTerms||[]).map(function(x){return typeof x==='string'?x:(x&&x.term)||''}).filter(Boolean);
+  if(!raw.length&&record&&record.meaning)raw=String(record.meaning).split(/\s*(?:;|·|\|)\s*/).filter(Boolean);
+  let seen=new Set(),values=[];
+  raw.forEach(function(value){let label=String(value).trim().replace(/^(?:the|a|an)\s+/i,'');let key=label.toLocaleLowerCase('en-US').replace(/^to\s+/,'');if(label&&key&&!seen.has(key)){seen.add(key);values.push(label)}});
+  return values.slice(0,4).join('; ')||String(record&&record.meaning||'');
+}
+function exampleEnglishTerms(record){
+  let values=(record&&record.englishTerms||[]).map(function(x){return typeof x==='string'?x:(x&&x.term)||''}).filter(Boolean);
+  if(!values.length&&record&&record.meaning){let meaning=String(record.meaning).trim();if(meaning.length<=64&&!/[.!?]/.test(meaning))values=meaning.split(/\s*(?:;|·|\|)\s*/).filter(Boolean)}
+  let seen=new Set();
+  return values.map(function(value){return String(value).trim().replace(/^(?:to|the|a|an)\s+/i,'')}).filter(function(value){let key=value.toLocaleLowerCase('en-US');if(!key||seen.has(key))return false;seen.add(key);return true});
+}
+function exampleEnglishVariants(term,kind){
+  let value=String(term||'').trim().toLocaleLowerCase('en-US'),words=value.split(/\s+/);
+  if(words.length!==1||value.length<3)return value?[value]:[];
+  let variants=[value],last=value.slice(-1);
+  if(kind==='noun'){if(/[^aeiou]y$/.test(value))variants.push(value.slice(0,-1)+'ies');else if(/(?:s|x|z|ch|sh)$/.test(value))variants.push(value+'es');else variants.push(value+'s')}
+  else if(/[^aeiou]y$/.test(value))variants.push(value.slice(0,-1)+'ies',value.slice(0,-1)+'ied',value.slice(0,-1)+'ying');
+  else if(value.endsWith('e')&&!value.endsWith('ee'))variants.push(value+'s',value+'d',value.slice(0,-1)+'ing');
+  else{variants.push(value+'s',value+'es',value+'ed',value+'ing');if(value.length<=5&&/[^aeiou]$/.test(last)&&/[aeiou]/.test(value.slice(0,-1))&&!/[wxy]$/.test(last))variants.push(value+last+'ed',value+last+'ing')}
+  let seen=new Set();
+  return variants.filter(function(item){if(seen.has(item))return false;seen.add(item);return true});
+}
+function exampleFindEnglishMatches(text,phrase,kind,sourceIndex){
+  let matches=[],lower=String(text||'').toLocaleLowerCase('en-US');
+  exampleEnglishVariants(phrase,kind).forEach(function(variant){let from=0;while(variant&&from<lower.length){let start=lower.indexOf(variant,from);if(start<0)break;let end=start+variant.length,before=lower[start-1]||'',after=lower[end]||'';if(!/[A-Za-z0-9]/.test(before)&&!/[A-Za-z0-9]/.test(after))matches.push({start:start,end:end,kind:kind,sourceIndex:sourceIndex});from=start+Math.max(variant.length,1)}});
+  return matches;
+}
+function exampleTranslationHTML(translation,semanticWords){
+  let candidates=[];
+  semanticWords.forEach(function(item,index){exampleEnglishTerms(item.record).forEach(function(term){candidates=candidates.concat(exampleFindEnglishMatches(translation,term,item.record.kind,index))})});
+  candidates.sort(function(a,b){return (b.end-b.start)-(a.end-a.start)||a.start-b.start||a.sourceIndex-b.sourceIndex});
+  let selected=[];
+  candidates.forEach(function(candidate){if(!selected.some(function(existing){return candidate.start<existing.end&&candidate.end>existing.start}))selected.push(candidate)});
+  selected.sort(function(a,b){return a.start-b.start});
+  let html='',cursor=0;
+  selected.forEach(function(item){html+=esc(translation.slice(cursor,item.start))+'<span class="example-translation-mark vocab-'+item.kind+'">'+esc(translation.slice(item.start,item.end))+'</span>';cursor=item.end});
+  return html+esc(translation.slice(cursor));
+}
+function exampleAuxiliaryMeaning(record,sentence,target){
+  if(exampleNormalize(record&&record.lemma)!=='haben'||!target||!target.participle)return '';
+  let participle=String(target.participle).trim();if(!participle)return '';
+  let escaped=participle.replace(/[.*+?^$()|[\]\\]/g,'\\$&');
+  return new RegExp('(^|[^A-Za-zÄÖÜäöüßẞ])'+escaped+'(?=$|[^A-Za-zÄÖÜäöüßẞ])','i').test(sentence)?'Here, haben is an auxiliary that helps form the German past tense (Perfekt); it does not mean “to possess.”':'';
+}
+function closeExampleMeanings(restoreFocus){
+  document.querySelectorAll('.example-word[aria-expanded="true"]').forEach(function(button){button.setAttribute('aria-expanded','false');let popup=document.getElementById(button.getAttribute('aria-controls'));if(popup)popup.hidden=true;if(restoreFocus&&button.isConnected)button.focus()});
+}
+document.addEventListener('click',function(event){
+  let button=event.target&&event.target.closest?event.target.closest('.example-word'):null;
+  if(button){let wasOpen=button.getAttribute('aria-expanded')==='true';closeExampleMeanings(false);if(!wasOpen){let popup=document.getElementById(button.getAttribute('aria-controls'));if(popup){button.setAttribute('aria-expanded','true');popup.hidden=false;let rect=popup.getBoundingClientRect(),gap=12;if(rect.left<gap)popup.style.left='calc(50% + '+(gap-rect.left)+'px)';else if(rect.right>window.innerWidth-gap)popup.style.left='calc(50% - '+(rect.right-window.innerWidth+gap)+'px)';else popup.style.left='50%'}}event.stopPropagation();return}
+  if(!event.target.closest||!event.target.closest('.example-meaning-popover'))closeExampleMeanings(false);
+});
+document.addEventListener('keydown',function(event){if(event.key==='Escape'){let open=document.querySelector('.example-word[aria-expanded="true"]');if(open){event.preventDefault();closeExampleMeanings(true)}}});
 function renderExampleSentence(sentence,translation,target){
-  sentence=String(sentence||'');let books=exampleVocabulary(),targetWords=new Map(),targetInflections=new Map(),targetKind='';
+  sentence=String(sentence||'');translation=String(translation||'');
+  let books=exampleVocabulary(),targetWords=new Map(),targetInflections=new Map(),targetKind='',semanticWords=[];
   if(target){
     targetKind=target.part_of_speech==='noun'||target.kind==='Noun'||target.article||target.a?'noun':(target.part_of_speech==='verb'||target.kind==='Verb'||(target.id&&target.forms&&!Array.isArray(target.forms))?'verb':'');
     if(targetKind){
-      let lemma=target.lemma||target.id||target.word||target.n||target.display_form||'',rec=exampleRecord(targetKind,lemma,exampleMeaning(target));
+      let lemma=target.lemma||target.id||target.word||target.n||target.display_form||'',rec=exampleRecord(targetKind,lemma,exampleMeaning(target),target.english_terms);
       if(targetKind==='noun'){
         exampleAddNoun(targetWords,lemma,rec);exampleAddNoun(targetWords,target.display_form,rec);exampleAddNoun(targetWords,target.n,rec);
         (Array.isArray(target.plural_forms)?target.plural_forms:[]).forEach(function(f){exampleAddNoun(targetWords,f,rec)});
@@ -272,12 +378,16 @@ function renderExampleSentence(sentence,translation,target){
     if(!record&&/^[A-ZÄÖÜẞ]/.test(token)&&books.nouns.has(key))record=books.nouns.get(key);
     if(!record)record=books.verbs.get(key)||books.verbInflections.get(key)||books.nouns.get(key);
     if(record){
-      html+='<span class="example-word-stack"><span class="example-word vocab-'+record.kind+'" lang="de">'+esc(token)+'</span>'+(record.meaning?'<span class="example-inline-gloss vocab-'+record.kind+'" lang="en">'+esc(record.meaning)+'</span>':'')+'</span>';
+      let displayMeaning=exampleDisplayMeaning(record),contextualMeaning=exampleAuxiliaryMeaning(record,sentence,target),popupMeaning=contextualMeaning||displayMeaning;
+      if(!semanticWords.some(function(item){return item.record===record&&item.token===token}))semanticWords.push({record:record,token:token,meaning:popupMeaning});
+      if(popupMeaning){let popupId='example-meaning-'+(++exampleMeaningCounter);html+='<span class="example-word-stack"><button type="button" class="example-word vocab-'+record.kind+'" lang="de" aria-label="Show meaning of '+esc(token)+'" aria-expanded="false" aria-controls="'+popupId+'">'+esc(token)+'</button><span class="example-meaning-popover" id="'+popupId+'" role="tooltip" lang="en" hidden>'+esc(popupMeaning)+'</span></span>'}
+      else html+='<span class="example-word vocab-'+record.kind+'" lang="de">'+esc(token)+'</span>';
     }else html+=esc(token);
     cursor=exampleWordPattern.lastIndex;
   }
   html+=esc(sentence.slice(cursor));
-  return '<div class="example example-study"><div class="example-sentence" lang="de">'+html+'</div>'+(translation?'<div class="example-translation" lang="en">'+esc(translation)+'</div>':'')+'</div>';
+  let translationHTML=translation?'<div class="example-translation" lang="en">'+exampleTranslationHTML(translation,semanticWords)+'</div>':'';
+  return '<div class="example example-study"><div class="example-sentence" lang="de">'+html+'</div>'+translationHTML+'</div>';
 }
 function renderExampleSet(examples,target){let rendered=(examples||[]).map(function(x){return Array.isArray(x)?renderExampleSentence(x[0],x[1],target):typeof x==='string'?renderExampleSentence(x,'',target):renderExampleSentence(x&&(x.sentence||x.de)||'',x&&x.translation||'',target)}).filter(Boolean).join('');return (rendered.includes('class="example-word-stack"')?exampleColorLegend():'')+rendered}
 window.exampleColorLegend=exampleColorLegend;window.renderExampleSentence=renderExampleSentence;window.renderExampleSet=renderExampleSet;
@@ -394,10 +504,10 @@ function vwRouteState(id,extra,index){
   return Object.assign(route,extra||{});
 }
 function vwRouteUrl(route){
-  let hash=route.view==='verbDetail'?'#verb/'+encodeURIComponent(route.verbId):route.view==='vocabularyDetail'?'#word/'+encodeURIComponent(route.entryKind)+'/'+encodeURIComponent(route.entryId):'#'+route.pageId;
+  let hash=route.view==='verbDetail'?'#verb/'+encodeURIComponent(route.verbId):route.view==='vocabularyDetail'?'#word/'+encodeURIComponent(route.entryKind)+'/'+encodeURIComponent(route.entryId):route.pageId==='library'&&route.libraryKind==='frequency'?'#library/frequency':'#'+route.pageId;
   return location.pathname+location.search+hash;
 }
-function vwRouteKey(route){return [route.pageId||'',route.view||'',route.verbId||'',route.entryKind||'',route.entryId||''].join('|');}
+function vwRouteKey(route){return [route.pageId||'',route.view||'',route.verbId||'',route.entryKind||'',route.entryId||'',route.pageId==='library'&&!route.view?(route.libraryKind||'general'):''].join('|');}
 function vwCaptureRoute(){
   let route=vwRouteState(page,null,Number.isInteger(history.state?.vwIndex)?history.state.vwIndex:0);
   if(page==='library'){
@@ -537,14 +647,15 @@ get articleDone(){return vwArticleDone},set articleDone(v){vwArticleDone=v},
 get articleChoice(){return vwArticleChoice},set articleChoice(v){vwArticleChoice=v}
 };
 </script>
-<script src="./vocabulary-general-ui.js?v=19"></script>
+<script src="./vocabulary-wordly-de.js?v=1"></script>
+<script src="./vocabulary-general-ui.js?v=21"></script>
 <script>
 (function(){
   var parts=location.hash.slice(1).split('/'),key=parts[0]||'home',route;
   function decoded(value){try{return decodeURIComponent(value||'')}catch(error){return ''}}
   if(key==='word'&&parts.length>=3){route=vwRouteState('library',{view:'vocabularyDetail',entryKind:decoded(parts[1]),entryId:decoded(parts.slice(2).join('/'))},0)}
   else if(key==='verb'&&parts.length>=2){route=vwRouteState('library',{view:'verbDetail',verbId:decoded(parts.slice(1).join('/'))},0)}
-  else if(['home','library','practiceHome','articlePage','progressPage'].indexOf(key)>=0){route=vwRouteState(key,key==='library'?{libraryKind:(history.state&&history.state.vwApp&&history.state.libraryKind)||'general'}:null,0)}
+  else if(['home','library','practiceHome','articlePage','progressPage'].indexOf(key)>=0){route=vwRouteState(key,key==='library'?{libraryKind:parts[1]==='frequency'?'frequency':(history.state&&history.state.vwApp&&history.state.libraryKind)||'general'}:null,0)}
   else{route=vwRouteState('home',null,0)}
   history.replaceState(route,'',vwRouteUrl(route));
   vwNav(route.pageId,null,false,route);

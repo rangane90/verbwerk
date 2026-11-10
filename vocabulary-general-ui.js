@@ -2,6 +2,14 @@
   var access=window.VW_APP_ACCESS, visibleLimit=60;
   var session={items:[],index:0,score:0,answered:false,choice:'',mode:'quickRevision'};
   var rows=window.VW_GENERAL_DATA&&Array.isArray(window.VW_GENERAL_DATA.entries)?window.VW_GENERAL_DATA.entries:[];
+  var frequencyRows=window.VW_WORDLY_DE||[], frequencyLimit=60;
+  var posAliases={pron:"pronoun",prep:"preposition",conj:"conjunction",intj:"interjection",num:"numeral"};
+  var frequencyRanks=new Map(frequencyRows.map(function(row){
+    return [rankKey(row.lemma,posAliases[row.pos]||row.pos),row.rank];
+  }));
+  var frequencyBands={500:[1,500],1000:[501,1000],2000:[1001,2000],3500:[2001,3500],upper:[3501,5000],all:[1,5000]};
+  function rankKey(lemma,pos){return lemma.normalize("NFC")+"|"+pos;}
+  function rank(entry){return frequencyRanks.get(rankKey(entry.lemma||entry.display_form||"",entry.part_of_speech))||5001;}
   function active(){return rows.filter(function(x){return x.status==='approved'&&x.is_active!==false;});}
   function escText(x){return window.esc(String(x==null?'':x));}
   function primary(x){var a=Array.isArray(x.english_terms)?x.english_terms:[];var t=a.find(function(y){return y.primary&&y.term;})||a.find(function(y){return y.term;});return t?t.term:'';}
@@ -17,6 +25,21 @@
     if(typeof s.generalCorrect!=='number')s.generalCorrect=0;
     return s;
   }
+  window.renderFrequencyList=function(reset){
+    if(reset)frequencyLimit=60;
+    var query=norm(document.getElementById("frequencySearch").value);
+    var bounds=frequencyBands[document.getElementById("frequencyBand").value];
+    var matches=frequencyRows.filter(function(row){
+      return row.rank>=bounds[0]&&row.rank<=bounds[1]&&norm(row.lemma+" "+row.gloss).includes(query);
+    });
+    var shown=matches.slice(0,frequencyLimit);
+    document.getElementById("frequencyCount").textContent=matches.length?("Showing "+shown.length+" of "+matches.length+" entries"):"No matching entries";
+    document.getElementById("frequencyList").innerHTML=shown.map(function(row){
+      return '<li><span class="rank" aria-label="Frequency rank '+row.rank+'">'+row.rank+'</span><div><strong lang="de">'+escText(row.lemma)+'</strong><div class="meaning">'+escText(row.gloss)+'</div></div></li>';
+    }).join("");
+    document.getElementById("frequencyMore").classList.toggle("hidden",shown.length>=matches.length);
+  };
+  window.showMoreFrequency=function(){frequencyLimit+=60;window.renderFrequencyList();};
   window.showMoreGeneral=function(){visibleLimit+=60;window.renderGeneralLibrary();};
   window.renderGeneralLibrary=function(){
     var input=document.getElementById('generalLibrarySearch'),q=norm(input?input.value:'');
@@ -34,7 +57,10 @@
   };
   window.updateGeneralPracticeInfo=function(){
     var list=active(),s=ensure(),count=s.generalKnown.filter(function(id){return list.some(function(x){return x.id===id;});}).length;
-    var info=document.getElementById('generalPracticeInfo');if(info)info.textContent=list.length+' words and expressions · '+count+' learned on this device';
+    var info=document.getElementById('generalPracticeInfo');
+    if(info)info.textContent=count+' of '+list.length+' words and expressions learned';
+    var progress=document.getElementById('generalPracticeProgress');
+    if(progress){progress.max=list.length||1;progress.value=count;}
   };  var base=access.baseArticles.slice(), seen=new Set(base.map(function(x){return norm(x.n);}));
   window.VW_ARTICLE_BANK=base.concat(active().filter(function(x){return x.part_of_speech==='noun'&&['der','die','das'].indexOf(x.article)>=0;}).filter(function(x){var k=norm(x.lemma);if(!k||seen.has(k))return false;seen.add(k);return true;}).map(function(x){return {n:x.lemma,a:x.article,p:plural(x),en:meaning(x),source:'general',id:x.id};}));
 
@@ -137,15 +163,20 @@
   }
   function observeWordCards(id){var root=document.getElementById(id);if(root){new MutationObserver(enhanceWordCards).observe(root,{childList:true,subtree:true});}}
   enhanceWordCards();observeWordCards('home');observeWordCards('library');
-  window.setLibraryKind=function(k){
-    var ids={general:'generalLibraryPanel',pilot:'pilotPanel',verbs:'verbLibraryPanel',articles:'articleLibraryPanel',detail:'verbDetailPanel'};
+  window.setLibraryKind=function(k,button){
+    var ids={general:'generalLibraryPanel',frequency:'frequencyPanel',pilot:'pilotPanel',verbs:'verbLibraryPanel',articles:'articleLibraryPanel',detail:'verbDetailPanel'};
     Object.keys(ids).forEach(function(x){var e=document.getElementById(ids[x]);if(e)e.classList.toggle('hidden',x!==k);});
     var nav=document.getElementById('libraryKinds');if(nav)nav.classList.toggle('hidden',k==='detail');
     if(k!=='detail'&&window.clearLibraryDetail)window.clearLibraryDetail();
     document.querySelectorAll('#libraryKinds .pill').forEach(function(e){var selected=e.dataset.libraryKind===k;e.classList.toggle('active',selected);e.setAttribute('aria-pressed',String(selected));});
+    if(button&&history.state&&history.state.pageId==='library'){
+      var route=Object.assign({},history.state,{libraryKind:k});
+      history.replaceState(route,'',window.vwRouteUrl(route));
+    }
+    if(k==='frequency')window.renderFrequencyList();
     if(k==='general')window.renderGeneralLibrary();if(k==='pilot')window.renderPilot();if(k==='verbs')window.renderLibrary();if(k==='articles')window.renderArticleLibrary();
   };
-  window.openLibrary=function(k,btn){window.showPage('library',btn);window.setLibraryKind(k||'general');};
+  window.openLibrary=function(k,btn){window.vwNav('library',btn,true,{libraryKind:k||'general'});};
   window.renderArticleLibrary=function(){
     var q=norm((document.getElementById('articleLibrarySearch')||{}).value||''),list=window.VW_ARTICLE_BANK.filter(function(x){return norm([x.a,x.n,x.en,x.p].join(' ')).indexOf(q)>=0;});
     document.getElementById('articleLibraryCount').textContent=list.length+' nouns';
@@ -218,7 +249,7 @@
   }
   window.startGeneralPractice=function(k){
     var s=ensure(),pool=active(),known=new Set(s.generalKnown);
-    pool.sort(function(a,b){var w=(s.generalWeak[b.id]||0)-(s.generalWeak[a.id]||0);if(w)return w;return (known.has(a.id)?1:0)-(known.has(b.id)?1:0);});
+    pool.sort(function(a,b){var w=(s.generalWeak[b.id]||0)-(s.generalWeak[a.id]||0);if(w)return w;return Number(known.has(a.id))-Number(known.has(b.id))||rank(a)-rank(b);});
     var listening=k==='listenQuick',n=listening?6:k==='quickTest'?8:k==='deepTest'?10:6;
     session={items:pool.slice(0,n).map(function(x){return {target:x,options:listening?meaningOptions(x,pool):options(x,pool)};}),index:0,score:0,answered:false,choice:'',mode:k};
     window.vwNav('review',null,true);window.renderGeneralQuestion();

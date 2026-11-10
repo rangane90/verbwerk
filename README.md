@@ -1,6 +1,6 @@
 # Verbwerk
 
-A static, offline-capable German vocabulary trainer. This folder is the separate v9 release build.
+A static, offline-capable German vocabulary trainer. This folder is the local v10 Wordly preview, based on the v9 release.
 
 ## App
 
@@ -13,14 +13,16 @@ A static, offline-capable German vocabulary trainer. This folder is the separate
 
 ## Vocabulary data
 
+The Library includes a separate offline Wordly reference of 5,000 German entries, searchable in German or English across five frequency bands. General vocabulary practice prioritizes missed entries, then unseen entries in Wordly rank order where the lemma and word class match. Existing learner progress and curated vocabulary IDs are retained.
+
 The general A1-C2 runtime is derived from the Lexicon Platform source revision e45c6d558898b31214a15fda907189c3c43bc511. The deployed app bundles the compact runtime for offline use. Full source-pack files, the combined source dataset, and reproducible builders are retained in the development workspace and are not included in the static site deployment. This is a curated source snapshot, not an exhaustive German dictionary or an official CEFR vocabulary list.
 
 Lexicon Platform data is CC BY 4.0; supplemental Wikidata lexical facts are CC0 1.0; and the selected EverFlip card facts and new Verbwerk learner text are CC BY 4.0. See VOCABULARY-LICENSE.md for attribution and source-selection details.
 
 ## Offline behavior
 
-The service worker bundles the app shell and vocabulary runtime. Its cache cleanup removes prior v8/v9 caches while preserving the earlier v7 cache. Requests read from the current v9 cache only, preventing stale assets from older app versions. Chrome checks passed against a local HTTP preview: the 806-entry library loaded, a new word opened with its details, Back and Home navigation updated correctly, and the cached page reloaded after the preview server stopped. The cache key is `verbwerk-v9-release-1`. A local listening round now uses German browser speech with meaning choices; the theme control is a compact, accessible sun/moon button. Physical iPhone Safari gestures still need a device check.
+The service worker bundles the app shell and vocabulary runtime. Its cache cleanup removes prior v8/v9 caches while preserving the earlier v7 cache. Requests read from the current v10 cache only, preventing stale assets from older app versions. Chrome checks passed against a local HTTP preview: the 806-entry library loaded, a new word opened with its details, Back and Home navigation updated correctly, and the cached page reloaded after the preview server stopped. The cache key is `verbwerk-v10-wordly-2`. A local listening round now uses German browser speech with meaning choices; the theme control is a compact, accessible sun/moon button. Physical iPhone Safari gestures still need a device check.
 
 ## Release
 
-This v9 release was published after local Chrome testing. The separate stable v7 folder was not modified.
+The v10 Wordly preview is a separate local candidate.

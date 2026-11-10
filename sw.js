@@ -1,6 +1,6 @@
-const CACHE='verbwerk-v9-release-1';
-const RETIRED_PREFIXES=['verbwerk-v8-','verbwerk-v9-'];
-const FILES=['./','./index.html','./manifest.webmanifest','./icon.svg','./vocabulary-pilot.js','./vocabulary-general-a1-c2.js?v=17','./vocabulary-general-ui.js?v=19','./VOCABULARY-LICENSE.md'];
+const CACHE='verbwerk-v10-wordly-2';
+const RETIRED_PREFIXES=['verbwerk-v8-','verbwerk-v9-','verbwerk-v10-'];
+const FILES=['./','./index.html','./manifest.webmanifest','./icon.svg','./vocabulary-pilot.js','./vocabulary-general-a1-c2.js?v=17','./vocabulary-wordly-de.js?v=1','./vocabulary-general-ui.js?v=21','./VOCABULARY-LICENSE.md'];
 self.addEventListener('install',event=>event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(FILES)).then(()=>self.skipWaiting())));
 self.addEventListener('activate',event=>event.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(key=>key!==CACHE&&RETIRED_PREFIXES.some(prefix=>key.startsWith(prefix))).map(key=>caches.delete(key)))).then(()=>self.clients.claim())));
 self.addEventListener('fetch',event=>{if(event.request.method!=='GET'||new URL(event.request.url).origin!==self.location.origin)return;event.respondWith(caches.open(CACHE).then(cache=>cache.match(event.request).then(cached=>cached||fetch(event.request).then(response=>{if(response.ok&&response.type==='basic')cache.put(event.request,response.clone()).catch(()=>{});return response}))).catch(()=>caches.open(CACHE).then(cache=>cache.match('./index.html'))))});
