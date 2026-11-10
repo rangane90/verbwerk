@@ -1,6 +1,6 @@
 # Verbwerk
 
-A static, offline-capable German vocabulary trainer. This folder is the local v10 Wordly preview, based on the v9 release.
+A static, offline-capable German vocabulary trainer. This folder is the v10 Wordly release build, based on the v9 release.
 
 ## App
 
@@ -25,4 +25,4 @@ The service worker bundles the app shell and vocabulary runtime. Its cache clean
 
 ## Release
 
-The v10 Wordly preview is a separate local candidate.
+The v10 Wordly release is published from main at https://rangane90.github.io/verbwerk/.
