@@ -2,6 +2,8 @@
 
 A static, offline-capable German vocabulary trainer. This folder is the v10 Wordly release build, based on the v9 release.
 
+**[Open the live app](https://rangane90.github.io/verbwerk/)** — launch the German vocabulary trainer.
+
 ## App
 
 - Home, Practice and Library sections.
