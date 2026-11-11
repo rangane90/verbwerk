@@ -1,0 +1,403 @@
+{
+  "batch_id": "v11-vocabulary-review-46",
+  "review_date": "2026-11-11",
+  "input_database_sha256": "e204cf7524f6842a4ff43e77497db78230c837fdf157f553872ff8db0443ec9a",
+  "accepted_examples": [
+    {
+      "entry_id": "frequency:4022",
+      "german": "Ich kann weder Tom noch Maria ausstehen.",
+      "english": "I can't stand either Tom or Mary.",
+      "note": "Checked the German form and syntax, target sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4023",
+      "german": "Alle meine Geschwister sind gr\u00f6\u00dfer als ich.",
+      "english": "All of my siblings are taller than me.",
+      "note": "Checked the German form and syntax, target sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4024",
+      "german": "Bitte von der Bahnsteigkante zur\u00fccktreten!",
+      "english": "Please step back from the edge of the platform.",
+      "note": "Checked the German form and syntax, target sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4025",
+      "german": "Tom hackte mit der Axt Feuerholz.",
+      "english": "Tom chopped some firewood with his axe.",
+      "note": "Checked the German form and syntax, target sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4026",
+      "german": "Internationale H\u00e4ndler kommen nur mit M\u00fche \u00fcber die Runden.",
+      "english": "International traders are struggling just to get by.",
+      "note": "Checked the German form and syntax, target sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4027",
+      "german": "Ich riete euch, das noch einmal zu \u00fcberdenken.",
+      "english": "I'd advise you to reconsider.",
+      "note": "Checked the German form and syntax, target sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4028",
+      "german": "Durch den Dampf ist meine Brille beschlagen.",
+      "english": "The steam has fogged my glasses.",
+      "note": "Checked the German form and syntax, target sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4029",
+      "german": "Man sollte das Wort \u201eschwul\u201c nicht als Beleidigung missbrauchen.",
+      "english": "You shouldn't use the word \"gay\" as an insult.",
+      "note": "Checked the German form and syntax, target sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4030",
+      "german": "Tom ist seinen Freunden gegen\u00fcber loyal.",
+      "english": "Tom is loyal to his friends.",
+      "note": "Checked the German form and syntax, target sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4032",
+      "german": "Kannst du bitte das Bild an der Wand aufh\u00e4ngen?",
+      "english": "Can you hang the picture on the wall, please?",
+      "note": "Checked the German form and syntax, target sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4033",
+      "german": "Ich habe die H\u00e4lfte des Apfels gegessen, bevor ich bemerkte, dass ein Wurm darin war.",
+      "english": "I ate half the apple before I noticed there was a worm in it.",
+      "note": "Checked the German form and syntax, target sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4034",
+      "german": "Wir sollten jetzt aber loslegen.",
+      "english": "We should really get going.",
+      "note": "Checked the German form and syntax, target sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4035",
+      "german": "Die Besatzung hat das Schiff aufgegeben.",
+      "english": "The crew abandoned the ship.",
+      "note": "Checked the German form and syntax, target sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4038",
+      "german": "Jeder Artikel war \u00e4u\u00dferst sorgf\u00e4ltig beschrieben.",
+      "english": "Each item was described in painstaking detail.",
+      "note": "Checked the German form and syntax, target sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4039",
+      "german": "Tom fing an zu zittern.",
+      "english": "Tom started to shiver.",
+      "note": "Checked the German form and syntax, target sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4040",
+      "german": "Es kommt alles auf den Standpunkt an.",
+      "english": "It all depends on your point of view.",
+      "note": "Checked the German form and syntax, target sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4043",
+      "german": "Theoretisch ist das wohl m\u00f6glich.",
+      "english": "I guess theoretically it's possible.",
+      "note": "Checked the German form and syntax, target sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4046",
+      "german": "Tom und Maria sa\u00dfen einander an einem Tisch auf der Veranda gegen\u00fcber.",
+      "english": "Tom and Mary were sitting across from each other at a table on the veranda.",
+      "note": "Checked the German form and syntax, target sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4047",
+      "german": "Gibt es irgendwelche Gefahren durch Strahlung?",
+      "english": "Is there any danger of radiation?",
+      "note": "Checked the German form and syntax, target sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4048",
+      "german": "Sie hat unendlich viele Mittel.",
+      "english": "She has infinite resources.",
+      "note": "Checked the German form and syntax, target sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4050",
+      "german": "Ich bin das Gewicht, das ich w\u00e4hrend meiner Schwangerschaft zugelegt habe, nie wieder losgeworden.",
+      "english": "I never lost the weight that I gained during my pregnancy.",
+      "note": "Checked the German form and syntax, target sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4051",
+      "german": "Ich begann an der Richtigkeit seiner Aussage zu zweifeln.",
+      "english": "I began to doubt the accuracy of his statement.",
+      "note": "Checked the German form and syntax, target sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4052",
+      "german": "Sind Sie wirklich Nonne?",
+      "english": "Are you really a nun?",
+      "note": "Checked the German form and syntax, target sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4054",
+      "german": "Hast du das Feuerwerk in der Silvesternacht gesehen?",
+      "english": "Did you see the fireworks on New Year's Eve?",
+      "note": "Checked the German form and syntax, target sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4055",
+      "german": "Lass uns zur Abwechslung mal essen gehen.",
+      "english": "Let's dine out for a change.",
+      "note": "Checked the German form and syntax, target sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4057",
+      "german": "Entschuldigen Sie, haben Sie etwas Kleingeld f\u00fcr mich?",
+      "english": "Excuse me sir, could you spare some change?",
+      "note": "Checked the German form and syntax, target sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4058",
+      "german": "Wir sehen sie gelegentlich.",
+      "english": "We see them on occasion.",
+      "note": "Checked the German form and syntax, target sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4059",
+      "german": "Soll ich euch ein paar Eier braten?",
+      "english": "Would you like me to fry you a couple of eggs?",
+      "note": "Checked the German form and syntax, target sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4062",
+      "german": "Der Arzt \u00fcberwacht den Herzschlag und den Blutdruck des Patienten.",
+      "english": "The doctor monitored the patient's heartbeat and blood pressure.",
+      "note": "Checked the German form and syntax, target sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4063",
+      "german": "Ich bin sp\u00e4ter als sonst von zu Hause weggegangen, aber gl\u00fccklicherweise habe ich den Zug noch erwischt.",
+      "english": "I left home later than usual, but fortunately I was in time for the train.",
+      "note": "Checked the German form and syntax, target sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4064",
+      "german": "Ich hoffe, sie haben eine Heilung gefunden.",
+      "english": "I hope they found a cure.",
+      "note": "Checked the German form and syntax, target sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4065",
+      "german": "C\u00e4sar verl\u00e4\u00dft Gallien, \u00fcberquert den Rubikon und zieht nach Italien ein.",
+      "english": "Caesar leaves Gaul, crosses the Rubicon, and enters Italy.",
+      "note": "Checked the German form and syntax, target sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4067",
+      "german": "Er sieht alles unter dem Blickwinkel von Profit.",
+      "english": "He thinks of everything in terms of profit.",
+      "note": "Checked the German form and syntax, target sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4069",
+      "german": "Ich geh\u00f6re seit f\u00fcnf Jahren dem Stadtrat an.",
+      "english": "I've been on the city council for five years.",
+      "note": "Checked the German form and syntax, target sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4070",
+      "german": "Der Pr\u00e4sident wird sp\u00e4ter an diesem Tag eine Pressekonferenz geben.",
+      "english": "The president will hold a press conference later today.",
+      "note": "Checked the German form and syntax, target sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4074",
+      "german": "Die meisten Schweizer sprechen zwei oder drei Sprachen.",
+      "english": "Most Swiss citizens speak two or three languages.",
+      "note": "Checked the German form and syntax, target sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4075",
+      "german": "Hinter meinem Haus liegt eine Gasse.",
+      "english": "There's an alley behind my house.",
+      "note": "Checked the German form and syntax, target sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4078",
+      "german": "Tom verkleidete sich zu Halloween als Au\u00dferirdischer.",
+      "english": "Tom dressed as an alien for Halloween.",
+      "note": "Checked the German form and syntax, target sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4079",
+      "german": "Ich hab gestern meinen ehemaligen Chef getroffen.",
+      "english": "I met my former boss yesterday.",
+      "note": "Checked the German form and syntax, target sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4080",
+      "german": "Dieses Schiff ist nicht mit Radar ausgestattet.",
+      "english": "The ship is not equipped with radar.",
+      "note": "Checked the German form and syntax, target sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4082",
+      "german": "Mein Gro\u00dfvater lebt von einer Pension.",
+      "english": "My grandfather is living on a pension.",
+      "note": "Checked the German form and syntax, target sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4084",
+      "german": "Spitze den Stab am Ende etwas an!",
+      "english": "Sharpen the end of the stick a little.",
+      "note": "Checked the German form and syntax, target sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4086",
+      "german": "Tom ist kein Maler, nicht wahr?",
+      "english": "Tom isn't a painter, is he?",
+      "note": "Checked the German form and syntax, target sense, register, and English translation; suitable as a learner example."
+    }
+  ],
+  "editorial_examples": [
+    {
+      "entry_id": "frequency:4031",
+      "german": "Die Eiche wurzelt tief und die Fichte flach.",
+      "english": "The oak has deep roots, while the spruce has shallow roots.",
+      "note": "Corrected the machine-translated English so it expresses the German plant-rooting sense.",
+      "evidence_url": "https://www.duden.de/rechtschreibung/wurzeln"
+    },
+    {
+      "entry_id": "frequency:4042",
+      "german": "Ringen ist eine olympische Sportart.",
+      "english": "Wrestling is an Olympic sport.",
+      "note": "Replaced the planet-rings sentence, which uses the plural of Ring rather than the noun Ringen meaning wrestling.",
+      "evidence_url": "https://www.duden.de/rechtschreibung/Ringen"
+    },
+    {
+      "entry_id": "frequency:4066",
+      "german": "Der Angeklagte hat noch nie Drogen genommen.",
+      "english": "The defendant has never taken drugs.",
+      "note": "Corrected the English translation; the original overstated the German as a history of drug abuse."
+    },
+    {
+      "entry_id": "frequency:4068",
+      "german": "Die M\u00fcnzanstalt m\u00fcnzt jedes Jahr eine neue Gedenkm\u00fcnze.",
+      "english": "The mint coins a new commemorative coin every year.",
+      "note": "Replaced a sentence using M\u00fcnzen as a noun; this example uses m\u00fcnzen as a finite verb.",
+      "evidence_url": "https://www.duden.de/konjugation/muenzen"
+    },
+    {
+      "entry_id": "frequency:4072",
+      "german": "Tom Hansen f\u00fchrte bei dem Video Regie.",
+      "english": "Tom Hansen directed the video.",
+      "note": "Corrected the English translation to preserve the name in the German sentence."
+    },
+    {
+      "entry_id": "frequency:4073",
+      "german": "Ich bin allergisch gegen Katzen.",
+      "english": "I am allergic to cats.",
+      "note": "Replaced the unusual \u201callergic to school\u201d example with a clear everyday use of the adjective.",
+      "evidence_url": "https://www.duden.de/rechtschreibung/allergisch"
+    },
+    {
+      "entry_id": "frequency:4076",
+      "german": "\u201eTussi\u201c ist eine saloppe, oft abwertende Bezeichnung.",
+      "english": "\u201cTussi\u201d is a colloquial, often derogatory term.",
+      "note": "Replaced a direct personal insult with a neutral metalinguistic example and made the register explicit.",
+      "evidence_url": "https://www.duden.de/rechtschreibung/Tussi"
+    }
+  ],
+  "held_examples": [
+    {
+      "entry_id": "frequency:4042",
+      "german": "Der Saturn ist nicht der einzige Planet mit Ringen; er hat aber die allersch\u00f6nsten.",
+      "reason": "Replaced the planet-rings sentence, which uses the plural of Ring rather than the noun Ringen meaning wrestling."
+    },
+    {
+      "entry_id": "frequency:4068",
+      "german": "M\u00fcnzen bestehen aus Metall.",
+      "reason": "Replaced a sentence using M\u00fcnzen as a noun; this example uses m\u00fcnzen as a finite verb."
+    },
+    {
+      "entry_id": "frequency:4073",
+      "german": "Tom sagt, er sei allergisch gegen Schule.",
+      "reason": "Replaced the unusual \u201callergic to school\u201d example with a clear everyday use of the adjective."
+    },
+    {
+      "entry_id": "frequency:4076",
+      "german": "Du bist so eine Tussi!",
+      "reason": "Replaced a direct personal insult with a neutral metalinguistic example and made the register explicit."
+    }
+  ],
+  "entry_updates": [
+    {
+      "entry_id": "frequency:4023",
+      "field": "meaning",
+      "value": "siblings (brothers and sisters collectively)",
+      "note": "Corrected the singular gloss: Geschwister is normally plural and refers collectively to siblings.",
+      "url": "https://www.duden.de/rechtschreibung/Geschwister"
+    },
+    {
+      "entry_id": "frequency:4055",
+      "field": "meaning",
+      "value": "variety; a change from the usual; alternation",
+      "note": "Added the common \u201cvariety / a change from the usual\u201d sense used by zur Abwechslung in the example.",
+      "url": "https://www.duden.de/rechtschreibung/Abwechslung"
+    },
+    {
+      "entry_id": "frequency:4058",
+      "field": "word_class",
+      "value": "adjective",
+      "note": "Corrected the part of speech: Duden classifies gelegentlich as an adjective; in this sentence it is used adverbially.",
+      "url": "https://www.duden.de/rechtschreibung/gelegentlich_zeitweise_bisweilen"
+    },
+    {
+      "entry_id": "frequency:4058",
+      "field": "meaning",
+      "value": "occasional; sometimes, from time to time (also used adverbially)",
+      "note": "Replaced the unrelated prepositional gloss with the adjective and adverbial senses that match the entry and example.",
+      "url": "https://www.duden.de/rechtschreibung/gelegentlich_zeitweise_bisweilen"
+    },
+    {
+      "entry_id": "frequency:4064",
+      "field": "meaning",
+      "value": "healing, recovery; a cure",
+      "note": "Broadened the gloss to cover the cure/recovery sense used in the example.",
+      "url": "https://www.duden.de/rechtschreibung/Heilung"
+    },
+    {
+      "entry_id": "frequency:4073",
+      "field": "word_class",
+      "value": "adjective",
+      "note": "Corrected the part of speech; allergisch is an adjective.",
+      "url": "https://www.duden.de/rechtschreibung/allergisch"
+    },
+    {
+      "entry_id": "frequency:4073",
+      "field": "meaning",
+      "value": "allergic (to); caused by or relating to an allergy",
+      "note": "Replaced the adverbial gloss with the adjective senses matching Duden and the revised example.",
+      "url": "https://www.duden.de/rechtschreibung/allergisch"
+    },
+    {
+      "entry_id": "frequency:4076",
+      "field": "meaning",
+      "value": "colloquial, often derogatory: a woman considered superficial or overly concerned with her appearance",
+      "note": "Added the important colloquial and derogatory register label and made the meaning more precise.",
+      "url": "https://www.duden.de/rechtschreibung/Tussi"
+    },
+    {
+      "entry_id": "frequency:4082",
+      "field": "meaning",
+      "value": "retirement pension; boarding house or guesthouse",
+      "note": "Added the retirement-pension meaning used by the example to the existing boarding-house gloss.",
+      "url": "https://www.duden.de/rechtschreibung/Pension"
+    }
+  ],
+  "plural_reviews": [],
+  "inflected_links": []
+}

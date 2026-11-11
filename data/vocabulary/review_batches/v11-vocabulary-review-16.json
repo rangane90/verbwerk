@@ -1,0 +1,518 @@
+{
+  "batch_id": "v11-vocabulary-review-16",
+  "review_date": "2026-11-11",
+  "input_database_sha256": "4bedc08a6ea09e8294d80c8c796bab894bbcf49e127a291ddaa7e98c0871f33f",
+  "accepted_examples": [
+    {
+      "entry_id": "frequency:815",
+      "german": "Der Star der Show war Tom.",
+      "english": "The star of the show was Tom.",
+      "note": "Show is used as an event/performance; the English translation is the same sense."
+    },
+    {
+      "entry_id": "curated:lex-de-uberraschung",
+      "german": "Was für eine Überraschung, Sie hier zu sehen!",
+      "english": "What a surprise to see you here!",
+      "note": "Überraschung means surprise here; the sentence and translation are natural."
+    },
+    {
+      "entry_id": "frequency:818",
+      "german": "Stehst du mit deinen Eltern in Kontakt?",
+      "english": "Are you in contact with your parents?",
+      "note": "In Kontakt stehen is the idiomatic phrase for being in contact; the translation matches."
+    },
+    {
+      "entry_id": "frequency:820",
+      "german": "Der Krieg gegen Drogen ist ein politischer Krieg.",
+      "english": "The war on drugs is a political war.",
+      "note": "Drogen means drugs in the political phrase Krieg gegen Drogen; the translation is accurate."
+    },
+    {
+      "entry_id": "frequency:821",
+      "german": "Die Regierung ging hart gegen die Minderheit vor.",
+      "english": "The government clamped down on the minority group.",
+      "note": "Regierung means government; the idiomatic English clamped down on renders ging hart gegen ... vor."
+    },
+    {
+      "entry_id": "frequency:822",
+      "german": "Tom saß unter einem Baum und trank Wein.",
+      "english": "Tom was sitting under a tree, drinking wine.",
+      "note": "Wein means wine and is used in an ordinary drinking context."
+    },
+    {
+      "entry_id": "frequency:824",
+      "german": "Er ist entfernt mit ihr verwandt.",
+      "english": "He is distantly related to her.",
+      "note": "Entfernt means distantly in the expression entfernt verwandt; this matches the entry sense distant."
+    },
+    {
+      "entry_id": "frequency:828",
+      "german": "Ihr Haus steht genau gegenüber der Bushaltestelle.",
+      "english": "Her house is just opposite the bus stop.",
+      "note": "Gegenüber is correctly used as a preposition meaning opposite, with a dative noun phrase."
+    },
+    {
+      "entry_id": "frequency:829",
+      "german": "Das Baby hat sich in den Schlaf geweint.",
+      "english": "The baby cried itself to sleep.",
+      "note": "Schlaf means sleep in the result phrase in den Schlaf weinen; the translation matches."
+    },
+    {
+      "entry_id": "frequency:831",
+      "german": "Die Erde ist vom All aus betrachtet wunderschön.",
+      "english": "Seen from space, the earth is very beautiful.",
+      "note": "Wunderschön means very beautiful; the translation is accurate."
+    },
+    {
+      "entry_id": "frequency:832",
+      "german": "Kommt schon, Leute! Das ist nicht mehr witzig.",
+      "english": "Come on, guys. This isn't funny anymore.",
+      "note": "Witzig means funny in this context; the sentence is modern and clear."
+    },
+    {
+      "entry_id": "frequency:833",
+      "german": "Haben Sie mit dem Kopf genickt?",
+      "english": "Did you nod your head?",
+      "note": "Genickt is the correct past participle of nicken; the translation says nod your head."
+    },
+    {
+      "entry_id": "frequency:842",
+      "german": "Er hatte einen guten Blick auf die Papiere.",
+      "english": "He had a good look at the papers.",
+      "note": "Blick is used in the sense look/view; the English matches."
+    },
+    {
+      "entry_id": "frequency:844",
+      "german": "Es ist zu schwer, um es zu bewegen.",
+      "english": "It's too heavy to move.",
+      "note": "Bewegen is the infinitive after zu and means move; the sentence is direct."
+    },
+    {
+      "entry_id": "frequency:845",
+      "german": "Es ist schwer zu erkennen, ob Tom sein Haar färbt oder nicht.",
+      "english": "It's hard to tell whether Tom dyes his hair or not.",
+      "note": "Haar is used as head hair; the example is grammatical and matches a common sense of the noun."
+    },
+    {
+      "entry_id": "curated:lex-de-antworten",
+      "german": "Ich bin noch nicht bereit zu antworten.",
+      "english": "I'm still not ready to give an answer.",
+      "note": "Antworten is correctly used as the infinitive after bereit zu and means answer/respond."
+    },
+    {
+      "entry_id": "frequency:847",
+      "german": "Der Präsident saß auf dem Stuhl, mit dem Rücken zum Fenster.",
+      "english": "The president was sitting in the chair with his back to the window.",
+      "note": "Präsident means president in the German sentence; chair is translated as the piece of furniture Stuhl."
+    },
+    {
+      "entry_id": "frequency:852",
+      "german": "Ich wünschte, wir könnten mehr Zeit miteinander verbringen.",
+      "english": "I wish we could spend more time together.",
+      "note": "Miteinander means together/with one another; the translation is accurate."
+    },
+    {
+      "entry_id": "frequency:855",
+      "german": "Er ist weder für noch gegen den Plan.",
+      "english": "He is neither for nor against the plan.",
+      "note": "Weder is correctly paired with noch and means neither in this sentence."
+    }
+  ],
+  "held_examples": [
+    {
+      "entry_id": "frequency:817",
+      "german": "Das ist ein Geheimnis, daß du hüten mußt.",
+      "reason": "The source uses obsolete spellings daß and mußt. Replace them with current dass and musst while retaining the same clear example."
+    },
+    {
+      "entry_id": "frequency:823",
+      "german": "Tom gab zu, Maria ermordet zu haben.",
+      "reason": "The source uses ermordet as a verb participle, while the entry is the adjective murdered. Use an attributive adjective example."
+    },
+    {
+      "entry_id": "frequency:827",
+      "german": "Ich fuhr rechts ran, und stieg aus.",
+      "reason": "The source has an incorrect comma between two coordinated predicates with the same subject. Keep the example and correct the punctuation."
+    },
+    {
+      "entry_id": "frequency:839",
+      "german": "Das habe ich schon immer an dir geliebt.",
+      "reason": "The source uses geliebt as a verb participle, although this entry is an adjective. Use an attributive adjective example."
+    },
+    {
+      "entry_id": "frequency:843",
+      "german": "Ich wusste nicht, dass du zu Besuch kämest.",
+      "reason": "The source uses the rare literary subjunctive kämest; replace it with a natural contemporary sentence that demonstrates the noun."
+    },
+    {
+      "entry_id": "curated:lex-de-moglichkeit",
+      "german": "Besteht die Möglichkeit, daß das noch einmal passiert?",
+      "reason": "The source uses the superseded spelling daß; use the current spelling dass."
+    }
+  ],
+  "editorial_examples": [
+    {
+      "entry_id": "frequency:817",
+      "german": "Das ist ein Geheimnis, das du hüten musst.",
+      "english": "This is a secret you must keep.",
+      "note": "The source uses obsolete spellings daß and mußt. Replace them with current dass and musst while retaining the same clear example.",
+      "evidence_url": "https://www.duden.de/rechtschreibung/Geheimnis"
+    },
+    {
+      "entry_id": "frequency:823",
+      "german": "Das war der ermordete König.",
+      "english": "That was the murdered king.",
+      "note": "The source uses ermordet as a verb participle, while the entry is the adjective murdered. Use an attributive adjective example.",
+      "evidence_url": "https://www.duden.de/rechtschreibung/ermordet"
+    },
+    {
+      "entry_id": "frequency:827",
+      "german": "Ich fuhr rechts ran und stieg aus.",
+      "english": "I pulled over on the side of the road and got out.",
+      "note": "The source has an incorrect comma between two coordinated predicates with the same subject. Keep the example and correct the punctuation.",
+      "evidence_url": "https://www.duden.de/rechtschreibung/ran"
+    },
+    {
+      "entry_id": "frequency:839",
+      "german": "Das war ihr geliebter Hund.",
+      "english": "That was her beloved dog.",
+      "note": "The source uses geliebt as a verb participle, although this entry is an adjective. Use an attributive adjective example.",
+      "evidence_url": "https://www.duden.de/rechtschreibung/geliebt"
+    },
+    {
+      "entry_id": "frequency:843",
+      "german": "Ich freue mich auf deinen Besuch.",
+      "english": "I look forward to your visit.",
+      "note": "The source uses the rare literary subjunctive kämest; replace it with a natural contemporary sentence that demonstrates the noun.",
+      "evidence_url": "https://www.duden.de/rechtschreibung/Besuch"
+    },
+    {
+      "entry_id": "curated:lex-de-moglichkeit",
+      "german": "Besteht die Möglichkeit, dass das noch einmal passiert?",
+      "english": "Is there a chance this will happen again?",
+      "note": "The source uses the superseded spelling daß; use the current spelling dass.",
+      "evidence_url": "https://www.duden.de/rechtschreibung/Moeglichkeit"
+    }
+  ],
+  "plural_reviews": [
+    {
+      "entry_id": "frequency:2949",
+      "value": [
+        "Leinen"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Leine",
+      "note": "Leine forms Leinen; this covers lines/cords, including a clothesline sense.",
+      "usage_note": "Plural: Leinen."
+    },
+    {
+      "entry_id": "frequency:2987",
+      "value": [
+        "Akte"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Akt_Handlung",
+      "note": "For Akt meaning an act/deed, Duden gives Akte. Akten is a separate administrative form/sense.",
+      "usage_note": "Use Akte for act/deed; Akten belongs to administrative file usage."
+    },
+    {
+      "entry_id": "frequency:2993",
+      "value": [
+        "Spezies"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Spezies",
+      "note": "Spezies has an unchanged plural.",
+      "usage_note": "Plural is unchanged: Spezies."
+    },
+    {
+      "entry_id": "frequency:3000",
+      "value": [
+        "Eigentume"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Eigentum",
+      "note": "Duden lists Eigentume but marks the plural rare.",
+      "usage_note": "Rare plural; ownership is normally singular."
+    },
+    {
+      "entry_id": "frequency:3003",
+      "value": [
+        "Betriebe"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Betrieb",
+      "note": "Betriebe is correct for countable operations/business units; in Betrieb means a device is operating and is usually singular.",
+      "usage_note": "Plural Betriebe; the technical state in Betrieb is normally singular."
+    },
+    {
+      "entry_id": "frequency:3014",
+      "value": [
+        "Herzöge"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Herzog",
+      "note": "Herzog forms Herzöge.",
+      "usage_note": "Standard plural: Herzöge."
+    },
+    {
+      "entry_id": "frequency:3016",
+      "value": [
+        "Gehälter"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Gehalt_Geld",
+      "note": "For Gehalt meaning salary, the plural is Gehälter.",
+      "usage_note": "Use Gehälter for salaries; this is distinct from das Gehalt (contents)."
+    },
+    {
+      "entry_id": "frequency:3021",
+      "value": {
+        "note": "Use the plural that belongs to the intended sense.",
+        "variants": [
+          {
+            "forms_or_usage": [
+              "Iriden",
+              "Irides",
+              "Iris"
+            ],
+            "source_glosses": [
+              "(Plural: Iris oder [selten] Iriden, Irides): Regenbogenhaut",
+              "(Plural: Iris): Schwertlilie (Trivialname der Arten aus der Gattung der Schwertlilien (Iris)",
+              "iris"
+            ]
+          },
+          {
+            "forms_or_usage": [
+              "Usually singular in this sense"
+            ],
+            "source_glosses": [
+              "geflügelte Götterbotin (als Verkörperung des Regenbogens)"
+            ]
+          }
+        ]
+      },
+      "source": "Duden / Wiktionary",
+      "url": "https://de.wiktionary.org/wiki/Iris",
+      "note": "Plural is sense-dependent: Iris for the flower; Iris, Iriden or Irides for the eye’s iris (the latter two rare); mythological Iris is usually singular. Preserve the sense-specific alternatives.",
+      "usage_note": "Use Iris for the flower; for eye anatomy, Iris is usual and Iriden/Irides are rare; the mythological figure is normally singular."
+    },
+    {
+      "entry_id": "frequency:3031",
+      "value": [
+        "Neffen"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Neffe",
+      "note": "Neffe is a weak masculine noun and forms Neffen.",
+      "usage_note": "Standard plural: Neffen."
+    },
+    {
+      "entry_id": "frequency:3036",
+      "value": "No plural in the restaurant-service sense.",
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Service_Dienstleistung",
+      "note": "Duden marks gastronomic service without a plural; Services is appropriate to other countable service senses.",
+      "usage_note": "Usually singular for service in a restaurant; Services may apply to distinct offerings."
+    },
+    {
+      "entry_id": "frequency:3048",
+      "value": [
+        "Möbel"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Moebel",
+      "note": "For pieces of furniture, Möbel is the unchanged plural; the colloquial sense of an awkward object has no plural.",
+      "usage_note": "Plural is unchanged: Möbel."
+    },
+    {
+      "entry_id": "frequency:3052",
+      "value": [
+        "E-Mails"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/E-Mail",
+      "note": "E-Mail forms E-Mails.",
+      "usage_note": "Standard plural: E-Mails."
+    },
+    {
+      "entry_id": "frequency:3057",
+      "value": "No plural in the sport/game sense; Baseballs only for individual balls.",
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Baseball",
+      "note": "Duden distinguishes the sport from the physical ball; the sport sense does not normally pluralize.",
+      "usage_note": "Sport: normally singular. Individual balls: Baseballs."
+    },
+    {
+      "entry_id": "frequency:3082",
+      "value": [
+        "Hunter"
+      ],
+      "source": "Wiktionary (German noun entry)",
+      "url": "https://en.wiktionary.org/wiki/Hunter#German",
+      "note": "Hunter has an unchanged plural for the dog/breed sense.",
+      "usage_note": "Plural is unchanged: Hunter."
+    },
+    {
+      "entry_id": "frequency:3085",
+      "value": [
+        "Reise"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Reis_Pflanzenfaser",
+      "note": "Duden gives Reise for distinct varieties of rice; ordinary rice as food is usually singular.",
+      "usage_note": "Reise only for rice varieties; ordinary rice is usually singular."
+    },
+    {
+      "entry_id": "frequency:3089",
+      "value": [
+        "Bekannte"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Bekannter",
+      "note": "For the substantivized adjective meaning acquaintance, the nominative plural is Bekannte; weakly declined cases use Bekannten.",
+      "usage_note": "Nominative plural: Bekannte; weakly declined cases use Bekannten."
+    },
+    {
+      "entry_id": "frequency:3093",
+      "value": [
+        "Ar",
+        "Are"
+      ],
+      "source": "Wiktionary (German noun entry)",
+      "url": "https://en.wiktionary.org/wiki/Ar#German",
+      "note": "Both Ar and Are are recorded for the area unit.",
+      "usage_note": "Both Ar and Are are used."
+    },
+    {
+      "entry_id": "frequency:3096",
+      "value": [
+        "Golfe"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Golf_Bucht",
+      "note": "For Golf meaning a bay/gulf, the plural is Golfe.",
+      "usage_note": "Standard plural: Golfe."
+    },
+    {
+      "entry_id": "frequency:3101",
+      "value": [
+        "Verlobte"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Verlobter",
+      "note": "For the substantivized adjective fiancé, the nominative plural is Verlobte; weakly declined cases use Verlobten.",
+      "usage_note": "Nominative plural: Verlobte; weakly declined cases use Verlobten."
+    },
+    {
+      "entry_id": "frequency:3104",
+      "value": [
+        "Weisheiten"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Weisheit",
+      "note": "Weisheiten is used for individual pieces of wisdom or sayings; the abstract quality is usually singular.",
+      "usage_note": "Plural for individual wisdoms/sayings; the general quality is usually singular."
+    },
+    {
+      "entry_id": "frequency:3112",
+      "value": [
+        "Dinner",
+        "Dinners"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Dinner",
+      "note": "Duden gives Dinner[s], meaning both Dinner and Dinners are accepted plural spellings.",
+      "usage_note": "Both Dinner and Dinners are recorded."
+    },
+    {
+      "entry_id": "frequency:3113",
+      "value": [
+        "Kredite"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Kredit",
+      "note": "Kredit meaning a loan forms Kredite.",
+      "usage_note": "Standard plural: Kredite."
+    },
+    {
+      "entry_id": "frequency:3129",
+      "value": [
+        "Sets"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Set",
+      "note": "Set forms Sets in the place-mat/setting sense.",
+      "usage_note": "Standard plural: Sets."
+    },
+    {
+      "entry_id": "frequency:3143",
+      "value": [
+        "Sauen",
+        "Säue"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Sau",
+      "note": "Duden records both Sauen and Säue for female pigs.",
+      "usage_note": "Both Sauen and Säue are standard."
+    },
+    {
+      "entry_id": "frequency:3155",
+      "value": [
+        "Angestellte"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Angestellter",
+      "note": "For a substantivized adjective meaning employee, the nominative plural is Angestellte; weakly declined cases use Angestellten.",
+      "usage_note": "Nominative plural: Angestellte; weakly declined cases use Angestellten."
+    },
+    {
+      "entry_id": "frequency:3159",
+      "value": [
+        "Märsche"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Marsch",
+      "note": "Marsch meaning march forms Märsche.",
+      "usage_note": "Standard plural: Märsche."
+    },
+    {
+      "entry_id": "frequency:3162",
+      "value": "Plural-only in the manners sense.",
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Manieren",
+      "note": "Manieren is used only in the plural in the meaning manners.",
+      "usage_note": "Plural-only noun in this sense."
+    },
+    {
+      "entry_id": "frequency:3165",
+      "value": [
+        "Rasen"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Rasen_Rasenflaeche",
+      "note": "Rasen meaning lawn has an unchanged plural.",
+      "usage_note": "Plural is unchanged: Rasen."
+    },
+    {
+      "entry_id": "frequency:3168",
+      "value": [
+        "Reiter"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Reiter",
+      "note": "Reiter has an unchanged plural.",
+      "usage_note": "Plural is unchanged: Reiter."
+    },
+    {
+      "entry_id": "frequency:3188",
+      "value": [
+        "Alternativen"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Alternative",
+      "note": "Alternative forms Alternativen.",
+      "usage_note": "Standard plural: Alternativen."
+    }
+  ]
+}

@@ -1,0 +1,182 @@
+[
+  {
+    "id": "lex-de-fahrstuhl",
+    "expected_lemma": "Fahrstuhl",
+    "reference": "https://www.duden.de/rechtschreibung/Fahrstuhl",
+    "fields": {
+      "plural_forms": [
+        "die Fahrstühle"
+      ],
+      "forms": [
+        {
+          "surface": "der Fahrstuhl",
+          "number": "sg",
+          "case": "nom",
+          "role": "core",
+          "tags": {
+            "slot_key": "nom_sg_def",
+            "grammar_tags": []
+          }
+        },
+        {
+          "surface": "den Fahrstuhl",
+          "number": "sg",
+          "case": "acc",
+          "role": "extended",
+          "tags": {
+            "slot_key": "acc_sg_def",
+            "grammar_tags": [
+              "accusative",
+              "singular"
+            ]
+          }
+        },
+        {
+          "surface": "dem Fahrstuhl",
+          "number": "sg",
+          "case": "dat",
+          "role": "extended",
+          "tags": {
+            "slot_key": "dat_sg_def",
+            "grammar_tags": [
+              "dative",
+              "singular"
+            ]
+          }
+        },
+        {
+          "surface": "des Fahrstuhls",
+          "number": "sg",
+          "case": "gen",
+          "role": "extended",
+          "tags": {
+            "slot_key": "gen_sg_def",
+            "grammar_tags": [
+              "genitive",
+              "singular"
+            ]
+          }
+        },
+        {
+          "surface": "die Fahrstühle",
+          "number": "pl",
+          "case": "nom",
+          "role": "core",
+          "tags": {}
+        }
+      ]
+    }
+  },
+  {
+    "id": "lex-de-sitzplatz",
+    "expected_lemma": "Sitzplatz",
+    "reference": "https://www.duden.de/rechtschreibung/Sitzplatz",
+    "fields": {
+      "plural_forms": [
+        "die Sitzplätze"
+      ],
+      "forms": [
+        {
+          "surface": "der Sitzplatz",
+          "number": "sg",
+          "case": "nom",
+          "role": "core",
+          "tags": {
+            "slot_key": "nom_sg_def",
+            "grammar_tags": []
+          }
+        },
+        {
+          "surface": "den Sitzplatz",
+          "number": "sg",
+          "case": "acc",
+          "role": "extended",
+          "tags": {
+            "slot_key": "acc_sg_def",
+            "grammar_tags": [
+              "accusative",
+              "singular"
+            ]
+          }
+        },
+        {
+          "surface": "dem Sitzplatz",
+          "number": "sg",
+          "case": "dat",
+          "role": "extended",
+          "tags": {
+            "slot_key": "dat_sg_def",
+            "grammar_tags": [
+              "dative",
+              "singular"
+            ]
+          }
+        },
+        {
+          "surface": "des Sitzplatzes",
+          "number": "sg",
+          "case": "gen",
+          "role": "extended",
+          "tags": {
+            "slot_key": "gen_sg_def",
+            "grammar_tags": [
+              "genitive",
+              "singular"
+            ]
+          }
+        },
+        {
+          "surface": "die Sitzplätze",
+          "number": "pl",
+          "case": "nom",
+          "role": "core",
+          "tags": {}
+        }
+      ]
+    }
+  },
+  {
+    "id": "lexeme-de-a1-spazierengehen",
+    "expected_lemma": "spazierengehen",
+    "reference": "https://www.duden.de/sprachwissen/sprachratgeber/Getrennt-und-Zusammenschreibung",
+    "fields": {
+      "lemma": "spazieren gehen",
+      "display_form": "spazieren gehen",
+      "forms": [
+        {
+          "surface": "spazieren gehen",
+          "number": null,
+          "case": null,
+          "role": "core",
+          "tags": {
+            "aux": "sein"
+          }
+        }
+      ],
+      "grammar_note": "Zwei Verben: spazieren gehen schreibt man getrennt. Perfekt: ist spazieren gegangen.",
+      "german_examples": [
+        {
+          "sentence": "Nach dem Abendessen gehen wir am Fluss spazieren.",
+          "translation_language": "en",
+          "translation": "After dinner we go for a walk by the river."
+        }
+      ]
+    }
+  },
+  {
+    "id": "supplement-everflip-weil",
+    "expected_lemma": "weil",
+    "reference": "https://grammis.ids-mannheim.de/systematische-grammatik/384",
+    "fields": {
+      "grammar_note": "In der Standardsprache leitet weil einen Nebensatz ein. Das gebeugte Verb steht am Ende: weil es draußen regnet."
+    }
+  },
+  {
+    "id": "supplement-everflip-denn",
+    "expected_lemma": "denn",
+    "reference": "https://www.duden.de/rechtschreibung/denn",
+    "fields": {
+      "grammar_note": "Denn verbindet hier zwei Hauptsätze. Im zweiten Satz bleibt das gebeugte Verb an zweiter Stelle: denn es regnet."
+    }
+  }
+]

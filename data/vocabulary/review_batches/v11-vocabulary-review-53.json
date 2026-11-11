@@ -1,0 +1,336 @@
+{
+  "batch_id": "v11-vocabulary-review-53",
+  "review_date": "2026-11-11",
+  "input_database_sha256": "1fe4eb706367ef0d87efc0561e614c60843a4486977490d808485fe5080a94fa",
+  "accepted_examples": [
+    {
+      "entry_id": "frequency:4463",
+      "german": "Er gab mir im Tausch gegen ein Stück Kuchen eine Apfelsine.",
+      "english": "He gave me an orange in exchange for a piece of cake.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4464",
+      "german": "Nach einem Schlaganfall war Tom gelähmt.",
+      "english": "Tom was paralyzed by a stroke.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4467",
+      "german": "Der Gärtner hat gerade die Hecke geschnitten.",
+      "english": "The gardener has just trimmed the hedge.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4469",
+      "german": "Ich kann nicht so eine Garantie geben.",
+      "english": "I can't make a guarantee like that.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4470",
+      "german": "Tom hatte nicht einmal den Anstand, sich zu entschuldigen.",
+      "english": "Tom didn't even have the decency to apologize.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4473",
+      "german": "Vati, darf ich deinen Wagen benutzen?",
+      "english": "May I use your car, Dad?",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4474",
+      "german": "Die Katze hielt die Nase in den Topf.",
+      "english": "The cat put its nose in the pot.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4476",
+      "german": "Könntest du mir diesen Knopf ans Hemd nähen?",
+      "english": "Could you sew this button on my shirt for me?",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4477",
+      "german": "Die Menge versammelte sich um den Sprecher.",
+      "english": "The crowd gathered around the speaker.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4478",
+      "german": "Tom hat Chemie als Hauptfach studiert.",
+      "english": "Tom majored in chemistry.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4481",
+      "german": "Wir können das durchstehen, wenn wir nur alle zusammenhalten.",
+      "english": "We can get through this if we all stick together.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4484",
+      "german": "Tom hat eine gebrochene Rippe.",
+      "english": "Tom has a broken rib.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4485",
+      "german": "Innerhalb des Hauses ist es sehr kühl.",
+      "english": "It's very cool inside the house.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4486",
+      "german": "Tom lebt in dem Haus dahinten.",
+      "english": "Tom lives in that house over there.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4487",
+      "german": "Der Techniker kletterte auf den Telefonmast.",
+      "english": "The engineer climbed the telephone pole.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "curated:lex-de-beachten",
+      "german": "Beim Planen einer Reise müssen wir die Wünsche aller Familienmitglieder beachten.",
+      "english": "We must take into account the wishes of all the family in planning a trip.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4489",
+      "german": "Wann kommt die nächste Ausgabe des Magazins heraus?",
+      "english": "When does the next issue of the magazine come out?",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4490",
+      "german": "Quito, Ecuador, liegt etwas südlich des Äquators.",
+      "english": "Quito, Ecuador, is a little south of the equator.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4491",
+      "german": "Wie viele Kalorien stecken in 100 Gramm Butter?",
+      "english": "How many calories are in 100 grams of butter?",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4493",
+      "german": "Ich bin es gewohnt, einen Lastwagen zu fahren.",
+      "english": "I'm used to driving a truck.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4495",
+      "german": "Ich fliege im September nach Dubai, sofern mein Chef den Urlaub genehmigt.",
+      "english": "I'll fly to Dubai in September if my boss approves the holiday.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4496",
+      "german": "Es ist entsetzlich wichtig.",
+      "english": "It's terribly important.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4497",
+      "german": "Tom ist unser bester Ermittler.",
+      "english": "Tom is our best investigator.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4498",
+      "german": "Das Gemälde hier ist eine Fälschung.",
+      "english": "This painting is a forgery.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "curated:lex-de-der-abschnitt",
+      "german": "Gibt es irgendeinen Abschnitt meines Lebens, von dem Tom dir nichts erzählte?",
+      "english": "Is there any part of my life Tom didn't tell you about?",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4501",
+      "german": "Sie reagiert auf Kritik sehr sensibel.",
+      "english": "She is very sensitive to criticism.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4502",
+      "german": "Wie lange brauchtet ihr, um dieses Album aufzunehmen?",
+      "english": "How long did it take you to record this album?",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4504",
+      "german": "Tom war sofort bereit, das Lösegeld zu bezahlen.",
+      "english": "Tom immediately agreed to pay the ransom.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4507",
+      "german": "Ich habe mein Geld Tom anvertraut.",
+      "english": "I entrusted my money to Tom.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4509",
+      "german": "Hat die Gewerkschaft an der Demonstration teilgenommen?",
+      "english": "Did the union participate in the demonstration?",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4510",
+      "german": "Herhören! Ich habe eine gute Nachricht.",
+      "english": "Listen, I have good news.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4514",
+      "german": "Wenn es windig ist, rauschen die Blätter der alten Eiche, und ihre Äste knarren.",
+      "english": "When it's windy, the leaves of the old oak rustle and its branches creak.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4515",
+      "german": "Uns ging der Treibstoff aus.",
+      "english": "We ran out of fuel.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4519",
+      "german": "Ich wurde in einem Waisenhaus in Boston aufgezogen.",
+      "english": "I was raised in an orphanage in Boston.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4521",
+      "german": "Sie spielte die Rolle einer Fee.",
+      "english": "She acted the part of a fairy.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4522",
+      "german": "Ich befinde mich in Quarantäne.",
+      "english": "I'm under quarantine.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4523",
+      "german": "Ich bin kein Kommunist.",
+      "english": "I'm not a communist.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4524",
+      "german": "Die Parteien unterhalten parteieigene Stiftungen.",
+      "english": "The parties maintain party-specific foundations.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4525",
+      "german": "Ich habe weder die Zeit noch das Geld, um zu verreisen.",
+      "english": "I don't have the time or the money to take a trip.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4528",
+      "german": "Warum jammerst du immer?",
+      "english": "Why are you always whining?",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4529",
+      "german": "Dies ist ein Maulwurf.",
+      "english": "This is a mole.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    }
+  ],
+  "editorial_examples": [
+    {
+      "entry_id": "frequency:4466",
+      "german": "Tom stellte die Schüssel mit Popcorn auf den Tisch.",
+      "english": "Tom put the bowl of popcorn on the table.",
+      "note": "Added the missing preposition for a clear, natural construction."
+    },
+    {
+      "entry_id": "frequency:4468",
+      "german": "Der Jet landete pünktlich in Berlin.",
+      "english": "The jet landed on time in Berlin.",
+      "note": "Replaced the contextually odd short-distance flight example with a natural sentence."
+    },
+    {
+      "entry_id": "frequency:4472",
+      "german": "Die Bezeichnung „Junkie“ gilt als abwertend.",
+      "english": "The term “junkie” is considered derogatory.",
+      "note": "Replaced a stigmatizing sentence about people with a neutral metalinguistic example that makes the register clear."
+    },
+    {
+      "entry_id": "frequency:4475",
+      "german": "Das Gesetz wurde nach heftigen Auseinandersetzungen im Parlament verabschiedet.",
+      "english": "The law was passed after heated debates in parliament.",
+      "note": "Corrected the translation; Gesetz is law and Auseinandersetzungen here means heated debates."
+    },
+    {
+      "entry_id": "frequency:4482",
+      "german": "Du hast eine Zusage bekommen? Das ist ja geradezu fantastisch!",
+      "english": "You got a yes? That is downright fantastic!",
+      "note": "Corrected the English translation of Zusage and geradezu."
+    },
+    {
+      "entry_id": "frequency:4492",
+      "german": "Sie hat das Bett mit einem sauberen Laken bezogen.",
+      "english": "She made the bed with a clean sheet.",
+      "note": "Corrected the English number and made the bed-making sense explicit."
+    },
+    {
+      "entry_id": "curated:lex-de-die-kritik",
+      "german": "Tom war auf die scharfe Kritik seines Chefs nicht vorbereitet.",
+      "english": "Tom was not prepared for his boss’s harsh criticism.",
+      "note": "Simplified an overly formal English rendering while preserving the German sense."
+    },
+    {
+      "entry_id": "frequency:4503",
+      "german": "Diese Lebewesen stammen von einfacheren Organismen wie Quallen ab.",
+      "english": "These organisms descended from simpler organisms such as jellyfish.",
+      "note": "Replaced the outdated hierarchical wording “niederen Organismen” with neutral modern phrasing."
+    },
+    {
+      "entry_id": "frequency:4506",
+      "german": "Die beiden prügelten sich nach dem Streit.",
+      "english": "The two got into a fight after the argument.",
+      "note": "Replaced a graphic example with a less extreme sentence that still illustrates the verb."
+    }
+  ],
+  "entry_updates": [
+    {
+      "entry_id": "frequency:4472",
+      "field": "meaning",
+      "value": "person with a drug addiction; colloquial and often derogatory. For neutral wording, use “person with a drug addiction.”",
+      "source": "German Wiktionary",
+      "url": "https://de.wiktionary.org/wiki/Junkie",
+      "note": "Clarified the commonly derogatory register and provided neutral wording; aligned with the replacement example."
+    },
+    {
+      "entry_id": "frequency:4496",
+      "field": "word_class",
+      "value": "adjective",
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/entsetzlich",
+      "note": "Corrected the part of speech. Entsetzlich is an adjective used as an intensifier in this example."
+    },
+    {
+      "entry_id": "frequency:4496",
+      "field": "meaning",
+      "value": "terrible, dreadful; terribly, extremely (as an intensifier)",
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/entsetzlich",
+      "note": "Clarified the adjective and its intensifying use in the example."
+    }
+  ],
+  "plural_reviews": []
+}

@@ -1,0 +1,1428 @@
+[
+  {
+    "id": "lex-de-wasser",
+    "expected_lemma": "Wasser",
+    "reference": "https://www.duden.de/rechtschreibung/Wasser",
+    "fields": {
+      "plural_forms": [
+        "die Wässer",
+        "die Wasser"
+      ],
+      "forms": [
+        {
+          "surface": "das Wasser",
+          "number": "sg",
+          "case": "nom",
+          "role": "core",
+          "tags": {
+            "slot_key": "nom_sg_def",
+            "grammar_tags": []
+          }
+        },
+        {
+          "surface": "das Wasser",
+          "number": "sg",
+          "case": "acc",
+          "role": "extended",
+          "tags": {
+            "slot_key": "acc_sg_def",
+            "grammar_tags": [
+              "accusative",
+              "singular"
+            ]
+          }
+        },
+        {
+          "surface": "dem Wasser",
+          "number": "sg",
+          "case": "dat",
+          "role": "extended",
+          "tags": {
+            "slot_key": "dat_sg_def",
+            "grammar_tags": [
+              "dative",
+              "singular"
+            ]
+          }
+        },
+        {
+          "surface": "des Wassers",
+          "number": "sg",
+          "case": "gen",
+          "role": "extended",
+          "tags": {
+            "slot_key": "gen_sg_def",
+            "grammar_tags": [
+              "genitive",
+              "singular"
+            ]
+          }
+        },
+        {
+          "surface": "die Wässer",
+          "number": "pl",
+          "case": "nom",
+          "role": "core",
+          "tags": {}
+        },
+        {
+          "surface": "die Wasser",
+          "number": "pl",
+          "case": "nom",
+          "role": "core",
+          "tags": {}
+        }
+      ],
+      "grammar_note": "Im Alltag meist Singular. Wässer bezeichnet insbesondere Sorten. Wasser ist auch als Plural belegt."
+    }
+  },
+  {
+    "id": "lex-de-fleisch",
+    "expected_lemma": "Fleisch",
+    "reference": "https://www.duden.de/rechtschreibung/Fleisch",
+    "fields": {
+      "plural_forms": [],
+      "forms": [
+        {
+          "surface": "das Fleisch",
+          "number": "sg",
+          "case": "nom",
+          "role": "core",
+          "tags": {
+            "slot_key": "nom_sg_def",
+            "grammar_tags": []
+          }
+        },
+        {
+          "surface": "das Fleisch",
+          "number": "sg",
+          "case": "acc",
+          "role": "extended",
+          "tags": {
+            "slot_key": "acc_sg_def",
+            "grammar_tags": [
+              "accusative",
+              "singular"
+            ]
+          }
+        },
+        {
+          "surface": "dem Fleisch",
+          "number": "sg",
+          "case": "dat",
+          "role": "extended",
+          "tags": {
+            "slot_key": "dat_sg_def",
+            "grammar_tags": [
+              "dative",
+              "singular"
+            ]
+          }
+        },
+        {
+          "surface": "des Fleisches",
+          "number": "sg",
+          "case": "gen",
+          "role": "extended",
+          "tags": {
+            "slot_key": "gen_sg_def",
+            "grammar_tags": [
+              "genitive",
+              "singular"
+            ]
+          }
+        }
+      ],
+      "plural_usage": "singular_in_sense",
+      "grammar_note": "Als Lebensmittel wird Fleisch hier als Stoffbezeichnung im Singular verwendet."
+    }
+  },
+  {
+    "id": "lex-de-gemuse",
+    "expected_lemma": "Gemüse",
+    "reference": "https://www.duden.de/rechtschreibung/Gemuese",
+    "fields": {
+      "plural_forms": [
+        "die Gemüse"
+      ],
+      "forms": [
+        {
+          "surface": "das Gemüse",
+          "number": "sg",
+          "case": "nom",
+          "role": "core",
+          "tags": {
+            "slot_key": "nom_sg_def",
+            "grammar_tags": []
+          }
+        },
+        {
+          "surface": "das Gemüse",
+          "number": "sg",
+          "case": "acc",
+          "role": "extended",
+          "tags": {
+            "slot_key": "acc_sg_def",
+            "grammar_tags": [
+              "accusative",
+              "singular"
+            ]
+          }
+        },
+        {
+          "surface": "dem Gemüse",
+          "number": "sg",
+          "case": "dat",
+          "role": "extended",
+          "tags": {
+            "slot_key": "dat_sg_def",
+            "grammar_tags": [
+              "dative",
+              "singular"
+            ]
+          }
+        },
+        {
+          "surface": "des Gemüses",
+          "number": "sg",
+          "case": "gen",
+          "role": "extended",
+          "tags": {
+            "slot_key": "gen_sg_def",
+            "grammar_tags": [
+              "genitive",
+              "singular"
+            ]
+          }
+        },
+        {
+          "surface": "die Gemüse",
+          "number": "pl",
+          "case": "nom",
+          "role": "core",
+          "tags": {}
+        }
+      ],
+      "grammar_note": "Als Sammelbezeichnung meist Singular. Der Plural Gemüse kann unterschiedliche Arten bezeichnen."
+    }
+  },
+  {
+    "id": "lex-de-kase",
+    "expected_lemma": "Käse",
+    "reference": "https://www.duden.de/rechtschreibung/Kaese",
+    "fields": {
+      "plural_forms": [
+        "die Käse"
+      ],
+      "forms": [
+        {
+          "surface": "der Käse",
+          "number": "sg",
+          "case": "nom",
+          "role": "core",
+          "tags": {
+            "slot_key": "nom_sg_def",
+            "grammar_tags": []
+          }
+        },
+        {
+          "surface": "den Käse",
+          "number": "sg",
+          "case": "acc",
+          "role": "extended",
+          "tags": {
+            "slot_key": "acc_sg_def",
+            "grammar_tags": [
+              "accusative",
+              "singular"
+            ]
+          }
+        },
+        {
+          "surface": "dem Käse",
+          "number": "sg",
+          "case": "dat",
+          "role": "extended",
+          "tags": {
+            "slot_key": "dat_sg_def",
+            "grammar_tags": [
+              "dative",
+              "singular"
+            ]
+          }
+        },
+        {
+          "surface": "des Käses",
+          "number": "sg",
+          "case": "gen",
+          "role": "extended",
+          "tags": {
+            "slot_key": "gen_sg_def",
+            "grammar_tags": [
+              "genitive",
+              "singular"
+            ]
+          }
+        },
+        {
+          "surface": "die Käse",
+          "number": "pl",
+          "case": "nom",
+          "role": "core",
+          "tags": {}
+        }
+      ],
+      "grammar_note": "Als Lebensmittel meist Singular. Im Plural Käse geht es in der Regel um Sorten oder einzelne Käse."
+    }
+  },
+  {
+    "id": "lex-de-regen",
+    "expected_lemma": "Regen",
+    "reference": "https://www.duden.de/rechtschreibung/Regen_Niederschlag",
+    "fields": {
+      "plural_forms": [
+        "die Regen"
+      ],
+      "forms": [
+        {
+          "surface": "der Regen",
+          "number": "sg",
+          "case": "nom",
+          "role": "core",
+          "tags": {
+            "slot_key": "nom_sg_def",
+            "grammar_tags": []
+          }
+        },
+        {
+          "surface": "den Regen",
+          "number": "sg",
+          "case": "acc",
+          "role": "extended",
+          "tags": {
+            "slot_key": "acc_sg_def",
+            "grammar_tags": [
+              "accusative",
+              "singular"
+            ]
+          }
+        },
+        {
+          "surface": "dem Regen",
+          "number": "sg",
+          "case": "dat",
+          "role": "extended",
+          "tags": {
+            "slot_key": "dat_sg_def",
+            "grammar_tags": [
+              "dative",
+              "singular"
+            ]
+          }
+        },
+        {
+          "surface": "des Regens",
+          "number": "sg",
+          "case": "gen",
+          "role": "extended",
+          "tags": {
+            "slot_key": "gen_sg_def",
+            "grammar_tags": [
+              "genitive",
+              "singular"
+            ]
+          }
+        },
+        {
+          "surface": "die Regen",
+          "number": "pl",
+          "case": "nom",
+          "role": "core",
+          "tags": {}
+        }
+      ],
+      "grammar_note": "Für Niederschlag normalerweise Singular. Der Plural Regen ist selten."
+    }
+  },
+  {
+    "id": "lex-de-schnee",
+    "expected_lemma": "Schnee",
+    "reference": "https://www.duden.de/deklination/substantive/Schnee",
+    "fields": {
+      "plural_forms": [],
+      "forms": [
+        {
+          "surface": "der Schnee",
+          "number": "sg",
+          "case": "nom",
+          "role": "core",
+          "tags": {
+            "slot_key": "nom_sg_def",
+            "grammar_tags": []
+          }
+        },
+        {
+          "surface": "den Schnee",
+          "number": "sg",
+          "case": "acc",
+          "role": "extended",
+          "tags": {
+            "slot_key": "acc_sg_def",
+            "grammar_tags": [
+              "accusative",
+              "singular"
+            ]
+          }
+        },
+        {
+          "surface": "dem Schnee",
+          "number": "sg",
+          "case": "dat",
+          "role": "extended",
+          "tags": {
+            "slot_key": "dat_sg_def",
+            "grammar_tags": [
+              "dative",
+              "singular"
+            ]
+          }
+        },
+        {
+          "surface": "des Schnees",
+          "number": "sg",
+          "case": "gen",
+          "role": "extended",
+          "tags": {
+            "slot_key": "gen_sg_def",
+            "grammar_tags": [
+              "genitive",
+              "singular"
+            ]
+          }
+        }
+      ],
+      "plural_usage": "singular_in_sense",
+      "grammar_note": "Als Bezeichnung für den Niederschlag steht Schnee im Singular."
+    }
+  },
+  {
+    "id": "lex-de-die-medizin",
+    "expected_lemma": "Medizin",
+    "reference": "https://www.duden.de/deklination/substantive/Medizin",
+    "fields": {
+      "plural_forms": [
+        "die Medizinen"
+      ],
+      "forms": [
+        {
+          "surface": "die Medizin",
+          "number": "sg",
+          "case": "nom",
+          "role": "core",
+          "tags": {
+            "slot_key": "nom_sg_def",
+            "grammar_tags": []
+          }
+        },
+        {
+          "surface": "die Medizin",
+          "number": "sg",
+          "case": "acc",
+          "role": "extended",
+          "tags": {
+            "slot_key": "acc_sg_def",
+            "grammar_tags": [
+              "accusative",
+              "singular"
+            ]
+          }
+        },
+        {
+          "surface": "der Medizin",
+          "number": "sg",
+          "case": "dat",
+          "role": "extended",
+          "tags": {
+            "slot_key": "dat_sg_def",
+            "grammar_tags": [
+              "dative",
+              "singular"
+            ]
+          }
+        },
+        {
+          "surface": "der Medizin",
+          "number": "sg",
+          "case": "gen",
+          "role": "extended",
+          "tags": {
+            "slot_key": "gen_sg_def",
+            "grammar_tags": [
+              "genitive",
+              "singular"
+            ]
+          }
+        },
+        {
+          "surface": "die Medizinen",
+          "number": "pl",
+          "case": "nom",
+          "role": "core",
+          "tags": {}
+        }
+      ],
+      "grammar_note": "Der Plural Medizinen ist für Heilmittel möglich. Die Wissenschaft Medizin steht im Singular."
+    }
+  },
+  {
+    "id": "lex-de-der-aufwand",
+    "expected_lemma": "Aufwand",
+    "reference": "https://www.duden.de/rechtschreibung/Aufwand",
+    "fields": {
+      "plural_forms": [
+        "die Aufwände"
+      ],
+      "forms": [
+        {
+          "surface": "der Aufwand",
+          "number": "sg",
+          "case": "nom",
+          "role": "core",
+          "tags": {
+            "slot_key": "nom_sg_def",
+            "grammar_tags": []
+          }
+        },
+        {
+          "surface": "den Aufwand",
+          "number": "sg",
+          "case": "acc",
+          "role": "extended",
+          "tags": {
+            "slot_key": "acc_sg_def",
+            "grammar_tags": [
+              "accusative",
+              "singular"
+            ]
+          }
+        },
+        {
+          "surface": "dem Aufwand",
+          "number": "sg",
+          "case": "dat",
+          "role": "extended",
+          "tags": {
+            "slot_key": "dat_sg_def",
+            "grammar_tags": [
+              "dative",
+              "singular"
+            ]
+          }
+        },
+        {
+          "surface": "des Aufwands",
+          "number": "sg",
+          "case": "gen",
+          "role": "extended",
+          "tags": {
+            "slot_key": "gen_sg_def",
+            "grammar_tags": [
+              "genitive",
+              "singular"
+            ]
+          }
+        },
+        {
+          "surface": "die Aufwände",
+          "number": "pl",
+          "case": "nom",
+          "role": "core",
+          "tags": {}
+        }
+      ],
+      "grammar_note": "Der Plural Aufwände kann mehrere einzeln betrachtete Kosten oder Einsätze bezeichnen."
+    }
+  },
+  {
+    "id": "lex-de-der-druck",
+    "expected_lemma": "Druck",
+    "reference": "https://www.duden.de/sprachwissen/sprachratgeber/Die-Plurale-des-Wortes-Druck",
+    "fields": {
+      "plural_forms": [],
+      "forms": [
+        {
+          "surface": "der Druck",
+          "number": "sg",
+          "case": "nom",
+          "role": "core",
+          "tags": {
+            "slot_key": "nom_sg_def",
+            "grammar_tags": []
+          }
+        },
+        {
+          "surface": "den Druck",
+          "number": "sg",
+          "case": "acc",
+          "role": "extended",
+          "tags": {
+            "slot_key": "acc_sg_def",
+            "grammar_tags": [
+              "accusative",
+              "singular"
+            ]
+          }
+        },
+        {
+          "surface": "dem Druck",
+          "number": "sg",
+          "case": "dat",
+          "role": "extended",
+          "tags": {
+            "slot_key": "dat_sg_def",
+            "grammar_tags": [
+              "dative",
+              "singular"
+            ]
+          }
+        },
+        {
+          "surface": "des Drucks",
+          "number": "sg",
+          "case": "gen",
+          "role": "extended",
+          "tags": {
+            "slot_key": "gen_sg_def",
+            "grammar_tags": [
+              "genitive",
+              "singular"
+            ]
+          }
+        }
+      ],
+      "plural_usage": "singular_in_sense",
+      "grammar_note": "In der Bedeutung Belastung verwendet man Druck normalerweise im Singular, etwa unter Druck stehen."
+    }
+  },
+  {
+    "id": "lex-de-der-stress",
+    "expected_lemma": "Stress",
+    "reference": "https://www.duden.de/rechtschreibung/Stress",
+    "fields": {
+      "plural_forms": [
+        "die Stresse"
+      ],
+      "forms": [
+        {
+          "surface": "der Stress",
+          "number": "sg",
+          "case": "nom",
+          "role": "core",
+          "tags": {
+            "slot_key": "nom_sg_def",
+            "grammar_tags": []
+          }
+        },
+        {
+          "surface": "den Stress",
+          "number": "sg",
+          "case": "acc",
+          "role": "extended",
+          "tags": {
+            "slot_key": "acc_sg_def",
+            "grammar_tags": [
+              "accusative",
+              "singular"
+            ]
+          }
+        },
+        {
+          "surface": "dem Stress",
+          "number": "sg",
+          "case": "dat",
+          "role": "extended",
+          "tags": {
+            "slot_key": "dat_sg_def",
+            "grammar_tags": [
+              "dative",
+              "singular"
+            ]
+          }
+        },
+        {
+          "surface": "des Stresses",
+          "number": "sg",
+          "case": "gen",
+          "role": "extended",
+          "tags": {
+            "slot_key": "gen_sg_def",
+            "grammar_tags": [
+              "genitive",
+              "singular"
+            ]
+          }
+        },
+        {
+          "surface": "die Stresse",
+          "number": "pl",
+          "case": "nom",
+          "role": "core",
+          "tags": {}
+        }
+      ],
+      "grammar_note": "In Alltagsausdrücken wie unter Stress stehen meist Singular. Stresse ist als Plural möglich."
+    }
+  },
+  {
+    "id": "lex-de-die-ausdauer",
+    "expected_lemma": "Ausdauer",
+    "reference": "https://www.duden.de/rechtschreibung/Ausdauer",
+    "fields": {
+      "plural_forms": [],
+      "forms": [
+        {
+          "surface": "die Ausdauer",
+          "number": "sg",
+          "case": "nom",
+          "role": "core",
+          "tags": {
+            "slot_key": "nom_sg_def",
+            "grammar_tags": []
+          }
+        },
+        {
+          "surface": "die Ausdauer",
+          "number": "sg",
+          "case": "acc",
+          "role": "extended",
+          "tags": {
+            "slot_key": "acc_sg_def",
+            "grammar_tags": [
+              "accusative",
+              "singular"
+            ]
+          }
+        },
+        {
+          "surface": "der Ausdauer",
+          "number": "sg",
+          "case": "dat",
+          "role": "extended",
+          "tags": {
+            "slot_key": "dat_sg_def",
+            "grammar_tags": [
+              "dative",
+              "singular"
+            ]
+          }
+        },
+        {
+          "surface": "der Ausdauer",
+          "number": "sg",
+          "case": "gen",
+          "role": "extended",
+          "tags": {
+            "slot_key": "gen_sg_def",
+            "grammar_tags": [
+              "genitive",
+              "singular"
+            ]
+          }
+        }
+      ],
+      "plural_usage": "singular_in_sense",
+      "grammar_note": "Als Bezeichnung für die Fähigkeit durchzuhalten wird Ausdauer im Singular verwendet."
+    }
+  },
+  {
+    "id": "lexeme-de-c2-ermessen",
+    "expected_lemma": "Ermessen",
+    "reference": "https://www.duden.de/rechtschreibung/Ermessen",
+    "fields": {
+      "plural_forms": [],
+      "forms": [
+        {
+          "surface": "das Ermessen",
+          "number": "sg",
+          "case": "nom",
+          "role": "core",
+          "tags": {
+            "slot_key": "nom_sg_def",
+            "grammar_tags": []
+          }
+        },
+        {
+          "surface": "das Ermessen",
+          "number": "sg",
+          "case": "acc",
+          "role": "extended",
+          "tags": {
+            "slot_key": "acc_sg_def",
+            "grammar_tags": [
+              "accusative",
+              "singular"
+            ]
+          }
+        },
+        {
+          "surface": "dem Ermessen",
+          "number": "sg",
+          "case": "dat",
+          "role": "extended",
+          "tags": {
+            "slot_key": "dat_sg_def",
+            "grammar_tags": [
+              "dative",
+              "singular"
+            ]
+          }
+        },
+        {
+          "surface": "des Ermessens",
+          "number": "sg",
+          "case": "gen",
+          "role": "extended",
+          "tags": {
+            "slot_key": "gen_sg_def",
+            "grammar_tags": [
+              "genitive",
+              "singular"
+            ]
+          }
+        }
+      ],
+      "plural_usage": "singular_in_sense",
+      "grammar_note": "In der Bedeutung Entscheidungsspielraum steht Ermessen im Singular, etwa nach eigenem Ermessen."
+    }
+  },
+  {
+    "id": "lexeme-de-c2-willkuer",
+    "expected_lemma": "Willkür",
+    "reference": "https://www.duden.de/rechtschreibung/Willkuer",
+    "fields": {
+      "plural_forms": [],
+      "forms": [
+        {
+          "surface": "die Willkür",
+          "number": "sg",
+          "case": "nom",
+          "role": "core",
+          "tags": {
+            "slot_key": "nom_sg_def",
+            "grammar_tags": []
+          }
+        },
+        {
+          "surface": "die Willkür",
+          "number": "sg",
+          "case": "acc",
+          "role": "extended",
+          "tags": {
+            "slot_key": "acc_sg_def",
+            "grammar_tags": [
+              "accusative",
+              "singular"
+            ]
+          }
+        },
+        {
+          "surface": "der Willkür",
+          "number": "sg",
+          "case": "dat",
+          "role": "extended",
+          "tags": {
+            "slot_key": "dat_sg_def",
+            "grammar_tags": [
+              "dative",
+              "singular"
+            ]
+          }
+        },
+        {
+          "surface": "der Willkür",
+          "number": "sg",
+          "case": "gen",
+          "role": "extended",
+          "tags": {
+            "slot_key": "gen_sg_def",
+            "grammar_tags": [
+              "genitive",
+              "singular"
+            ]
+          }
+        }
+      ],
+      "plural_usage": "singular_in_sense",
+      "grammar_note": "Als abstrakte Bezeichnung für willkürliches Handeln steht Willkür im Singular."
+    }
+  },
+  {
+    "id": "lexeme-de-c2-beharrlichkeit",
+    "expected_lemma": "Beharrlichkeit",
+    "reference": "https://www.duden.de/rechtschreibung/Beharrlichkeit",
+    "fields": {
+      "plural_forms": [
+        "die Beharrlichkeiten"
+      ],
+      "forms": [
+        {
+          "surface": "die Beharrlichkeit",
+          "number": "sg",
+          "case": "nom",
+          "role": "core",
+          "tags": {
+            "slot_key": "nom_sg_def",
+            "grammar_tags": []
+          }
+        },
+        {
+          "surface": "die Beharrlichkeit",
+          "number": "sg",
+          "case": "acc",
+          "role": "extended",
+          "tags": {
+            "slot_key": "acc_sg_def",
+            "grammar_tags": [
+              "accusative",
+              "singular"
+            ]
+          }
+        },
+        {
+          "surface": "der Beharrlichkeit",
+          "number": "sg",
+          "case": "dat",
+          "role": "extended",
+          "tags": {
+            "slot_key": "dat_sg_def",
+            "grammar_tags": [
+              "dative",
+              "singular"
+            ]
+          }
+        },
+        {
+          "surface": "der Beharrlichkeit",
+          "number": "sg",
+          "case": "gen",
+          "role": "extended",
+          "tags": {
+            "slot_key": "gen_sg_def",
+            "grammar_tags": [
+              "genitive",
+              "singular"
+            ]
+          }
+        },
+        {
+          "surface": "die Beharrlichkeiten",
+          "number": "pl",
+          "case": "nom",
+          "role": "core",
+          "tags": {}
+        }
+      ],
+      "grammar_note": "Als Eigenschaft meist Singular. Der Plural Beharrlichkeiten ist möglich."
+    }
+  },
+  {
+    "id": "lexeme-de-c2-gespuer",
+    "expected_lemma": "Gespür",
+    "reference": "https://www.duden.de/deklination/substantive/Gespuer",
+    "fields": {
+      "plural_forms": [],
+      "forms": [
+        {
+          "surface": "das Gespür",
+          "number": "sg",
+          "case": "nom",
+          "role": "core",
+          "tags": {
+            "slot_key": "nom_sg_def",
+            "grammar_tags": []
+          }
+        },
+        {
+          "surface": "das Gespür",
+          "number": "sg",
+          "case": "acc",
+          "role": "extended",
+          "tags": {
+            "slot_key": "acc_sg_def",
+            "grammar_tags": [
+              "accusative",
+              "singular"
+            ]
+          }
+        },
+        {
+          "surface": "dem Gespür",
+          "number": "sg",
+          "case": "dat",
+          "role": "extended",
+          "tags": {
+            "slot_key": "dat_sg_def",
+            "grammar_tags": [
+              "dative",
+              "singular"
+            ]
+          }
+        },
+        {
+          "surface": "des Gespürs",
+          "number": "sg",
+          "case": "gen",
+          "role": "extended",
+          "tags": {
+            "slot_key": "gen_sg_def",
+            "grammar_tags": [
+              "genitive",
+              "singular"
+            ]
+          }
+        }
+      ],
+      "plural_usage": "singular_in_sense",
+      "grammar_note": "Für das intuitive Gefühl verwendet man Gespür gewöhnlich im Singular: ein Gespür für Stimmungen."
+    }
+  },
+  {
+    "id": "lex-de-land",
+    "expected_lemma": "Land",
+    "reference": "https://www.duden.de/rechtschreibung/Land",
+    "fields": {
+      "german_examples": [
+        {
+          "sentence": "Auf dem Land fahren abends nur wenige Busse.",
+          "translation_language": "en",
+          "translation": "In the countryside, only a few buses run in the evening."
+        }
+      ],
+      "grammar_note": "In der Bedeutung ländliche Gegend steht Land hier im Singular. Für Staaten gibt es den Plural Länder.",
+      "sense_reviewed": true,
+      "plural_forms": [],
+      "forms": [
+        {
+          "surface": "das Land",
+          "number": "sg",
+          "case": "nom",
+          "role": "core",
+          "tags": {
+            "slot_key": "nom_sg_def",
+            "grammar_tags": []
+          }
+        },
+        {
+          "surface": "das Land",
+          "number": "sg",
+          "case": "acc",
+          "role": "extended",
+          "tags": {
+            "slot_key": "acc_sg_def",
+            "grammar_tags": [
+              "accusative",
+              "singular"
+            ]
+          }
+        },
+        {
+          "surface": "dem Land",
+          "number": "sg",
+          "case": "dat",
+          "role": "extended",
+          "tags": {
+            "slot_key": "dat_sg_def",
+            "grammar_tags": [
+              "dative",
+              "singular"
+            ]
+          }
+        },
+        {
+          "surface": "des Lands",
+          "number": "sg",
+          "case": "gen",
+          "role": "extended",
+          "tags": {
+            "slot_key": "gen_sg_def",
+            "grammar_tags": [
+              "genitive",
+              "singular"
+            ]
+          }
+        }
+      ],
+      "plural_usage": "singular_in_sense"
+    }
+  },
+  {
+    "id": "lex-de-land-country",
+    "expected_lemma": "Land",
+    "reference": "https://www.duden.de/rechtschreibung/Land",
+    "fields": {
+      "german_examples": [
+        {
+          "sentence": "Die beiden Länder haben eine gemeinsame Grenze.",
+          "translation_language": "en",
+          "translation": "The two countries share a border."
+        }
+      ],
+      "grammar_note": "Land im Sinn von Staat hat den Plural Länder.",
+      "sense_reviewed": true
+    }
+  },
+  {
+    "id": "lex-de-morgen-2",
+    "expected_lemma": "Morgen",
+    "reference": "https://www.duden.de/rechtschreibung/Morgen_Tagesbeginn",
+    "fields": {
+      "german_examples": [
+        {
+          "sentence": "An diesem Morgen war der Bahnsteig fast leer.",
+          "translation_language": "en",
+          "translation": "That morning the platform was almost empty."
+        }
+      ],
+      "grammar_note": "Der Morgen ist ein Nomen. Das Zeitadverb morgen bezeichnet den folgenden Tag.",
+      "sense_reviewed": true
+    }
+  },
+  {
+    "id": "lex-de-morgen",
+    "expected_lemma": "morgen",
+    "reference": "https://www.duden.de/rechtschreibung/morgen",
+    "fields": {
+      "german_examples": [
+        {
+          "sentence": "Wir treffen uns morgen nach der Arbeit.",
+          "translation_language": "en",
+          "translation": "We’ll meet tomorrow after work."
+        }
+      ],
+      "grammar_note": "Das Zeitadverb morgen wird kleingeschrieben, außer am Satzanfang.",
+      "sense_reviewed": true
+    }
+  },
+  {
+    "id": "lex-de-ganz",
+    "expected_lemma": "ganz",
+    "reference": "https://www.duden.de/rechtschreibung/ganz",
+    "fields": {
+      "german_examples": [
+        {
+          "sentence": "Die ganze Pizza reicht für vier Personen.",
+          "translation_language": "en",
+          "translation": "The whole pizza is enough for four people."
+        }
+      ],
+      "grammar_note": "Vor einem Nomen wird ganz hier wie ein Adjektiv dekliniert: die ganze Pizza.",
+      "sense_reviewed": true,
+      "part_of_speech": "adj"
+    }
+  },
+  {
+    "id": "lex-de-ganz-completely",
+    "expected_lemma": "ganz",
+    "reference": "https://www.duden.de/rechtschreibung/ganz",
+    "fields": {
+      "german_examples": [
+        {
+          "sentence": "Nach dem Spaziergang waren meine Schuhe ganz nass.",
+          "translation_language": "en",
+          "translation": "After the walk my shoes were completely wet."
+        }
+      ],
+      "grammar_note": "Vor nass wird ganz adverbial zur Verstärkung verwendet.",
+      "sense_reviewed": true
+    }
+  },
+  {
+    "id": "lex-de-platz",
+    "expected_lemma": "Platz",
+    "reference": "https://www.duden.de/rechtschreibung/Platz",
+    "fields": {
+      "german_examples": [
+        {
+          "sentence": "Auf dem Platz vor dem Rathaus findet ein Markt statt.",
+          "translation_language": "en",
+          "translation": "There’s a market in the square in front of the town hall."
+        }
+      ],
+      "grammar_note": "Hier bezeichnet Platz einen offenen Bereich in der Stadt.",
+      "sense_reviewed": true
+    }
+  },
+  {
+    "id": "lex-de-platz-seat",
+    "expected_lemma": "Platz",
+    "reference": "https://www.duden.de/rechtschreibung/Platz",
+    "fields": {
+      "german_examples": [
+        {
+          "sentence": "Ist der Platz neben dir noch frei?",
+          "translation_language": "en",
+          "translation": "Is the seat next to you still free?"
+        }
+      ],
+      "grammar_note": "Hier bezeichnet Platz eine Sitzgelegenheit.",
+      "sense_reviewed": true
+    }
+  },
+  {
+    "id": "lex-de-einfach",
+    "expected_lemma": "einfach",
+    "reference": "https://www.duden.de/rechtschreibung/einfach_leicht_schlicht",
+    "fields": {
+      "german_examples": [
+        {
+          "sentence": "Die Aufgabe war einfacher als erwartet.",
+          "translation_language": "en",
+          "translation": "The task was easier than expected."
+        }
+      ],
+      "grammar_note": "Hier bedeutet einfach, dass etwas wenig Mühe macht.",
+      "sense_reviewed": true
+    }
+  },
+  {
+    "id": "3c8d2ee9-dabf-15a7-efe5-4cb92d3e222f",
+    "expected_lemma": "einfach",
+    "reference": "https://www.duden.de/rechtschreibung/einfach_leicht_schlicht",
+    "fields": {
+      "german_examples": [
+        {
+          "sentence": "Ich habe den Termin einfach vergessen.",
+          "translation_language": "en",
+          "translation": "I simply forgot the appointment."
+        }
+      ],
+      "grammar_note": "Hier verstärkt einfach die Aussage und bedeutet ungefähr schlicht.",
+      "sense_reviewed": true
+    }
+  },
+  {
+    "id": "8e0e49c8-15c1-5e7f-0ee6-6f23f5bd8b89",
+    "expected_lemma": "einfach",
+    "reference": "https://www.duden.de/rechtschreibung/einfach_leicht_schlicht",
+    "fields": {
+      "german_examples": [
+        {
+          "sentence": "Ich brauche eine einfache Fahrkarte nach Leipzig.",
+          "translation_language": "en",
+          "translation": "I need a one-way ticket to Leipzig."
+        }
+      ],
+      "grammar_note": "Bei einer Fahrkarte kann einfach die Fahrt ohne Rückfahrt bezeichnen.",
+      "sense_reviewed": true
+    }
+  },
+  {
+    "id": "1d94e6c7-c677-baf3-3db8-8d1dab097ebd",
+    "expected_lemma": "einfach",
+    "reference": "https://www.duden.de/rechtschreibung/einfach_leicht_schlicht",
+    "fields": {
+      "german_examples": [
+        {
+          "sentence": "Das Zimmer ist einfach eingerichtet: ein Tisch, ein Bett und ein Stuhl.",
+          "translation_language": "en",
+          "translation": "The room is plainly furnished: a table, a bed, and a chair."
+        }
+      ],
+      "grammar_note": "Hier beschreibt einfach eine schlichte Ausstattung.",
+      "sense_reviewed": true
+    }
+  },
+  {
+    "id": "lex-de-uberhaupt-3",
+    "expected_lemma": "überhaupt",
+    "reference": "https://www.duden.de/rechtschreibung/ueberhaupt",
+    "fields": {
+      "german_examples": [
+        {
+          "sentence": "Das hat mich überhaupt nicht gestört.",
+          "translation_language": "en",
+          "translation": "That didn’t bother me at all."
+        }
+      ],
+      "grammar_note": "Überhaupt nicht verstärkt die Verneinung.",
+      "sense_reviewed": true
+    }
+  },
+  {
+    "id": "lex-de-uberhaupt-2",
+    "expected_lemma": "überhaupt",
+    "reference": "https://www.duden.de/rechtschreibung/ueberhaupt",
+    "fields": {
+      "german_examples": [
+        {
+          "sentence": "Der Text handelt nicht nur von dieser Schule, sondern von Schulen überhaupt.",
+          "translation_language": "en",
+          "translation": "The text is about schools in general, including this one."
+        }
+      ],
+      "grammar_note": "Hier bezieht sich überhaupt auf die ganze Gruppe.",
+      "sense_reviewed": true
+    }
+  },
+  {
+    "id": "lex-de-uberhaupt",
+    "expected_lemma": "überhaupt",
+    "reference": "https://www.duden.de/rechtschreibung/ueberhaupt",
+    "fields": {
+      "german_examples": [
+        {
+          "sentence": "Hast du überhaupt Zeit, die Aufgabe heute zu erledigen?",
+          "translation_language": "en",
+          "translation": "Do you even have time to finish the task today?"
+        }
+      ],
+      "grammar_note": "In dieser Frage signalisiert überhaupt Zweifel.",
+      "sense_reviewed": true
+    }
+  },
+  {
+    "id": "lex-de-spitz",
+    "expected_lemma": "spitz",
+    "reference": "https://www.duden.de/rechtschreibung/spitz",
+    "fields": {
+      "german_examples": [
+        {
+          "sentence": "Die Nadel ist spitz, pass auf deine Finger auf.",
+          "translation_language": "en",
+          "translation": "The needle is sharp, so watch your fingers."
+        }
+      ],
+      "grammar_note": "Hier beschreibt spitz die Form eines Gegenstands.",
+      "sense_reviewed": true
+    }
+  },
+  {
+    "id": "lex-de-spitz-2",
+    "expected_lemma": "spitz",
+    "reference": "https://www.duden.de/rechtschreibung/spitz",
+    "fields": {
+      "german_examples": [
+        {
+          "sentence": "Seine spitze Bemerkung hat mich geärgert.",
+          "translation_language": "en",
+          "translation": "His cutting remark annoyed me."
+        }
+      ],
+      "grammar_note": "Übertragen bezeichnet spitz hier eine scharf formulierte Bemerkung.",
+      "sense_reviewed": true
+    }
+  },
+  {
+    "id": "lex-de-spitze",
+    "expected_lemma": "Spitze",
+    "reference": "https://www.duden.de/rechtschreibung/Spitze",
+    "fields": {
+      "german_examples": [
+        {
+          "sentence": "An der Spitze des Turms leuchtet nachts eine Lampe.",
+          "translation_language": "en",
+          "translation": "A light shines at the top of the tower at night."
+        }
+      ],
+      "grammar_note": "Hier meint Spitze den oberen oder äußersten Teil eines Gegenstands.",
+      "sense_reviewed": true
+    }
+  },
+  {
+    "id": "lex-de-spitze-4",
+    "expected_lemma": "spitze",
+    "reference": "https://www.duden.de/rechtschreibung/spitze",
+    "fields": {
+      "german_examples": [
+        {
+          "sentence": "Das Konzert gestern war spitze.",
+          "translation_language": "en",
+          "translation": "Yesterday’s concert was excellent."
+        }
+      ],
+      "grammar_note": "Umgangssprachlich und hier ungebeugt: Das war spitze.",
+      "sense_reviewed": true
+    }
+  },
+  {
+    "id": "lex-de-spitze-2",
+    "expected_lemma": "Spitze",
+    "reference": "https://www.duden.de/rechtschreibung/Spitze",
+    "fields": {
+      "german_examples": [
+        {
+          "sentence": "Der Kragen des Kleides ist aus feiner Spitze.",
+          "translation_language": "en",
+          "translation": "The dress collar is made of fine lace."
+        }
+      ],
+      "grammar_note": "Hier bezeichnet Spitze ein Gewebe, etwa in einem Kragen aus Spitze.",
+      "sense_reviewed": true
+    }
+  },
+  {
+    "id": "lex-de-spitze-3",
+    "expected_lemma": "Spitze",
+    "reference": "https://www.duden.de/rechtschreibung/Spitze",
+    "fields": {
+      "german_examples": [
+        {
+          "sentence": "Nach dem Sieg steht das Team an der Spitze der Tabelle.",
+          "translation_language": "en",
+          "translation": "After the win, the team is at the top of the standings."
+        }
+      ],
+      "grammar_note": "An der Spitze stehen bedeutet hier, den ersten Rang einzunehmen.",
+      "sense_reviewed": true
+    }
+  },
+  {
+    "id": "lex-de-doch",
+    "expected_lemma": "doch",
+    "reference": "https://www.duden.de/rechtschreibung/doch_Partikel",
+    "fields": {
+      "german_examples": [
+        {
+          "sentence": "„Du kommst heute nicht mit?“ – „Doch, ich komme mit.“",
+          "translation_language": "en",
+          "translation": "“You’re not coming with us today?” “Yes, I am.”"
+        }
+      ],
+      "grammar_note": "Als Antwortpartikel widerspricht doch einer verneinten Aussage oder Frage.",
+      "sense_reviewed": true,
+      "part_of_speech": "particle"
+    }
+  },
+  {
+    "id": "lex-de-doch-2",
+    "expected_lemma": "doch",
+    "reference": "https://www.duden.de/rechtschreibung/doch_Partikel",
+    "fields": {
+      "german_examples": [
+        {
+          "sentence": "Komm doch am Samstag mit uns ins Museum!",
+          "translation_language": "en",
+          "translation": "Why don’t you come to the museum with us on Saturday?"
+        }
+      ],
+      "grammar_note": "Als Abtönungspartikel kann doch eine Aufforderung einladender machen.",
+      "sense_reviewed": true,
+      "part_of_speech": "particle"
+    }
+  },
+  {
+    "id": "lex-de-kind-2",
+    "expected_lemma": "Kind",
+    "reference": "https://www.duden.de/rechtschreibung/Kind",
+    "fields": {
+      "german_examples": [
+        {
+          "sentence": "Zwei Kinder bauen im Garten ein Zelt auf.",
+          "translation_language": "en",
+          "translation": "Two children are putting up a tent in the garden."
+        }
+      ],
+      "grammar_note": "Plural: die Kinder. Dativ Plural: den Kindern."
+    }
+  }
+]

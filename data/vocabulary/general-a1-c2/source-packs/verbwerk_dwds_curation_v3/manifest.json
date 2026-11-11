@@ -1,0 +1,17 @@
+{
+  "pack_id": "verbwerk.dwds.curation.v3",
+  "pack_role": "supplemental",
+  "version": "3.0.0",
+  "entry_count": 47,
+  "source_url": "https://clarin.bbaw.de/de/objects/dwds%3A2/",
+  "source_dataset_version": "2022-07-28",
+  "source_license": "CC-BY-SA-4.0",
+  "learner_text_license": "CC-BY-4.0",
+  "reviewed_at": "2026-11-10",
+  "pre_curation_triage": {
+    "example_triage": 576,
+    "headword_absent": 68,
+    "pos_disagrees": 36,
+    "gender_disagrees": 1
+  }
+}

@@ -1,0 +1,364 @@
+{
+  "batch_id": "v11-vocabulary-review-48",
+  "review_date": "2026-11-11",
+  "input_database_sha256": "1171581706a26eabed98f5269c4a4d4337d094eb9e4b62c54f7524a5c55b4358",
+  "accepted_examples": [
+    {
+      "entry_id": "frequency:4150",
+      "german": "Tom und Maria haben heute ihre Verlobung bekanntgegeben.",
+      "english": "Tom and Mary announced their engagement today.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4155",
+      "german": "Gehen Sie zum Rauchen auf den Balkon.",
+      "english": "Go and smoke on the balcony.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4158",
+      "german": "K\u00f6nnt ihr eure Tat rechtfertigen?",
+      "english": "Can you justify your action?",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4159",
+      "german": "Was hat Sie zu Ihrer Weltreise inspiriert?",
+      "english": "What inspired you to travel around the world?",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4160",
+      "german": "Ziehen Sie doch dieses Shirt einmal an, es besteht aus bester Baumwolle.",
+      "english": "Try on that shirt. It's made of fine cotton.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4162",
+      "german": "Tom spuckte auf den Boden.",
+      "english": "Tom spit on the floor.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4163",
+      "german": "Ist das Paket denn noch nicht eingetroffen?",
+      "english": "Hasn't the parcel arrived yet?",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4165",
+      "german": "Die Hitze ist fast unertr\u00e4glich.",
+      "english": "The heat is almost unbearable.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4168",
+      "german": "Toms Mannschaft ist die schlechteste in der Liga.",
+      "english": "Tom's team is the worst team in the league.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "curated:lex-de-wertlos",
+      "german": "Diese Daten sind jetzt wertlos.",
+      "english": "This data is of no value now.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4170",
+      "german": "Mein gottverdammter Chef l\u00e4sst mich schon wieder \u00dcberstunden machen!",
+      "english": "My goddamn boss lets me do overtime again!",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4172",
+      "german": "Der Rechner war zu alt, um am Netzwerk teilzunehmen.",
+      "english": "The computer was too old to participate in the network.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4173",
+      "german": "Die Laute ist ein Saiteninstrument.",
+      "english": "The lute is a string instrument.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4174",
+      "german": "Slawische Sprachen faszinieren mich.",
+      "english": "Slavic languages fascinate me.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4176",
+      "german": "Die Automobilindustrie ist eine der wichtigsten Branchen in Japan.",
+      "english": "The automobile industry is one of the main industries in Japan.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4177",
+      "german": "M\u00f6chtest du noch etwas So\u00dfe?",
+      "english": "Do you want some more sauce?",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4178",
+      "german": "K\u00fcnstliches Licht wird durch Elektrizit\u00e4t erzeugt.",
+      "english": "Artificial light is produced by electricity.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4179",
+      "german": "Dieses Haus ist auf meinen Namen registriert.",
+      "english": "This house is registered in my name.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4180",
+      "german": "Hast du Tom schon einmal Basketball spielen sehen?",
+      "english": "Have you ever seen Tom play basketball?",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4181",
+      "german": "Willst du dein Gep\u00e4ck nicht endlich absetzen?",
+      "english": "Don't you want to put your luggage down?",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4182",
+      "german": "Der Vorsitzende schnitt mir das Wort ab.",
+      "english": "The chairperson cut me short.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4183",
+      "german": "Er kann seine Bed\u00fcrfnisse nicht kontrollieren.",
+      "english": "He can't control his desires.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4184",
+      "german": "Die Suite hatte ein gro\u00dfes Bad mit eigenem Whirlpool.",
+      "english": "The suite had a large bathroom with private hot tub.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4185",
+      "german": "Das ist ein Land, das schwer zu regieren ist.",
+      "english": "It's a difficult country to govern.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4186",
+      "german": "Tom ist immer noch Barkeeper, oder?",
+      "english": "Tom is still a bartender, isn't he?",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4189",
+      "german": "Kannst du mir die Datei per E-Mail schicken?",
+      "english": "Can you email me the file?",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4190",
+      "german": "Das Forschungsinstitut wurde in den sp\u00e4ten Sechzigern gegr\u00fcndet.",
+      "english": "The research institute was established in the late 1960s.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4192",
+      "german": "Gesellschaftlicher Umgang f\u00e4llt Tom schwer.",
+      "english": "Tom has trouble with social interactions.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4194",
+      "german": "Tom sagte, er glaube, dass Erziehung wichtig sei.",
+      "english": "Tom said that he thought that education was important.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4197",
+      "german": "Tom wird vermutlich \u00fcberf\u00fchrt und hingerichtet werden.",
+      "english": "Tom will probably be convicted and executed.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4199",
+      "german": "Er ist noch auf seine Eltern angewiesen.",
+      "english": "He is still dependent on his parents.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4200",
+      "german": "Tom spielt Bass in einer Rockband.",
+      "english": "Tom plays bass in a rock band.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4202",
+      "german": "Dieser Film basiert auf einem Roman.",
+      "english": "This film is based on a novel.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4204",
+      "german": "Hast du angeordnet, dass das Zimmer geputzt wird?",
+      "english": "Have you arranged for the room to be cleaned?",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4205",
+      "german": "Tom wird wahrscheinlich gewaltt\u00e4tig werden.",
+      "english": "Tom will probably become violent.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4206",
+      "german": "Beim Untergang eines gro\u00dfen s\u00fcdkoreanischen F\u00e4hrschiffes kamen viele Menschen um.",
+      "english": "Many people died when a large South Korean ferry sank.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4207",
+      "german": "Der Teich ist zu flach f\u00fcrs Schwimmen.",
+      "english": "The pond is too shallow for swimming.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4208",
+      "german": "Ich habe von einem ber\u00fchmten S\u00e4nger ein Autogramm bekommen.",
+      "english": "I got a famous singer's autograph.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4209",
+      "german": "Er ist stolz, ein Schwuler zu sein.",
+      "english": "He's proud to be a gay man.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    }
+  ],
+  "editorial_examples": [
+    {
+      "entry_id": "frequency:4152",
+      "german": "Das sind meine Eltern, die wollen sich gleichfalls informieren.",
+      "english": "They are my parents, and they want to find out about it too.",
+      "note": "Corrected the English translation to express gleichfalls and informieren accurately."
+    },
+    {
+      "entry_id": "frequency:4154",
+      "german": "\u201ePr\u00fcgel\u201c bedeutet in der Wendung \u201eeine Tracht Pr\u00fcgel\u201c Schl\u00e4ge.",
+      "english": "\u201cPr\u00fcgel\u201d means \u201ca beating\u201d in the expression \u201ceine Tracht Pr\u00fcgel.\u201d",
+      "note": "Replaced a sentence that endorsed corporal punishment; this neutral metalinguistic example teaches the attested plural sense.",
+      "evidence_url": "https://www.duden.de/rechtschreibung/Pruegel"
+    },
+    {
+      "entry_id": "frequency:4161",
+      "german": "Wir haben beide M\u00f6glichkeiten sorgf\u00e4ltig untersucht.",
+      "english": "We carefully examined both options.",
+      "note": "Corrected the English translation to match the German sentence directly."
+    },
+    {
+      "entry_id": "frequency:4166",
+      "german": "Ich werde vorerst weiterhin in einem Hotel wohnen.",
+      "english": "For the time being, I will continue to stay at a hotel.",
+      "note": "Restored the future and continuing aspects expressed in the German sentence."
+    },
+    {
+      "entry_id": "frequency:4167",
+      "german": "Ein verirrter Wanderer bat um Hilfe.",
+      "english": "A lost hiker asked for help.",
+      "note": "Changed the example to use the participle as an adjective, matching the entry classification.",
+      "evidence_url": "https://www.duden.de/rechtschreibung/verirren"
+    },
+    {
+      "entry_id": "frequency:4175",
+      "german": "Die Akademie nimmt im Jahr nur zwei neue Mitglieder auf.",
+      "english": "The academy admits only two new members each year.",
+      "note": "Replaced the awkward literal translation with natural English."
+    },
+    {
+      "entry_id": "frequency:4191",
+      "german": "Ein Wall umgab die alte Stadt.",
+      "english": "A rampart surrounded the old town.",
+      "note": "Replaced Wall Street, which uses a proper name unrelated to the entry sense rampart."
+    },
+    {
+      "entry_id": "frequency:4195",
+      "german": "Die Tarnung der Agentin ist aufgeflogen.",
+      "english": "The agent\u2019s cover was blown.",
+      "note": "Corrected the literal machine translation; aufgeflogen here means the cover was exposed."
+    },
+    {
+      "entry_id": "frequency:4196",
+      "german": "Im Institut f\u00fcr V\u00f6lkerrecht finden auch Staatspr\u00fcfungen statt.",
+      "english": "State examinations are also held at the Institute for International Law.",
+      "note": "Corrected the English wording while keeping the German source example."
+    },
+    {
+      "entry_id": "frequency:4198",
+      "german": "Sie lenkte den Wagen vorsichtig durch die enge Stra\u00dfe.",
+      "english": "She carefully steered the car through the narrow street.",
+      "note": "Replaced an unsafe example about steering with one hand-free, careful driving."
+    },
+    {
+      "entry_id": "frequency:4201",
+      "german": "Nach dem Unfall war sein Bein vor\u00fcbergehend lahm.",
+      "english": "He could barely move his leg for a while after the accident.",
+      "note": "Replaced the blunt first-person sentence with a contextual example and a neutral English paraphrase.",
+      "evidence_url": "https://www.duden.de/rechtschreibung/lahm"
+    }
+  ],
+  "held_examples": [
+    {
+      "entry_id": "frequency:4154",
+      "german": "Dieses ungezogene Kind braucht mal eine Tracht Pr\u00fcgel.",
+      "reason": "Replaced a sentence that endorsed corporal punishment; this neutral metalinguistic example teaches the attested plural sense."
+    },
+    {
+      "entry_id": "frequency:4167",
+      "german": "Ich habe mich ein bisschen im Wald verirrt.",
+      "reason": "Changed the example to use the participle as an adjective, matching the entry classification."
+    },
+    {
+      "entry_id": "frequency:4191",
+      "german": "Tom war, nachdem er einige Jahre in der Wall Street gearbeitet hatte, v\u00f6llig desillusioniert.",
+      "reason": "Replaced Wall Street, which uses a proper name unrelated to the entry sense rampart."
+    },
+    {
+      "entry_id": "frequency:4198",
+      "german": "Tom lenkte den Wagen mit den Knien.",
+      "reason": "Replaced an unsafe example about steering with one hand-free, careful driving."
+    },
+    {
+      "entry_id": "frequency:4201",
+      "german": "Mein Bein ist lahm.",
+      "reason": "Replaced the blunt first-person sentence with a contextual example and a neutral English paraphrase."
+    }
+  ],
+  "entry_updates": [
+    {
+      "entry_id": "frequency:4154",
+      "field": "meaning",
+      "value": "cudgel, club (regional); blows or a beating (plural, especially in expressions)",
+      "note": "Added the plural-only blows/beating sense used by the entry and example; the word also has a regional singular cudgel sense.",
+      "url": "https://www.duden.de/rechtschreibung/Pruegel"
+    },
+    {
+      "entry_id": "frequency:4170",
+      "field": "meaning",
+      "value": "damned, goddamned (strong, coarse term for something considered very bad or irritating)",
+      "note": "Added an explicit register label so learners can recognize the force of this strongly colloquial adjective.",
+      "url": "https://www.duden.de/rechtschreibung/gottverdammt"
+    },
+    {
+      "entry_id": "frequency:4201",
+      "field": "meaning",
+      "value": "unable to move or function properly (especially of a limb or animal); lame",
+      "note": "Reworded the gloss in neutral terms and retained the literal dictionary equivalent.",
+      "url": "https://www.duden.de/rechtschreibung/lahm"
+    }
+  ],
+  "plural_reviews": [],
+  "inflected_links": []
+}

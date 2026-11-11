@@ -1,0 +1,37 @@
+{
+  "pack_id": "verbwerk.dwds.audit.v2",
+  "pack_role": "supplemental",
+  "version": "2.0.0",
+  "entry_count": 26,
+  "source_url": "https://clarin.bbaw.de/de/objects/dwds%3A2/",
+  "source_dataset_version": "2022-07-28",
+  "source_license": "CC-BY-SA-4.0",
+  "learner_text_license": "CC-BY-4.0",
+  "reviewed_at": "2026-11-10",
+  "pre_audit_comparison": {
+    "matchedDistinct": 738,
+    "distinct": 806,
+    "coverage": [
+      {
+        "rank": 100,
+        "matched": 45,
+        "dwdsCandidate": 52
+      },
+      {
+        "rank": 500,
+        "matched": 178,
+        "dwdsCandidate": 301
+      },
+      {
+        "rank": 1000,
+        "matched": 261,
+        "dwdsCandidate": 694
+      },
+      {
+        "rank": 5000,
+        "matched": 492,
+        "dwdsCandidate": 4246
+      }
+    ]
+  }
+}

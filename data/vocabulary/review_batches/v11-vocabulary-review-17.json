@@ -1,0 +1,471 @@
+{
+  "batch_id": "v11-vocabulary-review-17",
+  "review_date": "2026-11-11",
+  "input_database_sha256": "39ddef63f3cf18785e5ca39732b6a7c4b85b2df3b128b7fe5042b7dcad50b91f",
+  "accepted_examples": [
+    {
+      "entry_id": "frequency:858",
+      "german": "Das Flugzeug flog um halb drei ab.",
+      "english": "The plane took off at 2:30.",
+      "note": "The German sentence uses Flugzeug as the ordinary noun for an aircraft, and the translation matches the take-off event and time."
+    },
+    {
+      "entry_id": "frequency:859",
+      "german": "Du musst aufhören, in der Vergangenheit zu leben.",
+      "english": "You have to stop living in the past.",
+      "note": "Vergangenheit means the past; the idiom in der Vergangenheit leben matches the English meaning."
+    },
+    {
+      "entry_id": "frequency:860",
+      "german": "Boston ist wie eine zweite Heimat für mich.",
+      "english": "Boston is like my second home.",
+      "note": "zweite is the inflected form of second modifying Heimat, with the same meaning in English."
+    },
+    {
+      "entry_id": "frequency:861",
+      "german": "Die Stadt wurde von einer großen Armee verteidigt.",
+      "english": "The town was defended by a large army.",
+      "note": "Armee means army in this sentence; the English translation preserves the defended-town context."
+    },
+    {
+      "entry_id": "curated:lex-de-tee",
+      "german": "Ich möchte heißen Tee trinken.",
+      "english": "I want to drink some hot tea.",
+      "note": "Tee means tea in a natural food-and-drink context, and heißen corresponds to hot."
+    },
+    {
+      "entry_id": "frequency:865",
+      "german": "Glaubst du, ich ließe mich davon aufhalten?",
+      "english": "Do you think I'd let that stop me?",
+      "note": "aufhalten means stop or hold back here; the English translation expresses the same sense."
+    },
+    {
+      "entry_id": "frequency:867",
+      "german": "Du musst dein Zimmer jeden Tag sauber machen.",
+      "english": "You must clean your room every day.",
+      "note": "sauber machen means clean/tidy in this everyday room-cleaning context."
+    },
+    {
+      "entry_id": "frequency:870",
+      "german": "Ich versetzte ihm einen Schlag aufs Ohr.",
+      "english": "I dealt him a blow on the ear.",
+      "note": "Schlag means a blow in the physical sense, matching the English translation."
+    },
+    {
+      "entry_id": "frequency:871",
+      "german": "Der Sheriff erwartet dich in seinem Büro.",
+      "english": "The sheriff is waiting for you in his office.",
+      "note": "Sheriff is used for the same public official as in English."
+    },
+    {
+      "entry_id": "frequency:880",
+      "german": "Ich habe es getan, um überleben zu können.",
+      "english": "I did that in order to survive.",
+      "note": "überleben means survive, matching the purpose clause and English translation."
+    },
+    {
+      "entry_id": "frequency:882",
+      "german": "Ich muss mir ein Büro mit Tom teilen.",
+      "english": "I have to share an office with Tom.",
+      "note": "teilen means share in the ordinary sense of sharing an office."
+    },
+    {
+      "entry_id": "frequency:883",
+      "german": "Das ist das größte Gebäude in der Stadt.",
+      "english": "It's the biggest building in the city.",
+      "note": "Gebäude means building; the comparative sentence and translation align."
+    },
+    {
+      "entry_id": "frequency:884",
+      "german": "Er war bereit, sich seinem Schicksal zu stellen.",
+      "english": "He was ready to face his fate.",
+      "note": "Schicksal means fate/destiny in the idiom sich dem Schicksal stellen."
+    },
+    {
+      "entry_id": "frequency:886",
+      "german": "Der Angeklagte erklärte dem Richter, unschuldig zu sein.",
+      "english": "The accused told the judge that he was innocent.",
+      "note": "Richter means judge in the legal context, with the dative recipient matching the translation."
+    },
+    {
+      "entry_id": "frequency:887",
+      "german": "Ich bin besorgt, was wohl passiert, wenn Tom nicht gewinnt.",
+      "english": "I'm worried about what'll happen if Tom doesn't win.",
+      "note": "besorgt means worried, and the subordinate clause gives a plausible cause for concern."
+    },
+    {
+      "entry_id": "curated:lex-de-kuche",
+      "german": "Die Küche in dem Haus ist sehr schön.",
+      "english": "The kitchen in that house is very nice.",
+      "note": "Küche means kitchen; the sentence and translation describe the same room."
+    },
+    {
+      "entry_id": "frequency:890",
+      "german": "Das Volk lehnte sich gegen den König auf.",
+      "english": "The people rebelled against the king.",
+      "note": "Volk means a people/population as a collective, matching the rebellion context."
+    },
+    {
+      "entry_id": "curated:lexeme-de-a2-herausfinden",
+      "german": "Eines Tages werden wir die Wahrheit herausfinden.",
+      "english": "We'll discover the truth one day.",
+      "note": "herausfinden means find out/discover, and the truth is the object of that discovery."
+    }
+  ],
+  "held_examples": [
+    {
+      "entry_id": "frequency:863",
+      "german": "Tom ist entweder ein Döskopp oder ein Genie.",
+      "reason": "Döskopp is a strongly regional/colloquial insult, so this sentence is not a clear beginner-friendly example of the either-or conjunction."
+    },
+    {
+      "entry_id": "frequency:864",
+      "german": "Sei bei ihm vorsichtig! Er ist ein Don Juan.",
+      "reason": "Don Juan is a fixed proper-name expression and does not demonstrate Don as an honorific title."
+    },
+    {
+      "entry_id": "curated:lex-de-uberrascht",
+      "german": "Ihr plötzlicher Tod hat uns sehr überrascht.",
+      "reason": "The example centers on a sudden death, an unnecessarily distressing context for a general learner example."
+    },
+    {
+      "entry_id": "frequency:869",
+      "german": "Was ist dein Lieblingszitat von Mark Twain?",
+      "reason": "Mark is only part of the proper name Mark Twain here; the sentence does not demonstrate the marrow sense."
+    },
+    {
+      "entry_id": "frequency:872",
+      "german": "Ich verstehe ohne Untertitel nichts.",
+      "reason": "The sentence uses Untertitel in the film-caption sense, while this entry’s selected meaning is subheading."
+    },
+    {
+      "entry_id": "frequency:877",
+      "german": "Das Hemd ganz bis an den Hals zuknöpfen!",
+      "reason": "The source is an infinitive-style instruction fragment rather than a complete contextual sentence."
+    },
+    {
+      "entry_id": "frequency:892",
+      "german": "Da die Königin kam, hissten sie die Flagge.",
+      "reason": "The German sentence and its English translation describe different events, so they are not a reliable bilingual pair."
+    }
+  ],
+  "editorial_examples": [
+    {
+      "entry_id": "frequency:863",
+      "german": "Du kannst entweder Tee oder Kaffee trinken.",
+      "english": "You can drink either tea or coffee.",
+      "note": "A short, neutral example that clearly demonstrates the correlative conjunction entweder ... oder."
+    },
+    {
+      "entry_id": "frequency:864",
+      "german": "Don Miguel begrüßte die Gäste im Innenhof.",
+      "english": "Don Miguel welcomed the guests in the courtyard.",
+      "note": "Don is used as the honorific before a personal name, rather than as part of the fixed name Don Juan."
+    },
+    {
+      "entry_id": "curated:lex-de-uberrascht",
+      "german": "Das Ergebnis hat uns alle überrascht.",
+      "english": "The result surprised us all.",
+      "note": "A neutral everyday example that directly expresses surprise."
+    },
+    {
+      "entry_id": "frequency:869",
+      "german": "Das Mark im Inneren des Knochens bildet neue Blutzellen.",
+      "english": "The marrow inside the bone produces new blood cells.",
+      "note": "The sentence demonstrates Mark in the marrow sense, not the proper name Mark."
+    },
+    {
+      "entry_id": "frequency:872",
+      "german": "Der Untertitel erklärt das Thema des Kapitels.",
+      "english": "The subheading explains the topic of the chapter.",
+      "note": "This uses Untertitel in the selected subheading sense."
+    },
+    {
+      "entry_id": "frequency:877",
+      "german": "Ein warmer Schal schützt den Hals vor der Kälte.",
+      "english": "A warm scarf protects the neck from the cold.",
+      "note": "A complete, neutral sentence that demonstrates Hals as the body part."
+    },
+    {
+      "entry_id": "frequency:892",
+      "german": "Die Königin empfing die Gäste im Schloss.",
+      "english": "The queen received the guests at the castle.",
+      "note": "A simple sentence with a direct translation and no unexplained flag-raising context."
+    }
+  ],
+  "plural_reviews": [
+    {
+      "entry_id": "frequency:3191",
+      "value": [
+        "Prinzipien"
+      ],
+      "source": "English Wiktionary via Kaikki/Wiktextract",
+      "url": "https://en.wiktionary.org/wiki/Prinzip#German",
+      "note": "For the general learner entry, retain the standard productive plural Prinzipien and omit rare or historical variants."
+    },
+    {
+      "entry_id": "frequency:3209",
+      "value": [
+        "Manhattan",
+        "Manhattans"
+      ],
+      "source": "English Wiktionary via Kaikki/Wiktextract",
+      "url": "https://en.wiktionary.org/wiki/Manhattan#German",
+      "note": "Both zero plural and the regular -s plural occur for the cocktail name."
+    },
+    {
+      "entry_id": "frequency:3217",
+      "value": [
+        "Kriminelle"
+      ],
+      "source": "English Wiktionary via Kaikki/Wiktextract",
+      "url": "https://en.wiktionary.org/wiki/Kriminelle#German",
+      "note": "This is a substantivized feminine adjective; Kriminelle is the nominative plural. Kriminellen is an oblique-case form, not a separate nominative plural."
+    },
+    {
+      "entry_id": "frequency:3232",
+      "value": [
+        "Wehre"
+      ],
+      "source": "English Wiktionary via Kaikki/Wiktextract",
+      "url": "https://en.wiktionary.org/wiki/Wehr#German",
+      "note": "Sense is weir/dam; Wehre is the corresponding plural."
+    },
+    {
+      "entry_id": "frequency:3256",
+      "value": [
+        "Gefangene"
+      ],
+      "source": "English Wiktionary via Kaikki/Wiktextract",
+      "url": "https://en.wiktionary.org/wiki/Gefangener#German",
+      "note": "This is a substantivized adjective; Gefangene is the nominative plural. Gefangenen is an oblique-case form."
+    },
+    {
+      "entry_id": "frequency:3271",
+      "value": [
+        "Loser"
+      ],
+      "source": "English Wiktionary via Kaikki/Wiktextract",
+      "url": "https://en.wiktionary.org/wiki/Loser#German",
+      "note": "The German loan noun commonly has an unchanged plural in this usage."
+    },
+    {
+      "entry_id": "frequency:3276",
+      "value": [
+        "Maya"
+      ],
+      "source": "English Wiktionary via Kaikki/Wiktextract",
+      "url": "https://en.wiktionary.org/wiki/Maya#German",
+      "note": "For the people/ethnonym sense, Maya is commonly used as an unchanged plural; omit the less general -s variant."
+    },
+    {
+      "entry_id": "frequency:3279",
+      "value": [
+        "Kater"
+      ],
+      "source": "English Wiktionary via Kaikki/Wiktextract",
+      "url": "https://en.wiktionary.org/wiki/Kater#German",
+      "note": "The male-cat noun has an unchanged plural."
+    },
+    {
+      "entry_id": "frequency:3292",
+      "value": [
+        "Pastoren",
+        "Pastöre"
+      ],
+      "source": "English Wiktionary via Kaikki/Wiktextract",
+      "url": "https://en.wiktionary.org/wiki/Pastor#German",
+      "note": "Both listed plural formations are established variants for Pastor."
+    },
+    {
+      "entry_id": "frequency:3304",
+      "value": [
+        "Handschuhe"
+      ],
+      "source": "German Wiktionary via gambolputty/german-nouns",
+      "url": "https://de.wiktionary.org/wiki/Handschuh",
+      "note": "Standard plural of Handschuh."
+    },
+    {
+      "entry_id": "frequency:3311",
+      "value": [
+        "Ranches",
+        "Ranchs"
+      ],
+      "source": "English Wiktionary via Kaikki/Wiktextract",
+      "url": "https://en.wiktionary.org/wiki/Ranch#German",
+      "note": "Both regular German -s plural spellings are recorded for this loan noun."
+    },
+    {
+      "entry_id": "frequency:3318",
+      "value": [
+        "Adler"
+      ],
+      "source": "English Wiktionary via Kaikki/Wiktextract",
+      "url": "https://en.wiktionary.org/wiki/Adler#German",
+      "note": "The noun has an unchanged plural."
+    },
+    {
+      "entry_id": "frequency:3337",
+      "value": [
+        "Gates"
+      ],
+      "source": "English Wiktionary via Kaikki/Wiktextract",
+      "url": "https://en.wiktionary.org/wiki/Gate#German",
+      "note": "The airport-gate loan noun takes the regular -s plural."
+    },
+    {
+      "entry_id": "frequency:3343",
+      "value": [
+        "Colas"
+      ],
+      "source": "English Wiktionary via Kaikki/Wiktextract",
+      "url": "https://en.wiktionary.org/wiki/Cola#German",
+      "note": "The beverage noun has the regular -s plural."
+    },
+    {
+      "entry_id": "frequency:3359",
+      "value": [
+        "Halle"
+      ],
+      "source": "English Wiktionary via Kaikki/Wiktextract",
+      "url": "https://en.wiktionary.org/wiki/Hall#German",
+      "note": "For the resonance/echo sense, the source records Halle as the plural."
+    },
+    {
+      "entry_id": "frequency:3369",
+      "value": [
+        "Mafias"
+      ],
+      "source": "German Wiktionary via gambolputty/german-nouns",
+      "url": "https://de.wiktionary.org/wiki/Mafia",
+      "note": "The collective noun has a regular plural when distinct organizations or groups are counted."
+    },
+    {
+      "entry_id": "frequency:3378",
+      "value": [
+        "Böcke"
+      ],
+      "source": "English Wiktionary via Kaikki/Wiktextract",
+      "url": "https://en.wiktionary.org/wiki/Bock#German",
+      "note": "Standard umlaut plural for Bock in the animal sense."
+    },
+    {
+      "entry_id": "frequency:3386",
+      "value": [
+        "Samurai"
+      ],
+      "source": "English Wiktionary via Kaikki/Wiktextract",
+      "url": "https://en.wiktionary.org/wiki/Samurai#German",
+      "note": "The loan noun is commonly unchanged in the plural."
+    },
+    {
+      "entry_id": "frequency:3396",
+      "value": [
+        "Laptops"
+      ],
+      "source": "English Wiktionary via Kaikki/Wiktextract",
+      "url": "https://en.wiktionary.org/wiki/Laptop#German",
+      "note": "Standard plural of Laptop."
+    },
+    {
+      "entry_id": "frequency:3398",
+      "value": [
+        "Status"
+      ],
+      "source": "German Wiktionary via gambolputty/german-nouns",
+      "url": "https://de.wiktionary.org/wiki/Status",
+      "note": "Status is commonly unchanged in the plural in German."
+    },
+    {
+      "entry_id": "frequency:3407",
+      "value": "Plural-only in this sense",
+      "source": "English Wiktionary via Kaikki/Wiktextract",
+      "url": "https://en.wiktionary.org/wiki/Flitterwochen#German",
+      "note": "Flitterwochen is plural-only for the honeymoon sense; retain a note rather than inventing a singular/plural pair."
+    },
+    {
+      "entry_id": "frequency:3422",
+      "value": [
+        "Helme"
+      ],
+      "source": "English Wiktionary via Kaikki/Wiktextract",
+      "url": "https://en.wiktionary.org/wiki/Helm#German",
+      "note": "Standard plural of Helm."
+    },
+    {
+      "entry_id": "frequency:3427",
+      "value": [
+        "Nazis"
+      ],
+      "source": "English Wiktionary via Kaikki/Wiktextract",
+      "url": "https://en.wiktionary.org/wiki/Nazi#German",
+      "note": "The normal plural of Nazi is Nazis; the unchanged spelling is not used as the ordinary plural."
+    },
+    {
+      "entry_id": "frequency:3433",
+      "value": [
+        "Tanks"
+      ],
+      "source": "English Wiktionary via Kaikki/Wiktextract",
+      "url": "https://en.wiktionary.org/wiki/Tank#German",
+      "note": "For the container sense, Tank takes the regular -s plural."
+    },
+    {
+      "entry_id": "frequency:3445",
+      "value": [
+        "Geschäftsleute",
+        "Geschäftsmänner"
+      ],
+      "source": "English Wiktionary via Kaikki/Wiktextract",
+      "url": "https://en.wiktionary.org/wiki/Gesch%C3%A4ftsmann#German",
+      "note": "Both forms occur for male businesspeople; Geschäftsleute is the usual gender-inclusive collective form."
+    },
+    {
+      "entry_id": "frequency:3452",
+      "value": [
+        "Angesichter",
+        "Angesichte"
+      ],
+      "source": "English Wiktionary via Kaikki/Wiktextract",
+      "url": "https://en.wiktionary.org/wiki/Angesicht#German",
+      "note": "Both forms are recorded; Angesichter is the clearer general plural, with Angesichte retained as a literary variant."
+    },
+    {
+      "entry_id": "frequency:3453",
+      "value": [
+        "Kriminelle"
+      ],
+      "source": "English Wiktionary via Kaikki/Wiktextract",
+      "url": "https://en.wiktionary.org/wiki/Krimineller#German",
+      "note": "This is a substantivized masculine adjective; Kriminelle is nominative plural, while Kriminellen is an oblique-case form."
+    },
+    {
+      "entry_id": "frequency:3458",
+      "value": [
+        "Burger"
+      ],
+      "source": "English Wiktionary via Kaikki/Wiktextract",
+      "url": "https://en.wiktionary.org/wiki/Burger#German",
+      "note": "Burger is commonly unchanged in the plural; avoid adding a less common imported ending."
+    },
+    {
+      "entry_id": "frequency:3463",
+      "value": [
+        "Zivilisten"
+      ],
+      "source": "English Wiktionary via Kaikki/Wiktextract",
+      "url": "https://en.wiktionary.org/wiki/Zivilist#German",
+      "note": "Standard plural of Zivilist."
+    },
+    {
+      "entry_id": "frequency:3474",
+      "value": [
+        "Anzahlen"
+      ],
+      "source": "German Wiktionary via gambolputty/german-nouns",
+      "url": "https://de.wiktionary.org/wiki/Anzahl",
+      "note": "Standard count plural when referring to different numbers or quantities."
+    }
+  ]
+}

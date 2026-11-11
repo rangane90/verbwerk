@@ -1,0 +1,2277 @@
+{
+  "schema_version": 1,
+  "pack_id": "verbwerk.dwds.curation.v3",
+  "entries": [
+    {
+      "id": "dwds-curated-sie-sg",
+      "concept_id": "dwds-curated-sie-sg",
+      "source_pack": "verbwerk_dwds_curation_v3",
+      "entry_kind": "vocabulary",
+      "lemma": "sie",
+      "display_form": "sie",
+      "part_of_speech": "pronoun",
+      "article": null,
+      "gender": "none",
+      "plural_forms": [],
+      "forms": [],
+      "english_terms": [
+        {
+          "term": "she",
+          "lemma": "she",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "she",
+      "german_definition": "Steht im Nominativ für eine weibliche Person oder ein feminines Nomen.",
+      "german_examples": [
+        {
+          "sentence": "Meine Schwester wohnt in Bonn. Nächste Woche kommt sie zu Besuch.",
+          "translation_language": "en",
+          "translation": "My sister lives in Bonn. She’s coming to visit next week."
+        }
+      ],
+      "grammar_note": "Singular: sie kommt. Akkusativ: sie. Dativ: ihr.",
+      "domains": [],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "sense_reviewed": true,
+      "provenance": {
+        "dwds_headword_id": "E_s_12242",
+        "dwds_part_of_speech": "P",
+        "dwds_source_lemma": "sie",
+        "dwds_snapshot_url": "https://clarin.bbaw.de/de/objects/dwds%3A2/",
+        "dwds_license": "CC-BY-SA-4.0",
+        "editorial_references": [
+          "https://www.duden.de/suchen/dudenonline/sie",
+          "https://www.duden.de/sprachwissen/fuer-lernende/wortarten-pronomen",
+          "https://www.duden.de/sprachwissen/sprachratgeber/Gross-oder-Kleinschreibung-von-sieSie"
+        ],
+        "reviewed_at": "2026-11-10"
+      }
+    },
+    {
+      "id": "dwds-curated-sie-pl",
+      "concept_id": "dwds-curated-sie-pl",
+      "source_pack": "verbwerk_dwds_curation_v3",
+      "entry_kind": "vocabulary",
+      "lemma": "sie",
+      "display_form": "sie",
+      "part_of_speech": "pronoun",
+      "article": null,
+      "gender": "none",
+      "plural_forms": [],
+      "forms": [],
+      "english_terms": [
+        {
+          "term": "they",
+          "lemma": "they",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "they",
+      "german_definition": "Steht für mehrere Personen oder Dinge, die bereits genannt wurden.",
+      "german_examples": [
+        {
+          "sentence": "Die Nachbarn ziehen um. Am Freitag packen sie ihre Sachen.",
+          "translation_language": "en",
+          "translation": "The neighbors are moving. They’re packing their things on Friday."
+        }
+      ],
+      "grammar_note": "Plural: sie kommen. Akkusativ: sie. Dativ: ihnen.",
+      "domains": [],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "sense_reviewed": true,
+      "provenance": {
+        "dwds_headword_id": "E_s_12242",
+        "dwds_part_of_speech": "P",
+        "dwds_source_lemma": "sie",
+        "dwds_snapshot_url": "https://clarin.bbaw.de/de/objects/dwds%3A2/",
+        "dwds_license": "CC-BY-SA-4.0",
+        "editorial_references": [
+          "https://www.duden.de/suchen/dudenonline/sie",
+          "https://www.duden.de/sprachwissen/fuer-lernende/wortarten-pronomen",
+          "https://www.duden.de/sprachwissen/sprachratgeber/Gross-oder-Kleinschreibung-von-sieSie"
+        ],
+        "reviewed_at": "2026-11-10"
+      }
+    },
+    {
+      "id": "dwds-curated-sie-polite",
+      "concept_id": "dwds-curated-sie-polite",
+      "source_pack": "verbwerk_dwds_curation_v3",
+      "entry_kind": "vocabulary",
+      "lemma": "Sie",
+      "display_form": "Sie",
+      "part_of_speech": "pronoun",
+      "article": null,
+      "gender": "none",
+      "plural_forms": [],
+      "forms": [],
+      "english_terms": [
+        {
+          "term": "you (formal)",
+          "lemma": "you (formal)",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "you (formal)",
+      "german_definition": "Spricht eine oder mehrere Personen höflich und mit Distanz an.",
+      "german_examples": [
+        {
+          "sentence": "Entschuldigung, haben Sie morgen einen Termin frei?",
+          "translation_language": "en",
+          "translation": "Excuse me, do you have an appointment available tomorrow?"
+        }
+      ],
+      "grammar_note": "Die höfliche Anrede wird großgeschrieben. Nominativ und Akkusativ: Sie. Dativ: Ihnen. Das Verb steht in der dritten Person Plural.",
+      "domains": [],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "sense_reviewed": true,
+      "provenance": {
+        "dwds_headword_id": "E_s_12243",
+        "dwds_part_of_speech": "P",
+        "dwds_source_lemma": "Sie",
+        "dwds_snapshot_url": "https://clarin.bbaw.de/de/objects/dwds%3A2/",
+        "dwds_license": "CC-BY-SA-4.0",
+        "editorial_references": [
+          "https://www.duden.de/suchen/dudenonline/Sie",
+          "https://www.duden.de/sprachwissen/fuer-lernende/wortarten-pronomen",
+          "https://www.duden.de/sprachwissen/sprachratgeber/Gross-oder-Kleinschreibung-von-sieSie"
+        ],
+        "reviewed_at": "2026-11-10"
+      }
+    },
+    {
+      "id": "dwds-curated-es",
+      "concept_id": "dwds-curated-es",
+      "source_pack": "verbwerk_dwds_curation_v3",
+      "entry_kind": "vocabulary",
+      "lemma": "es",
+      "display_form": "es",
+      "part_of_speech": "pronoun",
+      "article": null,
+      "gender": "none",
+      "plural_forms": [],
+      "forms": [],
+      "english_terms": [
+        {
+          "term": "it",
+          "lemma": "it",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "it",
+      "german_definition": "Kann ein neutrales Nomen vertreten oder als unpersönliches Subjekt stehen.",
+      "german_examples": [
+        {
+          "sentence": "Das Fenster klemmt. Es geht nicht richtig zu.",
+          "translation_language": "en",
+          "translation": "The window sticks. It doesn’t close properly."
+        }
+      ],
+      "grammar_note": "Es vertritt hier das Fenster. Bei Wetterverben steht es oft unpersönlich: Es regnet.",
+      "domains": [],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "dwds_headword_id": "E_e_6898",
+        "dwds_part_of_speech": "P",
+        "dwds_source_lemma": "es",
+        "dwds_snapshot_url": "https://clarin.bbaw.de/de/objects/dwds%3A2/",
+        "dwds_license": "CC-BY-SA-4.0",
+        "editorial_references": [
+          "https://www.duden.de/suchen/dudenonline/es",
+          "https://www.duden.de/sprachwissen/fuer-lernende/wortarten-pronomen"
+        ],
+        "reviewed_at": "2026-11-10"
+      }
+    },
+    {
+      "id": "dwds-curated-ihr",
+      "concept_id": "dwds-curated-ihr",
+      "source_pack": "verbwerk_dwds_curation_v3",
+      "entry_kind": "vocabulary",
+      "lemma": "ihr",
+      "display_form": "ihr",
+      "part_of_speech": "pronoun",
+      "article": null,
+      "gender": "none",
+      "plural_forms": [],
+      "forms": [],
+      "english_terms": [
+        {
+          "term": "you (informal plural)",
+          "lemma": "you (informal plural)",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "you (informal plural)",
+      "german_definition": "Spricht mehrere Personen an, die man duzt.",
+      "german_examples": [
+        {
+          "sentence": "Wann kommt ihr aus dem Urlaub zurück?",
+          "translation_language": "en",
+          "translation": "When are you all coming back from vacation?"
+        }
+      ],
+      "grammar_note": "Nominativ: ihr. Akkusativ und Dativ: euch. Die Formen ihr als Dativ zu sie und ihr als Besitzwort haben andere Funktionen.",
+      "domains": [],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "dwds_headword_id": "E_i_215",
+        "dwds_part_of_speech": "P",
+        "dwds_source_lemma": "ihr",
+        "dwds_snapshot_url": "https://clarin.bbaw.de/de/objects/dwds%3A2/",
+        "dwds_license": "CC-BY-SA-4.0",
+        "editorial_references": [
+          "https://www.duden.de/suchen/dudenonline/ihr",
+          "https://www.duden.de/sprachwissen/fuer-lernende/wortarten-pronomen"
+        ],
+        "reviewed_at": "2026-11-10"
+      }
+    },
+    {
+      "id": "dwds-curated-sich",
+      "concept_id": "dwds-curated-sich",
+      "source_pack": "verbwerk_dwds_curation_v3",
+      "entry_kind": "vocabulary",
+      "lemma": "sich",
+      "display_form": "sich",
+      "part_of_speech": "pronoun",
+      "article": null,
+      "gender": "none",
+      "plural_forms": [],
+      "forms": [],
+      "english_terms": [
+        {
+          "term": "oneself",
+          "lemma": "oneself",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "oneself",
+      "german_definition": "Verweist in der dritten Person oder bei der höflichen Anrede auf das Subjekt zurück.",
+      "german_examples": [
+        {
+          "sentence": "Lena wäscht sich nach dem Sport die Hände.",
+          "translation_language": "en",
+          "translation": "Lena washes her hands after exercising."
+        }
+      ],
+      "grammar_note": "Sich kann Akkusativ sein (Lena wäscht sich) oder Dativ (Lena wäscht sich die Hände).",
+      "domains": [],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "dwds_headword_id": "E_s_12038",
+        "dwds_part_of_speech": "P",
+        "dwds_source_lemma": "sich",
+        "dwds_snapshot_url": "https://clarin.bbaw.de/de/objects/dwds%3A2/",
+        "dwds_license": "CC-BY-SA-4.0",
+        "editorial_references": [
+          "https://www.duden.de/suchen/dudenonline/sich",
+          "https://www.duden.de/sprachwissen/fuer-lernende/wortarten-pronomen"
+        ],
+        "reviewed_at": "2026-11-10"
+      }
+    },
+    {
+      "id": "dwds-curated-ihn",
+      "concept_id": "dwds-curated-ihn",
+      "source_pack": "verbwerk_dwds_curation_v3",
+      "entry_kind": "vocabulary",
+      "lemma": "ihn",
+      "display_form": "ihn",
+      "part_of_speech": "pronoun",
+      "article": null,
+      "gender": "none",
+      "plural_forms": [],
+      "forms": [],
+      "english_terms": [
+        {
+          "term": "him",
+          "lemma": "him",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "him",
+      "german_definition": "Ist die Akkusativform von er.",
+      "german_examples": [
+        {
+          "sentence": "Mein Bruder kommt am Abend. Ich hole ihn vom Bahnhof ab.",
+          "translation_language": "en",
+          "translation": "My brother is arriving this evening. I’ll pick him up from the station."
+        }
+      ],
+      "grammar_note": "Er ist Nominativ, ihn Akkusativ und ihm Dativ.",
+      "domains": [],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "dwds_headword_id": "E_i_212",
+        "dwds_part_of_speech": "P",
+        "dwds_source_lemma": "ihn",
+        "dwds_snapshot_url": "https://clarin.bbaw.de/de/objects/dwds%3A2/",
+        "dwds_license": "CC-BY-SA-4.0",
+        "editorial_references": [
+          "https://www.duden.de/suchen/dudenonline/ihn",
+          "https://www.duden.de/sprachwissen/fuer-lernende/wortarten-pronomen"
+        ],
+        "reviewed_at": "2026-11-10"
+      }
+    },
+    {
+      "id": "dwds-curated-alles",
+      "concept_id": "dwds-curated-alles",
+      "source_pack": "verbwerk_dwds_curation_v3",
+      "entry_kind": "vocabulary",
+      "lemma": "alles",
+      "display_form": "alles",
+      "part_of_speech": "pronoun",
+      "article": null,
+      "gender": "none",
+      "plural_forms": [],
+      "forms": [],
+      "english_terms": [
+        {
+          "term": "everything",
+          "lemma": "everything",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "everything",
+      "german_definition": "Bezeichnet alle Dinge oder Punkte, die in einer Situation eine Rolle spielen.",
+      "german_examples": [
+        {
+          "sentence": "Ist alles für die Reise gepackt?",
+          "translation_language": "en",
+          "translation": "Is everything packed for the trip?"
+        }
+      ],
+      "grammar_note": "Ein Relativsatz nach alles beginnt oft mit was: alles, was wir brauchen.",
+      "domains": [],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "dwds_headword_id": "E_1424785",
+        "dwds_part_of_speech": "P",
+        "dwds_source_lemma": "alles",
+        "dwds_snapshot_url": "https://clarin.bbaw.de/de/objects/dwds%3A2/",
+        "dwds_license": "CC-BY-SA-4.0",
+        "editorial_references": [
+          "https://www.duden.de/suchen/dudenonline/alles",
+          "https://www.duden.de/sprachwissen/fuer-lernende/wortarten-pronomen"
+        ],
+        "reviewed_at": "2026-11-10"
+      }
+    },
+    {
+      "id": "dwds-curated-dieser",
+      "concept_id": "dwds-curated-dieser",
+      "source_pack": "verbwerk_dwds_curation_v3",
+      "entry_kind": "vocabulary",
+      "lemma": "dieser",
+      "display_form": "dieser",
+      "part_of_speech": "pronoun",
+      "article": null,
+      "gender": "none",
+      "plural_forms": [],
+      "forms": [],
+      "english_terms": [
+        {
+          "term": "this one; this",
+          "lemma": "this one; this",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "this one; this",
+      "german_definition": "Weist auf eine bestimmte Person oder Sache hin.",
+      "german_examples": [
+        {
+          "sentence": "Dieser Stuhl ist frei, der andere ist besetzt.",
+          "translation_language": "en",
+          "translation": "This chair is free; the other one is taken."
+        }
+      ],
+      "grammar_note": "Nominativ: dieser Stuhl, diese Bank, dieses Sofa, diese Stühle.",
+      "domains": [],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "dwds_headword_id": "E_d_2785",
+        "dwds_part_of_speech": "P",
+        "dwds_source_lemma": "dieser",
+        "dwds_snapshot_url": "https://clarin.bbaw.de/de/objects/dwds%3A2/",
+        "dwds_license": "CC-BY-SA-4.0",
+        "editorial_references": [
+          "https://www.duden.de/suchen/dudenonline/dieser",
+          "https://www.duden.de/sprachwissen/fuer-lernende/wortarten-pronomen"
+        ],
+        "reviewed_at": "2026-11-10"
+      }
+    },
+    {
+      "id": "dwds-curated-der",
+      "concept_id": "dwds-curated-der",
+      "source_pack": "verbwerk_dwds_curation_v3",
+      "entry_kind": "vocabulary",
+      "lemma": "der",
+      "display_form": "der",
+      "part_of_speech": "det",
+      "article": null,
+      "gender": "none",
+      "plural_forms": [],
+      "forms": [],
+      "english_terms": [
+        {
+          "term": "the (masculine singular)",
+          "lemma": "the (masculine singular)",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "the (masculine singular)",
+      "german_definition": "Ist die Nominativform des bestimmten Artikels vor einem maskulinen Nomen im Singular.",
+      "german_examples": [
+        {
+          "sentence": "Der neue Drucker steht neben der Tür.",
+          "translation_language": "en",
+          "translation": "The new printer is next to the door."
+        }
+      ],
+      "grammar_note": "Maskulin Singular: der Drucker, den Drucker, dem Drucker, des Druckers.",
+      "domains": [],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "dwds_headword_id": "E_d_1691",
+        "dwds_part_of_speech": "ART",
+        "dwds_source_lemma": "der",
+        "dwds_snapshot_url": "https://clarin.bbaw.de/de/objects/dwds%3A2/",
+        "dwds_license": "CC-BY-SA-4.0",
+        "editorial_references": [
+          "https://www.duden.de/suchen/dudenonline/der",
+          "https://www.duden.de/sprachwissen/fuer-lernende/wortarten-artikel"
+        ],
+        "reviewed_at": "2026-11-10"
+      }
+    },
+    {
+      "id": "dwds-curated-die",
+      "concept_id": "dwds-curated-die",
+      "source_pack": "verbwerk_dwds_curation_v3",
+      "entry_kind": "vocabulary",
+      "lemma": "die",
+      "display_form": "die",
+      "part_of_speech": "det",
+      "article": null,
+      "gender": "none",
+      "plural_forms": [],
+      "forms": [],
+      "english_terms": [
+        {
+          "term": "the (feminine singular or plural)",
+          "lemma": "the (feminine singular or plural)",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "the (feminine singular or plural)",
+      "german_definition": "Ist im Nominativ und Akkusativ der bestimmte Artikel für feminine Nomen im Singular und für alle Nomen im Plural.",
+      "german_examples": [
+        {
+          "sentence": "Die Tasche steht unter dem Tisch. Die Bücher liegen darauf.",
+          "translation_language": "en",
+          "translation": "The bag is under the table. The books are on it."
+        }
+      ],
+      "grammar_note": "Die Tasche ist feminin Singular. Die Bücher ist Plural. Der Dativ Plural lautet den Büchern.",
+      "domains": [],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "dwds_headword_id": "E_d_1691",
+        "dwds_part_of_speech": "ART",
+        "dwds_source_lemma": "der",
+        "dwds_snapshot_url": "https://clarin.bbaw.de/de/objects/dwds%3A2/",
+        "dwds_license": "CC-BY-SA-4.0",
+        "editorial_references": [
+          "https://www.duden.de/suchen/dudenonline/die",
+          "https://www.duden.de/sprachwissen/fuer-lernende/wortarten-artikel"
+        ],
+        "reviewed_at": "2026-11-10"
+      }
+    },
+    {
+      "id": "dwds-curated-das",
+      "concept_id": "dwds-curated-das",
+      "source_pack": "verbwerk_dwds_curation_v3",
+      "entry_kind": "vocabulary",
+      "lemma": "das",
+      "display_form": "das",
+      "part_of_speech": "det",
+      "article": null,
+      "gender": "none",
+      "plural_forms": [],
+      "forms": [],
+      "english_terms": [
+        {
+          "term": "the (neuter singular)",
+          "lemma": "the (neuter singular)",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "the (neuter singular)",
+      "german_definition": "Ist die Nominativ- und Akkusativform des bestimmten Artikels vor einem neutralen Nomen im Singular.",
+      "german_examples": [
+        {
+          "sentence": "Das kleine Fenster bleibt heute geschlossen.",
+          "translation_language": "en",
+          "translation": "The small window will stay closed today."
+        }
+      ],
+      "grammar_note": "Neutrum Singular: das Fenster, das Fenster, dem Fenster, des Fensters.",
+      "domains": [],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "dwds_headword_id": "E_d_1691",
+        "dwds_part_of_speech": "ART",
+        "dwds_source_lemma": "der",
+        "dwds_snapshot_url": "https://clarin.bbaw.de/de/objects/dwds%3A2/",
+        "dwds_license": "CC-BY-SA-4.0",
+        "editorial_references": [
+          "https://www.duden.de/suchen/dudenonline/das",
+          "https://www.duden.de/sprachwissen/fuer-lernende/wortarten-artikel"
+        ],
+        "reviewed_at": "2026-11-10"
+      }
+    },
+    {
+      "id": "dwds-curated-ein",
+      "concept_id": "dwds-curated-ein",
+      "source_pack": "verbwerk_dwds_curation_v3",
+      "entry_kind": "vocabulary",
+      "lemma": "ein",
+      "display_form": "ein",
+      "part_of_speech": "det",
+      "article": null,
+      "gender": "none",
+      "plural_forms": [],
+      "forms": [],
+      "english_terms": [
+        {
+          "term": "a; an",
+          "lemma": "a; an",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "a; an",
+      "german_definition": "Leitet eine Nominalgruppe im Singular ein, wenn etwas noch nicht näher bestimmt ist.",
+      "german_examples": [
+        {
+          "sentence": "Auf dem Tisch steht ein leerer Karton.",
+          "translation_language": "en",
+          "translation": "There’s an empty box on the table."
+        }
+      ],
+      "grammar_note": "Maskulin Nominativ: ein Karton. Maskulin Akkusativ: einen Karton. Der unbestimmte Artikel hat keine Pluralform.",
+      "domains": [],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "dwds_headword_id": "E_e_996",
+        "dwds_part_of_speech": null,
+        "dwds_source_lemma": "ein",
+        "dwds_snapshot_url": "https://clarin.bbaw.de/de/objects/dwds%3A2/",
+        "dwds_license": "CC-BY-SA-4.0",
+        "editorial_references": [
+          "https://www.duden.de/suchen/dudenonline/ein",
+          "https://www.duden.de/sprachwissen/fuer-lernende/wortarten-artikel"
+        ],
+        "reviewed_at": "2026-11-10"
+      }
+    },
+    {
+      "id": "dwds-curated-eine",
+      "concept_id": "dwds-curated-eine",
+      "source_pack": "verbwerk_dwds_curation_v3",
+      "entry_kind": "vocabulary",
+      "lemma": "eine",
+      "display_form": "eine",
+      "part_of_speech": "det",
+      "article": null,
+      "gender": "none",
+      "plural_forms": [],
+      "forms": [],
+      "english_terms": [
+        {
+          "term": "a; an (feminine singular)",
+          "lemma": "a; an (feminine singular)",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "a; an (feminine singular)",
+      "german_definition": "Ist die feminine Nominativ- und Akkusativform des unbestimmten Artikels.",
+      "german_examples": [
+        {
+          "sentence": "Ich brauche eine neue Lampe.",
+          "translation_language": "en",
+          "translation": "I need a new lamp."
+        }
+      ],
+      "grammar_note": "Feminin: eine Lampe im Nominativ oder Akkusativ, einer Lampe im Dativ oder Genitiv.",
+      "domains": [],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "dwds_headword_id": "E_e_996",
+        "dwds_part_of_speech": null,
+        "dwds_source_lemma": "ein",
+        "dwds_snapshot_url": "https://clarin.bbaw.de/de/objects/dwds%3A2/",
+        "dwds_license": "CC-BY-SA-4.0",
+        "editorial_references": [
+          "https://www.duden.de/suchen/dudenonline/eine",
+          "https://www.duden.de/sprachwissen/fuer-lernende/wortarten-artikel"
+        ],
+        "reviewed_at": "2026-11-10"
+      }
+    },
+    {
+      "id": "dwds-curated-kein",
+      "concept_id": "dwds-curated-kein",
+      "source_pack": "verbwerk_dwds_curation_v3",
+      "entry_kind": "vocabulary",
+      "lemma": "kein",
+      "display_form": "kein",
+      "part_of_speech": "det",
+      "article": null,
+      "gender": "none",
+      "plural_forms": [],
+      "forms": [],
+      "english_terms": [
+        {
+          "term": "no; not a",
+          "lemma": "no; not a",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "no; not a",
+      "german_definition": "Verneint eine Nominalgruppe, die ohne Verneinung keinen bestimmten Artikel hat.",
+      "german_examples": [
+        {
+          "sentence": "Ich habe keinen Stift dabei.",
+          "translation_language": "en",
+          "translation": "I don’t have a pen with me."
+        }
+      ],
+      "grammar_note": "Kein wird im Singular wie ein gebeugt. Im Plural: keine Stifte, keinen Stiften.",
+      "domains": [],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "dwds_headword_id": "E_k_2895",
+        "dwds_part_of_speech": "P",
+        "dwds_source_lemma": "kein",
+        "dwds_snapshot_url": "https://clarin.bbaw.de/de/objects/dwds%3A2/",
+        "dwds_license": "CC-BY-SA-4.0",
+        "editorial_references": [
+          "https://www.duden.de/suchen/dudenonline/kein",
+          "https://www.duden.de/sprachwissen/fuer-lernende/wortarten-artikel"
+        ],
+        "reviewed_at": "2026-11-10"
+      }
+    },
+    {
+      "id": "dwds-curated-mein",
+      "concept_id": "dwds-curated-mein",
+      "source_pack": "verbwerk_dwds_curation_v3",
+      "entry_kind": "vocabulary",
+      "lemma": "mein",
+      "display_form": "mein",
+      "part_of_speech": "det",
+      "article": null,
+      "gender": "none",
+      "plural_forms": [],
+      "forms": [],
+      "english_terms": [
+        {
+          "term": "my",
+          "lemma": "my",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "my",
+      "german_definition": "Zeigt, dass etwas der sprechenden Person gehört oder zu ihr in Beziehung steht.",
+      "german_examples": [
+        {
+          "sentence": "Mein Fahrrad steht vor dem Haus.",
+          "translation_language": "en",
+          "translation": "My bicycle is outside the house."
+        }
+      ],
+      "grammar_note": "Die Endung richtet sich nach dem Nomen: mein Fahrrad, meine Tasche, mit meinem Fahrrad.",
+      "domains": [],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "dwds_headword_id": "E_m_3169",
+        "dwds_part_of_speech": "P",
+        "dwds_source_lemma": "mein",
+        "dwds_snapshot_url": "https://clarin.bbaw.de/de/objects/dwds%3A2/",
+        "dwds_license": "CC-BY-SA-4.0",
+        "editorial_references": [
+          "https://www.duden.de/suchen/dudenonline/mein",
+          "https://www.duden.de/sprachwissen/fuer-lernende/wortarten-artikel"
+        ],
+        "reviewed_at": "2026-11-10"
+      }
+    },
+    {
+      "id": "dwds-curated-zu",
+      "concept_id": "dwds-curated-zu",
+      "source_pack": "verbwerk_dwds_curation_v3",
+      "entry_kind": "vocabulary",
+      "lemma": "zu",
+      "display_form": "zu",
+      "part_of_speech": "preposition",
+      "article": null,
+      "gender": "none",
+      "plural_forms": [],
+      "forms": [],
+      "english_terms": [
+        {
+          "term": "to",
+          "lemma": "to",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "to",
+      "german_definition": "Gibt hier das Ziel eines Wegs an, zum Beispiel eine Person oder Einrichtung.",
+      "german_examples": [
+        {
+          "sentence": "Nach der Arbeit gehe ich zum Zahnarzt.",
+          "translation_language": "en",
+          "translation": "After work I’m going to the dentist."
+        }
+      ],
+      "grammar_note": "Die Präposition zu verlangt Dativ. Zu dem wird zum, zu der wird zur.",
+      "domains": [],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "dwds_headword_id": "E_z_2734",
+        "dwds_part_of_speech": "AP",
+        "dwds_source_lemma": "zu",
+        "dwds_snapshot_url": "https://clarin.bbaw.de/de/objects/dwds%3A2/",
+        "dwds_license": "CC-BY-SA-4.0",
+        "editorial_references": [
+          "https://www.duden.de/suchen/dudenonline/zu",
+          "https://www.duden.de/sprachwissen/fuer-lernende/wortarten-pr%C3%A4positionen"
+        ],
+        "reviewed_at": "2026-11-10"
+      }
+    },
+    {
+      "id": "dwds-curated-aus",
+      "concept_id": "dwds-curated-aus",
+      "source_pack": "verbwerk_dwds_curation_v3",
+      "entry_kind": "vocabulary",
+      "lemma": "aus",
+      "display_form": "aus",
+      "part_of_speech": "preposition",
+      "article": null,
+      "gender": "none",
+      "plural_forms": [],
+      "forms": [],
+      "english_terms": [
+        {
+          "term": "out of; from",
+          "lemma": "out of; from",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "out of; from",
+      "german_definition": "Gibt hier an, aus welchem Ort oder Inneren etwas kommt.",
+      "german_examples": [
+        {
+          "sentence": "Ich nehme die Milch aus dem Kühlschrank.",
+          "translation_language": "en",
+          "translation": "I take the milk out of the fridge."
+        }
+      ],
+      "grammar_note": "Aus verlangt den Dativ: aus dem Kühlschrank.",
+      "domains": [],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "dwds_headword_id": "E_a_9217",
+        "dwds_part_of_speech": "AP",
+        "dwds_source_lemma": "aus",
+        "dwds_snapshot_url": "https://clarin.bbaw.de/de/objects/dwds%3A2/",
+        "dwds_license": "CC-BY-SA-4.0",
+        "editorial_references": [
+          "https://www.duden.de/suchen/dudenonline/aus",
+          "https://www.duden.de/sprachwissen/fuer-lernende/wortarten-pr%C3%A4positionen"
+        ],
+        "reviewed_at": "2026-11-10"
+      }
+    },
+    {
+      "id": "dwds-curated-nach",
+      "concept_id": "dwds-curated-nach",
+      "source_pack": "verbwerk_dwds_curation_v3",
+      "entry_kind": "vocabulary",
+      "lemma": "nach",
+      "display_form": "nach",
+      "part_of_speech": "preposition",
+      "article": null,
+      "gender": "none",
+      "plural_forms": [],
+      "forms": [],
+      "english_terms": [
+        {
+          "term": "after; to",
+          "lemma": "after; to",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "after; to",
+      "german_definition": "Nennt hier einen Zeitpunkt, der auf ein Ereignis folgt, oder ein Reiseziel.",
+      "german_examples": [
+        {
+          "sentence": "Nach dem Frühstück fahren wir nach Hamburg.",
+          "translation_language": "en",
+          "translation": "After breakfast we’re going to Hamburg."
+        }
+      ],
+      "grammar_note": "Nach verlangt Dativ: nach dem Frühstück. Bei vielen Städtenamen steht kein Artikel: nach Hamburg.",
+      "domains": [],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "dwds_headword_id": "E_n_12",
+        "dwds_part_of_speech": "AP",
+        "dwds_source_lemma": "nach",
+        "dwds_snapshot_url": "https://clarin.bbaw.de/de/objects/dwds%3A2/",
+        "dwds_license": "CC-BY-SA-4.0",
+        "editorial_references": [
+          "https://www.duden.de/suchen/dudenonline/nach",
+          "https://www.duden.de/sprachwissen/fuer-lernende/wortarten-pr%C3%A4positionen"
+        ],
+        "reviewed_at": "2026-11-10"
+      }
+    },
+    {
+      "id": "dwds-curated-ohne",
+      "concept_id": "dwds-curated-ohne",
+      "source_pack": "verbwerk_dwds_curation_v3",
+      "entry_kind": "vocabulary",
+      "lemma": "ohne",
+      "display_form": "ohne",
+      "part_of_speech": "preposition",
+      "article": null,
+      "gender": "none",
+      "plural_forms": [],
+      "forms": [],
+      "english_terms": [
+        {
+          "term": "without",
+          "lemma": "without",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "without",
+      "german_definition": "Zeigt, dass jemand oder etwas fehlt oder bewusst weggelassen wird.",
+      "german_examples": [
+        {
+          "sentence": "Sie ging ohne ihren Mantel hinaus.",
+          "translation_language": "en",
+          "translation": "She went out without her coat."
+        }
+      ],
+      "grammar_note": "Ohne verlangt Akkusativ: ohne ihren Mantel.",
+      "domains": [],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "dwds_headword_id": "E_o_576",
+        "dwds_part_of_speech": null,
+        "dwds_source_lemma": "ohne",
+        "dwds_snapshot_url": "https://clarin.bbaw.de/de/objects/dwds%3A2/",
+        "dwds_license": "CC-BY-SA-4.0",
+        "editorial_references": [
+          "https://www.duden.de/suchen/dudenonline/ohne",
+          "https://www.duden.de/sprachwissen/fuer-lernende/wortarten-pr%C3%A4positionen"
+        ],
+        "reviewed_at": "2026-11-10"
+      }
+    },
+    {
+      "id": "dwds-curated-gegen",
+      "concept_id": "dwds-curated-gegen",
+      "source_pack": "verbwerk_dwds_curation_v3",
+      "entry_kind": "vocabulary",
+      "lemma": "gegen",
+      "display_form": "gegen",
+      "part_of_speech": "preposition",
+      "article": null,
+      "gender": "none",
+      "plural_forms": [],
+      "forms": [],
+      "english_terms": [
+        {
+          "term": "against",
+          "lemma": "against",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "against",
+      "german_definition": "Bezeichnet hier eine Gegenposition oder den Kontakt mit etwas.",
+      "german_examples": [
+        {
+          "sentence": "Der Wind drückt gegen die Scheibe.",
+          "translation_language": "en",
+          "translation": "The wind pushes against the windowpane."
+        }
+      ],
+      "grammar_note": "Gegen verlangt Akkusativ: gegen die Scheibe.",
+      "domains": [],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "dwds_headword_id": "E_g_2393",
+        "dwds_part_of_speech": "AP",
+        "dwds_source_lemma": "gegen",
+        "dwds_snapshot_url": "https://clarin.bbaw.de/de/objects/dwds%3A2/",
+        "dwds_license": "CC-BY-SA-4.0",
+        "editorial_references": [
+          "https://www.duden.de/suchen/dudenonline/gegen",
+          "https://www.duden.de/sprachwissen/fuer-lernende/wortarten-pr%C3%A4positionen"
+        ],
+        "reviewed_at": "2026-11-10"
+      }
+    },
+    {
+      "id": "dwds-curated-seit",
+      "concept_id": "dwds-curated-seit",
+      "source_pack": "verbwerk_dwds_curation_v3",
+      "entry_kind": "vocabulary",
+      "lemma": "seit",
+      "display_form": "seit",
+      "part_of_speech": "preposition",
+      "article": null,
+      "gender": "none",
+      "plural_forms": [],
+      "forms": [],
+      "english_terms": [
+        {
+          "term": "since; for",
+          "lemma": "since; for",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "since; for",
+      "german_definition": "Nennt den Beginn oder die Dauer eines Zeitraums, der bis zur Bezugszeit reicht.",
+      "german_examples": [
+        {
+          "sentence": "Seit einem Monat lernt Amir Deutsch.",
+          "translation_language": "en",
+          "translation": "Amir has been learning German for a month."
+        }
+      ],
+      "grammar_note": "Seit verlangt Dativ: seit einem Monat. Bei einem bis heute andauernden Zustand steht im Deutschen oft Präsens.",
+      "domains": [],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "dwds_headword_id": "E_s_10973",
+        "dwds_part_of_speech": null,
+        "dwds_source_lemma": "seit",
+        "dwds_snapshot_url": "https://clarin.bbaw.de/de/objects/dwds%3A2/",
+        "dwds_license": "CC-BY-SA-4.0",
+        "editorial_references": [
+          "https://www.duden.de/suchen/dudenonline/seit",
+          "https://www.duden.de/sprachwissen/fuer-lernende/wortarten-pr%C3%A4positionen"
+        ],
+        "reviewed_at": "2026-11-10"
+      }
+    },
+    {
+      "id": "dwds-curated-um",
+      "concept_id": "dwds-curated-um",
+      "source_pack": "verbwerk_dwds_curation_v3",
+      "entry_kind": "vocabulary",
+      "lemma": "um",
+      "display_form": "um",
+      "part_of_speech": "preposition",
+      "article": null,
+      "gender": "none",
+      "plural_forms": [],
+      "forms": [],
+      "english_terms": [
+        {
+          "term": "around; at",
+          "lemma": "around; at",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "around; at",
+      "german_definition": "Bezeichnet hier eine Bewegung im Kreis oder eine genaue Uhrzeit.",
+      "german_examples": [
+        {
+          "sentence": "Um acht laufen wir einmal um den See.",
+          "translation_language": "en",
+          "translation": "At eight we’ll run around the lake once."
+        }
+      ],
+      "grammar_note": "Bei einer Nominalgruppe verlangt um Akkusativ: um den See. Um acht nennt die Uhrzeit.",
+      "domains": [],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "dwds_headword_id": "E_u_829",
+        "dwds_part_of_speech": "AP",
+        "dwds_source_lemma": "um",
+        "dwds_snapshot_url": "https://clarin.bbaw.de/de/objects/dwds%3A2/",
+        "dwds_license": "CC-BY-SA-4.0",
+        "editorial_references": [
+          "https://www.duden.de/suchen/dudenonline/um",
+          "https://www.duden.de/sprachwissen/fuer-lernende/wortarten-pr%C3%A4positionen"
+        ],
+        "reviewed_at": "2026-11-10"
+      }
+    },
+    {
+      "id": "dwds-curated-wieder",
+      "concept_id": "dwds-curated-wieder",
+      "source_pack": "verbwerk_dwds_curation_v3",
+      "entry_kind": "vocabulary",
+      "lemma": "wieder",
+      "display_form": "wieder",
+      "part_of_speech": "adv",
+      "article": null,
+      "gender": "none",
+      "plural_forms": [],
+      "forms": [],
+      "english_terms": [
+        {
+          "term": "again",
+          "lemma": "again",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "again",
+      "german_definition": "Zeigt, dass etwas erneut geschieht oder ein früherer Zustand zurückkehrt.",
+      "german_examples": [
+        {
+          "sentence": "Nach der Pause arbeitet das Team wieder.",
+          "translation_language": "en",
+          "translation": "After the break the team is working again."
+        }
+      ],
+      "grammar_note": "Wieder bedeutet erneut. Wider bedeutet gegen, etwa in wider Erwarten.",
+      "domains": [],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "dwds_headword_id": "E_w_4587",
+        "dwds_part_of_speech": "ADV",
+        "dwds_source_lemma": "wieder",
+        "dwds_snapshot_url": "https://clarin.bbaw.de/de/objects/dwds%3A2/",
+        "dwds_license": "CC-BY-SA-4.0",
+        "editorial_references": [
+          "https://www.duden.de/suchen/dudenonline/wieder"
+        ],
+        "reviewed_at": "2026-11-10"
+      }
+    },
+    {
+      "id": "dwds-curated-tun",
+      "concept_id": "dwds-curated-tun",
+      "source_pack": "verbwerk_dwds_curation_v3",
+      "entry_kind": "vocabulary",
+      "lemma": "tun",
+      "display_form": "tun",
+      "part_of_speech": "verb",
+      "article": null,
+      "gender": "none",
+      "plural_forms": [],
+      "forms": [
+        {
+          "surface": "tun",
+          "number": null,
+          "case": null,
+          "role": "core",
+          "tags": {
+            "verb_class": "simple",
+            "aux": "haben"
+          }
+        }
+      ],
+      "english_terms": [
+        {
+          "term": "to do",
+          "lemma": "to do",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "to do",
+      "german_definition": "Etwas ausführen oder handeln.",
+      "german_examples": [
+        {
+          "sentence": "Was können wir tun, damit der Raum heller wird?",
+          "translation_language": "en",
+          "translation": "What can we do to make the room brighter?"
+        }
+      ],
+      "grammar_note": "Starkes Verb: er tut, tat, hat getan.",
+      "domains": [],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "dwds_headword_id": "E_t_5996",
+        "dwds_part_of_speech": "V",
+        "dwds_source_lemma": "tun",
+        "dwds_snapshot_url": "https://clarin.bbaw.de/de/objects/dwds%3A2/",
+        "dwds_license": "CC-BY-SA-4.0",
+        "editorial_references": [
+          "https://www.duden.de/suchen/dudenonline/tun",
+          "https://www.duden.de/sprachwissen/fuer-lernende/wortarten-verben"
+        ],
+        "reviewed_at": "2026-11-10"
+      }
+    },
+    {
+      "id": "dwds-curated-glauben",
+      "concept_id": "dwds-curated-glauben",
+      "source_pack": "verbwerk_dwds_curation_v3",
+      "entry_kind": "vocabulary",
+      "lemma": "glauben",
+      "display_form": "glauben",
+      "part_of_speech": "verb",
+      "article": null,
+      "gender": "none",
+      "plural_forms": [],
+      "forms": [
+        {
+          "surface": "glauben",
+          "number": null,
+          "case": null,
+          "role": "core",
+          "tags": {
+            "verb_class": "simple",
+            "aux": "haben"
+          }
+        }
+      ],
+      "english_terms": [
+        {
+          "term": "to believe; to think",
+          "lemma": "to believe; to think",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "to believe; to think",
+      "german_definition": "Etwas für wahr oder wahrscheinlich halten.",
+      "german_examples": [
+        {
+          "sentence": "Ich glaube, dass der Kurs um neun beginnt.",
+          "translation_language": "en",
+          "translation": "I think the class starts at nine."
+        }
+      ],
+      "grammar_note": "Glauben kann einen dass-Satz anschließen. Einer Person glauben steht mit Dativ: Ich glaube dir.",
+      "domains": [],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "dwds_headword_id": "E_g_7705",
+        "dwds_part_of_speech": "V",
+        "dwds_source_lemma": "glauben",
+        "dwds_snapshot_url": "https://clarin.bbaw.de/de/objects/dwds%3A2/",
+        "dwds_license": "CC-BY-SA-4.0",
+        "editorial_references": [
+          "https://www.duden.de/suchen/dudenonline/glauben",
+          "https://www.duden.de/sprachwissen/fuer-lernende/wortarten-verben"
+        ],
+        "reviewed_at": "2026-11-10"
+      }
+    },
+    {
+      "id": "dwds-curated-finden",
+      "concept_id": "dwds-curated-finden",
+      "source_pack": "verbwerk_dwds_curation_v3",
+      "entry_kind": "vocabulary",
+      "lemma": "finden",
+      "display_form": "finden",
+      "part_of_speech": "verb",
+      "article": null,
+      "gender": "none",
+      "plural_forms": [],
+      "forms": [
+        {
+          "surface": "finden",
+          "number": null,
+          "case": null,
+          "role": "core",
+          "tags": {
+            "verb_class": "simple",
+            "aux": "haben"
+          }
+        }
+      ],
+      "english_terms": [
+        {
+          "term": "to find",
+          "lemma": "to find",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "to find",
+      "german_definition": "Etwas entdecken, das man gesucht hat oder zufällig bemerkt.",
+      "german_examples": [
+        {
+          "sentence": "Im Schrank finde ich endlich den zweiten Handschuh.",
+          "translation_language": "en",
+          "translation": "I finally find the other glove in the cupboard."
+        }
+      ],
+      "grammar_note": "Starkes Verb: er findet, fand, hat gefunden. Das Gefundene steht im Akkusativ.",
+      "domains": [],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "dwds_headword_id": "E_f_4750",
+        "dwds_part_of_speech": "V",
+        "dwds_source_lemma": "finden",
+        "dwds_snapshot_url": "https://clarin.bbaw.de/de/objects/dwds%3A2/",
+        "dwds_license": "CC-BY-SA-4.0",
+        "editorial_references": [
+          "https://www.duden.de/suchen/dudenonline/finden",
+          "https://www.duden.de/sprachwissen/fuer-lernende/wortarten-verben"
+        ],
+        "reviewed_at": "2026-11-10"
+      }
+    },
+    {
+      "id": "dwds-curated-passieren",
+      "concept_id": "dwds-curated-passieren",
+      "source_pack": "verbwerk_dwds_curation_v3",
+      "entry_kind": "vocabulary",
+      "lemma": "passieren",
+      "display_form": "passieren",
+      "part_of_speech": "verb",
+      "article": null,
+      "gender": "none",
+      "plural_forms": [],
+      "forms": [
+        {
+          "surface": "passieren",
+          "number": null,
+          "case": null,
+          "role": "core",
+          "tags": {
+            "verb_class": "simple",
+            "aux": "sein"
+          }
+        }
+      ],
+      "english_terms": [
+        {
+          "term": "to happen",
+          "lemma": "to happen",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "to happen",
+      "german_definition": "Sich ereignen oder geschehen.",
+      "german_examples": [
+        {
+          "sentence": "Was ist auf dem Heimweg passiert?",
+          "translation_language": "en",
+          "translation": "What happened on the way home?"
+        }
+      ],
+      "grammar_note": "In der Bedeutung geschehen bildet passieren das Perfekt mit sein. In der Bedeutung eine Grenze überqueren steht haben.",
+      "domains": [],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "dwds_headword_id": "E_p_1068",
+        "dwds_part_of_speech": "V",
+        "dwds_source_lemma": "passieren",
+        "dwds_snapshot_url": "https://clarin.bbaw.de/de/objects/dwds%3A2/",
+        "dwds_license": "CC-BY-SA-4.0",
+        "editorial_references": [
+          "https://www.duden.de/suchen/dudenonline/passieren",
+          "https://www.duden.de/sprachwissen/fuer-lernende/wortarten-verben"
+        ],
+        "reviewed_at": "2026-11-10"
+      }
+    },
+    {
+      "id": "dwds-curated-meinen",
+      "concept_id": "dwds-curated-meinen",
+      "source_pack": "verbwerk_dwds_curation_v3",
+      "entry_kind": "vocabulary",
+      "lemma": "meinen",
+      "display_form": "meinen",
+      "part_of_speech": "verb",
+      "article": null,
+      "gender": "none",
+      "plural_forms": [],
+      "forms": [
+        {
+          "surface": "meinen",
+          "number": null,
+          "case": null,
+          "role": "core",
+          "tags": {
+            "verb_class": "simple",
+            "aux": "haben"
+          }
+        }
+      ],
+      "english_terms": [
+        {
+          "term": "to mean; to think",
+          "lemma": "to mean; to think",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "to mean; to think",
+      "german_definition": "Eine bestimmte Aussage beabsichtigen oder eine Meinung haben.",
+      "german_examples": [
+        {
+          "sentence": "Meinst du den Laden neben der Schule?",
+          "translation_language": "en",
+          "translation": "Do you mean the shop next to the school?"
+        }
+      ],
+      "grammar_note": "Regelmäßiges Verb: er meint, meinte, hat gemeint. Eine Meinung kann mit einem dass-Satz folgen.",
+      "domains": [],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "dwds_headword_id": "E_m_3173",
+        "dwds_part_of_speech": "V",
+        "dwds_source_lemma": "meinen",
+        "dwds_snapshot_url": "https://clarin.bbaw.de/de/objects/dwds%3A2/",
+        "dwds_license": "CC-BY-SA-4.0",
+        "editorial_references": [
+          "https://www.duden.de/suchen/dudenonline/meinen",
+          "https://www.duden.de/sprachwissen/fuer-lernende/wortarten-verben"
+        ],
+        "reviewed_at": "2026-11-10"
+      }
+    },
+    {
+      "id": "dwds-curated-waehrend-conj",
+      "concept_id": "dwds-curated-waehrend-conj",
+      "source_pack": "verbwerk_dwds_curation_v3",
+      "entry_kind": "vocabulary",
+      "lemma": "während",
+      "display_form": "während",
+      "part_of_speech": "conjunction",
+      "article": null,
+      "gender": "none",
+      "plural_forms": [],
+      "forms": [],
+      "english_terms": [
+        {
+          "term": "while",
+          "lemma": "while",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "while",
+      "german_definition": "Leitet einen Nebensatz ein, dessen Handlung gleichzeitig mit der Handlung im Hauptsatz geschieht.",
+      "german_examples": [
+        {
+          "sentence": "Während ich das Essen vorbereite, deckst du den Tisch.",
+          "translation_language": "en",
+          "translation": "While I prepare the food, you set the table."
+        }
+      ],
+      "grammar_note": "Als Konjunktion leitet während einen Nebensatz ein. Als Präposition steht es vor einer Nominalgruppe.",
+      "domains": [],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "sense_reviewed": true,
+      "provenance": {
+        "dwds_headword_id": "E_w_603",
+        "dwds_part_of_speech": null,
+        "dwds_source_lemma": "während",
+        "dwds_snapshot_url": "https://clarin.bbaw.de/de/objects/dwds%3A2/",
+        "dwds_license": "CC-BY-SA-4.0",
+        "editorial_references": [
+          "https://www.duden.de/suchen/dudenonline/w%C3%A4hrend",
+          "https://www.duden.de/sprachwissen/sprachratgeber/adverbialer-nebensatz-typen-arten-unterschiede"
+        ],
+        "reviewed_at": "2026-11-10"
+      }
+    },
+    {
+      "id": "dwds-curated-so",
+      "concept_id": "dwds-curated-so",
+      "source_pack": "verbwerk_dwds_curation_v3",
+      "entry_kind": "vocabulary",
+      "lemma": "so",
+      "display_form": "so",
+      "part_of_speech": "adv",
+      "article": null,
+      "gender": "none",
+      "plural_forms": [],
+      "forms": [],
+      "english_terms": [
+        {
+          "term": "like this; this way",
+          "lemma": "like this; this way",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "like this; this way",
+      "german_definition": "Zeigt, auf welche Weise etwas gemacht wird.",
+      "german_examples": [
+        {
+          "sentence": "Halte die Schere so, dann schneidet sie besser.",
+          "translation_language": "en",
+          "translation": "Hold the scissors like this and they’ll cut better."
+        }
+      ],
+      "grammar_note": "So kann auch den Grad verstärken, etwa so kalt.",
+      "domains": [],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "dwds_headword_id": "E_s_13400",
+        "dwds_part_of_speech": null,
+        "dwds_source_lemma": "so",
+        "dwds_snapshot_url": "https://clarin.bbaw.de/de/objects/dwds%3A2/",
+        "dwds_license": "CC-BY-SA-4.0",
+        "reviewed_at": "2026-11-10",
+        "editorial_references": [
+          "https://www.duden.de/suchen/dudenonline/so"
+        ]
+      }
+    },
+    {
+      "id": "dwds-curated-auch",
+      "concept_id": "dwds-curated-auch",
+      "source_pack": "verbwerk_dwds_curation_v3",
+      "entry_kind": "vocabulary",
+      "lemma": "auch",
+      "display_form": "auch",
+      "part_of_speech": "particle",
+      "article": null,
+      "gender": "none",
+      "plural_forms": [],
+      "forms": [],
+      "english_terms": [
+        {
+          "term": "also; too",
+          "lemma": "also; too",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "also; too",
+      "german_definition": "Fügt eine Person oder Sache zu dem hinzu, was bereits gilt.",
+      "german_examples": [
+        {
+          "sentence": "Lea fährt mit dem Rad zur Arbeit. Ich fahre auch mit dem Rad.",
+          "translation_language": "en",
+          "translation": "Lea cycles to work. I cycle too."
+        }
+      ],
+      "grammar_note": "Als Fokuspartikel bezieht sich auch auf den Teil, den man hinzufügt.",
+      "domains": [],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "dwds_headword_id": "E_a_7827",
+        "dwds_part_of_speech": "KO",
+        "dwds_source_lemma": "auch",
+        "dwds_snapshot_url": "https://clarin.bbaw.de/de/objects/dwds%3A2/",
+        "dwds_license": "CC-BY-SA-4.0",
+        "reviewed_at": "2026-11-10",
+        "editorial_references": [
+          "https://www.duden.de/sprachwissen/fuer-lernende/wortarten-partikeln"
+        ]
+      }
+    },
+    {
+      "id": "dwds-curated-nichts",
+      "concept_id": "dwds-curated-nichts",
+      "source_pack": "verbwerk_dwds_curation_v3",
+      "entry_kind": "vocabulary",
+      "lemma": "nichts",
+      "display_form": "nichts",
+      "part_of_speech": "pronoun",
+      "article": null,
+      "gender": "none",
+      "plural_forms": [],
+      "forms": [],
+      "english_terms": [
+        {
+          "term": "nothing",
+          "lemma": "nothing",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "nothing",
+      "german_definition": "Bezeichnet das vollständige Fehlen einer Sache oder Information.",
+      "german_examples": [
+        {
+          "sentence": "Ich habe in der Schublade nichts gefunden.",
+          "translation_language": "en",
+          "translation": "I found nothing in the drawer."
+        }
+      ],
+      "grammar_note": "Nichts ist ein Indefinitpronomen. Das folgende Adjektiv kann substantiviert sein: nichts Neues.",
+      "domains": [],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "dwds_headword_id": "E_n_2424",
+        "dwds_part_of_speech": "P",
+        "dwds_source_lemma": "nichts",
+        "dwds_snapshot_url": "https://clarin.bbaw.de/de/objects/dwds%3A2/",
+        "dwds_license": "CC-BY-SA-4.0",
+        "reviewed_at": "2026-11-10",
+        "editorial_references": [
+          "https://www.duden.de/suchen/dudenonline/nichts"
+        ]
+      }
+    },
+    {
+      "id": "dwds-curated-man",
+      "concept_id": "dwds-curated-man",
+      "source_pack": "verbwerk_dwds_curation_v3",
+      "entry_kind": "vocabulary",
+      "lemma": "man",
+      "display_form": "man",
+      "part_of_speech": "pronoun",
+      "article": null,
+      "gender": "none",
+      "plural_forms": [],
+      "forms": [],
+      "english_terms": [
+        {
+          "term": "one; people in general",
+          "lemma": "one; people in general",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "one; people in general",
+      "german_definition": "Steht für Menschen allgemein oder für eine nicht näher genannte Person.",
+      "german_examples": [
+        {
+          "sentence": "Hier kann man mit Karte bezahlen.",
+          "translation_language": "en",
+          "translation": "You can pay by card here."
+        }
+      ],
+      "grammar_note": "Man steht als Subjekt mit dem Verb in der dritten Person Singular. Im Akkusativ steht einen, im Dativ einem.",
+      "domains": [],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "dwds_headword_id": "E_m_837",
+        "dwds_part_of_speech": "P",
+        "dwds_source_lemma": "man",
+        "dwds_snapshot_url": "https://clarin.bbaw.de/de/objects/dwds%3A2/",
+        "dwds_license": "CC-BY-SA-4.0",
+        "reviewed_at": "2026-11-10",
+        "editorial_references": [
+          "https://www.duden.de/suchen/dudenonline/man"
+        ]
+      }
+    },
+    {
+      "id": "dwds-curated-oh",
+      "concept_id": "dwds-curated-oh",
+      "source_pack": "verbwerk_dwds_curation_v3",
+      "entry_kind": "vocabulary",
+      "lemma": "oh",
+      "display_form": "oh",
+      "part_of_speech": "interjection",
+      "article": null,
+      "gender": "none",
+      "plural_forms": [],
+      "forms": [],
+      "english_terms": [
+        {
+          "term": "oh",
+          "lemma": "oh",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "oh",
+      "german_definition": "Drückt eine unmittelbare Reaktion aus, etwa Überraschung oder Bedauern.",
+      "german_examples": [
+        {
+          "sentence": "Oh, das Licht ist schon wieder aus!",
+          "translation_language": "en",
+          "translation": "Oh, the light’s gone out again!"
+        }
+      ],
+      "grammar_note": "Oh ist ein Ausruf. Er kann mit einem Komma vom folgenden Satz getrennt werden.",
+      "domains": [],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "dwds_headword_id": "D99_116329",
+        "dwds_part_of_speech": "I",
+        "dwds_source_lemma": "oh",
+        "dwds_snapshot_url": "https://clarin.bbaw.de/de/objects/dwds%3A2/",
+        "dwds_license": "CC-BY-SA-4.0",
+        "reviewed_at": "2026-11-10",
+        "editorial_references": [
+          "https://www.duden.de/suchen/dudenonline/oh"
+        ]
+      }
+    },
+    {
+      "id": "dwds-curated-mehr",
+      "concept_id": "dwds-curated-mehr",
+      "source_pack": "verbwerk_dwds_curation_v3",
+      "entry_kind": "vocabulary",
+      "lemma": "mehr",
+      "display_form": "mehr",
+      "part_of_speech": "adv",
+      "article": null,
+      "gender": "none",
+      "plural_forms": [],
+      "forms": [],
+      "english_terms": [
+        {
+          "term": "more",
+          "lemma": "more",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "more",
+      "german_definition": "Bezeichnet einen höheren Umfang oder eine größere Menge.",
+      "german_examples": [
+        {
+          "sentence": "Seit dem Umzug lese ich mehr als früher.",
+          "translation_language": "en",
+          "translation": "I read more now than I did before the move."
+        }
+      ],
+      "grammar_note": "Mehr ist die Steigerungsform zu viel. Der Vergleich kann mit als folgen: mehr als früher.",
+      "domains": [],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "dwds_headword_id": "E_m_3070",
+        "dwds_part_of_speech": "ADJ",
+        "dwds_source_lemma": "mehr",
+        "dwds_snapshot_url": "https://clarin.bbaw.de/de/objects/dwds%3A2/",
+        "dwds_license": "CC-BY-SA-4.0",
+        "reviewed_at": "2026-11-10",
+        "editorial_references": [
+          "https://www.duden.de/suchen/dudenonline/mehr"
+        ]
+      }
+    },
+    {
+      "id": "dwds-curated-also",
+      "concept_id": "dwds-curated-also",
+      "source_pack": "verbwerk_dwds_curation_v3",
+      "entry_kind": "vocabulary",
+      "lemma": "also",
+      "display_form": "also",
+      "part_of_speech": "adv",
+      "article": null,
+      "gender": "none",
+      "plural_forms": [],
+      "forms": [],
+      "english_terms": [
+        {
+          "term": "so; therefore",
+          "lemma": "so; therefore",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "so; therefore",
+      "german_definition": "Leitet hier eine Folgerung aus dem zuvor Gesagten ein.",
+      "german_examples": [
+        {
+          "sentence": "Der Aufzug ist kaputt. Also nehmen wir die Treppe.",
+          "translation_language": "en",
+          "translation": "The elevator is broken, so we’ll take the stairs."
+        }
+      ],
+      "grammar_note": "Als verbindendes Adverb kann also im Vorfeld stehen. Dann folgt das finite Verb: Also nehmen wir …",
+      "domains": [],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "dwds_headword_id": "E_a_3425",
+        "dwds_part_of_speech": "ADV",
+        "dwds_source_lemma": "also",
+        "dwds_snapshot_url": "https://clarin.bbaw.de/de/objects/dwds%3A2/",
+        "dwds_license": "CC-BY-SA-4.0",
+        "reviewed_at": "2026-11-10",
+        "editorial_references": [
+          "https://www.duden.de/rechtschreibung/also_Adverb"
+        ]
+      }
+    },
+    {
+      "id": "dwds-curated-vor",
+      "concept_id": "dwds-curated-vor",
+      "source_pack": "verbwerk_dwds_curation_v3",
+      "entry_kind": "vocabulary",
+      "lemma": "vor",
+      "display_form": "vor",
+      "part_of_speech": "preposition",
+      "article": null,
+      "gender": "none",
+      "plural_forms": [],
+      "forms": [],
+      "english_terms": [
+        {
+          "term": "in front of; before",
+          "lemma": "in front of; before",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "in front of; before",
+      "german_definition": "Bezeichnet hier einen Ort an der Vorderseite von etwas oder ein Ziel an dieser Stelle.",
+      "german_examples": [
+        {
+          "sentence": "Ich stelle das Rad vor die Tür. Jetzt steht es vor der Tür.",
+          "translation_language": "en",
+          "translation": "I put the bike in front of the door. Now it’s standing there."
+        }
+      ],
+      "grammar_note": "Wo? vor der Tür mit Dativ. Wohin? vor die Tür mit Akkusativ. Bei einer Zeitangabe wie vor einer Stunde steht Dativ.",
+      "domains": [],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "dwds_headword_id": "E_v_5214",
+        "dwds_part_of_speech": "AP",
+        "dwds_source_lemma": "vor",
+        "dwds_snapshot_url": "https://clarin.bbaw.de/de/objects/dwds%3A2/",
+        "dwds_license": "CC-BY-SA-4.0",
+        "reviewed_at": "2026-11-10",
+        "editorial_references": [
+          "https://www.duden.de/rechtschreibung/vor_bevor_aus_gegen_heraus"
+        ]
+      }
+    },
+    {
+      "id": "dwds-curated-los",
+      "concept_id": "dwds-curated-los",
+      "source_pack": "verbwerk_dwds_curation_v3",
+      "entry_kind": "vocabulary",
+      "lemma": "los",
+      "display_form": "los",
+      "part_of_speech": "adv",
+      "article": null,
+      "gender": "none",
+      "plural_forms": [],
+      "forms": [],
+      "english_terms": [
+        {
+          "term": "going on",
+          "lemma": "going on",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "going on",
+      "german_definition": "Bezeichnet in der Verbindung los sein, dass etwas geschieht oder jemand beschäftigt ist.",
+      "german_examples": [
+        {
+          "sentence": "Auf dem Platz ist heute viel los.",
+          "translation_language": "en",
+          "translation": "There’s a lot going on in the square today."
+        }
+      ],
+      "grammar_note": "In viel los sein steht los getrennt von sein. Los! kann außerdem ein eigener Ausruf sein.",
+      "domains": [],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "dwds_headword_id": "E_l_5562",
+        "dwds_part_of_speech": "ADV",
+        "dwds_source_lemma": "los",
+        "dwds_snapshot_url": "https://clarin.bbaw.de/de/objects/dwds%3A2/",
+        "dwds_license": "CC-BY-SA-4.0",
+        "reviewed_at": "2026-11-10",
+        "editorial_references": [
+          "https://www.duden.de/suchen/dudenonline/los"
+        ]
+      }
+    },
+    {
+      "id": "dwds-curated-alle",
+      "concept_id": "dwds-curated-alle",
+      "source_pack": "verbwerk_dwds_curation_v3",
+      "entry_kind": "vocabulary",
+      "lemma": "alle",
+      "display_form": "alle",
+      "part_of_speech": "pronoun",
+      "article": null,
+      "gender": "none",
+      "plural_forms": [],
+      "forms": [],
+      "english_terms": [
+        {
+          "term": "everyone; all",
+          "lemma": "everyone; all",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "everyone; all",
+      "german_definition": "Bezieht sich auf sämtliche Mitglieder einer bekannten Gruppe.",
+      "german_examples": [
+        {
+          "sentence": "Der Kurs beginnt. Sind alle da?",
+          "translation_language": "en",
+          "translation": "The class is starting. Is everyone here?"
+        }
+      ],
+      "grammar_note": "Wenn alle mehrere Personen bezeichnet, steht das deutsche Verb im Plural: Sind alle da?",
+      "domains": [],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "dwds_headword_id": "E_9367517",
+        "dwds_part_of_speech": "P",
+        "dwds_source_lemma": "alle",
+        "dwds_snapshot_url": "https://clarin.bbaw.de/de/objects/dwds%3A2/",
+        "dwds_license": "CC-BY-SA-4.0",
+        "reviewed_at": "2026-11-10",
+        "editorial_references": [
+          "https://www.duden.de/suchen/dudenonline/alle"
+        ]
+      }
+    },
+    {
+      "id": "dwds-curated-ueber",
+      "concept_id": "dwds-curated-ueber",
+      "source_pack": "verbwerk_dwds_curation_v3",
+      "entry_kind": "vocabulary",
+      "lemma": "über",
+      "display_form": "über",
+      "part_of_speech": "preposition",
+      "article": null,
+      "gender": "none",
+      "plural_forms": [],
+      "forms": [],
+      "english_terms": [
+        {
+          "term": "above; over",
+          "lemma": "above; over",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "above; over",
+      "german_definition": "Bezeichnet eine Position oberhalb von etwas oder einen Weg darüber hinweg.",
+      "german_examples": [
+        {
+          "sentence": "Über dem Fluss hängt Nebel. Wir fahren über die Brücke.",
+          "translation_language": "en",
+          "translation": "Fog hangs over the river. We drive across the bridge."
+        }
+      ],
+      "grammar_note": "Ort mit Dativ: über dem Fluss. Weg mit Akkusativ: über die Brücke. Bei reden über steht Akkusativ.",
+      "domains": [],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "dwds_headword_id": "E_u_30",
+        "dwds_part_of_speech": "AP",
+        "dwds_source_lemma": "über",
+        "dwds_snapshot_url": "https://clarin.bbaw.de/de/objects/dwds%3A2/",
+        "dwds_license": "CC-BY-SA-4.0",
+        "reviewed_at": "2026-11-10",
+        "editorial_references": [
+          "https://www.duden.de/suchen/dudenonline/%C3%BCber"
+        ]
+      }
+    },
+    {
+      "id": "dwds-curated-dein",
+      "concept_id": "dwds-curated-dein",
+      "source_pack": "verbwerk_dwds_curation_v3",
+      "entry_kind": "vocabulary",
+      "lemma": "dein",
+      "display_form": "dein",
+      "part_of_speech": "det",
+      "article": null,
+      "gender": "none",
+      "plural_forms": [],
+      "forms": [],
+      "english_terms": [
+        {
+          "term": "your (informal singular)",
+          "lemma": "your (informal singular)",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "your (informal singular)",
+      "german_definition": "Zeigt, dass etwas zur angesprochenen Person gehört oder in Beziehung zu ihr steht.",
+      "german_examples": [
+        {
+          "sentence": "Ist das dein Regenschirm?",
+          "translation_language": "en",
+          "translation": "Is that your umbrella?"
+        }
+      ],
+      "grammar_note": "Die Endung richtet sich nach dem Nomen und dem Kasus: dein Schirm, deine Jacke, mit deinem Schirm.",
+      "domains": [],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "dwds_headword_id": "E_d_1316",
+        "dwds_part_of_speech": "P",
+        "dwds_source_lemma": "dein",
+        "dwds_snapshot_url": "https://clarin.bbaw.de/de/objects/dwds%3A2/",
+        "dwds_license": "CC-BY-SA-4.0",
+        "reviewed_at": "2026-11-10",
+        "editorial_references": [
+          "https://www.duden.de/suchen/dudenonline/dein"
+        ]
+      }
+    },
+    {
+      "id": "dwds-curated-wirklich",
+      "concept_id": "dwds-curated-wirklich",
+      "source_pack": "verbwerk_dwds_curation_v3",
+      "entry_kind": "vocabulary",
+      "lemma": "wirklich",
+      "display_form": "wirklich",
+      "part_of_speech": "adv",
+      "article": null,
+      "gender": "none",
+      "plural_forms": [],
+      "forms": [],
+      "english_terms": [
+        {
+          "term": "really; actually",
+          "lemma": "really; actually",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "really; actually",
+      "german_definition": "Betont, dass etwas tatsächlich so ist.",
+      "german_examples": [
+        {
+          "sentence": "Warst du gestern wirklich allein im Kino?",
+          "translation_language": "en",
+          "translation": "Did you really go to the movies alone yesterday?"
+        }
+      ],
+      "grammar_note": "Hier wird wirklich adverbial verwendet. Vor einem Nomen kann es eine Endung tragen: eine wirkliche Überraschung.",
+      "domains": [],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "dwds_headword_id": "E_w_5201",
+        "dwds_part_of_speech": "ADJ",
+        "dwds_source_lemma": "wirklich",
+        "dwds_snapshot_url": "https://clarin.bbaw.de/de/objects/dwds%3A2/",
+        "dwds_license": "CC-BY-SA-4.0",
+        "reviewed_at": "2026-11-10",
+        "editorial_references": [
+          "https://www.duden.de/suchen/dudenonline/wirklich"
+        ]
+      }
+    },
+    {
+      "id": "dwds-curated-viel",
+      "concept_id": "dwds-curated-viel",
+      "source_pack": "verbwerk_dwds_curation_v3",
+      "entry_kind": "vocabulary",
+      "lemma": "viel",
+      "display_form": "viel",
+      "part_of_speech": "numeral",
+      "article": null,
+      "gender": "none",
+      "plural_forms": [],
+      "forms": [],
+      "english_terms": [
+        {
+          "term": "much; a lot",
+          "lemma": "much; a lot",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "much; a lot",
+      "german_definition": "Bezeichnet eine große Menge, die man nicht genau beziffert.",
+      "german_examples": [
+        {
+          "sentence": "Für die Fahrt brauchen wir viel Zeit.",
+          "translation_language": "en",
+          "translation": "We need a lot of time for the journey."
+        }
+      ],
+      "grammar_note": "Bei einer nicht gezählten Menge steht oft viel: viel Zeit. Vor zählbaren Nomen im Plural steht viele: viele Stunden.",
+      "domains": [],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "dwds_headword_id": "E_v_4395",
+        "dwds_part_of_speech": "ADJ",
+        "dwds_source_lemma": "viel",
+        "dwds_snapshot_url": "https://clarin.bbaw.de/de/objects/dwds%3A2/",
+        "dwds_license": "CC-BY-SA-4.0",
+        "reviewed_at": "2026-11-10",
+        "editorial_references": [
+          "https://www.duden.de/sprachwissen/sprachratgeber/vielwenig"
+        ]
+      }
+    },
+    {
+      "id": "dwds-curated-weg",
+      "concept_id": "dwds-curated-weg",
+      "source_pack": "verbwerk_dwds_curation_v3",
+      "entry_kind": "vocabulary",
+      "lemma": "weg",
+      "display_form": "weg",
+      "part_of_speech": "adv",
+      "article": null,
+      "gender": "none",
+      "plural_forms": [],
+      "forms": [],
+      "english_terms": [
+        {
+          "term": "away; gone",
+          "lemma": "away; gone",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "away; gone",
+      "german_definition": "Bezeichnet, dass etwas entfernt oder nicht mehr am erwarteten Ort ist.",
+      "german_examples": [
+        {
+          "sentence": "Mein Schlüssel war eben noch hier. Jetzt ist er weg.",
+          "translation_language": "en",
+          "translation": "My key was here a moment ago. Now it’s gone."
+        }
+      ],
+      "grammar_note": "Das Adverb weg wird kleingeschrieben. Der Weg ist ein Nomen und bedeutet zum Beispiel Pfad.",
+      "domains": [],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "dwds_headword_id": "E_w_2201",
+        "dwds_part_of_speech": "ADV",
+        "dwds_source_lemma": "weg",
+        "dwds_snapshot_url": "https://clarin.bbaw.de/de/objects/dwds%3A2/",
+        "dwds_license": "CC-BY-SA-4.0",
+        "reviewed_at": "2026-11-10",
+        "editorial_references": [
+          "https://www.duden.de/rechtschreibung/weg_fort_abwesend_entfernt"
+        ]
+      },
+      "sense_reviewed": true
+    },
+    {
+      "id": "dwds-curated-am",
+      "concept_id": "dwds-curated-am",
+      "source_pack": "verbwerk_dwds_curation_v3",
+      "entry_kind": "vocabulary",
+      "lemma": "am",
+      "display_form": "am",
+      "part_of_speech": "preposition",
+      "article": null,
+      "gender": "none",
+      "plural_forms": [],
+      "forms": [],
+      "english_terms": [
+        {
+          "term": "at the; on the",
+          "lemma": "at the; on the",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "at the; on the",
+      "german_definition": "Ist hier die Kurzform von an dem.",
+      "german_examples": [
+        {
+          "sentence": "Wir treffen uns am Eingang.",
+          "translation_language": "en",
+          "translation": "We’ll meet at the entrance."
+        }
+      ],
+      "grammar_note": "Am = an dem und enthält den Dativ. In am schnellsten gehört am zum Superlativ.",
+      "domains": [],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "dwds_headword_id": "E_a_3670_13",
+        "dwds_part_of_speech": "AP",
+        "dwds_source_lemma": "am",
+        "dwds_snapshot_url": "https://clarin.bbaw.de/de/objects/dwds%3A2/",
+        "dwds_license": "CC-BY-SA-4.0",
+        "reviewed_at": "2026-11-10",
+        "editorial_references": [
+          "https://www.duden.de/suchen/dudenonline/am"
+        ]
+      }
+    },
+    {
+      "id": "dwds-curated-leben",
+      "concept_id": "dwds-curated-leben",
+      "source_pack": "verbwerk_dwds_curation_v3",
+      "entry_kind": "vocabulary",
+      "lemma": "Leben",
+      "display_form": "das Leben",
+      "part_of_speech": "noun",
+      "article": "das",
+      "gender": "neut",
+      "plural_forms": [
+        "die Leben"
+      ],
+      "forms": [
+        {
+          "surface": "das Leben",
+          "number": "sg",
+          "case": "nom",
+          "role": "core",
+          "tags": {}
+        },
+        {
+          "surface": "die Leben",
+          "number": "pl",
+          "case": "nom",
+          "role": "core",
+          "tags": {}
+        }
+      ],
+      "english_terms": [
+        {
+          "term": "life",
+          "lemma": "life",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "life",
+      "german_definition": "Bezeichnet hier die Zeit von der Geburt bis zum Tod.",
+      "german_examples": [
+        {
+          "sentence": "Sie hat ihr ganzes Leben in dieser Stadt verbracht.",
+          "translation_language": "en",
+          "translation": "She spent her whole life in this city."
+        }
+      ],
+      "grammar_note": "Das Nomen Leben wird großgeschrieben. Der Plural Leben ist möglich, etwa bei mehreren einzelnen Menschenleben.",
+      "domains": [],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "dwds_headword_id": "E_l_2197",
+        "dwds_part_of_speech": "N",
+        "dwds_source_lemma": "Leben",
+        "dwds_snapshot_url": "https://clarin.bbaw.de/de/objects/dwds%3A2/",
+        "dwds_license": "CC-BY-SA-4.0",
+        "reviewed_at": "2026-11-10",
+        "editorial_references": [
+          "https://www.duden.de/rechtschreibung/Leben"
+        ]
+      }
+    }
+  ]
+}

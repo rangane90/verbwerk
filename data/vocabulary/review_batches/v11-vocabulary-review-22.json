@@ -1,0 +1,864 @@
+{
+  "batch_id": "v11-vocabulary-review-22",
+  "review_date": "2026-11-11",
+  "input_database_sha256": "03e188b3f9b955a6223fc9668b00dc603b111ffd06282e4a8b2a73a07905b7ae",
+  "accepted_examples": [
+    {
+      "entry_id": "frequency:1293",
+      "german": "Es ist zu deinem eigenen Schutz.",
+      "english": "It's for your own protection.",
+      "note": "The German sentence uses the listed sense and grammatical class, and the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1294",
+      "german": "Ich weiß nicht, weshalb Tom so nervös ist.",
+      "english": "I don't know why Tom is so nervous.",
+      "note": "The German sentence uses the listed sense and grammatical class, and the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1295",
+      "german": "Könnten Sie bitte Ihr Auto woanders hinstellen?",
+      "english": "Could you park your car somewhere else, please?",
+      "note": "The German sentence uses the listed sense and grammatical class, and the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1296",
+      "german": "Erinnerst du dich noch an unseren ersten Kuss?",
+      "english": "Do you remember our first kiss?",
+      "note": "The German sentence uses the listed sense and grammatical class, and the English translation matches it."
+    },
+    {
+      "entry_id": "curated:lex-de-verhindern",
+      "german": "Das werden wir zu verhindern suchen.",
+      "english": "We'll try not to let that happen.",
+      "note": "The German sentence uses the listed sense and grammatical class, and the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1298",
+      "german": "Es muss doch eine logische Erklärung dafür geben.",
+      "english": "There must be a logical explanation for this.",
+      "note": "The German sentence uses the listed sense and grammatical class, and the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1299",
+      "german": "Ich habe mir das Video noch nicht angeschaut.",
+      "english": "I haven't watched that video yet.",
+      "note": "The German sentence uses the listed sense and grammatical class, and the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1301",
+      "german": "Ich bin wohl nicht so klug wie du.",
+      "english": "I guess I'm not as smart as you.",
+      "note": "The German sentence uses the listed sense and grammatical class, and the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1302",
+      "german": "Das liegt nicht außerhalb des Bereiches des Möglichen.",
+      "english": "It is not outside of the realm of possibility.",
+      "note": "The German sentence uses the listed sense and grammatical class, and the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1303",
+      "german": "Wir machen uns Sorgen um Oma und Opa.",
+      "english": "We're worried about Grandma and Grandpa.",
+      "note": "The German sentence uses the listed sense and grammatical class, and the English translation matches it."
+    },
+    {
+      "entry_id": "curated:lex-de-aufstehen",
+      "german": "Früh zu Bett und früh aufstehen macht den Menschen gesund, reich und klug.",
+      "english": "Early to bed and early to rise makes a man healthy, wealthy and wise.",
+      "note": "The German sentence uses the listed sense and grammatical class, and the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1306",
+      "german": "Ich könnte hier drinnen ein wenig Hilfe gebrauchen.",
+      "english": "I could use a little help in here.",
+      "note": "The German sentence uses the listed sense and grammatical class, and the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1307",
+      "german": "Tom ging zum Laden, um Milch zu kaufen.",
+      "english": "Tom walked to the store to buy some milk.",
+      "note": "The German sentence uses the listed sense and grammatical class, and the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1308",
+      "german": "Ich wies Tom an, Sie zu feuern.",
+      "english": "I told Tom to fire you.",
+      "note": "The German sentence uses the listed sense and grammatical class, and the English translation matches it."
+    },
+    {
+      "entry_id": "curated:lex-de-kochen",
+      "german": "Kannst du besser japanisch oder chinesisch kochen?",
+      "english": "Which are you better at cooking, Japanese food or Chinese food?",
+      "note": "The German sentence uses the listed sense and grammatical class, and the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1310",
+      "german": "Sie war immer noch schwach nach ihrer Krankheit.",
+      "english": "She was still weak after her illness.",
+      "note": "The German sentence uses the listed sense and grammatical class, and the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1311",
+      "german": "Tom steckt bis zum Hals in Schulden.",
+      "english": "Tom is up to his neck in debt.",
+      "note": "The German sentence uses the listed sense and grammatical class, and the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1314",
+      "german": "Der Vater der Braut kam zu spät zur Trauung.",
+      "english": "The bride's father showed up late for the wedding ceremony.",
+      "note": "The German sentence uses the listed sense and grammatical class, and the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1317",
+      "german": "Tom klappte sein Laptop zu und stand auf.",
+      "english": "Tom closed his laptop and stood up.",
+      "note": "The German sentence uses the listed sense and grammatical class, and the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1318",
+      "german": "Wie kommst du mit der ganzen Aufmerksamkeit klar?",
+      "english": "How do you handle all the attention?",
+      "note": "The German sentence uses the listed sense and grammatical class, and the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1319",
+      "german": "Ich bin noch immer recht gut in Form.",
+      "english": "I'm still in pretty good shape.",
+      "note": "The German sentence uses the listed sense and grammatical class, and the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1321",
+      "german": "Ich möchte dich ein wenig besser kennenlernen.",
+      "english": "I'd like to get to know you a bit better.",
+      "note": "The German sentence uses the listed sense and grammatical class, and the English translation matches it."
+    },
+    {
+      "entry_id": "curated:lex-de-nirgendwo",
+      "german": "Ich wäre nirgendwo lieber.",
+      "english": "There's no place else I'd rather be.",
+      "note": "The German sentence uses the listed sense and grammatical class, and the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1324",
+      "german": "Die Brücke ist ungefähr eine Meile lang.",
+      "english": "The bridge is approximately a mile long.",
+      "note": "The German sentence uses the listed sense and grammatical class, and the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1326",
+      "german": "Eins und eins ergibt zwei.",
+      "english": "One and one is two.",
+      "note": "The German sentence uses the listed sense and grammatical class, and the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1327",
+      "german": "Hast du ein Backup von deinen Daten gemacht?",
+      "english": "Have you backed up your data?",
+      "note": "The German sentence uses the listed sense and grammatical class, and the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1329",
+      "german": "Es ist eine Schande, was passiert ist.",
+      "english": "What happened was a disgrace.",
+      "note": "The German sentence uses the listed sense and grammatical class, and the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1339",
+      "german": "Tom machte eine freie Übersetzung aus dem Original.",
+      "english": "Tom made a loose translation from the original.",
+      "note": "The German sentence uses the listed sense and grammatical class, and the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1340",
+      "german": "Das ist eher eine Kunst als eine Wissenschaft.",
+      "english": "It's more of an art than a science.",
+      "note": "The German sentence uses the listed sense and grammatical class, and the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1341",
+      "german": "Der Kapitän fuhr mit neunzehn Jahren zur See.",
+      "english": "The captain went to sea when he was nineteen.",
+      "note": "The German sentence uses the listed sense and grammatical class, and the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1344",
+      "german": "Es war sein Schweigen, das sie wütend machte.",
+      "english": "It was his silence that made her angry.",
+      "note": "The German sentence uses the listed sense and grammatical class, and the English translation matches it."
+    },
+    {
+      "entry_id": "curated:lex-de-krankheit",
+      "german": "Er konnte wegen seiner Krankheit nicht kommen.",
+      "english": "He could not come because of his illness.",
+      "note": "The German sentence uses the listed sense and grammatical class, and the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1346",
+      "german": "Lassen Sie uns mal in den Schatten gehen!",
+      "english": "Let's step into the shade.",
+      "note": "The German sentence uses the listed sense and grammatical class, and the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1347",
+      "german": "Hast du ihn mit der Tatsache vertraut gemacht?",
+      "english": "Did you acquaint him with the fact?",
+      "note": "The German sentence uses the listed sense and grammatical class, and the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1350",
+      "german": "Es ist mir verboten, dieses Telefon zu benutzen.",
+      "english": "I am forbidden to use this telephone.",
+      "note": "The German sentence uses the listed sense and grammatical class, and the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1352",
+      "german": "Tom schien high zu sein.",
+      "english": "Tom seemed to be high.",
+      "note": "The German sentence uses the listed sense and grammatical class, and the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1354",
+      "german": "Diese Stadt ist verflucht.",
+      "english": "This town is cursed.",
+      "note": "The German sentence uses the listed sense and grammatical class, and the English translation matches it."
+    },
+    {
+      "entry_id": "curated:lex-de-enttauscht",
+      "german": "Es tut mir leid, dass ich Sie enttäuscht habe.",
+      "english": "I'm sorry I let you down.",
+      "note": "The German sentence uses the listed sense and grammatical class, and the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1357",
+      "german": "Ich habe dich nicht klopfen gehört.",
+      "english": "I didn't hear you knock.",
+      "note": "The German sentence uses the listed sense and grammatical class, and the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1359",
+      "german": "Die Kinder haben im Dreck gespielt.",
+      "english": "The children were playing in the dirt.",
+      "note": "The German sentence uses the listed sense and grammatical class, and the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1360",
+      "german": "Sie beantworteten die Frage ihres Lehrers nur mit Mühe.",
+      "english": "They answered their teacher's question with difficulty.",
+      "note": "The German sentence uses the listed sense and grammatical class, and the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1362",
+      "german": "Hast du dir schon einmal einen Knochen gebrochen?",
+      "english": "Have you ever broken a bone?",
+      "note": "The German sentence uses the listed sense and grammatical class, and the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1365",
+      "german": "Auf jeden Fall war das Programm ein Erfolg.",
+      "english": "At any rate, the program was a success.",
+      "note": "The German sentence uses the listed sense and grammatical class, and the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1366",
+      "german": "Auf das Grab wurde eine schwere Steinplatte gelegt.",
+      "english": "A heavy stone slab was lowered over the grave.",
+      "note": "The German sentence uses the listed sense and grammatical class, and the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1367",
+      "german": "Ich glaube, ich weiß ebenso viel wie du.",
+      "english": "I think I know as much as you do.",
+      "note": "The German sentence uses the listed sense and grammatical class, and the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1368",
+      "german": "Ich lasse einen Schlüssel bei meinem nächsten Nachbarn, falls du hier bist, bevor ich es bin.",
+      "english": "I'll leave a key with my next-door neighbour in case you get here before I do.",
+      "note": "The German sentence uses the listed sense and grammatical class, and the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1369",
+      "german": "Ich kann dir nichts im Gegenzug bieten.",
+      "english": "I can't offer you anything in return.",
+      "note": "The German sentence uses the listed sense and grammatical class, and the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1370",
+      "german": "Das ist das Beste, was ich je getan habe.",
+      "english": "It's the best thing I ever did.",
+      "note": "The German sentence uses the listed sense and grammatical class, and the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1371",
+      "german": "Tom ist noch immer so freundlich wie sonst.",
+      "english": "Tom is still just as friendly as he used to be.",
+      "note": "The German sentence uses the listed sense and grammatical class, and the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1374",
+      "german": "Das Eis war dick genug, um darauf zu gehen.",
+      "english": "The ice was thick enough to walk on.",
+      "note": "The German sentence uses the listed sense and grammatical class, and the English translation matches it."
+    },
+    {
+      "entry_id": "curated:lex-de-stuhl",
+      "german": "Setz dich nicht dahin. Das ist Toms Stuhl.",
+      "english": "Don't sit there. That's Tom's chair.",
+      "note": "The German sentence uses the listed sense and grammatical class, and the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1381",
+      "german": "Eine weitere Toilette befindet sich im dritten Stock.",
+      "english": "There's another toilet on the third floor.",
+      "note": "The German sentence uses the listed sense and grammatical class, and the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1383",
+      "german": "Diese Familie hat mich herzlich aufgenommen.",
+      "english": "This family gave me a warm welcome.",
+      "note": "The German sentence uses the listed sense and grammatical class, and the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1384",
+      "german": "Die Hexe verfluchte das arme kleine Mädchen.",
+      "english": "The witch cursed the poor little girl.",
+      "note": "The German sentence uses the listed sense and grammatical class, and the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1385",
+      "german": "Was willst du machen, wenn du erwachsen bist?",
+      "english": "What do you want to do when you grow up?",
+      "note": "The German sentence uses the listed sense and grammatical class, and the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1386",
+      "german": "Tom nahm Maria die Pistole aus der Hand.",
+      "english": "Tom took the gun out of Mary's hand.",
+      "note": "The German sentence uses the listed sense and grammatical class, and the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1387",
+      "german": "Ist das eine Frage oder eine Aussage?",
+      "english": "Is that a question or a statement?",
+      "note": "The German sentence uses the listed sense and grammatical class, and the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1388",
+      "german": "Alle außer Tom schienen die Party zu genießen.",
+      "english": "Everyone but Tom seemed to enjoy the party.",
+      "note": "The German sentence uses the listed sense and grammatical class, and the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1389",
+      "german": "Tom kann nichts dagegen tun, eifersüchtig zu sein.",
+      "english": "Tom can't help but be jealous.",
+      "note": "The German sentence uses the listed sense and grammatical class, and the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1390",
+      "german": "Du bist derjenige, der weiß, wie das geht.",
+      "english": "You're the one who knows how to do this.",
+      "note": "The German sentence uses the listed sense and grammatical class, and the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1393",
+      "german": "Er hat sich den Zahn ziehen lassen.",
+      "english": "He had his tooth pulled.",
+      "note": "The German sentence uses the listed sense and grammatical class, and the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1395",
+      "german": "Er ist in jeder Hinsicht ein Gentleman.",
+      "english": "He is every bit a gentleman.",
+      "note": "The German sentence uses the listed sense and grammatical class, and the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1397",
+      "german": "Ich treffe mich vor dem Theater mit dir.",
+      "english": "I'll meet you in front of the theater.",
+      "note": "The German sentence uses the listed sense and grammatical class, and the English translation matches it."
+    },
+    {
+      "entry_id": "curated:lex-de-regen",
+      "german": "Dunkle Wolken sind die Vorzeichen für Regen.",
+      "english": "Dark clouds are a sign of rain.",
+      "note": "The German sentence uses the listed sense and grammatical class, and the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1400",
+      "german": "Ich kann nicht zulassen, dass du das tust.",
+      "english": "I can't allow you to do that.",
+      "note": "The German sentence uses the listed sense and grammatical class, and the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1402",
+      "german": "Habt ihr alle komplett den Verstand verloren?",
+      "english": "Have you all gone completely insane?",
+      "note": "The German sentence uses the listed sense and grammatical class, and the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1403",
+      "german": "Das ist kein Grund, in Panik zu verfallen.",
+      "english": "That's not a reason to panic.",
+      "note": "The German sentence uses the listed sense and grammatical class, and the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1404",
+      "german": "Hol mich bitte um fünf am Flughafen ab.",
+      "english": "Please pick me up at the airport at five.",
+      "note": "The German sentence uses the listed sense and grammatical class, and the English translation matches it."
+    },
+    {
+      "entry_id": "curated:lex-de-bewusst",
+      "german": "War dir bewusst, worauf du dich eingelassen hattest?",
+      "english": "Did you know what you were getting into?",
+      "note": "The German sentence uses the listed sense and grammatical class, and the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1406",
+      "german": "Er ist uns in Mathe voraus.",
+      "english": "He is ahead of us in mathematics.",
+      "note": "The German sentence uses the listed sense and grammatical class, and the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1407",
+      "german": "Ich hätte gerne, dass Sie mich begleiten.",
+      "english": "I'd like you to accompany me.",
+      "note": "The German sentence uses the listed sense and grammatical class, and the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1414",
+      "german": "Heute habe ich einen Star gesehen.",
+      "english": "Today, I saw a starling.",
+      "note": "The German sentence uses the listed sense and grammatical class, and the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1418",
+      "german": "Lass uns dort weitermachen, wo wir aufgehört haben!",
+      "english": "Let's continue from where we left off.",
+      "note": "The German sentence uses the listed sense and grammatical class, and the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1421",
+      "german": "Ich kann ihr die Botschaft nicht nahebringen.",
+      "english": "I can not get the message through to her.",
+      "note": "The German sentence uses the listed sense and grammatical class, and the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1423",
+      "german": "Kann es wahr sein, dass sie Selbstmord verübte?",
+      "english": "Can it be true that she committed suicide?",
+      "note": "The German sentence uses the listed sense and grammatical class, and the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1424",
+      "german": "Ich denke, dass Tom bald zurückkommen wird.",
+      "english": "I think Tom will come back soon.",
+      "note": "The German sentence uses the listed sense and grammatical class, and the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1426",
+      "german": "Glaubt Tom immer noch an Magie?",
+      "english": "Does Tom still believe in magic?",
+      "note": "The German sentence uses the listed sense and grammatical class, and the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1427",
+      "german": "Es war nötig, die Angelegenheit gründlich zu untersuchen.",
+      "english": "It was necessary to study the matter thoroughly.",
+      "note": "The German sentence uses the listed sense and grammatical class, and the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1428",
+      "german": "Tom gelang die Flucht durch ein Fenster.",
+      "english": "Tom managed to escape through a window.",
+      "note": "The German sentence uses the listed sense and grammatical class, and the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1431",
+      "german": "Das Küchenmesser war zum Schneiden des Fleischs nicht scharf genug; daher nahm ich mein Taschenmesser.",
+      "english": "The kitchen knife wasn't sharp enough to cut the meat, so I used my pocket knife.",
+      "note": "The German sentence uses the listed sense and grammatical class, and the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1436",
+      "german": "Es war ein Wahnsinn, dass er in dem eisigen Wasser zu schwimmen versuchte.",
+      "english": "It was mad of him to try to swim in the icy water.",
+      "note": "The German sentence uses the listed sense and grammatical class, and the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1437",
+      "german": "Tom müsste innerhalb von fünfzehn Minuten hier sein.",
+      "english": "Tom should be here within fifteen minutes.",
+      "note": "The German sentence uses the listed sense and grammatical class, and the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1439",
+      "german": "Der alte Mann ist auf einem Auge blind.",
+      "english": "The old man is blind in one eye.",
+      "note": "The German sentence uses the listed sense and grammatical class, and the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1440",
+      "german": "Erinnerst du dich noch an den Code?",
+      "english": "Do you remember the code?",
+      "note": "The German sentence uses the listed sense and grammatical class, and the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1441",
+      "german": "Du bist schlau – aber nicht schlau genug!",
+      "english": "You're clever, but not clever enough.",
+      "note": "The German sentence uses the listed sense and grammatical class, and the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1442",
+      "german": "Ich habe keine Absicht, das jetzt zu tun.",
+      "english": "I have no intention of doing that now.",
+      "note": "The German sentence uses the listed sense and grammatical class, and the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1445",
+      "german": "Es war nie mein Wunsch, dich zu verletzen.",
+      "english": "I never wanted to hurt you.",
+      "note": "The German sentence uses the listed sense and grammatical class, and the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1446",
+      "german": "Ich habe sie oft diesen Song singen gehört.",
+      "english": "I often heard her sing that song.",
+      "note": "The German sentence uses the listed sense and grammatical class, and the English translation matches it."
+    },
+    {
+      "entry_id": "curated:lex-de-schuler",
+      "german": "Die Zahl der Schüler, die zu spät zur Schule kamen, war viel geringer, als ich erwartet hatte.",
+      "english": "The number of students who were late for school was much smaller than I had expected.",
+      "note": "The German sentence uses the listed sense and grammatical class, and the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1448",
+      "german": "Findest du das nicht ein bisschen merkwürdig?",
+      "english": "Don't you think that's a bit odd?",
+      "note": "The German sentence uses the listed sense and grammatical class, and the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1450",
+      "german": "Es hat etwa die Größe von einem Ei.",
+      "english": "It is about the size of an egg.",
+      "note": "The German sentence uses the listed sense and grammatical class, and the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1452",
+      "german": "Du kannst mich mit einem solchen Trick nicht hereinlegen.",
+      "english": "You can't fool me with a trick like that.",
+      "note": "The German sentence uses the listed sense and grammatical class, and the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1456",
+      "german": "Ich habe keine Vorstellung, wie viel das kostet.",
+      "english": "I have no idea how much it costs.",
+      "note": "The German sentence uses the listed sense and grammatical class, and the English translation matches it."
+    }
+  ],
+  "held_examples": [
+    {
+      "entry_id": "frequency:1300",
+      "german": "In Rom gibt es viele alte Gebäude.",
+      "reason": "The candidate refers to Rome the city, but this entry is the ethnonym for a Romani person; replace it with a sense-matched, respectful sentence."
+    },
+    {
+      "entry_id": "frequency:1304",
+      "german": "Dieser Gedanke ist selbstverständlich.",
+      "reason": "The English translation is ungrammatical and does not express the adjective accurately; replace it with a natural equivalent."
+    },
+    {
+      "entry_id": "frequency:1334",
+      "german": "Das Päckchen wiegt mehr als ein Pfund.",
+      "reason": "German ein Pfund means 500 grams here; the candidate English could be mistaken for an imperial pound, so clarify the metric weight."
+    },
+    {
+      "entry_id": "curated:lex-de-warm",
+      "german": "Das Wasser war 38 Grad warm.",
+      "reason": "The candidate omits the temperature scale; clarify Celsius in English while preserving the German example."
+    },
+    {
+      "entry_id": "frequency:1401",
+      "german": "Das Etui schnappte zu.",
+      "reason": "This sentence uses the separable sense meaning snap shut, while the entry gloss is the mouth/action sense; replace with a matching example."
+    },
+    {
+      "entry_id": "frequency:1425",
+      "german": "Gibt es irgendein Essen, dass du nicht magst?",
+      "reason": "The candidate contains a relative-clause spelling error: dass must be das here; correct the German sentence."
+    },
+    {
+      "entry_id": "frequency:1435",
+      "german": "Es kann mehrere Mißstände zur gleichen Zeit geben.",
+      "reason": "The source sentence uses superseded Miß spelling and its English paraphrase is indirect; replace with a modern, clear example."
+    }
+  ],
+  "editorial_examples": [
+    {
+      "entry_id": "frequency:1300",
+      "german": "Er ist Rom und spricht Romanes.",
+      "english": "He is a Rom and speaks Romani.",
+      "note": "Original sentence for the Roma-person sense; wording avoids asserting a trait about an ethnic group."
+    },
+    {
+      "entry_id": "frequency:1304",
+      "german": "Dieser Gedanke ist selbstverständlich.",
+      "english": "This thought is self-evident.",
+      "note": "Exact, grammatical English for the stated self-evident sense."
+    },
+    {
+      "entry_id": "frequency:1334",
+      "german": "Das Päckchen wiegt mehr als ein Pfund.",
+      "english": "The parcel weighs more than 500 grams.",
+      "note": "Clarifies that a German Pfund is 500 grams."
+    },
+    {
+      "entry_id": "curated:lex-de-warm",
+      "german": "Das Wasser war 38 Grad warm.",
+      "english": "The water was warm at 38 °C.",
+      "note": "Adds the Celsius scale that is implicit in the German context."
+    },
+    {
+      "entry_id": "frequency:1401",
+      "german": "Der Hund schnappte nach dem Ball.",
+      "english": "The dog snapped at the ball.",
+      "note": "Matches the mouth/action sense of schnappen."
+    },
+    {
+      "entry_id": "frequency:1425",
+      "german": "Gibt es irgendein Essen, das du nicht magst?",
+      "english": "Is there any food you do not like?",
+      "note": "Corrects the relative pronoun das."
+    },
+    {
+      "entry_id": "frequency:1435",
+      "german": "Es kann mehrere Missstände zur gleichen Zeit geben.",
+      "english": "Several shortcomings can exist at the same time.",
+      "note": "Uses current spelling and translates Missstände directly."
+    }
+  ],
+  "entry_updates": [
+    {
+      "entry_id": "frequency:1385",
+      "field": "word_class",
+      "value": "adjective",
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/erwachsen_ausgewachsen_grosz",
+      "note": "The example uses erwachsen as an adjective meaning adult/grown-up; the verb erwachsen has a different meaning."
+    },
+    {
+      "entry_id": "frequency:1385",
+      "field": "meaning",
+      "value": "adult; grown-up",
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/erwachsen_ausgewachsen_grosz",
+      "note": "The example is the adjective sense adult/grown-up, not the separate verb erwachsen."
+    },
+    {
+      "entry_id": "frequency:1428",
+      "field": "meaning",
+      "value": "escape; flight from danger or captivity",
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Flucht_Ausbruch",
+      "note": "Tom gelang die Flucht durch ein Fenster uses the ordinary noun sense escape, not the architectural alignment sense."
+    }
+  ],
+  "plural_reviews": [
+    {
+      "entry_id": "frequency:4848",
+      "value": [
+        "Schöpfer"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Schoepfer_Urheber",
+      "note": "Creator is unchanged in the nominative plural. The entry is for a creator, not the homonymous ladle."
+    },
+    {
+      "entry_id": "frequency:4852",
+      "value": [
+        "Regale"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Regal",
+      "note": "Regular plural of Regal."
+    },
+    {
+      "entry_id": "frequency:4857",
+      "value": [
+        "Psychos"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Psycho",
+      "note": "Duden lists Psychos for the masculine noun; retain the existing entry sense as a short form of Psychokrimi."
+    },
+    {
+      "entry_id": "frequency:4870",
+      "value": [
+        "Zinse"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Zins",
+      "note": "Sense-specific correction: this entry means ground rent (regional/dated); Duden gives Zinse for rent/Grundzins, while Zinsen is chiefly the bank-interest plural."
+    },
+    {
+      "entry_id": "frequency:4872",
+      "value": [
+        "Ballone",
+        "Ballons"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Ballon",
+      "note": "Both Ballone and Ballons are documented plural variants."
+    },
+    {
+      "entry_id": "frequency:4876",
+      "value": [
+        "Dekane"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Dekan",
+      "note": "Regular plural of Dekan."
+    },
+    {
+      "entry_id": "frequency:4892",
+      "value": [
+        "Softwares"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Software",
+      "note": "Duden records Softwares.",
+      "usage_note": "Plural is documented, especially when referring to separate software products; software is also commonly used as a mass noun."
+    },
+    {
+      "entry_id": "frequency:4906",
+      "value": [
+        "Brüche"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Bruch",
+      "note": "Umlaut plural for Bruch in the break/fracture sense."
+    },
+    {
+      "entry_id": "frequency:4926",
+      "value": [
+        "Rüstungen"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Ruestung",
+      "note": "Regular plural of Rüstung."
+    },
+    {
+      "entry_id": "frequency:4928",
+      "value": [
+        "Tauben"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Taube",
+      "note": "Regular plural of Taube in the bird sense."
+    },
+    {
+      "entry_id": "frequency:4931",
+      "value": [
+        "Bitches"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Bitch",
+      "note": "Duden records the plural Bitches.",
+      "usage_note": "Register note: this borrowed slang term can be a discriminatory insult for a woman; Duden also records context-dependent reclaimed self/group use."
+    },
+    {
+      "entry_id": "frequency:4938",
+      "value": [
+        "Ehrgeize"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Ehrgeiz",
+      "note": "Duden records Ehrgeize, explicitly marked as rare.",
+      "usage_note": "Plural exists but is rare; the singular is the usual form for the abstract quality."
+    },
+    {
+      "entry_id": "frequency:4949",
+      "value": [
+        "Hacker"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Hacker",
+      "note": "Plural remains Hacker."
+    },
+    {
+      "entry_id": "frequency:4951",
+      "value": [
+        "Nerven"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Nerv",
+      "note": "Regular plural of Nerv."
+    },
+    {
+      "entry_id": "frequency:4959",
+      "value": [
+        "Yen",
+        "Yens"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Yen",
+      "note": "Duden allows Yen[s], with Yen as the common currency-count form (e.g. 4 Yen)."
+    },
+    {
+      "entry_id": "frequency:4961",
+      "value": [
+        "Spermata",
+        "Spermen"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Sperma",
+      "note": "Both plural forms are listed by Duden."
+    },
+    {
+      "entry_id": "frequency:4966",
+      "value": [
+        "Boni",
+        "Bonus",
+        "Bonusse"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Bonus",
+      "note": "Duden lists all three plural forms."
+    },
+    {
+      "entry_id": "frequency:4978",
+      "value": [
+        "Pentagone"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Pentagon_Fuenfeck_Ministerium",
+      "note": "Pentagone is the geometric plural. The Pentagon as the US ministry/building is normally singular."
+    },
+    {
+      "entry_id": "frequency:4987",
+      "value": [
+        "Freiwillige",
+        "Freiwilligen"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Freiwilliger",
+      "note": "Both forms are correct in context: zwei Freiwillige; die Freiwilligen. The latter is also the dative plural form."
+    },
+    {
+      "entry_id": "frequency:5000",
+      "value": [
+        "Großeltern"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Groszeltern",
+      "note": "Plural-only kinship noun; singular relatives are Großvater and Großmutter.",
+      "usage_note": "Plural-only: Großeltern means grandparents; use Großvater or Großmutter for one person."
+    }
+  ]
+}

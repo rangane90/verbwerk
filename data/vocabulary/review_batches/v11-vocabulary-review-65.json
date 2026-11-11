@@ -1,0 +1,22 @@
+{
+  "batch_id":"v11-vocabulary-review-65",
+  "review_date":"2026-11-11",
+  "input_database_sha256":"fdc69b8627ba927149bd0d00349c259d5480cb2e011a5e7f1dff30f0f6458dc3",
+  "accepted_examples":[],
+  "editorial_examples":[
+    {"entry_id":"frequency:4548","german":"Sie schlug einen Cross.","english":"She hit a cross-court shot.","evidence_url":"https://www.duden.de/rechtschreibung/Cross","note":"Restored the capitalized masculine noun Cross (tennis shot); the prior editorial example belonged to the distinct lowercase adverb cross."}
+  ],
+  "entry_updates":[
+    {"entry_id":"frequency:1644","field":"word_class","value":"adjective","source":"Duden","url":"https://www.duden.de/rechtschreibung/gemein","note":"Corrected the sense/class mapping: this entry is gemein, used as an adjective meaning mean/unkind here; Duden also records its dated intensifier and the phrase gemein haben."},
+    {"entry_id":"frequency:1644","field":"meaning","value":"mean; unkind; (dated intensifier) very; have in common (in etwas gemein haben)","source":"Duden","url":"https://www.duden.de/rechtschreibung/gemein","note":"Moved the earlier gemein gloss from the unrelated Quelle entry and captured the adjective sense used in the accepted example plus the relevant phrase/intensifier senses."},
+    {"entry_id":"frequency:1646","field":"word_class","value":"noun","source":"Duden","url":"https://www.duden.de/rechtschreibung/Quelle","note":"Restored Quelle as a feminine noun; an earlier review for gemein was attached to this unrelated entry by mistake."},
+    {"entry_id":"frequency:1646","field":"meaning","value":"spring; source; origin","source":"Duden","url":"https://www.duden.de/rechtschreibung/Quelle","note":"Restored the water-source meaning for Quelle; the earlier gemein gloss was attached to this entry in error."},
+    {"entry_id":"frequency:1649","field":"meaning","value":"tip; point; peak; leading position","source":"Duden","url":"https://www.duden.de/rechtschreibung/Spitze","note":"Aligned Spitze with its reviewed example about being at the top; the previous cusp-only gloss did not cover this sense."},
+    {"entry_id":"frequency:1659","field":"meaning","value":"to serve; to function or be used for a purpose","source":"Duden","url":"https://www.duden.de/rechtschreibung/dienen","note":"Restored the verb sense for dienen; an earlier Spitze definition had been attached here by mistake."},
+    {"entry_id":"frequency:3027","field":"meaning","value":"politician; person who holds a political office","source":"Duden","url":"https://www.duden.de/rechtschreibung/Politiker","note":"Restored the politician meaning; an earlier Flieger gloss was attached to this unrelated entry by mistake."},
+    {"entry_id":"frequency:3037","field":"meaning","value":"airplane; aircraft (colloquial); aviator","source":"Duden","url":"https://www.duden.de/rechtschreibung/Flieger","note":"Added the colloquial airplane sense used in the reviewed 'same Flieger' example while retaining the person sense."},
+    {"entry_id":"frequency:4548","field":"word_class","value":"noun","source":"Duden","url":"https://www.duden.de/rechtschreibung/Cross","note":"Restored the capitalized noun Cross (der Cross), distinct from the lowercase tennis adverb cross."},
+    {"entry_id":"frequency:4548","field":"meaning","value":"cross-court shot; a stroke played diagonally into the opponent's court (tennis)","source":"Duden","url":"https://www.duden.de/rechtschreibung/Cross","note":"Aligned the noun definition with Duden's tennis sense and the reviewed noun example."}
+  ],
+  "plural_reviews":[]
+}

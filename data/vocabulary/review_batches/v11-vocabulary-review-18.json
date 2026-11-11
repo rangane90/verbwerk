@@ -1,0 +1,462 @@
+{
+  "batch_id": "v11-vocabulary-review-18",
+  "review_date": "2026-11-11",
+  "input_database_sha256": "091793e3ff372614ca8c587614b0978a8057d5db092fa63e8417ee150b1ab4ff",
+  "accepted_examples": [
+    {
+      "entry_id": "frequency:896",
+      "german": "Wie kannst du nur so gelassen sein?",
+      "english": "How can you be so calm?",
+      "note": "gelassen means calm here, and the question and translation match directly."
+    },
+    {
+      "entry_id": "frequency:899",
+      "german": "Der Plan ist ohne Sinn und Verstand.",
+      "english": "There's no rhyme or reason to that plan.",
+      "note": "Verstand is used in the idiom ohne Sinn und Verstand; the translation no rhyme or reason captures the same idea."
+    },
+    {
+      "entry_id": "frequency:903",
+      "german": "Mein Rat an Sie ist, sofort zu gehen.",
+      "english": "My advice to you is to leave immediately.",
+      "note": "Rat means advice/counsel, and the English translation states the same recommendation."
+    },
+    {
+      "entry_id": "frequency:905",
+      "german": "Es hat keinen Sinn, eine Kamera mitzubringen.",
+      "english": "There's no point in taking a camera.",
+      "note": "Kamera is the device for taking photographs or filming; the translation matches."
+    },
+    {
+      "entry_id": "curated:lex-de-schuh",
+      "german": "Ich habe meine Schuhe ausgelatscht.",
+      "english": "I've worn out my shoes.",
+      "note": "Schuhe is the regular plural form of Schuh, and the sentence and translation describe wearing shoes out."
+    },
+    {
+      "entry_id": "frequency:908",
+      "german": "Herzlichen Glückwunsch! Sie haben gewonnen.",
+      "english": "Congratulations! You won.",
+      "note": "Glückwunsch is used in the conventional congratulatory phrase; the translation is idiomatic."
+    },
+    {
+      "entry_id": "frequency:909",
+      "german": "Ich entschied mich, zu gehen, statt zu bleiben.",
+      "english": "I chose to leave instead of staying behind.",
+      "note": "statt zu bleiben expresses instead of staying, matching the English sentence."
+    },
+    {
+      "entry_id": "frequency:910",
+      "german": "Keiner seiner beiden Söhne wollte das Geschäft übernehmen.",
+      "english": "Neither of his sons wanted to take over the business.",
+      "note": "übernehmen means take over in the business context, matching the English translation."
+    },
+    {
+      "entry_id": "frequency:911",
+      "german": "Der See ist der tiefste in dieser Gegend.",
+      "english": "The lake is deepest in this area.",
+      "note": "Gegend means area/region and is used naturally with dieser."
+    },
+    {
+      "entry_id": "frequency:912",
+      "german": "Gehen Sie nicht zu weit in den Wald!",
+      "english": "Don't go too far into the woods.",
+      "note": "Wald means forest/woods; the imperative and translation align."
+    },
+    {
+      "entry_id": "frequency:914",
+      "german": "Ich hätte sehr gerne ein kaltes Glas Bier.",
+      "english": "I would love a cold glass of beer.",
+      "note": "Glas means a drinking glass here and the English translation matches."
+    },
+    {
+      "entry_id": "curated:lex-de-verantwortlich",
+      "german": "Bist du denn nicht dafür verantwortlich?",
+      "english": "Aren't you in charge?",
+      "note": "verantwortlich means in charge/responsible here; dafür is reflected in the translation."
+    },
+    {
+      "entry_id": "frequency:916",
+      "german": "Tom begann vor Schmerz zu stöhnen.",
+      "english": "Tom started moaning in pain.",
+      "note": "stöhnen means moan/groan, and the pain context is accurately translated."
+    },
+    {
+      "entry_id": "curated:lex-de-kleid",
+      "german": "Dieser Hut passt zum Kleid.",
+      "english": "This hat goes together with the dress.",
+      "note": "Kleid means dress; passen zu expresses that one item goes with another, as translated."
+    },
+    {
+      "entry_id": "curated:lex-de-abendessen",
+      "german": "Abendessen wird zwischen neun Uhr und Mitternacht serviert.",
+      "english": "The evening meal is served between 9 and 12.",
+      "note": "Abendessen means the evening meal; the sentence and English translation agree."
+    },
+    {
+      "entry_id": "frequency:921",
+      "german": "Die Mehrheit des Ausschusses stimmte gegen das Gesetz.",
+      "english": "The majority of the committee voted against the bill.",
+      "note": "Gesetz is used for legislation under discussion; bill is a context-appropriate English rendering in the committee vote."
+    },
+    {
+      "entry_id": "curated:lex-de-gemeinsam",
+      "german": "Wir gehen schon drei Jahre gemeinsam aus.",
+      "english": "We've been going out with each other for three years.",
+      "note": "gemeinsam means together; the sentence expresses a shared activity and the English translation preserves that sense."
+    },
+    {
+      "entry_id": "curated:lex-de-der-schritt",
+      "german": "Eine tausend Meilen lange Reise beginnt mit einem einzigen Schritt.",
+      "english": "A journey of a thousand miles begins with a single step.",
+      "note": "Schritt means a step in a process; the proverb uses it literally as the first step on a journey."
+    },
+    {
+      "entry_id": "frequency:927",
+      "german": "Bitte bring das Band morgen zurück.",
+      "english": "Please bring back the tape tomorrow.",
+      "note": "Band means tape in this context, and the translation explicitly selects that sense."
+    },
+    {
+      "entry_id": "frequency:928",
+      "german": "Es hat ungefähr die Größe von einem Ei.",
+      "english": "It's about the size of an egg.",
+      "note": "ungefähr means approximately/about, with the size comparison accurately translated."
+    }
+  ],
+  "held_examples": [
+    {
+      "entry_id": "frequency:893",
+      "german": "Ein Soldat muß sich oft der Gefahr stellen.",
+      "reason": "The candidate uses the superseded spelling muß; use current standard spelling for learner-facing material."
+    },
+    {
+      "entry_id": "frequency:900",
+      "german": "Den 30 Passagieren an Bord geht es allen gut.",
+      "reason": "An Bord means aboard/on board, which is unrelated to the selected shelf sense of Bord."
+    },
+    {
+      "entry_id": "frequency:901",
+      "german": "Sie nahmen einen Mann namens Lee Harvey Oswald fest.",
+      "reason": "Lee is only a surname in this sentence and does not demonstrate the nautical lee-side meaning."
+    },
+    {
+      "entry_id": "frequency:906",
+      "german": "Jeder scheint dem Achtung zu schenken, was er sagt.",
+      "reason": "The candidate word order is faulty for the intended structure and does not provide a reliable model sentence."
+    },
+    {
+      "entry_id": "frequency:924",
+      "german": "He, guckt mal, was ich kann!",
+      "reason": "The opening interjection He is a typo or malformed punctuation; replace it with a clean colloquial imperative."
+    }
+  ],
+  "editorial_examples": [
+    {
+      "entry_id": "frequency:893",
+      "german": "Ein Soldat muss im Einsatz oft schwierige Entscheidungen treffen.",
+      "english": "A soldier often has to make difficult decisions in the field.",
+      "note": "Current German spelling and a complete neutral sentence."
+    },
+    {
+      "entry_id": "frequency:900",
+      "german": "Das Bord aus Holz über dem Schreibtisch ist sehr praktisch.",
+      "english": "The wooden shelf above the desk is very practical.",
+      "note": "This demonstrates Bord in the selected shelf sense, not the phrase an Bord."
+    },
+    {
+      "entry_id": "frequency:901",
+      "german": "Das Schiff suchte im Lee der Insel Schutz vor dem Wind.",
+      "english": "The ship sought shelter from the wind on the lee side of the island.",
+      "note": "The noun Lee is used in its nautical sense, with a clear contextual cue."
+    },
+    {
+      "entry_id": "frequency:906",
+      "german": "Bitte schenken Sie den Sicherheitsanweisungen besondere Achtung.",
+      "english": "Please pay special attention to the safety instructions.",
+      "note": "Correct, natural noun use of Achtung in the attention sense."
+    },
+    {
+      "entry_id": "frequency:924",
+      "german": "Guck mal, was ich kann!",
+      "english": "Look what I can do!",
+      "note": "A short, grammatical informal imperative that clearly demonstrates gucken."
+    }
+  ],
+  "plural_reviews": [
+    {
+      "entry_id": "frequency:3489",
+      "value": [
+        "Geschworene"
+      ],
+      "source": "English Wiktionary via Kaikki/Wiktextract",
+      "url": "https://en.wiktionary.org/wiki/Geschworener#German",
+      "note": "Geschworene is the nominative plural of the substantivized adjective; Geschworenen is an oblique-case form."
+    },
+    {
+      "entry_id": "frequency:3492",
+      "value": [
+        "Burgen"
+      ],
+      "source": "English Wiktionary via Kaikki/Wiktextract",
+      "url": "https://en.wiktionary.org/wiki/Burg#German",
+      "note": "For the castle/fortification sense, Burgen is the standard plural; Bürge belongs to a different word."
+    },
+    {
+      "entry_id": "frequency:3494",
+      "value": [
+        "Irre"
+      ],
+      "source": "English Wiktionary via Kaikki/Wiktextract",
+      "url": "https://en.wiktionary.org/wiki/Irrer#German",
+      "note": "Irre is the nominative plural of the substantivized adjective; Irren is used in oblique plural cases."
+    },
+    {
+      "entry_id": "frequency:3509",
+      "value": [
+        "Saisons",
+        "Saisonen"
+      ],
+      "source": "English Wiktionary via Kaikki/Wiktextract",
+      "url": "https://en.wiktionary.org/wiki/Saison#German",
+      "note": "Both plural variants are recorded, with Saisons the common general form and Saisonen especially regional."
+    },
+    {
+      "entry_id": "frequency:3514",
+      "value": [
+        "Kais"
+      ],
+      "source": "German Wiktionary via gambolputty/german-nouns",
+      "url": "https://de.wiktionary.org/wiki/Kai",
+      "note": "Standard plural of Kai in the wharf/quay sense."
+    },
+    {
+      "entry_id": "frequency:3532",
+      "value": [
+        "Orangen"
+      ],
+      "source": "English Wiktionary via Kaikki/Wiktextract",
+      "url": "https://en.wiktionary.org/wiki/Orange#German",
+      "note": "Standard plural for the fruit sense."
+    },
+    {
+      "entry_id": "frequency:3553",
+      "value": [
+        "Orden"
+      ],
+      "source": "English Wiktionary via Kaikki/Wiktextract",
+      "url": "https://en.wiktionary.org/wiki/Orden#German",
+      "note": "The plural is unchanged for an awarded decoration."
+    },
+    {
+      "entry_id": "frequency:3568",
+      "value": [
+        "Austausche"
+      ],
+      "source": "German Wiktionary via gambolputty/german-nouns",
+      "url": "https://de.wiktionary.org/wiki/Austausch",
+      "note": "Austausche is attested when referring to distinct exchanges; the base noun is otherwise often used as a mass noun."
+    },
+    {
+      "entry_id": "frequency:3586",
+      "value": [
+        "Verwandte"
+      ],
+      "source": "English Wiktionary via Kaikki/Wiktextract",
+      "url": "https://en.wiktionary.org/wiki/Verwandter#German",
+      "note": "Verwandte is nominative plural of the substantivized adjective; Verwandten is an oblique-case form."
+    },
+    {
+      "entry_id": "frequency:3633",
+      "value": [
+        "Überlebende"
+      ],
+      "source": "English Wiktionary via Kaikki/Wiktextract",
+      "url": "https://en.wiktionary.org/wiki/%C3%9Cberlebender#German",
+      "note": "Überlebende is nominative plural; Überlebenden is the oblique-case plural form."
+    },
+    {
+      "entry_id": "frequency:3650",
+      "value": [
+        "Moden"
+      ],
+      "source": "English Wiktionary via Kaikki/Wiktextract",
+      "url": "https://en.wiktionary.org/wiki/Mode#German",
+      "note": "Standard plural when referring to distinct fashions or trends."
+    },
+    {
+      "entry_id": "frequency:3652",
+      "value": [
+        "Hähne"
+      ],
+      "source": "English Wiktionary via Kaikki/Wiktextract",
+      "url": "https://en.wiktionary.org/wiki/Hahn#German",
+      "note": "For the rooster sense, Hähne is the usual plural; Hahnen is not needed as a separate learner form."
+    },
+    {
+      "entry_id": "frequency:3664",
+      "value": [
+        "Seifen"
+      ],
+      "source": "German Wiktionary via gambolputty/german-nouns",
+      "url": "https://de.wiktionary.org/wiki/Seife",
+      "note": "Plural used for different kinds or units of soap; Seife is usually a mass noun in everyday use."
+    },
+    {
+      "entry_id": "frequency:3671",
+      "value": [
+        "Level",
+        "Levels"
+      ],
+      "source": "English Wiktionary via Kaikki/Wiktextract",
+      "url": "https://en.wiktionary.org/wiki/Level#German",
+      "note": "Both zero plural and the regular -s form are used for this loan noun."
+    },
+    {
+      "entry_id": "frequency:3672",
+      "value": [
+        "Pos"
+      ],
+      "source": "English Wiktionary via Kaikki/Wiktextract",
+      "url": "https://en.wiktionary.org/wiki/Po#German",
+      "note": "Standard plural for the colloquial noun Po."
+    },
+    {
+      "entry_id": "frequency:3680",
+      "value": [
+        "Kokse"
+      ],
+      "source": "English Wiktionary via Kaikki/Wiktextract",
+      "url": "https://en.wiktionary.org/wiki/Koks#German",
+      "note": "Kokse is possible for distinct kinds or grades of coke; ordinary material use is generally singular."
+    },
+    {
+      "entry_id": "frequency:3693",
+      "value": [
+        "Tattoos"
+      ],
+      "source": "English Wiktionary via Kaikki/Wiktextract",
+      "url": "https://en.wiktionary.org/wiki/Tattoo#German",
+      "note": "Standard plural for a tattoo signal; the spelling is shared with the body-art sense."
+    },
+    {
+      "entry_id": "frequency:3707",
+      "value": [
+        "Privatleben"
+      ],
+      "source": "German Wiktionary via gambolputty/german-nouns",
+      "url": "https://de.wiktionary.org/wiki/Privatleben",
+      "note": "The compound is normally singular and mass-like; the unchanged plural is retained only for distinct private lives."
+    },
+    {
+      "entry_id": "frequency:3708",
+      "value": [
+        "Zusammenarbeiten"
+      ],
+      "source": "English Wiktionary via Kaikki/Wiktextract",
+      "url": "https://en.wiktionary.org/wiki/Zusammenarbeit#German",
+      "note": "Plural can refer to distinct collaborations; everyday use is usually singular."
+    },
+    {
+      "entry_id": "frequency:3711",
+      "value": [
+        "Kaugummi",
+        "Kaugummis"
+      ],
+      "source": "English Wiktionary via Kaikki/Wiktextract",
+      "url": "https://en.wiktionary.org/wiki/Kaugummi#German",
+      "note": "Both unchanged and regular -s plurals are used, depending on whether gum is treated as a mass or countable pieces/types."
+    },
+    {
+      "entry_id": "frequency:3732",
+      "value": [
+        "Burken"
+      ],
+      "source": "English Wiktionary via Kaikki/Wiktextract",
+      "url": "https://en.wiktionary.org/wiki/Burke#German",
+      "note": "The source records Burken for the glass-container sense; this is a regional/rare noun."
+    },
+    {
+      "entry_id": "frequency:3744",
+      "value": [
+        "Hinrichtungen"
+      ],
+      "source": "English Wiktionary via Kaikki/Wiktextract",
+      "url": "https://en.wiktionary.org/wiki/Hinrichtung#German",
+      "note": "Standard plural for separate acts of execution."
+    },
+    {
+      "entry_id": "frequency:3751",
+      "value": [
+        "Checks"
+      ],
+      "source": "English Wiktionary via Kaikki/Wiktextract",
+      "url": "https://en.wiktionary.org/wiki/Check#German",
+      "note": "Standard plural in the financial/check sense."
+    },
+    {
+      "entry_id": "frequency:3753",
+      "value": [
+        "Bögen"
+      ],
+      "source": "English Wiktionary via Kaikki/Wiktextract",
+      "url": "https://en.wiktionary.org/wiki/Bogen#German",
+      "note": "For the weapon sense, Bögen is the standard plural; unchanged Bogen is associated with other senses such as sheets."
+    },
+    {
+      "entry_id": "frequency:3761",
+      "value": [
+        "Mängel"
+      ],
+      "source": "English Wiktionary via Kaikki/Wiktextract",
+      "url": "https://en.wiktionary.org/wiki/Mangel#German",
+      "note": "Standard umlaut plural for a deficiency or shortage."
+    },
+    {
+      "entry_id": "frequency:3763",
+      "value": [
+        "Hobbys"
+      ],
+      "source": "German Wiktionary via gambolputty/german-nouns",
+      "url": "https://de.wiktionary.org/wiki/Hobby",
+      "note": "Standard German spelling of the plural."
+    },
+    {
+      "entry_id": "frequency:3770",
+      "value": [
+        "Verletzte"
+      ],
+      "source": "English Wiktionary via Kaikki/Wiktextract",
+      "url": "https://en.wiktionary.org/wiki/Verletzter#German",
+      "note": "Verletzte is nominative plural of the substantivized adjective; Verletzten is the oblique-case form."
+    },
+    {
+      "entry_id": "frequency:3774",
+      "value": [
+        "Kamine"
+      ],
+      "source": "English Wiktionary via Kaikki/Wiktextract",
+      "url": "https://en.wiktionary.org/wiki/Kamin#German",
+      "note": "Standard plural of Kamin."
+    },
+    {
+      "entry_id": "frequency:3790",
+      "value": [
+        "Bros"
+      ],
+      "source": "English Wiktionary via Kaikki/Wiktextract",
+      "url": "https://en.wiktionary.org/wiki/Bro#German",
+      "note": "The German colloquial loan noun Bro takes the regular -s plural."
+    },
+    {
+      "entry_id": "frequency:3792",
+      "value": [
+        "Wohnwagen",
+        "Wohnwägen"
+      ],
+      "source": "English Wiktionary via Kaikki/Wiktextract",
+      "url": "https://en.wiktionary.org/wiki/Wohnwagen#German",
+      "note": "Both zero plural and umlaut plural are recorded; the zero plural is the unmarked general form."
+    }
+  ]
+}

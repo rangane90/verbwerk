@@ -1,0 +1,351 @@
+{
+  "batch_id": "v11-vocabulary-review-55",
+  "review_date": "2026-11-11",
+  "input_database_sha256": "098d88ca50803d54483e09f9cae78494aaaf0aec60417c6be31add28b374352a",
+  "accepted_examples": [
+    {
+      "entry_id": "frequency:4589",
+      "german": "Könnt ihr den Gegenstand beschreiben?",
+      "english": "Can you describe the object?",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4590",
+      "german": "Tageslicht strömte bereits zum Fenster herein.",
+      "english": "Daylight was already streaming in through the window.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4591",
+      "german": "Mein Bruder ist jetzt seit drei Jahren clean.",
+      "english": "My brother's been clean for three years now.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4592",
+      "german": "Tom ist ein reueloser Sünder.",
+      "english": "Tom is an unrepentant sinner.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4593",
+      "german": "Ich entwerfe gerade einen Plan.",
+      "english": "I'm drafting a plan.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4594",
+      "german": "Ich denke, du bist eine gute Köchin.",
+      "english": "I think you're a good cook.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4597",
+      "german": "Gibt es hier eine Marina in der Nähe?",
+      "english": "Is there a marina nearby?",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4598",
+      "german": "Wo ist denn das Paket, das ich ausliefern soll?",
+      "english": "Where's the package you wanted me to deliver?",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4600",
+      "german": "An der entsprechenden Stelle fehlen einige Zeilen.",
+      "english": "There are a few lines missing at the appropriate location.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4601",
+      "german": "Im Garten lief ein Hund umher.",
+      "english": "A dog ran around in the garden.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4602",
+      "german": "Hast du jemals gesehen, wie Wurst hergestellt wird?",
+      "english": "Have you ever seen sausage being made?",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4604",
+      "german": "Ich habe meinen Antrieb verloren.",
+      "english": "I've lost my motivation.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4605",
+      "german": "Er versuchte, sie zu trösten, doch sie weinte weiter.",
+      "english": "He tried to comfort her, but she kept crying.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4607",
+      "german": "Er wurde aus dem Königreich verbannt.",
+      "english": "He was banished from the kingdom.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4610",
+      "german": "Sie betrachteten sein Verhalten als kindisch.",
+      "english": "They regarded his behavior as childish.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4612",
+      "german": "Ein Hubschrauber kreiste über uns.",
+      "english": "A helicopter circled over us.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4614",
+      "german": "Wir sind Araber.",
+      "english": "We are Arabs.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4616",
+      "german": "Es sieht aus wie eine Perücke.",
+      "english": "It looks like a wig.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4617",
+      "german": "Der Hummer war gut.",
+      "english": "The lobster was good.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4619",
+      "german": "Nur ein Drittel der Mitglieder erschien zur Versammlung.",
+      "english": "Only one third of the members turned up at the meeting.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4620",
+      "german": "Das Budget des Films war sehr begrenzt.",
+      "english": "The budget of the film was very limited.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4621",
+      "german": "Ich sah, wie Tom in einen dunkelblauen Lieferwagen stieg.",
+      "english": "I saw Tom getting into a dark blue van.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4623",
+      "german": "Ich verspürte den Drang, Maria zu küssen.",
+      "english": "I felt an urge to kiss Mary.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4625",
+      "german": "Wie lange braucht ein Tierarzt, um ein Pferd zu untersuchen?",
+      "english": "How long does it take for a veterinarian to examine a horse?",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4627",
+      "german": "Toms Sturz hatte lebensbedrohliche Verletzungen zur Folge.",
+      "english": "Tom's fall resulted in life-threatening injuries.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4633",
+      "german": "Die neue Autobahn soll 9,24 Millionen Dollar kosten.",
+      "english": "The new highway is expected to cost 9.24 million dollars.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4634",
+      "german": "Ich möchte dieses Lied meiner Mutter widmen.",
+      "english": "I'd like to dedicate this song to my mother.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4635",
+      "german": "Tom hat seine Ansprache mit einem Sprichwort beendet.",
+      "english": "Tom concluded his speech with a proverb.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4637",
+      "german": "Er will Vergeltung üben.",
+      "english": "He wants vengeance.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4638",
+      "german": "Menschen in dieser Kultur kleiden sich farbenfroh.",
+      "english": "People dress colorfully in that culture.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4640",
+      "german": "Du erzeugst in mir solche Schuldgefühle.",
+      "english": "You make me feel so guilty.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4641",
+      "german": "Tom hat sich einen Schnurrbart wachsen lassen.",
+      "english": "Tom grew a moustache.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4643",
+      "german": "Es duftete in der Küche nach Kaffee und frisch gebackenen Brötchen.",
+      "english": "There was a smell of coffee and freshly baked bread in the kitchen.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4644",
+      "german": "Viele Häuser wurden durch die Flut irreparabel beschädigt.",
+      "english": "Many houses were damaged beyond repair in the flood.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4647",
+      "german": "Tom warf den Anker über Bord.",
+      "english": "Tom threw the anchor overboard.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4648",
+      "german": "Jemand sollte den Hund aus seiner Qual erlösen.",
+      "english": "Someone should put that dog out of its misery.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4650",
+      "german": "Er nahm an der Debatte teil.",
+      "english": "He participated in the debate.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4651",
+      "german": "Für Tom zählt nur die Masse, nicht die Qualität.",
+      "english": "What counts for Tom is quantity, not quality.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4652",
+      "german": "Er zerquetschte das Insekt mit der Ferse seines Fußes.",
+      "english": "He squashed the insect with the heel of his foot.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4653",
+      "german": "Ich versuchte, nicht zu glotzen.",
+      "english": "I tried not to stare.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    }
+  ],
+  "editorial_examples": [
+    {
+      "entry_id": "frequency:4599",
+      "german": "Man fragte sich, wodurch er ertappt worden war.",
+      "english": "They wondered how he had been caught.",
+      "note": "Corrected an ungrammatical machine translation while preserving the causal question."
+    },
+    {
+      "entry_id": "frequency:4606",
+      "german": "Er schreibt seine Armut seinem geringen Einkommen zu.",
+      "english": "He attributes his poverty to his low income.",
+      "note": "Replaced an illogical source example and corrected the translation."
+    },
+    {
+      "entry_id": "frequency:4608",
+      "german": "An der Parade nahmen sechs Musikkapellen teil.",
+      "english": "Six marching bands took part in the parade.",
+      "note": "Replaced an unnecessary English phrase in the German sentence and translated the result naturally."
+    },
+    {
+      "entry_id": "frequency:4611",
+      "german": "Das Wort „Krüppel“ gilt als abwertend.",
+      "english": "The word “cripple” is considered offensive.",
+      "note": "Replaced a self-directed slur example with a neutral register note so learners can recognize and avoid the offensive term."
+    },
+    {
+      "entry_id": "frequency:4613",
+      "german": "Die Bestrafung sollte zum Vergehen passen.",
+      "english": "The punishment should fit the offense.",
+      "note": "Replaced a moralizing example with a neutral, broadly useful sentence."
+    },
+    {
+      "entry_id": "frequency:4615",
+      "german": "Ich klebe jetzt das Foto in das Album.",
+      "english": "I’m gluing the photo into the album now.",
+      "note": "Corrected the English preposition and made the adhesive sense explicit."
+    },
+    {
+      "entry_id": "frequency:4618",
+      "german": "Das verletzte Tier wimmerte leise.",
+      "english": "The injured animal whimpered softly.",
+      "note": "Replaced an unidiomatic source sentence and nonsensical machine translation with a simple accurate example."
+    },
+    {
+      "entry_id": "frequency:4629",
+      "german": "Du warst es, der unser Abkommen gebrochen hat.",
+      "english": "You were the one who broke our agreement.",
+      "note": "Made the English translation idiomatic and aligned its tense and emphasis with the German."
+    },
+    {
+      "entry_id": "frequency:4646",
+      "german": "Das Ministerium veröffentlichte neue Richtlinien.",
+      "english": "The ministry published new guidelines.",
+      "note": "Replaced an overly long, potentially outdated institution name with a clear generic sentence."
+    },
+    {
+      "entry_id": "frequency:4649",
+      "german": "Der Herbstwind rauschte durch die Bäume.",
+      "english": "The autumn wind rustled through the trees.",
+      "note": "Corrected the English sound verb for wind moving through trees."
+    }
+  ],
+  "entry_updates": [
+    {
+      "entry_id": "frequency:4591",
+      "field": "meaning",
+      "value": "drug-free, no longer dependent on drugs (jargon)",
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/clean",
+      "note": "Clarified the drug-recovery sense and its jargon register."
+    },
+    {
+      "entry_id": "frequency:4541",
+      "field": "meaning",
+      "value": "bathtub; large open tub or basin, especially for bathing or washing",
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Wanne",
+      "note": "Replaced the fragmentary gloss with the attested meaning used in the example."
+    },
+    {
+      "entry_id": "frequency:4611",
+      "field": "meaning",
+      "value": "cripple (offensive, outdated slur for a disabled person; avoid in respectful speech)",
+      "source": "Verbwerk editorial register review",
+      "note": "Marked the word as an offensive slur and supplied a respectful usage note."
+    },
+    {
+      "entry_id": "frequency:4623",
+      "field": "meaning",
+      "value": "urge, strong impulse, inner drive",
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Drang",
+      "note": "Added the strong-wish/impulse sense used by the example; “pressure/stress” alone was misleading."
+    },
+    {
+      "entry_id": "frequency:4651",
+      "field": "meaning",
+      "value": "mass; a large quantity or number (including “quantity” in contrast with quality); the general public or crowd",
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Masse",
+      "note": "Added the quantity sense used by the example while retaining the physical mass sense."
+    }
+  ],
+  "plural_reviews": []
+}

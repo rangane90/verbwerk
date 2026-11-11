@@ -1,0 +1,772 @@
+[
+  {
+    "language_code": "de",
+    "language": "German",
+    "deck_slug": "directions",
+    "deck_name": "Directions",
+    "front": "abbiegen",
+    "meaning_en": "to turn",
+    "back_raw": "to turn",
+    "translation_raw": ""
+  },
+  {
+    "language_code": "de",
+    "language": "German",
+    "deck_slug": "questions",
+    "deck_name": "Questions & connectors",
+    "front": "aber",
+    "meaning_en": "but | Ich bin müde, aber glücklich. = I'm tired, but happy.",
+    "back_raw": "but",
+    "translation_raw": "but | Ich bin müde, aber glücklich. = I'm tired, but happy."
+  },
+  {
+    "language_code": "de",
+    "language": "German",
+    "deck_slug": "numbers",
+    "deck_name": "Numbers 1–10",
+    "front": "acht",
+    "meaning_en": "8",
+    "back_raw": "8",
+    "translation_raw": ""
+  },
+  {
+    "language_code": "de",
+    "language": "German",
+    "deck_slug": "feelings",
+    "deck_name": "Feelings",
+    "front": "ängstlich",
+    "meaning_en": "afraid",
+    "back_raw": "afraid",
+    "translation_raw": ""
+  },
+  {
+    "language_code": "de",
+    "language": "German",
+    "deck_slug": "feelings",
+    "deck_name": "Feelings",
+    "front": "aufgeregt",
+    "meaning_en": "excited",
+    "back_raw": "excited",
+    "translation_raw": ""
+  },
+  {
+    "language_code": "de",
+    "language": "German",
+    "deck_slug": "shopping",
+    "deck_name": "Shopping",
+    "front": "bezahlen",
+    "meaning_en": "to pay",
+    "back_raw": "to pay",
+    "translation_raw": ""
+  },
+  {
+    "language_code": "de",
+    "language": "German",
+    "deck_slug": "adjectives",
+    "deck_name": "Adjectives",
+    "front": "billig",
+    "meaning_en": "cheap",
+    "back_raw": "cheap",
+    "translation_raw": ""
+  },
+  {
+    "language_code": "de",
+    "language": "German",
+    "deck_slug": "greetings",
+    "deck_name": "Greetings",
+    "front": "bitte",
+    "meaning_en": "please / you're welcome",
+    "back_raw": "please / you're welcome",
+    "translation_raw": ""
+  },
+  {
+    "language_code": "de",
+    "language": "German",
+    "deck_slug": "colors",
+    "deck_name": "Colors",
+    "front": "braun",
+    "meaning_en": "brown",
+    "back_raw": "brown",
+    "translation_raw": ""
+  },
+  {
+    "language_code": "de",
+    "language": "German",
+    "deck_slug": "greetings",
+    "deck_name": "Greetings",
+    "front": "danke",
+    "meaning_en": "thank you",
+    "back_raw": "thank you",
+    "translation_raw": ""
+  },
+  {
+    "language_code": "de",
+    "language": "German",
+    "deck_slug": "questions",
+    "deck_name": "Questions & connectors",
+    "front": "denn",
+    "meaning_en": "because (coordinating, easier word order) | Ich bleibe zu Hause, denn es regnet. = I'm staying home because it's raining.",
+    "back_raw": "because / for (verb stays in normal place)",
+    "translation_raw": "because (coordinating, easier word order) | Ich bleibe zu Hause, denn es regnet. = I'm staying home because it's raining."
+  },
+  {
+    "language_code": "de",
+    "language": "German",
+    "deck_slug": "days",
+    "deck_name": "Days of the week",
+    "front": "Dienstag",
+    "meaning_en": "Tuesday",
+    "back_raw": "Tuesday",
+    "translation_raw": ""
+  },
+  {
+    "language_code": "de",
+    "language": "German",
+    "deck_slug": "days",
+    "deck_name": "Days of the week",
+    "front": "Donnerstag",
+    "meaning_en": "Thursday",
+    "back_raw": "Thursday",
+    "translation_raw": ""
+  },
+  {
+    "language_code": "de",
+    "language": "German",
+    "deck_slug": "numbers",
+    "deck_name": "Numbers 1–10",
+    "front": "drei",
+    "meaning_en": "3",
+    "back_raw": "3",
+    "translation_raw": ""
+  },
+  {
+    "language_code": "de",
+    "language": "German",
+    "deck_slug": "feelings",
+    "deck_name": "Feelings",
+    "front": "durstig",
+    "meaning_en": "thirsty",
+    "back_raw": "thirsty",
+    "translation_raw": ""
+  },
+  {
+    "language_code": "de",
+    "language": "German",
+    "deck_slug": "numbers",
+    "deck_name": "Numbers 1–10",
+    "front": "eins",
+    "meaning_en": "1",
+    "back_raw": "1",
+    "translation_raw": ""
+  },
+  {
+    "language_code": "de",
+    "language": "German",
+    "deck_slug": "greetings",
+    "deck_name": "Greetings",
+    "front": "Entschuldigung",
+    "meaning_en": "excuse me / sorry",
+    "back_raw": "excuse me / sorry",
+    "translation_raw": ""
+  },
+  {
+    "language_code": "de",
+    "language": "German",
+    "deck_slug": "days",
+    "deck_name": "Days of the week",
+    "front": "Freitag",
+    "meaning_en": "Friday",
+    "back_raw": "Friday",
+    "translation_raw": ""
+  },
+  {
+    "language_code": "de",
+    "language": "German",
+    "deck_slug": "feelings",
+    "deck_name": "Feelings",
+    "front": "froh",
+    "meaning_en": "glad",
+    "back_raw": "glad",
+    "translation_raw": ""
+  },
+  {
+    "language_code": "de",
+    "language": "German",
+    "deck_slug": "time",
+    "deck_name": "Time",
+    "front": "früh",
+    "meaning_en": "early",
+    "back_raw": "early",
+    "translation_raw": ""
+  },
+  {
+    "language_code": "de",
+    "language": "German",
+    "deck_slug": "numbers",
+    "deck_name": "Numbers 1–10",
+    "front": "fünf",
+    "meaning_en": "5",
+    "back_raw": "5",
+    "translation_raw": ""
+  },
+  {
+    "language_code": "de",
+    "language": "German",
+    "deck_slug": "feelings",
+    "deck_name": "Feelings",
+    "front": "gelangweilt",
+    "meaning_en": "bored",
+    "back_raw": "bored",
+    "translation_raw": ""
+  },
+  {
+    "language_code": "de",
+    "language": "German",
+    "deck_slug": "directions",
+    "deck_name": "Directions",
+    "front": "geradeaus",
+    "meaning_en": "straight ahead",
+    "back_raw": "straight ahead",
+    "translation_raw": ""
+  },
+  {
+    "language_code": "de",
+    "language": "German",
+    "deck_slug": "feelings",
+    "deck_name": "Feelings",
+    "front": "glücklich",
+    "meaning_en": "happy",
+    "back_raw": "happy",
+    "translation_raw": ""
+  },
+  {
+    "language_code": "de",
+    "language": "German",
+    "deck_slug": "colors",
+    "deck_name": "Colors",
+    "front": "grau",
+    "meaning_en": "grey",
+    "back_raw": "grey",
+    "translation_raw": ""
+  },
+  {
+    "language_code": "de",
+    "language": "German",
+    "deck_slug": "greetings",
+    "deck_name": "Greetings",
+    "front": "hallo",
+    "meaning_en": "hello",
+    "back_raw": "hello",
+    "translation_raw": ""
+  },
+  {
+    "language_code": "de",
+    "language": "German",
+    "deck_slug": "feelings",
+    "deck_name": "Feelings",
+    "front": "hungrig",
+    "meaning_en": "hungry",
+    "back_raw": "hungry",
+    "translation_raw": ""
+  },
+  {
+    "language_code": "de",
+    "language": "German",
+    "deck_slug": "shopping",
+    "deck_name": "Shopping",
+    "front": "kaufen",
+    "meaning_en": "to buy",
+    "back_raw": "to buy",
+    "translation_raw": ""
+  },
+  {
+    "language_code": "de",
+    "language": "German",
+    "deck_slug": "verbs",
+    "deck_name": "Verbs",
+    "front": "können",
+    "meaning_en": "to be able",
+    "back_raw": "to be able",
+    "translation_raw": ""
+  },
+  {
+    "language_code": "de",
+    "language": "German",
+    "deck_slug": "adjectives",
+    "deck_name": "Adjectives",
+    "front": "kurz",
+    "meaning_en": "short",
+    "back_raw": "short",
+    "translation_raw": ""
+  },
+  {
+    "language_code": "de",
+    "language": "German",
+    "deck_slug": "adjectives",
+    "deck_name": "Adjectives",
+    "front": "lang",
+    "meaning_en": "long",
+    "back_raw": "long",
+    "translation_raw": ""
+  },
+  {
+    "language_code": "de",
+    "language": "German",
+    "deck_slug": "colors",
+    "deck_name": "Colors",
+    "front": "lila",
+    "meaning_en": "purple",
+    "back_raw": "purple",
+    "translation_raw": ""
+  },
+  {
+    "language_code": "de",
+    "language": "German",
+    "deck_slug": "directions",
+    "deck_name": "Directions",
+    "front": "links",
+    "meaning_en": "left",
+    "back_raw": "left",
+    "translation_raw": ""
+  },
+  {
+    "language_code": "de",
+    "language": "German",
+    "deck_slug": "days",
+    "deck_name": "Days of the week",
+    "front": "Mittwoch",
+    "meaning_en": "Wednesday",
+    "back_raw": "Wednesday",
+    "translation_raw": ""
+  },
+  {
+    "language_code": "de",
+    "language": "German",
+    "deck_slug": "days",
+    "deck_name": "Days of the week",
+    "front": "Montag",
+    "meaning_en": "Monday",
+    "back_raw": "Monday",
+    "translation_raw": ""
+  },
+  {
+    "language_code": "de",
+    "language": "German",
+    "deck_slug": "feelings",
+    "deck_name": "Feelings",
+    "front": "müde",
+    "meaning_en": "tired",
+    "back_raw": "tired",
+    "translation_raw": ""
+  },
+  {
+    "language_code": "de",
+    "language": "German",
+    "deck_slug": "politeness",
+    "deck_name": "Yes, no & small talk",
+    "front": "nein",
+    "meaning_en": "no",
+    "back_raw": "no",
+    "translation_raw": ""
+  },
+  {
+    "language_code": "de",
+    "language": "German",
+    "deck_slug": "feelings",
+    "deck_name": "Feelings",
+    "front": "nervös",
+    "meaning_en": "nervous",
+    "back_raw": "nervous",
+    "translation_raw": ""
+  },
+  {
+    "language_code": "de",
+    "language": "German",
+    "deck_slug": "numbers",
+    "deck_name": "Numbers 1–10",
+    "front": "neun",
+    "meaning_en": "9",
+    "back_raw": "9",
+    "translation_raw": ""
+  },
+  {
+    "language_code": "de",
+    "language": "German",
+    "deck_slug": "directions",
+    "deck_name": "Directions",
+    "front": "oben",
+    "meaning_en": "up / above",
+    "back_raw": "up / above",
+    "translation_raw": ""
+  },
+  {
+    "language_code": "de",
+    "language": "German",
+    "deck_slug": "questions",
+    "deck_name": "Questions & connectors",
+    "front": "oder",
+    "meaning_en": "or | Tee oder Kaffee? = Tea or coffee?",
+    "back_raw": "or",
+    "translation_raw": "or | Tee oder Kaffee? = Tea or coffee?"
+  },
+  {
+    "language_code": "de",
+    "language": "German",
+    "deck_slug": "politeness",
+    "deck_name": "Yes, no & small talk",
+    "front": "okay",
+    "meaning_en": "okay",
+    "back_raw": "okay",
+    "translation_raw": ""
+  },
+  {
+    "language_code": "de",
+    "language": "German",
+    "deck_slug": "colors",
+    "deck_name": "Colors",
+    "front": "orange",
+    "meaning_en": "orange",
+    "back_raw": "orange",
+    "translation_raw": ""
+  },
+  {
+    "language_code": "de",
+    "language": "German",
+    "deck_slug": "directions",
+    "deck_name": "Directions",
+    "front": "rechts",
+    "meaning_en": "right",
+    "back_raw": "right",
+    "translation_raw": ""
+  },
+  {
+    "language_code": "de",
+    "language": "German",
+    "deck_slug": "weather",
+    "deck_name": "Weather",
+    "front": "regnerisch",
+    "meaning_en": "rainy",
+    "back_raw": "rainy",
+    "translation_raw": ""
+  },
+  {
+    "language_code": "de",
+    "language": "German",
+    "deck_slug": "colors",
+    "deck_name": "Colors",
+    "front": "rosa",
+    "meaning_en": "pink",
+    "back_raw": "pink",
+    "translation_raw": ""
+  },
+  {
+    "language_code": "de",
+    "language": "German",
+    "deck_slug": "feelings",
+    "deck_name": "Feelings",
+    "front": "ruhig",
+    "meaning_en": "calm",
+    "back_raw": "calm",
+    "translation_raw": ""
+  },
+  {
+    "language_code": "de",
+    "language": "German",
+    "deck_slug": "days",
+    "deck_name": "Days of the week",
+    "front": "Samstag",
+    "meaning_en": "Saturday",
+    "back_raw": "Saturday",
+    "translation_raw": ""
+  },
+  {
+    "language_code": "de",
+    "language": "German",
+    "deck_slug": "numbers",
+    "deck_name": "Numbers 1–10",
+    "front": "sechs",
+    "meaning_en": "6",
+    "back_raw": "6",
+    "translation_raw": ""
+  },
+  {
+    "language_code": "de",
+    "language": "German",
+    "deck_slug": "numbers",
+    "deck_name": "Numbers 1–10",
+    "front": "sieben",
+    "meaning_en": "7",
+    "back_raw": "7",
+    "translation_raw": ""
+  },
+  {
+    "language_code": "de",
+    "language": "German",
+    "deck_slug": "weather",
+    "deck_name": "Weather",
+    "front": "sonnig",
+    "meaning_en": "sunny",
+    "back_raw": "sunny",
+    "translation_raw": ""
+  },
+  {
+    "language_code": "de",
+    "language": "German",
+    "deck_slug": "days",
+    "deck_name": "Days of the week",
+    "front": "Sonntag",
+    "meaning_en": "Sunday",
+    "back_raw": "Sunday",
+    "translation_raw": ""
+  },
+  {
+    "language_code": "de",
+    "language": "German",
+    "deck_slug": "time",
+    "deck_name": "Time",
+    "front": "spät",
+    "meaning_en": "late",
+    "back_raw": "late",
+    "translation_raw": ""
+  },
+  {
+    "language_code": "de",
+    "language": "German",
+    "deck_slug": "verbs",
+    "deck_name": "Verbs",
+    "front": "sprechen",
+    "meaning_en": "to speak",
+    "back_raw": "to speak",
+    "translation_raw": ""
+  },
+  {
+    "language_code": "de",
+    "language": "German",
+    "deck_slug": "adjectives",
+    "deck_name": "Adjectives",
+    "front": "teuer",
+    "meaning_en": "expensive",
+    "back_raw": "expensive",
+    "translation_raw": ""
+  },
+  {
+    "language_code": "de",
+    "language": "German",
+    "deck_slug": "feelings",
+    "deck_name": "Feelings",
+    "front": "traurig",
+    "meaning_en": "sad",
+    "back_raw": "sad",
+    "translation_raw": ""
+  },
+  {
+    "language_code": "de",
+    "language": "German",
+    "deck_slug": "greetings",
+    "deck_name": "Greetings",
+    "front": "tschüss",
+    "meaning_en": "bye",
+    "back_raw": "bye",
+    "translation_raw": ""
+  },
+  {
+    "language_code": "de",
+    "language": "German",
+    "deck_slug": "questions",
+    "deck_name": "Questions & connectors",
+    "front": "und",
+    "meaning_en": "and | Kaffee und Kuchen, bitte. = Coffee and cake, please.",
+    "back_raw": "and",
+    "translation_raw": "and | Kaffee und Kuchen, bitte. = Coffee and cake, please."
+  },
+  {
+    "language_code": "de",
+    "language": "German",
+    "deck_slug": "directions",
+    "deck_name": "Directions",
+    "front": "unten",
+    "meaning_en": "down / below",
+    "back_raw": "down / below",
+    "translation_raw": ""
+  },
+  {
+    "language_code": "de",
+    "language": "German",
+    "deck_slug": "shopping",
+    "deck_name": "Shopping",
+    "front": "verkaufen",
+    "meaning_en": "to sell",
+    "back_raw": "to sell",
+    "translation_raw": ""
+  },
+  {
+    "language_code": "de",
+    "language": "German",
+    "deck_slug": "feelings",
+    "deck_name": "Feelings",
+    "front": "verliebt",
+    "meaning_en": "in love",
+    "back_raw": "in love",
+    "translation_raw": ""
+  },
+  {
+    "language_code": "de",
+    "language": "German",
+    "deck_slug": "numbers",
+    "deck_name": "Numbers 1–10",
+    "front": "vier",
+    "meaning_en": "4",
+    "back_raw": "4",
+    "translation_raw": ""
+  },
+  {
+    "language_code": "de",
+    "language": "German",
+    "deck_slug": "questions",
+    "deck_name": "Questions & connectors",
+    "front": "wann",
+    "meaning_en": "when | Wann kommst du? = When are you coming?",
+    "back_raw": "when",
+    "translation_raw": "when | Wann kommst du? = When are you coming?"
+  },
+  {
+    "language_code": "de",
+    "language": "German",
+    "deck_slug": "questions",
+    "deck_name": "Questions & connectors",
+    "front": "warum",
+    "meaning_en": "why | Warum lernst du Deutsch? = Why are you learning German?",
+    "back_raw": "why",
+    "translation_raw": "why | Warum lernst du Deutsch? = Why are you learning German?"
+  },
+  {
+    "language_code": "de",
+    "language": "German",
+    "deck_slug": "questions",
+    "deck_name": "Questions & connectors",
+    "front": "was",
+    "meaning_en": "what | Was machst du? = What are you doing?",
+    "back_raw": "what",
+    "translation_raw": "what | Was machst du? = What are you doing?"
+  },
+  {
+    "language_code": "de",
+    "language": "German",
+    "deck_slug": "questions",
+    "deck_name": "Questions & connectors",
+    "front": "weil",
+    "meaning_en": "because | Ich bleibe zu Hause, weil es regnet. = I'm staying home because it's raining.",
+    "back_raw": "because (sends verb to end)",
+    "translation_raw": "because | Ich bleibe zu Hause, weil es regnet. = I'm staying home because it's raining."
+  },
+  {
+    "language_code": "de",
+    "language": "German",
+    "deck_slug": "questions",
+    "deck_name": "Questions & connectors",
+    "front": "wer",
+    "meaning_en": "who (subject) | Wer ist das? = Who is that?",
+    "back_raw": "who",
+    "translation_raw": "who (subject) | Wer ist das? = Who is that?"
+  },
+  {
+    "language_code": "de",
+    "language": "German",
+    "deck_slug": "questions",
+    "deck_name": "Questions & connectors",
+    "front": "wie",
+    "meaning_en": "how | Wie geht es dir? = How are you?",
+    "back_raw": "how",
+    "translation_raw": "how | Wie geht es dir? = How are you?"
+  },
+  {
+    "language_code": "de",
+    "language": "German",
+    "deck_slug": "weather",
+    "deck_name": "Weather",
+    "front": "windig",
+    "meaning_en": "windy",
+    "back_raw": "windy",
+    "translation_raw": ""
+  },
+  {
+    "language_code": "de",
+    "language": "German",
+    "deck_slug": "directions",
+    "deck_name": "Directions",
+    "front": "wo",
+    "meaning_en": "where",
+    "back_raw": "where",
+    "translation_raw": ""
+  },
+  {
+    "language_code": "de",
+    "language": "German",
+    "deck_slug": "questions",
+    "deck_name": "Questions & connectors",
+    "front": "woher",
+    "meaning_en": "where from (origin) | Woher kommst du? = Where are you from?",
+    "back_raw": "where from",
+    "translation_raw": "where from (origin) | Woher kommst du? = Where are you from?"
+  },
+  {
+    "language_code": "de",
+    "language": "German",
+    "deck_slug": "questions",
+    "deck_name": "Questions & connectors",
+    "front": "wohin",
+    "meaning_en": "where to (direction) | Wohin gehst du? = Where are you going (to)?",
+    "back_raw": "where to",
+    "translation_raw": "where to (direction) | Wohin gehst du? = Where are you going (to)?"
+  },
+  {
+    "language_code": "de",
+    "language": "German",
+    "deck_slug": "verbs",
+    "deck_name": "Verbs",
+    "front": "wohnen",
+    "meaning_en": "to live",
+    "back_raw": "to live",
+    "translation_raw": ""
+  },
+  {
+    "language_code": "de",
+    "language": "German",
+    "deck_slug": "verbs",
+    "deck_name": "Verbs",
+    "front": "wollen",
+    "meaning_en": "to want",
+    "back_raw": "to want",
+    "translation_raw": ""
+  },
+  {
+    "language_code": "de",
+    "language": "German",
+    "deck_slug": "feelings",
+    "deck_name": "Feelings",
+    "front": "wütend",
+    "meaning_en": "angry",
+    "back_raw": "angry",
+    "translation_raw": ""
+  },
+  {
+    "language_code": "de",
+    "language": "German",
+    "deck_slug": "numbers",
+    "deck_name": "Numbers 1–10",
+    "front": "zehn",
+    "meaning_en": "10",
+    "back_raw": "10",
+    "translation_raw": ""
+  },
+  {
+    "language_code": "de",
+    "language": "German",
+    "deck_slug": "numbers",
+    "deck_name": "Numbers 1–10",
+    "front": "zwei",
+    "meaning_en": "2",
+    "back_raw": "2",
+    "translation_raw": ""
+  }
+]

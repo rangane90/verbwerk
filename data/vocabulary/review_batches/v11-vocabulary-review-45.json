@@ -1,0 +1,405 @@
+{
+  "batch_id": "v11-vocabulary-review-45",
+  "review_date": "2026-11-11",
+  "input_database_sha256": "047cd2a69b6d00b2c53e96c7df7ecd936eadf5a0c8b0e5d1c3e20208cb7cb134",
+  "accepted_examples": [
+    {
+      "entry_id": "frequency:3954",
+      "german": "Tom spielte jeden Morgen auf seinem Horn „Reveille“.",
+      "english": "Tom played Reveille on his bugle every morning.",
+      "note": "Reviewed German grammar, intended sense, register, and English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3955",
+      "german": "Als ich nach Hause kam, habe ich schön eiskalt geduscht.",
+      "english": "When I got home, I had a nice, ice-cold shower.",
+      "note": "Reviewed German grammar, intended sense, register, and English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3956",
+      "german": "Kannst du nicht die Sirene hören?",
+      "english": "Can't you hear the siren?",
+      "note": "Reviewed German grammar, intended sense, register, and English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3959",
+      "german": "Ich werde Geld in dieses Geschäft investieren.",
+      "english": "I'm going to invest money in this business.",
+      "note": "Reviewed German grammar, intended sense, register, and English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3961",
+      "german": "Ich werde dich freilassen.",
+      "english": "I'll set you free.",
+      "note": "Reviewed German grammar, intended sense, register, and English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3963",
+      "german": "Der Hut hängt an der Garderobe.",
+      "english": "The hat's hanging on the rack.",
+      "note": "Reviewed German grammar, intended sense, register, and English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3964",
+      "german": "Warum haben Zebras Streifen?",
+      "english": "Why do zebras have stripes?",
+      "note": "Reviewed German grammar, intended sense, register, and English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3965",
+      "german": "Die beiden Städte sind nicht weit voneinander entfernt.",
+      "english": "The two cities aren't far from each other.",
+      "note": "Reviewed German grammar, intended sense, register, and English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3967",
+      "german": "Ein Kasten fehlt noch.",
+      "english": "One crate is still missing.",
+      "note": "Reviewed German grammar, intended sense, register, and English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3968",
+      "german": "Wer hat dir beigebracht so gut zu zeichnen?",
+      "english": "Who taught you how to draw like that?",
+      "note": "Reviewed German grammar, intended sense, register, and English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "curated:lex-de-scheitern",
+      "german": "Du bist gescheitert, weil du dir nicht genug Mühe gegeben hast.",
+      "english": "The reason why you failed is you did not try hard enough.",
+      "note": "Reviewed German grammar, intended sense, register, and English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3972",
+      "german": "Komm uns demnächst mal in Paris besuchen!",
+      "english": "Come and visit us in Paris sometime soon.",
+      "note": "Reviewed German grammar, intended sense, register, and English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3974",
+      "german": "Er hatte kein Geld und konnte daher keine Lebensmittel kaufen.",
+      "english": "He had no money and so could not buy any food.",
+      "note": "Reviewed German grammar, intended sense, register, and English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3975",
+      "german": "Hast du einen Durchsuchungsbefehl?",
+      "english": "Do you have a search warrant?",
+      "note": "Reviewed German grammar, intended sense, register, and English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3976",
+      "german": "Dieses Bild fängt allmählich an, mir zu gefallen.",
+      "english": "Little by little, I'm beginning to like that painting.",
+      "note": "Reviewed German grammar, intended sense, register, and English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3977",
+      "german": "Tom scheint benommen zu sein.",
+      "english": "Tom seems dazed.",
+      "note": "Reviewed German grammar, intended sense, register, and English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3979",
+      "german": "Tom musste seinen Vortrag wegen Krankheit absagen.",
+      "english": "Tom had to cancel his lecture because he was sick.",
+      "note": "Reviewed German grammar, intended sense, register, and English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3984",
+      "german": "Das U-Boot kann bis zu dreihundert Meter tief tauchen.",
+      "english": "The submarine can dive up to 300 meters.",
+      "note": "Reviewed German grammar, intended sense, register, and English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3986",
+      "german": "Ich habe noch ein As im Ärmel.",
+      "english": "I have another ace up my sleeve.",
+      "note": "Reviewed German grammar, intended sense, register, and English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3987",
+      "german": "Das ist ein wissenschaftlicher Durchbruch.",
+      "english": "It's a scientific breakthrough.",
+      "note": "Reviewed German grammar, intended sense, register, and English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3988",
+      "german": "Du kannst es nicht wiederhaben.",
+      "english": "You can't have it back.",
+      "note": "Reviewed German grammar, intended sense, register, and English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3990",
+      "german": "Du musst vorsingen, um dem Chor beitreten zu können.",
+      "english": "You have to audition to join the choir.",
+      "note": "Reviewed German grammar, intended sense, register, and English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3993",
+      "german": "Die Kampagne hatte Erfolg und er gewann die Wahl.",
+      "english": "The campaign succeeded and he won the election.",
+      "note": "Reviewed German grammar, intended sense, register, and English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "curated:lex-de-reinigen",
+      "german": "Reinige hin und wieder deine Computermaus, denn das spart Nerven.",
+      "english": "Clean up your computer mouse, because it saves nerves.",
+      "note": "Reviewed German grammar, intended sense, register, and English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3995",
+      "german": "Ich möchte Sie nicht länger quälen.",
+      "english": "I don't want to torment you any longer.",
+      "note": "Reviewed German grammar, intended sense, register, and English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3996",
+      "german": "Tom wird gegen das Urteil Berufung einlegen.",
+      "english": "Tom will appeal the ruling.",
+      "note": "Reviewed German grammar, intended sense, register, and English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3997",
+      "german": "Tom hat sich beim Wandern den Knöchel verstaucht.",
+      "english": "Tom twisted his ankle while hiking.",
+      "note": "Reviewed German grammar, intended sense, register, and English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3998",
+      "german": "Bei diesem Tempo müssen wir den Zeitplan ändern.",
+      "english": "At this rate, we'll have to change the schedule.",
+      "note": "Reviewed German grammar, intended sense, register, and English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3999",
+      "german": "Welch ein Glück! Es ist nichts zerbrochen.",
+      "english": "How lucky! There's nothing broken.",
+      "note": "Reviewed German grammar, intended sense, register, and English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:4002",
+      "german": "Tom wird der Versuchung wahrscheinlich nicht widerstehen können.",
+      "english": "Tom won't likely be able to resist the temptation.",
+      "note": "Reviewed German grammar, intended sense, register, and English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:4004",
+      "german": "Ich freue mich schon auf das Picknick morgen.",
+      "english": "I'm excited about tomorrow's picnic.",
+      "note": "Reviewed German grammar, intended sense, register, and English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:4006",
+      "german": "Tom aß im Auto, während er fuhr, einen Hamburger.",
+      "english": "Tom ate a hamburger in his car as he was driving.",
+      "note": "Reviewed German grammar, intended sense, register, and English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:4009",
+      "german": "Der Umgang mit Dynamit ist gefährlich.",
+      "english": "The handling of dynamite is dangerous.",
+      "note": "Reviewed German grammar, intended sense, register, and English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:4012",
+      "german": "Dieses Zimmer bekommt viel Sonnenschein ab.",
+      "english": "This room gets a lot of sunshine.",
+      "note": "Reviewed German grammar, intended sense, register, and English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:4013",
+      "german": "Der Bräutigam ist dreißig Jahre alt.",
+      "english": "The groom is thirty years old.",
+      "note": "Reviewed German grammar, intended sense, register, and English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:4016",
+      "german": "Dieses Buch ist in vielerlei Hinsicht einzigartig.",
+      "english": "This book is unique in many ways.",
+      "note": "Reviewed German grammar, intended sense, register, and English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:4019",
+      "german": "Dieses Land ist reich an natürlichen Ressourcen.",
+      "english": "This country is rich in natural resources.",
+      "note": "Reviewed German grammar, intended sense, register, and English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:4020",
+      "german": "Der Bischof erbarmte sich der verzweifelten Immigranten.",
+      "english": "The bishop took pity on the desperate immigrants.",
+      "note": "Reviewed German grammar, intended sense, register, and English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:4021",
+      "german": "Es findet jährlich eine nationale Fußballmeisterschaft statt.",
+      "english": "A national football championship takes place annually.",
+      "note": "Reviewed German grammar, intended sense, register, and English translation; accepted as suitable."
+    }
+  ],
+  "editorial_examples": [
+    {
+      "entry_id": "frequency:3953",
+      "german": "Die Police ist leider nicht mehr auffindbar.",
+      "english": "Unfortunately, the insurance policy can no longer be found.",
+      "note": "Corrected the machine translation police, which confused Police with Polizei.",
+      "evidence_url": "https://www.duden.de/rechtschreibung/Police"
+    },
+    {
+      "entry_id": "frequency:3957",
+      "german": "Die Taufe ist ein christliches Ritual.",
+      "english": "Baptism is a Christian ritual.",
+      "note": "Replaced a broad, disputed historical claim with a neutral example.",
+      "evidence_url": "https://www.duden.de/rechtschreibung/Ritual"
+    },
+    {
+      "entry_id": "frequency:3960",
+      "german": "Die Künstlerin formte den Ton zu einer Schale.",
+      "english": "The artist shaped the clay into a bowl.",
+      "note": "Replaced a questionable statement about the Earth’s shape with a direct example of the verb formen.",
+      "evidence_url": "https://www.duden.de/rechtschreibung/formen"
+    },
+    {
+      "entry_id": "frequency:3966",
+      "german": "Unser Wirt war sehr nett.",
+      "english": "Our innkeeper was very kind.",
+      "note": "Corrected landlord, which suggests property rental rather than Wirt in an inn/pub context.",
+      "evidence_url": "https://www.duden.de/rechtschreibung/Wirt"
+    },
+    {
+      "entry_id": "frequency:3971",
+      "german": "Wie viele Friseure arbeiten in diesem Salon?",
+      "english": "How many hairdressers work at this salon?",
+      "note": "Corrected barber/barbershop to match Friseur and Salon.",
+      "evidence_url": "https://www.duden.de/rechtschreibung/Salon"
+    },
+    {
+      "entry_id": "frequency:3982",
+      "german": "„Flittchen“ ist eine stark abwertende und häufig diskriminierende Bezeichnung für eine Frau.",
+      "english": "“Flittchen” is a strongly derogatory and often discriminatory term for a woman.",
+      "note": "Replaced a direct insult with a neutral register explanation; this word is marked strongly derogatory and often discriminatory.",
+      "evidence_url": "https://www.duden.de/rechtschreibung/Flittchen"
+    },
+    {
+      "entry_id": "frequency:3989",
+      "german": "Das Model trägt ein elegantes Kleid.",
+      "english": "The model is wearing an elegant dress.",
+      "note": "The source confuses Model (a fashion model) with Modell (a model made from papier-mâché); replaced it with an example of the correct spelling and sense.",
+      "evidence_url": "https://www.duden.de/rechtschreibung/Model_Form"
+    },
+    {
+      "entry_id": "frequency:4000",
+      "german": "„Weichei“ ist eine abwertende Bezeichnung für jemanden, der als schwach oder feige gilt.",
+      "english": "“Weichei” is a derogatory word for someone considered weak or cowardly.",
+      "note": "Replaced a personal put-down with a neutral register explanation of this insulting word.",
+      "evidence_url": "https://www.duden.de/rechtschreibung/Weichei"
+    },
+    {
+      "entry_id": "frequency:4005",
+      "german": "Sie hat ein gutes Argument.",
+      "english": "She makes a good point.",
+      "note": "Kept the natural English point sense and restored the meaning of gutes.",
+      "evidence_url": "https://www.duden.de/rechtschreibung/Argument"
+    },
+    {
+      "entry_id": "frequency:4015",
+      "german": "Internationale Abkommen verbieten es, Gefangene zu foltern.",
+      "english": "International agreements prohibit torturing prisoners.",
+      "note": "Replaced a graphic victim example with a neutral statement about the prohibition of torture.",
+      "evidence_url": "https://www.duden.de/rechtschreibung/foltern"
+    },
+    {
+      "entry_id": "frequency:4017",
+      "german": "Er ist Brite.",
+      "english": "He is a Briton.",
+      "note": "Translated the noun Brite as a person, rather than as the adjective British.",
+      "evidence_url": "https://www.duden.de/rechtschreibung/Brite"
+    }
+  ],
+  "held_examples": [
+    {
+      "entry_id": "frequency:3957",
+      "german": "Viele christliche Rituale haben heidnische Wurzeln.",
+      "reason": "Replaced a broad, disputed historical claim with a neutral example."
+    },
+    {
+      "entry_id": "frequency:3960",
+      "german": "Die Erde ist orangenähnlich geformt.",
+      "reason": "Replaced a questionable statement about the Earth’s shape with a direct example of the verb formen."
+    },
+    {
+      "entry_id": "frequency:3982",
+      "german": "Sie führte sich wie ein Flittchen auf.",
+      "reason": "Replaced a direct insult with a neutral register explanation; this word is marked strongly derogatory and often discriminatory."
+    },
+    {
+      "entry_id": "frequency:3989",
+      "german": "Wir hätten ein Model aus Papiermaschee machen sollen.",
+      "reason": "The source confuses Model (a fashion model) with Modell (a model made from papier-mâché); replaced it with an example of the correct spelling and sense."
+    },
+    {
+      "entry_id": "frequency:4000",
+      "german": "Tom wollte nicht, dass Maria ihn für ein Weichei hielt.",
+      "reason": "Replaced a personal put-down with a neutral register explanation of this insulting word."
+    },
+    {
+      "entry_id": "frequency:4015",
+      "german": "Er wurde von der Polizei gefoltert.",
+      "reason": "Replaced a graphic victim example with a neutral statement about the prohibition of torture."
+    }
+  ],
+  "entry_updates": [
+    {
+      "entry_id": "frequency:3982",
+      "field": "meaning",
+      "value": "strongly derogatory, often discriminatory: a term for a woman perceived as sexually promiscuous",
+      "note": "Added Duden’s strong register warning; the original meaning was presented without its derogatory force.",
+      "url": "https://www.duden.de/rechtschreibung/Flittchen"
+    },
+    {
+      "entry_id": "frequency:3986",
+      "field": "meaning",
+      "value": "ace (playing card; often spelled Ass); as (ancient Roman coin and unit of weight)",
+      "note": "Added the playing-card sense used in the idiom ein As im Ärmel haben while retaining the historical Roman sense.",
+      "url": "https://www.duden.de/rechtschreibung/As_Einheit"
+    },
+    {
+      "entry_id": "frequency:3996",
+      "field": "meaning",
+      "value": "appointment or appointment to an office; appeal against a court judgment (legal)",
+      "note": "Added the legal appeal sense used by the example; the original gloss appointment alone was incomplete.",
+      "url": "https://www.duden.de/rechtschreibung/Berufung"
+    },
+    {
+      "entry_id": "frequency:4000",
+      "field": "meaning",
+      "value": "informal, derogatory: wimp, softy; insult for someone considered weak or cowardly",
+      "note": "Added the insulting register and meaning so the term is not presented as neutral.",
+      "url": "https://www.duden.de/rechtschreibung/Weichei"
+    },
+    {
+      "entry_id": "frequency:4006",
+      "field": "meaning",
+      "value": "hamburger (sandwich); person from Hamburg (masculine noun)",
+      "note": "Added the food sense used in the example while retaining the inhabitant sense.",
+      "url": "https://www.duden.de/rechtschreibung/Hamburger_Einwohner"
+    },
+    {
+      "entry_id": "frequency:4016",
+      "field": "word_class",
+      "value": "adjective",
+      "note": "Corrected the part of speech: einzigartig is an adjective, used predicatively in the example.",
+      "url": "https://www.duden.de/rechtschreibung/einzigartig"
+    },
+    {
+      "entry_id": "frequency:4016",
+      "field": "meaning",
+      "value": "unique; one of a kind",
+      "note": "Changed the adverb uniquely to the adjective meaning unique.",
+      "url": "https://www.duden.de/rechtschreibung/einzigartig"
+    }
+  ],
+  "plural_reviews": [],
+  "inflected_links": []
+}

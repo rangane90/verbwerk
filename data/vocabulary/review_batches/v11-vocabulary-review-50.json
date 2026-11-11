@@ -1,0 +1,368 @@
+{
+  "batch_id": "v11-vocabulary-review-50",
+  "review_date": "2026-11-11",
+  "input_database_sha256": "d5193ba8b8a9487785d8bced42e7bc46a23ca46f6db1746aa77f87d661042602",
+  "accepted_examples": [
+    {
+      "entry_id": "frequency:4269",
+      "german": "Ich wei\u00df nicht, wie ich seine Worte deuten soll.",
+      "english": "I don't know how to interpret his words.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4272",
+      "german": "Zuerst m\u00fcssen wir die Hausaufgaben fertigmachen.",
+      "english": "First of all, we have to finish the homework.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4273",
+      "german": "Tom behauptete, er habe mit Marias Ermordung nichts zu tun.",
+      "english": "Tom claimed he had nothing to do with Mary's murder.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4275",
+      "german": "Tom war an den Beinen schwer verletzt, aber es gelang ihm, in Sicherheit zu kriechen.",
+      "english": "Tom's legs were seriously injured, but he managed to crawl to safety.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4276",
+      "german": "Tom ging hin\u00fcber zum Waschbecken und drehte den Hahn auf.",
+      "english": "Tom walked over to the sink and turned on the faucet.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4277",
+      "german": "Ich wei\u00df nichts \u00fcber Zauberei.",
+      "english": "I know nothing about witchcraft.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4278",
+      "german": "Ich will keinen Wucherpreis f\u00fcr ein Hotelzimmer bezahlen.",
+      "english": "I don't want to pay through the nose for a hotel room.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4280",
+      "german": "Das klingt ausgesprochen be\u00e4ngstigend.",
+      "english": "It sounds downright frightening.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4282",
+      "german": "Der Summer ert\u00f6nte.",
+      "english": "The buzzer sounded.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4283",
+      "german": "Ich helfe dir, ein Hotel zu buchen.",
+      "english": "I'll help you book a hotel.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4284",
+      "german": "Viele der Bewertungen auf dieser Website sind fingiert.",
+      "english": "Many of the reviews on this website are fake.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4286",
+      "german": "Was m\u00f6chtest du zuk\u00fcnftig sein?",
+      "english": "What do you want to be in the future?",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4289",
+      "german": "Tom hat die Unterschrift seines Vaters gef\u00e4lscht.",
+      "english": "Tom forged his father's signature.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4290",
+      "german": "Die Geier kreisten \u00fcber den Leichen.",
+      "english": "Vultures circled over the dead bodies.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4294",
+      "german": "Bist du schon einmal auf eine Tomate getreten?",
+      "english": "Have you ever stepped on a tomato?",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4295",
+      "german": "Die Ethik ist ein Zweig der Philosophie.",
+      "english": "Ethics is a branch of philosophy.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4297",
+      "german": "Die Rechnung wird am Ersten des n\u00e4chsten Monats f\u00e4llig.",
+      "english": "The bill is due on the 1st of next month.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4300",
+      "german": "Der Sumpf ist knietief.",
+      "english": "The marsh is knee-deep.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "curated:lex-de-apotheke",
+      "german": "Wo ist denn die n\u00e4chste Apotheke?",
+      "english": "Where's the closest pharmacy?",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4302",
+      "german": "Jemand hat Tom in der Untergrundbahn erstochen.",
+      "english": "Tom was stabbed to death by someone on the subway.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4304",
+      "german": "Sie trug einen roten Schal um den Hals.",
+      "english": "She wore a red scarf around her neck.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4305",
+      "german": "Was hat Tom dir im Gegenzug gegeben?",
+      "english": "What did Tom give you in return?",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "curated:lex-de-die-enttauschung",
+      "german": "Zu meiner gro\u00dfen Entt\u00e4uschung kam sie nicht.",
+      "english": "Much to my disappointment, she did not come.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4309",
+      "german": "W\u00e4rst du bereit, eine Niere zu spenden?",
+      "english": "Would you be willing to donate a kidney?",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4310",
+      "german": "Er hat die Angewohnheit, sich am Kopf zu kratzen.",
+      "english": "He has the habit of scratching his head.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4311",
+      "german": "Der Br\u00e4utigam lie\u00df die Braut vor dem Altar stehen.",
+      "english": "The groom left the bride standing at the altar.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4313",
+      "german": "Ich verlie\u00df das Kino vor dem Ausbruch des Feuers.",
+      "english": "I left the theater before the fire broke out.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4314",
+      "german": "Tom trocknete sich mit einem gro\u00dfen Tuch ab.",
+      "english": "Tom dried off with a large towel.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4315",
+      "german": "Ich sehe jemanden eine wei\u00dfe Fahne schwenken.",
+      "english": "I see someone waving a white flag.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4316",
+      "german": "Man sollte das Wort \u201eschwul\u201c nicht als Beleidigung missbrauchen.",
+      "english": "You shouldn't use the word \"gay\" as an insult.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4317",
+      "german": "Des Menschen Seele ist unsterblich.",
+      "english": "A person's soul is immortal.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4318",
+      "german": "Die Menschen wurden wegen des Hochwassers evakuiert.",
+      "english": "The people were evacuated because of the flood.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4319",
+      "german": "Wo ist das produziert worden?",
+      "english": "Where was it produced?",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4320",
+      "german": "Ich habe meinen Nachfolger bereits ausgew\u00e4hlt.",
+      "english": "I've already picked my successor.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4321",
+      "german": "Tom lie\u00df Maria von seinem Chauffeur zum Flughafen fahren.",
+      "english": "Tom had his chauffeur drive Mary to the airport.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "curated:lex-de-ausreichend",
+      "german": "Ich f\u00fcrchte, das wird nicht ausreichend sein.",
+      "english": "I'm afraid that won't be enough.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4324",
+      "german": "Alle ihre Lieder wurden zu Hits.",
+      "english": "All of her songs became hits.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    }
+  ],
+  "editorial_examples": [
+    {
+      "entry_id": "frequency:4270",
+      "german": "Ich gehe einmal pro Monat zum Friseur.",
+      "english": "I go to a hairdresser once a month.",
+      "note": "Used a direct English term for the hair-care professional rather than the barber\u2019s shop."
+    },
+    {
+      "entry_id": "frequency:4279",
+      "german": "Das Delta des Nils ist sehr fruchtbar.",
+      "english": "The Nile Delta is very fertile.",
+      "note": "Replaced an airline-company example, which does not illustrate the geographic meaning.",
+      "evidence_url": "https://www.duden.de/rechtschreibung/Delta"
+    },
+    {
+      "entry_id": "frequency:4281",
+      "german": "Die SI-Einheit der Frequenz ist das Hertz (Hz); ein Hertz entspricht einer Schwingung pro Sekunde.",
+      "english": "The SI unit of frequency is the hertz (Hz); one hertz equals one cycle per second.",
+      "note": "Corrected the science: hertz is the SI derived unit of frequency, equal to one per second, not an SI base unit.",
+      "evidence_url": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-chapter-4-two-classes-si-units-and-si-prefixes"
+    },
+    {
+      "entry_id": "frequency:4285",
+      "german": "Der Arzt riet mir zu einer Di\u00e4t.",
+      "english": "The doctor advised me to go on a diet.",
+      "note": "Smoothed the English translation."
+    },
+    {
+      "entry_id": "frequency:4287",
+      "german": "Sie k\u00f6nnen die Behandlung jederzeit ablehnen; allerdings muss ich Sie in diesem Fall \u00fcber die m\u00f6glichen Auswirkungen aufkl\u00e4ren.",
+      "english": "You may refuse the treatment at any time. In that case, however, I must explain the possible effects to you.",
+      "note": "Restored the \u201cat any time\u201d meaning and made the two clauses clear in English."
+    },
+    {
+      "entry_id": "frequency:4298",
+      "german": "Wir wurden um 2.30 Uhr aus der Kneipe geworfen.",
+      "english": "We were kicked out of the bar at 2:30 a.m.",
+      "note": "Aligned the translation subject with the German passive sentence."
+    },
+    {
+      "entry_id": "frequency:4303",
+      "german": "Ca. 2 km weiter n\u00f6rdlich ist eine Rastst\u00e4tte.",
+      "english": "There is a rest stop about two kilometers farther north.",
+      "note": "Corrected the unit conversion; two kilometers is not three miles."
+    },
+    {
+      "entry_id": "frequency:4307",
+      "german": "Wir fanden f\u00fcr die Nacht eine einfache Unterkunft.",
+      "english": "We found a simple place to stay for the night.",
+      "note": "Replaced an implausible hospital-relocation example with a clear everyday use."
+    },
+    {
+      "entry_id": "frequency:4312",
+      "german": "Zum Erstaunen der ganzen Stadt wurde der B\u00fcrgermeister verhaftet.",
+      "english": "To the astonishment of the whole city, the mayor was arrested.",
+      "note": "Removed the incorrect comma between the fronted phrase and the main clause.",
+      "evidence_url": "https://www.duden.de/sprachwissen/rechtschreibregeln/komma"
+    },
+    {
+      "entry_id": "frequency:4326",
+      "german": "Der Gang zur Toilette brachte f\u00fcr ihn endlich Erl\u00f6sung.",
+      "english": "Finally going to the toilet brought him relief.",
+      "note": "Corrected the literal translation of Erl\u00f6sung in this context."
+    },
+    {
+      "entry_id": "frequency:4327",
+      "german": "Der K\u00e4fer ist noch am Leben.",
+      "english": "The beetle is still alive.",
+      "note": "Used the precise English equivalent for K\u00e4fer.",
+      "evidence_url": "https://www.duden.de/rechtschreibung/Kaefer"
+    },
+    {
+      "entry_id": "frequency:4328",
+      "german": "Sie l\u00f6schte die Kerze aus und legte sich hin.",
+      "english": "She put out the candle and went to bed.",
+      "note": "Corrected the machine-translated English to match both German clauses."
+    },
+    {
+      "entry_id": "frequency:4330",
+      "german": "Wenn das Leben dir Zitronen gibt, mach Limonade daraus!",
+      "english": "When life gives you lemons, make lemonade.",
+      "note": "Removed the unnecessary apostrophe from the imperative mach."
+    }
+  ],
+  "held_examples": [
+    {
+      "entry_id": "frequency:4279",
+      "german": "2008 fusionierten Delta und Northwest Airlines zur weltgr\u00f6\u00dften Fluggesellschaft.",
+      "reason": "Replaced an airline-company example, which does not illustrate the geographic meaning."
+    },
+    {
+      "entry_id": "frequency:4281",
+      "german": "Die SI-Basiseinheit der Frequenz ist \u201eHertz\u201c, abgek\u00fcrzt \u201eHz\u201c = 1/s.",
+      "reason": "Corrected the science: hertz is the SI derived unit of frequency, equal to one per second, not an SI base unit."
+    },
+    {
+      "entry_id": "frequency:4298",
+      "german": "Wir wurden um 2.30\u00a0Uhr aus der Kneipe geworfen.",
+      "reason": "Aligned the translation subject with the German passive sentence."
+    },
+    {
+      "entry_id": "frequency:4303",
+      "german": "Ca.\u00a02\u00a0km weiter n\u00f6rdlich ist eine Rastst\u00e4tte.",
+      "reason": "Corrected the unit conversion; two kilometers is not three miles."
+    },
+    {
+      "entry_id": "frequency:4307",
+      "german": "Es gab keine Verletzten, und das Krankenhaus wurde in eine vor\u00fcbergehende Unterkunft verlegt.",
+      "reason": "Replaced an implausible hospital-relocation example with a clear everyday use."
+    },
+    {
+      "entry_id": "frequency:4312",
+      "german": "Zum Erstaunen der ganzen Stadt, wurde der B\u00fcrgermeister verhaftet.",
+      "reason": "Removed the incorrect comma between the fronted phrase and the main clause."
+    },
+    {
+      "entry_id": "frequency:4330",
+      "german": "Wenn das Leben dir Zitronen gibt, mach' Limonade daraus!",
+      "reason": "Removed the unnecessary apostrophe from the imperative mach."
+    }
+  ],
+  "entry_updates": [
+    {
+      "entry_id": "frequency:4305",
+      "field": "meaning",
+      "value": "countermove; a move in the opposite direction; in exchange, in return (in the phrase \u201cim Gegenzug\u201d)",
+      "note": "Added the common idiomatic \u201cin return/in exchange\u201d sense used in the example to the original countermove sense.",
+      "url": "https://www.duden.de/rechtschreibung/Gegenzug"
+    },
+    {
+      "entry_id": "frequency:4310",
+      "field": "meaning",
+      "value": "to scratch (oneself); to scrape or scratch something off",
+      "note": "Added the reflexive scratch sense shown by the candidate example.",
+      "url": "https://www.duden.de/rechtschreibung/kratzen"
+    }
+  ],
+  "plural_reviews": [],
+  "inflected_links": []
+}

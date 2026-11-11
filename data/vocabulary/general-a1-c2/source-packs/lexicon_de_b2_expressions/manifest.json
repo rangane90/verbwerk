@@ -1,0 +1,31 @@
+{
+  "pack_id": "lexicon.de.b2.expressions",
+  "pack_role": "runtime",
+  "version": "1.0.7",
+  "pack_level": "B2",
+  "kind": "expressions",
+  "levels_supported": [
+    "B2"
+  ],
+  "relation_chunk_ids": [
+    "lexicon.de.a1.expressions",
+    "lexicon.de.a2.expressions",
+    "lexicon.de.b1.expressions"
+  ],
+  "languages_target_supported": [
+    "de"
+  ],
+  "gloss_languages_supported": [
+    "en",
+    "it"
+  ],
+  "domains": [
+    "Daily",
+    "Social",
+    "Work"
+  ],
+  "license_info": "CC-BY-4.0",
+  "content_file": "content.json",
+  "generated_at": "2026-10-19T10:04:49.360Z",
+  "schema_version": 2
+}

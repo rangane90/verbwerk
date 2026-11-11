@@ -1,0 +1,490 @@
+{
+  "batch_id": "v11-vocabulary-review-15",
+  "review_date": "2026-11-11",
+  "input_database_sha256": "e7056d2edcdf0760f1e467f9ec860bd0532aafe917a7a3815aa80cb8bcc4bf9f",
+  "accepted_examples": [
+    {
+      "entry_id": "frequency:753",
+      "german": "In jener Nacht war es schrecklich kalt.",
+      "english": "That night was terribly cold.",
+      "note": "Schrecklich is correctly used adverbially and translated as terribly."
+    },
+    {
+      "entry_id": "curated:lex-de-erreichen",
+      "german": "Sind Sie bereit, ein kleines Zugeständnis zu machen, um Ihr Ziel zu erreichen?",
+      "english": "Are you willing to make a small concession in order to achieve your goal?",
+      "note": "Erreichen is used for achieving a goal; both the German and English express that meaning."
+    },
+    {
+      "entry_id": "frequency:781",
+      "german": "Sie führten den Befehl des Kapitäns präzise aus.",
+      "english": "They carried out the captain's order to the letter.",
+      "note": "Befehl is the captain’s order, and ausführen means to carry it out; the translation matches."
+    },
+    {
+      "entry_id": "frequency:783",
+      "german": "Du hast am selben Tag Geburtstag wie ich.",
+      "english": "Your birthday is the same as mine.",
+      "note": "Geburtstag means birthday; the sentence and translation are accurate."
+    },
+    {
+      "entry_id": "frequency:784",
+      "german": "Sie setzte ihre Haut nicht der Sonne aus.",
+      "english": "She didn't expose her skin to the sun.",
+      "note": "Haut means skin in the sentence, and the translation is direct."
+    },
+    {
+      "entry_id": "frequency:785",
+      "german": "Darauf würde ich an deiner Stelle nicht wetten.",
+      "english": "I wouldn't bet on that if I were you.",
+      "note": "Wetten is used as bet on that; the sentence is grammatical and the translation matches."
+    },
+    {
+      "entry_id": "frequency:789",
+      "german": "Tom sah traurig aus dem zerbrochenen Fenster.",
+      "english": "Tom looked sadly out of the broken window.",
+      "note": "Traurig is used adverbially with aus etwas sehen and is translated as sadly."
+    },
+    {
+      "entry_id": "frequency:790",
+      "german": "Ich warte auf einen wichtigen Anruf.",
+      "english": "I'm waiting for an important phone call.",
+      "note": "Anruf means a phone call; the translation preserves the meaning."
+    },
+    {
+      "entry_id": "frequency:791",
+      "german": "Es ist Zeit für die Nachrichten auf Kanal 79.",
+      "english": "It's time for the news on Channel 79.",
+      "note": "Nachrichten is used for the news broadcast; both language pairs match."
+    },
+    {
+      "entry_id": "frequency:792",
+      "german": "Ich will einfach nur etwas Ruhe und Frieden.",
+      "english": "What I want is some peace and quiet.",
+      "note": "Frieden is used in the sense peace; Ruhe und Frieden is idiomatic and correctly translated."
+    },
+    {
+      "entry_id": "frequency:793",
+      "german": "Bitte führen Sie Ihre Karte ein!",
+      "english": "Please insert your card.",
+      "note": "Karte means a card inserted into a device; this is a clear example of the card sense."
+    },
+    {
+      "entry_id": "frequency:794",
+      "german": "Ich weiß Ihre Güte zu schätzen.",
+      "english": "I appreciate your kindness.",
+      "note": "Güte means kindness in this formal but natural sentence."
+    },
+    {
+      "entry_id": "frequency:795",
+      "german": "Ich fürchte, diesmal kann ich dich nicht retten.",
+      "english": "I'm afraid I can't save you this time.",
+      "note": "Diesmal means this time; the sentence and translation agree."
+    },
+    {
+      "entry_id": "frequency:797",
+      "german": "Das ist zu persönlich.",
+      "english": "That's too personal.",
+      "note": "Persönlich is used predicatively in the sense personal/private; the English is accurate."
+    },
+    {
+      "entry_id": "curated:lex-de-sonne",
+      "german": "Die Sonne gibt Licht und Wärme.",
+      "english": "The sun gives light and heat.",
+      "note": "Sonne is used as the ordinary noun sun; the translation is exact."
+    },
+    {
+      "entry_id": "frequency:801",
+      "german": "Der Professor schien in Gedanken versunken zu sein.",
+      "english": "The professor seemed to be lost in thought.",
+      "note": "Professor is used for the academic title; the sentence and translation match."
+    },
+    {
+      "entry_id": "frequency:802",
+      "german": "Die Testergebnisse eines Lügendetektors sind vor Gericht unzulässig.",
+      "english": "The results of a lie detector test are inadmissible in court.",
+      "note": "Gericht is used in the legal sense court, not the food sense; the translation makes the sense clear."
+    },
+    {
+      "entry_id": "frequency:803",
+      "german": "Die Katze hielt die Nase in den Topf.",
+      "english": "The cat put its nose in the pot.",
+      "note": "Nase means nose and is used literally; the translation matches."
+    },
+    {
+      "entry_id": "frequency:805",
+      "german": "Ich weiß nicht, ob Tom gut singen kann.",
+      "english": "I don't know whether Tom can sing well or not.",
+      "note": "Singen is the infinitive after können and correctly means sing."
+    },
+    {
+      "entry_id": "frequency:807",
+      "german": "Er ist mit irgend etwas beschäftigt.",
+      "english": "He is busy doing something.",
+      "note": "Beschäftigt is used with mit in the sense busy/occupied; the translation matches."
+    },
+    {
+      "entry_id": "frequency:808",
+      "german": "Tom hat vor, einen neuen Computer zu kaufen.",
+      "english": "Tom is going to buy a new computer.",
+      "note": "Computer means computer; the sentence is grammatical and the translation is direct."
+    },
+    {
+      "entry_id": "curated:lex-de-offensichtlich",
+      "german": "Es war offensichtlich, dass es keinen Ausweg gab.",
+      "english": "It was apparent that there was no way out.",
+      "note": "Offensichtlich means apparent/obvious and introduces a dass clause correctly."
+    }
+  ],
+  "held_examples": [
+    {
+      "entry_id": "frequency:777",
+      "german": "Sei Punkt elf am Bahnhof.",
+      "reason": "The candidate uses Punkt to mean exactly/on the dot, not the entry’s punctuation-mark sense."
+    },
+    {
+      "entry_id": "frequency:798",
+      "german": "Du hast dich in letzter Zeit sehr verändert.",
+      "reason": "The source sentence uses verändert as a verb participle, but this entry is the adjective changed/altered."
+    },
+    {
+      "entry_id": "curated:lex-de-fuss",
+      "german": "Mußt du jeden Tag zu Fuß zur Schule?",
+      "reason": "Zu Fuß means on foot; the entry sense is the body part, so use a direct body-part example."
+    }
+  ],
+  "editorial_examples": [
+    {
+      "entry_id": "frequency:777",
+      "german": "In der Abkürzung steht ein Punkt.",
+      "english": "There is a period in the abbreviation.",
+      "note": "The candidate uses Punkt to mean exactly/on the dot, not the entry’s punctuation-mark sense.",
+      "evidence_url": "https://www.duden.de/rechtschreibung/Punkt_Satzzeichen"
+    },
+    {
+      "entry_id": "frequency:798",
+      "german": "Nach der Renovierung sah das Zimmer völlig verändert aus.",
+      "english": "After the renovation, the room looked completely changed.",
+      "note": "The source sentence uses verändert as a verb participle, but this entry is the adjective changed/altered.",
+      "evidence_url": "https://www.duden.de/rechtschreibung/veraendert"
+    },
+    {
+      "entry_id": "curated:lex-de-fuss",
+      "german": "Mein Fuß tut weh.",
+      "english": "My foot hurts.",
+      "note": "Zu Fuß means on foot; the entry sense is the body part, so use a direct body-part example.",
+      "evidence_url": "https://www.duden.de/rechtschreibung/Fusz"
+    }
+  ],
+  "plural_reviews": [
+    {
+      "entry_id": "frequency:2665",
+      "value": [
+        "Fremde"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/deklination/adjektive/fremd",
+      "note": "For the substantivized adjective meaning a stranger, the nominative plural is Fremde; weakly declined forms use Fremden.",
+      "usage_note": "Nominative plural: Fremde; weakly declined cases use Fremden."
+    },
+    {
+      "entry_id": "frequency:2667",
+      "value": [
+        "Komas",
+        "Komata"
+      ],
+      "source": "Wiktionary (German noun entry)",
+      "url": "https://de.wiktionary.org/wiki/Koma",
+      "note": "Both Komas and the learned variant Komata are listed for the coma sense.",
+      "usage_note": "Komas is the common learner form; Komata is a learned variant."
+    },
+    {
+      "entry_id": "frequency:2669",
+      "value": [
+        "Countys"
+      ],
+      "source": "Wiktionary (German noun entry)",
+      "url": "https://de.wiktionary.org/wiki/County",
+      "note": "The German plural is Countys; the English counties form is not used in German.",
+      "usage_note": "Use Countys, not English counties."
+    },
+    {
+      "entry_id": "frequency:2680",
+      "value": [
+        "Queens"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Queen",
+      "note": "Queens is the plural for countable queens; the specific royal title is normally singular.",
+      "usage_note": "Queen is usually a title in this sense; Queens is used when referring to multiple queens."
+    },
+    {
+      "entry_id": "frequency:2698",
+      "value": [
+        "Eimer"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Eimer",
+      "note": "Eimer has an unchanged plural.",
+      "usage_note": "Plural is unchanged: Eimer."
+    },
+    {
+      "entry_id": "frequency:2701",
+      "value": "No plural for table salt; Salze for distinct chemical compounds.",
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Salz",
+      "note": "Duden marks kitchen salt without a plural, while Salze is used for chemical compounds.",
+      "usage_note": "Table salt is normally singular; Salze refers to chemical types."
+    },
+    {
+      "entry_id": "frequency:2711",
+      "value": [
+        "Tropfen"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Tropfen",
+      "note": "Tropfen has an unchanged plural in the drop sense.",
+      "usage_note": "Plural is unchanged: Tropfen."
+    },
+    {
+      "entry_id": "frequency:2725",
+      "value": [
+        "Mäuse"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Maus",
+      "note": "Maus forms Mäuse.",
+      "usage_note": "Standard plural: Mäuse."
+    },
+    {
+      "entry_id": "frequency:2727",
+      "value": [
+        "Charaktere"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Charakter",
+      "note": "Charaktere is the plural for characters/personality types; it is distinct from the abstract sense of character.",
+      "usage_note": "Use Charaktere for individual characters or types."
+    },
+    {
+      "entry_id": "frequency:2729",
+      "value": [
+        "Staffeln"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Staffel",
+      "note": "Staffel forms Staffeln in the season sense.",
+      "usage_note": "Standard plural: Staffeln."
+    },
+    {
+      "entry_id": "frequency:2737",
+      "value": [
+        "Marse",
+        "Marsen"
+      ],
+      "source": "Wiktionary (German noun entry)",
+      "url": "https://en.wiktionary.org/wiki/Mars#German",
+      "note": "For the nautical crow’s-nest/platform sense, Wiktionary records masculine Mars → Marse and feminine Mars → Marsen.",
+      "usage_note": "The nautical term varies by grammatical gender: der Mars → Marse; die Mars → Marsen."
+    },
+    {
+      "entry_id": "frequency:2738",
+      "value": [
+        "Mediä",
+        "Medien"
+      ],
+      "source": "Duden / Wiktionary",
+      "url": "https://www.duden.de/rechtschreibung/Medium_Vermittler",
+      "note": "The feminine technical noun Media is distinct from mass-media usage. For communications the usual German plural is Medien (from Medium); Mediä is a technical plural form of Media.",
+      "usage_note": "Technical noun: Mediä/Medien. For mass communications, use die Medien (plural of das Medium)."
+    },
+    {
+      "entry_id": "frequency:2741",
+      "value": [
+        "Zelte"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Zelt",
+      "note": "Zelt forms Zelte.",
+      "usage_note": "Standard plural: Zelte."
+    },
+    {
+      "entry_id": "frequency:2752",
+      "value": [
+        "Dankeschöns"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Dankeschoen",
+      "note": "As a count noun for an expression or token of thanks, Dankeschön forms Dankeschöns.",
+      "usage_note": "Standard plural: Dankeschöns."
+    },
+    {
+      "entry_id": "frequency:2759",
+      "value": [
+        "Kekse"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Keks",
+      "note": "Keks forms Kekse.",
+      "usage_note": "Standard plural: Kekse."
+    },
+    {
+      "entry_id": "frequency:2761",
+      "value": [
+        "Penisse",
+        "Penes"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Penis",
+      "note": "Penisse is the usual plural; Penes is a learned/technical variant.",
+      "usage_note": "Penisse is usual; Penes is a learned variant."
+    },
+    {
+      "entry_id": "frequency:2769",
+      "value": [
+        "Boys"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Boy",
+      "note": "Boys is the German plural for the loanword Boy.",
+      "usage_note": "Standard plural: Boys."
+    },
+    {
+      "entry_id": "frequency:2784",
+      "value": [
+        "Nebel"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Nebel",
+      "note": "Nebel is unchanged in the plural.",
+      "usage_note": "Plural is unchanged: Nebel."
+    },
+    {
+      "entry_id": "frequency:2800",
+      "value": [
+        "Blutdrücke",
+        "Blutdrucke"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Blutdruck",
+      "note": "Duden lists both Blutdrücke and Blutdrucke for the medical sense.",
+      "usage_note": "Both forms are recorded; the singular is more common when discussing a person’s blood pressure."
+    },
+    {
+      "entry_id": "frequency:2804",
+      "value": [
+        "Hühnchen"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Huehnchen",
+      "note": "Hühnchen is a diminutive in -chen and has an unchanged plural.",
+      "usage_note": "Plural is unchanged: Hühnchen."
+    },
+    {
+      "entry_id": "frequency:2813",
+      "value": [
+        "Praxen"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Praxis",
+      "note": "Praxis forms Praxen.",
+      "usage_note": "Standard plural: Praxen."
+    },
+    {
+      "entry_id": "frequency:2826",
+      "value": [
+        "Heroinnen"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Heroin",
+      "note": "Heroinnen is the plural for female heroes; it is unrelated to das Heroin, the drug.",
+      "usage_note": "Female hero: Heroinnen. Do not confuse with das Heroin (drug)."
+    },
+    {
+      "entry_id": "frequency:2833",
+      "value": [
+        "Singles"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Single",
+      "note": "For a 45-rpm record, Single forms Singles.",
+      "usage_note": "Standard plural: Singles."
+    },
+    {
+      "entry_id": "frequency:2840",
+      "value": [
+        "Husten"
+      ],
+      "source": "Wiktionary (German noun entry)",
+      "url": "https://de.wiktionary.org/wiki/Husten",
+      "note": "Husten is a possible plural for this masculine noun but is rare; the illness is ordinarily discussed in the singular.",
+      "usage_note": "Rare plural; normally used in the singular."
+    },
+    {
+      "entry_id": "frequency:2842",
+      "value": [
+        "Bargelder"
+      ],
+      "source": "Wiktionary (German noun entry)",
+      "url": "https://en.wiktionary.org/wiki/Bargeld#German",
+      "note": "Bargelder exists for distinct cash holdings/sums but is uncommon; ordinary cash is a mass noun.",
+      "usage_note": "Rare, mainly financial use; normally singular in everyday speech."
+    },
+    {
+      "entry_id": "frequency:2843",
+      "value": "Usually singular in this fast-paced action/events sense.",
+      "source": "English Wiktionary via Kaikki/Wiktextract",
+      "url": "https://en.wiktionary.org/wiki/Action#German",
+      "note": "For the mass/event sense, the everyday German noun Action is normally singular; the source candidate itself marks this sense as usually singular.",
+      "usage_note": "Usually singular in this sense."
+    },
+    {
+      "entry_id": "frequency:2860",
+      "value": "Usually singular as a collective noun for livestock.",
+      "source": "English Wiktionary via Kaikki/Wiktextract",
+      "url": "https://en.wiktionary.org/wiki/Vieh#German",
+      "note": "Vieh is a collective noun for livestock and is normally singular; Viecher can be colloquial/pejorative and is not the neutral plural.",
+      "usage_note": "Collective noun, normally singular; Viecher is colloquial/pejorative."
+    },
+    {
+      "entry_id": "frequency:2885",
+      "value": [
+        "Wodkas"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Wodka",
+      "note": "Wodka forms Wodkas when referring to types or servings.",
+      "usage_note": "Standard plural: Wodkas."
+    },
+    {
+      "entry_id": "frequency:2930",
+      "value": [
+        "Werkstätten"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Werkstatt",
+      "note": "Werkstatt forms Werkstätten.",
+      "usage_note": "Standard plural: Werkstätten."
+    },
+    {
+      "entry_id": "frequency:2940",
+      "value": [
+        "Fußbälle"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Fussball",
+      "note": "Fußball forms Fußbälle for the sport/game ball sense.",
+      "usage_note": "Standard plural: Fußbälle."
+    }
+  ],
+  "entry_updates": [
+    {
+      "entry_id": "frequency:2738",
+      "field": "meaning",
+      "value": "Media (technical): a voiced consonant or the middle layer of a blood or lymph vessel; mass-media communications are usually Medien",
+      "note": "The entry has the feminine article die, which corresponds to the technical German noun Media. The English gloss “media” alone can mislead readers into treating it as the ordinary mass-media term; clarify that the ordinary communications word is Medien, plural of Medium.",
+      "source": "Duden / Verbwerk sense review",
+      "url": "https://www.duden.de/rechtschreibung/Medium_Vermittler"
+    }
+  ]
+}

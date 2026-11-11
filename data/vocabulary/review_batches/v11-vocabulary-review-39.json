@@ -1,0 +1,427 @@
+{
+  "batch_id": "v11-vocabulary-review-39",
+  "review_date": "2026-11-11",
+  "input_database_sha256": "c892a0171dff0f9f3db74a372caa026b857b4fcd67d3d570226457bb6bce0d4f",
+  "accepted_examples": [
+    {
+      "entry_id": "frequency:3589",
+      "german": "Der Januar ist der erste Monat des Jahres.",
+      "english": "January is the first month of the year.",
+      "note": "Reviewed the German wording and grammar, the entry sense and part of speech, and the English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3590",
+      "german": "Das hat höchste Priorität.",
+      "english": "That's our number one priority.",
+      "note": "Reviewed the German wording and grammar, the entry sense and part of speech, and the English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3591",
+      "german": "Die Firma belohnte ihn mit einer Beförderung.",
+      "english": "The company rewarded him with promotion.",
+      "note": "Reviewed the German wording and grammar, the entry sense and part of speech, and the English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3592",
+      "german": "Ich kann ihre Eifersucht nicht ertragen.",
+      "english": "I can't stand her jealousy.",
+      "note": "Reviewed the German wording and grammar, the entry sense and part of speech, and the English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3596",
+      "german": "Manchmal kann ich die Bedeutung eines Wortes nicht wirklich erfassen.",
+      "english": "Sometimes I can't really grasp the meaning of a word.",
+      "note": "Reviewed the German wording and grammar, the entry sense and part of speech, and the English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3597",
+      "german": "Der königliche Palast wurde auf einem Hügel errichtet.",
+      "english": "The royal palace was built on a hill.",
+      "note": "Reviewed the German wording and grammar, the entry sense and part of speech, and the English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3599",
+      "german": "Wir zelteten am Ufer des Sees.",
+      "english": "We camped on the shore of the lake.",
+      "note": "Reviewed the German wording and grammar, the entry sense and part of speech, and the English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3601",
+      "german": "Ich habe getan, wozu ich ausgebildet wurde.",
+      "english": "I did what I was trained to do.",
+      "note": "Reviewed the German wording and grammar, the entry sense and part of speech, and the English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3602",
+      "german": "Dieser Bezirk ist keine sichere Wohngegend mehr.",
+      "english": "That district is no longer a safe place to live in.",
+      "note": "Reviewed the German wording and grammar, the entry sense and part of speech, and the English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3604",
+      "german": "Ich wollte Tom damit beauftragen.",
+      "english": "I wanted to hire Tom.",
+      "note": "Reviewed the German wording and grammar, the entry sense and part of speech, and the English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3606",
+      "german": "Wie viel hast du abgeschnitten?",
+      "english": "How much did you cut off?",
+      "note": "Reviewed the German wording and grammar, the entry sense and part of speech, and the English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3608",
+      "german": "Sprichst du über den Henker?",
+      "english": "Are you talking about the executioner?",
+      "note": "Reviewed the German wording and grammar, the entry sense and part of speech, and the English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3610",
+      "german": "Ich habe die letzte Scheibe Brot gegessen.",
+      "english": "I ate the last slice of bread.",
+      "note": "Reviewed the German wording and grammar, the entry sense and part of speech, and the English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3611",
+      "german": "Tom wird wohl nicht an der Konferenz teilnehmen.",
+      "english": "Tom probably won't attend the conference.",
+      "note": "Reviewed the German wording and grammar, the entry sense and part of speech, and the English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3614",
+      "german": "Die Ärztin irrte sich in ihrer Diagnose.",
+      "english": "The doctor made the wrong diagnosis.",
+      "note": "Reviewed the German wording and grammar, the entry sense and part of speech, and the English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3615",
+      "german": "Sei nicht so paranoid.",
+      "english": "Don't be so paranoid.",
+      "note": "Reviewed the German wording and grammar, the entry sense and part of speech, and the English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3616",
+      "german": "Valentina Tereshkova war die erste Frau im Weltraum.",
+      "english": "Valentina Tereshkova was the first woman in space.",
+      "note": "Reviewed the German wording and grammar, the entry sense and part of speech, and the English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3617",
+      "german": "Sie war für uns ein ausgezeichnetes Vorbild.",
+      "english": "She has been a wonderful role model for us.",
+      "note": "Reviewed the German wording and grammar, the entry sense and part of speech, and the English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3618",
+      "german": "In der Halle gibt es ein Telefon.",
+      "english": "There's a telephone in the hall.",
+      "note": "Reviewed the German wording and grammar, the entry sense and part of speech, and the English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3620",
+      "german": "Nächste Woche wird es vielleicht Frost geben.",
+      "english": "We might have frost next week.",
+      "note": "Reviewed the German wording and grammar, the entry sense and part of speech, and the English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3621",
+      "german": "Tom war nicht in der Kabine.",
+      "english": "Tom wasn't in the cabin.",
+      "note": "Reviewed the German wording and grammar, the entry sense and part of speech, and the English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3624",
+      "german": "Ich habe keine Verbindung zur Datenbank.",
+      "english": "I can't access the database.",
+      "note": "Reviewed the German wording and grammar, the entry sense and part of speech, and the English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3626",
+      "german": "Seit er vor vielen Jahrzehnten kanadischer Staatsbürger wurde, ist Tom mit einem guten Leben gesegnet.",
+      "english": "Tom has been blessed with a good life since becoming a Canadian citizen many decades ago.",
+      "note": "Reviewed the German wording and grammar, the entry sense and part of speech, and the English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3630",
+      "german": "Tom rührte die Suppe mit einem Löffel um.",
+      "english": "Tom stirred the soup with a spoon.",
+      "note": "Reviewed the German wording and grammar, the entry sense and part of speech, and the English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3632",
+      "german": "Tom ist noch immer von seinen Eltern abhängig.",
+      "english": "Tom is still dependent on his parents.",
+      "note": "Reviewed the German wording and grammar, the entry sense and part of speech, and the English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3633",
+      "german": "Der einzige Überlebende des Unfalls war ein Baby.",
+      "english": "The accident's only survivor was a baby.",
+      "note": "Reviewed the German wording and grammar, the entry sense and part of speech, and the English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "curated:lex-de-geeignet",
+      "german": "Dieses Papier sollte für Ihre Zwecke geeignet sein.",
+      "english": "This paper should be adequate for your purpose.",
+      "note": "Reviewed the German wording and grammar, the entry sense and part of speech, and the English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3635",
+      "german": "Da ist nichts, was mich hindert.",
+      "english": "There is nothing to hinder me.",
+      "note": "Reviewed the German wording and grammar, the entry sense and part of speech, and the English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "curated:lex-de-fahrstuhl",
+      "german": "Dieser Fahrstuhl geht nur bis zum 6. Stock.",
+      "english": "This elevator does not go above the sixth floor.",
+      "note": "Reviewed the German wording and grammar, the entry sense and part of speech, and the English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3637",
+      "german": "Die französische Flagge ist blau, weiß und rot.",
+      "english": "The French flag is blue, white and red.",
+      "note": "Reviewed the German wording and grammar, the entry sense and part of speech, and the English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3638",
+      "german": "Einer ist Japaner, der andere Italiener.",
+      "english": "One is Japanese and the other is Italian.",
+      "note": "Reviewed the German wording and grammar, the entry sense and part of speech, and the English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3639",
+      "german": "Es fehlt Tom an Disziplin.",
+      "english": "Tom lacks discipline.",
+      "note": "Reviewed the German wording and grammar, the entry sense and part of speech, and the English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3641",
+      "german": "Er wurde das erste Mal 1948 in den Kongress gewählt.",
+      "english": "He was first elected to Congress in 1948.",
+      "note": "Reviewed the German wording and grammar, the entry sense and part of speech, and the English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3642",
+      "german": "Ich nehme den Schirm mit, wenn ich ausgehe.",
+      "english": "I take an umbrella with me when I go out.",
+      "note": "Reviewed the German wording and grammar, the entry sense and part of speech, and the English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3643",
+      "german": "Schwarzweißfotos haben einen gewissen Charme.",
+      "english": "Black and white photos have a special charm.",
+      "note": "Reviewed the German wording and grammar, the entry sense and part of speech, and the English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3646",
+      "german": "Das Parkleitsystem zeigt an, in welchen Parkhäusern es freie Plätze gibt.",
+      "english": "The parking control system shows in which parking garages there are free spaces.",
+      "note": "Reviewed the German wording and grammar, the entry sense and part of speech, and the English translation; accepted as suitable."
+    }
+  ],
+  "editorial_examples": [
+    {
+      "entry_id": "frequency:3585",
+      "german": "Wisst ihr, wann der Supermarkt schließt?",
+      "english": "Do you know when the supermarket closes?",
+      "note": "Replaced outdated spelling and tightened the sentence to current standard German.",
+      "evidence_url": "https://www.duden.de/rechtschreibung/Supermarkt"
+    },
+    {
+      "entry_id": "frequency:3586",
+      "german": "Ein Verwandter holt mich morgen vom Bahnhof ab.",
+      "english": "A relative is picking me up at the station tomorrow.",
+      "note": "Replaced a long example about childhood bereavement with a concise, everyday example.",
+      "evidence_url": "https://www.duden.de/rechtschreibung/Verwandter"
+    },
+    {
+      "entry_id": "frequency:3587",
+      "german": "„Schwachkopf“ ist eine abwertende Bezeichnung für einen dummen Menschen.",
+      "english": "“Schwachkopf” is a derogatory word for a stupid person.",
+      "note": "Reframed the insult as a definition so learners see its derogatory register without directing it at a person.",
+      "evidence_url": "https://www.duden.de/rechtschreibung/Schwachkopf"
+    },
+    {
+      "entry_id": "frequency:3588",
+      "german": "Die Polizei nahm den Dealer fest.",
+      "english": "The police arrested the drug dealer.",
+      "note": "Replaced an incomplete and inaccurate translation with a clear, neutral context for the drug-dealer sense.",
+      "evidence_url": "https://www.duden.de/rechtschreibung/Dealer"
+    },
+    {
+      "entry_id": "frequency:3593",
+      "german": "Die Kürze des Textes macht ihn leicht verständlich.",
+      "english": "The text’s brevity makes it easy to understand.",
+      "note": "Replaced an idiom whose English equivalent obscured the literal meaning of Kürze.",
+      "evidence_url": "https://www.duden.de/rechtschreibung/Kuerze"
+    },
+    {
+      "entry_id": "frequency:3595",
+      "german": "Die Qualität der Aufnahme war erbärmlich.",
+      "english": "The quality of the recording was appalling.",
+      "note": "Replaced a direct personal insult with a neutral description while retaining the adjective sense.",
+      "evidence_url": "https://www.duden.de/rechtschreibung/erbaermlich"
+    },
+    {
+      "entry_id": "frequency:3598",
+      "german": "Die verschwendete Zeit lässt sich nicht zurückholen.",
+      "english": "The time that was wasted cannot be recovered.",
+      "note": "Changed a finite-verb example to an attributive adjective use, matching this adjective entry.",
+      "evidence_url": "https://www.duden.de/rechtschreibung/verschwendet"
+    },
+    {
+      "entry_id": "frequency:3600",
+      "german": "Eine von Angst beeinflusste Entscheidung ist nicht immer die beste.",
+      "english": "A decision influenced by fear is not always the best one.",
+      "note": "Changed a finite-verb example to an attributive adjective use, matching this adjective entry.",
+      "evidence_url": "https://www.duden.de/rechtschreibung/beeinflusst"
+    },
+    {
+      "entry_id": "frequency:3605",
+      "german": "Die geschützte Pflanze wächst nur in diesem Gebiet.",
+      "english": "The protected plant grows only in this area.",
+      "note": "Changed a passive-verb example to a clear attributive adjective use, matching this adjective entry.",
+      "evidence_url": "https://www.duden.de/rechtschreibung/geschuetzt"
+    },
+    {
+      "entry_id": "frequency:3609",
+      "german": "Der Gemeinderat beschloss eine neue Regel.",
+      "english": "The town council decided on a new rule.",
+      "note": "Replaced an ambiguous treaty example with a direct, natural example of the verb beschließen.",
+      "evidence_url": "https://www.duden.de/rechtschreibung/beschlieszen"
+    },
+    {
+      "entry_id": "frequency:3612",
+      "german": "Wir kamen bei Sonnenaufgang am Strand an.",
+      "english": "We arrived at the beach at sunrise.",
+      "note": "Replaced an aggressive-sounding sentence with a neutral everyday example.",
+      "evidence_url": "https://www.duden.de/rechtschreibung/Sonnenaufgang"
+    },
+    {
+      "entry_id": "frequency:3625",
+      "german": "Am Wochenende suchten sie die ganze Serie.",
+      "english": "They binge-watched the entire series over the weekend.",
+      "note": "The source sentence uses the different verb suchen (“to look for”), while this entry is colloquial suchten (“to binge-watch/play”); replaced it with a sense-matched example.",
+      "evidence_url": "https://de.wiktionary.org/wiki/suchten"
+    },
+    {
+      "entry_id": "frequency:3629",
+      "german": "Die Menschen suchten während des Angriffs Schutz im Bunker.",
+      "english": "People sought shelter in the bunker during the attack.",
+      "note": "The source sentence uses a specialized storage sense that conflicts with the entry’s learner gloss; replaced it with the common protective-shelter sense.",
+      "evidence_url": "https://www.duden.de/rechtschreibung/Bunker"
+    },
+    {
+      "entry_id": "frequency:3631",
+      "german": "Die Meinungen über den Vorschlag waren geteilt.",
+      "english": "Opinions about the proposal were divided.",
+      "note": "Changed a finite-verb example to an adjective use, matching this adjective entry.",
+      "evidence_url": "https://www.duden.de/rechtschreibung/geteilt"
+    }
+  ],
+  "held_examples": [
+    {
+      "entry_id": "frequency:3585",
+      "german": "Wißt ihr, um wieviel Uhr der Supermarkt zumacht?",
+      "reason": "Replaced outdated spelling and tightened the sentence to current standard German."
+    },
+    {
+      "entry_id": "frequency:3586",
+      "german": "Nachdem er mit drei Jahren Waise wurde, wurde er von einem fernen Verwandten aufgezogen.",
+      "reason": "Replaced a long example about childhood bereavement with a concise, everyday example."
+    },
+    {
+      "entry_id": "frequency:3587",
+      "german": "Ich hielt Tom immer für einen völligen Schwachkopf.",
+      "reason": "Reframed the insult as a definition so learners see its derogatory register without directing it at a person."
+    },
+    {
+      "entry_id": "frequency:3588",
+      "german": "Hab' eben noch 5 Gramm von meinem Dealer geholt.",
+      "reason": "Replaced an incomplete and inaccurate translation with a clear, neutral context for the drug-dealer sense."
+    },
+    {
+      "entry_id": "frequency:3593",
+      "german": "In der Kürze liegt die Würze.",
+      "reason": "Replaced an idiom whose English equivalent obscured the literal meaning of Kürze."
+    },
+    {
+      "entry_id": "frequency:3595",
+      "german": "Du bist so erbärmlich!",
+      "reason": "Replaced a direct personal insult with a neutral description while retaining the adjective sense."
+    },
+    {
+      "entry_id": "frequency:3598",
+      "german": "Wir haben dafür viel Zeit verschwendet.",
+      "reason": "Changed a finite-verb example to an attributive adjective use, matching this adjective entry."
+    },
+    {
+      "entry_id": "frequency:3600",
+      "german": "Wahrscheinlich war es das, was ihre Entscheidung beeinflusst hat.",
+      "reason": "Changed a finite-verb example to an attributive adjective use, matching this adjective entry."
+    },
+    {
+      "entry_id": "frequency:3605",
+      "german": "Kinder müssen geschützt werden.",
+      "reason": "Changed a passive-verb example to a clear attributive adjective use, matching this adjective entry."
+    },
+    {
+      "entry_id": "frequency:3609",
+      "german": "Im Jahr 1978 wurde ein Friedensabkommen zwischen Japan und China beschlossen.",
+      "reason": "Replaced an ambiguous treaty example with a direct, natural example of the verb beschließen."
+    },
+    {
+      "entry_id": "frequency:3612",
+      "german": "Ich will, dass du bei Sonnenaufgang verschwunden bist.",
+      "reason": "Replaced an aggressive-sounding sentence with a neutral everyday example."
+    },
+    {
+      "entry_id": "frequency:3625",
+      "german": "Tom suchte sich einen Sitzplatz.",
+      "reason": "The source sentence uses the different verb suchen (“to look for”), while this entry is colloquial suchten (“to binge-watch/play”); replaced it with a sense-matched example."
+    },
+    {
+      "entry_id": "frequency:3629",
+      "german": "Bunker ist in verschiedensten Zusammenhängen ein Typ von Lager, zum Beispiel in der Schifffahrt und im Bergbau.",
+      "reason": "The source sentence uses a specialized storage sense that conflicts with the entry’s learner gloss; replaced it with the common protective-shelter sense."
+    },
+    {
+      "entry_id": "frequency:3631",
+      "german": "Tom hat seine Suppe mit mir geteilt.",
+      "reason": "Changed a finite-verb example to an adjective use, matching this adjective entry."
+    }
+  ],
+  "entry_updates": [
+    {
+      "entry_id": "frequency:3591",
+      "field": "meaning",
+      "value": "transportation or conveyance; promotion to a higher position",
+      "note": "Added the promotion sense used by the example; both meanings are listed by Duden.",
+      "url": "https://www.duden.de/rechtschreibung/Befoerderung"
+    },
+    {
+      "entry_id": "frequency:3609",
+      "field": "meaning",
+      "value": "to decide on; to resolve; to conclude or bring to an end",
+      "note": "Added the common decision sense shown in the revised example while retaining the existing conclude/end senses.",
+      "url": "https://www.duden.de/rechtschreibung/beschlieszen"
+    },
+    {
+      "entry_id": "frequency:3610",
+      "field": "meaning",
+      "value": "disc; slice (of bread or food); pane (of glass)",
+      "note": "Added the bread-slice sense used in the source example.",
+      "url": "https://www.duden.de/rechtschreibung/Scheibe_Flaeche"
+    },
+    {
+      "entry_id": "frequency:3638",
+      "field": "meaning",
+      "value": "Italian man; Italian person (masculine noun)",
+      "note": "Removed unsupported chicken and car senses; the dictionary entry and example use the inhabitant/person sense.",
+      "url": "https://www.duden.de/rechtschreibung/Italiener"
+    }
+  ],
+  "plural_reviews": [],
+  "inflected_links": []
+}

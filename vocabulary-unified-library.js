@@ -13,6 +13,7 @@
   var connectors = new Set(["also","außerdem","ansonsten","dagegen","daher","dann","darum","deshalb","deswegen","folglich","sonst","stattdessen","trotzdem","zudem"]);
   var types = [["all","All types"],["noun","Nouns"],["verb","Verbs"],["modal","Modal verbs"],["adjective","Adjectives"],["adverb","Adverbs"],["connector","Connectors"],["preposition","Prepositions"],["pronoun","Pronouns"],["determiner","Articles and determiners"],["numeral","Numerals"],["particle","Particles"],["interjection","Interjections"],["chunk","Expressions"],["other","Other"]];
   var entries = [], byKey = Object.create(null), index = Object.create(null), limit = 60;
+  var study=window.VW_STUDY;
   var originalOpen = window.openVocabularyDetail, originalRender = window.renderVocabularyDetail;
 
   function norm(x) { return String(x == null ? "" : x).toLocaleLowerCase().normalize("NFC").trim(); }
@@ -121,12 +122,31 @@
     }
     if (source === "course") item.courseVerb = record;
   }
-  generalRows.forEach(function (x) { add("curated",x.id,x.lemma,x.part_of_speech,x,x.display_form || x.lemma,mainMeaning(x)); });
-  frequencyRows.forEach(function (x) { add("frequency",x.rank,x.lemma,x.pos,x,x.lemma,x.gloss); });
-  pilotRows.forEach(function (x) { add("pilot",x.id,x.lemma,pilotPos(x),x,x.word || x.lemma,x.meaning); });
-  courseRows.forEach(function (x) { add("course",x.id,x.id,"verb",x,x.id,x.meaning); });
-  articleRows.forEach(function (x) { add("articles",(x.a || "") + ":" + x.n,x.n,"noun",x,((x.a || "") + " " + x.n).trim(),x.en); });
-  entries.sort(function (a,b) { return (a.frequencyRank || 999999) - (b.frequencyRank || 999999) || norm(a.display_form).localeCompare(norm(b.display_form)); });
+  if(study&&study.entries.length){
+    var generalById=new Map(generalRows.map(function(row){return [row.id,row];}));
+    var courseById=new Map(courseRows.map(function(row){return [row.id,row];}));
+    var pilotById=new Map(pilotRows.map(function(row){return [row.id,row];}));
+    study.entries.forEach(function(entry){
+      var generalId=entry.links.general?.[0],courseId=entry.course_id,pilots=(entry.links.pilot||[]).map(function(id){return pilotById.get(id);}).filter(Boolean);
+      var general=generalById.get(generalId)||null,course=courseById.get(courseId)||null,noun=entry.noun||{};
+      var item={key:entry.entry_id,lemma:entry.lemma,part_of_speech:entry.word_class,display_form:study.word(entry),
+        meaning:entry.english_meaning,sources:entry.sources,records:{pilot:pilots},database:entry,articles:noun.articles||[],
+        article:(noun.articles||[]).join(' / '),plural:(noun.plurals||[]).join(' / '),numberNote:noun.number_note||'',
+        genderNote:noun.article_note||'',frequencyRank:entry.frequency_rank||0,frequencyGloss:'',
+        general:general,courseVerb:course};
+      if(general)item.records.curated=[general];
+      if(course)item.records.course=[course];
+      entries.push(item);
+      byKey[item.key]=item;
+    });
+  }else{
+    generalRows.forEach(function (x) { add("curated",x.id,x.lemma,x.part_of_speech,x,x.display_form || x.lemma,mainMeaning(x)); });
+    frequencyRows.forEach(function (x) { add("frequency",x.rank,x.lemma,x.pos,x,x.lemma,x.gloss); });
+    pilotRows.forEach(function (x) { add("pilot",x.id,x.lemma,pilotPos(x),x,x.word || x.lemma,x.meaning); });
+    courseRows.forEach(function (x) { add("course",x.id,x.id,"verb",x,x.id,x.meaning); });
+    articleRows.forEach(function (x) { add("articles",(x.a || "") + ":" + x.n,x.n,"noun",x,((x.a || "") + " " + x.n).trim(),x.en); });
+    entries.sort(function (a,b) { return (a.frequencyRank || 999999) - (b.frequencyRank || 999999) || norm(a.display_form).localeCompare(norm(b.display_form)); });
+  }
 
   function matchesType(x,type) {
     var p = pos(x.part_of_speech);
@@ -162,6 +182,7 @@
   }
   function examplesOf(x) {
     var out = [], seen = Object.create(null);
+    if(x.database)return study.examples(x.database,true);
     ["curated","pilot","course","articles"].forEach(function (source) {
       (x.records[source] || []).forEach(function (record) {
         var examples = Array.isArray(record.german_examples) ? record.german_examples : (Array.isArray(record.examples) ? record.examples : []);
@@ -175,12 +196,14 @@
     return out.slice(0,3);
   }
   function meaningsOf(x) {
+    if(x.database)return [x.meaning];
     var out = [];
     Object.keys(x.records).forEach(function (source) {
       x.records[source].forEach(function (r) {
         meaningValues(r,source).forEach(function (v) { if (out.indexOf(v) < 0) out.push(v); });
       });
     });
+    var databaseMeaning=x.database&&x.database.english_meaning;if(databaseMeaning&&out.indexOf(databaseMeaning)<0)out.push(databaseMeaning);
     return out;
   }
   function sourceText(x) { return x.sources.map(function (s) { return labels[s] || s; }).join(" · "); }
@@ -204,20 +227,62 @@
     result.frequencyPos = f && f.pos || "";
     result.allSources = sourceText(x);
     result.courseVerb = c || null;
+    if(x.database){
+      result.latestDatabase=x.database;
+      result.meaning=x.meaning;
+      result.english_terms=[{term:x.meaning,primary:true}];
+      result.german_examples=study.examples(x.database,true);
+      result.article=x.article;
+      result.plural_forms=x.database.noun?.plurals||[];
+    }
     return result;
   }
-  function renderUnifiedDetail(key) {
+  function grammarMarkup(grammar,includeNoun){
+    var labels={article:'Article',plural:'Plural',case:'Case',usage:'Usage / pattern',auxiliary:'Auxiliary',
+      verb_class:'Verb class',separability:'Separability',reflexivity:'Reflexivity',preterite:'Präteritum',
+      perfect:'Perfekt',participle:'Partizip II',comparison:'Comparison'};
+    var rows=Object.keys(labels).filter(function(key){return includeNoun||(key!=='article'&&key!=='plural');}).map(function(key){
+      var value=study.text(grammar[key]);
+      return value?'<div><b>'+labels[key]+':</b> '+esc(value)+'</div>':'';
+    }).filter(Boolean);
+    var present=grammar.present,table='';
+    if(present&&typeof present==='object'){
+      var persons=['ich','du','er/sie/es','wir','ihr','sie/Sie'].filter(function(person){return present[person];});
+      if(persons.length)table='<table class="table"><thead><tr><th>Person</th><th>Present</th></tr></thead><tbody>'+
+        persons.map(function(person){return '<tr><td>'+esc(person)+'</td><td lang="de">'+esc(study.text(present[person]))+'</td></tr>';}).join('')+'</tbody></table>';
+      if(present.note)rows.push('<div>'+esc(present.note)+'</div>');
+    }
+    return rows.length||table?'<div class="casebox">'+rows.join('')+table+'</div>':'';
+  }
+  window.renderStudyGrammar=function(entry){
+    if(!entry)return '';
+    var known=grammarMarkup(entry.grammar||{},false),pending=grammarMarkup(entry.candidate_grammar||{},true);
+    return (known?'<h3>Grammar and forms</h3>'+known:'')+
+      (pending?'<details class="casebox"><summary>Grammar for review</summary>'+pending+'</details>':'');
+  };
+
+  function renderUnifiedDetail(key, kind, id) {
     var x = byKey[key]; if (!x) return;
     var r = baseRecord(x), word = displayWord(x), meanings = meaningsOf(x), examples = examplesOf(x);
     var html = '<div class="card detail"><div class="eyebrow">WORD DETAILS</div><div class="verb-row"><div><h2 lang="de">' + esc(word) + '</h2><div class="meaning">' + esc(x.meaning || "Meaning not available") + '</div></div></div>';
-    if (x.article || x.plural || x.genderNote) html += '<div class="casebox"><b>Noun forms</b><br>' + (x.article ? "Article: " + esc(x.article) : "") + (x.article && x.plural ? " · " : "") + (x.plural ? "Plural: " + esc(x.plural) : "") + (x.genderNote ? "<br>" + esc(x.genderNote) : "") + "</div>";
+    if (x.article || x.plural || x.genderNote || x.numberNote) {
+      var nounLines=[x.article&&"Article: "+x.article,x.plural&&"Plural: "+x.plural,x.genderNote,x.numberNote].filter(Boolean);
+      html += '<div class="casebox"><b>Noun forms</b><br>'+nounLines.map(esc).join('<br>')+'</div>';
+    }
     if (x.frequencyRank) html += '<div class="casebox"><b>Frequency reference</b><br>Wordly rank ' + x.frequencyRank + " of 5,000" + (x.frequencyGloss ? " · " + esc(x.frequencyGloss) : "") + "</div>";
     if (r.german_definition) html += '<h3>Meaning in German</h3><div class="example" lang="de">' + esc(r.german_definition) + "</div>";
-    if (r.grammar_note) html += '<h3 lang="de">Grammatik</h3><div class="casebox" lang="de">' + esc(r.grammar_note) + "</div>";
-    if (r.usage_note) html += '<h3>Usage tip</h3><div class="casebox">' + esc(r.usage_note) + "</div>";
-    if (meanings.length) html += '<h3>English meanings</h3><div class="casebox">' + meanings.slice(0,8).map(esc).join(" · ") + "</div>";
+    if (r.grammar_note && !x.database?.grammar?.usage) html += '<h3 lang="de">Grammatik</h3><div class="casebox" lang="de">' + esc(r.grammar_note) + "</div>";
+    if (r.usage_note && !x.database?.grammar?.usage) html += '<h3>Usage tip</h3><div class="casebox">' + esc(r.usage_note) + "</div>";
+    if (meanings.length>1) html += '<h3>English meanings</h3><div class="casebox">' + meanings.slice(0,8).map(esc).join(" · ") + "</div>";
     var course = x.courseVerb;
-    if (course) {
+    if(x.database){
+      html+=window.renderStudyGrammar(x.database);
+      if(x.database.form_note){
+        var base=entries.find(function(row){return row.part_of_speech==='verb'&&row.lemma===x.database.base_lemma&&!row.database?.base_lemma;});
+        html+='<div class="casebox">'+esc(x.database.form_note)+(base?'<br><button type="button" class="btn secondary" data-study-base="'+esc(base.key)+'">Open '+esc(base.lemma)+'</button>':'')+'</div>';
+      }
+    }
+    if (course && !x.database) {
       var notes = [];
       if (course.case) notes.push("Case: " + course.case);
       if (course.pattern) notes.push("Pattern: " + course.pattern);
@@ -240,9 +305,14 @@
     html += '<div class="actions general-word-actions"><button class="btn secondary" type="button" aria-label="Listen to German pronunciation of ' + esc(word) + '" onclick="speak(decodeURIComponent(\'' + encodeURIComponent(word) + '\'))">🔊 Listen</button><button class="btn ghost" type="button" aria-label="Listen slowly to ' + esc(word) + '" onclick="speak(decodeURIComponent(\'' + encodeURIComponent(word) + '\'),true)">0.7× Slow</button></div></div>';
     if (window.clearLibraryDetail) window.clearLibraryDetail();
     if (window.setLibraryKind) window.setLibraryKind("detail");
-    var root = document.getElementById("verbDetailContent"); if (root) root.innerHTML = html;
+    var root = document.getElementById("verbDetailContent");
+    if(root){
+      root.innerHTML=html;
+      var baseButton=root.querySelector('[data-study-base]');
+      if(baseButton)baseButton.addEventListener('click',function(){window.openVocabularyDetail('unified',baseButton.dataset.studyBase);});
+    }
     var sharedListen = document.getElementById("detailListenActions"); if (sharedListen) sharedListen.classList.add("hidden");
-    window.currentVocabDetail = {kind:"unified",id:key}; window.detailPronunciation = word;
+    window.currentVocabDetail = {kind:kind||"unified",id:id||key}; window.detailPronunciation = word;
   }
   window.renderGeneralLibrary = function (reset) {
     if (reset) limit = 60;
@@ -260,9 +330,10 @@
     var list = document.getElementById("generalLibraryList");
     if (list) list.innerHTML = shown.map(function (x) {
       var id = x.general && x.general.id, stateNow = window.VW_APP_ACCESS && window.VW_APP_ACCESS.state || {}, isSaved = id && (stateNow.generalSaved || []).indexOf(id) >= 0;
-      var ex = examplesOf(x)[0], sentence = ex && (ex.sentence || ex.de) || "";
+      var ex = examplesOf(x).find(function(value){return value.databaseStatus!=="source_candidate";}), sentence = ex && (ex.sentence || ex.de) || "";
       var noun = x.article ? "Article: " + x.article : (x.genderNote || "");
       if (x.plural) noun += (noun ? " · " : "") + "Plural: " + x.plural;
+      else if(x.numberNote)noun+=(noun?" · ":"")+x.numberNote;
       var typeInfo = ({noun:"Noun",verb:"Verb",adjective:"Adjective",adverb:"Adverb",conjunction:"Conjunction",preposition:"Preposition",pronoun:"Pronoun",determiner:"Determiner",numeral:"Numeral",particle:"Particle",interjection:"Interjection",chunk:"Expression",other:"Other"})[pos(x.part_of_speech)] || pos(x.part_of_speech);
       var encoded = encodeURIComponent(x.key), actions = '<div class="actions general-word-actions"><button class="btn secondary" type="button" aria-label="Listen to German pronunciation of ' + esc(x.display_form) + '" onclick="speak(decodeURIComponent(\'' + encodeURIComponent(x.display_form) + '\'))">🔊 Listen</button>';
       if (id) actions += '<button class="btn ghost" type="button" aria-pressed="' + String(!!isSaved) + '" onclick="toggleUnifiedSaved(event,\'' + encodeURIComponent(id) + '\',\'' + encoded + '\')">' + (isSaved ? "★ Saved" : "☆ Save") + "</button>";
@@ -278,15 +349,23 @@
     if (window.toggleGeneralSaved) window.toggleGeneralSaved(null,encodedId);
     window.renderVocabularyDetail("unified",decodeURIComponent(encodedKey || ""));
   };
-  window.openVocabularyDetail = function (kind,id) {
-    if (kind !== "unified") return originalOpen && originalOpen(kind,id);
-    id = String(id || ""); if (!byKey[id]) return;
-    window.vwNav("library",null,true,{view:"vocabularyDetail",entryKind:"unified",entryId:id});
-    renderUnifiedDetail(id); window.scrollTo(0,0);
+  function resolveStudyKey(kind,id){
+    if(kind==='unified')return byKey[String(id)]?String(id):null;
+    var record=study&&study.lookup(kind,id);
+    return record&&byKey[record.entry_id]?record.entry_id:null;
+  }
+  window.openVocabularyDetail = function(kind,id){
+    var key=resolveStudyKey(kind,id);
+    if(!key)return originalOpen&&originalOpen(kind,id);
+    id=String(id);
+    window.vwNav("library",null,true,{view:"vocabularyDetail",entryKind:kind,entryId:id});
+    renderUnifiedDetail(key,kind,id);
+    window.scrollTo(0,0);
   };
-  window.renderVocabularyDetail = function (kind,id) {
-    if (kind !== "unified") return originalRender && originalRender(kind,id);
-    renderUnifiedDetail(String(id || ""));
+  window.renderVocabularyDetail = function(kind,id){
+    var key=resolveStudyKey(kind,id);
+    if(!key)return originalRender&&originalRender(kind,id);
+    renderUnifiedDetail(key,kind,String(id));
   };
   var verbRows=entries.filter(function (x) { return pos(x.part_of_speech)==="verb"; });
   window.VW_UNIFIED_VERB_ENTRIES=verbRows;

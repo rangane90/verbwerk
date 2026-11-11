@@ -16,5 +16,35 @@
   "general_data_asset": "vocabulary-general-a1-c2.js",
   "general_data_sha256": "bcc9f3f761be992507cc808076884fe976d9860c4f9134b820189e1170e19146",
   "frequency_data_asset": "vocabulary-wordly-de.js",
-  "generated_at_utc": "2026-11-10T16:51:31.8032419+00:00"
+  "generated_at_utc": "2026-11-10T16:51:31.8032419+00:00",
+  "latest_database": {
+    "dataset_id": "verbwerk.merged.de",
+    "version": "2026-11-11.4",
+    "source_database": "verbwerk-v11-study-reviewed.sqlite",
+    "source_database_sha256": "8a66e59579408a2095888a2030d8fc18670f082e6362512df476345b41a4417c",
+    "entry_count": 5396,
+    "word_class_counts": {
+      "adjective": 834,
+      "adverb": 433,
+      "chunk": 61,
+      "conjunction": 33,
+      "determiner": 18,
+      "interjection": 56,
+      "noun": 2620,
+      "numeral": 18,
+      "other": 2,
+      "particle": 10,
+      "preposition": 60,
+      "pronoun": 61,
+      "verb": 1190
+    },
+    "article_bank_count": 2599,
+    "article_lesson_slot_count": 2449,
+    "article_practice_count": 2444,
+    "trusted_bilingual_example_count": 5396,
+    "candidate_bilingual_example_count": 0,
+    "german_only_fallback_count": 0,
+    "asset": "vocabulary-latest-database.js",
+    "asset_sha256": "d3474e4e8d670a3058bb4d8d6f32e7ccf7234aa4d673999c1d70b1c07e4ffd8c"
+  }
 }

@@ -1,0 +1,404 @@
+{
+  "batch_id": "v11-vocabulary-review-44",
+  "review_date": "2026-11-11",
+  "input_database_sha256": "108cfb9e197c1afb1aae77ab8035ac6178fd9f09bddd98a4e3137844386171db",
+  "accepted_examples": [
+    {
+      "entry_id": "frequency:3891",
+      "german": "Tom arbeitet als Ingenieur in der Luftfahrtindustrie.",
+      "english": "Tom works as an engineer in the aviation industry.",
+      "note": "Reviewed German grammar, sense and part of speech, and English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3892",
+      "german": "Ich behalte die Speisekarte als Andenken.",
+      "english": "I'll keep the menu as a souvenir.",
+      "note": "Reviewed German grammar, sense and part of speech, and English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3893",
+      "german": "Keiner kann ohne unsere Erlaubnis eintreten.",
+      "english": "No one can enter without our permission.",
+      "note": "Reviewed German grammar, sense and part of speech, and English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3894",
+      "german": "Nicken ist eine Geste der Zustimmung.",
+      "english": "A nod is a sign of agreement.",
+      "note": "Reviewed German grammar, sense and part of speech, and English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3898",
+      "german": "Mit fünf Jahren lernte er dieses Gedicht auswendig.",
+      "english": "He learned that poem by heart when he was five years old.",
+      "note": "Reviewed German grammar, sense and part of speech, and English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3900",
+      "german": "Tom machte für uns alle Pfannkuchen.",
+      "english": "Tom made pancakes for all of us.",
+      "note": "Reviewed German grammar, sense and part of speech, and English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "curated:lex-de-hase",
+      "german": "Tom wohnt da, wo sich Fuchs und Hase gute Nacht sagen.",
+      "english": "Tom is living in the middle of nowhere.",
+      "note": "Reviewed German grammar, sense and part of speech, and English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3902",
+      "german": "Ich hoffe, Ihr Aufenthalt bei uns gefällt Ihnen.",
+      "english": "I hope you enjoy your stay with us.",
+      "note": "Reviewed German grammar, sense and part of speech, and English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3903",
+      "german": "Es ist mir gelungen, die Blutung zu stillen.",
+      "english": "I've managed to stop the bleeding.",
+      "note": "Reviewed German grammar, sense and part of speech, and English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3905",
+      "german": "Ich komme mir so hilflos vor.",
+      "english": "I feel so helpless.",
+      "note": "Reviewed German grammar, sense and part of speech, and English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3906",
+      "german": "Laut Ermittlungen der Staatsanwaltschaft hat der Unternehmer die Bilanz gefälscht.",
+      "english": "According to the prosecutor's investigations, the businessman faked the balance sheet.",
+      "note": "Reviewed German grammar, sense and part of speech, and English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3907",
+      "german": "Ich werde für die Ehrlichkeit dieses Mannes bürgen.",
+      "english": "I'll answer for this man's honesty.",
+      "note": "Reviewed German grammar, sense and part of speech, and English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3908",
+      "german": "Ich frage mich, warum Tom so stur ist.",
+      "english": "I wonder why Tom is so stubborn.",
+      "note": "Reviewed German grammar, sense and part of speech, and English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3909",
+      "german": "Er wird in unseren Herzen immer weiterleben.",
+      "english": "He will live forever in our hearts.",
+      "note": "Reviewed German grammar, sense and part of speech, and English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3912",
+      "german": "Es fehlt der fünfte Band dieser Reihe.",
+      "english": "The fifth volume of this set is missing.",
+      "note": "Reviewed German grammar, sense and part of speech, and English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3913",
+      "german": "Was für einen Wagen wollt ihr euch mieten?",
+      "english": "What kind of car do you want to rent?",
+      "note": "Reviewed German grammar, sense and part of speech, and English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3914",
+      "german": "Toms Neugier war letztlich größer als seine Angst.",
+      "english": "Eventually, Tom's curiosity overcame his fear.",
+      "note": "Reviewed German grammar, sense and part of speech, and English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3916",
+      "german": "Das ist ein Portrait meines verstorbenen Vaters.",
+      "english": "This is a portrait of my late father.",
+      "note": "Reviewed German grammar, sense and part of speech, and English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3917",
+      "german": "Der Detektiv hatte sich als alter Herr verkleidet.",
+      "english": "The detective disguised himself as an old gentleman.",
+      "note": "Reviewed German grammar, sense and part of speech, and English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3918",
+      "german": "Der Zufall führte zur Entdeckung der neuen Insel.",
+      "english": "Chance led to the discovery of the new island.",
+      "note": "Reviewed German grammar, sense and part of speech, and English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3919",
+      "german": "Wie bringt man einem Hund bei, nicht am Tisch zu betteln?",
+      "english": "How can a dog be trained not to beg for food?",
+      "note": "Reviewed German grammar, sense and part of speech, and English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3920",
+      "german": "Du bist so gütig.",
+      "english": "You are so kind.",
+      "note": "Reviewed German grammar, sense and part of speech, and English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3923",
+      "german": "Das war nur eine Annahme.",
+      "english": "It was just an assumption.",
+      "note": "Reviewed German grammar, sense and part of speech, and English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3924",
+      "german": "Der Gestank ist nicht auszuhalten.",
+      "english": "The stench is unbearable.",
+      "note": "Reviewed German grammar, sense and part of speech, and English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3925",
+      "german": "Tom hörte die Hintertür auf- und zugehen.",
+      "english": "Tom heard the back door open and close.",
+      "note": "Reviewed German grammar, sense and part of speech, and English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3926",
+      "german": "Tom zerteilte den Truthahn mit einem elektrischen Messer.",
+      "english": "Tom cut the turkey with an electric knife.",
+      "note": "Reviewed German grammar, sense and part of speech, and English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3929",
+      "german": "Tom sieht wie ein typischer amerikanischer Tourist aus.",
+      "english": "Tom looks like a typical American tourist.",
+      "note": "Reviewed German grammar, sense and part of speech, and English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3931",
+      "german": "Im Sommer wird es hier ziemlich feucht.",
+      "english": "It gets very humid here in the summer.",
+      "note": "Reviewed German grammar, sense and part of speech, and English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3932",
+      "german": "Ich habe Tom noch nie in Jeans gesehen.",
+      "english": "I've never seen Tom in jeans.",
+      "note": "Reviewed German grammar, sense and part of speech, and English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3934",
+      "german": "Das ist vor Monaten abgelaufen.",
+      "english": "This expired months ago.",
+      "note": "Reviewed German grammar, sense and part of speech, and English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3937",
+      "german": "Der Junge begann zu kreischen.",
+      "english": "The boy began to scream.",
+      "note": "Reviewed German grammar, sense and part of speech, and English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3938",
+      "german": "Einer Studie zufolge begünstigt zu schnelles Essen Übergewicht.",
+      "english": "A study showed that eating too fast contributes to obesity.",
+      "note": "Reviewed German grammar, sense and part of speech, and English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3940",
+      "german": "Er kam nach langer Abwesenheit wieder zur Schule.",
+      "english": "He came to school after a long absence.",
+      "note": "Reviewed German grammar, sense and part of speech, and English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3941",
+      "german": "Der Kellner kam, um Toms Bestellung entgegenzunehmen.",
+      "english": "The waiter came over to take Tom's order.",
+      "note": "Reviewed German grammar, sense and part of speech, and English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3946",
+      "german": "Wir sollen glauben, wir befänden uns in einer Demokratie.",
+      "english": "They want us to believe that we are in a democracy.",
+      "note": "Reviewed German grammar, sense and part of speech, and English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3947",
+      "german": "Warum bist du immer so aggressiv?",
+      "english": "Why are you always so aggressive?",
+      "note": "Reviewed German grammar, sense and part of speech, and English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3949",
+      "german": "Diese Pillen lassen sich nur schwer schlucken.",
+      "english": "These pills are hard to swallow.",
+      "note": "Reviewed German grammar, sense and part of speech, and English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "curated:lex-de-wesentlich",
+      "german": "Diese Taten sind Machtmissbrauch und untergraben den Rechtsstaat wesentlich.",
+      "english": "These actions are an abuse of power and fundamentally undermine the rule of law.",
+      "note": "Reviewed German grammar, sense and part of speech, and English translation; accepted as suitable."
+    }
+  ],
+  "editorial_examples": [
+    {
+      "entry_id": "frequency:3896",
+      "german": "Stell die Flamme auf eine niedrige Stufe.",
+      "english": "Set the flame to a low setting.",
+      "note": "Replaced an unnatural cooking instruction with a natural sentence.",
+      "evidence_url": "https://www.duden.de/rechtschreibung/Flamme"
+    },
+    {
+      "entry_id": "frequency:3897",
+      "german": "Eine Feder fiel langsam zu Boden.",
+      "english": "A feather fell slowly to the ground.",
+      "note": "Replaced an English idiom with a literal example of the noun Feder.",
+      "evidence_url": "https://www.duden.de/rechtschreibung/Feder"
+    },
+    {
+      "entry_id": "frequency:3899",
+      "german": "Das ist eine spezielle Steuer für sehr hohe Einkommen.",
+      "english": "This is a special tax for very high incomes.",
+      "note": "The source uses speziell adverbially; this adjective entry now uses the adjective form.",
+      "evidence_url": "https://www.duden.de/rechtschreibung/speziell"
+    },
+    {
+      "entry_id": "frequency:3904",
+      "german": "Bei Moren muss man darauf achten, ob sie genau in dem oben angegebenen Sinn gemeint sind oder in einem etwas anderen.",
+      "english": "With moras, one must check whether the term is meant in exactly the sense given above or in a slightly different one.",
+      "note": "Corrected the machine translation and clarified the specialized linguistic term mora.",
+      "evidence_url": "https://de.wiktionary.org/wiki/More"
+    },
+    {
+      "entry_id": "frequency:3911",
+      "german": "Wir müssen rückgängig machen, was geschehen ist.",
+      "english": "We have to undo what has happened.",
+      "note": "Corrected the narrow gloss retrogressive; in rückgängig machen, the word means reverse or undo.",
+      "evidence_url": "https://www.duden.de/rechtschreibung/rueckgaengig_machen"
+    },
+    {
+      "entry_id": "frequency:3922",
+      "german": "Die Herkunft dieses Wortes ist unklar.",
+      "english": "The origin of this word is unclear.",
+      "note": "Replaced a sentence about people’s origins with a neutral example about a word’s origin.",
+      "evidence_url": "https://www.duden.de/rechtschreibung/Herkunft"
+    },
+    {
+      "entry_id": "frequency:3927",
+      "german": "Die mit Öl gefüllte Lampe steht auf dem Tisch.",
+      "english": "The lamp filled with oil is on the table.",
+      "note": "Changed a passive-voice construction to an attributive adjective use, matching this adjective entry.",
+      "evidence_url": "https://www.duden.de/rechtschreibung/gefuellt"
+    },
+    {
+      "entry_id": "frequency:3933",
+      "german": "Er stimmte einer Befragung durch uns zu.",
+      "english": "He agreed to be questioned by us.",
+      "note": "Corrected interview, which is not the meaning of Befragung in this sentence.",
+      "evidence_url": "https://www.duden.de/rechtschreibung/Befragung"
+    },
+    {
+      "entry_id": "frequency:3936",
+      "german": "Ich werde nach Tom Ausschau halten.",
+      "english": "I’ll keep an eye out for Tom.",
+      "note": "Translated the phrase Ausschau halten as look out for, rather than search for.",
+      "evidence_url": "https://www.duden.de/rechtschreibung/Ausschau_halten"
+    },
+    {
+      "entry_id": "frequency:3944",
+      "german": "Die beiden verglichenen Ergebnisse waren ähnlich.",
+      "english": "The two results being compared were similar.",
+      "note": "Changed a passive finite verb to an attributive adjective use, matching this adjective entry.",
+      "evidence_url": "https://www.duden.de/rechtschreibung/verglichen"
+    },
+    {
+      "entry_id": "frequency:3945",
+      "german": "Ich habe Sehnsucht nach dir.",
+      "english": "I long for you.",
+      "note": "Corrected the machine translation: Sehnsucht expresses longing, not looking for someone.",
+      "evidence_url": "https://de.wiktionary.org/wiki/Sehnsucht"
+    },
+    {
+      "entry_id": "frequency:3952",
+      "german": "Sie wird das Haus ihrer Großeltern erben.",
+      "english": "She will inherit her grandparents’ house.",
+      "note": "Replaced an archaic and convoluted sentence with a clear, contemporary example.",
+      "evidence_url": "https://www.duden.de/rechtschreibung/erben"
+    }
+  ],
+  "held_examples": [
+    {
+      "entry_id": "frequency:3896",
+      "german": "Drehe die Flamme auf klein.",
+      "reason": "Replaced an unnatural cooking instruction with a natural sentence."
+    },
+    {
+      "entry_id": "frequency:3897",
+      "german": "Man hätte mich mit einer Feder umwerfen können.",
+      "reason": "Replaced an English idiom with a literal example of the noun Feder."
+    },
+    {
+      "entry_id": "frequency:3899",
+      "german": "Sehr hohe Einkommen werden speziell besteuert.",
+      "reason": "The source uses speziell adverbially; this adjective entry now uses the adjective form."
+    },
+    {
+      "entry_id": "frequency:3922",
+      "german": "Die Herkunft dieser Menschen ist geheimnisumwoben.",
+      "reason": "Replaced a sentence about people’s origins with a neutral example about a word’s origin."
+    },
+    {
+      "entry_id": "frequency:3927",
+      "german": "Die Lampe muss mit Öl gefüllt werden.",
+      "reason": "Changed a passive-voice construction to an attributive adjective use, matching this adjective entry."
+    },
+    {
+      "entry_id": "frequency:3944",
+      "german": "Der Tod wird oft mit dem Schlaf verglichen.",
+      "reason": "Changed a passive finite verb to an attributive adjective use, matching this adjective entry."
+    },
+    {
+      "entry_id": "frequency:3952",
+      "german": "Tom willigte ein, die Tochter jenes Mannes zu ehelichen, für das Versprechen, desselben Geschäft zu erben.",
+      "reason": "Replaced an archaic and convoluted sentence with a clear, contemporary example."
+    }
+  ],
+  "entry_updates": [
+    {
+      "entry_id": "frequency:3892",
+      "field": "meaning",
+      "value": "souvenir or keepsake; remembrance or memory (especially of a person or time)",
+      "note": "Added the souvenir/keepsake sense used in the example; Duden lists both remembrance and an object kept as a souvenir.",
+      "url": "https://www.duden.de/rechtschreibung/Andenken"
+    },
+    {
+      "entry_id": "frequency:3904",
+      "field": "meaning",
+      "value": "mora (unit of syllabic weight in linguistics)",
+      "note": "Clarified the highly specialized linguistic meaning and made the translation explicit.",
+      "url": "https://de.wiktionary.org/wiki/More"
+    },
+    {
+      "entry_id": "frequency:3905",
+      "field": "word_class",
+      "value": "adjective",
+      "note": "Corrected the part of speech; hilflos is an adjective, and the example uses it predicatively.",
+      "url": "https://www.duden.de/rechtschreibung/hilflos"
+    },
+    {
+      "entry_id": "frequency:3905",
+      "field": "meaning",
+      "value": "helpless; unable to help oneself or someone else",
+      "note": "Changed the adverb gloss helplessly to the adjective meaning helpless.",
+      "url": "https://www.duden.de/rechtschreibung/hilflos"
+    },
+    {
+      "entry_id": "frequency:3911",
+      "field": "meaning",
+      "value": "reversed, undone; in rückgängig machen: to undo or reverse",
+      "note": "Replaced retrogressive with the actual sense in the fixed phrase rückgängig machen.",
+      "url": "https://www.duden.de/rechtschreibung/rueckgaengig_machen"
+    },
+    {
+      "entry_id": "frequency:3936",
+      "field": "meaning",
+      "value": "lookout; in Ausschau halten: to look out for or watch for someone or something",
+      "note": "Clarified that the common use is in the phrase Ausschau halten.",
+      "url": "https://www.duden.de/rechtschreibung/Ausschau_halten"
+    }
+  ],
+  "plural_reviews": [],
+  "inflected_links": []
+}

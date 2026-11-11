@@ -1,0 +1,684 @@
+{
+  "batch_id": "v11-vocabulary-review-36",
+  "review_date": "2026-11-11",
+  "input_database_sha256": "3bd706a7381fe52627c39a736d2c4873a92558b675be18bc8cb93ab81effc2c5",
+  "accepted_examples": [
+    {
+      "entry_id": "frequency:3205",
+      "german": "Heute bin ich melancholisch.",
+      "english": "Today I'm feeling melancholic.",
+      "note": "Reviewed for German usage, fit with the entry sense and grammatical form, and English translation; accepted as a suitable example."
+    },
+    {
+      "entry_id": "frequency:3208",
+      "german": "Tom aß das Popcorn direkt aus der Tüte.",
+      "english": "Tom ate the popcorn directly from the bag.",
+      "note": "Reviewed for German usage, fit with the entry sense and grammatical form, and English translation; accepted as a suitable example."
+    },
+    {
+      "entry_id": "frequency:3209",
+      "german": "Ich hätte gern einen Manhattan.",
+      "english": "I'd like a Manhattan.",
+      "note": "Reviewed for German usage, fit with the entry sense and grammatical form, and English translation; accepted as a suitable example."
+    },
+    {
+      "entry_id": "frequency:3210",
+      "german": "Er muss sich nächste Woche operieren lassen.",
+      "english": "He has to have an operation next week.",
+      "note": "Reviewed for German usage, fit with the entry sense and grammatical form, and English translation; accepted as a suitable example."
+    },
+    {
+      "entry_id": "frequency:3215",
+      "german": "Wir haben das Recht, für uns und für künftige Generationen eine sichere Zukunft zu fordern.",
+      "english": "We have a right to demand a safe future for ourselves and future generations.",
+      "note": "Reviewed for German usage, fit with the entry sense and grammatical form, and English translation; accepted as a suitable example."
+    },
+    {
+      "entry_id": "frequency:3216",
+      "german": "Nicht in diesem Fluss fischen! Das ist verboten.",
+      "english": "Don't fish in this river. It's prohibited.",
+      "note": "Reviewed for German usage, fit with the entry sense and grammatical form, and English translation; accepted as a suitable example."
+    },
+    {
+      "entry_id": "frequency:3218",
+      "german": "Der Dezember ist der Monat, in dem das Jahr zu Ende geht.",
+      "english": "December is the last month of the year.",
+      "note": "Reviewed for German usage, fit with the entry sense and grammatical form, and English translation; accepted as a suitable example."
+    },
+    {
+      "entry_id": "frequency:3219",
+      "german": "Wer an andere hohe Ansprüche stellt, sollte auch an sich selbst hohe Ansprüche stellen.",
+      "english": "If you're so demanding of others, you should also be demanding of yourself.",
+      "note": "Reviewed for German usage, fit with the entry sense and grammatical form, and English translation; accepted as a suitable example."
+    },
+    {
+      "entry_id": "frequency:3220",
+      "german": "Er räusperte sich, bevor er mit dem Vortrag begann.",
+      "english": "He cleared his throat before starting the lecture.",
+      "note": "Reviewed for German usage, fit with the entry sense and grammatical form, and English translation; accepted as a suitable example."
+    },
+    {
+      "entry_id": "frequency:3221",
+      "german": "Wenn ich unsichtbar wäre, dann müsste ich mir nichts anziehen.",
+      "english": "If I were invisible I wouldn't have to dress myself.",
+      "note": "Reviewed for German usage, fit with the entry sense and grammatical form, and English translation; accepted as a suitable example."
+    },
+    {
+      "entry_id": "frequency:3222",
+      "german": "Tom breitete auf dem Boden das Handtuch aus.",
+      "english": "Tom spread the towel out on the ground.",
+      "note": "Reviewed for German usage, fit with the entry sense and grammatical form, and English translation; accepted as a suitable example."
+    },
+    {
+      "entry_id": "frequency:3224",
+      "german": "Kommst du dir jetzt nicht doof vor?",
+      "english": "Don't you feel stupid now?",
+      "note": "Reviewed for German usage, fit with the entry sense and grammatical form, and English translation; accepted as a suitable example."
+    },
+    {
+      "entry_id": "curated:lex-de-wertvoll",
+      "german": "Ich habe viele alte Bücher. Ein paar davon sind ziemlich wertvoll.",
+      "english": "I have a lot of old books. A couple of them are quite valuable.",
+      "note": "Reviewed for German usage, fit with the entry sense and grammatical form, and English translation; accepted as a suitable example."
+    },
+    {
+      "entry_id": "frequency:3226",
+      "german": "Die Kardinäle haben einen neuen Papst gewählt.",
+      "english": "The cardinals have elected a new pope.",
+      "note": "Reviewed for German usage, fit with the entry sense and grammatical form, and English translation; accepted as a suitable example."
+    },
+    {
+      "entry_id": "frequency:3227",
+      "german": "Ihre Kommunikation ist vielleicht viel komplexer als wir dachten.",
+      "english": "Their communication may be much more complex than we thought.",
+      "note": "Reviewed for German usage, fit with the entry sense and grammatical form, and English translation; accepted as a suitable example."
+    },
+    {
+      "entry_id": "frequency:3228",
+      "german": "Am Ende war es unnötig.",
+      "english": "It ended up being unnecessary.",
+      "note": "Reviewed for German usage, fit with the entry sense and grammatical form, and English translation; accepted as a suitable example."
+    },
+    {
+      "entry_id": "frequency:3229",
+      "german": "Wie fällt eure Analyse aus?",
+      "english": "What's your analysis?",
+      "note": "Reviewed for German usage, fit with the entry sense and grammatical form, and English translation; accepted as a suitable example."
+    },
+    {
+      "entry_id": "frequency:3230",
+      "german": "Morgen hat Tom Hochzeitstag.",
+      "english": "Tomorrow's Tom's wedding day.",
+      "note": "Reviewed for German usage, fit with the entry sense and grammatical form, and English translation; accepted as a suitable example."
+    },
+    {
+      "entry_id": "frequency:3231",
+      "german": "Ich habe versucht, die Melodie auswendig zu lernen.",
+      "english": "I tried to learn the melody by heart.",
+      "note": "Reviewed for German usage, fit with the entry sense and grammatical form, and English translation; accepted as a suitable example."
+    },
+    {
+      "entry_id": "frequency:3235",
+      "german": "Kaum hatten wir die Halle betreten, begann die Zeremonie.",
+      "english": "No sooner had we entered the hall than the ceremony began.",
+      "note": "Reviewed for German usage, fit with the entry sense and grammatical form, and English translation; accepted as a suitable example."
+    },
+    {
+      "entry_id": "frequency:3237",
+      "german": "Geld ist kein Ersatz für die Gesundheit.",
+      "english": "You cannot substitute money for health.",
+      "note": "Reviewed for German usage, fit with the entry sense and grammatical form, and English translation; accepted as a suitable example."
+    },
+    {
+      "entry_id": "frequency:3238",
+      "german": "Geben Sie mir meine Mütze zurück!",
+      "english": "Give me back my cap.",
+      "note": "Reviewed for German usage, fit with the entry sense and grammatical form, and English translation; accepted as a suitable example."
+    },
+    {
+      "entry_id": "frequency:3239",
+      "german": "Waren Sie Zeugin der Schießerei?",
+      "english": "Did you witness the shooting?",
+      "note": "Reviewed for German usage, fit with the entry sense and grammatical form, and English translation; accepted as a suitable example."
+    },
+    {
+      "entry_id": "frequency:3240",
+      "german": "Tom rührte sich nicht.",
+      "english": "Tom didn't stir.",
+      "note": "Reviewed for German usage, fit with the entry sense and grammatical form, and English translation; accepted as a suitable example."
+    },
+    {
+      "entry_id": "frequency:3241",
+      "german": "Mein Haus ist völlig versichert.",
+      "english": "My house is fully insured.",
+      "note": "Reviewed for German usage, fit with the entry sense and grammatical form, and English translation; accepted as a suitable example."
+    },
+    {
+      "entry_id": "frequency:3243",
+      "german": "Tom legte auf, ohne auf Wiederhören zu sagen.",
+      "english": "Tom hung up without saying goodbye.",
+      "note": "Reviewed for German usage, fit with the entry sense and grammatical form, and English translation; accepted as a suitable example."
+    },
+    {
+      "entry_id": "frequency:3244",
+      "german": "Alle Passagiere verließen in großer Eile das Flugzeug.",
+      "english": "All the passengers left the plane in a hurry.",
+      "note": "Reviewed for German usage, fit with the entry sense and grammatical form, and English translation; accepted as a suitable example."
+    },
+    {
+      "entry_id": "frequency:3246",
+      "german": "Tom würde davon elend zumute.",
+      "english": "Tom would be miserable doing that.",
+      "note": "Reviewed for German usage, fit with the entry sense and grammatical form, and English translation; accepted as a suitable example."
+    },
+    {
+      "entry_id": "frequency:3247",
+      "german": "Er wurde in der Schule andauernd gemobbt.",
+      "english": "He was constantly bullied at school.",
+      "note": "Reviewed for German usage, fit with the entry sense and grammatical form, and English translation; accepted as a suitable example."
+    },
+    {
+      "entry_id": "frequency:3248",
+      "german": "Da ist ein Ungeheuer unter meinem Bett.",
+      "english": "There's a monster under my bed.",
+      "note": "Reviewed for German usage, fit with the entry sense and grammatical form, and English translation; accepted as a suitable example."
+    },
+    {
+      "entry_id": "frequency:3249",
+      "german": "Er ist aktiv und fit.",
+      "english": "He's active and fit.",
+      "note": "Reviewed for German usage, fit with the entry sense and grammatical form, and English translation; accepted as a suitable example."
+    },
+    {
+      "entry_id": "frequency:3250",
+      "german": "Wenn ihr mich fragt, war das reine Zeitverschwendung.",
+      "english": "If you ask me, it was just a waste of time.",
+      "note": "Reviewed for German usage, fit with the entry sense and grammatical form, and English translation; accepted as a suitable example."
+    },
+    {
+      "entry_id": "frequency:3251",
+      "german": "Das ist eine Ansicht der Alpen.",
+      "english": "This is a view of the Alps.",
+      "note": "Reviewed for German usage, fit with the entry sense and grammatical form, and English translation; accepted as a suitable example."
+    },
+    {
+      "entry_id": "frequency:3252",
+      "german": "April ist der vierte Monat im Jahr.",
+      "english": "April is the fourth month of the year.",
+      "note": "Reviewed for German usage, fit with the entry sense and grammatical form, and English translation; accepted as a suitable example."
+    },
+    {
+      "entry_id": "frequency:3253",
+      "german": "Diese Diskussion wird zu politisch.",
+      "english": "This discussion is getting too political.",
+      "note": "Reviewed for German usage, fit with the entry sense and grammatical form, and English translation; accepted as a suitable example."
+    },
+    {
+      "entry_id": "frequency:3254",
+      "german": "Dreh mal die Anlage ein bisschen runter.",
+      "english": "Please turn down the stereo a little.",
+      "note": "Reviewed for German usage, fit with the entry sense and grammatical form, and English translation; accepted as a suitable example."
+    },
+    {
+      "entry_id": "frequency:3255",
+      "german": "Tom hat bei einem Autounfall seinen Sohn verloren.",
+      "english": "Tom lost his son in a car accident.",
+      "note": "Reviewed for German usage, fit with the entry sense and grammatical form, and English translation; accepted as a suitable example."
+    },
+    {
+      "entry_id": "frequency:3256",
+      "german": "Tom ist noch immer ein Gefangener.",
+      "english": "Tom is still a prisoner.",
+      "note": "Reviewed for German usage, fit with the entry sense and grammatical form, and English translation; accepted as a suitable example."
+    },
+    {
+      "entry_id": "frequency:3259",
+      "german": "Ich habe nie irgendwelche Details über Toms Trip gehört.",
+      "english": "I never heard any details about Tom's trip.",
+      "note": "Reviewed for German usage, fit with the entry sense and grammatical form, and English translation; accepted as a suitable example."
+    },
+    {
+      "entry_id": "curated:lex-de-die-notiz",
+      "german": "Der Schreibtisch war übersät mit Zettelchen, Zeitungsausschnitten, Notizen und Skizzen.",
+      "english": "The desk was covered with papers, newspaper clips, notes and sketches.",
+      "note": "Reviewed for German usage, fit with the entry sense and grammatical form, and English translation; accepted as a suitable example."
+    },
+    {
+      "entry_id": "frequency:3261",
+      "german": "Die Wunde hörte auf zu schmerzen, nachdem er sie mit einem Pflaster versorgte.",
+      "english": "The wound stopped hurting after he put a band-aid on it.",
+      "note": "Reviewed for German usage, fit with the entry sense and grammatical form, and English translation; accepted as a suitable example."
+    },
+    {
+      "entry_id": "frequency:3262",
+      "german": "Tom kam, als Pirat verkleidet, auf die Feier.",
+      "english": "Tom showed up at the party dressed like a pirate.",
+      "note": "Reviewed for German usage, fit with the entry sense and grammatical form, and English translation; accepted as a suitable example."
+    },
+    {
+      "entry_id": "frequency:3264",
+      "german": "Die Katze bewegte keinen Muskel.",
+      "english": "The cat didn't move a muscle.",
+      "note": "Reviewed for German usage, fit with the entry sense and grammatical form, and English translation; accepted as a suitable example."
+    },
+    {
+      "entry_id": "frequency:3266",
+      "german": "Ich hätte gerne ein Steak mit einer Ofenkartoffel.",
+      "english": "I would like a steak with a baked potato.",
+      "note": "Reviewed for German usage, fit with the entry sense and grammatical form, and English translation; accepted as a suitable example."
+    },
+    {
+      "entry_id": "frequency:3268",
+      "german": "Ich war ruhig, bis ich die Spritze sah.",
+      "english": "I was calm until I saw the syringe.",
+      "note": "Reviewed for German usage, fit with the entry sense and grammatical form, and English translation; accepted as a suitable example."
+    },
+    {
+      "entry_id": "frequency:3271",
+      "german": "Es fällt schwer zuzugeben, dass man ein Loser ist.",
+      "english": "It's hard to admit you're a loser.",
+      "note": "Reviewed for German usage, fit with the entry sense and grammatical form, and English translation; accepted as a suitable example."
+    },
+    {
+      "entry_id": "frequency:3272",
+      "german": "Ob ich schlafe oder wache — ich denke stets an dich.",
+      "english": "It doesn't matter whether I'm sleeping or awake, I'm always thinking about you.",
+      "note": "Reviewed for German usage, fit with the entry sense and grammatical form, and English translation; accepted as a suitable example."
+    },
+    {
+      "entry_id": "frequency:3274",
+      "german": "Ich weiß, dass er ein berühmter Musiker ist.",
+      "english": "I know that he is a famous musician.",
+      "note": "Reviewed for German usage, fit with the entry sense and grammatical form, and English translation; accepted as a suitable example."
+    },
+    {
+      "entry_id": "frequency:3275",
+      "german": "Verstauen Sie es außer Reichweite von Kindern.",
+      "english": "Put it where children can't get at it.",
+      "note": "Reviewed for German usage, fit with the entry sense and grammatical form, and English translation; accepted as a suitable example."
+    },
+    {
+      "entry_id": "frequency:3276",
+      "german": "Die Maya waren hervorragende Astronomen und kannten die Zahl Null.",
+      "english": "The Maya were excellent astronomers and knew the number zero.",
+      "note": "Reviewed for German usage, fit with the entry sense and grammatical form, and English translation; accepted as a suitable example."
+    },
+    {
+      "entry_id": "frequency:3277",
+      "german": "Wie können Sie es wagen, meine Schwester zu beleidigen!",
+      "english": "How dare you insult my sister!",
+      "note": "Reviewed for German usage, fit with the entry sense and grammatical form, and English translation; accepted as a suitable example."
+    },
+    {
+      "entry_id": "frequency:3278",
+      "german": "Tom forderte Mary zu einer Partie Schach heraus.",
+      "english": "Tom challenged Mary to a game of chess.",
+      "note": "Reviewed for German usage, fit with the entry sense and grammatical form, and English translation; accepted as a suitable example."
+    },
+    {
+      "entry_id": "frequency:3279",
+      "german": "Tom hat einen schwarzen Kater.",
+      "english": "Tom has a black cat.",
+      "note": "Reviewed for German usage, fit with the entry sense and grammatical form, and English translation; accepted as a suitable example."
+    },
+    {
+      "entry_id": "frequency:3281",
+      "german": "Denkst du, dass unser Klima unseren Charakter beeinflusst?",
+      "english": "Do you think our climate has an influence on our character?",
+      "note": "Reviewed for German usage, fit with the entry sense and grammatical form, and English translation; accepted as a suitable example."
+    },
+    {
+      "entry_id": "frequency:3283",
+      "german": "Mary trägt ein tief ausgeschnittenes Top.",
+      "english": "Mary is wearing a low-cut top.",
+      "note": "Reviewed for German usage, fit with the entry sense and grammatical form, and English translation; accepted as a suitable example."
+    },
+    {
+      "entry_id": "frequency:3286",
+      "german": "Du wirst auf eine scharfe Konkurrenz treffen.",
+      "english": "You're going to come up against fierce competition.",
+      "note": "Reviewed for German usage, fit with the entry sense and grammatical form, and English translation; accepted as a suitable example."
+    },
+    {
+      "entry_id": "frequency:3287",
+      "german": "Schwierige Probleme erfordern phantasievolle Lösungen.",
+      "english": "Difficult problems require imaginative solutions.",
+      "note": "Reviewed for German usage, fit with the entry sense and grammatical form, and English translation; accepted as a suitable example."
+    },
+    {
+      "entry_id": "frequency:3288",
+      "german": "Tom ist sich noch unsicher.",
+      "english": "Tom is still uncertain.",
+      "note": "Reviewed for German usage, fit with the entry sense and grammatical form, and English translation; accepted as a suitable example."
+    },
+    {
+      "entry_id": "frequency:3291",
+      "german": "Der Detektiv hatte sich als alter Herr verkleidet.",
+      "english": "The detective disguised himself as an old gentleman.",
+      "note": "Reviewed for German usage, fit with the entry sense and grammatical form, and English translation; accepted as a suitable example."
+    },
+    {
+      "entry_id": "frequency:3292",
+      "german": "Mein Vater war ein Pastor.",
+      "english": "My father was a pastor.",
+      "note": "Reviewed for German usage, fit with the entry sense and grammatical form, and English translation; accepted as a suitable example."
+    },
+    {
+      "entry_id": "frequency:3293",
+      "german": "Das ist nur ein kleiner Kratzer.",
+      "english": "It's just a little scratch.",
+      "note": "Reviewed for German usage, fit with the entry sense and grammatical form, and English translation; accepted as a suitable example."
+    },
+    {
+      "entry_id": "curated:lex-de-gruselig",
+      "german": "Es ist nicht so gruselig, wie du meinst.",
+      "english": "It's not as scary as you think.",
+      "note": "Reviewed for German usage, fit with the entry sense and grammatical form, and English translation; accepted as a suitable example."
+    },
+    {
+      "entry_id": "frequency:3296",
+      "german": "Manchmal zweifele ich an deiner Intelligenz.",
+      "english": "Sometimes I doubt your intelligence.",
+      "note": "Reviewed for German usage, fit with the entry sense and grammatical form, and English translation; accepted as a suitable example."
+    },
+    {
+      "entry_id": "frequency:3297",
+      "german": "Beeil dich doch, Mutti! Alle warten schon.",
+      "english": "Mom, hurry up! Everyone's waiting.",
+      "note": "Reviewed for German usage, fit with the entry sense and grammatical form, and English translation; accepted as a suitable example."
+    },
+    {
+      "entry_id": "frequency:3298",
+      "german": "Ihnen blieb nur der Rückzug.",
+      "english": "They had no alternative but to retreat.",
+      "note": "Reviewed for German usage, fit with the entry sense and grammatical form, and English translation; accepted as a suitable example."
+    },
+    {
+      "entry_id": "frequency:3300",
+      "german": "Tom ist sehr reserviert, nicht wahr?",
+      "english": "Tom is quite reserved, isn't he?",
+      "note": "Reviewed for German usage, fit with the entry sense and grammatical form, and English translation; accepted as a suitable example."
+    },
+    {
+      "entry_id": "frequency:3301",
+      "german": "Das FBI hat die Bude des Gangsters heimlich verwanzt.",
+      "english": "The FBI secretly bugged the mobster's hangout.",
+      "note": "Reviewed for German usage, fit with the entry sense and grammatical form, and English translation; accepted as a suitable example."
+    },
+    {
+      "entry_id": "frequency:3302",
+      "german": "Nickel ist ein hartes, silbrig weißes Metall.",
+      "english": "Nickel is a hard, silver-white metal.",
+      "note": "Reviewed for German usage, fit with the entry sense and grammatical form, and English translation; accepted as a suitable example."
+    },
+    {
+      "entry_id": "frequency:3303",
+      "german": "Tom ist der einzige, der nüchtern ist.",
+      "english": "Tom is the only one who's sober.",
+      "note": "Reviewed for German usage, fit with the entry sense and grammatical form, and English translation; accepted as a suitable example."
+    },
+    {
+      "entry_id": "frequency:3304",
+      "german": "Es ist ein Handschuh.",
+      "english": "It's a glove.",
+      "note": "Reviewed for German usage, fit with the entry sense and grammatical form, and English translation; accepted as a suitable example."
+    },
+    {
+      "entry_id": "frequency:3305",
+      "german": "Ich werde arrangieren, dass Sie jemand mit dem Auto von Ihrem Haus abholt.",
+      "english": "I'll arrange for someone to pick you up at your home.",
+      "note": "Reviewed for German usage, fit with the entry sense and grammatical form, and English translation; accepted as a suitable example."
+    },
+    {
+      "entry_id": "curated:lex-de-absagen",
+      "german": "Bei Regen wird der Ausflug abgesagt.",
+      "english": "If it rains, the excursion will be called off.",
+      "note": "Reviewed for German usage, fit with the entry sense and grammatical form, and English translation; accepted as a suitable example."
+    },
+    {
+      "entry_id": "frequency:3308",
+      "german": "Die Zukunft sah sehr düster aus.",
+      "english": "The future looked very gloomy.",
+      "note": "Reviewed for German usage, fit with the entry sense and grammatical form, and English translation; accepted as a suitable example."
+    },
+    {
+      "entry_id": "frequency:3309",
+      "german": "Tom fährt dreimal im Jahr geschäftlich nach Boston.",
+      "english": "Tom goes to Boston three times a year on business.",
+      "note": "Reviewed for German usage, fit with the entry sense and grammatical form, and English translation; accepted as a suitable example."
+    },
+    {
+      "entry_id": "frequency:3310",
+      "german": "Du hast alle Gummibärchen selbst gegessen - war das egoistisch!",
+      "english": "You ate all the rubber bears yourself - it was selfish!",
+      "note": "Reviewed for German usage, fit with the entry sense and grammatical form, and English translation; accepted as a suitable example."
+    },
+    {
+      "entry_id": "frequency:3311",
+      "german": "Tom besitzt eine Ranch.",
+      "english": "Tom owns a ranch.",
+      "note": "Reviewed for German usage, fit with the entry sense and grammatical form, and English translation; accepted as a suitable example."
+    },
+    {
+      "entry_id": "frequency:3312",
+      "german": "Was für eine Temperatur werden wir morgen haben?",
+      "english": "What's the temperature going to be tomorrow?",
+      "note": "Reviewed for German usage, fit with the entry sense and grammatical form, and English translation; accepted as a suitable example."
+    },
+    {
+      "entry_id": "frequency:3314",
+      "german": "Es sind nicht alle von den Studenten anwesend.",
+      "english": "Not all those students are present.",
+      "note": "Reviewed for German usage, fit with the entry sense and grammatical form, and English translation; accepted as a suitable example."
+    },
+    {
+      "entry_id": "frequency:3317",
+      "german": "Der Räuber war von zehn Polizisten umstellt.",
+      "english": "The robber stood surrounded by ten policemen.",
+      "note": "Reviewed for German usage, fit with the entry sense and grammatical form, and English translation; accepted as a suitable example."
+    },
+    {
+      "entry_id": "frequency:3318",
+      "german": "Ein Adler segelte hoch oben am Himmel.",
+      "english": "An eagle was soaring high up in the air.",
+      "note": "Reviewed for German usage, fit with the entry sense and grammatical form, and English translation; accepted as a suitable example."
+    },
+    {
+      "entry_id": "frequency:3319",
+      "german": "Welche Süßigkeiten mochtest du als Kind am liebsten?",
+      "english": "What was your favorite kind of candy when you were a child?",
+      "note": "Reviewed for German usage, fit with the entry sense and grammatical form, and English translation; accepted as a suitable example."
+    },
+    {
+      "entry_id": "frequency:3320",
+      "german": "Rauchen geht auf die Lunge.",
+      "english": "Smoking is bad for your lungs.",
+      "note": "Reviewed for German usage, fit with the entry sense and grammatical form, and English translation; accepted as a suitable example."
+    },
+    {
+      "entry_id": "frequency:3321",
+      "german": "Warum hast du dich zurückgezogen?",
+      "english": "Why did you back away?",
+      "note": "Reviewed for German usage, fit with the entry sense and grammatical form, and English translation; accepted as a suitable example."
+    },
+    {
+      "entry_id": "frequency:3322",
+      "german": "Ich habe nie so einen schönen Sonnenuntergang gesehen.",
+      "english": "I've never seen such a beautiful sunset.",
+      "note": "Reviewed for German usage, fit with the entry sense and grammatical form, and English translation; accepted as a suitable example."
+    },
+    {
+      "entry_id": "frequency:3323",
+      "german": "Sind Sie schon einmal in der Oper gewesen?",
+      "english": "Have you ever been to the opera?",
+      "note": "Reviewed for German usage, fit with the entry sense and grammatical form, and English translation; accepted as a suitable example."
+    },
+    {
+      "entry_id": "frequency:3324",
+      "german": "Kommt sie von der Agentur, die die letzte Aushilfe geschickt hat, die ich hatte?",
+      "english": "Does she come from the agency that sent the last temporary I had?",
+      "note": "Reviewed for German usage, fit with the entry sense and grammatical form, and English translation; accepted as a suitable example."
+    }
+  ],
+  "held_examples": [],
+  "editorial_examples": [
+    {
+      "entry_id": "frequency:3213",
+      "german": "Das in Deutschland hergestellte Gerät ist langlebig.",
+      "english": "The device made in Germany is durable.",
+      "note": "The source uses hergestellt in a passive verb clause; the entry is tagged adjective, so this replacement uses it attributively.",
+      "evidence_url": "https://www.duden.de/rechtschreibung/herstellen"
+    },
+    {
+      "entry_id": "frequency:3217",
+      "german": "Die gefährliche Kriminelle wurde festgenommen.",
+      "english": "The dangerous female criminal was arrested.",
+      "note": "Replaced an outdated institutional term with a neutral, current example for the feminine noun Kriminelle.",
+      "evidence_url": "https://www.duden.de/rechtschreibung/Kriminelle"
+    },
+    {
+      "entry_id": "frequency:3232",
+      "german": "Das Wehr staut den kleinen Bach auf.",
+      "english": "The weir holds back the small stream.",
+      "note": "Corrected the mistranslation: aufstauen means to hold back/impound water, not stab.",
+      "evidence_url": "https://www.duden.de/rechtschreibung/Wehr"
+    },
+    {
+      "entry_id": "frequency:3233",
+      "german": "Bitte rufen Sie Tom so schnell wie möglich zurück.",
+      "english": "Please call Tom back as soon as possible.",
+      "note": "Corrected the source translation’s subject mismatch and made the example direct.",
+      "evidence_url": "https://www.duden.de/rechtschreibung/zurueckrufen"
+    },
+    {
+      "entry_id": "frequency:3234",
+      "german": "Sie bezieht seit einem Jahr Rente.",
+      "english": "She has been receiving a pension for a year.",
+      "note": "Replaced the age-label phrase Der Alte with a neutral example for Rente.",
+      "evidence_url": "https://www.duden.de/rechtschreibung/Rente"
+    },
+    {
+      "entry_id": "frequency:3236",
+      "german": "Die Metallplatte ist sehr dünn.",
+      "english": "The metal plate is very thin.",
+      "note": "The source uses Platten (a flat tire), a different sense/form from feminine Platte; this replacement demonstrates the flat-object sense.",
+      "evidence_url": "https://www.duden.de/rechtschreibung/Platte_Scheibe_Unterlage_CD"
+    },
+    {
+      "entry_id": "frequency:3245",
+      "german": "Der Fluss fließt ins Meer.",
+      "english": "The river flows into the sea.",
+      "note": "Replaced an obsolete geopolitical example and older spellings with a simple current example of fließen.",
+      "evidence_url": "https://www.duden.de/rechtschreibung/fliessen"
+    },
+    {
+      "entry_id": "frequency:3258",
+      "german": "Das Schaf steht auf der Weide.",
+      "english": "The sheep is standing in the pasture.",
+      "note": "The source uses the idiom schwarzes Schaf rather than the animal sense taught by this entry.",
+      "evidence_url": "https://www.duden.de/rechtschreibung/Schaf"
+    },
+    {
+      "entry_id": "frequency:3267",
+      "german": "Ein Japaner arbeitet im selben Büro wie ich.",
+      "english": "A Japanese man works in the same office as I do.",
+      "note": "Replaced a broad cultural generalization with a neutral example for the person noun Japaner.",
+      "evidence_url": "https://www.duden.de/rechtschreibung/Japaner"
+    },
+    {
+      "entry_id": "frequency:3299",
+      "german": "Sie ist ganz auf ihre Arbeit konzentriert.",
+      "english": "She is completely focused on her work.",
+      "note": "The source uses konzentriert in a reflexive verb construction; this entry is tagged adjective, so the replacement demonstrates predicative adjective use.",
+      "evidence_url": "https://www.duden.de/rechtschreibung/konzentriert"
+    },
+    {
+      "entry_id": "frequency:3306",
+      "german": "Die Explosion verwundete mehrere Menschen.",
+      "english": "The explosion wounded several people.",
+      "note": "The source uses verwundet as a state adjective; this entry is a verb, so the replacement uses the finite verb verwunden.",
+      "evidence_url": "https://www.duden.de/rechtschreibung/verwunden"
+    },
+    {
+      "entry_id": "frequency:3313",
+      "german": "Das Geräusch lenkte Anton von seiner Arbeit ab.",
+      "english": "The noise distracted Anton from his work.",
+      "note": "The source uses abgelenkt as an adjective; this entry is a verb, so the replacement uses finite ablenken.",
+      "evidence_url": "https://www.duden.de/rechtschreibung/ablenken"
+    },
+    {
+      "entry_id": "frequency:3325",
+      "german": "Tom räumt sein Haus auf.",
+      "english": "Tom is tidying up his house.",
+      "note": "The source uses aufgeräumt as an adjective; this entry is a verb, so the replacement uses aufräumen.",
+      "evidence_url": "https://www.duden.de/rechtschreibung/aufräumen"
+    },
+    {
+      "entry_id": "frequency:3326",
+      "german": "Der Junge fing an, Krach zu machen.",
+      "english": "The boy started making a racket.",
+      "note": "Kept the valid German phrase and clarified that Krach here means noise/racket, not a crash.",
+      "evidence_url": "https://www.duden.de/rechtschreibung/Krach"
+    }
+  ],
+  "entry_updates": [
+    {
+      "entry_id": "frequency:3218",
+      "field": "meaning",
+      "value": "December (the twelfth month of the year)",
+      "note": "Removed irrelevant astronomical detail from the learner-facing gloss.",
+      "url": "https://www.duden.de/rechtschreibung/Dezember"
+    },
+    {
+      "entry_id": "frequency:3230",
+      "field": "meaning",
+      "value": "wedding day; wedding anniversary",
+      "note": "Added the anniversary sense used in the German sentence; the former gloss described only the day of the wedding.",
+      "url": "https://www.duden.de/rechtschreibung/Hochzeitstag"
+    },
+    {
+      "entry_id": "frequency:3240",
+      "field": "meaning",
+      "value": "to stir; to move or budge (often reflexive)",
+      "note": "Added the reflexive “move/budge” sense used in the example while retaining the cooking sense.",
+      "url": "https://www.duden.de/rechtschreibung/ruehren"
+    },
+    {
+      "entry_id": "frequency:3243",
+      "field": "meaning",
+      "value": "hearing again; telephone farewell, as in Auf Wiederhören",
+      "note": "Added the telephone-farewell use present in the example.",
+      "url": "https://www.duden.de/rechtschreibung/Wiederhoeren"
+    },
+    {
+      "entry_id": "frequency:3254",
+      "field": "meaning",
+      "value": "park or grounds; technical/electronic installation or system",
+      "note": "Added the electronic-equipment sense used by Anlage as shorthand for a sound system.",
+      "url": "https://www.duden.de/rechtschreibung/Anlage"
+    },
+    {
+      "entry_id": "frequency:3275",
+      "field": "meaning",
+      "value": "range, reach (distance within which something can be reached or operate)",
+      "note": "Broadened the weapon/radio-focused gloss to include the everyday reach sense used in the example.",
+      "url": "https://www.duden.de/rechtschreibung/Reichweite"
+    },
+    {
+      "entry_id": "frequency:3301",
+      "field": "meaning",
+      "value": "booth or stall; small room or place (colloquial)",
+      "note": "Added the colloquial place/hangout sense used in the example while retaining the booth/stall sense.",
+      "url": "https://www.duden.de/rechtschreibung/Bude"
+    },
+    {
+      "entry_id": "frequency:3326",
+      "field": "meaning",
+      "value": "noise, racket; crash or loud impact",
+      "note": "Added the noise/racket sense used in the example while retaining the impact sense.",
+      "url": "https://www.duden.de/rechtschreibung/Krach"
+    }
+  ],
+  "plural_reviews": [],
+  "inflected_links": []
+}

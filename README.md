@@ -31,14 +31,14 @@ The V11 service worker checks the general vocabulary runtime, Wordly reference d
 
 ## Offline behavior
 
-The service worker bundles the app shell and vocabulary runtime. Its V11 cache key is verbwerk-v11-online-12. The offline cache includes the unified Library index. Local progress remains available offline. No sign-in or cross-device cloud sync is connected; that requires a backend and an authentication decision. Physical iPhone Safari gestures still need a device check.
+The service worker bundles the app shell and vocabulary runtime. Its V11 cache key is verbwerk-v11-online-16. The offline cache includes the unified Library index. Local progress remains available offline. No sign-in or cross-device cloud sync is connected; that requires a backend and an authentication decision. Physical iPhone Safari gestures still need a device check.
 
 ## Verification
 
 - Node syntax checks passed for the root JavaScript files and sw.js; all five inline script blocks in index.html parsed successfully.
 - The vocabulary sanity script passed: 896 records, 891 approved active entries, unique active IDs, and required structural fields. It also checked article metadata for the frequency noun rows. These structural checks do not confirm every translation or example linguistically.
 - The generated vocabulary manifest SHA-256 matches the bundled general vocabulary runtime.
-- Local Chrome QA covered daily verb lesson completion and saved progress, the expanded verb bank and article lesson bank, article feedback, quick/deep revision and tests, mixed verb/article practice, general vocabulary recall, Library search/details/sense separation, the 5,396-entry combined list, 1,187 verb entries, 2,600 noun entries with 2,449 eligible for single-article practice, the 5,000-entry frequency list, 50 starter words, in-app Grammar self-checks, theme persistence, and Home/Back navigation. The current build showed no browser console errors during these checks.
+- Local Chrome QA covered daily verb lesson completion and saved progress, the expanded verb bank and article lesson bank, article feedback, quick/deep revision and tests, mixed verb/article practice, general vocabulary recall, Library search/details/sense separation, the 5,396-entry combined list, 1,190 verb entries, 2,620 noun entries, 2,599 browsable article entries, 2,449 scheduled lesson slots, and 2,444 single-article practice entries, the 5,000-entry frequency list, 50 starter words, in-app Grammar self-checks, theme persistence, and Home/Back navigation. The current build showed no browser console errors during these checks.
 - The service-worker online refresh/offline fallback, backup import through the browser file picker, exported backup contents, and physical iPhone swipe gestures were not verified. Structural dataset checks are not a substitute for full linguistic proofreading.
 
 ## Release
@@ -50,3 +50,15 @@ Version 11 is published from the main branch at https://rangane90.github.io/verb
 
 
 The noun collection is extended with the 2,533 noun rows from the Wordly frequency index, each carrying article options or an explicit note. Multi-article forms are shown together and are excluded from single-answer article practice; frequency-only nouns with one article join the article practice bank after the existing course sequence. The More collections menu displays the current source counts. The frequency introduction is intentionally brief; source/license details remain in VOCABULARY-LICENSE.md.
+
+## Study database export
+
+Run `python scripts/export-study-database.py PATH_TO_STUDY.sqlite .` from the app directory to regenerate `vocabulary-latest-database.js` and its manifest entry. The browser loads this versioned asset offline. It uses the database’s stable sense IDs and mappings for the Library collections, and preserves course lesson order and existing article lesson slots. The service-worker cache revision for this build is `verbwerk-v11-online-16`.
+
+Bilingual examples and grammar that require editorial review are labeled in the study interface. The app scores article answers only for a fixed reviewed article and uses reviewed usage patterns for the scored verb-pattern test. Article cards show plural forms or usage notes from the same entry as the Library. The provenance and example credits travel with the browser export.
+
+## Local vocabulary review
+
+The V11 development copy contains the locally reviewed study export 2026-11-11.4, generated from data/vocabulary/verbwerk-v11-study-reviewed.sqlite. Review batches v11-vocabulary-review-01 through -66 preserve the source hash and decision trail. The 3,598 candidate-only example fields are resolved: 2,941 source examples were accepted after review and 657 were replaced with editorial examples. All 471 candidate noun-plural fields are reviewed. No candidate-only bilingual examples or candidate noun plurals remain. The review also corrected several prior entry-to-gloss mismatches and separated the noun Cross from the distinct adverb cross.
+
+Other candidate grammar fields remain in the data and stay labeled and excluded from scored questions. The study database passes SQLite integrity and foreign-key checks; its 5,396 stable entry IDs are retained. The export and review scripts verify input and output hashes, and the offline asset cache version is updated for this build.

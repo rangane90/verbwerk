@@ -1,0 +1,730 @@
+{
+  "batch_id": "v11-vocabulary-review-24",
+  "review_date": "2026-11-11",
+  "input_database_sha256": "8e3798124bddbc47d10f6136967034da4bdd24ee44dde6998b428feb22497e7b",
+  "accepted_examples": [
+    {
+      "entry_id": "frequency:1602",
+      "german": "Komm runter von deinem hohen Ross, Tom!",
+      "english": "Get off your high horse, Tom.",
+      "note": "The German sentence uses the entry sense and grammatical function; the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1605",
+      "german": "Das ist die erste Regel, die man lernt.",
+      "english": "It's the first rule you learn.",
+      "note": "The German sentence uses the entry sense and grammatical function; the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1607",
+      "german": "Unter wessen Befehl steht diese Einheit?",
+      "english": "Who's in command of this unit?",
+      "note": "The German sentence uses the entry sense and grammatical function; the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1609",
+      "german": "Er ging angeln anstatt Tennis zu spielen.",
+      "english": "He went fishing instead of playing tennis.",
+      "note": "The German sentence uses the entry sense and grammatical function; the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1610",
+      "german": "Tom kennt nicht den Unterschied zwischen einem Wein und einem Champagner.",
+      "english": "Tom doesn't know the difference between wine and champagne.",
+      "note": "The German sentence uses the entry sense and grammatical function; the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1612",
+      "german": "Ich bin viel öfter als Tom zu spät zum Unterricht gekommen.",
+      "english": "I've been late for school many more times than Tom has.",
+      "note": "The German sentence uses the entry sense and grammatical function; the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1615",
+      "german": "Lass uns das nicht ruinieren.",
+      "english": "Let's not ruin this.",
+      "note": "The German sentence uses the entry sense and grammatical function; the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1616",
+      "german": "Ich gab ihnen Kleidung und etwas zu essen.",
+      "english": "I gave them clothing and some food.",
+      "note": "The German sentence uses the entry sense and grammatical function; the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1617",
+      "german": "Tom liegt auf dem Gras unter einem Apfelbaum.",
+      "english": "Tom is lying on the grass under an apple tree.",
+      "note": "The German sentence uses the entry sense and grammatical function; the English translation matches it."
+    },
+    {
+      "entry_id": "curated:lex-de-brot",
+      "german": "Brot wird aus Mehl, Wasser und Hefe hergestellt.",
+      "english": "Bread is made from flour, water and yeast.",
+      "note": "The German sentence uses the entry sense and grammatical function; the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1621",
+      "german": "Ich halte es für falsch zu lügen.",
+      "english": "I think it's wrong to tell a lie.",
+      "note": "The German sentence uses the entry sense and grammatical function; the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1622",
+      "german": "Mexiko ist ein Staat in Nordamerika.",
+      "english": "Mexico is a country in North America.",
+      "note": "The German sentence uses the entry sense and grammatical function; the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1623",
+      "german": "An der nächsten Station müssen Sie aussteigen.",
+      "english": "The next station is where you get off.",
+      "note": "The German sentence uses the entry sense and grammatical function; the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1624",
+      "german": "Tom hinkt dem Zeitplan etwas hinterher.",
+      "english": "Tom is running a little behind schedule.",
+      "note": "The German sentence uses the entry sense and grammatical function; the English translation matches it."
+    },
+    {
+      "entry_id": "curated:lex-de-hemd",
+      "german": "Ich trage gewöhnlich ein weißes Hemd.",
+      "english": "I usually wear a white shirt.",
+      "note": "The German sentence uses the entry sense and grammatical function; the English translation matches it."
+    },
+    {
+      "entry_id": "curated:lex-de-klaren",
+      "german": "Lass uns klären, welches richtig und welches falsch ist.",
+      "english": "Let's make clear which is right and which is wrong.",
+      "note": "The German sentence uses the entry sense and grammatical function; the English translation matches it."
+    },
+    {
+      "entry_id": "curated:lex-de-praktisch",
+      "german": "Ihr Vorschlag hat keinen praktischen Nutzen.",
+      "english": "Your suggestion is of no practical use.",
+      "note": "The German sentence uses the entry sense and grammatical function; the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1629",
+      "german": "Die Zunge einer Katze fühlt sich rau an.",
+      "english": "The tongue of a cat feels rough.",
+      "note": "The German sentence uses the entry sense and grammatical function; the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1630",
+      "german": "Tom sagt, es handele sich um einen Notfall.",
+      "english": "Tom says it's an emergency.",
+      "note": "The German sentence uses the entry sense and grammatical function; the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1631",
+      "german": "Ich mag den Sommer mehr als den Winter.",
+      "english": "I like summer more than winter.",
+      "note": "The German sentence uses the entry sense and grammatical function; the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1632",
+      "german": "Da steckt Tom dahinter.",
+      "english": "Tom is behind this.",
+      "note": "The German sentence uses the entry sense and grammatical function; the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1633",
+      "german": "Bist du eher ein Anführer oder ein Gefolgsmann?",
+      "english": "Are you more of a leader or a follower?",
+      "note": "The German sentence uses the entry sense and grammatical function; the English translation matches it."
+    },
+    {
+      "entry_id": "curated:lex-de-blau",
+      "german": "Weißt du, warum der Himmel blau ist?",
+      "english": "Do you know why the sky is blue?",
+      "note": "The German sentence uses the entry sense and grammatical function; the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1637",
+      "german": "Du hast unrecht, und das weißt du auch.",
+      "english": "You're wrong and you know it.",
+      "note": "The German sentence uses the entry sense and grammatical function; the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1638",
+      "german": "Mein Ruderboot hat ein Leck.",
+      "english": "My rowboat has a leak.",
+      "note": "The German sentence uses the entry sense and grammatical function; the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1639",
+      "german": "Das ist nicht das, wonach ich gesucht habe.",
+      "english": "That's not what I was looking for.",
+      "note": "The German sentence uses the entry sense and grammatical function; the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1640",
+      "german": "Ich habe romantische Gefühle für dich entwickelt.",
+      "english": "I've developed romantic feelings for you.",
+      "note": "The German sentence uses the entry sense and grammatical function; the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1641",
+      "german": "Ich dachte über die Bedeutung seines Gemäldes nach.",
+      "english": "I thought about the meaning of his painting.",
+      "note": "The German sentence uses the entry sense and grammatical function; the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1642",
+      "german": "Kein Strom auf der Welt ist länger als der Nil.",
+      "english": "No river in the world is longer than the Nile.",
+      "note": "The German sentence uses the entry sense and grammatical function; the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1643",
+      "german": "Krebse, Hummer, Langusten, Krabben und Garnelen sind Krebstiere.",
+      "english": "Crabs, lobsters, crayfish, shrimp and prawns are crustaceans.",
+      "note": "The German sentence uses the entry sense and grammatical function; the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1644",
+      "german": "Er ist sehr gemein zu mir.",
+      "english": "He is very mean to me.",
+      "note": "The German sentence uses the entry sense and grammatical function; the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1646",
+      "german": "In der Dorfmitte liegt eine Quelle.",
+      "english": "There's a spring in the center of the village.",
+      "note": "The German sentence uses the entry sense and grammatical function; the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1647",
+      "german": "Die Zahl der Sterne am Himmel ist unendlich.",
+      "english": "The number of stars in the sky is infinite.",
+      "note": "The German sentence uses the entry sense and grammatical function; the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1648",
+      "german": "Beruht das musikalische Talent eines Kindes auf Vererbung?",
+      "english": "Does a child's musical talent depend on heredity?",
+      "note": "The German sentence uses the entry sense and grammatical function; the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1649",
+      "german": "Am Ende lag er an der Spitze.",
+      "english": "He came out on top.",
+      "note": "The German sentence uses the entry sense and grammatical function; the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1650",
+      "german": "Wenn du frei sein willst, dann zerstöre deinen Fernseher.",
+      "english": "If you want to be free, destroy your television set.",
+      "note": "The German sentence uses the entry sense and grammatical function; the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1651",
+      "german": "Das kann einen in den Wahnsinn treiben.",
+      "english": "It's enough to drive you crazy.",
+      "note": "The German sentence uses the entry sense and grammatical function; the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1653",
+      "german": "Die Polizei sperrte den Tatort ab.",
+      "english": "Police cordoned off the crime scene.",
+      "note": "The German sentence uses the entry sense and grammatical function; the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1655",
+      "german": "Es war alles bis ins Detail perfekt.",
+      "english": "Everything was perfect, down to the smallest detail.",
+      "note": "The German sentence uses the entry sense and grammatical function; the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1657",
+      "german": "Ich weiß nicht, ob Tom ein Dieb ist.",
+      "english": "I don't know if Tom is a thief or not.",
+      "note": "The German sentence uses the entry sense and grammatical function; the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1659",
+      "german": "Diese Kiste wird als Tisch dienen.",
+      "english": "The box will serve as a table.",
+      "note": "The German sentence uses the entry sense and grammatical function; the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1660",
+      "german": "Der Bahnhof liegt im Westen des Hotels.",
+      "english": "The station is to the west of the hotel.",
+      "note": "The German sentence uses the entry sense and grammatical function; the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1661",
+      "german": "Ich sage ihr dauernd, sie soll sich benehmen.",
+      "english": "I'm constantly telling her to behave herself.",
+      "note": "The German sentence uses the entry sense and grammatical function; the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1662",
+      "german": "Du hast einen besseren Geschmack, als ich dachte.",
+      "english": "You have better taste than I thought.",
+      "note": "The German sentence uses the entry sense and grammatical function; the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1666",
+      "german": "Glück im Spiel, Pech in der Liebe.",
+      "english": "Lucky at cards, unlucky in love.",
+      "note": "The German sentence uses the entry sense and grammatical function; the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1667",
+      "german": "Ein Mensch hat das Recht, sich zu verteidigen.",
+      "english": "People have the right to defend themselves.",
+      "note": "The German sentence uses the entry sense and grammatical function; the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1668",
+      "german": "Der Schauspieler starb auf der Höhe seiner Popularität.",
+      "english": "The actor died at the height of his popularity.",
+      "note": "The German sentence uses the entry sense and grammatical function; the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1671",
+      "german": "Lassen Sie uns doch mal das Thema wechseln!",
+      "english": "Why don't we change the topic?",
+      "note": "The German sentence uses the entry sense and grammatical function; the English translation matches it."
+    },
+    {
+      "entry_id": "curated:lex-de-bestatigen",
+      "german": "Der Sprecher bestätigte, dass der Bericht wahr sei.",
+      "english": "The spokesman confirmed that the report was true.",
+      "note": "The German sentence uses the entry sense and grammatical function; the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1676",
+      "german": "Es war leichtsinnig von mir, das Gas anzulassen.",
+      "english": "It was careless of me to leave the gas on.",
+      "note": "The German sentence uses the entry sense and grammatical function; the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1677",
+      "german": "Der starke Wind kündigt einen Sturm an.",
+      "english": "The strong wind indicates that a storm is coming.",
+      "note": "The German sentence uses the entry sense and grammatical function; the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1679",
+      "german": "Wie viele Pence geben ein englisches Pfund?",
+      "english": "How many pennies does it take to make one pound?",
+      "note": "The German sentence uses the entry sense and grammatical function; the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1683",
+      "german": "Diese Mission ist höchst geheim und äußerst gefährlich.",
+      "english": "This mission is highly secret and extremely dangerous.",
+      "note": "The German sentence uses the entry sense and grammatical function; the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1684",
+      "german": "Der Mann wurde der Polizei übergeben.",
+      "english": "The man was handed over to the police.",
+      "note": "The German sentence uses the entry sense and grammatical function; the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1685",
+      "german": "Hemden findet man in der Abteilung für Herrenoberbekleidung.",
+      "english": "Shirts can be found in the menswear department.",
+      "note": "The German sentence uses the entry sense and grammatical function; the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1686",
+      "german": "Ich habe ein Stück Papier im Raum gefunden.",
+      "english": "I found a piece of paper in the room.",
+      "note": "The German sentence uses the entry sense and grammatical function; the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1687",
+      "german": "Sie sind verschieden wie Tag und Nacht.",
+      "english": "They are as different as day and night.",
+      "note": "The German sentence uses the entry sense and grammatical function; the English translation matches it."
+    },
+    {
+      "entry_id": "curated:lex-de-gleichzeitig",
+      "german": "Ich liebe Tom, und gleichzeitig hasse ich ihn.",
+      "english": "I love Tom and at the same time I hate him.",
+      "note": "The German sentence uses the entry sense and grammatical function; the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1691",
+      "german": "Der Inspektor hat seine Untersuchung abgeschlossen.",
+      "english": "The inspector has completed his investigation.",
+      "note": "The German sentence uses the entry sense and grammatical function; the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1692",
+      "german": "Bisher habe ich nie eine echte Kuh gesehen.",
+      "english": "I've never seen a real cow.",
+      "note": "The German sentence uses the entry sense and grammatical function; the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1695",
+      "german": "Im Herbst ziehen viele Vögel in den Süden.",
+      "english": "In the fall, many birds head for the south.",
+      "note": "The German sentence uses the entry sense and grammatical function; the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1698",
+      "german": "Es dauerte eine Woche, ihr Versteck zu finden.",
+      "english": "It took one week to locate their hiding place.",
+      "note": "The German sentence uses the entry sense and grammatical function; the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1700",
+      "german": "Der Arzt kam rechtzeitig, um sie zu retten.",
+      "english": "The doctor arrived in time to save her.",
+      "note": "The German sentence uses the entry sense and grammatical function; the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1701",
+      "german": "In diesem Punkt ist er nicht sehr streng.",
+      "english": "He's not very strict about this.",
+      "note": "The German sentence uses the entry sense and grammatical function; the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1703",
+      "german": "Rennen Sie nicht so laut die Treppe hinunter!",
+      "english": "Don't run down the stairs so noisily.",
+      "note": "The German sentence uses the entry sense and grammatical function; the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1705",
+      "german": "In meinem Traum bin ich einem Wolf begegnet.",
+      "english": "In my dream, I encountered a wolf.",
+      "note": "The German sentence uses the entry sense and grammatical function; the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1706",
+      "german": "Damals glaubte man wirklich, das Kind sei von einem Dämon besessen.",
+      "english": "At that time, they really believed that the child was possessed by a demon.",
+      "note": "The German sentence uses the entry sense and grammatical function; the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1707",
+      "german": "Er kocht vor Wut.",
+      "english": "He is boiling with rage.",
+      "note": "The German sentence uses the entry sense and grammatical function; the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1708",
+      "german": "Sie wich zurück, als sie eine Schlange sah.",
+      "english": "She drew back when she saw a snake.",
+      "note": "The German sentence uses the entry sense and grammatical function; the English translation matches it."
+    },
+    {
+      "entry_id": "curated:lex-de-medikament",
+      "german": "Nimm dieses Medikament, und du fühlst dich besser.",
+      "english": "Take this medicine, and you'll feel better.",
+      "note": "The German sentence uses the entry sense and grammatical function; the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1712",
+      "german": "Diese Pizza kann man in die Tonne treten.",
+      "english": "This pizza is really bad.",
+      "note": "The German sentence uses the entry sense and grammatical function; the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1713",
+      "german": "Hinten an unserem Haus ist eine Hütte.",
+      "english": "There is a hut at the back of our house.",
+      "note": "The German sentence uses the entry sense and grammatical function; the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1714",
+      "german": "Sie trug einen langen, weiten Mantel.",
+      "english": "She wore a long, loose coat.",
+      "note": "The German sentence uses the entry sense and grammatical function; the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1716",
+      "german": "Beeilung! Wir haben keine Zeit zu verlieren.",
+      "english": "Hurry! There's no time to lose.",
+      "note": "The German sentence uses the entry sense and grammatical function; the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1718",
+      "german": "Auch ich kann ein Pferd reiten.",
+      "english": "I can ride a horse, too.",
+      "note": "The German sentence uses the entry sense and grammatical function; the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1721",
+      "german": "Die Einbrecher kamen unter dem Schutz der Dunkelheit.",
+      "english": "The burglars came under cover of darkness.",
+      "note": "The German sentence uses the entry sense and grammatical function; the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1722",
+      "german": "Am Abend gehe ich mit dem Hund spazieren.",
+      "english": "I take a walk with my dog in the evening.",
+      "note": "The German sentence uses the entry sense and grammatical function; the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1723",
+      "german": "Er weiß, wie man mit einer Angel fischt.",
+      "english": "He knows how to fish with a fishing rod.",
+      "note": "The German sentence uses the entry sense and grammatical function; the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1728",
+      "german": "Er stopfte seine Wäsche in einen großen Sack.",
+      "english": "He stuffed his laundry into a large bag.",
+      "note": "The German sentence uses the entry sense and grammatical function; the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1730",
+      "german": "Ich habe mich an der Unterhaltung nicht beteiligt.",
+      "english": "I didn't take part in the conversation.",
+      "note": "The German sentence uses the entry sense and grammatical function; the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1731",
+      "german": "Sie werden eine neue Firma gründen.",
+      "english": "They will set up a new company.",
+      "note": "The German sentence uses the entry sense and grammatical function; the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1734",
+      "german": "Das sind die Leute, die die Explosion sahen.",
+      "english": "These are the people who saw the explosion.",
+      "note": "The German sentence uses the entry sense and grammatical function; the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1735",
+      "german": "Ich fange an, Tom als Täter zu verdächtigen.",
+      "english": "I'm beginning to suspect Tom was the one who did this.",
+      "note": "The German sentence uses the entry sense and grammatical function; the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1736",
+      "german": "Sie ist von Natur aus neugierig.",
+      "english": "She's inquisitive by nature.",
+      "note": "The German sentence uses the entry sense and grammatical function; the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1737",
+      "german": "Es war niemand am anderen Ende der Leitung.",
+      "english": "There was no one on the other end of the line.",
+      "note": "The German sentence uses the entry sense and grammatical function; the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1738",
+      "german": "Eine Fliege ist ein Insekt.",
+      "english": "A fly is an insect.",
+      "note": "The German sentence uses the entry sense and grammatical function; the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1739",
+      "german": "Dieser Hund ist fast menschlich.",
+      "english": "This dog is almost human.",
+      "note": "The German sentence uses the entry sense and grammatical function; the English translation matches it."
+    },
+    {
+      "entry_id": "frequency:1740",
+      "german": "Der Junge nahm das Radio auseinander.",
+      "english": "The boy took the radio apart.",
+      "note": "The German sentence uses the entry sense and grammatical function; the English translation matches it."
+    }
+  ],
+  "held_examples": [
+    {
+      "entry_id": "frequency:1604",
+      "german": "Ein Ohrring am rechten Ohr bedeutet, dass man schwul ist.",
+      "reason": "This candidate states a baseless stereotype about an earring and sexual orientation; use a neutral, respectful sentence."
+    },
+    {
+      "entry_id": "frequency:1613",
+      "german": "Der Angeklagte erhängte sich in seiner Zelle.",
+      "reason": "The sentence uses rechten as an inflected adjective meaning right-hand, not as the listed verb rechten; replace with a verb example."
+    },
+    {
+      "entry_id": "frequency:1614",
+      "german": "Tom war zu klein, um an das oberste Regal zu langen.",
+      "reason": "The English is less natural and less precise than the German; clarify that this is being late for class more often."
+    },
+    {
+      "entry_id": "frequency:1618",
+      "german": "Tom hat am rechten Arm eine Narbe.",
+      "reason": "The candidate uses entwickelt as a perfect-tense verb, while the entry is an adjective meaning developed; replace with an attributive adjective use."
+    },
+    {
+      "entry_id": "frequency:1628",
+      "german": "Ich habe eine Theorie, warum das passiert ist.",
+      "reason": "The candidate uses Zelle for a prison cell, while this entry is the monastic cell sense; replace with a monastery/convent example."
+    },
+    {
+      "entry_id": "frequency:1664",
+      "german": "Ich hoffe, es wird nicht Tom Hansen gewählt.",
+      "reason": "The English names Tom Jackson, but the German names Tom Hansen; correct the mismatched proper name."
+    },
+    {
+      "entry_id": "frequency:1680",
+      "german": "Sie hat mich zum Palast geführt.",
+      "reason": "The candidate uses geführt as a verb in the perfect tense, while this entry is the adjective guided/conducted; replace with an adjectival use."
+    },
+    {
+      "entry_id": "curated:lex-de-die-fahigkeit",
+      "german": "Diese Arbeit erfordert spezielle Fähigkeiten.",
+      "reason": "The German uses plural Fähigkeiten, so the English should also use plural skills."
+    },
+    {
+      "entry_id": "frequency:1702",
+      "german": "Als Kind habe ich diese Sendung geliebt.",
+      "reason": "This sentence uses Sendung for a TV programme, while this entry is the postal shipment/delivery sense; replace with a postal example."
+    },
+    {
+      "entry_id": "frequency:1689",
+      "german": "Findet ihr nicht, daß Tom ein Genie ist?",
+      "reason": "The candidate uses pre-reform daß; modernize it to dass for current learner-facing spelling."
+    },
+    {
+      "entry_id": "frequency:1733",
+      "german": "Spanisch wird in Mittel- und Südamerika gesprochen.",
+      "reason": "The candidate contains Mittel only inside the place name Mittelamerika; it does not illustrate the noun meaning means/remedy. Replace with a noun example."
+    },
+    {
+      "entry_id": "frequency:1697",
+      "german": "Die Zukunft der Menschheit liegt in deinen Händen.",
+      "reason": "Use the inclusive current English equivalent humanity instead of mankind."
+    }
+  ],
+  "editorial_examples": [
+    {
+      "entry_id": "frequency:1604",
+      "german": "Er ist schwul und lebt mit seinem Partner zusammen.",
+      "english": "He is gay and lives with his partner.",
+      "note": "Neutral, respectful example without the unsupported earring stereotype."
+    },
+    {
+      "entry_id": "frequency:1613",
+      "german": "Die Nachbarn rechten um den Grenzverlauf.",
+      "english": "The neighbors are disputing the boundary line.",
+      "note": "Uses rechten as a verb meaning to dispute; this verb is elevated and uncommon."
+    },
+    {
+      "entry_id": "frequency:1614",
+      "german": "Tom war zu klein, um an das oberste Regal zu langen.",
+      "english": "I've been late for class much more often than Tom has.",
+      "note": "Clarifies the comparison and restores the class context."
+    },
+    {
+      "entry_id": "frequency:1618",
+      "german": "Das technisch hoch entwickelte Gerät ist teuer.",
+      "english": "The technologically advanced device is expensive.",
+      "note": "Uses entwickelt attributively as an adjective."
+    },
+    {
+      "entry_id": "frequency:1628",
+      "german": "Die Mönche leben in einfachen Zellen.",
+      "english": "The monks live in simple cells.",
+      "note": "Matches the monastic cell sense of Zelle."
+    },
+    {
+      "entry_id": "frequency:1664",
+      "german": "Ich hoffe, es wird nicht Tom Hansen gewählt.",
+      "english": "I hope Tom Hansen does not get elected.",
+      "note": "Corrects the mismatched English name and keeps the elected sense."
+    },
+    {
+      "entry_id": "frequency:1680",
+      "german": "Die gut geführte Tour dauerte zwei Stunden.",
+      "english": "The well-guided tour lasted two hours.",
+      "note": "Uses geführt as an attributive adjective."
+    },
+    {
+      "entry_id": "curated:lex-de-die-fahigkeit",
+      "german": "Diese Arbeit erfordert spezielle Fähigkeiten.",
+      "english": "This work requires special skills.",
+      "note": "Matches plural Fähigkeiten with plural English skills."
+    },
+    {
+      "entry_id": "frequency:1702",
+      "german": "Die Sendung wird morgen zugestellt.",
+      "english": "The parcel will be delivered tomorrow.",
+      "note": "Uses Sendung as a postal package/shipment."
+    },
+    {
+      "entry_id": "frequency:1689",
+      "german": "Findet ihr nicht, dass Tom ein Genie ist?",
+      "english": "Do you not think Tom is a genius?",
+      "note": "Modernizes daß to dass."
+    },
+    {
+      "entry_id": "frequency:1733",
+      "german": "Mit einfachen Mitteln lässt sich das Problem lösen.",
+      "english": "The problem can be solved with simple means.",
+      "note": "Uses Mittel as means or method, not as a component of Mittelamerika."
+    },
+    {
+      "entry_id": "frequency:1697",
+      "german": "Die Zukunft der Menschheit liegt in deinen Händen.",
+      "english": "The future of humanity is in your hands.",
+      "note": "Uses inclusive current English for Menschheit."
+    }
+  ],
+  "entry_updates": [
+    {
+      "entry_id": "frequency:1659",
+      "field": "meaning",
+      "value": "tip, point; top or leading position",
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Spitze",
+      "note": "The example an der Spitze means being in a leading/top position, not a cusp."
+    },
+    {
+      "entry_id": "frequency:1666",
+      "field": "meaning",
+      "value": "bad luck; misfortune",
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Pech",
+      "note": "The proverb uses Pech in the bad-luck sense, not the sticky substance pitch."
+    },
+    {
+      "entry_id": "frequency:1646",
+      "field": "word_class",
+      "value": "adjective",
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/gemein",
+      "note": "In sehr gemein zu mir, gemein is a predicative adjective meaning mean/unkind."
+    },
+    {
+      "entry_id": "frequency:1646",
+      "field": "meaning",
+      "value": "mean; unkind; nasty",
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/gemein",
+      "note": "The example uses the adjective sense describing someone’s behavior."
+    },
+    {
+      "entry_id": "frequency:1736",
+      "field": "word_class",
+      "value": "adjective",
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/neugierig",
+      "note": "In von Natur aus neugierig, neugierig is a predicative adjective."
+    },
+    {
+      "entry_id": "frequency:1736",
+      "field": "meaning",
+      "value": "curious; inquisitive",
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/neugierig",
+      "note": "Correct adjective meaning for the entry and its example."
+    },
+    {
+      "entry_id": "frequency:1733",
+      "field": "meaning",
+      "value": "means; method; remedy",
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Mittel_Arznei",
+      "note": "The noun Mittel means a means/method or remedy; the revised example shows the means/method sense."
+    }
+  ],
+  "plural_reviews": []
+}

@@ -1,0 +1,352 @@
+{
+  "batch_id": "v11-vocabulary-review-60",
+  "review_date": "2026-11-11",
+  "input_database_sha256": "128ad3b85cd24fdd949e0e797ed0ec78dd4a1e4abbff5c520e928291ddbb2dd9",
+  "accepted_examples": [
+    {
+      "entry_id": "frequency:4918",
+      "german": "Wir hätten auf die Durchsage achten sollen.",
+      "english": "We should've paid attention to the announcement.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4919",
+      "german": "Der Botaniker studierte die Flora der abgelegenen Insel.",
+      "english": "The botanist studied the flora of the remote island.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4923",
+      "german": "Ich muss rauskriegen, wie das geht.",
+      "english": "I need to figure out how to do that.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4926",
+      "german": "Die nukleare Rüstung ist eine moderne Bedrohung der Menschheit.",
+      "english": "The nuclear armament is a modern threat to humanity.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4927",
+      "german": "Hat man den Attentäter mittlerweile geschnappt?",
+      "english": "Have they caught the assassin yet?",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4928",
+      "german": "Auf dem Dach sitzt eine Taube.",
+      "english": "There's a pigeon on the roof.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4930",
+      "german": "Isst du zum ersten Mal japanisch?",
+      "english": "Is this your first time to eat Japanese food?",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4934",
+      "german": "Sie hörten, wie in der Ferne ein Gewehr abgefeuert wurde.",
+      "english": "They heard a gun go off in the distance.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4935",
+      "german": "Glauben Sie nicht, dass ich Sie davonkommen lasse!",
+      "english": "Don't think that I'm going to let you get away.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4938",
+      "german": "Er hatte den Ehrgeiz, Premierminister zu werden.",
+      "english": "He had the ambition to be prime minister.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4939",
+      "german": "Der Aufenthaltsort des Tatverdächtigen ist noch unbekannt.",
+      "english": "The suspect's whereabouts are still unknown.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4941",
+      "german": "Ich bin DJ.",
+      "english": "I'm a disc jockey.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4942",
+      "german": "An einem heißen Tag wie diesem ist die Wäsche im Nu trocken.",
+      "english": "On a hot day like this, the laundry will be dry in no time.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4943",
+      "german": "Kannst du auch Bratsche spielen oder nur Geige?",
+      "english": "Can you play the viola, too, or do you just play the violin?",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4944",
+      "german": "Hast du die Fortsetzung gesehen?",
+      "english": "Did you see the sequel?",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4945",
+      "german": "Heute ist mein Glückstag.",
+      "english": "Today's my lucky day.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4947",
+      "german": "Du kannst Tom noch einholen, wenn du dich beeilst.",
+      "english": "You'll be able to catch up with Tom if you hurry.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4949",
+      "german": "Hacker brechen ohne Erlaubnis in Computer ein.",
+      "english": "Hackers break into computers without permission.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4950",
+      "german": "Ich bewundere eure Hingabe.",
+      "english": "I admire your devotion.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4951",
+      "german": "Habe ich da einen Nerv getroffen?",
+      "english": "Did I touch a nerve?",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4953",
+      "german": "Tom schwang sich hoch in den Sattel.",
+      "english": "Tom swung up into the saddle.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4955",
+      "german": "Ich kam wieder und das Auto war immer noch intakt.",
+      "english": "I came back and the car was still intact.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4956",
+      "german": "Wein ist in Flaschen gefüllte Poesie.",
+      "english": "Wine is poetry put into a bottle.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4957",
+      "german": "Tom pflegt seinen Wagen sehr.",
+      "english": "Tom takes very good care of his car.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4959",
+      "german": "Er verdient eine halbe Million Yen im Monat.",
+      "english": "He earns half a million yen a month.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4960",
+      "german": "Aus der Perspektive vieler unter 30jähriger sieht die Zukunft nicht rosig aus.",
+      "english": "The future is not looking bright from the perspective of many people under 30.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4963",
+      "german": "Ein Hase lief mit einer Schildkröte um die Wette.",
+      "english": "A hare raced with a tortoise.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4964",
+      "german": "Wir waren umzingelt.",
+      "english": "We were surrounded.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4965",
+      "german": "Er umgibt sich mit der Aura eines Buddha.",
+      "english": "He surrounds himself with the aura of a Buddha.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4966",
+      "german": "Ich bekam meinen Bonus.",
+      "english": "I received my bonus.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "curated:lex-de-prazise",
+      "german": "Er beschrieb präzise, was dort geschehen war.",
+      "english": "He accurately described what happened there.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4973",
+      "german": "Ich kann dir das Geld, das du mir geliehen hast, nicht zurückzahlen.",
+      "english": "I can't pay you back the money you lent me.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4977",
+      "german": "Kannst du den Deckel von dieser Schachtel abnehmen?",
+      "english": "Can you take the lid off this box?",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4979",
+      "german": "Er hatte die Frechheit, mich um Hilfe zu bitten.",
+      "english": "He had the cheek to ask me to help him.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4980",
+      "german": "Ich dankte ihr für ihre herzliche Gastfreundschaft.",
+      "english": "I thanked her for her kind hospitality.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4981",
+      "german": "Der Container ist leer.",
+      "english": "The container is empty.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4982",
+      "german": "Die Männer haben ihre Helme aufgesetzt.",
+      "english": "The men have put on their helmets.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4983",
+      "german": "Soziale Netze ermöglichen es, eine Vielzahl von Informationen über jemanden zu finden, bevor man sich mit ihm trifft.",
+      "english": "With social media it's possible to find out a lot of information about someone before meeting them.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4985",
+      "german": "Hat Sie Tom rausgeschmissen?",
+      "english": "Did Tom kick you out?",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    }
+  ],
+  "editorial_examples": [
+    {
+      "entry_id": "frequency:4920",
+      "german": "Mein Stiefvater behandelt mich besser, als es mein leiblicher Vater tat.",
+      "english": "My stepfather treats me better than my biological father did.",
+      "note": "Used the clearer term for biological father in German and English."
+    },
+    {
+      "entry_id": "frequency:4933",
+      "german": "Ich esse am liebsten Donuts zum Frühstück.",
+      "english": "I like eating doughnuts for breakfast.",
+      "note": "Replaced an inaccurate batter claim about all doughnuts and bagels with a simple, general example."
+    },
+    {
+      "entry_id": "frequency:4940",
+      "german": "Ich finde ihn einfach hinreißend.",
+      "english": "I just find him absolutely charming.",
+      "note": "Corrected a machine translation that changed the meaning."
+    },
+    {
+      "entry_id": "frequency:4946",
+      "german": "Das Stadtarchiv befindet sich in der Karlsstraße.",
+      "english": "The city archive is on Karlsstraße.",
+      "note": "Corrected singular/plural agreement and translated the location naturally."
+    },
+    {
+      "entry_id": "frequency:4952",
+      "german": "Die Berührung der elektrischen Anlage ist verboten.",
+      "english": "Touching the electrical equipment is prohibited.",
+      "note": "Clarified the German object and corrected Anlage from “plant” to equipment/system."
+    },
+    {
+      "entry_id": "frequency:4961",
+      "german": "Sperma enthält Spermien.",
+      "english": "Semen contains sperm cells.",
+      "note": "Replaced a false machine translation and a reproductive claim with a neutral definition-style example."
+    },
+    {
+      "entry_id": "frequency:4962",
+      "german": "Im antiken Griechenland war Athen eine bedeutende Metropolis.",
+      "english": "In ancient Greece, Athens was an important metropolis.",
+      "note": "Completed the source fragment as a full sentence and retained the rare/formal headword."
+    },
+    {
+      "entry_id": "frequency:4969",
+      "german": "Tom erhielt eine lebenslängliche Haftstrafe.",
+      "english": "Tom received a life sentence.",
+      "note": "Replaced an awkward colloquial construction with a natural adjective example."
+    },
+    {
+      "entry_id": "frequency:4971",
+      "german": "Wir werden versuchen, das alleinige Sorgerecht zu bekommen.",
+      "english": "We will try to get sole custody.",
+      "note": "Corrected the English to match alleinige (sole), not full."
+    },
+    {
+      "entry_id": "frequency:4974",
+      "german": "Eine Ameise trug ein Blatt zum Nest.",
+      "english": "An ant carried a leaf to the nest.",
+      "note": "Replaced an unsourced popular strength statistic with a simple durable example."
+    },
+    {
+      "entry_id": "frequency:4987",
+      "german": "Ich war früher bei der Freiwilligen Feuerwehr.",
+      "english": "I used to be a volunteer firefighter.",
+      "note": "Corrected the English to match the German institution and avoid gender-specific phrasing."
+    }
+  ],
+  "entry_updates": [
+    {
+      "entry_id": "frequency:4944",
+      "field": "meaning",
+      "value": "continuation; sequel or next installment (of a book, film, or series)",
+      "source": "Duden; Verbwerk context review",
+      "url": "https://www.duden.de/rechtschreibung/Fortsetzung",
+      "note": "Added the sequel sense used by the example while retaining the broader continuation sense."
+    },
+    {
+      "entry_id": "frequency:4957",
+      "field": "meaning",
+      "value": "to care for or look after someone; to maintain or care for an object, vehicle, or surface; to cultivate a habit or tradition",
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/pflegen",
+      "note": "Added the maintenance sense used by the car example."
+    },
+    {
+      "entry_id": "frequency:4962",
+      "field": "meaning",
+      "value": "metropolis, world city (formal or dated); in ecclesiastical usage, a bishop’s principal church",
+      "source": "German Wiktionary; Duden synonym register",
+      "url": "https://de.wiktionary.org/wiki/Metropolis",
+      "note": "Marked the common-city sense as formal/dated and preserved the separate ecclesiastical sense."
+    },
+    {
+      "entry_id": "frequency:4969",
+      "field": "meaning",
+      "value": "lifelong; life imprisonment/life sentence (in the phrase “lebenslänglich bekommen” or “lebenslänglich verurteilt werden”)",
+      "source": "Duden; Verbwerk usage review",
+      "url": "https://www.duden.de/rechtschreibung/lebenslaenglich",
+      "note": "Clarified the life-sentence use illustrated by the revised example."
+    },
+    {
+      "entry_id": "frequency:4971",
+      "field": "meaning",
+      "value": "custody rights, especially legal custody of a child",
+      "source": "Duden; Verbwerk context review",
+      "url": "https://www.duden.de/rechtschreibung/Sorgerecht",
+      "note": "Clarified the family-law sense used by the example."
+    }
+  ],
+  "plural_reviews": []
+}

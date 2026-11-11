@@ -1,0 +1,37 @@
+{
+  "batch_id":"v11-vocabulary-review-64",
+  "review_date":"2026-11-11",
+  "input_database_sha256":"e4c31fbaed9531cd5b65d989d4519d1521f06aa3ff13ee78c0be308d5c9de242",
+  "accepted_examples":[
+    {"entry_id":"curated:lex-de-sinnvoll","german":"Wir wollen unser Geld sinnvoll einsetzen.","english":"We want to put our money to good use.","note":"Verified adjective use and practical useful/appropriate sense; translation is idiomatic."},
+    {"entry_id":"curated:lex-de-spulen","german":"Tom spülte die Teekanne mit heißem Wasser aus.","english":"Tom rinsed the teapot with hot water.","note":"Verified the separable verb and rinsing sense; translation is accurate."},
+    {"entry_id":"curated:lex-de-systematisch","german":"Tom arbeitet systematisch.","english":"Tom works methodically.","note":"Verified the adverbial adjective use and methodical sense."},
+    {"entry_id":"curated:lex-de-teilweise","german":"Dies trifft nur teilweise zu.","english":"This is only partially true.","note":"Verified the adverb and partial-extent sense; translation is direct."},
+    {"entry_id":"curated:lex-de-tiefgreifend","german":"Die Änderung wird tiefgreifende Folgen für das System nach sich ziehen.","english":"The change will lead to profound consequences for the system.","note":"Verified adjective inflection and wide-impact sense; translation is faithful."},
+    {"entry_id":"curated:lex-de-trotzdem","german":"Tom wusste, dass es falsch war, was er tat, aber er tat es trotzdem.","english":"Tom knew what he was doing was wrong, but he did it anyway.","note":"Verified the contrastive adverb and natural English equivalent."},
+    {"entry_id":"curated:lex-de-umfangreich","german":"Am Montag beginnen umfangreiche Arbeiten an der Autobahnbrücke.","english":"On Monday, extensive work begins at the motorway bridge.","note":"Verified adjective agreement and extensive-scale sense; translation is accurate."},
+    {"entry_id":"curated:lex-de-umsetzen","german":"Glauben Sie, Sie können Ihre Idee in die Praxis umsetzen?","english":"Do you think that you can put your idea into practice?","note":"Verified the separable verb and implementation sense; this pair illustrates the target well."},
+    {"entry_id":"curated:lexeme-de-c2-untermauern","german":"Ich hoffe, dass du deine Behauptungen auch mit Beweisen untermauern kannst.","english":"I hope you've got some proof to back up your allegations.","note":"Verified the verb construction and evidence-support sense; the translation matches."},
+    {"entry_id":"curated:lex-de-verpflichtend","german":"Das ist nicht verpflichtend.","english":"That's not mandatory.","note":"Verified the adjective and required/not-optional sense, including negation."},
+    {"entry_id":"curated:lex-de-weit","german":"Der Mond ist nicht immer gleich weit von der Erde entfernt.","english":"The moon is not always the same distance away from Earth.","note":"Verified the spatial-distance sense and translation."},
+    {"entry_id":"curated:lex-de-weltweit","german":"Englisch ist eine Sprache, die weltweit gesprochen wird.","english":"English is a language spoken all over the world.","note":"Verified adverb use and the worldwide-distribution sense."},
+    {"entry_id":"curated:lex-de-zusammenfassen","german":"Lassen Sie mich kurz zusammenfassen, was passiert ist!","english":"Let me briefly summarize what happened.","note":"Verified formal imperative, separable verb form, and summary sense."},
+    {"entry_id":"curated:lex-de-zuverlassig","german":"Tom sagte Maria, daß er Johannes für zuverlässig halte.","english":"Tom told Mary that he thought John was dependable.","note":"Verified the adjective and dependable-person sense; retained the attributed source pair."},
+    {"entry_id":"curated:lex-de-uberraschend","german":"Es kamen überraschend viele Interessenten.","english":"A surprising number of interested people came.","note":"Verified the adverbial adjective and unexpected high quantity sense."},
+    {"entry_id":"curated:lex-de-uberwiegend","german":"Die Schüler sind überwiegend fleißig.","english":"The students are for the most part diligent.","note":"Verified adverb use and mostly/for-the-greater-part sense."}
+  ],
+  "editorial_examples":[
+    {"entry_id":"curated:lexeme-de-a1-stillstehen","german":"Während des Fotos musste die Gruppe kurz stillstehen.","english":"The group had to stand still briefly during the photo.","note":"Replaced a mistranslated source pair; the new sentence demonstrates remaining motionless."},
+    {"entry_id":"curated:lex-de-strittig","german":"Über den letzten Punkt ist noch nicht entschieden; er bleibt strittig.","english":"The final point has not been decided yet; it remains disputed.","note":"Replaced a machine-translated sentence with idiomatic English and a clear dispute sense."},
+    {"entry_id":"curated:lex-de-subjektiv","german":"Die Bewertung ist subjektiv und hängt von persönlichen Vorlieben ab.","english":"The assessment is subjective and depends on personal preferences.","note":"Replaced a translation with adjective-agreement errors and made the personal-opinion sense explicit."},
+    {"entry_id":"curated:lexeme-de-c2-unabdingbar","german":"Gute Kommunikation ist für das Projekt unabdingbar.","english":"Good communication is essential for the project.","note":"Replaced a broad factual claim with a neutral example of something indispensable."},
+    {"entry_id":"curated:lex-de-unterschiedlich","german":"Die beiden Aufgaben sind unterschiedlich schwierig.","english":"The two tasks differ in difficulty.","note":"Replaced an elliptical example with a complete, concise sentence showing a clear difference."},
+    {"entry_id":"curated:lexeme-de-c2-veranschaulichen","german":"Das Diagramm veranschaulicht die Ergebnisse.","english":"The chart illustrates the results.","note":"Replaced an awkward machine translation with a concise visual-explanation example."},
+    {"entry_id":"curated:lex-de-vereinfachen","german":"Die neue Anleitung vereinfacht den Vorgang.","english":"The new instructions simplify the process.","note":"Replaced a tense-mismatched and context-free example with a clear practical use."},
+    {"entry_id":"curated:lex-de-widerlegen","german":"Die neuen Daten widerlegen diese Theorie.","english":"The new data disproves this theory.","note":"Replaced a passive personal reaction with a direct transitive example of disproving a claim."},
+    {"entry_id":"curated:lex-de-widersprechen","german":"Ich muss dir leider widersprechen.","english":"I'm afraid I have to disagree with you.","note":"Replaced a punctuation issue with a concise example that also demonstrates the dative object."},
+    {"entry_id":"curated:lex-de-zuschicken","german":"Ich schicke dir die Unterlagen morgen zu.","english":"I'll send you the documents tomorrow.","note":"Replaced a sentence using schicken rather than the target lemma zuschicken."},
+    {"entry_id":"curated:lex-de-uberragend","german":"Ihre Leistung war überragend.","english":"Her performance was outstanding.","note":"Replaced a machine-translated English gloss that gave the wrong sense."}
+  ],
+  "plural_reviews":[]
+}

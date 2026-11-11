@@ -1,0 +1,384 @@
+{
+  "batch_id": "v11-vocabulary-review-41",
+  "review_date": "2026-11-11",
+  "input_database_sha256": "a1cbcbc84bcab3d1b08048a38a382e8f7d240402ded81115cbea1c250c98991e",
+  "accepted_examples": [
+    {
+      "entry_id": "frequency:3707",
+      "german": "Mein Privatleben geht Sie nichts an!",
+      "english": "My personal life is none of your business.",
+      "note": "Reviewed German grammar, meaning and part of speech, and the English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3708",
+      "german": "Eine gute Kommunikation und gegenseitiger Respekt sind die wesentlichen Bestandteile erfolgreicher Zusammenarbeit.",
+      "english": "Effective communication and mutual respect are essential elements of successful teamwork.",
+      "note": "Reviewed German grammar, meaning and part of speech, and the English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3710",
+      "german": "Den Sicherheitsdienst braucht ihr gar nicht erst zu rufen.",
+      "english": "Don't bother calling security.",
+      "note": "Reviewed German grammar, meaning and part of speech, and the English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3711",
+      "german": "Tom hat seinen Kaugummi verschluckt.",
+      "english": "Tom swallowed his chewing gum.",
+      "note": "Reviewed German grammar, meaning and part of speech, and the English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3713",
+      "german": "Piloten kommunizieren mit dem Flughafen per Funk.",
+      "english": "Pilots communicate with the airport by radio.",
+      "note": "Reviewed German grammar, meaning and part of speech, and the English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3715",
+      "german": "Ich habe heute früh nicht gefrühstückt.",
+      "english": "I didn't have breakfast this morning.",
+      "note": "Reviewed German grammar, meaning and part of speech, and the English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3717",
+      "german": "Den See konnte Tom von seinem Standort aus nicht sehen.",
+      "english": "Tom couldn't see the lake from where he was standing.",
+      "note": "Reviewed German grammar, meaning and part of speech, and the English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3718",
+      "german": "Ich werde leugnen, dich je gekannt zu haben.",
+      "english": "I'll deny I ever knew you.",
+      "note": "Reviewed German grammar, meaning and part of speech, and the English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3719",
+      "german": "Das Raumschiff machte eine perfekte Landung.",
+      "english": "The spaceship made a perfect landing.",
+      "note": "Reviewed German grammar, meaning and part of speech, and the English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3720",
+      "german": "Das hat mich schon etwas schockiert.",
+      "english": "It came as a bit of a shock.",
+      "note": "Reviewed German grammar, meaning and part of speech, and the English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3721",
+      "german": "Er war in Begleitung seiner Frau.",
+      "english": "He was accompanied by his wife.",
+      "note": "Reviewed German grammar, meaning and part of speech, and the English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3724",
+      "german": "Wir hörten das Echo unserer Stimmen von der anderen Seite des Tales.",
+      "english": "We heard the echo of our voices from the other side of the valley.",
+      "note": "Reviewed German grammar, meaning and part of speech, and the English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3725",
+      "german": "Das Geschirr wurde in Taiwan hergestellt.",
+      "english": "The dishes were manufactured in Taiwan.",
+      "note": "Reviewed German grammar, meaning and part of speech, and the English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3726",
+      "german": "Kennen Sie übrigens ein gutes Lokal hier in der Nähe?",
+      "english": "By the way, do you know a good restaurant around here?",
+      "note": "Reviewed German grammar, meaning and part of speech, and the English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3727",
+      "german": "Tom hat sich dick Honig aufs Brot gestrichen.",
+      "english": "Tom put a lot of honey on his toast.",
+      "note": "Reviewed German grammar, meaning and part of speech, and the English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3728",
+      "german": "Alle Antworten auf diese Frage waren verkehrt.",
+      "english": "All the answers to this question were wrong.",
+      "note": "Reviewed German grammar, meaning and part of speech, and the English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3730",
+      "german": "Es verlangte Mut, ganz alleine über den Pazifik zu segeln.",
+      "english": "It took courage to sail across the Pacific single-handed.",
+      "note": "Reviewed German grammar, meaning and part of speech, and the English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3734",
+      "german": "Mein Nachbar hat die Feuerwehr gerufen.",
+      "english": "My neighbor called the fire department.",
+      "note": "Reviewed German grammar, meaning and part of speech, and the English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3736",
+      "german": "Der Wärter öffnete die Zellentür.",
+      "english": "The guard unlocked the cell door.",
+      "note": "Reviewed German grammar, meaning and part of speech, and the English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3737",
+      "german": "Ich nominiere Tom als unseren Vertreter.",
+      "english": "I nominate Tom to be our representative.",
+      "note": "Reviewed German grammar, meaning and part of speech, and the English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3740",
+      "german": "Wann servieren Sie das Frühstück?",
+      "english": "When do you serve breakfast?",
+      "note": "Reviewed German grammar, meaning and part of speech, and the English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3741",
+      "german": "Diese Kirche ist gewaltig.",
+      "english": "This church is huge.",
+      "note": "Reviewed German grammar, meaning and part of speech, and the English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3742",
+      "german": "Ich bekomme diesen Knoten nicht los.",
+      "english": "I can't untie this knot.",
+      "note": "Reviewed German grammar, meaning and part of speech, and the English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "curated:lex-de-klarstellen",
+      "german": "Lassen Sie mich mal etwas klarstellen.",
+      "english": "Let me explain something.",
+      "note": "Reviewed German grammar, meaning and part of speech, and the English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3745",
+      "german": "Er half mir, die Schwierigkeiten zu überwinden.",
+      "english": "He helped me to get over the difficulties.",
+      "note": "Reviewed German grammar, meaning and part of speech, and the English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3746",
+      "german": "Darf ich meinen Mantel ablegen?",
+      "english": "May I take off my coat?",
+      "note": "Reviewed German grammar, meaning and part of speech, and the English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3747",
+      "german": "Lass dir diese Gelegenheit nicht entgehen.",
+      "english": "Don't let this chance slip by.",
+      "note": "Reviewed German grammar, meaning and part of speech, and the English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3748",
+      "german": "Er setzte sich und schaute stundenlang aufs Meer.",
+      "english": "He would sit and look at the sea for hours.",
+      "note": "Reviewed German grammar, meaning and part of speech, and the English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3749",
+      "german": "Tom fing als Hausmeister an, doch jetzt ist er der Präsident der Firma.",
+      "english": "Tom started as a janitor, but he's now the president of the company.",
+      "note": "Reviewed German grammar, meaning and part of speech, and the English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3750",
+      "german": "Stimmt mit dem Helikopter etwas nicht?",
+      "english": "Is something wrong with the helicopter?",
+      "note": "Reviewed German grammar, meaning and part of speech, and the English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3751",
+      "german": "Du brauchst mal einen Reality Check.",
+      "english": "You need a reality check.",
+      "note": "Reviewed German grammar, meaning and part of speech, and the English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3753",
+      "german": "Ein Bogen ohne Pfeile ist nutzlos.",
+      "english": "A bow is no use without arrows.",
+      "note": "Reviewed German grammar, meaning and part of speech, and the English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3756",
+      "german": "Die Kellnerin stellte mir ein Glas Saft hin.",
+      "english": "The waitress set a glass of juice in front of me.",
+      "note": "Reviewed German grammar, meaning and part of speech, and the English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3757",
+      "german": "Diese Information ist vertraulich.",
+      "english": "This information is confidential.",
+      "note": "Reviewed German grammar, meaning and part of speech, and the English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "curated:lex-de-insgesamt",
+      "german": "Insgesamt gesehen hatte mein Vater ein glückliches Leben.",
+      "english": "Considering everything, my father's life was a happy one.",
+      "note": "Reviewed German grammar, meaning and part of speech, and the English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3759",
+      "german": "Er drückte meinen Hut platt.",
+      "english": "He squashed my hat flat.",
+      "note": "Reviewed German grammar, meaning and part of speech, and the English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3761",
+      "german": "2010 gab es einen Mangel an H1N1-Impfstoff.",
+      "english": "In 2010, there was a shortage of H1N1 vaccine.",
+      "note": "Reviewed German grammar, meaning and part of speech, and the English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3763",
+      "german": "Ihr Hobby war das Sammeln von alten Münzen.",
+      "english": "Her hobby was collecting old coins.",
+      "note": "Reviewed German grammar, meaning and part of speech, and the English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3764",
+      "german": "Was für Obst hättest du gerne zum Nachtisch?",
+      "english": "What fruit would you like to have for dessert?",
+      "note": "Reviewed German grammar, meaning and part of speech, and the English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3765",
+      "german": "Sein Reichtum öffnete ihm die Pforten des Clubs.",
+      "english": "His wealth got him into the club.",
+      "note": "Reviewed German grammar, meaning and part of speech, and the English translation; accepted as suitable."
+    }
+  ],
+  "editorial_examples": [
+    {
+      "entry_id": "frequency:3709",
+      "german": "Bitte gehen Sie die Treppe hinauf.",
+      "english": "Please go up the stairs.",
+      "note": "Replaced an unnatural sentence with a clear directional use of hinauf.",
+      "evidence_url": "https://www.duden.de/rechtschreibung/hinauf"
+    },
+    {
+      "entry_id": "frequency:3712",
+      "german": "Der Erste Weltkrieg dauerte von 1914 bis 1918.",
+      "english": "The First World War lasted from 1914 to 1918.",
+      "note": "Replaced a time-relative sentence with a clear, historically stable example.",
+      "evidence_url": "https://www.duden.de/rechtschreibung/Weltkrieg"
+    },
+    {
+      "entry_id": "frequency:3716",
+      "german": "Kublai Khan begründete 1271 die Yuan-Dynastie.",
+      "english": "Kublai Khan founded the Yuan dynasty in 1271.",
+      "note": "Changed established to founded for the precise meaning of begründen.",
+      "evidence_url": "https://www.duden.de/rechtschreibung/begruenden"
+    },
+    {
+      "entry_id": "frequency:3723",
+      "german": "Der vermutete Grund für den Ausfall war ein Stromproblem.",
+      "english": "The suspected reason for the outage was a power problem.",
+      "note": "The source uses vermutet as a finite verb; this adjective entry now uses the attributive adjective.",
+      "evidence_url": "https://www.duden.de/rechtschreibung/vermutet"
+    },
+    {
+      "entry_id": "frequency:3729",
+      "german": "Die Göttin Athena galt als Beschützerin der Stadt.",
+      "english": "The goddess Athena was considered the city’s protector.",
+      "note": "Replaced a specialized art-history example with a clear, accessible use of the noun.",
+      "evidence_url": "https://www.duden.de/rechtschreibung/Goettin"
+    },
+    {
+      "entry_id": "frequency:3731",
+      "german": "Der Februar ist meistens der kürzeste Monat des Jahres.",
+      "english": "February is usually the shortest month of the year.",
+      "note": "Corrected a misleading climate-dependent claim; February is the shortest month, while coldest-month claims depend on place.",
+      "evidence_url": "https://www.duden.de/rechtschreibung/Februar"
+    },
+    {
+      "entry_id": "frequency:3733",
+      "german": "Es war eine zufällige Begegnung.",
+      "english": "It was a chance encounter.",
+      "note": "Corrected casual meeting to the more exact translation chance encounter.",
+      "evidence_url": "https://www.duden.de/rechtschreibung/Begegnung"
+    },
+    {
+      "entry_id": "frequency:3744",
+      "german": "Im Roman wurde die Hinrichtung im letzten Moment verhindert.",
+      "english": "In the novel, the execution was prevented at the last moment.",
+      "note": "Replaced a long sentence about a real-world execution with a concise fictional context.",
+      "evidence_url": "https://www.duden.de/rechtschreibung/Hinrichtung"
+    },
+    {
+      "entry_id": "frequency:3760",
+      "german": "Sie saß mit aufrechtem Rücken am Tisch.",
+      "english": "She sat at the table with her back straight.",
+      "note": "The machine translation righteous is wrong here; replaced it with a short, natural example of physical posture.",
+      "evidence_url": "https://www.duden.de/rechtschreibung/aufrecht"
+    },
+    {
+      "entry_id": "frequency:3762",
+      "german": "Er kniete sich hin, um den Schlüssel aufzuheben.",
+      "english": "He knelt down to pick up the key.",
+      "note": "Replaced a strange power-imbalance sentence with a neutral everyday example.",
+      "evidence_url": "https://www.duden.de/rechtschreibung/knien"
+    }
+  ],
+  "held_examples": [
+    {
+      "entry_id": "frequency:3709",
+      "german": "Die Treppe hinauf habe ich Probleme.",
+      "reason": "Replaced an unnatural sentence with a clear directional use of hinauf."
+    },
+    {
+      "entry_id": "frequency:3712",
+      "german": "Der Erste Weltkrieg war erst fünfzehn Jahre her.",
+      "reason": "Replaced a time-relative sentence with a clear, historically stable example."
+    },
+    {
+      "entry_id": "frequency:3723",
+      "german": "Niemand hatte etwas vermutet.",
+      "reason": "The source uses vermutet as a finite verb; this adjective entry now uses the attributive adjective."
+    },
+    {
+      "entry_id": "frequency:3729",
+      "german": "Bevor Manet dieses Bild malte, waren seine weiblichen Akte auf Göttinnen beschränkt.",
+      "reason": "Replaced a specialized art-history example with a clear, accessible use of the noun."
+    },
+    {
+      "entry_id": "frequency:3731",
+      "german": "Der Februar ist der kälteste Monat des Jahres.",
+      "reason": "Corrected a misleading climate-dependent claim; February is the shortest month, while coldest-month claims depend on place."
+    },
+    {
+      "entry_id": "frequency:3733",
+      "german": "Es war eine zufällige Begegnung.",
+      "reason": "Corrected casual meeting to the more exact translation chance encounter."
+    },
+    {
+      "entry_id": "frequency:3744",
+      "german": "Es hätte in der Macht des Präsidenten gestanden, die Männer mit einer einfachen Unterschrift vor der Hinrichtung zu bewahren.",
+      "reason": "Replaced a long sentence about a real-world execution with a concise fictional context."
+    },
+    {
+      "entry_id": "frequency:3760",
+      "german": "Es stellte eine Dame dar, die, mit einem Pelzhut und einer Pelzboa versehen, aufrecht dasaß.",
+      "reason": "The machine translation righteous is wrong here; replaced it with a short, natural example of physical posture."
+    },
+    {
+      "entry_id": "frequency:3762",
+      "german": "Du musst zu meinen Füßen knien, meine Hand küssen und schwören, dass ich ein Engel sei.",
+      "reason": "Replaced a strange power-imbalance sentence with a neutral everyday example."
+    }
+  ],
+  "entry_updates": [
+    {
+      "entry_id": "frequency:3721",
+      "field": "meaning",
+      "value": "accompaniment; company of a person who accompanies someone; musical accompaniment",
+      "note": "Replaced a misleading collaboration definition with the senses used by the entry; Duden lists being accompanied and musical accompaniment.",
+      "url": "https://www.duden.de/rechtschreibung/Begleitung"
+    },
+    {
+      "entry_id": "frequency:3736",
+      "field": "meaning",
+      "value": "attendant; guard or supervisor (someone who looks after a person or watches over a place)",
+      "note": "Clarified that Wärter refers to a person supervising or guarding, as in the cell-door example.",
+      "url": "https://www.duden.de/rechtschreibung/Waerter"
+    }
+  ],
+  "plural_reviews": [],
+  "inflected_links": []
+}

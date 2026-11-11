@@ -1,0 +1,679 @@
+{
+  "schema_version": 1,
+  "pack_id": "verbwerk.dwds.review.v1",
+  "entries": [
+    {
+      "id": "dwds-review-muessen",
+      "concept_id": "dwds-review-muessen",
+      "source_pack": "verbwerk_dwds_review_v1",
+      "entry_kind": "vocabulary",
+      "lemma": "müssen",
+      "display_form": "müssen",
+      "part_of_speech": "verb",
+      "article": null,
+      "gender": "none",
+      "plural_forms": [],
+      "forms": [
+        {
+          "surface": "müssen",
+          "number": null,
+          "case": null,
+          "role": "core",
+          "tags": {
+            "verb_class": "simple",
+            "aux": "haben",
+            "modal": true
+          }
+        }
+      ],
+      "english_terms": [
+        {
+          "term": "to have to",
+          "lemma": "to have to",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "to have to",
+      "german_definition": "Etwas tun, weil es nötig ist oder weil eine Regel es verlangt.",
+      "german_examples": [
+        {
+          "sentence": "Morgen muss ich früher losfahren.",
+          "translation_language": "en",
+          "translation": "I have to leave earlier tomorrow."
+        }
+      ],
+      "grammar_note": "Präsens: er muss. Präteritum: er musste. Mit einem zweiten Verb steht im Perfekt der Infinitiv: Sie hat früher losfahren müssen.",
+      "domains": [],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "dwds_headword_id": "E_m_7083",
+        "dwds_snapshot_url": "https://clarin.bbaw.de/de/objects/dwds%3A2/",
+        "dwds_license": "CC-BY-SA-4.0",
+        "editorial_references": [
+          "https://www.duden.de/rechtschreibung/muessen",
+          "https://grammis.ids-mannheim.de/systematische-grammatik/1615"
+        ],
+        "reviewed_at": "2026-11-10"
+      }
+    },
+    {
+      "id": "dwds-review-sollen",
+      "concept_id": "dwds-review-sollen",
+      "source_pack": "verbwerk_dwds_review_v1",
+      "entry_kind": "vocabulary",
+      "lemma": "sollen",
+      "display_form": "sollen",
+      "part_of_speech": "verb",
+      "article": null,
+      "gender": "none",
+      "plural_forms": [],
+      "forms": [
+        {
+          "surface": "sollen",
+          "number": null,
+          "case": null,
+          "role": "core",
+          "tags": {
+            "verb_class": "simple",
+            "aux": "haben",
+            "modal": true
+          }
+        }
+      ],
+      "english_terms": [
+        {
+          "term": "to be supposed to",
+          "lemma": "to be supposed to",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "to be supposed to",
+      "german_definition": "Etwas tun, weil eine andere Person es erwartet oder verlangt.",
+      "german_examples": [
+        {
+          "sentence": "Ich soll die Unterlagen bis Freitag abgeben.",
+          "translation_language": "en",
+          "translation": "I’m supposed to hand in the documents by Friday."
+        }
+      ],
+      "grammar_note": "Präsens: sie soll. Präteritum: sie sollte. Mit einem zweiten Verb: Sie hat die Unterlagen abgeben sollen.",
+      "domains": [],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "dwds_headword_id": "E_s_13646",
+        "dwds_snapshot_url": "https://clarin.bbaw.de/de/objects/dwds%3A2/",
+        "dwds_license": "CC-BY-SA-4.0",
+        "editorial_references": [
+          "https://www.duden.de/rechtschreibung/sollen",
+          "https://grammis.ids-mannheim.de/systematische-grammatik/1615"
+        ],
+        "reviewed_at": "2026-11-10"
+      }
+    },
+    {
+      "id": "dwds-review-duerfen",
+      "concept_id": "dwds-review-duerfen",
+      "source_pack": "verbwerk_dwds_review_v1",
+      "entry_kind": "vocabulary",
+      "lemma": "dürfen",
+      "display_form": "dürfen",
+      "part_of_speech": "verb",
+      "article": null,
+      "gender": "none",
+      "plural_forms": [],
+      "forms": [
+        {
+          "surface": "dürfen",
+          "number": null,
+          "case": null,
+          "role": "core",
+          "tags": {
+            "verb_class": "simple",
+            "aux": "haben",
+            "modal": true
+          }
+        }
+      ],
+      "english_terms": [
+        {
+          "term": "to be allowed to",
+          "lemma": "to be allowed to",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "to be allowed to",
+      "german_definition": "Die Erlaubnis haben, etwas zu tun.",
+      "german_examples": [
+        {
+          "sentence": "Die Kinder dürfen heute länger draußen spielen.",
+          "translation_language": "en",
+          "translation": "The children are allowed to play outside longer today."
+        }
+      ],
+      "grammar_note": "Präsens: er darf. Präteritum: er durfte. Mit einem zweiten Verb: Die Kinder haben länger spielen dürfen. Nicht dürfen bedeutet, dass etwas verboten ist.",
+      "domains": [],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "dwds_headword_id": "E_d_5421",
+        "dwds_snapshot_url": "https://clarin.bbaw.de/de/objects/dwds%3A2/",
+        "dwds_license": "CC-BY-SA-4.0",
+        "editorial_references": [
+          "https://www.duden.de/rechtschreibung/duerfen",
+          "https://grammis.ids-mannheim.de/systematische-grammatik/1615"
+        ],
+        "reviewed_at": "2026-11-10"
+      }
+    },
+    {
+      "id": "dwds-review-warten",
+      "concept_id": "dwds-review-warten",
+      "source_pack": "verbwerk_dwds_review_v1",
+      "entry_kind": "vocabulary",
+      "lemma": "warten",
+      "display_form": "warten",
+      "part_of_speech": "verb",
+      "article": null,
+      "gender": "none",
+      "plural_forms": [],
+      "forms": [
+        {
+          "surface": "warten",
+          "number": null,
+          "case": null,
+          "role": "core",
+          "tags": {
+            "verb_class": "simple",
+            "aux": "haben",
+            "modal": false
+          }
+        }
+      ],
+      "english_terms": [
+        {
+          "term": "to wait",
+          "lemma": "to wait",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "to wait",
+      "german_definition": "An einem Ort bleiben oder sich gedulden, bis jemand kommt oder etwas geschieht.",
+      "german_examples": [
+        {
+          "sentence": "Vor dem Kino warten wir auf einen Freund.",
+          "translation_language": "en",
+          "translation": "We’re waiting for a friend outside the cinema."
+        }
+      ],
+      "grammar_note": "Muster: auf + Akkusativ. Präteritum: wartete. Perfekt: hat gewartet.",
+      "domains": [],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "dwds_headword_id": "E_w_1501",
+        "dwds_snapshot_url": "https://clarin.bbaw.de/de/objects/dwds%3A2/",
+        "dwds_license": "CC-BY-SA-4.0",
+        "editorial_references": [
+          "https://www.duden.de/rechtschreibung/warten"
+        ],
+        "reviewed_at": "2026-11-10"
+      }
+    },
+    {
+      "id": "dwds-review-bleiben",
+      "concept_id": "dwds-review-bleiben",
+      "source_pack": "verbwerk_dwds_review_v1",
+      "entry_kind": "vocabulary",
+      "lemma": "bleiben",
+      "display_form": "bleiben",
+      "part_of_speech": "verb",
+      "article": null,
+      "gender": "none",
+      "plural_forms": [],
+      "forms": [
+        {
+          "surface": "bleiben",
+          "number": null,
+          "case": null,
+          "role": "core",
+          "tags": {
+            "verb_class": "simple",
+            "aux": "sein",
+            "modal": false
+          }
+        }
+      ],
+      "english_terms": [
+        {
+          "term": "to stay",
+          "lemma": "to stay",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "to stay",
+      "german_definition": "Sich weiterhin am selben Ort befinden.",
+      "german_examples": [
+        {
+          "sentence": "Wir bleiben heute Abend zu Hause.",
+          "translation_language": "en",
+          "translation": "We’re staying home this evening."
+        }
+      ],
+      "grammar_note": "Präteritum: blieb. Perfekt: ist geblieben.",
+      "domains": [],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "dwds_headword_id": "E_b_10211",
+        "dwds_snapshot_url": "https://clarin.bbaw.de/de/objects/dwds%3A2/",
+        "dwds_license": "CC-BY-SA-4.0",
+        "editorial_references": [
+          "https://www.duden.de/rechtschreibung/bleiben"
+        ],
+        "reviewed_at": "2026-11-10"
+      }
+    },
+    {
+      "id": "dwds-review-reden",
+      "concept_id": "dwds-review-reden",
+      "source_pack": "verbwerk_dwds_review_v1",
+      "entry_kind": "vocabulary",
+      "lemma": "reden",
+      "display_form": "reden",
+      "part_of_speech": "verb",
+      "article": null,
+      "gender": "none",
+      "plural_forms": [],
+      "forms": [
+        {
+          "surface": "reden",
+          "number": null,
+          "case": null,
+          "role": "core",
+          "tags": {
+            "verb_class": "simple",
+            "aux": "haben",
+            "modal": false
+          }
+        }
+      ],
+      "english_terms": [
+        {
+          "term": "to talk",
+          "lemma": "to talk",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "to talk",
+      "german_definition": "Gedanken mündlich ausdrücken oder ein Gespräch führen.",
+      "german_examples": [
+        {
+          "sentence": "Mara redet mit ihrer Nachbarin über den Garten.",
+          "translation_language": "en",
+          "translation": "Mara is talking with her neighbor about the garden."
+        }
+      ],
+      "grammar_note": "Muster: mit + Dativ für die Person, über + Akkusativ für das Thema. Perfekt: hat geredet.",
+      "domains": [],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "dwds_headword_id": "E_r_2211",
+        "dwds_snapshot_url": "https://clarin.bbaw.de/de/objects/dwds%3A2/",
+        "dwds_license": "CC-BY-SA-4.0",
+        "editorial_references": [
+          "https://www.duden.de/rechtschreibung/reden"
+        ],
+        "reviewed_at": "2026-11-10"
+      }
+    },
+    {
+      "id": "dwds-review-zeit",
+      "concept_id": "dwds-review-zeit",
+      "source_pack": "verbwerk_dwds_review_v1",
+      "entry_kind": "vocabulary",
+      "lemma": "Zeit",
+      "display_form": "die Zeit",
+      "part_of_speech": "noun",
+      "article": "die",
+      "gender": "fem",
+      "plural_forms": [
+        "die Zeiten"
+      ],
+      "forms": [
+        {
+          "surface": "die Zeit",
+          "number": "sg",
+          "case": "nom",
+          "role": "core",
+          "tags": {}
+        },
+        {
+          "surface": "die Zeiten",
+          "number": "pl",
+          "case": "nom",
+          "role": "core",
+          "tags": {}
+        }
+      ],
+      "english_terms": [
+        {
+          "term": "time period",
+          "lemma": "time period",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "time period",
+      "german_definition": "Ein Abschnitt, der einen Anfang und ein Ende hat oder zu bestimmten Ereignissen gehört.",
+      "german_examples": [
+        {
+          "sentence": "Während dieser Zeit war die Bibliothek geschlossen.",
+          "translation_language": "en",
+          "translation": "The library was closed during that period."
+        }
+      ],
+      "grammar_note": "Der Plural Zeiten bezeichnet hier mehrere Zeitabschnitte.",
+      "domains": [],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "dwds_headword_id": "E_z_853",
+        "dwds_snapshot_url": "https://clarin.bbaw.de/de/objects/dwds%3A2/",
+        "dwds_license": "CC-BY-SA-4.0",
+        "editorial_references": [
+          "https://www.duden.de/rechtschreibung/Zeit"
+        ],
+        "reviewed_at": "2026-11-10"
+      }
+    },
+    {
+      "id": "dwds-review-mensch",
+      "concept_id": "dwds-review-mensch",
+      "source_pack": "verbwerk_dwds_review_v1",
+      "entry_kind": "vocabulary",
+      "lemma": "Mensch",
+      "display_form": "der Mensch",
+      "part_of_speech": "noun",
+      "article": "der",
+      "gender": "masc",
+      "plural_forms": [
+        "die Menschen"
+      ],
+      "forms": [
+        {
+          "surface": "der Mensch",
+          "number": "sg",
+          "case": "nom",
+          "role": "core",
+          "tags": {}
+        },
+        {
+          "surface": "die Menschen",
+          "number": "pl",
+          "case": "nom",
+          "role": "core",
+          "tags": {}
+        }
+      ],
+      "english_terms": [
+        {
+          "term": "human being",
+          "lemma": "human being",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "human being",
+      "german_definition": "Ein einzelnes Mitglied der menschlichen Gattung.",
+      "german_examples": [
+        {
+          "sentence": "Ein Mensch braucht Pausen und Schlaf.",
+          "translation_language": "en",
+          "translation": "A human being needs breaks and sleep."
+        }
+      ],
+      "grammar_note": "Schwache Deklination: der Mensch, den Menschen, dem Menschen, des Menschen.",
+      "domains": [],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "dwds_headword_id": "E_m_3558",
+        "dwds_snapshot_url": "https://clarin.bbaw.de/de/objects/dwds%3A2/",
+        "dwds_license": "CC-BY-SA-4.0",
+        "editorial_references": [
+          "https://www.duden.de/rechtschreibung/Mensch_Individuum"
+        ],
+        "reviewed_at": "2026-11-10"
+      }
+    },
+    {
+      "id": "dwds-review-angst",
+      "concept_id": "dwds-review-angst",
+      "source_pack": "verbwerk_dwds_review_v1",
+      "entry_kind": "vocabulary",
+      "lemma": "Angst",
+      "display_form": "die Angst",
+      "part_of_speech": "noun",
+      "article": "die",
+      "gender": "fem",
+      "plural_forms": [
+        "die Ängste"
+      ],
+      "forms": [
+        {
+          "surface": "die Angst",
+          "number": "sg",
+          "case": "nom",
+          "role": "core",
+          "tags": {}
+        },
+        {
+          "surface": "die Ängste",
+          "number": "pl",
+          "case": "nom",
+          "role": "core",
+          "tags": {}
+        }
+      ],
+      "english_terms": [
+        {
+          "term": "fear",
+          "lemma": "fear",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "fear",
+      "german_definition": "Ein unangenehmes Gefühl, wenn man eine Gefahr erwartet.",
+      "german_examples": [
+        {
+          "sentence": "Das Kind hat Angst vor dem lauten Hund.",
+          "translation_language": "en",
+          "translation": "The child is afraid of the loud dog."
+        }
+      ],
+      "grammar_note": "Muster: Angst vor + Dativ. Der Plural Ängste kann verschiedene Sorgen oder Befürchtungen bezeichnen.",
+      "domains": [],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "dwds_headword_id": "E_a_4471",
+        "dwds_snapshot_url": "https://clarin.bbaw.de/de/objects/dwds%3A2/",
+        "dwds_license": "CC-BY-SA-4.0",
+        "editorial_references": [
+          "https://www.duden.de/rechtschreibung/Angst"
+        ],
+        "reviewed_at": "2026-11-10"
+      }
+    },
+    {
+      "id": "dwds-review-hilfe",
+      "concept_id": "dwds-review-hilfe",
+      "source_pack": "verbwerk_dwds_review_v1",
+      "entry_kind": "vocabulary",
+      "lemma": "Hilfe",
+      "display_form": "die Hilfe",
+      "part_of_speech": "noun",
+      "article": "die",
+      "gender": "fem",
+      "plural_forms": [
+        "die Hilfen"
+      ],
+      "forms": [
+        {
+          "surface": "die Hilfe",
+          "number": "sg",
+          "case": "nom",
+          "role": "core",
+          "tags": {}
+        },
+        {
+          "surface": "die Hilfen",
+          "number": "pl",
+          "case": "nom",
+          "role": "core",
+          "tags": {}
+        }
+      ],
+      "english_terms": [
+        {
+          "term": "assistance",
+          "lemma": "assistance",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "assistance",
+      "german_definition": "Unterstützung, die jemandem eine Aufgabe erleichtert oder in einer schwierigen Lage weiterhilft.",
+      "german_examples": [
+        {
+          "sentence": "Bei der Anmeldung bat ich die Nachbarin um Hilfe.",
+          "translation_language": "en",
+          "translation": "I asked the neighbor for help with registration."
+        }
+      ],
+      "grammar_note": "Muster: jemanden um Hilfe bitten. Hilfen kann einzelne Angebote oder Maßnahmen bezeichnen.",
+      "domains": [],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "dwds_headword_id": "E_h_5330_13",
+        "dwds_snapshot_url": "https://clarin.bbaw.de/de/objects/dwds%3A2/",
+        "dwds_license": "CC-BY-SA-4.0",
+        "editorial_references": [
+          "https://www.duden.de/rechtschreibung/Hilfe"
+        ],
+        "reviewed_at": "2026-11-10"
+      }
+    },
+    {
+      "id": "dwds-review-dass",
+      "concept_id": "dwds-review-dass",
+      "source_pack": "verbwerk_dwds_review_v1",
+      "entry_kind": "vocabulary",
+      "lemma": "dass",
+      "display_form": "dass",
+      "part_of_speech": "conjunction",
+      "article": null,
+      "gender": "none",
+      "plural_forms": [],
+      "forms": [],
+      "english_terms": [
+        {
+          "term": "that (introducing a clause)",
+          "lemma": "that (introducing a clause)",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "that (introducing a clause)",
+      "german_definition": "Leitet einen Nebensatz ein, der zum Beispiel den Inhalt einer Aussage, Hoffnung oder Meinung angibt.",
+      "german_examples": [
+        {
+          "sentence": "Ich hoffe, dass der Laden noch offen ist.",
+          "translation_language": "en",
+          "translation": "I hope that the shop is still open."
+        }
+      ],
+      "grammar_note": "Vor dem Nebensatz steht ein Komma. Im Beispiel steht das gebeugte Verb ist am Ende.",
+      "domains": [],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "dwds_headword_id": "E_d_769",
+        "dwds_snapshot_url": "https://clarin.bbaw.de/de/objects/dwds%3A2/",
+        "dwds_license": "CC-BY-SA-4.0",
+        "editorial_references": [
+          "https://www.duden.de/rechtschreibung/dass",
+          "https://grammis.ids-mannheim.de/systematische-grammatik/384"
+        ],
+        "reviewed_at": "2026-11-10"
+      }
+    },
+    {
+      "id": "dwds-review-obwohl",
+      "concept_id": "dwds-review-obwohl",
+      "source_pack": "verbwerk_dwds_review_v1",
+      "entry_kind": "vocabulary",
+      "lemma": "obwohl",
+      "display_form": "obwohl",
+      "part_of_speech": "conjunction",
+      "article": null,
+      "gender": "none",
+      "plural_forms": [],
+      "forms": [],
+      "english_terms": [
+        {
+          "term": "although",
+          "lemma": "although",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "although",
+      "german_definition": "Verbindet zwei Aussagen, wenn die zweite einen Grund nennt, aus dem man etwas anderes erwarten könnte.",
+      "german_examples": [
+        {
+          "sentence": "Wir gehen zu Fuß, obwohl es regnet.",
+          "translation_language": "en",
+          "translation": "We’re walking even though it’s raining."
+        }
+      ],
+      "grammar_note": "In der Standardsprache leitet obwohl einen Nebensatz ein. Im Beispiel steht das gebeugte Verb regnet am Ende.",
+      "domains": [],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "dwds_headword_id": "E_o_317",
+        "dwds_snapshot_url": "https://clarin.bbaw.de/de/objects/dwds%3A2/",
+        "dwds_license": "CC-BY-SA-4.0",
+        "editorial_references": [
+          "https://www.duden.de/rechtschreibung/obwohl",
+          "https://grammis.ids-mannheim.de/systematische-grammatik/384"
+        ],
+        "reviewed_at": "2026-11-10"
+      }
+    }
+  ]
+}

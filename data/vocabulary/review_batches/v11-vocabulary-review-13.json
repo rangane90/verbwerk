@@ -1,0 +1,511 @@
+{
+  "batch_id": "v11-vocabulary-review-13",
+  "review_date": "2026-11-11",
+  "input_database_sha256": "d8b68043f4e53fd5639c727a8eac0876471cd7ad19ee0cb8a8df002360f291d7",
+  "accepted_examples": [
+    {
+      "entry_id": "curated:lex-de-stunde",
+      "german": "Eine Stunde hat sechzig Minuten, und eine Minute hat sechzig Sekunden.",
+      "english": "An hour has sixty minutes, and a minute has sixty seconds.",
+      "note": "Stunde is used for a sixty-minute period and the definition matches."
+    },
+    {
+      "entry_id": "curated:lex-de-bereits",
+      "german": "Es ist bereits Zeit f\u00fcr uns, zu gehen.",
+      "english": "It's already time for us to go.",
+      "note": "Bereits is correctly used in the sense already."
+    },
+    {
+      "entry_id": "curated:lex-de-uberall",
+      "german": "Noch ist \u00fcberall in der ganzen Stra\u00dfe Sand.",
+      "english": "There's still sand all over the road.",
+      "note": "\u00dcberall means everywhere; the sentence and translation agree."
+    },
+    {
+      "entry_id": "curated:lex-de-hund",
+      "german": "Ich habe meinen Hund auf dem Haustierfriedhof begraben.",
+      "english": "I buried my dog at the pet cemetery.",
+      "note": "Hund is used in its ordinary dog sense and the English matches."
+    },
+    {
+      "entry_id": "curated:lex-de-laufen",
+      "german": "Ich kann nicht so schnell laufen wie du.",
+      "english": "I can't walk as fast as you.",
+      "note": "Laufen is used for moving on foot; walk is a valid contextual translation."
+    },
+    {
+      "entry_id": "curated:lex-de-voellig",
+      "german": "Er hat sich nie v\u00f6llig von seinen Verletzungen erholt.",
+      "english": "He never fully recovered from his injuries.",
+      "note": "V\u00f6llig is correctly translated as fully."
+    },
+    {
+      "entry_id": "curated:lex-de-kaffee",
+      "german": "Der Kaffee ist zu hei\u00df zum Trinken.",
+      "english": "The coffee is too hot to drink.",
+      "note": "Kaffee is used as a drink noun and the translation is direct."
+    },
+    {
+      "entry_id": "curated:lex-de-ziehen",
+      "german": "Du kannst gerne wieder zur\u00fcck nach Boston ziehen.",
+      "english": "You're welcome to move back to Boston.",
+      "note": "Ziehen is used for relocating to Boston; the translation is idiomatic."
+    },
+    {
+      "entry_id": "frequency:715",
+      "german": "Tom ist nicht mehr derselbe, der er einmal war.",
+      "english": "Tom isn't the same man he used to be.",
+      "note": "Derselbe is correctly used for the same person over time."
+    },
+    {
+      "entry_id": "frequency:717",
+      "german": "Die Hunde bellten den Eindringling w\u00fctend an.",
+      "english": "The dogs barked furiously at the intruder.",
+      "note": "W\u00fctend modifies bellten adverbially and furiously matches."
+    },
+    {
+      "entry_id": "curated:lex-de-fehlen",
+      "german": "Es fehlt an Wasser.",
+      "english": "There's not enough water.",
+      "note": "Fehlen an Wasser expresses a lack of water; the translation is accurate."
+    },
+    {
+      "entry_id": "frequency:721",
+      "german": "Er riet zur Vorsicht.",
+      "english": "He advised caution.",
+      "note": "Vorsicht is used with raten zu and means caution."
+    },
+    {
+      "entry_id": "frequency:729",
+      "german": "Wie konntest du mich in diese Lage bringen?",
+      "english": "How could you put me in this position?",
+      "note": "Lage means the position or situation someone is placed in."
+    },
+    {
+      "entry_id": "frequency:734",
+      "german": "Du musst zwischen Ehre und Tod w\u00e4hlen.",
+      "english": "You have to choose between honor and death.",
+      "note": "Ehre is used in the sense of honor; the translation matches."
+    },
+    {
+      "entry_id": "frequency:736",
+      "german": "Tom gefiel das Geschenk, das du ihm gabst.",
+      "english": "Tom liked the gift you gave him.",
+      "note": "Geschenk is used for a gift and the relative clause is correctly translated."
+    },
+    {
+      "entry_id": "frequency:737",
+      "german": "Bekomme ich einen Rabatt, wenn ich in bar bezahle?",
+      "english": "Will you give me a discount if I pay in cash?",
+      "note": "In bar means in cash; the question translation is accurate."
+    },
+    {
+      "entry_id": "frequency:740",
+      "german": "Ich bin vor lauter Hunger fast ohnm\u00e4chtig geworden.",
+      "english": "I nearly fainted from hunger.",
+      "note": "Hunger is used in the sense of hunger and the translation matches."
+    },
+    {
+      "entry_id": "frequency:742",
+      "german": "Es war eine L\u00fcge und Tom wusste das.",
+      "english": "It was a lie and Tom knew it.",
+      "note": "L\u00fcge is used for a lie; the sentence is grammatical and translation is exact."
+    },
+    {
+      "entry_id": "frequency:743",
+      "german": "Ich bin f\u00fcr eine Beziehung noch nicht bereit.",
+      "english": "I'm not ready for a relationship.",
+      "note": "Beziehung is used in its relationship sense and the translation is accurate."
+    }
+  ],
+  "held_examples": [
+    {
+      "entry_id": "curated:lex-de-deswegen",
+      "german": "Nicht nur deswegen h\u00e4tte Tom das machen sollen.",
+      "reason": "The source translation changes the meaning of Nicht nur deswegen; this replacement demonstrates deswegen as for that reason/so."
+    },
+    {
+      "entry_id": "frequency:716",
+      "german": "Passen Sie auf, da\u00df Sie sich mit dem Hammer nicht auf den Daumen schlagen!",
+      "reason": "Updated the obsolete spelling da\u00df to current dass while retaining the intended schlagen sense."
+    },
+    {
+      "entry_id": "frequency:718",
+      "german": "Der Unfall ereignete sich in dieser Weise.",
+      "reason": "Replaced a stiff example with a natural everyday phrase using Weise."
+    },
+    {
+      "entry_id": "frequency:725",
+      "german": "Ich finde Maria nicht so h\u00fcbsch wie Elke.",
+      "reason": "Corrected the source translation so the names and comparison match the German sentence."
+    },
+    {
+      "entry_id": "frequency:726",
+      "german": "Mit deinen Verbindungen m\u00fc\u00dftest du Tom doch eine Stelle organisieren k\u00f6nnen.",
+      "reason": "Replaced a source sentence with obsolete spelling m\u00fc\u00dftest and a less direct example with a current, clear connection example."
+    },
+    {
+      "entry_id": "curated:lex-de-lauf",
+      "german": "Lauf ruhig weg! Du entkommst mir doch nicht!",
+      "reason": "The source sentence uses Lauf as a verb form, not as the noun entry meaning a race; replaced it with a direct noun example."
+    }
+  ],
+  "editorial_examples": [
+    {
+      "entry_id": "curated:lex-de-deswegen",
+      "german": "Ich habe keine Zeit, deswegen kann ich nicht kommen.",
+      "english": "I don't have time, so I can't come.",
+      "note": "The source translation changes the meaning of Nicht nur deswegen; this replacement demonstrates deswegen as for that reason/so.",
+      "evidence_url": "https://www.duden.de/rechtschreibung/deswegen"
+    },
+    {
+      "entry_id": "frequency:716",
+      "german": "Passen Sie auf, dass Sie sich mit dem Hammer nicht auf den Daumen schlagen!",
+      "english": "Be careful not to hit your thumb with the hammer.",
+      "note": "Updated the obsolete spelling da\u00df to current dass while retaining the intended schlagen sense.",
+      "evidence_url": "https://www.duden.de/rechtschreibung/schlagen"
+    },
+    {
+      "entry_id": "frequency:718",
+      "german": "Auf diese Weise lernen wir schneller.",
+      "english": "This way, we learn faster.",
+      "note": "Replaced a stiff example with a natural everyday phrase using Weise.",
+      "evidence_url": "https://www.duden.de/rechtschreibung/Weise"
+    },
+    {
+      "entry_id": "frequency:725",
+      "german": "Elke ist h\u00fcbscher als Maria.",
+      "english": "Elke is prettier than Maria.",
+      "note": "Corrected the source translation so the names and comparison match the German sentence.",
+      "evidence_url": "https://www.duden.de/rechtschreibung/huebsch"
+    },
+    {
+      "entry_id": "frequency:726",
+      "german": "Die Verbindung zum Internet ist unterbrochen.",
+      "english": "The internet connection is interrupted.",
+      "note": "Replaced a source sentence with obsolete spelling m\u00fc\u00dftest and a less direct example with a current, clear connection example.",
+      "evidence_url": "https://www.duden.de/rechtschreibung/Verbindung"
+    },
+    {
+      "entry_id": "curated:lex-de-lauf",
+      "german": "Der erste Lauf beginnt um neun Uhr.",
+      "english": "The first race starts at nine o'clock.",
+      "note": "The source sentence uses Lauf as a verb form, not as the noun entry meaning a race; replaced it with a direct noun example.",
+      "evidence_url": "https://www.duden.de/rechtschreibung/Lauf"
+    }
+  ],
+  "entry_updates": [
+    {
+      "entry_id": "frequency:2126",
+      "field": "meaning",
+      "value": "woman (archaic or derogatory; use Frau in modern neutral speech)",
+      "note": "The current English gloss \"woman, broad\" is misleading. Replace it with a concise gloss that records the dated or derogatory register and gives the neutral modern equivalent.",
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Weib"
+    }
+  ],
+  "plural_reviews": [
+    {
+      "entry_id": "frequency:2078",
+      "value": [
+        "Starts",
+        "Starte"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Start",
+      "note": "Duden lists Starts as the usual plural and Starte as a rare variant.",
+      "usage_note": "Starts is the usual plural; Starte is rare."
+    },
+    {
+      "entry_id": "frequency:2080",
+      "value": [
+        "Sande",
+        "S\u00e4nde"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Sand",
+      "note": "Both forms occur as special plurals for varieties of sand; the umlauted form is especially associated with the varieties plural.",
+      "usage_note": "For the material sense, plural forms name types of sand and are specialized; Duden lists Sande and S\u00e4nde."
+    },
+    {
+      "entry_id": "frequency:2089",
+      "value": [
+        "Kindheiten"
+      ],
+      "source": "Cambridge Dictionary",
+      "url": "https://dictionary.cambridge.org/dictionary/german-english/kindheit",
+      "note": "Kindheiten is a rare plural used for distinct childhoods; the ordinary life-stage sense is usually singular.",
+      "usage_note": "Plural is rare and used for distinct childhood experiences."
+    },
+    {
+      "entry_id": "frequency:2094",
+      "value": [
+        "Mistst\u00fccke"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Miststueck",
+      "note": "Mistst\u00fcck forms Mistst\u00fccke; the word is a strong insult, so mark the register clearly.",
+      "usage_note": "Insulting and derogatory; use with care."
+    },
+    {
+      "entry_id": "frequency:2095",
+      "value": [
+        "Verr\u00fcckte",
+        "Verr\u00fcckten"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/deklination/adjektive/verrueckt",
+      "note": "These are inflected plural forms of the substantivized adjective; the ending depends on whether a determiner is present.",
+      "usage_note": "Verr\u00fcckte is used without an article in nominative plural; Verr\u00fcckten is used with a determiner and in weakly declined cases."
+    },
+    {
+      "entry_id": "frequency:2096",
+      "value": [
+        "Jungfrauen"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/deklination/substantive/Jungfrau",
+      "note": "Jungfrau forms Jungfrauen.",
+      "usage_note": "Standard plural: Jungfrauen."
+    },
+    {
+      "entry_id": "frequency:2108",
+      "value": [
+        "SMS",
+        "SMSen"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/SMS_Kurzmitteilung",
+      "note": "Duden gives invariant SMS as the standard plural and SMSen as colloquial; SMSe is not the listed standard form.",
+      "usage_note": "SMS is the standard plural; SMSen is colloquial."
+    },
+    {
+      "entry_id": "frequency:2117",
+      "value": "Historical spelling; modern equivalent: Doktor \u2192 Doktoren",
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Doktor",
+      "note": "The entry itself identifies Doctor as a former spelling. Avoid presenting Doctoren as current standard; modern spelling is Doktor with plural Doktoren.",
+      "usage_note": "Historical spelling; use the modern headword Doktor and plural Doktoren in current German."
+    },
+    {
+      "entry_id": "frequency:2126",
+      "value": [
+        "Weiber"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Weib",
+      "note": "Weib forms Weiber, but current usage is often derogatory or discriminatory; neutral modern German uses Frau/Frauen.",
+      "usage_note": "Historical or derogatory term; use Frau/Frauen for respectful modern reference to women."
+    },
+    {
+      "entry_id": "frequency:2128",
+      "value": [
+        "Walker"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Walker_Masseur",
+      "note": "Walker has an unchanged plural in the fuller/felt-maker sense.",
+      "usage_note": "Plural is unchanged: Walker."
+    },
+    {
+      "entry_id": "frequency:2129",
+      "value": [
+        "Ex"
+      ],
+      "source": "LEO Dictionary",
+      "url": "https://dict.leo.org/englisch-deutsch/ex",
+      "note": "For the former-partner sense, LEO lists the plural Ex, unchanged; Exe is incorrect for this sense.",
+      "usage_note": "For a former partner, plural Ex is unchanged."
+    },
+    {
+      "entry_id": "frequency:2136",
+      "value": "Usually singular in this collective sense",
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Gepaeck",
+      "note": "Gep\u00e4ck is a collective noun for luggage and is normally used without a plural.",
+      "usage_note": "Collective noun, normally singular; use Gep\u00e4ckst\u00fccke for individual pieces."
+    },
+    {
+      "entry_id": "frequency:2138",
+      "value": "Usually singular in this radio/communication sense",
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Rundfunk",
+      "note": "The candidate forms belong to different lemmas or senses; Funk as radio communication is normally used without a plural.",
+      "usage_note": "Funk is the short form of Rundfunk in this sense and is normally singular."
+    },
+    {
+      "entry_id": "frequency:2141",
+      "value": [
+        "Unis"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/deklination/substantive/Uni",
+      "note": "Uni forms Unis.",
+      "usage_note": "Standard plural: Unis."
+    },
+    {
+      "entry_id": "frequency:2143",
+      "value": [
+        "Fakten"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/deklination/substantive/Fakt",
+      "note": "Fakt forms Fakten.",
+      "usage_note": "Standard plural: Fakten."
+    },
+    {
+      "entry_id": "frequency:2151",
+      "value": [
+        "Schlucke",
+        "Schl\u00fccke"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Schluck",
+      "note": "Duden gives Schlucke as the usual plural and Schl\u00fccke as a rare variant; as a measure word, Schluck may remain unchanged.",
+      "usage_note": "Schlucke is usual; Schl\u00fccke is rare; measure expressions can use unchanged Schluck."
+    },
+    {
+      "entry_id": "frequency:2176",
+      "value": [
+        "B\u00e4ren"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/deklination/substantive/Baer",
+      "note": "B\u00e4r forms B\u00e4ren.",
+      "usage_note": "Standard plural: B\u00e4ren."
+    },
+    {
+      "entry_id": "frequency:2177",
+      "value": [
+        "Euro",
+        "Euros"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Euro",
+      "note": "Both Euro and Euros occur as plurals; Euro is usual in prices and amounts.",
+      "usage_note": "Euro is usual in amounts; Euros can refer to individual coins."
+    },
+    {
+      "entry_id": "frequency:2197",
+      "value": [
+        "Sch\u00fctzen"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/deklination/substantive/Schuetze",
+      "note": "Sch\u00fctze is a weak masculine noun and forms Sch\u00fctzen.",
+      "usage_note": "Standard plural: Sch\u00fctzen."
+    },
+    {
+      "entry_id": "frequency:2198",
+      "value": [
+        "St\u00f6re"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/deklination/substantive/Stoer",
+      "note": "St\u00f6r forms St\u00f6re.",
+      "usage_note": "Standard plural: St\u00f6re."
+    },
+    {
+      "entry_id": "frequency:2209",
+      "value": [
+        "Humore"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Humor_Stimmung",
+      "note": "Humore is a valid plural for distinct styles or expressions of humor; the general quality is normally singular.",
+      "usage_note": "Humor is normally singular as a quality; Humore is a rare plural for distinct expressions or styles."
+    },
+    {
+      "entry_id": "frequency:2229",
+      "value": [
+        "Heilige",
+        "Heiligen"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/deklination/adjektive/heilig",
+      "note": "The plural ending depends on declension: Heilige without a determiner and Heiligen with a determiner or in weakly declined contexts.",
+      "usage_note": "Heilige and Heiligen are inflected plural forms of the substantivized adjective."
+    },
+    {
+      "entry_id": "frequency:2238",
+      "value": [
+        "Decks"
+      ],
+      "source": "German Wiktionary",
+      "url": "https://de.wiktionary.org/wiki/Deck#German",
+      "note": "For the ship-deck sense, Decks is the plural; Decke is not a plural of Deck.",
+      "usage_note": "Use Decks for the ship-deck sense; Decke is a separate word."
+    },
+    {
+      "entry_id": "frequency:2245",
+      "value": [
+        "Girls"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/deklination/substantive/Girl",
+      "note": "Girl forms Girls.",
+      "usage_note": "Standard plural: Girls."
+    },
+    {
+      "entry_id": "frequency:2250",
+      "value": [
+        "Pools"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/deklination/substantive/Pool",
+      "note": "Pool forms Pools.",
+      "usage_note": "Standard plural: Pools."
+    },
+    {
+      "entry_id": "frequency:2253",
+      "value": [
+        "Konten"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/deklination/substantive/Konto",
+      "note": "Konto forms Konten.",
+      "usage_note": "Standard plural: Konten."
+    },
+    {
+      "entry_id": "frequency:2272",
+      "value": [
+        "Safes"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/deklination/substantive/Safe",
+      "note": "Safe forms Safes.",
+      "usage_note": "Standard plural: Safes."
+    },
+    {
+      "entry_id": "frequency:2276",
+      "value": [
+        "K\u00f6che"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/deklination/substantive/Koch",
+      "note": "For the cook/person sense, Koch forms K\u00f6che.",
+      "usage_note": "Standard plural: K\u00f6che."
+    },
+    {
+      "entry_id": "frequency:2334",
+      "value": [
+        "Linke",
+        "Linken"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Linke",
+      "note": "These are inflected plural forms of the substantivized adjective; the form depends on whether a determiner is present.",
+      "usage_note": "Linke is used without a determiner; Linken is used with a determiner and in weakly declined contexts."
+    },
+    {
+      "entry_id": "frequency:2335",
+      "value": [
+        "\u00dcbungen"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/deklination/substantive/Uebung",
+      "note": "\u00dcbung forms \u00dcbungen.",
+      "usage_note": "Standard plural: \u00dcbungen."
+    }
+  ]
+}

@@ -1,0 +1,454 @@
+{
+  "batch_id": "v11-vocabulary-review-11",
+  "review_date": "2026-11-11",
+  "input_database_sha256": "f90d7db2136e0889d724e05667c33a5e38d4eb8886d4d1c23950b24c73785348",
+  "accepted_examples": [
+    {
+      "entry_id": "frequency:649",
+      "german": "Wir müssen über dieses Produkt genauer Bescheid wissen.",
+      "english": "We need some more information about that product.",
+      "note": "Bescheid wissen is an idiomatic construction meaning to know or have information about something; the translation is idiomatic."
+    },
+    {
+      "entry_id": "frequency:651",
+      "german": "Das war auch mein erster Gedanke.",
+      "english": "That was the first thing I thought about, too.",
+      "note": "The sentence uses the singular lemma Gedanke in a natural and direct sense."
+    },
+    {
+      "entry_id": "frequency:652",
+      "german": "Kunihiko traf das Ziel mit seinem ersten Schuss.",
+      "english": "Kunihiko hit the target with his first shot.",
+      "note": "Ziel is the direct object meaning target, and the English sentence matches."
+    },
+    {
+      "entry_id": "frequency:654",
+      "german": "Nicht aussteigen, solange das Fahrzeug noch in Bewegung ist!",
+      "english": "Don't get off while the vehicle is in motion.",
+      "note": "In Bewegung sein is a natural phrase meaning to be in motion."
+    },
+    {
+      "entry_id": "frequency:660",
+      "german": "Ich mag es, wenn die Fenster offen sind.",
+      "english": "I like it when the windows are open.",
+      "note": "Offen is correctly used predicatively after sind."
+    },
+    {
+      "entry_id": "frequency:662",
+      "german": "Ist das wirklich alkoholfreies Bier?",
+      "english": "Is this really a non-alcoholic beer?",
+      "note": "The sentence illustrates Bier and its compound alkoholfrei correctly."
+    },
+    {
+      "entry_id": "frequency:663",
+      "german": "Alle außer dir kamen mit einem Partner.",
+      "english": "Everyone except you came with a partner.",
+      "note": "Partner is used with the target sense and the translation is direct."
+    },
+    {
+      "entry_id": "frequency:667",
+      "german": "Er steckte Maria den Ring an den Finger.",
+      "english": "He put the ring on Mary's finger.",
+      "note": "The sentence uses Finger in the intended body-part sense."
+    },
+    {
+      "entry_id": "frequency:668",
+      "german": "Lass Tom nicht weg, ehe ich da bin!",
+      "english": "Don't let Tom leave before I get there.",
+      "note": "Ehe correctly introduces a subordinate clause meaning before."
+    },
+    {
+      "entry_id": "frequency:669",
+      "german": "Das war die letzte Rolle Klopapier.",
+      "english": "That was the last roll of toilet paper.",
+      "note": "Rolle means a roll in the paper-product context."
+    },
+    {
+      "entry_id": "frequency:671",
+      "german": "Als ich dort ankam, war Tom schon wach.",
+      "english": "Tom was awake by the time I got there.",
+      "note": "Wach is correctly used as a predicative adjective."
+    },
+    {
+      "entry_id": "frequency:673",
+      "german": "Mein Chef ist doppelt so alt wie ich.",
+      "english": "My boss is twice as old as I am.",
+      "note": "Chef is used in its common workplace sense."
+    },
+    {
+      "entry_id": "frequency:675",
+      "german": "Die Arbeit war schon erledigt, bevor ich ankam.",
+      "english": "The work had been completed before I arrived.",
+      "note": "Erledigt describes the work as completed; the English translation preserves the result state."
+    },
+    {
+      "entry_id": "frequency:676",
+      "german": "Hoffentlich komme ich nicht in den Stau.",
+      "english": "I hope I don't get stuck in traffic.",
+      "note": "Hoffentlich is correctly rendered with an English hope clause."
+    },
+    {
+      "entry_id": "frequency:677",
+      "german": "Ich kann nicht so gut tanzen wie Tom.",
+      "english": "I can't dance as well as Tom does.",
+      "note": "The infinitive tanzen follows the modal verb kann and the translation matches."
+    },
+    {
+      "entry_id": "frequency:679",
+      "german": "Wir wollen uns ein neues Zuhause kaufen.",
+      "english": "We want to buy a new home.",
+      "note": "The sentence and translation both use Zuhause as a place to live."
+    },
+    {
+      "entry_id": "frequency:680",
+      "german": "Es ist wunderbar, wieder da zu sein.",
+      "english": "It's wonderful to be back.",
+      "note": "Wunderbar is correctly used predicatively with the infinitive clause."
+    },
+    {
+      "entry_id": "frequency:681",
+      "german": "Man vergleicht das Leben oft mit einer Reise.",
+      "english": "Life is often compared to a journey.",
+      "note": "Reise is used as the object of mit and the translation matches the journey sense."
+    },
+    {
+      "entry_id": "frequency:683",
+      "german": "Sie benimmt sich nicht wie eine Dame.",
+      "english": "Her manners are not those of a lady.",
+      "note": "Dame is used in its sense of a woman associated with refined manners."
+    },
+    {
+      "entry_id": "frequency:684",
+      "german": "Hättest du Lust, irgendwann mal essen zu gehen?",
+      "english": "Would you like to go out to dinner sometime?",
+      "note": "Irgendwann mal naturally means sometime in this invitation."
+    }
+  ],
+  "held_examples": [
+    {
+      "entry_id": "frequency:650",
+      "german": "Geben Sie einen Schuß Rum dazu.",
+      "reason": "Uses obsolete spelling Schuß; replaced with a newly written example using current spelling."
+    },
+    {
+      "entry_id": "frequency:651",
+      "german": "Darüber habe ich mir noch keine Gedanken gemacht.",
+      "reason": "Uses the plural Gedanken and does not directly show the singular headword; a more direct singular example was selected."
+    },
+    {
+      "entry_id": "frequency:652",
+      "german": "Du zielst zu niedrig auf das Ziel.",
+      "reason": "The wording repeats the target-root and is awkward; a natural target example was selected."
+    },
+    {
+      "entry_id": "frequency:659",
+      "german": "Ich bin froh, daß Sie mein Anwalt sind.",
+      "reason": "Uses obsolete spelling daß and is less suitable as a straightforward current example; replaced with a concise example."
+    },
+    {
+      "entry_id": "frequency:664",
+      "german": "Halt die Klappe und hör mir zu!",
+      "reason": "This vulgar idiom means shut up and does not illustrate the entry's literal flap/lid sense."
+    },
+    {
+      "entry_id": "frequency:679",
+      "german": "Tom und Maria haben ein schönes Zuhause.",
+      "reason": "The English translation incorrectly says their home is beautiful instead of saying they have a beautiful home."
+    },
+    {
+      "entry_id": "frequency:681",
+      "german": "Ich habe nicht genügend Geld für eine Reise.",
+      "reason": "The translation uses travel as a verb and does not match the German noun phrase for a trip."
+    },
+    {
+      "entry_id": "frequency:682",
+      "german": "Er ist stolz, den Preis gewonnen zu haben.",
+      "reason": "The example uses gewonnen as part of a perfect infinitive, while this entry is categorized as an adjectival participle."
+    }
+  ],
+  "editorial_examples": [
+    {
+      "entry_id": "frequency:650",
+      "german": "Der Kuchen enthält einen Schuss Rum.",
+      "english": "The cake contains a splash of rum.",
+      "note": "New current-spelling example written for the rum sense; replaces a candidate with obsolete ß spelling.",
+      "evidence_url": "https://www.duden.de/rechtschreibung/Rum"
+    },
+    {
+      "entry_id": "frequency:659",
+      "german": "Ich brauche einen Anwalt.",
+      "english": "I need a lawyer.",
+      "note": "Original current-spelling example for the lawyer sense.",
+      "evidence_url": "https://www.duden.de/rechtschreibung/Anwalt"
+    },
+    {
+      "entry_id": "frequency:664",
+      "german": "Die Klappe am Briefkasten klemmt.",
+      "english": "The flap on the mailbox is stuck.",
+      "note": "Original neutral example for the literal flap sense; the entry gloss has been broadened to include the common literal and colloquial senses.",
+      "evidence_url": "https://www.duden.de/rechtschreibung/Klappe"
+    },
+    {
+      "entry_id": "frequency:682",
+      "german": "Das gewonnene Geld ging an die Schule.",
+      "english": "The money won went to the school.",
+      "note": "Original example uses gewonnen as an attributive past participle, matching this entry's adjectival classification.",
+      "evidence_url": "https://www.duden.de/rechtschreibung/gewinnen"
+    }
+  ],
+  "entry_updates": [
+    {
+      "entry_id": "frequency:664",
+      "field": "meaning",
+      "value": "flap; lid; (colloquial, rude) mouth",
+      "note": "Replace an excessively narrow and obscure translated Wiktionary sub-sense with the common literal meanings and clearly label the idiomatic colloquial sense.",
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Klappe"
+    }
+  ],
+  "plural_reviews": [
+    {
+      "entry_id": "frequency:1868",
+      "value": "Usually singular in this directional sense",
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Westen",
+      "note": "West in the sense of the cardinal direction or region is normally singular; Weste is a separate noun meaning vest.",
+      "usage_note": "Usually singular for the direction or region; Weste is an unrelated noun meaning vest."
+    },
+    {
+      "entry_id": "frequency:1872",
+      "value": [
+        "Mums"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Mum",
+      "note": "Mum forms the plural Mums.",
+      "usage_note": "Mums is the standard plural form."
+    },
+    {
+      "entry_id": "frequency:1876",
+      "value": [
+        "Realitäten"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/deklination/substantive/Realitaet",
+      "note": "Realität forms the plural Realitäten.",
+      "usage_note": "Realitäten is used for multiple realities or distinct factual situations."
+    },
+    {
+      "entry_id": "frequency:1884",
+      "value": [
+        "Öffentlichkeiten"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/deklination/substantive/Oeffentlichkeit",
+      "note": "Duden lists Öffentlichkeiten as the plural form.",
+      "usage_note": "Plural can refer to distinct publics or public spheres."
+    },
+    {
+      "entry_id": "frequency:1898",
+      "value": [
+        "Verdächte",
+        "Verdachte"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/deklination/substantive/Verdacht",
+      "note": "Duden lists both Verdächte and Verdachte as nominative plural forms.",
+      "usage_note": "Both Verdächte and Verdachte are standard plural forms."
+    },
+    {
+      "entry_id": "frequency:1905",
+      "value": [
+        "Zucker"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/deklination/substantive/Zucker",
+      "note": "For the material sense, Zucker is normally used without a plural; Duden lists Zucker for different kinds or varieties.",
+      "usage_note": "Usually a mass noun with no plural in everyday use; Zucker can refer to distinct varieties."
+    },
+    {
+      "entry_id": "frequency:1913",
+      "value": [
+        "Mägen"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/deklination/substantive/Magen",
+      "note": "Magen forms the plural Mägen.",
+      "usage_note": "Standard plural: Mägen."
+    },
+    {
+      "entry_id": "frequency:1914",
+      "value": [
+        "Tunnel",
+        "Tunnels"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Tunnel_Bauwerk",
+      "note": "Duden lists Tunnel as the usual plural and Tunnels as a less frequent variant.",
+      "usage_note": "Tunnel is the usual plural; Tunnels is less frequent."
+    },
+    {
+      "entry_id": "frequency:1918",
+      "value": [
+        "Applause"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Applaus",
+      "note": "Applause is a valid but rare plural form.",
+      "usage_note": "Plural is rare; Applause is the form listed by Duden."
+    },
+    {
+      "entry_id": "frequency:1919",
+      "value": [
+        "Märkte"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/deklination/substantive/Markt",
+      "note": "Markt forms the plural Märkte.",
+      "usage_note": "Standard plural: Märkte."
+    },
+    {
+      "entry_id": "frequency:1924",
+      "value": [
+        "Packe",
+        "Packs"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Pack_Buendel",
+      "note": "For masculine der Pack meaning a small bundle, Duden lists Packe and the rare variant Packs.",
+      "usage_note": "Packe is the usual plural; Packs is rare. The neuter homograph has a separate sense."
+    },
+    {
+      "entry_id": "frequency:1938",
+      "value": [
+        "Bereiche"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/deklination/substantive/Bereich",
+      "note": "Bereich forms the plural Bereiche.",
+      "usage_note": "Standard plural: Bereiche."
+    },
+    {
+      "entry_id": "frequency:1946",
+      "value": [
+        "Viertel"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Viertel_Stadtteil",
+      "note": "Viertel is unchanged in the nominative plural; Vierteln is a declined dative plural form, not a separate plural lemma.",
+      "usage_note": "The plural lemma is Viertel; Vierteln occurs in the dative plural."
+    },
+    {
+      "entry_id": "frequency:1951",
+      "value": [
+        "Schocks"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Schock_Erschuetterung",
+      "note": "For the masculine sense meaning psychological or medical shock, Schocks is standard; Schocke is marked obsolete.",
+      "usage_note": "Use Schocks; Schocke is obsolete in this sense."
+    },
+    {
+      "entry_id": "frequency:1952",
+      "value": [
+        "Empfänge"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/deklination/substantive/Empfang",
+      "note": "Empfang forms Empfänge when referring to multiple receptions or receiving events.",
+      "usage_note": "Plural: Empfänge; use for distinct receptions or receiving events."
+    },
+    {
+      "entry_id": "frequency:1963",
+      "value": [
+        "Mieten"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/deklination/substantive/Miete",
+      "note": "Miete forms the plural Mieten.",
+      "usage_note": "Plural: Mieten."
+    },
+    {
+      "entry_id": "frequency:2005",
+      "value": [
+        "Hauptleute",
+        "Hauptmänner"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/deklination/substantive/Hauptmann_Befehlshaber",
+      "note": "Duden gives Hauptleute as the main plural and Hauptmänner as a variant used outside the military.",
+      "usage_note": "Hauptleute is the main plural; outside the military, Hauptmänner is also used."
+    },
+    {
+      "entry_id": "frequency:2039",
+      "value": "Plural-only in this sense",
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Maus",
+      "note": "Mäuse is a plural-only colloquial noun meaning money in this sense.",
+      "usage_note": "Plural-only colloquial slang for money; singular Maus normally means the animal."
+    },
+    {
+      "entry_id": "frequency:2040",
+      "value": [
+        "Staube",
+        "Stäube"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Staub",
+      "note": "Duden lists both forms in technical usage; Stäube is also used for different kinds of dust.",
+      "usage_note": "Usually a mass noun; Staube and Stäube occur in technical usage, especially for distinct dust types."
+    },
+    {
+      "entry_id": "frequency:2051",
+      "value": [
+        "Bauern"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/deklination/substantive/Bauer",
+      "note": "For the farmer sense, Bauer is a weak masculine noun and forms Bauern.",
+      "usage_note": "For a farmer, the plural is Bauern."
+    },
+    {
+      "entry_id": "frequency:2058",
+      "value": [
+        "Geliebten",
+        "Geliebte"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Geliebte",
+      "note": "Duden lists Geliebten and the shorter variant Geliebte in suitable plural contexts for the substantivized adjective.",
+      "usage_note": "The common plural with a determiner is Geliebten; Geliebte occurs without an article, for example zwei Geliebte."
+    },
+    {
+      "entry_id": "frequency:2061",
+      "value": [
+        "Steuer"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Steuer_Lenkung",
+      "note": "For das Steuer meaning steering control or rudder, the plural is unchanged Steuer.",
+      "usage_note": "The plural stays Steuer; do not confuse the neuter steering sense with feminine die Steuer meaning tax, plural Steuern."
+    },
+    {
+      "entry_id": "frequency:2067",
+      "value": [
+        "Kilo",
+        "Kilos"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Kilo",
+      "note": "Duden lists Kilo and Kilos as plural variants.",
+      "usage_note": "Kilo and Kilos are both accepted plural forms."
+    },
+    {
+      "entry_id": "frequency:2069",
+      "value": [
+        "Schilde"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/deklination/substantive/Schild_Schutzwaffe",
+      "note": "For the masculine shield or buckler sense, the plural is Schilde; the neuter sign sense has a different plural, Schilder.",
+      "usage_note": "Schilde is for der Schild (shield); das Schild (sign) forms Schilder."
+    }
+  ]
+}

@@ -1,0 +1,812 @@
+[
+  {
+    "id": "lex-de-ja",
+    "expected_lemma": "ja",
+    "reference": "https://www.duden.de/sprachwissen/fuer-lernende/wortarten-partikeln",
+    "fields": {
+      "german_examples": [
+        {
+          "sentence": "Du weißt ja, dass ich morgen arbeite.",
+          "translation_language": "en",
+          "translation": "You know I’m working tomorrow."
+        }
+      ],
+      "part_of_speech": "particle"
+    }
+  },
+  {
+    "id": "lex-de-hier",
+    "expected_lemma": "hier",
+    "reference": "https://www.duden.de/suchen/dudenonline/hier",
+    "fields": {
+      "german_examples": [
+        {
+          "sentence": "Ich warte hier neben dem Eingang.",
+          "translation_language": "en",
+          "translation": "I’m waiting here by the entrance."
+        }
+      ]
+    }
+  },
+  {
+    "id": "lex-de-noch",
+    "expected_lemma": "noch",
+    "reference": "https://www.duden.de/suchen/dudenonline/noch",
+    "fields": {
+      "german_examples": [
+        {
+          "sentence": "Das Kind schläft noch, obwohl es schon elf Uhr ist.",
+          "translation_language": "en",
+          "translation": "The child is still asleep, even though it’s already eleven."
+        }
+      ]
+    }
+  },
+  {
+    "id": "lex-de-nur",
+    "expected_lemma": "nur",
+    "reference": "https://www.duden.de/suchen/dudenonline/nur",
+    "fields": {
+      "german_examples": [
+        {
+          "sentence": "Ich habe nur fünf Euro dabei.",
+          "translation_language": "en",
+          "translation": "I only have five euros with me."
+        }
+      ]
+    }
+  },
+  {
+    "id": "lex-de-da",
+    "expected_lemma": "da",
+    "reference": "https://www.duden.de/suchen/dudenonline/da",
+    "fields": {
+      "german_examples": [
+        {
+          "sentence": "Siehst du das rote Haus? Meine Oma wohnt da.",
+          "translation_language": "en",
+          "translation": "Do you see the red house? My grandmother lives there."
+        }
+      ]
+    }
+  },
+  {
+    "id": "lex-de-schon-2",
+    "expected_lemma": "schon",
+    "reference": "https://www.duden.de/suchen/dudenonline/schon",
+    "fields": {
+      "german_examples": [
+        {
+          "sentence": "Es ist erst acht, und er hat seine Hausaufgaben schon gemacht.",
+          "translation_language": "en",
+          "translation": "It’s only eight, and he’s already done his homework."
+        }
+      ]
+    }
+  },
+  {
+    "id": "lex-de-mal",
+    "expected_lemma": "mal",
+    "reference": "https://www.duden.de/sprachwissen/fuer-lernende/wortarten-partikeln",
+    "fields": {
+      "german_examples": [
+        {
+          "sentence": "Mach bitte mal das Fenster auf.",
+          "translation_language": "en",
+          "translation": "Could you open the window, please?"
+        }
+      ],
+      "part_of_speech": "particle"
+    }
+  },
+  {
+    "id": "lex-de-jetzt",
+    "expected_lemma": "jetzt",
+    "reference": "https://www.duden.de/suchen/dudenonline/jetzt",
+    "fields": {
+      "german_examples": [
+        {
+          "sentence": "Jetzt klingelt das Telefon.",
+          "translation_language": "en",
+          "translation": "The phone is ringing now."
+        }
+      ]
+    }
+  },
+  {
+    "id": "lex-de-dann",
+    "expected_lemma": "dann",
+    "reference": "https://www.duden.de/suchen/dudenonline/dann",
+    "fields": {
+      "german_examples": [
+        {
+          "sentence": "Erst dusche ich, dann frühstücke ich.",
+          "translation_language": "en",
+          "translation": "First I shower, then I have breakfast."
+        }
+      ]
+    }
+  },
+  {
+    "id": "lex-de-immer",
+    "expected_lemma": "immer",
+    "reference": "https://www.duden.de/suchen/dudenonline/immer",
+    "fields": {
+      "german_examples": [
+        {
+          "sentence": "Ich trinke morgens immer Kaffee.",
+          "translation_language": "en",
+          "translation": "I always drink coffee in the morning."
+        }
+      ]
+    }
+  },
+  {
+    "id": "lex-de-sehr",
+    "expected_lemma": "sehr",
+    "reference": "https://www.duden.de/suchen/dudenonline/sehr",
+    "fields": {
+      "german_examples": [
+        {
+          "sentence": "Der Kaffee ist noch sehr heiß.",
+          "translation_language": "en",
+          "translation": "The coffee is still very hot."
+        }
+      ]
+    }
+  },
+  {
+    "id": "lex-de-mann",
+    "expected_lemma": "Mann",
+    "reference": "https://www.duden.de/suchen/dudenonline/Mann",
+    "fields": {
+      "german_examples": [
+        {
+          "sentence": "Ein Mann wartet an der Bushaltestelle.",
+          "translation_language": "en",
+          "translation": "A man is waiting at the bus stop."
+        }
+      ]
+    }
+  },
+  {
+    "id": "lex-de-vielleicht",
+    "expected_lemma": "vielleicht",
+    "reference": "https://www.duden.de/suchen/dudenonline/vielleicht",
+    "fields": {
+      "german_examples": [
+        {
+          "sentence": "Vielleicht komme ich morgen vorbei.",
+          "translation_language": "en",
+          "translation": "Maybe I’ll stop by tomorrow."
+        }
+      ]
+    }
+  },
+  {
+    "id": "lex-de-nie",
+    "expected_lemma": "nie",
+    "reference": "https://www.duden.de/suchen/dudenonline/nie",
+    "fields": {
+      "german_examples": [
+        {
+          "sentence": "So etwas ist mir noch nie passiert.",
+          "translation_language": "en",
+          "translation": "That has never happened to me before."
+        }
+      ]
+    }
+  },
+  {
+    "id": "lex-de-heute",
+    "expected_lemma": "heute",
+    "reference": "https://www.duden.de/suchen/dudenonline/heute",
+    "fields": {
+      "german_examples": [
+        {
+          "sentence": "Heute ist die Bibliothek länger geöffnet.",
+          "translation_language": "en",
+          "translation": "The library is open later today."
+        }
+      ]
+    }
+  },
+  {
+    "id": "lex-de-frau-2",
+    "expected_lemma": "Frau",
+    "reference": "https://www.duden.de/suchen/dudenonline/Frau",
+    "fields": {
+      "german_examples": [
+        {
+          "sentence": "Eine Frau öffnet das Fenster im Erdgeschoss.",
+          "translation_language": "en",
+          "translation": "A woman opens the window on the ground floor."
+        }
+      ]
+    }
+  },
+  {
+    "id": "lex-de-nun",
+    "expected_lemma": "nun",
+    "reference": "https://www.duden.de/suchen/dudenonline/nun",
+    "fields": {
+      "german_examples": [
+        {
+          "sentence": "Der Teig ist fertig. Nun muss er eine Stunde ruhen.",
+          "translation_language": "en",
+          "translation": "The dough is ready. Now it needs to rest for an hour."
+        }
+      ]
+    }
+  },
+  {
+    "id": "9ac3cf4a-bc77-71ce-a8c7-e3428e9104db",
+    "expected_lemma": "klar",
+    "reference": "https://www.duden.de/suchen/dudenonline/klar",
+    "fields": {
+      "german_examples": [
+        {
+          "sentence": "Die Anweisungen sind klar und leicht zu befolgen.",
+          "translation_language": "en",
+          "translation": "The instructions are clear and easy to follow."
+        }
+      ]
+    }
+  },
+  {
+    "id": "lex-de-vater",
+    "expected_lemma": "Vater",
+    "reference": "https://www.duden.de/suchen/dudenonline/Vater",
+    "fields": {
+      "german_examples": [
+        {
+          "sentence": "Mein Vater holt mich am Bahnhof ab.",
+          "translation_language": "en",
+          "translation": "My father is picking me up at the station."
+        }
+      ]
+    }
+  },
+  {
+    "id": "lex-de-schon",
+    "expected_lemma": "schön",
+    "reference": "https://www.duden.de/suchen/dudenonline/sch%C3%B6n",
+    "fields": {
+      "german_examples": [
+        {
+          "sentence": "Vom Balkon haben wir eine schöne Aussicht.",
+          "translation_language": "en",
+          "translation": "We have a beautiful view from the balcony."
+        }
+      ]
+    }
+  },
+  {
+    "id": "lex-de-tag",
+    "expected_lemma": "Tag",
+    "reference": "https://www.duden.de/suchen/dudenonline/Tag",
+    "fields": {
+      "german_examples": [
+        {
+          "sentence": "An diesem Tag blieben wir bis zum Sonnenuntergang draußen.",
+          "translation_language": "en",
+          "translation": "That day we stayed outside until sunset."
+        }
+      ]
+    }
+  },
+  {
+    "id": "lex-de-wohl",
+    "expected_lemma": "wohl",
+    "reference": "https://www.duden.de/suchen/dudenonline/wohl",
+    "fields": {
+      "german_examples": [
+        {
+          "sentence": "Der Bus kommt wohl später, weil die Straße gesperrt ist.",
+          "translation_language": "en",
+          "translation": "The bus will probably be late because the road is closed."
+        }
+      ]
+    }
+  },
+  {
+    "id": "lex-de-mutter",
+    "expected_lemma": "Mutter",
+    "reference": "https://www.duden.de/suchen/dudenonline/Mutter",
+    "fields": {
+      "german_examples": [
+        {
+          "sentence": "Meine Mutter hat mir das Rezept geschickt.",
+          "translation_language": "en",
+          "translation": "My mother sent me the recipe."
+        }
+      ]
+    }
+  },
+  {
+    "id": "lex-de-nacht",
+    "expected_lemma": "Nacht",
+    "reference": "https://www.duden.de/suchen/dudenonline/Nacht",
+    "fields": {
+      "german_examples": [
+        {
+          "sentence": "In der Nacht hörten wir den Regen auf dem Dach.",
+          "translation_language": "en",
+          "translation": "During the night we heard the rain on the roof."
+        }
+      ]
+    }
+  },
+  {
+    "id": "lex-de-dort",
+    "expected_lemma": "dort",
+    "reference": "https://www.duden.de/suchen/dudenonline/dort",
+    "fields": {
+      "german_examples": [
+        {
+          "sentence": "Am Ende der Straße ist ein Kiosk. Dort kaufe ich die Zeitung.",
+          "translation_language": "en",
+          "translation": "There’s a kiosk at the end of the street. I buy the newspaper there."
+        }
+      ]
+    }
+  },
+  {
+    "id": "lex-de-richtig",
+    "expected_lemma": "richtig",
+    "reference": "https://www.duden.de/suchen/dudenonline/richtig",
+    "fields": {
+      "german_examples": [
+        {
+          "sentence": "Die Antwort auf die erste Frage ist richtig.",
+          "translation_language": "en",
+          "translation": "The answer to the first question is correct."
+        }
+      ]
+    }
+  },
+  {
+    "id": "lex-de-abend",
+    "expected_lemma": "Abend",
+    "reference": "https://www.duden.de/suchen/dudenonline/Abend",
+    "fields": {
+      "german_examples": [
+        {
+          "sentence": "Am Abend koche ich für meine Freunde.",
+          "translation_language": "en",
+          "translation": "In the evening I cook for my friends."
+        }
+      ]
+    }
+  },
+  {
+    "id": "lex-de-haus",
+    "expected_lemma": "Haus",
+    "reference": "https://www.duden.de/suchen/dudenonline/Haus",
+    "fields": {
+      "german_examples": [
+        {
+          "sentence": "Meine Eltern wohnen in einem kleinen Haus am Stadtrand.",
+          "translation_language": "en",
+          "translation": "My parents live in a small house on the edge of town."
+        }
+      ]
+    }
+  },
+  {
+    "id": "lex-de-freund",
+    "expected_lemma": "Freund",
+    "reference": "https://www.duden.de/suchen/dudenonline/Freund",
+    "fields": {
+      "german_examples": [
+        {
+          "sentence": "Mein Freund Tom und ich gehen freitags oft ins Kino.",
+          "translation_language": "en",
+          "translation": "My friend Tom and I often go to the cinema on Fridays."
+        }
+      ]
+    }
+  },
+  {
+    "id": "lex-de-zusammen",
+    "expected_lemma": "zusammen",
+    "reference": "https://www.duden.de/suchen/dudenonline/zusammen",
+    "fields": {
+      "german_examples": [
+        {
+          "sentence": "Am Wochenende kochen wir zusammen.",
+          "translation_language": "en",
+          "translation": "We cook together on weekends."
+        }
+      ]
+    }
+  },
+  {
+    "id": "lex-de-schnell",
+    "expected_lemma": "schnell",
+    "reference": "https://www.duden.de/suchen/dudenonline/schnell",
+    "fields": {
+      "german_examples": [
+        {
+          "sentence": "Der neue Zug fährt sehr schnell.",
+          "translation_language": "en",
+          "translation": "The new train travels very fast."
+        }
+      ]
+    }
+  },
+  {
+    "id": "lex-de-sonst",
+    "expected_lemma": "sonst",
+    "reference": "https://www.duden.de/suchen/dudenonline/sonst",
+    "fields": {
+      "german_examples": [
+        {
+          "sentence": "Zieh eine Jacke an, sonst wird dir kalt.",
+          "translation_language": "en",
+          "translation": "Put on a jacket, or you’ll get cold."
+        }
+      ]
+    }
+  },
+  {
+    "id": "lex-de-familie",
+    "expected_lemma": "Familie",
+    "reference": "https://www.duden.de/suchen/dudenonline/Familie",
+    "fields": {
+      "german_examples": [
+        {
+          "sentence": "Die ganze Familie saß beim Abendessen zusammen.",
+          "translation_language": "en",
+          "translation": "The whole family sat together at dinner."
+        }
+      ]
+    }
+  },
+  {
+    "id": "lex-de-jahr",
+    "expected_lemma": "Jahr",
+    "reference": "https://www.duden.de/suchen/dudenonline/Jahr",
+    "fields": {
+      "german_examples": [
+        {
+          "sentence": "Nächstes Jahr zieht meine Schwester nach Köln.",
+          "translation_language": "en",
+          "translation": "My sister is moving to Cologne next year."
+        }
+      ]
+    }
+  },
+  {
+    "id": "lex-de-problem",
+    "expected_lemma": "Problem",
+    "reference": "https://www.duden.de/suchen/dudenonline/Problem",
+    "fields": {
+      "german_examples": [
+        {
+          "sentence": "Die kaputte Heizung ist im Winter ein echtes Problem.",
+          "translation_language": "en",
+          "translation": "A broken heater is a real problem in winter."
+        }
+      ]
+    }
+  },
+  {
+    "id": "lex-de-halt",
+    "expected_lemma": "halt",
+    "reference": "https://www.duden.de/sprachwissen/fuer-lernende/wortarten-partikeln",
+    "fields": {
+      "german_examples": [
+        {
+          "sentence": "Der Laden ist schon zu. Dann gehen wir halt morgen hin.",
+          "translation_language": "en",
+          "translation": "The shop is already closed. I guess we’ll go tomorrow, then."
+        }
+      ],
+      "part_of_speech": "particle"
+    }
+  },
+  {
+    "id": "lex-de-sein",
+    "expected_lemma": "sein",
+    "reference": "https://www.duden.de/suchen/dudenonline/sein",
+    "fields": {
+      "german_examples": [
+        {
+          "sentence": "Der Laden ist heute geschlossen.",
+          "translation_language": "en",
+          "translation": "The shop is closed today."
+        }
+      ]
+    }
+  },
+  {
+    "id": "lex-de-haben",
+    "expected_lemma": "haben",
+    "reference": "https://www.duden.de/suchen/dudenonline/haben",
+    "fields": {
+      "german_examples": [
+        {
+          "sentence": "Ich habe noch ein altes Fahrrad im Keller.",
+          "translation_language": "en",
+          "translation": "I still have an old bicycle in the basement."
+        }
+      ]
+    }
+  },
+  {
+    "id": "lex-de-machen",
+    "expected_lemma": "machen",
+    "reference": "https://www.duden.de/suchen/dudenonline/machen",
+    "fields": {
+      "german_examples": [
+        {
+          "sentence": "Am Wochenende mache ich die Reparatur selbst.",
+          "translation_language": "en",
+          "translation": "I’m doing the repair myself this weekend."
+        }
+      ]
+    }
+  },
+  {
+    "id": "lex-de-essen",
+    "expected_lemma": "essen",
+    "reference": "https://www.duden.de/suchen/dudenonline/essen",
+    "fields": {
+      "german_examples": [
+        {
+          "sentence": "Zum Mittagessen essen wir Suppe und Brot.",
+          "translation_language": "en",
+          "translation": "We’re having soup and bread for lunch."
+        }
+      ]
+    }
+  },
+  {
+    "id": "lex-de-stehen",
+    "expected_lemma": "stehen",
+    "reference": "https://www.duden.de/suchen/dudenonline/stehen",
+    "fields": {
+      "german_examples": [
+        {
+          "sentence": "Im Bus sind alle Plätze besetzt, deshalb müssen wir stehen.",
+          "translation_language": "en",
+          "translation": "All the seats on the bus are taken, so we have to stand."
+        }
+      ]
+    }
+  },
+  {
+    "id": "lex-de-fragen",
+    "expected_lemma": "fragen",
+    "reference": "https://www.duden.de/suchen/dudenonline/fragen",
+    "fields": {
+      "german_examples": [
+        {
+          "sentence": "Am Bahnhof frage ich einen Mitarbeiter nach dem Weg.",
+          "translation_language": "en",
+          "translation": "At the station I ask a member of staff for directions."
+        }
+      ]
+    }
+  },
+  {
+    "id": "lex-de-verstehen",
+    "expected_lemma": "verstehen",
+    "reference": "https://www.duden.de/suchen/dudenonline/verstehen",
+    "fields": {
+      "german_examples": [
+        {
+          "sentence": "Ich verstehe die Frage jetzt besser.",
+          "translation_language": "en",
+          "translation": "I understand the question better now."
+        }
+      ]
+    }
+  },
+  {
+    "id": "lex-de-fahren",
+    "expected_lemma": "fahren",
+    "reference": "https://www.duden.de/suchen/dudenonline/fahren",
+    "fields": {
+      "german_examples": [
+        {
+          "sentence": "Meine Schwester fährt den kleinen Lieferwagen.",
+          "translation_language": "en",
+          "translation": "My sister drives the small delivery van."
+        }
+      ]
+    }
+  },
+  {
+    "id": "lex-de-holen",
+    "expected_lemma": "holen",
+    "reference": "https://www.duden.de/suchen/dudenonline/holen",
+    "fields": {
+      "german_examples": [
+        {
+          "sentence": "Ich hole noch ein Glas Wasser aus der Küche.",
+          "translation_language": "en",
+          "translation": "I’ll fetch another glass of water from the kitchen."
+        }
+      ]
+    }
+  },
+  {
+    "id": "622be131-b3ac-1a62-479c-7d2910562cbb",
+    "expected_lemma": "verlassen",
+    "reference": "https://www.duden.de/suchen/dudenonline/verlassen",
+    "fields": {
+      "german_examples": [
+        {
+          "sentence": "Ich verlasse das Haus jeden Morgen um acht.",
+          "translation_language": "en",
+          "translation": "I leave the house at eight every morning."
+        }
+      ]
+    }
+  },
+  {
+    "id": "lex-de-trinken",
+    "expected_lemma": "trinken",
+    "reference": "https://www.duden.de/suchen/dudenonline/trinken",
+    "fields": {
+      "german_examples": [
+        {
+          "sentence": "Zum Frühstück trinke ich meistens Tee.",
+          "translation_language": "en",
+          "translation": "I usually drink tea with breakfast."
+        }
+      ]
+    }
+  },
+  {
+    "id": "lex-de-lernen",
+    "expected_lemma": "lernen",
+    "reference": "https://www.duden.de/suchen/dudenonline/lernen",
+    "fields": {
+      "german_examples": [
+        {
+          "sentence": "Wir lernen im Kurs jeden Tag etwas Neues.",
+          "translation_language": "en",
+          "translation": "We learn something new in class every day."
+        }
+      ]
+    }
+  },
+  {
+    "id": "lex-de-aufhoren",
+    "expected_lemma": "aufhören",
+    "reference": "https://www.duden.de/suchen/dudenonline/aufh%C3%B6ren",
+    "fields": {
+      "german_examples": [
+        {
+          "sentence": "Nach zehn Minuten hört der Regen auf.",
+          "translation_language": "en",
+          "translation": "The rain stops after ten minutes."
+        }
+      ]
+    }
+  },
+  {
+    "id": "lex-de-gratis",
+    "expected_lemma": "gratis",
+    "reference": "https://www.duden.de/rechtschreibung/gratis",
+    "fields": {
+      "part_of_speech": "adv",
+      "german_examples": [
+        {
+          "sentence": "Kinder fahren am Sonntag gratis mit.",
+          "translation_language": "en",
+          "translation": "Children ride for free on Sunday."
+        }
+      ]
+    }
+  },
+  {
+    "id": "lex-de-umsonst",
+    "expected_lemma": "umsonst",
+    "reference": "https://www.duden.de/rechtschreibung/umsonst",
+    "fields": {
+      "part_of_speech": "adv",
+      "german_examples": [
+        {
+          "sentence": "Das Museum ist heute umsonst.",
+          "translation_language": "en",
+          "translation": "The museum is free today."
+        }
+      ],
+      "grammar_note": "Hier bedeutet umsonst kostenlos. In einem anderen Zusammenhang kann es vergeblich bedeuten."
+    }
+  },
+  {
+    "id": "lexeme-de-b1-ambivalenz",
+    "expected_lemma": "Ambivalenz",
+    "reference": "https://www.duden.de/rechtschreibung/Ambivalenz",
+    "fields": {
+      "part_of_speech": "noun",
+      "display_form": "die Ambivalenz",
+      "article": "die",
+      "gender": "fem",
+      "plural_forms": [
+        "die Ambivalenzen"
+      ],
+      "forms": [
+        {
+          "surface": "die Ambivalenz",
+          "number": "sg",
+          "case": "nom",
+          "role": "core",
+          "tags": {}
+        },
+        {
+          "surface": "die Ambivalenzen",
+          "number": "pl",
+          "case": "nom",
+          "role": "core",
+          "tags": {}
+        }
+      ],
+      "english_terms": [
+        {
+          "term": "ambivalence",
+          "lemma": "ambivalence",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "ambivalence",
+      "german_definition": "Ein Zustand, in dem man zugleich widersprüchliche Gefühle oder Einstellungen hat.",
+      "german_examples": [
+        {
+          "sentence": "Ihre Ambivalenz war spürbar: Sie freute sich auf den Umzug und fürchtete ihn zugleich.",
+          "translation_language": "en",
+          "translation": "Her ambivalence was clear: she was both looking forward to the move and afraid of it."
+        }
+      ],
+      "grammar_note": "Ambivalenz ist das Nomen. Das Adjektiv lautet ambivalent."
+    }
+  },
+  {
+    "id": "supplement-wikidata-L366643",
+    "expected_lemma": "während",
+    "reference": "https://www.duden.de/rechtschreibung/waehrend_binnen_inmitten",
+    "fields": {
+      "english_terms": [
+        {
+          "term": "during",
+          "lemma": "during",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "during",
+      "german_definition": "Gibt als Präposition an, in welchem Zeitraum etwas geschieht.",
+      "german_examples": [
+        {
+          "sentence": "Während des Films blieb mein Handy aus.",
+          "translation_language": "en",
+          "translation": "My phone stayed off during the film."
+        }
+      ],
+      "usage_note": "In der Standardsprache steht die Präposition meist mit Genitiv: während des Films. Als Konjunktion leitet während einen Nebensatz ein.",
+      "sense_reviewed": true
+    }
+  },
+  {
+    "id": "lex-de-weg",
+    "expected_lemma": "Weg",
+    "reference": "https://www.duden.de/rechtschreibung/Weg",
+    "fields": {
+      "sense_reviewed": true,
+      "grammar_note": "Der Weg ist ein Nomen und wird großgeschrieben. Das Adverb weg bedeutet zum Beispiel fort.",
+      "german_examples": [
+        {
+          "sentence": "Welcher Weg führt zum Bahnhof?",
+          "translation_language": "en",
+          "translation": "Which way leads to the station?"
+        }
+      ]
+    }
+  }
+]

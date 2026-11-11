@@ -1,0 +1,417 @@
+{
+  "batch_id": "v11-vocabulary-review-40",
+  "review_date": "2026-11-11",
+  "input_database_sha256": "3b2c94c86f1c2c051d9764495c662690b18c1b7962c311b6476b17a469486494",
+  "accepted_examples": [
+    {
+      "entry_id": "curated:lex-de-empfindlich",
+      "german": "Die meisten Schriftsteller reagieren empfindlich auf Kritik.",
+      "english": "Most writers are sensitive to criticism.",
+      "note": "Reviewed the German wording and grammar, the entry sense and part of speech, and the English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3648",
+      "german": "Die Ernte fiel dieses Jahr reichlich aus.",
+      "english": "There was an abundant harvest this year.",
+      "note": "Reviewed the German wording and grammar, the entry sense and part of speech, and the English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3649",
+      "german": "Wollen Sie sagen, dass ich eine Lügnerin bin?",
+      "english": "Are you saying I'm a liar?",
+      "note": "Reviewed the German wording and grammar, the entry sense and part of speech, and the English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3650",
+      "german": "Dein Kleid ist schon nicht mehr in Mode.",
+      "english": "Your dress is already out of fashion.",
+      "note": "Reviewed the German wording and grammar, the entry sense and part of speech, and the English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3652",
+      "german": "Ich habe viele Hennen, aber keinen Hahn.",
+      "english": "I have a lot of hens, but I don't have a rooster.",
+      "note": "Reviewed the German wording and grammar, the entry sense and part of speech, and the English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3653",
+      "german": "Du wärest fast in meinen Wagen gekracht.",
+      "english": "You almost crashed into my car.",
+      "note": "Reviewed the German wording and grammar, the entry sense and part of speech, and the English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3654",
+      "german": "Die Versammlung ging vor dreißig Minuten zu Ende.",
+      "english": "The meeting ended thirty minutes ago.",
+      "note": "Reviewed the German wording and grammar, the entry sense and part of speech, and the English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3655",
+      "german": "Es war wie Folter.",
+      "english": "It was like torture.",
+      "note": "Reviewed the German wording and grammar, the entry sense and part of speech, and the English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3657",
+      "german": "Der Himmel schaut bedrohlich aus.",
+      "english": "The sky looks threatening.",
+      "note": "Reviewed the German wording and grammar, the entry sense and part of speech, and the English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3659",
+      "german": "Wir haben einen Vorrat an Toilettenpapier.",
+      "english": "We have a stock of toilet paper.",
+      "note": "Reviewed the German wording and grammar, the entry sense and part of speech, and the English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3660",
+      "german": "Es waren ziemlich viele Leute im Saal.",
+      "english": "There were a fair number of people in the hall.",
+      "note": "Reviewed the German wording and grammar, the entry sense and part of speech, and the English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3661",
+      "german": "Der Sturm hatte schwere Folgen für die Wirtschaft.",
+      "english": "The storm had a serious effect on the economy.",
+      "note": "Reviewed the German wording and grammar, the entry sense and part of speech, and the English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3662",
+      "german": "Ich habe alle diese Bücher schon mehrmals gelesen.",
+      "english": "I've read all of these books several times each.",
+      "note": "Reviewed the German wording and grammar, the entry sense and part of speech, and the English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3664",
+      "german": "Wasch dir die Hände mit Wasser und Seife.",
+      "english": "Wash your hands with soap and water.",
+      "note": "Reviewed the German wording and grammar, the entry sense and part of speech, and the English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3667",
+      "german": "Filme sind eine gute Ablenkung.",
+      "english": "Movies are a great diversion.",
+      "note": "Reviewed the German wording and grammar, the entry sense and part of speech, and the English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3668",
+      "german": "Keiner der alten Bäume überstand das Feuer.",
+      "english": "None of the old trees survived the fire.",
+      "note": "Reviewed the German wording and grammar, the entry sense and part of speech, and the English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3669",
+      "german": "Der Sicherungstrupp durchsuchte den Wagen nach Sprengstoff.",
+      "english": "The security team checked the car for explosives.",
+      "note": "Reviewed the German wording and grammar, the entry sense and part of speech, and the English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3671",
+      "german": "Ich bin in World of Warcraft jetzt auf Level 32.",
+      "english": "I'm on level 32 in World of Warcraft now.",
+      "note": "Reviewed the German wording and grammar, the entry sense and part of speech, and the English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3673",
+      "german": "Er verlor das Gleichgewicht und fiel hin.",
+      "english": "He lost his balance and fell down.",
+      "note": "Reviewed the German wording and grammar, the entry sense and part of speech, and the English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3674",
+      "german": "Lass mich den Schalter reparieren.",
+      "english": "Let me fix the switch.",
+      "note": "Reviewed the German wording and grammar, the entry sense and part of speech, and the English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3675",
+      "german": "Er bemühte sich, ihre Zuneigung zu gewinnen.",
+      "english": "He tried to gain her affection.",
+      "note": "Reviewed the German wording and grammar, the entry sense and part of speech, and the English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3676",
+      "german": "Tom schob den Rollstuhl in Marias Zimmer.",
+      "english": "Tom pushed the wheelchair into Mary's room.",
+      "note": "Reviewed the German wording and grammar, the entry sense and part of speech, and the English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3677",
+      "german": "Bist du je von einer Biene gestochen worden?",
+      "english": "Have you ever been stung by a bee?",
+      "note": "Reviewed the German wording and grammar, the entry sense and part of speech, and the English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3680",
+      "german": "Koks ist ein besonders hochwertiges Heizmaterial.",
+      "english": "Coke is a particularly high-quality heating material.",
+      "note": "Reviewed the German wording and grammar, the entry sense and part of speech, and the English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3682",
+      "german": "Darf ich mich mal umsehen?",
+      "english": "Is it OK if I take a look around?",
+      "note": "Reviewed the German wording and grammar, the entry sense and part of speech, and the English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3683",
+      "german": "Die Stadt ist auf einem Abhang gelegen.",
+      "english": "The town is situated on a slope.",
+      "note": "Reviewed the German wording and grammar, the entry sense and part of speech, and the English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3685",
+      "german": "Ich wusste, dass ich Ihnen eine stärkere Dosis hätte geben sollen.",
+      "english": "I knew I should've given you a stronger dose.",
+      "note": "Reviewed the German wording and grammar, the entry sense and part of speech, and the English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3687",
+      "german": "Die meisten Wale ernähren sich von Plankton.",
+      "english": "Most whales feed on plankton.",
+      "note": "Reviewed the German wording and grammar, the entry sense and part of speech, and the English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3688",
+      "german": "Tom hackt gerne Holz.",
+      "english": "Tom likes to chop wood.",
+      "note": "Reviewed the German wording and grammar, the entry sense and part of speech, and the English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3689",
+      "german": "Bei Tom zu Hause gibt es eine geheime Kammer.",
+      "english": "Tom's house has a hidden room.",
+      "note": "Reviewed the German wording and grammar, the entry sense and part of speech, and the English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3691",
+      "german": "Ich habe Sie wiederholt gebeten, das zu lassen.",
+      "english": "I've asked you repeatedly not to do that.",
+      "note": "Reviewed the German wording and grammar, the entry sense and part of speech, and the English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3692",
+      "german": "Die Farben passen gut zueinander.",
+      "english": "Those colors go well together.",
+      "note": "Reviewed the German wording and grammar, the entry sense and part of speech, and the English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3693",
+      "german": "Ich bekam letzte Woche ein neues Tattoo.",
+      "english": "I got a new tattoo last week.",
+      "note": "Reviewed the German wording and grammar, the entry sense and part of speech, and the English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3695",
+      "german": "Hast du Angst vor der Finsternis?",
+      "english": "Are you afraid of the dark?",
+      "note": "Reviewed the German wording and grammar, the entry sense and part of speech, and the English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3696",
+      "german": "Er ist ein gelehrter Mann.",
+      "english": "He's a learned man.",
+      "note": "Reviewed the German wording and grammar, the entry sense and part of speech, and the English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3697",
+      "german": "Der Schein kann trügen.",
+      "english": "Appearances can be deceptive.",
+      "note": "Reviewed the German wording and grammar, the entry sense and part of speech, and the English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3698",
+      "german": "Mein Transporter hat getönte Fenster.",
+      "english": "My van has tinted windows.",
+      "note": "Reviewed the German wording and grammar, the entry sense and part of speech, and the English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3699",
+      "german": "Die Möbel in diesem Büro sind sehr modern.",
+      "english": "The furniture in this office is really modern.",
+      "note": "Reviewed the German wording and grammar, the entry sense and part of speech, and the English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3701",
+      "german": "Tom drückte den Abzug, aber es löste sich kein Schuss.",
+      "english": "Tom squeezed the trigger, but the gun didn't fire.",
+      "note": "Reviewed the German wording and grammar, the entry sense and part of speech, and the English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3704",
+      "german": "Könnt ihr auf den Baum klettern?",
+      "english": "Can you climb the tree?",
+      "note": "Reviewed the German wording and grammar, the entry sense and part of speech, and the English translation; accepted as suitable."
+    }
+  ],
+  "editorial_examples": [
+    {
+      "entry_id": "frequency:3658",
+      "german": "Dieser Brauch ist in vielen Ländern weit verbreitet.",
+      "english": "This custom is widespread in many countries.",
+      "note": "The source uses verbreitet as a finite verb; this adjective entry now has an attributive adjective example.",
+      "evidence_url": "https://www.duden.de/rechtschreibung/verbreitet"
+    },
+    {
+      "entry_id": "frequency:3665",
+      "german": "Die Viehhirten trieben eine Herde Kühe zusammen.",
+      "english": "The herders rounded up a herd of cattle.",
+      "note": "Corrected cowboys, which is not a translation of Viehhirten.",
+      "evidence_url": "https://www.duden.de/rechtschreibung/Herde"
+    },
+    {
+      "entry_id": "frequency:3666",
+      "german": "In dem Märchen hilft ein Zwerg der Prinzessin.",
+      "english": "In the fairy tale, a dwarf helps the princess.",
+      "note": "Replaced a personal statement with a clear fairy-tale creature example.",
+      "evidence_url": "https://www.duden.de/rechtschreibung/Zwerg"
+    },
+    {
+      "entry_id": "frequency:3670",
+      "german": "Nach dem Erdbeben waren viele Straßen gesperrt.",
+      "english": "Many roads were closed after the earthquake.",
+      "note": "Replaced an example about a fatality with a neutral everyday consequence.",
+      "evidence_url": "https://www.duden.de/rechtschreibung/Erdbeben"
+    },
+    {
+      "entry_id": "frequency:3678",
+      "german": "Ich mische die Farbe mit etwas Wasser.",
+      "english": "I mix the paint with a little water.",
+      "note": "Replaced an alcohol-related example with a neutral household example.",
+      "evidence_url": "https://www.duden.de/rechtschreibung/mischen"
+    },
+    {
+      "entry_id": "frequency:3679",
+      "german": "Madrid ist die Hauptstadt von Spanien.",
+      "english": "Madrid is the capital of Spain.",
+      "note": "Replaced a potentially disputed superlative fact with a simple, stable capital-city example.",
+      "evidence_url": "https://www.duden.de/rechtschreibung/Hauptstadt"
+    },
+    {
+      "entry_id": "frequency:3700",
+      "german": "Giacomo hat letzte Woche wieder im Revier des Herrn Müller gewildert und wurde prompt ertappt.",
+      "english": "Giacomo poached again in Mr. Müller’s hunting district last week and was caught immediately.",
+      "note": "Corrected the machine translation killed for gewildert; the sentence means poached/hunted illegally.",
+      "evidence_url": "https://www.duden.de/rechtschreibung/wildern"
+    },
+    {
+      "entry_id": "frequency:3702",
+      "german": "Tom goss die heiße Schokolade in zwei Becher.",
+      "english": "Tom poured the hot chocolate into two cups.",
+      "note": "Changed mugs to cups because Becher normally has no handle.",
+      "evidence_url": "https://www.duden.de/rechtschreibung/Becher"
+    },
+    {
+      "entry_id": "frequency:3703",
+      "german": "Die Polizei stellte das gestohlene Fahrrad als Beweismittel sicher.",
+      "english": "The police seized the stolen bicycle as evidence.",
+      "note": "Replaced the awkward fingerprint collocation with a clear example of officially securing evidence.",
+      "evidence_url": "https://www.duden.de/rechtschreibung/sicherstellen"
+    },
+    {
+      "entry_id": "frequency:3706",
+      "german": "Sie bedankte sich mit einer kleinen Geste.",
+      "english": "She thanked them with a small gesture.",
+      "note": "Replaced an awkward literal construction with a natural everyday collocation.",
+      "evidence_url": "https://www.duden.de/rechtschreibung/Geste"
+    }
+  ],
+  "held_examples": [
+    {
+      "entry_id": "frequency:3658",
+      "german": "Der Brauch hat sich weit verbreitet.",
+      "reason": "The source uses verbreitet as a finite verb; this adjective entry now has an attributive adjective example."
+    },
+    {
+      "entry_id": "frequency:3665",
+      "german": "Die Viehhirten trieben eine Herde Kühe zusammen.",
+      "reason": "Corrected cowboys, which is not a translation of Viehhirten."
+    },
+    {
+      "entry_id": "frequency:3666",
+      "german": "Ich bin kein Zwerg.",
+      "reason": "Replaced a personal statement with a clear fairy-tale creature example."
+    },
+    {
+      "entry_id": "frequency:3670",
+      "german": "Tom ist bei dem Erdbeben ums Leben gekommen.",
+      "reason": "Replaced an example about a fatality with a neutral everyday consequence."
+    },
+    {
+      "entry_id": "frequency:3678",
+      "german": "Trinkst du deinen Whiskey pur, oder soll ich ihn mit Wasser mischen?",
+      "reason": "Replaced an alcohol-related example with a neutral household example."
+    },
+    {
+      "entry_id": "frequency:3679",
+      "german": "Die Hauptstadt Mexikos ist die größte Stadt Lateinamerikas.",
+      "reason": "Replaced a potentially disputed superlative fact with a simple, stable capital-city example."
+    },
+    {
+      "entry_id": "frequency:3700",
+      "german": "Giacomo hat letzte Woche wieder im Revier des Herrn Müller gewildert und wurde prompt ertappt.",
+      "reason": "Corrected the machine translation killed for gewildert; the sentence means poached/hunted illegally."
+    },
+    {
+      "entry_id": "frequency:3702",
+      "german": "Tom goss die heiße Schokolade in zwei Becher.",
+      "reason": "Changed mugs to cups because Becher normally has no handle."
+    },
+    {
+      "entry_id": "frequency:3703",
+      "german": "Die Polizei stellte am Tatort Fingerabdrücke sicher.",
+      "reason": "Replaced the awkward fingerprint collocation with a clear example of officially securing evidence."
+    },
+    {
+      "entry_id": "frequency:3706",
+      "german": "Tom führte mit der Hand eine Geste aus.",
+      "reason": "Replaced an awkward literal construction with a natural everyday collocation."
+    }
+  ],
+  "entry_updates": [
+    {
+      "entry_id": "frequency:3649",
+      "field": "meaning",
+      "value": "female liar; a woman who lies",
+      "note": "Removed the rare/nonstandard English form liaress; Duden defines Lügnerin as a female person who lies.",
+      "url": "https://www.duden.de/rechtschreibung/Luegnerin"
+    },
+    {
+      "entry_id": "frequency:3671",
+      "field": "meaning",
+      "value": "level, degree, rank; level or stage in a computer game",
+      "note": "Added the computer-game stage sense used in the example.",
+      "url": "https://www.duden.de/rechtschreibung/Level"
+    },
+    {
+      "entry_id": "frequency:3693",
+      "field": "meaning",
+      "value": "tattoo (body art); military tattoo (signal ordering soldiers back to quarters)",
+      "note": "Added the body-art meaning used in the example while retaining the specialized military sense.",
+      "url": "https://www.duden.de/rechtschreibung/Tattoo_Zapfenstreich"
+    },
+    {
+      "entry_id": "frequency:3695",
+      "field": "meaning",
+      "value": "darkness; eclipse (astronomy)",
+      "note": "Added the ordinary darkness sense used in the example; Finsternis also has the astronomical eclipse sense.",
+      "url": "https://www.duden.de/rechtschreibung/Finsternis"
+    },
+    {
+      "entry_id": "frequency:3697",
+      "field": "meaning",
+      "value": "light, shine; outward appearance or semblance; certificate or banknote",
+      "note": "Added the appearance/semblance sense used by the idiom in the example.",
+      "url": "https://www.duden.de/rechtschreibung/Schein"
+    },
+    {
+      "entry_id": "frequency:3703",
+      "field": "meaning",
+      "value": "to seize or confiscate as evidence; to ensure or guarantee",
+      "note": "Expanded the narrow gloss to include the evidence-seizure sense in the revised example and the common ensure/guarantee sense.",
+      "url": "https://www.duden.de/rechtschreibung/sicherstellen"
+    }
+  ],
+  "plural_reviews": [],
+  "inflected_links": []
+}

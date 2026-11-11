@@ -1,0 +1,341 @@
+{
+  "batch_id": "v11-vocabulary-review-02",
+  "review_date": "2026-11-11",
+  "input_database_sha256": "de20a44f488ec538dd542d175ad50536b9ac9e916bf2538190ea4ef68378998a",
+  "accepted_examples": [
+    {
+      "entry_id": "curated:lex-de-auge",
+      "german": "Habt ihr den Unfall mit eigenen Augen gesehen?",
+      "english": "Did you see the accident with your own eyes?",
+      "note": "Auge is used in the plural Augen, in the visual organ sense."
+    },
+    {
+      "entry_id": "frequency:271",
+      "german": "Du bist noch zu jung, um zu sterben.",
+      "english": "You're too young to die.",
+      "note": "sterben means to die in the infinitive construction."
+    },
+    {
+      "entry_id": "curated:lex-de-draussen",
+      "german": "Tom und Maria bauen draußen einen Schneemann.",
+      "english": "Tom and Mary are outside building a snowman.",
+      "note": "draußen means outside, in the open air."
+    },
+    {
+      "entry_id": "frequency:274",
+      "german": "Hol Tom hier runter.",
+      "english": "Get Tom down here.",
+      "note": "runter is directional and matches down here."
+    },
+    {
+      "entry_id": "frequency:275",
+      "german": "An der Kirche gehe ich jeden Tag vorbei.",
+      "english": "I walk past that church every day.",
+      "note": "vorbei means past in this movement construction."
+    },
+    {
+      "entry_id": "curated:lex-de-arbeiten",
+      "german": "Verschwinde und lass mich arbeiten!",
+      "english": "Leave me alone and let me do my job.",
+      "note": "arbeiten means to work/do one's job."
+    },
+    {
+      "entry_id": "frequency:283",
+      "german": "Schließ die Tür hinter dir, wenn du gehst!",
+      "english": "Shut the door behind you when you leave.",
+      "note": "hinter expresses the spatial relation behind."
+    },
+    {
+      "entry_id": "frequency:285",
+      "german": "Tom ist mein einzig wirklicher Freund.",
+      "english": "Tom is my only real friend.",
+      "note": "einzig means only/sole."
+    },
+    {
+      "entry_id": "frequency:287",
+      "german": "Er hat eine Tochter, die sehr hübsch ist.",
+      "english": "He has a daughter who is very pretty.",
+      "note": "Tochter means daughter."
+    },
+    {
+      "entry_id": "curated:lex-de-schwester",
+      "german": "Tom hat eine Schwester, die gerne Tennis spielt.",
+      "english": "Tom has a sister who likes to play tennis.",
+      "note": "Schwester means sister."
+    },
+    {
+      "entry_id": "frequency:290",
+      "german": "Ich will sehen, was da drin ist.",
+      "english": "I want to see what's inside.",
+      "note": "drin means inside."
+    },
+    {
+      "entry_id": "frequency:291",
+      "german": "Tom saß ruhig da.",
+      "english": "Tom sat quietly.",
+      "note": "ruhig is used adverbially to describe how Tom sat."
+    },
+    {
+      "entry_id": "frequency:292",
+      "german": "Es ist nicht zu spät, das zu tun.",
+      "english": "It's not too late to do that.",
+      "note": "spät means late."
+    },
+    {
+      "entry_id": "frequency:296",
+      "german": "Der Kerl sieht genau so aus wie Tom.",
+      "english": "That guy looks exactly like Tom.",
+      "note": "Kerl means guy/fellow in this colloquial sentence."
+    },
+    {
+      "entry_id": "frequency:297",
+      "german": "Müssen wir flach auf dem Boden liegen?",
+      "english": "Do we have to lie flat on the ground?",
+      "note": "liegen means to be in a horizontal position."
+    },
+    {
+      "entry_id": "frequency:299",
+      "german": "Er ist so arm wie eh und je.",
+      "english": "He is as poor as ever.",
+      "note": "je means ever in the idiom eh und je."
+    },
+    {
+      "entry_id": "frequency:303",
+      "german": "Es ist noch keiner dieser Äpfel reif.",
+      "english": "None of these apples are ripe yet.",
+      "note": "keiner means none; the sentence concerns none of the apples."
+    },
+    {
+      "entry_id": "frequency:306",
+      "german": "Der Teufel hat mich dazu gezwungen.",
+      "english": "The devil made me do it.",
+      "note": "Teufel refers to the devil."
+    }
+  ],
+  "held_examples": [
+    {
+      "entry_id": "frequency:215",
+      "german": "Lass es dort, wo du es gefunden hast.",
+      "reason": "This is a perfect-tense verb use of finden, not an adjectival use of gefunden."
+    },
+    {
+      "entry_id": "frequency:223",
+      "german": "Hier halten Pärchen gewöhnlich nicht in aller Öffentlichkeit Händchen.",
+      "reason": "This is the idiom Händchen halten; it does not illustrate the listed sense of holding an object."
+    },
+    {
+      "entry_id": "frequency:254",
+      "german": "Lassen Sie uns später darauf zurück kommen.",
+      "reason": "darauf zurückkommen means return to a topic; it does not illustrate the listed following/after sense."
+    },
+    {
+      "entry_id": "frequency:277",
+      "german": "Die Gräten sind doch kein Grund, nicht gerne Fisch zu essen!",
+      "reason": "The entry's word class and gloss were wrong, and the supplied English pair is awkward; use a new example for the corrected adverb sense."
+    },
+    {
+      "entry_id": "curated:lex-de-neu",
+      "german": "Die Brücke wird gerade neu gestrichen.",
+      "reason": "neu means anew/again here, not new as a property of a noun."
+    },
+    {
+      "entry_id": "curated:lex-de-sogar",
+      "german": "Maria ist sogar noch schöner als Elke.",
+      "reason": "The supplied English translation changes both personal names; use a corrected editorial example."
+    },
+    {
+      "entry_id": "frequency:307",
+      "german": "Er weiß gar nicht, was er verloren hat.",
+      "reason": "This is a verbal perfect-tense use of verlieren, not the adjectival lost/missing sense."
+    }
+  ],
+  "editorial_examples": [
+    {
+      "entry_id": "frequency:215",
+      "german": "Der gefundene Schlüssel lag unter dem Tisch.",
+      "english": "The key we found was under the table.",
+      "note": "Adjectivally used Partizip II gefundene modifies Schlüssel; it matches the entry's found/located sense.",
+      "evidence_url": "https://www.duden.de/sprachwissen/sprachratgeber/partizipien"
+    },
+    {
+      "entry_id": "frequency:223",
+      "german": "Bitte halten Sie das Glas mit beiden Händen.",
+      "english": "Please hold the glass with both hands.",
+      "note": "This illustrates halten with a physical object.",
+      "evidence_url": "https://www.duden.de/rechtschreibung/halten"
+    },
+    {
+      "entry_id": "frequency:254",
+      "german": "Kurz darauf begann der Film.",
+      "english": "Shortly afterward, the film began.",
+      "note": "darauf expresses that the event followed shortly after.",
+      "evidence_url": "https://www.duden.de/rechtschreibung/darauf"
+    },
+    {
+      "entry_id": "frequency:277",
+      "german": "Ich helfe dir gerne.",
+      "english": "I'm happy to help you.",
+      "note": "Corrected the entry to the adverb gerne, gladly/with pleasure.",
+      "evidence_url": "https://www.duden.de/rechtschreibung/gern"
+    },
+    {
+      "entry_id": "curated:lex-de-neu",
+      "german": "Sie hat sich ein neues Fahrrad gekauft.",
+      "english": "She bought a new bicycle.",
+      "note": "neu describes a recently acquired item.",
+      "evidence_url": "https://www.duden.de/rechtschreibung/neu"
+    },
+    {
+      "entry_id": "curated:lex-de-sogar",
+      "german": "Sogar Tom konnte die Tür nicht öffnen.",
+      "english": "Even Tom couldn't open the door.",
+      "note": "sogar adds an unexpected or emphatic case."
+    },
+    {
+      "entry_id": "frequency:307",
+      "german": "Der verlorene Schlüssel lag unter dem Sofa.",
+      "english": "The lost key was under the sofa.",
+      "note": "verloren is used adjectivally to mean lost/missing.",
+      "evidence_url": "https://www.duden.de/rechtschreibung/verloren_Partizip_von_verlieren"
+    }
+  ],
+  "entry_updates": [
+    {
+      "entry_id": "frequency:277",
+      "field": "meaning",
+      "value": "gladly; with pleasure",
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/gern",
+      "note": "Duden classifies gern/gerne as an adverb meaning with willing pleasure; the prior entry gloss incorrectly described a reply to thanks."
+    },
+    {
+      "entry_id": "frequency:277",
+      "field": "word_class",
+      "value": "adverb",
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/gern",
+      "note": "Duden labels gern/gerne an adverb."
+    }
+  ],
+  "usage_notes": [
+    {
+      "entry_id": "frequency:2537",
+      "value": "Stifter is also recorded as a rare plural; Stifte is the usual learner form.",
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Stift_Koerperschaft",
+      "note": "Duden marks Stifter as a rare plural for the ecclesiastical institution sense."
+    },
+    {
+      "entry_id": "frequency:296",
+      "value": "Kerls is a North German colloquial variant; Kerle is the usual learner form.",
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Kerl",
+      "note": "Duden marks Kerls as North German colloquial."
+    }
+  ],
+  "plural_reviews": [
+    {
+      "entry_id": "curated:lex-de-mann",
+      "lemma": "Mann",
+      "value": [
+        "Männer"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Mann_Person",
+      "note": "For the adult-male sense, use Männer; remove Mann, which is a number expression, not the regular plural for this sense."
+    },
+    {
+      "entry_id": "curated:lex-de-mutter",
+      "lemma": "Mutter",
+      "value": [
+        "Mütter"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Mutter_Frau",
+      "note": "For female parent, the plural is Mütter; other meanings have other plurals."
+    },
+    {
+      "entry_id": "curated:lex-de-land-country",
+      "lemma": "Land",
+      "value": [
+        "Länder"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Land",
+      "note": "For a political country/state, the plural is Länder; Lande is archaic/poetic and belongs to other usages."
+    },
+    {
+      "entry_id": "curated:lex-de-wort",
+      "lemma": "Wort",
+      "value": [
+        "Wörter"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Wort",
+      "note": "For individual lexical units, use Wörter; Worte refers to utterances or connected meaning."
+    },
+    {
+      "entry_id": "curated:lex-de-der-doktor",
+      "lemma": "Doktor",
+      "value": [
+        "Doktoren"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Doktor",
+      "note": "The standard plural for the person/title sense is Doktoren; omit Latin doctores/Doktores from the learner plural."
+    },
+    {
+      "entry_id": "curated:lex-de-abstand",
+      "lemma": "Abstand",
+      "value": [
+        "Abstände"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Abstand",
+      "note": "The plural is Abstände; preserve the umlaut spelling."
+    },
+    {
+      "entry_id": "frequency:2537",
+      "lemma": "Stift",
+      "value": [
+        "Stifte"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Stift_Koerperschaft",
+      "note": "For the endowed ecclesiastical institution/monastery sense, Stifte is the ordinary plural; Stifter is rare."
+    },
+    {
+      "entry_id": "curated:lexeme-de-b2-dilemma",
+      "lemma": "Dilemma",
+      "value": [
+        "Dilemmas",
+        "Dilemmata"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/deklination/substantive/Dilemma",
+      "note": "Both Dilemmas and Dilemmata are accepted plural forms."
+    },
+    {
+      "entry_id": "curated:lexeme-de-c2-zwiespalt",
+      "lemma": "Zwiespalt",
+      "value": [
+        "Zwiespalte",
+        "Zwiespälte"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Zwiespalt",
+      "note": "Both forms are recorded by Duden; plural use is rare."
+    },
+    {
+      "entry_id": "frequency:296",
+      "lemma": "Kerl",
+      "value": [
+        "Kerle"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Kerl",
+      "note": "Kerle is the usual plural for guy/fellow; Kerls is a North German colloquial variant.",
+      "article_bank_plural": "Kerle"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "pack_id": "verbwerk.wikidata.supplement.v1",
+  "pack_role": "supplemental",
+  "version": "1.0.0",
+  "entry_count": 24,
+  "languages_target_supported": [
+    "de"
+  ],
+  "gloss_languages_supported": [
+    "en"
+  ],
+  "wikidata_license": "CC0-1.0",
+  "learner_text_license": "Verbwerk project content; newly written German definitions and example sentences are released under CC BY 4.0 for this supplement.",
+  "source_url": "https://www.wikidata.org/wiki/Wikidata:Licensing",
+  "retrieved_at": "2026-10-31",
+  "notes": "Adds approved Wikidata lexemes absent from the pinned Lexicon snapshot. The 50-word pilot remains a separate screen; this pack has no CEFR assignments or category tags."
+}

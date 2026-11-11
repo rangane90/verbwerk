@@ -1,0 +1,485 @@
+{
+  "batch_id": "v11-vocabulary-review-14",
+  "review_date": "2026-11-11",
+  "input_database_sha256": "816e6c8e8b6491c65005179009ca58b4e98042975fb9671f4eb1e403b6a0cdcb",
+  "accepted_examples": [
+    {
+      "entry_id": "frequency:744",
+      "german": "Der ganze Schnee auf dem Berg ist verschwunden.",
+      "english": "All the snow on the mountain has disappeared.",
+      "note": "Verschwunden is used predicatively and means disappeared; the English translation matches."
+    },
+    {
+      "entry_id": "frequency:745",
+      "german": "Kann ich es wirklich zu diesem Preis haben?",
+      "english": "Can I really have it at this price?",
+      "note": "Preis means price in this sentence, and the English asks whether it can be bought at that price."
+    },
+    {
+      "entry_id": "frequency:746",
+      "german": "Bitte sag mir, dass das ein Witz ist!",
+      "english": "Please tell me it's a joke.",
+      "note": "Witz is used in the ordinary sense joke; the translation matches."
+    },
+    {
+      "entry_id": "frequency:748",
+      "german": "Hier ist alles vom Geist der Geschichte durchdrungen.",
+      "english": "Everything here is permeated by the spirit of history.",
+      "note": "Geist is used in the sense spirit; the sentence and translation agree."
+    },
+    {
+      "entry_id": "frequency:749",
+      "german": "Ein alter Mann saß neben mir im Bus.",
+      "english": "An old man sat next to me on the bus.",
+      "note": "Neben expresses physical position beside the speaker; next to is an accurate translation."
+    },
+    {
+      "entry_id": "frequency:750",
+      "german": "Die Firma gibt viel Geld für Werbung aus.",
+      "english": "The company spends a lot of money on advertising.",
+      "note": "Firma means company here; both sentence and translation are natural."
+    },
+    {
+      "entry_id": "frequency:756",
+      "german": "Das Boot hielt sich dicht an der Küste.",
+      "english": "The boat hugged the shore.",
+      "note": "Boot means boat and the sentence is a clear, grammatically sound example."
+    },
+    {
+      "entry_id": "frequency:757",
+      "german": "Die Katze hat angefangen, sich seltsam zu benehmen.",
+      "english": "The cat has started acting strangely.",
+      "note": "Seltsam is used adverbially with sich benehmen and means strangely."
+    },
+    {
+      "entry_id": "frequency:758",
+      "german": "Tom fand den Brief, den Maria versteckt hatte.",
+      "english": "Tom found the letter Mary had hidden.",
+      "note": "Versteckt is the participial adjective hidden in the relative clause; the translation matches."
+    },
+    {
+      "entry_id": "frequency:759",
+      "german": "Das Einzige, was wir fürchten müssen, ist die Furcht selbst.",
+      "english": "The only thing we have to fear is fear itself.",
+      "note": "Fürchten is used in its ordinary sense fear; this established quotation is translated accurately."
+    },
+    {
+      "entry_id": "frequency:762",
+      "german": "Er hält sich gerade bei seiner Tante auf.",
+      "english": "He is staying with his aunt.",
+      "note": "Tante means aunt; the sentence and translation match."
+    },
+    {
+      "entry_id": "curated:lex-de-erwarten",
+      "german": "Nur aus Neugier gefragt, was erwarten Sie, was geschehen wird?",
+      "english": "Just out of curiosity, what do you expect to happen?",
+      "note": "Erwarten asks what someone expects to happen; the translation matches the entry sense."
+    },
+    {
+      "entry_id": "frequency:765",
+      "german": "Ich kann auf ein Wunder hoffen, nicht wahr?",
+      "english": "I can hope for a miracle, can't I?",
+      "note": "Wunder means miracle and is used in that sense."
+    },
+    {
+      "entry_id": "frequency:766",
+      "german": "Die Orange schmeckte weder süß noch sauer.",
+      "english": "The orange didn't taste either sweet or sour.",
+      "note": "Sauer means sour in the taste contrast; the translation is exact."
+    },
+    {
+      "entry_id": "curated:lex-de-vermutlich",
+      "german": "Du bist vermutlich nicht in der Stimmung, das jetzt zu erfahren, aber ich muss dir etwas Wichtiges mitteilen.",
+      "english": "You may not be in the mood to hear this now, but I need to tell you something important.",
+      "note": "Vermutlich means probably/may and is used to express likelihood with uncertainty."
+    },
+    {
+      "entry_id": "frequency:769",
+      "german": "Ein Major musste das Kommando über die Division übernehmen.",
+      "english": "A major had to take command of the division.",
+      "note": "Major is the military rank in the sentence; the English translation matches."
+    },
+    {
+      "entry_id": "curated:lex-de-jung",
+      "german": "Ich war damals jung und naiv.",
+      "english": "I was young and naive at that time.",
+      "note": "Jung describes the speaker as young; the translation is accurate."
+    },
+    {
+      "entry_id": "frequency:772",
+      "german": "Ich fand, dass es mich älter aussehen ließ.",
+      "english": "I thought it made me look older.",
+      "note": "Aussehen means look/appear and is used as a bare infinitive after lassen."
+    },
+    {
+      "entry_id": "frequency:774",
+      "german": "Ich schwöre, dass ich dich immer beschützen werde.",
+      "english": "I swear I'll always protect you.",
+      "note": "Beschützen is correctly used for protecting someone; the translation matches."
+    },
+    {
+      "entry_id": "frequency:775",
+      "german": "Ich gratuliere! Sie haben eine Tochter geboren.",
+      "english": "Congratulations! You've given birth to a daughter.",
+      "note": "Gebären is represented by the participle geboren; the translation correctly says give birth."
+    }
+  ],
+  "held_examples": [
+    {
+      "entry_id": "frequency:751",
+      "german": "Tom süßte sich den Tee mit Honig statt mit Zucker; Maria süßte sich ihren gar nicht.",
+      "reason": "The candidate is an unwieldy two-person semicolon sentence with a difficult reflexive construction for a basic verb example."
+    },
+    {
+      "entry_id": "curated:lex-de-rucken",
+      "german": "He! Was versteckst du da hinter deinem Rücken?",
+      "reason": "The interjection He! is unusual and distracting in a learner example; use a direct, current sentence."
+    },
+    {
+      "entry_id": "curated:lex-de-offnen",
+      "german": "Dieses Fenster lässt sich nicht öffnen. Schau mal, ob du es gängig machen kannst.",
+      "reason": "The long sentence adds an uncommon phrase (gängig machen) and distracts from the basic meaning open."
+    },
+    {
+      "entry_id": "frequency:761",
+      "german": "Tom hat es zu einem guten Preis verkauft.",
+      "reason": "The candidate uses verkauft as the main verb participle although this entry is the adjective sold; this replacement makes its predicative adjective use explicit."
+    }
+  ],
+  "editorial_examples": [
+    {
+      "entry_id": "frequency:751",
+      "german": "Ich süße meinen Tee mit Honig.",
+      "english": "I sweeten my tea with honey.",
+      "note": "The candidate is an unwieldy two-person semicolon sentence with a difficult reflexive construction for a basic verb example.",
+      "evidence_url": "https://www.duden.de/rechtschreibung/suessen"
+    },
+    {
+      "entry_id": "curated:lex-de-rucken",
+      "german": "Ich habe mir den Rücken verletzt.",
+      "english": "I injured my back.",
+      "note": "The interjection He! is unusual and distracting in a learner example; use a direct, current sentence.",
+      "evidence_url": "https://www.duden.de/rechtschreibung/Ruecken"
+    },
+    {
+      "entry_id": "curated:lex-de-offnen",
+      "german": "Bitte öffne das Fenster.",
+      "english": "Please open the window.",
+      "note": "The long sentence adds an uncommon phrase (gängig machen) and distracts from the basic meaning open.",
+      "evidence_url": "https://www.duden.de/rechtschreibung/oeffnen"
+    },
+    {
+      "entry_id": "frequency:761",
+      "german": "Das Ticket ist schon verkauft.",
+      "english": "The ticket has already been sold.",
+      "note": "The candidate uses verkauft as the main verb participle although this entry is the adjective sold; this replacement makes its predicative adjective use explicit.",
+      "evidence_url": "https://www.duden.de/rechtschreibung/verkauft"
+    }
+  ],
+  "plural_reviews": [
+    {
+      "entry_id": "frequency:2338",
+      "value": [
+        "Couchs",
+        "Couches",
+        "Couchen"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Couch",
+      "note": "Duden lists all three plural variants for the sofa sense.",
+      "usage_note": "All three forms are standard variants."
+    },
+    {
+      "entry_id": "frequency:2341",
+      "value": [
+        "Ausdrücke"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Ausdruck",
+      "note": "For expression/term, the plural is Ausdrücke; Ausdrucke without umlaut is a different sense (printed copies).",
+      "usage_note": "Use Ausdrücke for expression/term; Ausdrucke belongs to the printing sense."
+    },
+    {
+      "entry_id": "frequency:2350",
+      "value": [
+        "Räder"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Rad_Fahrrad",
+      "note": "The wheel sense forms Räder.",
+      "usage_note": "Standard plural: Räder."
+    },
+    {
+      "entry_id": "frequency:2364",
+      "value": [
+        "Erwachsene"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Erwachsener",
+      "note": "For a substantivized adjective meaning an adult, the nominative plural is Erwachsene; other cases may show Erwachsenen.",
+      "usage_note": "Nominative plural: Erwachsene; use Erwachsenen in weakly declined cases."
+    },
+    {
+      "entry_id": "frequency:2368",
+      "value": [
+        "Gefangene"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Gefangene",
+      "note": "For the female prisoner sense, the nominative plural is Gefangene; weakly declined cases use Gefangenen.",
+      "usage_note": "Nominative plural: Gefangene; use Gefangenen in weakly declined cases."
+    },
+    {
+      "entry_id": "frequency:2390",
+      "value": [
+        "Knarren"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Knarre",
+      "note": "Knarre forms Knarren; the slang register belongs to the meaning, not the plural.",
+      "usage_note": "Slang term for gun; standard plural Knarren."
+    },
+    {
+      "entry_id": "frequency:2405",
+      "value": "Usually singular as a collective in the employee/staff sense.",
+      "source": "Duden",
+      "url": "https://www.duden.de/deklination/substantive/Personal",
+      "note": "Duden gives the collective staff sense and only singular declension; the extracted Personale is not a normal learner plural for this sense.",
+      "usage_note": "Collective noun normally used in the singular; use Beschäftigte or Mitarbeitende for individuals."
+    },
+    {
+      "entry_id": "frequency:2417",
+      "value": [
+        "Leutnants",
+        "Leutnante"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Leutnant",
+      "note": "For an officer, Duden lists Leutnants as the usual plural and Leutnante as rare; the rank itself can be used without plural.",
+      "usage_note": "Leutnants is usual for officers; Leutnante is rare. The rank title itself is often singular."
+    },
+    {
+      "entry_id": "frequency:2421",
+      "value": [
+        "Bewusstseine"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/deklination/substantive/Bewusstsein",
+      "note": "Duden lists Bewusstseine and explicitly marks the plural rare.",
+      "usage_note": "Rare plural; the abstract concept is normally singular."
+    },
+    {
+      "entry_id": "frequency:2444",
+      "value": [
+        "Beuten"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Beute_Opfer",
+      "note": "Duden explicitly lists Beuten for the loot/prey sense.",
+      "usage_note": "Plural is Beuten; the collective sense is often singular."
+    },
+    {
+      "entry_id": "frequency:2445",
+      "value": [
+        "Bauten"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Bau",
+      "note": "For the building/structure sense the plural is Bauten; Baue belongs to the animal-den sense.",
+      "usage_note": "Use Bauten for structures; Baue is a different sense (animal burrows)."
+    },
+    {
+      "entry_id": "frequency:2456",
+      "value": [
+        "Hitzen"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Hitze",
+      "note": "Duden marks Hitzen as a technical plural; everyday heat is normally singular.",
+      "usage_note": "Hitzen is technical; the ordinary heat sense is normally singular."
+    },
+    {
+      "entry_id": "frequency:2471",
+      "value": "Plural-only in the holiday/break sense.",
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Ferien",
+      "note": "Ferien is plural-only for holidays; no singular Ferien is used in this sense.",
+      "usage_note": "Plural-only noun."
+    },
+    {
+      "entry_id": "frequency:2475",
+      "value": [
+        "Weiße"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Weisze_Frau",
+      "note": "For the beer sense, Weiße is the nominative plural; Weißen is an inflected case form.",
+      "usage_note": "Nominative plural: Weiße; dative/weak forms may be Weißen."
+    },
+    {
+      "entry_id": "frequency:2479",
+      "value": [
+        "Admirale",
+        "Admiräle"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Admiral",
+      "note": "Duden lists Admirale as the usual plural and Admiräle as an alternative; the military rank title itself may be singular.",
+      "usage_note": "Admirale is usual; Admiräle is also correct."
+    },
+    {
+      "entry_id": "frequency:2490",
+      "value": [
+        "Pulse"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Puls",
+      "note": "Puls forms Pulse.",
+      "usage_note": "Standard plural: Pulse."
+    },
+    {
+      "entry_id": "frequency:2491",
+      "value": [
+        "Flure"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Flur",
+      "note": "For the hallway sense, the plural is Flure.",
+      "usage_note": "Standard plural: Flure."
+    },
+    {
+      "entry_id": "frequency:2495",
+      "value": [
+        "Laster"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Laster",
+      "note": "Laster has an unchanged plural in the vice sense.",
+      "usage_note": "Plural is unchanged: Laster."
+    },
+    {
+      "entry_id": "frequency:2532",
+      "value": [
+        "Flecke",
+        "Flecken"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Fleck",
+      "note": "Both Flecke and Flecken are used for spots/stains; Duden uses Flecke as the primary form and also records Flecken as a variant.",
+      "usage_note": "Flecke is the primary form; Flecken is also used."
+    },
+    {
+      "entry_id": "frequency:2535",
+      "value": [
+        "Verdächtige"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Verdächtiger",
+      "note": "For substantivized Verdächtiger, the nominative plural is Verdächtige; weakly declined cases use Verdächtigen.",
+      "usage_note": "Nominative plural: Verdächtige; use Verdächtigen in weakly declined cases."
+    },
+    {
+      "entry_id": "frequency:2536",
+      "value": [
+        "Enkel"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Enkel",
+      "note": "Enkel has an unchanged plural.",
+      "usage_note": "Plural is unchanged: Enkel."
+    },
+    {
+      "entry_id": "frequency:2574",
+      "value": [
+        "Sandwiches",
+        "Sandwichs",
+        "Sandwiche"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Sandwich",
+      "note": "Duden represents Sandwich[e]s and also lists Sandwiche for the food sense, covering Sandwiches, Sandwichs and Sandwiche.",
+      "usage_note": "All three variants are recorded; Sandwiches is a clear learner-facing form."
+    },
+    {
+      "entry_id": "frequency:2577",
+      "value": [
+        "Toaste",
+        "Toasts"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Toast",
+      "note": "Duden lists both Toaste and Toasts, including for the toast/salutation sense.",
+      "usage_note": "Both Toaste and Toasts are standard."
+    },
+    {
+      "entry_id": "frequency:2584",
+      "value": [
+        "Coaches",
+        "Coachs"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/deklination/substantive/Coach_Trainer",
+      "note": "Duden lists Coaches and Coachs for a trainer/coach.",
+      "usage_note": "Both Coaches and Coachs are standard."
+    },
+    {
+      "entry_id": "frequency:2606",
+      "value": [
+        "Michels"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Michel",
+      "note": "The countable personification/representative form can take Michels; Michel alone is not a distinct plural in ordinary use.",
+      "usage_note": "The cultural personification “der deutsche Michel” is usually singular; Michels is possible when counting individual figures."
+    },
+    {
+      "entry_id": "frequency:2607",
+      "value": [
+        "Blöcke"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Block",
+      "note": "For a bloc/grouping, the plural is Blöcke; Blocks belongs to other meanings/loanword uses.",
+      "usage_note": "Use Blöcke for political or organizational blocs."
+    },
+    {
+      "entry_id": "frequency:2614",
+      "value": "Usually singular in this abstract fear/anxiety sense.",
+      "source": "Duden",
+      "url": "https://www.duden.de/deklination/substantive/Furcht",
+      "note": "Duden gives only singular declension for Furcht; the extracted Fürchte is not a normal plural in this abstract sense.",
+      "usage_note": "Usually singular; do not use Fürchte as the ordinary plural."
+    },
+    {
+      "entry_id": "frequency:2639",
+      "value": [
+        "Tempi",
+        "Tempos"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Tempo",
+      "note": "Both Tempi and Tempos are accepted plurals for tempo/rate.",
+      "usage_note": "Both Tempi and Tempos are used."
+    },
+    {
+      "entry_id": "frequency:2654",
+      "value": [
+        "Ränder"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Rand",
+      "note": "For the edge/border sense, the plural is Ränder.",
+      "usage_note": "Standard plural: Ränder."
+    },
+    {
+      "entry_id": "frequency:2662",
+      "value": [
+        "Reiche"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Reicher",
+      "note": "For the substantivized adjective meaning a rich person, the nominative plural is Reiche; weakly declined forms use Reichen.",
+      "usage_note": "Nominative plural: Reiche; use Reichen in weakly declined cases."
+    }
+  ]
+}

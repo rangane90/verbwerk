@@ -1,0 +1,640 @@
+{
+  "batch_id": "v11-vocabulary-review-19",
+  "review_date": "2026-11-11",
+  "input_database_sha256": "5bcc2f6c65a40ac46925733ae53687b7b26f24b1749bf5c44758875576d53fc4",
+  "accepted_examples": [
+    {
+      "entry_id": "frequency:931",
+      "german": "Es ist furchtbar kalt heute.",
+      "english": "It's awfully cold today.",
+      "note": "furchtbar is used as an intensifier meaning awfully/terribly, and both languages express the same degree of cold."
+    },
+    {
+      "entry_id": "curated:lex-de-drinnen",
+      "german": "Draußen ist’s heiß. Lass uns also drinnen sprechen!",
+      "english": "It's hot outside, so let's talk inside.",
+      "note": "drinnen means inside; the contrast with draußen and the English translation align."
+    },
+    {
+      "entry_id": "frequency:934",
+      "german": "Lass etwas Kuchen für uns andere übrig.",
+      "english": "Leave some cake for the rest of us.",
+      "note": "übrig means remaining/left over, matching the request to leave cake for the rest of the group."
+    },
+    {
+      "entry_id": "frequency:935",
+      "german": "Die Polizei schaute überall und konnte keine Spur von Tom finden.",
+      "english": "The police looked everywhere and couldn't find any trace of Tom.",
+      "note": "Spur means trace in the sense of a sign of someone’s presence; the English translation matches."
+    },
+    {
+      "entry_id": "frequency:937",
+      "german": "Die Flasche bitte nicht aus dem Fenster werfen!",
+      "english": "Please don't throw the bottle out the window.",
+      "note": "werfen is used as the infinitive after bitte nicht and means throw, exactly as translated."
+    },
+    {
+      "entry_id": "frequency:940",
+      "german": "Er heißt Tom, und er ist Marias Ehemann.",
+      "english": "His name is Tom and he's Mary's husband.",
+      "note": "Ehemann means husband; the possessive Marias and English possessive agree."
+    },
+    {
+      "entry_id": "frequency:941",
+      "german": "Die drohen damit, die Geiseln zu erschießen.",
+      "english": "They're threatening to shoot the hostages.",
+      "note": "erschießen means shoot dead; the sentence and translation describe a threat to kill by shooting."
+    },
+    {
+      "entry_id": "frequency:952",
+      "german": "Geben Sie Ihren Namen und Ihre Adresse an.",
+      "english": "Fill in your name and address.",
+      "note": "Adresse means address; the formal instruction and translation convey the same action."
+    },
+    {
+      "entry_id": "frequency:953",
+      "german": "Das ist Unsinn. Nur ein Narr würde es glauben.",
+      "english": "That's nonsense. Nobody but a fool would believe it.",
+      "note": "Unsinn means nonsense, with the same claim in both languages."
+    },
+    {
+      "entry_id": "frequency:956",
+      "german": "Du bist die einzige, die mir Respekt entgegenbringt.",
+      "english": "You're the only person who shows me any respect.",
+      "note": "Respekt is the noun respect, and entgegenbringen is correctly translated as show."
+    },
+    {
+      "entry_id": "frequency:962",
+      "german": "Es kam zu einer Schwierigkeit nach der anderen.",
+      "english": "One difficulty after another arose.",
+      "note": "Schwierigkeit means difficulty/problem; the sentence and translation convey repeated problems arising."
+    },
+    {
+      "entry_id": "frequency:964",
+      "german": "Der Jupiter ist der größte Planet des Sonnensystems.",
+      "english": "Jupiter is the largest planet in the Solar System.",
+      "note": "Planet is used for Jupiter in the astronomical sense, with a matching superlative."
+    },
+    {
+      "entry_id": "frequency:966",
+      "german": "Der Lehrer stand in der Mitte der Gruppe.",
+      "english": "The teacher stood in the middle of the group.",
+      "note": "Gruppe means group, and the sentence and translation agree."
+    },
+    {
+      "entry_id": "frequency:968",
+      "german": "Tom hat wirklich einen schlechten Deal bekommen.",
+      "english": "Tom really got a bad deal.",
+      "note": "Deal means a deal/transaction; schlecht selects the same negative sense in English."
+    },
+    {
+      "entry_id": "frequency:969",
+      "german": "Hast du irgendwelche Sachen, die du nie anziehst?",
+      "english": "Do you have any clothes that you never wear?",
+      "note": "irgendwelche means any/no matter which in this question about clothes."
+    },
+    {
+      "entry_id": "frequency:971",
+      "german": "Ich hätte es gerne mit jeder Menge Eis.",
+      "english": "I want it with plenty of ice.",
+      "note": "Eis is used as ice in a food/drink context, matching the translation."
+    },
+    {
+      "entry_id": "frequency:977",
+      "german": "Hast du schon etwas für das Wochenende vor?",
+      "english": "Do you have any plans for the weekend?",
+      "note": "Wochenende means weekend; the question asks about plans for that weekend."
+    },
+    {
+      "entry_id": "frequency:978",
+      "german": "Das ist es, worüber wir uns Sorgen machen.",
+      "english": "That's what we're worried about.",
+      "note": "worüber introduces the topic of the concern; the English worried about preserves the prepositional sense."
+    },
+    {
+      "entry_id": "curated:lex-de-bein",
+      "german": "Tom hat Mühe, auf einem Bein zu stehen.",
+      "english": "Tom has trouble standing on one leg.",
+      "note": "Bein means leg in the body-part sense, and the balance sentence translates directly."
+    },
+    {
+      "entry_id": "frequency:981",
+      "german": "Das ist ein Verbrechen.",
+      "english": "That's a felony.",
+      "note": "Verbrechen means a serious crime; felony is a context-appropriate English rendering."
+    },
+    {
+      "entry_id": "frequency:983",
+      "german": "Wie oft hörst du nachts die Wölfe heulen?",
+      "english": "How often do you hear wolves howling at night?",
+      "note": "nachts means at night, matching the time in the sentence."
+    },
+    {
+      "entry_id": "curated:lex-de-schmerz",
+      "german": "Das waren die schlimmsten Schmerzen, die ich je erlebt habe.",
+      "english": "That was the worst pain I have ever felt.",
+      "note": "Schmerz appears in its plural Schmerzen for physical pain; the bilingual pair refers to the same experience."
+    },
+    {
+      "entry_id": "frequency:986",
+      "german": "Sie ging gleich ans Telefon, als sie es klingeln hörte.",
+      "english": "She answered the telephone as soon as she heard the bell ring.",
+      "note": "klingeln means ring/make a bell sound, and the sentence and translation describe hearing the telephone ring."
+    },
+    {
+      "entry_id": "frequency:987",
+      "german": "Der Wettkampf um diese Position ist sehr intensiv.",
+      "english": "Competition for the position is very intense.",
+      "note": "Position means position/post, matching the competition for a role."
+    },
+    {
+      "entry_id": "frequency:988",
+      "german": "Ihr scheint die gleichen Probleme wie ich zu haben.",
+      "english": "It looks like you have the same problems I do.",
+      "note": "gleichen means resemble/be like; the comparison of problems is the same in both languages."
+    },
+    {
+      "entry_id": "frequency:989",
+      "german": "Hast du dir im Fernsehen das Fußballspiel angesehen?",
+      "english": "Did you watch the match on television?",
+      "note": "Fernsehen means television; the sentence refers to watching a football match on television."
+    },
+    {
+      "entry_id": "curated:lex-de-schliesslich",
+      "german": "Also habt ihr schließlich doch beschlossen zu kommen.",
+      "english": "So, you decided to come after all.",
+      "note": "schließlich means finally/after all; the sentence’s doch and the English after all express the same conclusion."
+    },
+    {
+      "entry_id": "frequency:991",
+      "german": "Das ist der Fisch, den er gefangen hat.",
+      "english": "This is the fish he caught.",
+      "note": "gefangen is the participle of fangen and means caught, matching the relative clause."
+    },
+    {
+      "entry_id": "curated:lex-de-schwierig",
+      "german": "Dieses Buch ist zu schwierig für mich.",
+      "english": "This book is too difficult for me to understand.",
+      "note": "schwierig means difficult; the book is described as too difficult for the speaker."
+    },
+    {
+      "entry_id": "curated:lex-de-angebot",
+      "german": "Wir waren gezwungen, Toms Angebot anzunehmen.",
+      "english": "We were forced to accept Tom's proposal.",
+      "note": "Angebot means proposal/offer; Tom’s proposal is what they were forced to accept."
+    },
+    {
+      "entry_id": "frequency:994",
+      "german": "Er steckte Maria den Ring an den Finger.",
+      "english": "He put the ring on Mary's finger.",
+      "note": "Ring means a circular piece of jewelry here, matching the English translation."
+    },
+    {
+      "entry_id": "frequency:996",
+      "german": "Haben Sie schon einmal dieses Lied gehört, auf Französisch gesungen?",
+      "english": "Have you ever heard that song sung in French?",
+      "note": "Lied means a sung musical composition; the French-language performance is described in both versions."
+    },
+    {
+      "entry_id": "frequency:998",
+      "german": "Sorry, dass ich deine Party verpasst habe.",
+      "english": "I'm sorry I missed your party.",
+      "note": "sorry is used as an apology for missing the party, the same function as in English."
+    },
+    {
+      "entry_id": "frequency:999",
+      "german": "Es sieht fantastisch aus.",
+      "english": "It looks fantastic.",
+      "note": "fantastisch means fantastic, and the sentence and translation are direct equivalents."
+    },
+    {
+      "entry_id": "frequency:1000",
+      "german": "Der Fuchs tappt nicht zweimal in dieselbe Falle.",
+      "english": "A fox isn't caught twice in the same snare.",
+      "note": "Falle means trap/snare in the proverb; the English translation is equivalent."
+    },
+    {
+      "entry_id": "frequency:1001",
+      "german": "Es sieht so aus, als hättest du einen Drink nötig.",
+      "english": "You look like you could use a drink.",
+      "note": "Drink means an alcoholic drink in this idiomatic English rendering; nötig makes the context fit."
+    },
+    {
+      "entry_id": "frequency:1002",
+      "german": "Auf der Insel gibt es nur eine Straße.",
+      "english": "There's only one road on the island.",
+      "note": "Insel means island and is used in the same geographic sense in both languages."
+    },
+    {
+      "entry_id": "frequency:1004",
+      "german": "Wir sind uns rein zufällig begegnet.",
+      "english": "Our meeting was purely accidental.",
+      "note": "zufällig means by chance/accidentally; the meeting is described as accidental in English."
+    },
+    {
+      "entry_id": "frequency:1005",
+      "german": "Was ist der Unterschied zwischen einem Dorf und einer Stadt?",
+      "english": "What's the difference between a village and a town?",
+      "note": "Dorf means village; the comparison with a town is translated accurately."
+    }
+  ],
+  "held_examples": [
+    {
+      "entry_id": "frequency:942",
+      "german": "Nie, solange ich lebe, werde ich dir verzeihen!",
+      "reason": "The German sentence says the speaker will forgive the person, while the English says the opposite; the pair reverses the meaning."
+    },
+    {
+      "entry_id": "frequency:943",
+      "german": "Ich habe Tom als „fettes Schwein“ tituliert.",
+      "reason": "The candidate is an insulting expression directed at a person, not a neutral animal example for the entry."
+    },
+    {
+      "entry_id": "frequency:944",
+      "german": "Ganz unter uns: sie ist wirklich ein Monster.",
+      "reason": "The candidate uses monster as a personal insult; a neutral fictional-creature context is clearer for learners."
+    },
+    {
+      "entry_id": "frequency:948",
+      "german": "Laß uns so weit vorne wie möglich sitzen!",
+      "reason": "The sentence uses superseded spelling Laß; use current standard spelling in learner-facing material."
+    },
+    {
+      "entry_id": "frequency:954",
+      "german": "Tom hat ein Messer in der Hand.",
+      "reason": "Messer means knife in this sentence, but the selected entry sense is measurer/surveyor."
+    },
+    {
+      "entry_id": "curated:lex-de-gesund",
+      "german": "Eine neue Studie besagt, daß Kaffee gesund ist.",
+      "reason": "The German uses superseded spelling daß; use current standard spelling."
+    },
+    {
+      "entry_id": "frequency:958",
+      "german": "Leiste nur weiterhin so gute Arbeit.",
+      "reason": "Leiste is a verb form of leisten here, not the noun Leiste in the selected entry."
+    },
+    {
+      "entry_id": "frequency:961",
+      "german": "Ich habe eine Thermoskanne Kaffee gemacht, so dass ihr ihn mitnehmen könnt zu eurem Imbiss.",
+      "reason": "The German phrasing zu eurem Imbiss is awkward and the English lunch does not accurately match Imbiss."
+    },
+    {
+      "entry_id": "curated:lex-de-schliessen",
+      "german": "Ich bin nicht hier, um Freundschaften zu schließen.",
+      "reason": "schließen means make something no longer open here; the source instead uses the different idiom Freundschaften schließen."
+    },
+    {
+      "entry_id": "frequency:984",
+      "german": "Die Prinzessin konnte nicht umhin, seiner zu lachen.",
+      "reason": "The German construction seiner zu lachen is ungrammatical for the meaning in the English translation."
+    },
+    {
+      "entry_id": "frequency:1008",
+      "german": "Das ist ein Bulle.",
+      "reason": "Bulle can also mean a police officer; the sentence gives no livestock context to disambiguate the intended animal sense."
+    }
+  ],
+  "editorial_examples": [
+    {
+      "entry_id": "frequency:942",
+      "german": "Ich hoffe, dass du mir eines Tages verzeihen kannst.",
+      "english": "I hope that you can forgive me one day.",
+      "note": "A neutral, direct example of verzeihen with a clear dative object."
+    },
+    {
+      "entry_id": "frequency:943",
+      "german": "Das Schwein liegt im Stroh und ruht sich aus.",
+      "english": "The pig is lying in the straw and resting.",
+      "note": "A neutral farm-animal context avoids using Schwein as an insult."
+    },
+    {
+      "entry_id": "frequency:944",
+      "german": "Im Märchen lebt ein freundliches Monster unter der Brücke.",
+      "english": "A friendly monster lives under the bridge in the fairy tale.",
+      "note": "A neutral fictional-creature context demonstrates the noun without insulting a person."
+    },
+    {
+      "entry_id": "frequency:948",
+      "german": "Lass uns so weit vorne wie möglich sitzen.",
+      "english": "Let’s sit as close to the front as we can.",
+      "note": "The revised sentence uses current standard spelling."
+    },
+    {
+      "entry_id": "frequency:954",
+      "german": "Der Messer nahm die Maße des Grundstücks auf.",
+      "english": "The surveyor measured the plot of land.",
+      "note": "This uses Messer in the selected, less common sense of a person who measures."
+    },
+    {
+      "entry_id": "curated:lex-de-gesund",
+      "german": "Eine ausgewogene Ernährung ist gesund.",
+      "english": "A balanced diet is healthy.",
+      "note": "A short contemporary sentence with current spelling and a direct translation."
+    },
+    {
+      "entry_id": "frequency:958",
+      "german": "Die Leiste an der Wand verdeckt die Kante des Bodens.",
+      "english": "The trim along the wall covers the edge of the floor.",
+      "note": "This demonstrates the noun Leiste as a strip of trim."
+    },
+    {
+      "entry_id": "frequency:961",
+      "german": "Nimm bitte einen Regenschirm mit.",
+      "english": "Please take an umbrella with you.",
+      "note": "A concise, natural example of separable mitnehmen."
+    },
+    {
+      "entry_id": "curated:lex-de-schliessen",
+      "german": "Bitte schließen Sie die Tür hinter sich.",
+      "english": "Please close the door behind you.",
+      "note": "This demonstrates the selected meaning of schließen directly."
+    },
+    {
+      "entry_id": "frequency:984",
+      "german": "Die Prinzessin konnte nicht aufhören, über den Witz zu lachen.",
+      "english": "The princess could not stop laughing at the joke.",
+      "note": "The replacement is grammatical and aligns directly with the English translation."
+    },
+    {
+      "entry_id": "frequency:1008",
+      "german": "Der Bulle grast mit der Herde auf der Weide.",
+      "english": "The bull is grazing with the herd in the pasture.",
+      "note": "The pasture context makes the livestock sense unambiguous."
+    }
+  ],
+  "plural_reviews": [
+    {
+      "entry_id": "frequency:3795",
+      "value": [
+        "Tumore",
+        "Tumoren"
+      ],
+      "source": "English Wiktionary via Kaikki/Wiktextract",
+      "url": "https://en.wiktionary.org/wiki/Tumor#German",
+      "note": "Both plural formations are established for the medical noun; Tumoren is common in technical usage."
+    },
+    {
+      "entry_id": "frequency:3804",
+      "value": [
+        "Gins"
+      ],
+      "source": "German Wiktionary via gambolputty/german-nouns",
+      "url": "https://de.wiktionary.org/wiki/Gin",
+      "note": "Regular -s plural when counting bottles or servings; gin as a substance is normally uncountable."
+    },
+    {
+      "entry_id": "frequency:3806",
+      "value": [
+        "Liter"
+      ],
+      "source": "English Wiktionary via Kaikki/Wiktextract",
+      "url": "https://en.wiktionary.org/wiki/Liter#German",
+      "note": "The unit name Liter is unchanged in the plural."
+    },
+    {
+      "entry_id": "frequency:3816",
+      "value": [
+        "Lehren"
+      ],
+      "source": "English Wiktionary via Kaikki/Wiktextract",
+      "url": "https://en.wiktionary.org/wiki/Lehre#German",
+      "note": "For teaching doctrines/tenets, Lehren is the standard plural."
+    },
+    {
+      "entry_id": "frequency:3818",
+      "value": "Usually no plural in the material sense",
+      "source": "German Wiktionary via gambolputty/german-nouns",
+      "url": "https://de.wiktionary.org/wiki/Schrott",
+      "note": "Schrott is normally a mass noun for scrap/junk; Schrotte is rare and refers to distinct kinds.",
+      "usage_note": "Schrott is normally a mass noun for scrap/junk; Schrotte is rare and refers to distinct kinds.",
+      "usage_source": "German Wiktionary via gambolputty/german-nouns"
+    },
+    {
+      "entry_id": "frequency:3834",
+      "value": [
+        "Futter"
+      ],
+      "source": "English Wiktionary via Kaikki/Wiktextract and German Wiktionary via Kaikki/Wiktextract",
+      "url": "https://de.wiktionary.org/wiki/Futter",
+      "note": "Futter is generally a mass noun; the unchanged plural may refer to different animal feeds."
+    },
+    {
+      "entry_id": "frequency:3853",
+      "value": "Plural-only form: Pommes",
+      "source": "English Wiktionary via Kaikki/Wiktextract",
+      "url": "https://en.wiktionary.org/wiki/Pommes#German",
+      "note": "In the French-fries sense, Pommes is conventionally plural-only in everyday German."
+    },
+    {
+      "entry_id": "frequency:3863",
+      "value": [
+        "Finale",
+        "Finals"
+      ],
+      "source": "English Wiktionary via Kaikki/Wiktextract",
+      "url": "https://en.wiktionary.org/wiki/Finale#German",
+      "note": "Finale is the standard plural; Finals is also used in sports contexts."
+    },
+    {
+      "entry_id": "frequency:3907",
+      "value": "Usually no plural in the abstract honesty sense",
+      "source": "English Wiktionary via Kaikki/Wiktextract",
+      "url": "https://en.wiktionary.org/wiki/Ehrlichkeit#German",
+      "note": "Ehrlichkeit is an abstract quality and is normally singular; plural Ehrlichkeiten is rare and context-specific.",
+      "usage_note": "Ehrlichkeit is an abstract quality and is normally singular; plural Ehrlichkeiten is rare and context-specific.",
+      "usage_source": "English Wiktionary via Kaikki/Wiktextract"
+    },
+    {
+      "entry_id": "frequency:3924",
+      "value": "Usually no plural in the mass-noun sense",
+      "source": "English Wiktionary via Kaikki/Wiktextract",
+      "url": "https://en.wiktionary.org/wiki/Gestank#German",
+      "note": "Gestank is normally a mass noun; Gestänke is rare and not a useful general learner form.",
+      "usage_note": "Gestank is normally a mass noun; Gestänke is rare and not a useful general learner form.",
+      "usage_source": "English Wiktionary via Kaikki/Wiktextract"
+    },
+    {
+      "entry_id": "frequency:3935",
+      "value": [
+        "Deppen"
+      ],
+      "source": "English Wiktionary via Kaikki/Wiktextract",
+      "url": "https://en.wiktionary.org/wiki/Depp#German",
+      "note": "Standard plural of Depp."
+    },
+    {
+      "entry_id": "frequency:3957",
+      "value": [
+        "Rituale"
+      ],
+      "source": "English Wiktionary via Kaikki/Wiktextract",
+      "url": "https://en.wiktionary.org/wiki/Ritual#German",
+      "note": "Standard plural of Ritual."
+    },
+    {
+      "entry_id": "frequency:3967",
+      "value": [
+        "Kästen"
+      ],
+      "source": "English Wiktionary via Kaikki/Wiktextract",
+      "url": "https://en.wiktionary.org/wiki/Kasten#German",
+      "note": "Standard umlaut plural of Kasten for a crate."
+    },
+    {
+      "entry_id": "frequency:3973",
+      "value": [
+        "Spikes"
+      ],
+      "source": "English Wiktionary via Kaikki/Wiktextract",
+      "url": "https://en.wiktionary.org/wiki/Spike#German",
+      "note": "Regular plural for the loan noun Spike."
+    },
+    {
+      "entry_id": "frequency:3975",
+      "value": [
+        "Durchsuchungsbefehle"
+      ],
+      "source": "English Wiktionary via Kaikki/Wiktextract",
+      "url": "https://en.wiktionary.org/wiki/Durchsuchungsbefehl#German",
+      "note": "Standard plural of Durchsuchungsbefehl."
+    },
+    {
+      "entry_id": "frequency:3986",
+      "value": [
+        "Asse"
+      ],
+      "source": "English Wiktionary via Kaikki/Wiktextract",
+      "url": "https://en.wiktionary.org/wiki/As#German",
+      "note": "For the historical Roman coin/unit sense, Asse is the recorded plural."
+    },
+    {
+      "entry_id": "frequency:3989",
+      "value": [
+        "Models"
+      ],
+      "source": "English Wiktionary via Kaikki/Wiktextract",
+      "url": "https://en.wiktionary.org/wiki/Model#German",
+      "note": "Standard plural of Model in the model sense."
+    },
+    {
+      "entry_id": "frequency:3990",
+      "value": [
+        "Chöre"
+      ],
+      "source": "English Wiktionary via Kaikki/Wiktextract",
+      "url": "https://en.wiktionary.org/wiki/Chor#German",
+      "note": "Standard umlaut plural of Chor for a choir."
+    },
+    {
+      "entry_id": "frequency:4004",
+      "value": [
+        "Picknicks",
+        "Picknicke"
+      ],
+      "source": "English Wiktionary via Kaikki/Wiktextract",
+      "url": "https://en.wiktionary.org/wiki/Picknick#German",
+      "note": "Both forms are recorded; Picknicks is the more usual general form."
+    },
+    {
+      "entry_id": "frequency:4006",
+      "value": [
+        "Hamburger"
+      ],
+      "source": "English Wiktionary via Kaikki/Wiktextract",
+      "url": "https://en.wiktionary.org/wiki/Hamburger#German",
+      "note": "Plural of Hamburger in the inhabitant-of-Hamburg sense is unchanged."
+    },
+    {
+      "entry_id": "frequency:4013",
+      "value": [
+        "Bräutigame"
+      ],
+      "source": "German Wiktionary via gambolputty/german-nouns",
+      "url": "https://de.wiktionary.org/wiki/Br%C3%A4utigam",
+      "note": "Standard plural of Bräutigam."
+    },
+    {
+      "entry_id": "frequency:4033",
+      "value": [
+        "Würmer"
+      ],
+      "source": "English Wiktionary via Kaikki/Wiktextract",
+      "url": "https://en.wiktionary.org/wiki/Wurm#German",
+      "note": "Standard umlaut plural of Wurm."
+    },
+    {
+      "entry_id": "frequency:4046",
+      "value": [
+        "Veranden"
+      ],
+      "source": "German Wiktionary via gambolputty/german-nouns",
+      "url": "https://de.wiktionary.org/wiki/Veranda",
+      "note": "Standard plural of Veranda."
+    },
+    {
+      "entry_id": "frequency:4066",
+      "value": [
+        "Angeklagte"
+      ],
+      "source": "English Wiktionary via Kaikki/Wiktextract",
+      "url": "https://en.wiktionary.org/wiki/Angeklagter#German",
+      "note": "Angeklagte is nominative plural of the substantivized adjective; Angeklagten is an oblique-case form."
+    },
+    {
+      "entry_id": "frequency:4076",
+      "value": [
+        "Tussis"
+      ],
+      "source": "German Wiktionary via gambolputty/german-nouns",
+      "url": "https://de.wiktionary.org/wiki/Tussi",
+      "note": "Recorded plural of this colloquial feminine noun; the word itself is informal and often derogatory."
+    },
+    {
+      "entry_id": "frequency:4078",
+      "value": [
+        "Außerirdische"
+      ],
+      "source": "English Wiktionary via Kaikki/Wiktextract",
+      "url": "https://en.wiktionary.org/wiki/Au%C3%9Ferirdischer#German",
+      "note": "Außerirdische is nominative plural; Außerirdischen is an oblique-case form."
+    },
+    {
+      "entry_id": "frequency:4080",
+      "value": [
+        "Radare",
+        "Radars"
+      ],
+      "source": "English Wiktionary via Kaikki/Wiktextract",
+      "url": "https://en.wiktionary.org/wiki/Radar#German",
+      "note": "Both plurals are recorded for the technical loan noun."
+    },
+    {
+      "entry_id": "frequency:4081",
+      "value": [
+        "Gefechte"
+      ],
+      "source": "German Wiktionary via gambolputty/german-nouns",
+      "url": "https://de.wiktionary.org/wiki/Gefecht",
+      "note": "Standard plural of Gefecht."
+    },
+    {
+      "entry_id": "frequency:4106",
+      "value": [
+        "Fäden"
+      ],
+      "source": "English Wiktionary via Kaikki/Wiktextract",
+      "url": "https://en.wiktionary.org/wiki/Faden#German",
+      "note": "For thread/yarn, Fäden is the standard plural; unchanged Faden is less typical for this sense."
+    },
+    {
+      "entry_id": "frequency:4116",
+      "value": [
+        "Tower"
+      ],
+      "source": "German Wiktionary via gambolputty/german-nouns",
+      "url": "https://de.wiktionary.org/wiki/Tower",
+      "note": "The source records unchanged Tower as the airport-control-tower plural; keep that sense-specific form."
+    }
+  ]
+}

@@ -1,0 +1,368 @@
+{
+  "batch_id": "v11-vocabulary-review-51",
+  "review_date": "2026-11-11",
+  "input_database_sha256": "fd866220af27deae801d36254f6bd2e2afd7d971f9222a37d6d8dbafe34b54b3",
+  "accepted_examples": [
+    {
+      "entry_id": "frequency:4331",
+      "german": "Tom hat Tequila getrunken und Maria Wein.",
+      "english": "Tom drank tequila and Mary drank wine.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4332",
+      "german": "Sie starben auf dem Schlachtfeld.",
+      "english": "They died on the battlefield.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4333",
+      "german": "Ich habe es gemäß Ihren Anweisungen ausgeführt.",
+      "english": "I did it according to your instructions.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4334",
+      "german": "Erinnerst du dich noch, wie der Angreifer aussah?",
+      "english": "Do you remember what the attacker looked like?",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4335",
+      "german": "Die Kokosnuss hat eine harte Schale.",
+      "english": "Coconuts have a hard shell.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4337",
+      "german": "Hast du ein Motto?",
+      "english": "Do you have a motto?",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4338",
+      "german": "Kinder unter drei Jahren haben freien Eintritt.",
+      "english": "Children under three are admitted free of charge.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4339",
+      "german": "Maria versteckte das Geld in ihrem BH.",
+      "english": "Mary hid the money in her bra.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4340",
+      "german": "Es waren viele von dem Hochwasser betroffen.",
+      "english": "Many people were affected by the flood.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4341",
+      "german": "Tom sah Maria misstrauisch an.",
+      "english": "Tom looked at Mary suspiciously.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4342",
+      "german": "Tom versucht nur, euch zu verwirren.",
+      "english": "Tom is just trying to confuse you.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4343",
+      "german": "Der Priester ist in der Kapelle.",
+      "english": "The priest is in the chapel.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4344",
+      "german": "Es wurde ein freier Hafen eingerichtet.",
+      "english": "A free port was established.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4345",
+      "german": "Wir müssen diese Situation ausnutzen.",
+      "english": "We have to take advantage of this situation.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4346",
+      "german": "Tom strich sich nachdenklich über das Kinn.",
+      "english": "Tom stroked his chin in thought.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4349",
+      "german": "Tom ist dreimal wegen Körperverletzung festgenommen worden.",
+      "english": "Tom has been arrested three times for assault.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4351",
+      "german": "Das Auto meiner Schwester ist pink.",
+      "english": "My sister's car is pink.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4353",
+      "german": "Ich fühlte mich etwas steif.",
+      "english": "I felt a little stiff.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4354",
+      "german": "Gestern habe ich meinen persönlichen Rekord gebrochen.",
+      "english": "I beat my personal record yesterday.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4355",
+      "german": "Er ist völlig durchgeknallt.",
+      "english": "He's completely crazy.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4357",
+      "german": "Dieses Armband ist teurer als jenes.",
+      "english": "This bracelet is more expensive than that one.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4358",
+      "german": "Meine Frau will ein Kind adoptieren.",
+      "english": "My wife wants to adopt a child.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4361",
+      "german": "Man kann die Lichter mit Klatschen einschalten.",
+      "english": "You can turn on the lights by clapping.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4362",
+      "german": "Ich wusste, dass es Toms Handschrift war.",
+      "english": "I knew it was Tom's handwriting.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4363",
+      "german": "Ist dieser Vogel männlich oder weiblich?",
+      "english": "Is that bird male or female?",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4364",
+      "german": "Luft ist eine Mischung aus Gasen.",
+      "english": "Air is a mixture of gases.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4365",
+      "german": "Er führte ein Leben im Luxus.",
+      "english": "He led a life of luxury.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4370",
+      "german": "Ich fange mir jedes Jahr eine Grippe ein.",
+      "english": "I catch the flu every year.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4372",
+      "german": "Du hattest in Hülle und Fülle Gelegenheiten.",
+      "english": "You've had plenty of opportunities.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4375",
+      "german": "Er rauchte nach dem Mittagessen eine Zigarre.",
+      "english": "He smoked a cigar after lunch.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4376",
+      "german": "Ich bin eine ziemlich gute Tänzerin.",
+      "english": "I'm a pretty good dancer.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4378",
+      "german": "Welchen Effekt hat der Vollmond auf dich?",
+      "english": "What effect does the full moon have on you?",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4379",
+      "german": "Ein Mexikaner brachte ihm Spanisch bei.",
+      "english": "A Mexican taught him Spanish.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4380",
+      "german": "Ich brauche wirklich eine Umarmung.",
+      "english": "I really need a hug.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4381",
+      "german": "Aus dem Rohr spritzte Wasser heraus.",
+      "english": "Water shot from the pipe.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4382",
+      "german": "Meine kleine Spende wird keinen großen Unterschied machen.",
+      "english": "My small donation won't make much difference.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4385",
+      "german": "Die Sonne ist untergegangen, und es leuchten die Sterne.",
+      "english": "The sun has set and the stars are shining.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4386",
+      "german": "Glaubst du, dass es Aliens gibt?",
+      "english": "Do you think aliens exist?",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4387",
+      "german": "Die Trauergottesdienste finden im Dom statt.",
+      "english": "Funeral services will take place in the cathedral.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4388",
+      "german": "Tom zwang Maria, den Vertrag zu unterzeichnen.",
+      "english": "Tom forced Mary to sign the contract.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4390",
+      "german": "Die Stimmung im Gerichtssaal war angespannt.",
+      "english": "The mood in the courtroom was tense.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    }
+  ],
+  "editorial_examples": [
+    {
+      "entry_id": "frequency:4347",
+      "german": "Wir haben bis spät in die Nacht gequatscht.",
+      "english": "We chatted until late into the night.",
+      "note": "Replaced a gender-stereotyped sentence with a neutral example of the colloquial sense “chat/talk casually.”"
+    },
+    {
+      "entry_id": "frequency:4356",
+      "german": "Eine Überdosis kann lebensgefährlich sein.",
+      "english": "An overdose can be life-threatening.",
+      "note": "Replaced a gratuitously fatal drug-use example with a neutral health-safety statement."
+    },
+    {
+      "entry_id": "frequency:4359",
+      "german": "Die beiden waren Toms Komplizen, nicht wahr?",
+      "english": "Those two were Tom’s accomplices, weren’t they?",
+      "note": "Corrected subject and predicate noun number and made the English referent unambiguous."
+    },
+    {
+      "entry_id": "frequency:4369",
+      "german": "Die Körpersprache des Pantomimen wirkt sehr beherrscht.",
+      "english": "The mime’s body language appears very controlled.",
+      "note": "Corrected the misspelling and English translation; the revised sentence uses the adjective naturally."
+    },
+    {
+      "entry_id": "frequency:4377",
+      "german": "Um wie viel Uhr schließt das Einkaufszentrum?",
+      "english": "What time does the shopping mall close?",
+      "note": "Corrected the standard separated spelling “wie viel” and used a natural English equivalent."
+    },
+    {
+      "entry_id": "frequency:4384",
+      "german": "Ein Fuchs riss die Gans.",
+      "english": "A fox killed the goose.",
+      "note": "Replaced archaic wording with a concise modern German sentence."
+    },
+    {
+      "entry_id": "frequency:4389",
+      "german": "Schütteln Sie die Flasche vor Gebrauch.",
+      "english": "Shake the bottle before use.",
+      "note": "Replaced a label fragment with a complete, polite imperative sentence."
+    },
+    {
+      "entry_id": "curated:lex-de-auswirkung",
+      "german": "Sie können die Behandlung jederzeit ablehnen; allerdings muss ich Sie in diesem Fall über die möglichen Auswirkungen aufklären.",
+      "english": "You may refuse the treatment at any time. In that case, however, I must explain the possible effects to you.",
+      "note": "Corrected the translation to match the German precisely and removed the duplicated, awkward English phrasing."
+    },
+    {
+      "entry_id": "frequency:4393",
+      "german": "Manche Fische können ihr Geschlecht wechseln.",
+      "english": "Some fish can change sex.",
+      "note": "Corrected the biological English sense: in this context Geschlecht means sex, not gender."
+    }
+  ],
+  "entry_updates": [
+    {
+      "entry_id": "frequency:4338",
+      "field": "meaning",
+      "value": "admission, entrance fee/access; occurrence or beginning of something",
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Eintritt",
+      "note": "Expanded the gloss to cover the clearly attested free-admission sense in the retained example, while preserving the event/occurrence sense."
+    },
+    {
+      "entry_id": "frequency:4340",
+      "field": "meaning",
+      "value": "affected, concerned; struck, shocked",
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/betroffen",
+      "note": "Added the sense “affected” required by the flood example; retained the emotional sense."
+    },
+    {
+      "entry_id": "frequency:4341",
+      "field": "word_class",
+      "value": "adjective",
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/misstrauisch",
+      "note": "Corrected the headword part of speech. Misstrauisch is an adjective used adverbially in this sentence."
+    },
+    {
+      "entry_id": "frequency:4341",
+      "field": "meaning",
+      "value": "suspicious, distrustful; suspiciously (adverbial use)",
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/misstrauisch",
+      "note": "Aligned the gloss with the adjective headword and clarified its adverbial use in the example."
+    },
+    {
+      "entry_id": "frequency:4347",
+      "field": "meaning",
+      "value": "to chat, talk casually; colloquially, to talk nonsense",
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/quatschen",
+      "note": "Added the common colloquial sense “chat/talk casually” used by the replacement example and retained the talk-nonsense sense with its register."
+    },
+    {
+      "entry_id": "frequency:4355",
+      "field": "meaning",
+      "value": "crazy, unhinged (colloquial)",
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/durchgeknallt",
+      "note": "Made the informal register explicit and replaced the unclear “freaked out” gloss."
+    },
+    {
+      "entry_id": "frequency:4372",
+      "field": "meaning",
+      "value": "covering, shell; plenty or abundance (in the phrase “in Hülle und Fülle”)",
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Huelle_Umschlag",
+      "note": "Added the idiomatic abundance sense used by the example, while retaining the literal sense."
+    }
+  ],
+  "plural_reviews": []
+}

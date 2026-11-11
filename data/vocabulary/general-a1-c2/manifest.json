@@ -1,0 +1,219 @@
+{
+  "dataset_id": "verbwerk.general.de.a1-c2",
+  "dataset_name": "Verbwerk General German Vocabulary A1-C2",
+  "dataset_version": "1.0.0",
+  "language": "de",
+  "interface_language": "en",
+  "levels": [
+    "A1",
+    "A2",
+    "B1",
+    "B2",
+    "C1",
+    "C2"
+  ],
+  "scope": "Complete snapshot of all German vocabulary and expression packs published by the named source at the pinned revision. This is a curated core, not an exhaustive inventory of German.",
+  "source_name": "Lexicon Platform",
+  "source_repository": "https://github.com/massimomazzariol/Lexicon",
+  "source_revision": "e45c6d558898b31214a15fda907189c3c43bc511",
+  "source_revision_date": "2026-10-19",
+  "source_pack_count": 12,
+  "source_concept_count": 664,
+  "german_lexeme_entry_count": 710,
+  "noun_count": 224,
+  "nouns_with_gender": 224,
+  "nouns_with_source_plural_forms": 204,
+  "nouns_without_source_plural_forms": 20,
+  "approved_german_lexeme_entries": 705,
+  "deprecated_german_lexeme_entries": 5,
+  "concepts_marked_reviewed": 664,
+  "concepts_with_english_definitions": 664,
+  "concepts_with_german_definitions": 664,
+  "content_license": "CC BY 4.0",
+  "content_license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "source_attribution": "Lexicon Platform lexical data by Massimo Mazzariol and contributors, licensed under CC BY 4.0. Modified by repackaging into one file; the source pack records remain unchanged.",
+  "source_packs": [
+    {
+      "pack": "lexicon_de_a1",
+      "kind": "vocabulary",
+      "level": "A1",
+      "version": "1.0.99",
+      "generated_at": "2026-10-19T10:04:48.742Z",
+      "license": "CC-BY-4.0",
+      "concepts": 212,
+      "german_lexemes": 243,
+      "nouns": 112
+    },
+    {
+      "pack": "lexicon_de_a1_expressions",
+      "kind": "expression",
+      "level": "A1",
+      "version": "1.0.12",
+      "generated_at": "2026-10-19T10:04:48.856Z",
+      "license": "CC-BY-4.0",
+      "concepts": 10,
+      "german_lexemes": 12,
+      "nouns": 0
+    },
+    {
+      "pack": "lexicon_de_a2",
+      "kind": "vocabulary",
+      "level": "A2",
+      "version": "1.0.82",
+      "generated_at": "2026-10-19T10:04:48.93Z",
+      "license": "CC-BY-4.0",
+      "concepts": 111,
+      "german_lexemes": 121,
+      "nouns": 32
+    },
+    {
+      "pack": "lexicon_de_a2_expressions",
+      "kind": "expression",
+      "level": "A2",
+      "version": "1.0.15",
+      "generated_at": "2026-10-19T10:04:49.017Z",
+      "license": "CC-BY-4.0",
+      "concepts": 11,
+      "german_lexemes": 13,
+      "nouns": 0
+    },
+    {
+      "pack": "lexicon_de_b1",
+      "kind": "vocabulary",
+      "level": "B1",
+      "version": "1.0.68",
+      "generated_at": "2026-10-19T10:04:49.106Z",
+      "license": "CC-BY-4.0",
+      "concepts": 103,
+      "german_lexemes": 103,
+      "nouns": 31
+    },
+    {
+      "pack": "lexicon_de_b1_expressions",
+      "kind": "expression",
+      "level": "B1",
+      "version": "1.0.14",
+      "generated_at": "2026-10-19T10:04:49.2Z",
+      "license": "CC-BY-4.0",
+      "concepts": 10,
+      "german_lexemes": 10,
+      "nouns": 0
+    },
+    {
+      "pack": "lexicon_de_b2",
+      "kind": "vocabulary",
+      "level": "B2",
+      "version": "1.0.49",
+      "generated_at": "2026-10-19T10:04:49.277Z",
+      "license": "CC-BY-4.0",
+      "concepts": 84,
+      "german_lexemes": 84,
+      "nouns": 18
+    },
+    {
+      "pack": "lexicon_de_b2_expressions",
+      "kind": "expression",
+      "level": "B2",
+      "version": "1.0.7",
+      "generated_at": "2026-10-19T10:04:49.36Z",
+      "license": "CC-BY-4.0",
+      "concepts": 10,
+      "german_lexemes": 10,
+      "nouns": 0
+    },
+    {
+      "pack": "lexicon_de_c1",
+      "kind": "vocabulary",
+      "level": "C1",
+      "version": "1.0.13",
+      "generated_at": "2026-10-19T10:04:49.434Z",
+      "license": "CC-BY-4.0",
+      "concepts": 45,
+      "german_lexemes": 45,
+      "nouns": 15
+    },
+    {
+      "pack": "lexicon_de_c1_expressions",
+      "kind": "expression",
+      "level": "C1",
+      "version": "1.0.3",
+      "generated_at": "2026-10-19T10:04:49.514Z",
+      "license": "CC-BY-4.0",
+      "concepts": 10,
+      "german_lexemes": 10,
+      "nouns": 0
+    },
+    {
+      "pack": "lexicon_de_c2",
+      "kind": "vocabulary",
+      "level": "C2",
+      "version": "1.0.10",
+      "generated_at": "2026-10-19T10:04:49.598Z",
+      "license": "CC-BY-4.0",
+      "concepts": 48,
+      "german_lexemes": 49,
+      "nouns": 16
+    },
+    {
+      "pack": "lexicon_de_c2_expressions",
+      "kind": "expression",
+      "level": "C2",
+      "version": "1.0.3",
+      "generated_at": "2026-10-19T10:04:49.677Z",
+      "license": "CC-BY-4.0",
+      "concepts": 10,
+      "german_lexemes": 10,
+      "nouns": 0
+    }
+  ],
+  "counts_by_level": [
+    {
+      "level": "A1",
+      "vocabulary_concepts": 212,
+      "expression_concepts": 10,
+      "german_lexeme_entries": 255,
+      "nouns": 112
+    },
+    {
+      "level": "A2",
+      "vocabulary_concepts": 111,
+      "expression_concepts": 11,
+      "german_lexeme_entries": 134,
+      "nouns": 32
+    },
+    {
+      "level": "B1",
+      "vocabulary_concepts": 103,
+      "expression_concepts": 10,
+      "german_lexeme_entries": 113,
+      "nouns": 31
+    },
+    {
+      "level": "B2",
+      "vocabulary_concepts": 84,
+      "expression_concepts": 10,
+      "german_lexeme_entries": 94,
+      "nouns": 18
+    },
+    {
+      "level": "C1",
+      "vocabulary_concepts": 45,
+      "expression_concepts": 10,
+      "german_lexeme_entries": 55,
+      "nouns": 15
+    },
+    {
+      "level": "C2",
+      "vocabulary_concepts": 48,
+      "expression_concepts": 10,
+      "german_lexeme_entries": 59,
+      "nouns": 16
+    }
+  ],
+  "notes": [
+    "The source pack level assignments are preserved without reassignment.",
+    "Twenty noun entries have no plural form in the source snapshot; absent forms are left empty rather than guessed.",
+    "The 50-entry Wikidata pilot remains separate. This general corpus is prepared separately and is not yet connected to the app interface.",
+    "CEFR is a proficiency framework, not one exhaustive German vocabulary list."
+  ]
+}

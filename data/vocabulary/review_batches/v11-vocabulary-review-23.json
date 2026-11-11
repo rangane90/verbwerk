@@ -1,0 +1,764 @@
+{
+  "batch_id": "v11-vocabulary-review-23",
+  "review_date": "2026-11-11",
+  "input_database_sha256": "5838e9aa4905d4adcd8708b2ba2379c4f4fe8ee601e371c43f6510f9f5925afd",
+  "accepted_examples": [
+    {
+      "entry_id": "frequency:1457",
+      "german": "\"Du solltest lieber reinkommen\", sagte der Mann.",
+      "english": "\"You'd better come in,\" the man said.",
+      "note": "The German sentence uses the listed meaning and grammatical function, and the English translation is adequate."
+    },
+    {
+      "entry_id": "frequency:1458",
+      "german": "Was hat Tom zu einem Killer gemacht?",
+      "english": "What turned Tom into a killer?",
+      "note": "The German sentence uses the listed meaning and grammatical function, and the English translation is adequate."
+    },
+    {
+      "entry_id": "frequency:1464",
+      "german": "Ich bin definitiv nicht auf eurer Seite.",
+      "english": "I'm definitely not on your side.",
+      "note": "The German sentence uses the listed meaning and grammatical function, and the English translation is adequate."
+    },
+    {
+      "entry_id": "frequency:1466",
+      "german": "Er kommt immer um sechs Uhr abends heim.",
+      "english": "He always gets home at six o'clock in the evening.",
+      "note": "The German sentence uses the listed meaning and grammatical function, and the English translation is adequate."
+    },
+    {
+      "entry_id": "frequency:1468",
+      "german": "Du musst mehr Kohle in den Ofen tun.",
+      "english": "You have to put more coal in the stove.",
+      "note": "The German sentence uses the listed meaning and grammatical function, and the English translation is adequate."
+    },
+    {
+      "entry_id": "frequency:1470",
+      "german": "Ich habe einen Cousin, der in Australien lebt.",
+      "english": "I have a cousin who lives in Australia.",
+      "note": "The German sentence uses the listed meaning and grammatical function, and the English translation is adequate."
+    },
+    {
+      "entry_id": "frequency:1471",
+      "german": "Es sieht so aus, als wäre Tom einsam.",
+      "english": "It looks like Tom is lonely.",
+      "note": "The German sentence uses the listed meaning and grammatical function, and the English translation is adequate."
+    },
+    {
+      "entry_id": "frequency:1472",
+      "german": "Du gibst mir das Gefühl, lebendig zu sein.",
+      "english": "You make me feel alive.",
+      "note": "The German sentence uses the listed meaning and grammatical function, and the English translation is adequate."
+    },
+    {
+      "entry_id": "frequency:1474",
+      "german": "Die Nahrungsvorräte sind immer noch knapp in der Region.",
+      "english": "Food is still scarce in the region.",
+      "note": "The German sentence uses the listed meaning and grammatical function, and the English translation is adequate."
+    },
+    {
+      "entry_id": "curated:lex-de-ebenfalls",
+      "german": "Diese Aussage ist ebenfalls falsch.",
+      "english": "This statement is false as well.",
+      "note": "The German sentence uses the listed meaning and grammatical function, and the English translation is adequate."
+    },
+    {
+      "entry_id": "frequency:1476",
+      "german": "Ein ums andere Mal las er den Artikel.",
+      "english": "He read the article over and over again.",
+      "note": "The German sentence uses the listed meaning and grammatical function, and the English translation is adequate."
+    },
+    {
+      "entry_id": "frequency:1477",
+      "german": "Du bist hier jederzeit gern gesehen, Tom.",
+      "english": "You're welcome here anytime, Tom.",
+      "note": "The German sentence uses the listed meaning and grammatical function, and the English translation is adequate."
+    },
+    {
+      "entry_id": "frequency:1478",
+      "german": "Das ist ein bisschen zu kompliziert für mich.",
+      "english": "It's a bit too complicated for me.",
+      "note": "The German sentence uses the listed meaning and grammatical function, and the English translation is adequate."
+    },
+    {
+      "entry_id": "frequency:1480",
+      "german": "Das Signal war rot.",
+      "english": "The signal was red.",
+      "note": "The German sentence uses the listed meaning and grammatical function, and the English translation is adequate."
+    },
+    {
+      "entry_id": "frequency:1481",
+      "german": "Tom brauchte 30 Stiche.",
+      "english": "Tom needed 30 stitches.",
+      "note": "The German sentence uses the listed meaning and grammatical function, and the English translation is adequate."
+    },
+    {
+      "entry_id": "frequency:1482",
+      "german": "Ich gehe ab und zu ins Kino.",
+      "english": "I go to the movies once in a while.",
+      "note": "The German sentence uses the listed meaning and grammatical function, and the English translation is adequate."
+    },
+    {
+      "entry_id": "frequency:1483",
+      "german": "Ich dachte, ich würde heute mexikanisches Essen probieren.",
+      "english": "I thought I'd try eating Mexican food today.",
+      "note": "The German sentence uses the listed meaning and grammatical function, and the English translation is adequate."
+    },
+    {
+      "entry_id": "frequency:1484",
+      "german": "Der Ausblick aus diesem Zimmer ist wundervoll.",
+      "english": "The view from this room is wonderful.",
+      "note": "The German sentence uses the listed meaning and grammatical function, and the English translation is adequate."
+    },
+    {
+      "entry_id": "frequency:1487",
+      "german": "Wir werden dich begraben.",
+      "english": "We'll bury you.",
+      "note": "The German sentence uses the listed meaning and grammatical function, and the English translation is adequate."
+    },
+    {
+      "entry_id": "frequency:1488",
+      "german": "Der Reispreis hat sich um drei Prozent erhöht.",
+      "english": "The price of rice went up three percent.",
+      "note": "The German sentence uses the listed meaning and grammatical function, and the English translation is adequate."
+    },
+    {
+      "entry_id": "frequency:1492",
+      "german": "Alle Studenten der Universität haben Zugang zur Universitätsbibliothek.",
+      "english": "All the students of the university have access to the university library.",
+      "note": "The German sentence uses the listed meaning and grammatical function, and the English translation is adequate."
+    },
+    {
+      "entry_id": "curated:lex-de-aufmachen",
+      "german": "Ich kann dir die Flasche Wein aufmachen.",
+      "english": "I can open that bottle of wine for you.",
+      "note": "The German sentence uses the listed meaning and grammatical function, and the English translation is adequate."
+    },
+    {
+      "entry_id": "frequency:1495",
+      "german": "Denkst du, dass ich sexy bin?",
+      "english": "Do you think I'm sexy?",
+      "note": "The German sentence uses the listed meaning and grammatical function, and the English translation is adequate."
+    },
+    {
+      "entry_id": "curated:lex-de-erlaubnis",
+      "german": "Mit Ihrer Erlaubnis würde ich ihm die Stelle anbieten.",
+      "english": "With your approval, I would like to offer him the job.",
+      "note": "The German sentence uses the listed meaning and grammatical function, and the English translation is adequate."
+    },
+    {
+      "entry_id": "frequency:1498",
+      "german": "Sie haben die ganze Zeremonie gefilmt.",
+      "english": "They filmed the entire ceremony.",
+      "note": "The German sentence uses the listed meaning and grammatical function, and the English translation is adequate."
+    },
+    {
+      "entry_id": "frequency:1499",
+      "german": "Das hier ist der Priester, der sie vermählte.",
+      "english": "This is the priest who married them.",
+      "note": "The German sentence uses the listed meaning and grammatical function, and the English translation is adequate."
+    },
+    {
+      "entry_id": "frequency:1501",
+      "german": "Der März ist der dritte Monat des Jahres.",
+      "english": "March is the third month of the year.",
+      "note": "The German sentence uses the listed meaning and grammatical function, and the English translation is adequate."
+    },
+    {
+      "entry_id": "frequency:1504",
+      "german": "Der Sitz lässt sich weiter nach hinten lehnen.",
+      "english": "That seat reclines further.",
+      "note": "The German sentence uses the listed meaning and grammatical function, and the English translation is adequate."
+    },
+    {
+      "entry_id": "frequency:1507",
+      "german": "Manche Leute vergleichen das Leben mit einer Bühne.",
+      "english": "Some people compare life to a stage.",
+      "note": "The German sentence uses the listed meaning and grammatical function, and the English translation is adequate."
+    },
+    {
+      "entry_id": "frequency:1508",
+      "german": "Ich zerlegte das Radio, um es zu reparieren.",
+      "english": "I took the radio apart to repair it.",
+      "note": "The German sentence uses the listed meaning and grammatical function, and the English translation is adequate."
+    },
+    {
+      "entry_id": "frequency:1510",
+      "german": "Hast du keinen Sinn für Gerechtigkeit?",
+      "english": "Don't you have a sense of justice?",
+      "note": "The German sentence uses the listed meaning and grammatical function, and the English translation is adequate."
+    },
+    {
+      "entry_id": "curated:deed20a5-3f12-f07b-1d19-dfdebf076135",
+      "german": "Ein Unglück kommt selten allein.",
+      "english": "It never rains but it pours.",
+      "note": "The German sentence uses the listed meaning and grammatical function, and the English translation is adequate."
+    },
+    {
+      "entry_id": "curated:lex-de-unterschreiben",
+      "german": "Bitte unterschreiben Sie den Vertrag.",
+      "english": "Please sign your name on the contract.",
+      "note": "The German sentence uses the listed meaning and grammatical function, and the English translation is adequate."
+    },
+    {
+      "entry_id": "frequency:1514",
+      "german": "Jeder, der das behauptet, ist ein Lügner.",
+      "english": "Anyone who says so is a liar.",
+      "note": "The German sentence uses the listed meaning and grammatical function, and the English translation is adequate."
+    },
+    {
+      "entry_id": "curated:lex-de-die-medizin",
+      "german": "Nimm diese Medizin und du wirst dich viel besser fühlen!",
+      "english": "Take this medicine, and you'll feel a lot better.",
+      "note": "The German sentence uses the listed meaning and grammatical function, and the English translation is adequate."
+    },
+    {
+      "entry_id": "frequency:1519",
+      "german": "Lass den Motor laufen! Ich bin gleich zurück.",
+      "english": "Keep the engine running. I'll be right back.",
+      "note": "The German sentence uses the listed meaning and grammatical function, and the English translation is adequate."
+    },
+    {
+      "entry_id": "frequency:1521",
+      "german": "Tom ist gerade abgehauen.",
+      "english": "Tom just took off.",
+      "note": "The German sentence uses the listed meaning and grammatical function, and the English translation is adequate."
+    },
+    {
+      "entry_id": "frequency:1522",
+      "german": "Es war das reinste Chaos.",
+      "english": "It was pure chaos.",
+      "note": "The German sentence uses the listed meaning and grammatical function, and the English translation is adequate."
+    },
+    {
+      "entry_id": "frequency:1523",
+      "german": "Die künstlerische Schönheit des Gartens ist wirklich verblüffend.",
+      "english": "The artistic beauty of the garden is truly amazing.",
+      "note": "The German sentence uses the listed meaning and grammatical function, and the English translation is adequate."
+    },
+    {
+      "entry_id": "frequency:1524",
+      "german": "Ich war beinahe den ganzen Tag zu Hause.",
+      "english": "I was at home almost all day.",
+      "note": "The German sentence uses the listed meaning and grammatical function, and the English translation is adequate."
+    },
+    {
+      "entry_id": "frequency:1529",
+      "german": "Mexiko grenzt im Norden an die Vereinigten Staaten.",
+      "english": "Mexico is bordered on the north by the United States.",
+      "note": "The German sentence uses the listed meaning and grammatical function, and the English translation is adequate."
+    },
+    {
+      "entry_id": "curated:lex-de-umgehen",
+      "german": "Wie soll ich mit dieser Situation umgehen?",
+      "english": "How do you want to handle this situation?",
+      "note": "The German sentence uses the listed meaning and grammatical function, and the English translation is adequate."
+    },
+    {
+      "entry_id": "curated:lex-de-bauch",
+      "german": "Legen Sie sich auf den Bauch!",
+      "english": "Lie on your stomach.",
+      "note": "The German sentence uses the listed meaning and grammatical function, and the English translation is adequate."
+    },
+    {
+      "entry_id": "frequency:1534",
+      "german": "Zu dieser Feier kam mal wieder die gesamte Familie zusammen.",
+      "english": "The whole family came together again for this celebration.",
+      "note": "The German sentence uses the listed meaning and grammatical function, and the English translation is adequate."
+    },
+    {
+      "entry_id": "frequency:1536",
+      "german": "Ich weiß nicht, was in der Kiste ist.",
+      "english": "I don't know the contents of the box.",
+      "note": "The German sentence uses the listed meaning and grammatical function, and the English translation is adequate."
+    },
+    {
+      "entry_id": "frequency:1538",
+      "german": "Tom ging hinter einer Mülltonne in Deckung.",
+      "english": "Tom took cover behind a dumpster.",
+      "note": "The German sentence uses the listed meaning and grammatical function, and the English translation is adequate."
+    },
+    {
+      "entry_id": "frequency:1540",
+      "german": "Er kam auf seinem Rad den Berg herunter.",
+      "english": "He came down the hill on his bicycle.",
+      "note": "The German sentence uses the listed meaning and grammatical function, and the English translation is adequate."
+    },
+    {
+      "entry_id": "frequency:1542",
+      "german": "Ich hätte gerne, dass Tom diese Untersuchung durchführt.",
+      "english": "I'd like Tom to handle this investigation.",
+      "note": "The German sentence uses the listed meaning and grammatical function, and the English translation is adequate."
+    },
+    {
+      "entry_id": "frequency:1543",
+      "german": "Wenn der Alarm ertönt, gehen, nicht rennen!",
+      "english": "If the alarm rings, walk, don't run.",
+      "note": "The German sentence uses the listed meaning and grammatical function, and the English translation is adequate."
+    },
+    {
+      "entry_id": "frequency:1545",
+      "german": "Sie täten besser daran, sich etwas zu entspannen.",
+      "english": "You'd better relax a bit.",
+      "note": "The German sentence uses the listed meaning and grammatical function, and the English translation is adequate."
+    },
+    {
+      "entry_id": "curated:lex-de-eindruck",
+      "german": "Ich habe den Eindruck, dass er das Geheimnis kennt.",
+      "english": "I have a feeling that he knows the secret.",
+      "note": "The German sentence uses the listed meaning and grammatical function, and the English translation is adequate."
+    },
+    {
+      "entry_id": "frequency:1548",
+      "german": "Was hast du denn Herrgott noch mal erwartet, was passieren würde?",
+      "english": "What on earth were you expecting to happen?",
+      "note": "The German sentence uses the listed meaning and grammatical function, and the English translation is adequate."
+    },
+    {
+      "entry_id": "frequency:1549",
+      "german": "Der Ball sprang hoch in die Luft.",
+      "english": "The ball bounced high in the air.",
+      "note": "The German sentence uses the listed meaning and grammatical function, and the English translation is adequate."
+    },
+    {
+      "entry_id": "frequency:1550",
+      "german": "Tom schläft im Sommer nackt.",
+      "english": "Tom sleeps in the nude in the summer.",
+      "note": "The German sentence uses the listed meaning and grammatical function, and the English translation is adequate."
+    },
+    {
+      "entry_id": "frequency:1552",
+      "german": "Er sagte, sie wollten kämpfen, bis jeder Schwarze befreit sei.",
+      "english": "He said they wanted to fight until every black man was free.",
+      "note": "The German sentence uses the listed meaning and grammatical function, and the English translation is adequate."
+    },
+    {
+      "entry_id": "curated:lex-de-zwingen",
+      "german": "Er wurde gezwungen, den Vertrag zu unterschreiben.",
+      "english": "He was made to sign the contract against his will.",
+      "note": "The German sentence uses the listed meaning and grammatical function, and the English translation is adequate."
+    },
+    {
+      "entry_id": "frequency:1559",
+      "german": "Eure Freundschaft hat einen großen Wert für mich.",
+      "english": "Your friendship has great value to me.",
+      "note": "The German sentence uses the listed meaning and grammatical function, and the English translation is adequate."
+    },
+    {
+      "entry_id": "frequency:1560",
+      "german": "Sie nahm die Papiere vom Schreibtisch weg.",
+      "english": "She removed the papers from the desk.",
+      "note": "The German sentence uses the listed meaning and grammatical function, and the English translation is adequate."
+    },
+    {
+      "entry_id": "frequency:1562",
+      "german": "Hunde haben lange Schnauzen.",
+      "english": "Dogs have long snouts.",
+      "note": "The German sentence uses the listed meaning and grammatical function, and the English translation is adequate."
+    },
+    {
+      "entry_id": "frequency:1566",
+      "german": "Sie begaben sich zur Moschee, um zu beten.",
+      "english": "They went to the mosque to pray.",
+      "note": "The German sentence uses the listed meaning and grammatical function, and the English translation is adequate."
+    },
+    {
+      "entry_id": "frequency:1568",
+      "german": "Tom hält mich für einen Verräter.",
+      "english": "Tom considers me a traitor.",
+      "note": "The German sentence uses the listed meaning and grammatical function, and the English translation is adequate."
+    },
+    {
+      "entry_id": "frequency:1575",
+      "german": "Albert Einstein ist ein weltweit angesehener Wissenschaftler.",
+      "english": "Albert Einstein is a world-renowned scientist.",
+      "note": "The German sentence uses the listed meaning and grammatical function, and the English translation is adequate."
+    },
+    {
+      "entry_id": "frequency:1577",
+      "german": "Hier trennen wir die Männer von den Jungen.",
+      "english": "Here's where we separate the men from the boys.",
+      "note": "The German sentence uses the listed meaning and grammatical function, and the English translation is adequate."
+    },
+    {
+      "entry_id": "frequency:1578",
+      "german": "Das Haus verfügt über ein Esszimmer, ein Schlafzimmer und ein Arbeitszimmer.",
+      "english": "The house has a dining room, a bedroom and a study.",
+      "note": "The German sentence uses the listed meaning and grammatical function, and the English translation is adequate."
+    },
+    {
+      "entry_id": "frequency:1580",
+      "german": "Dieses Gift ist sehr wirksam, um Kakerlaken loszuwerden.",
+      "english": "This poison is very effective in getting rid of roaches.",
+      "note": "The German sentence uses the listed meaning and grammatical function, and the English translation is adequate."
+    },
+    {
+      "entry_id": "frequency:1581",
+      "german": "Ich mag deinen herablassenden Ton nicht.",
+      "english": "I don't like your patronizing tone.",
+      "note": "The German sentence uses the listed meaning and grammatical function, and the English translation is adequate."
+    },
+    {
+      "entry_id": "frequency:1583",
+      "german": "Es fiel ihr schwer, die Frage zu beantworten.",
+      "english": "She found it difficult to answer the question.",
+      "note": "The German sentence uses the listed meaning and grammatical function, and the English translation is adequate."
+    },
+    {
+      "entry_id": "curated:lex-de-deutlich",
+      "german": "Kannst du mich klar und deutlich hören?",
+      "english": "Can you hear me clearly?",
+      "note": "The German sentence uses the listed meaning and grammatical function, and the English translation is adequate."
+    },
+    {
+      "entry_id": "frequency:1585",
+      "german": "Die Immigranten träumen von einem neuen, besseren Leben.",
+      "english": "The immigrants dream of having a new, better life.",
+      "note": "The German sentence uses the listed meaning and grammatical function, and the English translation is adequate."
+    },
+    {
+      "entry_id": "frequency:1587",
+      "german": "Wir dürfen nicht riskieren, dass uns das passiert.",
+      "english": "We can't risk that happening to us.",
+      "note": "The German sentence uses the listed meaning and grammatical function, and the English translation is adequate."
+    },
+    {
+      "entry_id": "frequency:1588",
+      "german": "Tom ging mit Maria auf die Beerdigung.",
+      "english": "Tom went to the funeral with Mary.",
+      "note": "The German sentence uses the listed meaning and grammatical function, and the English translation is adequate."
+    },
+    {
+      "entry_id": "frequency:1590",
+      "german": "In der Mitte des Parks ist ein Teich.",
+      "english": "There is a pond in the middle of the park.",
+      "note": "The German sentence uses the listed meaning and grammatical function, and the English translation is adequate."
+    },
+    {
+      "entry_id": "frequency:1592",
+      "german": "Decken Sie den Verletzten mit dieser Decke zu.",
+      "english": "Cover up the injured man with this blanket.",
+      "note": "The German sentence uses the listed meaning and grammatical function, and the English translation is adequate."
+    },
+    {
+      "entry_id": "curated:lex-de-mittagessen",
+      "german": "Ich mache jeden Tag das Mittagessen.",
+      "english": "I make lunch every day.",
+      "note": "The German sentence uses the listed meaning and grammatical function, and the English translation is adequate."
+    },
+    {
+      "entry_id": "frequency:1595",
+      "german": "Das Baby tut nichts anderes als zu weinen.",
+      "english": "That baby does nothing but cry.",
+      "note": "The German sentence uses the listed meaning and grammatical function, and the English translation is adequate."
+    },
+    {
+      "entry_id": "frequency:1596",
+      "german": "Ultraviolettes Licht hilft, Viren zu vernichten.",
+      "english": "Ultraviolet light helps to destroy viruses.",
+      "note": "The German sentence uses the listed meaning and grammatical function, and the English translation is adequate."
+    },
+    {
+      "entry_id": "frequency:1597",
+      "german": "Ich denke, dass Ihr Rock zu kurz ist.",
+      "english": "I think that your skirt is too short.",
+      "note": "The German sentence uses the listed meaning and grammatical function, and the English translation is adequate."
+    },
+    {
+      "entry_id": "frequency:1601",
+      "german": "Die alten Sitten geraten heute schnell in Vergessenheit.",
+      "english": "Ancient customs are dying out quickly today.",
+      "note": "The German sentence uses the listed meaning and grammatical function, and the English translation is adequate."
+    }
+  ],
+  "held_examples": [
+    {
+      "entry_id": "frequency:1459",
+      "german": "Er hielt eine Rede zur Unterstützung des Projekts.",
+      "reason": "The English translation says plan, but the German sentence says Projekt; use the direct equivalent."
+    },
+    {
+      "entry_id": "frequency:1460",
+      "german": "Sie tat sich ein festliches Kleid an.",
+      "reason": "The English translation is ungrammatical; translate the dated/formal clothing sense naturally."
+    },
+    {
+      "entry_id": "frequency:1465",
+      "german": "Bei Tom ist ein Schraufen locker.",
+      "reason": "The source is a different idiom (eine Schraube locker haben) and contains the misspelling Schraufen; it does not show the listed adverb sense. Replace with a clear loose/not-firmly-fixed example and correct the word class."
+    },
+    {
+      "entry_id": "frequency:1469",
+      "german": "Die Soldaten soffen und hurten den ganzen Tag lang.",
+      "reason": "The English translation is corrupted and misses the verb; translate the crude/derogatory source accurately and retain a register note."
+    },
+    {
+      "entry_id": "frequency:1467",
+      "german": "Ich mag das Aroma von frisch gemachtem Kaffee.",
+      "reason": "The English says love while German says like; use a closer translation."
+    },
+    {
+      "entry_id": "frequency:1463",
+      "german": "Es handelt sich möglicherweise um Krebs.",
+      "reason": "The translation is redundant; use a natural equivalent of möglicherweise."
+    },
+    {
+      "entry_id": "frequency:1485",
+      "german": "Mit wem bist du zu dem Tanz gegangen?",
+      "reason": "The English says want, while the German asks who accompanied the speaker to the dance; correct the tense/meaning."
+    },
+    {
+      "entry_id": "frequency:1486",
+      "german": "Um wie viel Uhr wird der Markt geöffnet?",
+      "reason": "The candidate is a passive verb construction, while the entry is the adjective open; replace with an adjective use."
+    },
+    {
+      "entry_id": "frequency:1490",
+      "german": "Spanien hatte einst die Hoheit über die Philippinen inne.",
+      "reason": "This sentence uses Hoheit in the sovereignty sense, while this entry is glossed as a royal title; replace with the title sense."
+    },
+    {
+      "entry_id": "frequency:1491",
+      "german": "Die Riesen haben die Ausweicher vernichtend geschlagen.",
+      "reason": "Riesen refers to the San Francisco Giants baseball team, not giants; replace with a literal example."
+    },
+    {
+      "entry_id": "frequency:1503",
+      "german": "Der Premierminister traf sich mit der Presse.",
+      "reason": "Presse is used for news media, but the entry is the machine/device sense; replace with a machine-press example."
+    },
+    {
+      "entry_id": "curated:lex-de-drucken",
+      "german": "Wir drücken unsere Gefühle oft ohne Worte aus.",
+      "reason": "The candidate uses drücken in the sense express, not the listed physical pressing sense; replace it with a literal example."
+    },
+    {
+      "entry_id": "frequency:1516",
+      "german": "Der Prozess zog sich Tage lang hin.",
+      "reason": "The English translation is understandable but less precise than the German; use the common legal equivalent trial and preserve the sense."
+    },
+    {
+      "entry_id": "frequency:1520",
+      "german": "Tom hat von Marie eine Menge Geld gestohlen.",
+      "reason": "The candidate uses Marie as a person’s name, but the entry is the Austrian colloquial money sense; replace it with a region-labeled sense example."
+    },
+    {
+      "entry_id": "frequency:1526",
+      "german": "Er ist fremd in der Stadt.",
+      "reason": "The English phrase strange in town is unnatural for fremd in der Stadt; use the sense stranger/foreign."
+    },
+    {
+      "entry_id": "frequency:1541",
+      "german": "Ich möchte nicht, dass aufgenommen wird, was ich gleich sage.",
+      "reason": "The candidate uses aufgenommen in a passive verb clause, but the entry is an adjective meaning recorded; replace with an attributive adjective example."
+    },
+    {
+      "entry_id": "curated:lex-de-jacke",
+      "german": "Das ist Jacke wie Hose.",
+      "reason": "The candidate is the idiom Jacke wie Hose (no difference), not the clothing noun; replace with a literal clothing example."
+    },
+    {
+      "entry_id": "frequency:1574",
+      "german": "Die Angst machte sie fast wild.",
+      "reason": "This example uses wild in a figurative emotional sense, while the entry is the animal sense; replace with a literal animal example."
+    },
+    {
+      "entry_id": "curated:lex-de-vorschlag",
+      "german": "Ich will dir einen Vorschlag machen.",
+      "reason": "Vorschlag means suggestion/proposal here, not offer; correct the English translation."
+    },
+    {
+      "entry_id": "frequency:1586",
+      "german": "Tom meinte zu Maria, daß Johannes verwirrt sei.",
+      "reason": "The sentence uses pre-reform daß; modernize it to dass for current learner-facing spelling."
+    },
+    {
+      "entry_id": "frequency:1589",
+      "german": "Du mußt noch den Müll nach draußen bringen.",
+      "reason": "The sentence uses pre-reform mußt; modernize it to musst for current learner-facing spelling."
+    },
+    {
+      "entry_id": "frequency:1591",
+      "german": "Das Baby wog bei der Geburt sieben Pfund.",
+      "reason": "German Pfund is 500 grams, so seven Pfund is 3.5 kilograms, not seven imperial pounds."
+    }
+  ],
+  "editorial_examples": [
+    {
+      "entry_id": "frequency:1459",
+      "german": "Er hielt eine Rede zur Unterstützung des Projekts.",
+      "english": "He gave a speech in support of the project.",
+      "note": "Uses the direct English equivalent of Projekt."
+    },
+    {
+      "entry_id": "frequency:1460",
+      "german": "Sie tat sich ein festliches Kleid an.",
+      "english": "She put on a festive dress.",
+      "note": "Corrects the translation; Duden marks this clothing sense as elevated and dated."
+    },
+    {
+      "entry_id": "frequency:1465",
+      "german": "Der Deckel sitzt locker.",
+      "english": "The lid is loose.",
+      "note": "Replaces the idiom and misspelling with a clear literal example; classify locker here as a predicative adjective."
+    },
+    {
+      "entry_id": "frequency:1469",
+      "german": "Die Soldaten soffen und hurten den ganzen Tag lang.",
+      "english": "The soldiers drank heavily and went whoring all day long.",
+      "note": "Correct English for huren. Duden flags discriminatory meaning(s), so learners should recognize the word’s coarse derogatory register."
+    },
+    {
+      "entry_id": "frequency:1467",
+      "german": "Ich mag das Aroma von frisch gemachtem Kaffee.",
+      "english": "I like the aroma of freshly brewed coffee.",
+      "note": "Matches mag as like and uses natural English for frisch gemachtem Kaffee."
+    },
+    {
+      "entry_id": "frequency:1463",
+      "german": "Es handelt sich möglicherweise um Krebs.",
+      "english": "It may be cancer.",
+      "note": "Natural concise equivalent of möglicherweise."
+    },
+    {
+      "entry_id": "frequency:1485",
+      "german": "Mit wem bist du zu dem Tanz gegangen?",
+      "english": "Who did you go to the dance with?",
+      "note": "Corrects the English tense and meaning."
+    },
+    {
+      "entry_id": "frequency:1486",
+      "german": "Der Markt ist heute geöffnet.",
+      "english": "The market is open today.",
+      "note": "Uses geöffnet as the adjective open."
+    },
+    {
+      "entry_id": "frequency:1490",
+      "german": "Seine Hoheit empfing die Gäste.",
+      "english": "His Highness received the guests.",
+      "note": "Matches the royal-title sense of Hoheit."
+    },
+    {
+      "entry_id": "frequency:1491",
+      "german": "Der Riese stand vor dem Tor.",
+      "english": "The giant stood in front of the gate.",
+      "note": "Literal sense-matched example for Riese."
+    },
+    {
+      "entry_id": "frequency:1503",
+      "german": "Die Presse formt das Metall zu einer dünnen Platte.",
+      "english": "The press shapes the metal into a thin sheet.",
+      "note": "Shows Presse as a machine that applies pressure."
+    },
+    {
+      "entry_id": "curated:lex-de-drucken",
+      "german": "Drück den Knopf, um die Tür zu öffnen.",
+      "english": "Press the button to open the door.",
+      "note": "Shows the physical pressing sense of drücken."
+    },
+    {
+      "entry_id": "frequency:1516",
+      "german": "Der Prozess zog sich Tage lang hin.",
+      "english": "The trial dragged on for days.",
+      "note": "More precise legal translation of Prozess in this sentence."
+    },
+    {
+      "entry_id": "frequency:1520",
+      "german": "Er ließ für das Konzert die Marie springen.",
+      "english": "He paid for the concert.",
+      "note": "Original educational example for the Austrian colloquial money sense; the expression is regional."
+    },
+    {
+      "entry_id": "frequency:1526",
+      "german": "Er ist fremd in der Stadt.",
+      "english": "He is a stranger in town.",
+      "note": "Natural English equivalent for fremd in der Stadt."
+    },
+    {
+      "entry_id": "frequency:1541",
+      "german": "Das aufgenommene Gespräch klang klar.",
+      "english": "The recorded conversation sounded clear.",
+      "note": "Uses aufgenommen attributively as an adjective meaning recorded."
+    },
+    {
+      "entry_id": "curated:lex-de-jacke",
+      "german": "Meine Jacke hängt an der Garderobe.",
+      "english": "My jacket is hanging on the coat rack.",
+      "note": "Replaces the unrelated idiom with the clothing sense."
+    },
+    {
+      "entry_id": "frequency:1574",
+      "german": "Die wilden Tiere leben in freier Wildbahn.",
+      "english": "Wild animals live in the wild.",
+      "note": "Literal example for the animal sense of wild."
+    },
+    {
+      "entry_id": "curated:lex-de-vorschlag",
+      "german": "Ich will dir einen Vorschlag machen.",
+      "english": "I want to make you a suggestion.",
+      "note": "Vorschlag means suggestion/proposal, not offer."
+    },
+    {
+      "entry_id": "frequency:1586",
+      "german": "Tom meinte zu Maria, dass Johannes verwirrt sei.",
+      "english": "Tom told Mary that he thought John was confused.",
+      "note": "Modernizes daß to dass."
+    },
+    {
+      "entry_id": "frequency:1589",
+      "german": "Du musst noch den Müll nach draußen bringen.",
+      "english": "You still need to take out the garbage.",
+      "note": "Modernizes mußt to musst."
+    },
+    {
+      "entry_id": "frequency:1591",
+      "german": "Das Baby wog bei der Geburt sieben Pfund.",
+      "english": "The baby weighed 3.5 kilograms at birth.",
+      "note": "Converts seven German Pfund (3.5 kg) correctly."
+    }
+  ],
+  "entry_updates": [
+    {
+      "entry_id": "frequency:1465",
+      "field": "word_class",
+      "value": "adjective",
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/locker",
+      "note": "In Der Deckel sitzt locker, locker is a predicative adjective, not an adverb."
+    },
+    {
+      "entry_id": "frequency:1465",
+      "field": "meaning",
+      "value": "loose; not firmly fixed",
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/locker",
+      "note": "The entry is used in the adjective sense shown by Der Deckel sitzt locker."
+    },
+    {
+      "entry_id": "frequency:1520",
+      "field": "meaning",
+      "value": "money (Austrian colloquial/regional, especially Viennese)",
+      "source": "Wiener Sprachen App",
+      "url": "https://sprachen.wien.gv.at/?dict=1&phrasen-type=geld-5191f77ff2017",
+      "note": "The candidate intended this regional slang sense, but the example mistakenly used Marie as a personal name."
+    },
+    {
+      "entry_id": "frequency:1521",
+      "field": "meaning",
+      "value": "to leave suddenly (colloquial); to chop or cut off",
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/abhauen",
+      "note": "The existing example uses the colloquial sense to leave suddenly; the earlier gloss captured only the cutting sense."
+    },
+    {
+      "entry_id": "frequency:1601",
+      "field": "meaning",
+      "value": "to get into a state or situation; to turn out or develop",
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/geraten",
+      "note": "The example geraten in Vergessenheit means to fall into a state of being forgotten."
+    }
+  ],
+  "plural_reviews": []
+}

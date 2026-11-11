@@ -1,0 +1,28 @@
+{
+  "pack_id": "lexicon.de.a1.seed",
+  "pack_role": "runtime",
+  "version": "1.0.99",
+  "pack_level": "A1",
+  "kind": "vocab",
+  "levels_supported": [
+    "A1"
+  ],
+  "relation_chunk_ids": [],
+  "languages_target_supported": [
+    "de"
+  ],
+  "gloss_languages_supported": [
+    "en",
+    "it"
+  ],
+  "domains": [
+    "Daily",
+    "Social",
+    "Travel",
+    "Work"
+  ],
+  "license_info": "CC-BY-4.0",
+  "content_file": "content.json",
+  "generated_at": "2026-10-19T10:04:48.742Z",
+  "schema_version": 2
+}

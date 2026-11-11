@@ -1,0 +1,11 @@
+{
+  "batch_id":"v11-vocabulary-review-66",
+  "review_date":"2026-11-11",
+  "input_database_sha256":"61e1ce8ee371cd2c56ec55402cbce1be9d1cc59dcf736d42c0a4b2d062e301fb",
+  "accepted_examples":[],
+  "editorial_examples":[],
+  "retired_examples":[
+    {"entry_id":"frequency:4548","german":"Sie spielte den Ball cross.","reason":"This editorial example teaches lowercase adverb cross and conflicts with the capitalized masculine noun Cross being studied in this entry.","replacement_german":"Sie schlug einen Cross."}
+  ],
+  "plural_reviews":[]
+}

@@ -1,0 +1,313 @@
+{
+  "batch_id": "v11-vocabulary-review-12",
+  "review_date": "2026-11-11",
+  "input_database_sha256": "5bd38bf45ca57a0bd5062c676f4acbb3b2a2ebc209aea011592b91f8e95a8e54",
+  "accepted_examples": [
+    {
+      "entry_id": "curated:lex-de-buch",
+      "german": "Tom sa\u00df am Fenster und las ein Buch.",
+      "english": "Tom sat by the window, reading a book.",
+      "note": "The book example and translation match the common printed-book sense."
+    },
+    {
+      "entry_id": "curated:lex-de-krank",
+      "german": "Da er nicht auf seine Gesundheit geachtet hatte, wurde er krank.",
+      "english": "Not being careful of his health, he fell ill.",
+      "note": "The sentence uses krank as the result of becoming ill; the translation is consistent."
+    },
+    {
+      "entry_id": "curated:lex-de-arzt",
+      "german": "Bist du sicher, dass der Mann Arzt ist?",
+      "english": "Are you sure that man is a doctor?",
+      "note": "Arzt is used as a predicate noun meaning doctor."
+    },
+    {
+      "entry_id": "curated:lex-de-strasse",
+      "german": "Es sind gar keine Autos auf der Stra\u00dfe.",
+      "english": "There are no cars on the street.",
+      "note": "Stra\u00dfe is used for a street and the English translation matches."
+    },
+    {
+      "entry_id": "curated:lex-de-erklaren",
+      "german": "Der Lehrer erkl\u00e4rte (mir) die quadratische Gleichung sehr gut.",
+      "english": "The teacher explained the quadratic equation (to me) very well.",
+      "note": "Erkl\u00e4ren is used with a direct object and the translation preserves the meaning."
+    },
+    {
+      "entry_id": "curated:lex-de-nachricht",
+      "german": "Schicke diese Nachricht so vielen Leuten wie m\u00f6glich.",
+      "english": "Send this message to as many people as you can.",
+      "note": "Nachricht is used for a message sent to other people."
+    },
+    {
+      "entry_id": "curated:lex-de-schreiben",
+      "german": "Ich muss noch ein paar Briefe schreiben.",
+      "english": "I have letters I need to write.",
+      "note": "Schreiben is used for writing letters; the English is idiomatic."
+    },
+    {
+      "entry_id": "curated:lex-de-krankenhaus",
+      "german": "Wo finde ich ein Krankenhaus?",
+      "english": "Where can I find a hospital?",
+      "note": "The sentence asks where to find a hospital; it matches Krankenhaus."
+    },
+    {
+      "entry_id": "curated:lex-de-ausserdem",
+      "german": "Was hast du au\u00dferdem dort getan?",
+      "english": "What else did you do there?",
+      "note": "Au\u00dferdem means in addition or what else in this question."
+    },
+    {
+      "entry_id": "curated:lex-de-schicken",
+      "german": "Ich sagte ihnen, sie sollen mir ein neues Ticket schicken.",
+      "english": "I told them to send me another ticket.",
+      "note": "Schicken is used for sending a replacement ticket; the translation matches."
+    },
+    {
+      "entry_id": "curated:lex-de-lesen",
+      "german": "Er kann nicht lesen.",
+      "english": "He doesn't know how to read.",
+      "note": "Lesen is used in the common ability sense; the translation is a natural paraphrase."
+    },
+    {
+      "entry_id": "curated:lex-de-fliegen",
+      "german": "Der Ball flog durch die Luft.",
+      "english": "The ball flew through the air.",
+      "note": "Fliegen is used for movement through the air; the English matches."
+    },
+    {
+      "entry_id": "curated:lex-de-lieben",
+      "german": "Tom muss dich sehr lieben.",
+      "english": "Tom must love you very much.",
+      "note": "Lieben is used in the common affection sense; the modal must is preserved in English."
+    },
+    {
+      "entry_id": "curated:lex-de-monat",
+      "german": "Der M\u00e4rz ist der dritte Monat des Jahres.",
+      "english": "March is the third month of the year.",
+      "note": "Monat is used for a calendar month and the translation is exact."
+    },
+    {
+      "entry_id": "curated:lex-de-plotzlich",
+      "german": "Ich geriet pl\u00f6tzlich in gro\u00dfe Sorge.",
+      "english": "I was suddenly very worried.",
+      "note": "Pl\u00f6tzlich means suddenly; both sentences convey sudden worry."
+    },
+    {
+      "entry_id": "curated:lex-de-tisch",
+      "german": "Dieser alte franz\u00f6sische Tisch ist ein sehr wertvolles M\u00f6belst\u00fcck.",
+      "english": "This old French table is a very valuable piece of furniture.",
+      "note": "Tisch is used for a table and the translation matches."
+    },
+    {
+      "entry_id": "curated:lex-de-unterwegs",
+      "german": "Meine Frau ruft mich oft an, wenn ich im Ausland unterwegs bin.",
+      "english": "My wife often telephones me when I'm traveling in another country.",
+      "note": "Unterwegs describes traveling in another country; the translation is consistent."
+    },
+    {
+      "entry_id": "curated:lex-de-verheiratet",
+      "german": "Tom ist jetzt mit Johns Exfrau verheiratet.",
+      "english": "Tom is now married to John's ex-wife.",
+      "note": "Verheiratet is correctly used with mit and the dative person."
+    },
+    {
+      "entry_id": "curated:lex-de-fenster",
+      "german": "W\u00e4ren Sie so freundlich, das Fenster zu \u00f6ffnen?",
+      "english": "Would you mind opening the window?",
+      "note": "Fenster is used as the object of \u00f6ffnen; the polite request matches."
+    },
+    {
+      "entry_id": "curated:lex-de-suss",
+      "german": "Die Orange schmeckte weder s\u00fc\u00df noch sauer.",
+      "english": "The orange didn't taste either sweet or sour.",
+      "note": "S\u00fc\u00df is contrasted with sauer as a taste adjective; translation matches."
+    },
+    {
+      "entry_id": "frequency:686",
+      "german": "Jedenfalls ist das nicht deine Sache.",
+      "english": "In any case, it's none of your business.",
+      "note": "Jedenfalls is correctly translated as in any case."
+    },
+    {
+      "entry_id": "frequency:690",
+      "german": "Die Akustik in diesem Raum ist ausgezeichnet.",
+      "english": "The acoustics in this space are excellent.",
+      "note": "Raum means room or space in this acoustic context; translation is accurate."
+    },
+    {
+      "entry_id": "curated:lex-de-bisher",
+      "german": "Viele, die bisher viel Geld f\u00fcr Unterhaltungszwecke ausgegeben haben, m\u00fcssen jetzt mehr auf ihr Geld achtgeben.",
+      "english": "A lot of people who have up until now been spending money having a good time now need to be more careful with their money.",
+      "note": "Bisher means up to now; the long sentence and translation convey the same time period."
+    },
+    {
+      "entry_id": "curated:lex-de-zug",
+      "german": "Die Stadt ist mit dem Zug erreichbar.",
+      "english": "The town is accessible by rail.",
+      "note": "Zug is used for rail transport; accessible by rail is an accurate English rendering."
+    },
+    {
+      "entry_id": "frequency:699",
+      "german": "Ich habe keine Sekunde lang an dir gezweifelt.",
+      "english": "I didn't doubt you for a second.",
+      "note": "Sekunde is used for the duration of one second; translation matches."
+    },
+    {
+      "entry_id": "frequency:700",
+      "german": "Das ist nicht das, wof\u00fcr du es h\u00e4ltst.",
+      "english": "It's not what you think it is.",
+      "note": "Wof\u00fcr introduces a relative clause and the translation preserves the intended sense."
+    },
+    {
+      "entry_id": "frequency:702",
+      "german": "Wir freuen uns sehr, dass du hier bist.",
+      "english": "We're so glad to have you here.",
+      "note": "Freuen is used reflexively in the sense of being glad; the translation is idiomatic."
+    },
+    {
+      "entry_id": "frequency:703",
+      "german": "Er starb, und seine Seele fuhr zur H\u00f6lle.",
+      "english": "He died and his soul went to hell.",
+      "note": "Seele is used in its soul sense; the sentence and translation match."
+    },
+    {
+      "entry_id": "frequency:707",
+      "german": "Hast du Tom schon einmal einen Brief geschrieben?",
+      "english": "Have you ever written a letter to Tom?",
+      "note": "Brief is used for a written message; the German dative recipient and English translation align."
+    },
+    {
+      "entry_id": "frequency:710",
+      "german": "Er gab mir die Schuld f\u00fcr den Unfall.",
+      "english": "He blamed me for the accident.",
+      "note": "Unfall is used for an accident and the translation matches."
+    },
+    {
+      "entry_id": "frequency:711",
+      "german": "Setz dich nicht dahin. Das ist Toms Stuhl.",
+      "english": "Don't sit there. That's Tom's chair.",
+      "note": "Dahin indicates the target place to sit; the English there is a natural rendering."
+    },
+    {
+      "entry_id": "frequency:712",
+      "german": "Sie sagten, dass die Anzahl der Kontrollen erh\u00f6ht werden sollte.",
+      "english": "They said inspections should be increased.",
+      "note": "Kontrolle appears in the plural Kontrollen but the sentence clearly illustrates the inspection/check sense."
+    }
+  ],
+  "held_examples": [
+    {
+      "entry_id": "curated:lex-de-vertrauen",
+      "german": "Verla\u00df dich auf Leute, denen du vertrauen kannst!",
+      "reason": "Replaced archaic spelling Verla\u00df with current Verlass while retaining the idiomatic trust construction."
+    },
+    {
+      "entry_id": "curated:lex-de-irgendwo",
+      "german": "Ich musste mich irgendwo hinsetzen und mich ausruhen.",
+      "reason": "Corrected the translation to preserve musste (had to) and irgendwo (somewhere)."
+    },
+    {
+      "entry_id": "curated:lex-de-meinung",
+      "german": "Was sollten wir Ihrer Meinung nach tun?",
+      "reason": "Corrected the source translation grammar and preserved the German phrase Ihrer Meinung nach."
+    },
+    {
+      "entry_id": "curated:lex-de-entscheidung",
+      "german": "Aus dem obengenannten Grunde bin ich zu einer anderen Entscheidung gelangt.",
+      "reason": "Replaced an overly long, dated sentence and awkward translation with a concise example of Entscheidung."
+    },
+    {
+      "entry_id": "curated:lex-de-arm",
+      "german": "Er ergriff meinen Arm.",
+      "reason": "Corrected the source translation: Arm means arm, not hand."
+    },
+    {
+      "entry_id": "curated:lex-de-heiss",
+      "german": "Heute ist es hei\u00df. Die Temperatur erreichte f\u00fcnfundvierzig Grad Celsius.",
+      "reason": "Replaced a sentence whose English wording did not match the German past-tense statement and included an unusually high temperature."
+    },
+    {
+      "entry_id": "frequency:697",
+      "german": "Ist es unbedingt notwendig, da\u00df ich das tue?",
+      "reason": "Replaced an example with obsolete spelling with a current, direct example of unbedingt."
+    },
+    {
+      "entry_id": "frequency:701",
+      "german": "Es gibt keinen Beweis, da\u00df Tom es war.",
+      "reason": "Replaced an example with obsolete spelling with a concise current example of Beweis."
+    },
+    {
+      "entry_id": "frequency:704",
+      "german": "Du kannst Tom nicht in den R\u00fccken schie\u00dfen.",
+      "reason": "Replaced a violent example with a neutral sports sentence using the same verb sense."
+    }
+  ],
+  "editorial_examples": [
+    {
+      "entry_id": "curated:lex-de-vertrauen",
+      "german": "Verlass dich auf Menschen, denen du vertrauen kannst!",
+      "english": "Rely on people you can trust.",
+      "note": "Corrected archaic spelling Verla\u00df to current Verlass while retaining the idiomatic trust construction.",
+      "evidence_url": "https://www.duden.de/rechtschreibung/vertrauen"
+    },
+    {
+      "entry_id": "curated:lex-de-irgendwo",
+      "german": "Ich musste mich irgendwo hinsetzen und ausruhen.",
+      "english": "I had to sit down somewhere and rest.",
+      "note": "Corrected the translation to preserve musste (had to) and irgendwo (somewhere).",
+      "evidence_url": "https://www.duden.de/rechtschreibung/irgendwo"
+    },
+    {
+      "entry_id": "curated:lex-de-meinung",
+      "german": "Meiner Meinung nach ist das keine gute Idee.",
+      "english": "In my opinion, that is not a good idea.",
+      "note": "Corrected the source translation grammar and preserved the German phrase Ihrer Meinung nach.",
+      "evidence_url": "https://www.duden.de/rechtschreibung/Meinung"
+    },
+    {
+      "entry_id": "curated:lex-de-entscheidung",
+      "german": "Das war keine leichte Entscheidung.",
+      "english": "That was not an easy decision.",
+      "note": "Replaced an overly long, dated sentence and awkward translation with a concise example of Entscheidung.",
+      "evidence_url": "https://www.duden.de/rechtschreibung/Entscheidung"
+    },
+    {
+      "entry_id": "curated:lex-de-arm",
+      "german": "Er streckte den Arm aus.",
+      "english": "He stretched out his arm.",
+      "note": "Corrected the source translation: Arm means arm, not hand.",
+      "evidence_url": "https://www.duden.de/rechtschreibung/Arm"
+    },
+    {
+      "entry_id": "curated:lex-de-heiss",
+      "german": "Im Sommer ist es hier sehr hei\u00df.",
+      "english": "It is very hot here in summer.",
+      "note": "Replaced a sentence whose English wording did not match the German past-tense statement and included an unusually high temperature.",
+      "evidence_url": "https://www.duden.de/rechtschreibung/heiss"
+    },
+    {
+      "entry_id": "frequency:697",
+      "german": "Du musst unbedingt diese Ausstellung sehen.",
+      "english": "You absolutely must see this exhibition.",
+      "note": "Replaced an example with obsolete spelling with a current, direct example of unbedingt.",
+      "evidence_url": "https://www.duden.de/rechtschreibung/unbedingt"
+    },
+    {
+      "entry_id": "frequency:701",
+      "german": "Es gibt keinen Beweis daf\u00fcr.",
+      "english": "There is no proof of that.",
+      "note": "Replaced an example with obsolete spelling with a concise current example of Beweis.",
+      "evidence_url": "https://www.duden.de/rechtschreibung/Beweis"
+    },
+    {
+      "entry_id": "frequency:704",
+      "german": "Der Spieler schoss den Ball ins Tor.",
+      "english": "The player shot the ball into the goal.",
+      "note": "Replaced a violent example with a neutral sports sentence using the same verb sense.",
+      "evidence_url": "https://www.duden.de/rechtschreibung/schiessen"
+    }
+  ],
+  "entry_updates": [],
+  "plural_reviews": []
+}

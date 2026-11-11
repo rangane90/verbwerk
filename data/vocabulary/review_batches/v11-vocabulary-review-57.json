@@ -1,0 +1,360 @@
+{
+  "batch_id": "v11-vocabulary-review-57",
+  "review_date": "2026-11-11",
+  "input_database_sha256": "a8a0a698bc41d8aef2745ad6184c7e520cf80cf4c60c086213e9be94d960d2e5",
+  "accepted_examples": [
+    {
+      "entry_id": "frequency:4721",
+      "german": "Als Tom wieder an seinem Wagen war, klemmte ein Strafzettel unter dem Scheibenwischer.",
+      "english": "When Tom got back to his car, a parking ticket was stuck under the windshield wipers.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4722",
+      "german": "Maria und Elke waren zueinander passend gekleidet.",
+      "english": "Mary and Alice wore matching outfits.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4723",
+      "german": "Meine Mittagspause ist fast vorbei.",
+      "english": "My lunch break's almost over.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4726",
+      "german": "Viele würden euch beneiden.",
+      "english": "Many people would envy you.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4727",
+      "german": "Alles, was er sieht, erregt seine Neugier.",
+      "english": "Everything he sees arouses his curiosity.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4728",
+      "german": "Wir wollen Tom nicht überwältigen.",
+      "english": "We don't want to overwhelm Tom.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4730",
+      "german": "Tom hörte auf zu trommeln.",
+      "english": "Tom stopped drumming.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4732",
+      "german": "Tom fragte Maria, wie ihr Nachname laute.",
+      "english": "Tom asked Mary what her last name was.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4734",
+      "german": "Mein Vater ist ein wenig altmodisch.",
+      "english": "My father is a bit old-fashioned.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4735",
+      "german": "Vergiss nicht deine Zigaretten und dein Feuerzeug!",
+      "english": "Don't forget your cigarettes and lighter.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4737",
+      "german": "Tom sagte, dass er selbst Alkoholiker sei.",
+      "english": "Tom said that he himself was an alcoholic.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4738",
+      "german": "Magnesium ist ein chemisches Element.",
+      "english": "Magnesium is a chemical element.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4739",
+      "german": "Pass auf deinem Rückweg nach Hause auf.",
+      "english": "Be careful on your way back home.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4740",
+      "german": "Tom küsste Maria auf dem Heimweg vom Tanz.",
+      "english": "Tom kissed Mary on the way home from the dance.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4742",
+      "german": "Du bist so geheimnisvoll.",
+      "english": "You're so mysterious.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4743",
+      "german": "Wir wollen so bald wie möglich abreisen.",
+      "english": "We plan to leave as soon as possible.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4746",
+      "german": "Toms Chef kritisierte ihn dafür, dass er keine Initiative zeige.",
+      "english": "Tom's boss criticized him for not having any initiative.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4749",
+      "german": "Ich kann Sie nicht genug loben.",
+      "english": "I cannot praise you enough.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4750",
+      "german": "Eine Art weißes Pulver war auf dem Boden.",
+      "english": "There was some kind of white powder on the floor.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4753",
+      "german": "Ich gehe mit meinen Hunden gewöhnlich nachmittags spazieren.",
+      "english": "I usually take my dogs for a walk in the afternoon.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4754",
+      "german": "Lebewohl, mein Freund!",
+      "english": "Farewell, my friend!",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4755",
+      "german": "Sind Sie wirklich Reporterin?",
+      "english": "Are you really a reporter?",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4757",
+      "german": "Er kam zu meinem Haus unter dem Vorwand, mich zu treffen.",
+      "english": "He came to my house on the pretext of seeing me.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4763",
+      "german": "Am frühen Morgen blinzelte sie in das Sonnenlicht und erwachte langsam.",
+      "english": "In the early morning, she blinked into the sunlight and slowly woke up.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4764",
+      "german": "Ihr Lebenslauf strotzt vor Rechtschreibfehlern.",
+      "english": "Your résumé is riddled with spelling errors.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4765",
+      "german": "Hinterlassen Sie bitte eine Nachricht auf meinem Anrufbeantworter.",
+      "english": "Please leave your message on my answering machine.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4766",
+      "german": "Das Spiel ist auf unbestimmte Zeit verschoben worden.",
+      "english": "The game has been indefinitely postponed.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4768",
+      "german": "Alles im Leben ist relativ.",
+      "english": "Everything in life is relative.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4770",
+      "german": "Der Wolf hat das Lamm getötet.",
+      "english": "The wolf killed the lamb.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4771",
+      "german": "Tom sprang vom Pier ab.",
+      "english": "Tom jumped off the pier.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4773",
+      "german": "Ich glaube, wir haben Mäuse auf dem Dachboden.",
+      "english": "I think we have some mice in the attic.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "curated:lex-de-keinesfalls",
+      "german": "Was immer Sie tun, bitten Sie keinesfalls Tom, das zu tun.",
+      "english": "Whatever you do, don't ask Tom to do that.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4776",
+      "german": "Sie haben bislang eine wirklich gute Arbeit geleistet.",
+      "english": "You've been doing a pretty good job so far.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4777",
+      "german": "Er sah sich als Retter der Welt.",
+      "english": "He saw himself as the savior of the world.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4779",
+      "german": "Ich bin gerne spontan.",
+      "english": "I like to be spontaneous.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4780",
+      "german": "Unser Weihnachtsbaum war prächtig geschmückt.",
+      "english": "Our Christmas tree was beautifully decorated.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4781",
+      "german": "Sie sehen gut aus in diesem roten Pullover.",
+      "english": "You look nice in that red sweater.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4784",
+      "german": "Der Beamte konnte die Beschwerde nicht selbst bearbeiten.",
+      "english": "The official could not deal with the complaint himself.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4786",
+      "german": "Männer und Frauen machen das unterschiedlich.",
+      "english": "Men and women do that differently.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4789",
+      "german": "Er zerquetschte das Insekt mit der Ferse seines Fußes.",
+      "english": "He squashed the insect with the heel of his foot.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    }
+  ],
+  "editorial_examples": [
+    {
+      "entry_id": "frequency:4724",
+      "german": "In diesem Wettkampf war das Glück auf meiner Seite.",
+      "english": "Luck was on my side in this competition.",
+      "note": "Aligned the English tense with the German past tense."
+    },
+    {
+      "entry_id": "frequency:4736",
+      "german": "Die Polizei sucht nach dem Serienmörder.",
+      "english": "The police are looking for the serial killer.",
+      "note": "Replaced a graphic, overly detailed example with a concise neutral sentence."
+    },
+    {
+      "entry_id": "frequency:4741",
+      "german": "Natürlich ist das erst der Anfang unserer Aufgabe: Wir müssen unsere gemeinsame Menschlichkeit erkennen.",
+      "english": "Of course, that is only the beginning of our task: we must recognize our shared humanity.",
+      "note": "Corrected an unnatural literal expression; gemeinsame Menschlichkeit is the natural phrase for shared humanity."
+    },
+    {
+      "entry_id": "frequency:4747",
+      "german": "Eigentlich ist er gar nicht der Geschäftsführer.",
+      "english": "He isn’t actually the managing director.",
+      "note": "Corrected manager to the closer meaning managing director."
+    },
+    {
+      "entry_id": "frequency:4748",
+      "german": "Hast du schon einmal einen Strafzettel wegen zu schnellen Fahrens bekommen?",
+      "english": "Have you ever gotten a ticket for speeding?",
+      "note": "Corrected the German phrasing for a speeding ticket and simplified the English."
+    },
+    {
+      "entry_id": "curated:lex-de-ansprechen",
+      "german": "Im Gespräch sprach sie auch die Menschenrechte an.",
+      "english": "She also raised human rights during the discussion.",
+      "note": "Replaced a sentence tied to a past political officeholder and visit with a reusable, neutral example."
+    },
+    {
+      "entry_id": "frequency:4759",
+      "german": "Der Zug wird in wenigen Minuten eintreffen.",
+      "english": "The train will arrive in a few minutes.",
+      "note": "Replaced the dated, elevated phrase “in Bälde” with common contemporary usage."
+    },
+    {
+      "entry_id": "frequency:4761",
+      "german": "Wissenschaft basiert auf äußerst sorgfältiger Beobachtung.",
+      "english": "Science is based on very careful observation.",
+      "note": "Corrected the English number to match the German singular."
+    },
+    {
+      "entry_id": "frequency:4778",
+      "german": "Es ist schwierig, es auf dem Landweg zu transportieren, aber einfach, es auf dem Seeweg zu transportieren.",
+      "english": "It is difficult to transport it overland but easy to transport it by sea.",
+      "note": "Corrected the English pronoun number to match German es."
+    },
+    {
+      "entry_id": "frequency:4783",
+      "german": "Ihre Bemühungen werden gewiss Früchte tragen.",
+      "english": "Your efforts will surely bear fruit.",
+      "note": "Corrected the English number to match the German plural."
+    }
+  ],
+  "entry_updates": [
+    {
+      "entry_id": "frequency:4721",
+      "field": "meaning",
+      "value": "to jam, clamp; to wedge or get stuck (under, between, or in a tight space)",
+      "source": "Duden; Verbwerk contextual review",
+      "url": "https://www.duden.de/rechtschreibung/klemmen",
+      "note": "Expanded the gloss to include the construction used by the reviewed example: a ticket wedged under a wiper."
+    },
+    {
+      "entry_id": "frequency:4737",
+      "field": "meaning",
+      "value": "person with alcohol dependence (the noun “alcoholic” can be stigmatizing; neutral wording: person with alcohol dependence)",
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Alkoholiker",
+      "note": "Added Duden’s usage caution and neutral alternatives while retaining the headword meaning."
+    },
+    {
+      "entry_id": "frequency:4771",
+      "field": "meaning",
+      "value": "pier, landing stage or jetty where ships can berth",
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Pier_Anlegestelle",
+      "note": "Corrected a sense collision: the example and common lemma refer to a harbor structure, not the separate bait-worm homonym."
+    },
+    {
+      "entry_id": "frequency:4761",
+      "field": "meaning",
+      "value": "observation; careful watching or monitoring",
+      "source": "Duden; Verbwerk example review",
+      "url": "https://www.duden.de/rechtschreibung/Beobachtung",
+      "note": "Added the scientific observation sense used by the example."
+    },
+    {
+      "entry_id": "frequency:4786",
+      "field": "word_class",
+      "value": "adjective",
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/unterschiedlich",
+      "note": "Corrected the headword class. Unterschiedlich is an adjective used adverbially in this sentence."
+    },
+    {
+      "entry_id": "frequency:4786",
+      "field": "meaning",
+      "value": "different, varying; differently (adverbial use)",
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/unterschiedlich",
+      "note": "Aligned the gloss with the adjective headword and its adverbial use in the example."
+    }
+  ],
+  "plural_reviews": []
+}

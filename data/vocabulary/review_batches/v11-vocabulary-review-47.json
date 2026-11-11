@@ -1,0 +1,405 @@
+{
+  "batch_id": "v11-vocabulary-review-47",
+  "review_date": "2026-11-11",
+  "input_database_sha256": "f281de4a89f1d95d29b899506b012ea9a1c8f3898ae079447f2e894bde436ff0",
+  "accepted_examples": [
+    {
+      "entry_id": "frequency:4088",
+      "german": "Ein Boxer und ein Schauspieler kommen auf uns zu.",
+      "english": "A boxer and an actor are coming toward us.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4089",
+      "german": "Die Ausstellung bietet tiefe Einsichten in antike Kulturstufen.",
+      "english": "The exhibition offers profound insights into ancient civilization.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4090",
+      "german": "Das ist ein sehr tragisches Ereignis.",
+      "english": "This is a very tragic event.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4091",
+      "german": "Sie beendete rasch ihr Mittagessen und ging einkaufen.",
+      "english": "She finished her lunch quickly and went shopping.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4092",
+      "german": "Die Polizistin wies mir den Weg zum Bahnhof.",
+      "english": "The police officer gave me directions to the station.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4093",
+      "german": "Tom wechselte dem Kind die Windeln.",
+      "english": "Tom changed the baby's diapers.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4094",
+      "german": "Sie pflegte flei\u00dfig zu sein.",
+      "english": "She used to be diligent.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4096",
+      "german": "Das ist nicht sehr elegant.",
+      "english": "That isn't very elegant.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4097",
+      "german": "Tom griff Maria mit einem Dolch an.",
+      "english": "Tom attacked Mary with a dagger.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4099",
+      "german": "Ich glaube, wir brauchen eine Auszeit.",
+      "english": "I think we need some time off.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4100",
+      "german": "Das Drogenproblem ist international.",
+      "english": "The drug problem is international.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4102",
+      "german": "Als er die Neuigkeit h\u00f6rte, wurde er blass.",
+      "english": "When he heard the news, he turned pale.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4103",
+      "german": "Tom tut sich schwer mit dem Konzept.",
+      "english": "Tom is struggling with the concept.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4104",
+      "german": "Dieses M\u00e4dchen ver\u00e4nderte seinen Look.",
+      "english": "This girl changed her look.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4105",
+      "german": "Ich bin keineswegs entt\u00e4uscht.",
+      "english": "I'm not disappointed at all.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4106",
+      "german": "Pass auf, dass der Faden nicht rei\u00dft!",
+      "english": "Be careful that the thread doesn't break.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4107",
+      "german": "Tom ist nicht ertrunken.",
+      "english": "Tom didn't drown.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4108",
+      "german": "Ich habe eine Blase am Fu\u00df.",
+      "english": "I have a blister on my foot.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4109",
+      "german": "Diese Br\u00fccke ist zu einem Treffpunkt f\u00fcr junge Leute geworden.",
+      "english": "This bridge has become a meeting place for young people.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4112",
+      "german": "Die royale Familie macht wieder einmal Schlagzeilen.",
+      "english": "The royal family makes headlines again.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4113",
+      "german": "Er ist k\u00f6rperlich in guter Verfassung.",
+      "english": "He is in good physical condition.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4118",
+      "german": "Wir haben die Reinigung des Klassenraumes beendet.",
+      "english": "We've finished cleaning the classroom.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4119",
+      "german": "Das Wetter ist ideal f\u00fcr ein Picknick.",
+      "english": "It's ideal weather for a picnic.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4122",
+      "german": "Der Farmer, der in der N\u00e4he wohnte, kam, um Nachforschungen anzustellen.",
+      "english": "The farmer that lived nearby came to investigate.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4123",
+      "german": "Ich muss die Batterie meines Wagens aufladen.",
+      "english": "I have to charge the battery of my car.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4126",
+      "german": "Es ist wie eine Droge.",
+      "english": "It's like a drug.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4127",
+      "german": "In den 1880ern entdeckte der franz\u00f6sische Wissenschaftler Louis Pasteur den Zusammenhang zwischen Mikroben und der \u00dcbertragung von Krankheiten.",
+      "english": "In the 1880s, French scientist Louis Pasteur discovered the link between microbes and the transmission of diseases.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4128",
+      "german": "Wenn du m\u00fcde bist, mach doch ein Nickerchen.",
+      "english": "If you're tired, take a nap.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4133",
+      "german": "Mir gef\u00e4llt der langsame Rhythmus dieses Liedes.",
+      "english": "I like the slow rhythm of that song.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4134",
+      "german": "Tom ist auch mitgegangen.",
+      "english": "Tom tagged along.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4137",
+      "german": "Dein buntes Hemd sticht wirklich hervor.",
+      "english": "Your colorful shirt really stands out.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4139",
+      "german": "Warum wurde ich davon nicht umgehend in Kenntnis gesetzt?",
+      "english": "Why wasn't I notified about this immediately?",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4140",
+      "german": "Die Situation schien hoffnungslos zu sein.",
+      "english": "The situation seemed hopeless.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4142",
+      "german": "Gib einen Schuss Brandy in meinen Tee.",
+      "english": "Put a dash of brandy in my tea.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4144",
+      "german": "Er go\u00df die Milch in eine Sch\u00fcssel.",
+      "english": "He poured the milk in a bowl.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4145",
+      "german": "Sie k\u00f6nnen Ihr Gep\u00e4ck auf dieser Waage wiegen.",
+      "english": "You can weigh your luggage on these scales.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4147",
+      "german": "Er brach sich den Arm, so dass er geschient werden musste.",
+      "english": "He broke his arm and they had to put splints on it.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4149",
+      "german": "Tom stellte mir seinen Mitbewohner vor.",
+      "english": "Tom introduced me to his roommate.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    }
+  ],
+  "editorial_examples": [
+    {
+      "entry_id": "frequency:4114",
+      "german": "Diese Art von Arbeit erfordert ein hohes Ma\u00df an Konzentration.",
+      "english": "This kind of work requires a high level of concentration.",
+      "note": "Corrected the German subject agreement and replaced the literal machine translation with a direct, grammatical English equivalent."
+    },
+    {
+      "entry_id": "frequency:4115",
+      "german": "Muss ich den gr\u00fcnen oder den roten Draht durchschneiden?",
+      "english": "Should I cut the green wire or the red one?",
+      "note": "Aligned the color order in English with the German sentence."
+    },
+    {
+      "entry_id": "frequency:4116",
+      "german": "Der Tower am Flughafen ist rund um die Uhr besetzt.",
+      "english": "The control tower at the airport is staffed around the clock.",
+      "note": "Replaced the Tower of London example, which uses a proper name and not the air-traffic-control sense.",
+      "evidence_url": "https://www.duden.de/rechtschreibung/Kontrollturm"
+    },
+    {
+      "entry_id": "frequency:4120",
+      "german": "Das Rad eiert, wenn man es dreht.",
+      "english": "The wheel wobbles when you spin it.",
+      "note": "Replaced a mistranslated vinyl-record example with a clear example of a wheel wobbling."
+    },
+    {
+      "entry_id": "frequency:4121",
+      "german": "Unkraut kann junge Pflanzen ersticken.",
+      "english": "Weeds can choke young plants.",
+      "note": "Replaced a violent example with a neutral, clear use of ersticken."
+    },
+    {
+      "entry_id": "frequency:4125",
+      "german": "Die Badewanne ist gro\u00df genug f\u00fcr zwei Personen.",
+      "english": "The bathtub is big enough for two people.",
+      "note": "Replaced the self-harm example with a neutral everyday sentence."
+    },
+    {
+      "entry_id": "frequency:4129",
+      "german": "Juhu, ich habe gewonnen.",
+      "english": "Yay, I won!",
+      "note": "Translated the German interjection into natural English."
+    },
+    {
+      "entry_id": "frequency:4131",
+      "german": "Findet ihr, dass ich ungerecht bin?",
+      "english": "Do you think I am being unfair?",
+      "note": "Updated the superseded spelling da\u00df to current standard dass and smoothed the translation."
+    },
+    {
+      "entry_id": "frequency:4132",
+      "german": "Er empfand Reue \u00fcber seine Tat und entschuldigte sich.",
+      "english": "He felt remorse for what he had done and apologized.",
+      "note": "Replaced an awkward sentence and punctuation with a natural example that clearly expresses remorse."
+    },
+    {
+      "entry_id": "frequency:4135",
+      "german": "Auf dem Siegel des Grafen waren zwei gekreuzte Schwerter zu sehen.",
+      "english": "The count's seal showed two crossed swords.",
+      "note": "Improved the agreement and made the English translation idiomatic."
+    },
+    {
+      "entry_id": "frequency:4136",
+      "german": "Moore trockenzulegen ist aus heutiger Sicht ein gro\u00dfer Fehler gewesen.",
+      "english": "In retrospect, draining bogs was a big mistake.",
+      "note": "Rewrote the awkward machine-translated English while preserving the German example."
+    },
+    {
+      "entry_id": "frequency:4148",
+      "german": "Ich marschierte, bis ich vor M\u00fcdigkeit nicht mehr konnte.",
+      "english": "I marched until I was too tired to continue.",
+      "note": "Corrected the English translation so it preserves the meaning of marschierte."
+    }
+  ],
+  "held_examples": [
+    {
+      "entry_id": "frequency:4114",
+      "german": "Dieser Art von Arbeit erfordert ein hohes Ma\u00df an Konzentration.",
+      "reason": "Corrected the German subject agreement and replaced the literal machine translation with a direct, grammatical English equivalent."
+    },
+    {
+      "entry_id": "frequency:4116",
+      "german": "Hast du den Tower in London besichtigt?",
+      "reason": "Replaced the Tower of London example, which uses a proper name and not the air-traffic-control sense."
+    },
+    {
+      "entry_id": "frequency:4120",
+      "german": "Schade, jetzt eiert die LP von den Stones.",
+      "reason": "Replaced a mistranslated vinyl-record example with a clear example of a wheel wobbling."
+    },
+    {
+      "entry_id": "frequency:4121",
+      "german": "Der Attent\u00e4ter erstickte sein Opfer mit einem Kissen.",
+      "reason": "Replaced a violent example with a neutral, clear use of ersticken."
+    },
+    {
+      "entry_id": "frequency:4125",
+      "german": "Tom versuchte sich in der Badewanne zu ertr\u00e4nken.",
+      "reason": "Replaced the self-harm example with a neutral everyday sentence."
+    },
+    {
+      "entry_id": "frequency:4131",
+      "german": "Findet ihr, da\u00df ich ungerecht bin?",
+      "reason": "Updated the superseded spelling da\u00df to current standard dass and smoothed the translation."
+    },
+    {
+      "entry_id": "frequency:4132",
+      "german": "Voll Reue \u00fcber seine Tat, entschuldigte er sich.",
+      "reason": "Replaced an awkward sentence and punctuation with a natural example that clearly expresses remorse."
+    },
+    {
+      "entry_id": "frequency:4135",
+      "german": "Das Siegel des Grafen waren zwei gekreuzte Schwerter.",
+      "reason": "Improved the agreement and made the English translation idiomatic."
+    }
+  ],
+  "entry_updates": [
+    {
+      "entry_id": "frequency:4094",
+      "field": "word_class",
+      "value": "adjective",
+      "note": "Corrected the part of speech: Duden identifies flei\u00dfig as an adjective; it is used adverbially in the example.",
+      "url": "https://www.duden.de/rechtschreibung/fleiszig"
+    },
+    {
+      "entry_id": "frequency:4094",
+      "field": "meaning",
+      "value": "diligent, industrious; frequently (also used adverbially)",
+      "note": "Aligned the gloss with the adjective senses, including the frequent/regular sense.",
+      "url": "https://www.duden.de/rechtschreibung/fleiszig"
+    },
+    {
+      "entry_id": "frequency:4103",
+      "field": "meaning",
+      "value": "concept, idea, plan; blueprint or draft",
+      "note": "Added the concept sense used by the example to the existing blueprint/draft gloss.",
+      "url": "https://www.duden.de/rechtschreibung/Konzept"
+    },
+    {
+      "entry_id": "frequency:4104",
+      "field": "meaning",
+      "value": "look, appearance, style",
+      "note": "Expanded the opaque self-gloss to learner-friendly equivalents for the example sense.",
+      "url": "https://www.duden.de/rechtschreibung/Look"
+    },
+    {
+      "entry_id": "frequency:4108",
+      "field": "meaning",
+      "value": "blister; bubble; (anatomical) bladder",
+      "note": "Added the common blister sense used in the example while retaining the bubble sense.",
+      "url": "https://www.duden.de/rechtschreibung/Blase"
+    },
+    {
+      "entry_id": "frequency:4121",
+      "field": "meaning",
+      "value": "to suffocate; to smother; to choke",
+      "note": "Added the plant-choking sense shown by the revised example.",
+      "url": "https://www.duden.de/rechtschreibung/ersticken"
+    },
+    {
+      "entry_id": "frequency:4123",
+      "field": "meaning",
+      "value": "battery (power source); artillery battery",
+      "note": "Added the common electrical power-source sense used by the example to the existing military sense.",
+      "url": "https://www.duden.de/rechtschreibung/Batterie"
+    }
+  ],
+  "plural_reviews": [],
+  "inflected_links": []
+}

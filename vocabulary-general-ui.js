@@ -2,24 +2,64 @@
   var access=window.VW_APP_ACCESS, visibleLimit=60;
   var session={items:[],index:0,score:0,answered:false,choice:'',selectedId:'',mode:'quickRevision'};
   var rows=window.VW_GENERAL_DATA&&Array.isArray(window.VW_GENERAL_DATA.entries)?window.VW_GENERAL_DATA.entries:[];
+  var latestDatabase=window.VW_LATEST_VOCABULARY||{};
+  var hasStudy=Array.isArray(latestDatabase.entries)&&latestDatabase.routes&&
+    latestDatabase.entries.length===latestDatabase.metadata?.entry_count;
+  var studyEntries=hasStudy?latestDatabase.entries:[], latestById=new Map(studyEntries.map(function(entry){return [entry.entry_id,entry];}));
+  function lookup(kind,id){
+    var routes=hasStudy&&latestDatabase.routes[kind];
+    var key=kind==='unified'?String(id):routes&&routes[kind==='article'?norm(id):String(id)];
+    return key?latestById.get(key):null;
+  }
+  function studyWord(entry){
+    var noun=entry.noun;
+    if(noun)return (noun.articles.length?noun.articles.join('/')+' ':'')+entry.lemma;
+    return entry.lemma;
+  }
+  function studyText(value){
+    if(Array.isArray(value))return value.map(studyText).filter(Boolean).join(' / ');
+    if(!value||typeof value!=='object')return value==null?'':String(value);
+    if(value.comparative||value.superlative)return [value.comparative&&'Comparative: '+studyText(value.comparative),value.superlative&&'Superlative: '+studyText(value.superlative)].filter(Boolean).join(' · ');
+    if(value.with_dependent_verb)return [value.without_dependent_verb&&'Without another verb: '+value.without_dependent_verb,'With another verb: '+value.with_dependent_verb,value.example].filter(Boolean).join(' · ');
+    if(value.variants)return value.variants.map(function(item){return studyText(item.forms_or_usage)+(item.source_glosses?.length?' ('+item.source_glosses.join(' / ')+')':'');}).join(' · ');
+    return [value.construction,value.labels,value.dictionary_qualifier,value.source_qualifiers_de].map(studyText).filter(Boolean).join(' · ');
+  }
+  function studyExamples(entry,includeCandidate){
+    var list=entry.examples.slice();
+    if(entry.fallback_example)list.push(entry.fallback_example);
+    if(includeCandidate&&entry.candidate_example)list.push(entry.candidate_example);
+    return list.map(function(x){return {sentence:x.german,translation:x.english,translation_language:'en',databaseStatus:x.status,source:x.source,attribution:x.attribution};});
+  }
+  function enrichGeneral(row){
+    var entry=lookup('general',row.id);
+    if(!entry)return row;
+    var noun=entry.noun,grammar=entry.grammar||{};
+    return Object.assign({},row,{latestDatabase:entry,meaning:entry.english_meaning,
+      english_terms:[{term:entry.english_meaning,primary:true}],part_of_speech:entry.word_class,
+      display_form:studyWord(entry),article:noun?noun.articles.join(' / '):'',plural_forms:noun?noun.plurals:[],
+      german_examples:studyExamples(entry,true),
+      usage_note:studyText(grammar.usage)||row.usage_note});
+  }
+  var studyRows=rows.map(enrichGeneral);
+  window.VW_STUDY={entries:studyEntries,lookup:lookup,word:studyWord,text:studyText,examples:studyExamples};
   var frequencyRows=window.VW_WORDLY_DE||[], frequencyLimit=60;
   var nounGenderData=window.VW_GERMAN_NOUN_GENDERS||{entries:{}};
   var nounGenderEntries=nounGenderData.entries||{};
-  var posAliases={pron:"pronoun",prep:"preposition",conj:"conjunction",intj:"interjection",num:"numeral"};
+  var posAliases={pron:"pronoun",prep:"preposition",conj:"conjunction",intj:"interjection",num:"numeral",adj:"adjective",adv:"adverb",det:"determiner"};
   var frequencyRanks=new Map(frequencyRows.map(function(row){
     return [rankKey(row.lemma,posAliases[row.pos]||row.pos),row.rank];
   }));
   var frequencyBands={500:[1,500],1000:[501,1000],2000:[1001,2000],3500:[2001,3500],upper:[3501,5000],all:[1,5000]};
   var wordTypes=[
-    ["all","Alle Wörter"],["noun","Nomen"],["verb","Verben"],["adj","Adjektive"],["adv","Adverbien"],
+    ["all","Alle Wörter"],["noun","Nomen"],["verb","Verben"],["adjective","Adjektive"],["adverb","Adverbien"],
     ["connector","Konnektoren"],["preposition","Präpositionen"],["pronoun","Pronomen"],
-    ["det","Artikel und Determinative"],["numeral","Numeralia"],["particle","Partikeln"],
+    ["determiner","Artikel und Determinative"],["numeral","Numeralia"],["particle","Partikeln"],
     ["interjection","Interjektionen"],["chunk","Wendungen"],["other","Sonstige"]
   ];
   var connectorAdverbs=new Set(["also","außerdem","ansonsten","dagegen","daher","dann","darum","deshalb","deswegen","folglich","sonst","stattdessen","trotzdem","zudem"]);
   function hasWordType(lemma,pos,type){
     if(type==="all")return true;
-    if(type==="connector")return pos==="conjunction"||(pos==="adv"&&connectorAdverbs.has(norm(lemma)));
+    if(type==="connector")return pos==="conjunction"||(pos==="adverb"&&connectorAdverbs.has(norm(lemma)));
     return pos===type;
   }
   function populateWordTypes(id,entries){
@@ -32,7 +72,7 @@
   }
   function rankKey(lemma,pos){return lemma.normalize("NFC")+"|"+pos;}
   function rank(entry){return frequencyRanks.get(rankKey(entry.lemma||entry.display_form||"",entry.part_of_speech))||5001;}
-  function active(){return rows.filter(function(x){return x.status==='approved'&&x.is_active!==false;});}
+  function active(){return studyRows.filter(function(x){return x.status==='approved'&&x.is_active!==false;});}
   function escText(x){return window.esc(String(x==null?'':x));}
   function primary(x){var a=Array.isArray(x.english_terms)?x.english_terms:[];var t=a.find(function(y){return y.primary&&y.term;})||a.find(function(y){return y.term;});return t?t.term:'';}
   function meaning(x){return x.meaning||primary(x)||'Meaning not available';}
@@ -42,7 +82,9 @@
   function plural(x){return plurals(x)[0]||"";}
   function articlePluralLabel(x){
     if(x.p)return "Plural: "+x.p;
-    return x.pluralUsage==="singular_in_sense"?"In dieser Bedeutung meist Singular":"Plural: not listed in this source";
+    if(x.numberNote)return x.numberNote;
+    if(x.candidatePlural)return "Plural for review: "+studyText(x.candidatePlural);
+    return x.pluralUsage==="singular_in_sense"?"Usually singular in this sense":"Plural: not listed in this source";
   }
   function norm(x){return String(x||'').toLocaleLowerCase().normalize('NFC').trim();}
   function genderInfo(lemma){return nounGenderEntries[norm(lemma)]||null;}
@@ -65,15 +107,17 @@
     var bounds=frequencyBands[document.getElementById("frequencyBand").value];
     var type=document.getElementById("frequencyWordType").value;
     var matches=frequencyRows.filter(function(row){
-      return row.rank>=bounds[0]&&row.rank<=bounds[1]&&hasWordType(row.lemma,posAliases[row.pos]||row.pos,type)&&norm(row.lemma+" "+row.gloss).includes(query);
+      var entry=lookup('frequency',row.rank);
+      return row.rank>=bounds[0]&&row.rank<=bounds[1]&&hasWordType(row.lemma,entry?entry.word_class:posAliases[row.pos]||row.pos,posAliases[type]||type)&&norm(row.lemma+" "+(entry?entry.english_meaning:row.gloss)).includes(query);
     });
     var shown=matches.slice(0,frequencyLimit);
     document.getElementById("frequencyCount").textContent=matches.length?("Showing "+shown.length+" of "+matches.length+" entries"):"No matching entries";
     document.getElementById("frequencyList").innerHTML=shown.map(function(row){
       var rankLabel="Frequency rank "+row.rank, info=row.pos==='noun'?genderInfo(row.lemma):null, articles=genderArticles(info);
-      var shownWord=row.pos==='noun'?displayNoun(row.lemma,articles):row.lemma;
-      var articleNote=row.pos==='noun'&&info&&!articles.length?'<div class="meta">'+escText(info.note||'Article depends on usage')+'</div>':'';
-      return '<article class="card word-card frequency-entry" role="listitem" data-detail-kind="frequency" data-detail-id="'+row.rank+'"><div class="frequency-row"><span class="frequency-rank" aria-label="'+rankLabel+'">#'+row.rank+'</span><div class="frequency-main"><span class="word-link" lang="de">'+escText(shownWord)+' <span aria-hidden="true">&#8594;</span></span><div class="meaning">'+escText(row.gloss)+'</div>'+articleNote+'</div></div>'+window.pronunciationButtons(shownWord)+'</article>';
+      var entry=lookup('frequency',row.rank),shownWord=entry?studyWord(entry):(row.pos==='noun'?displayNoun(row.lemma,articles):row.lemma);
+      var note=entry?entry.noun?.article_note:row.pos==='noun'&&info&&!articles.length?info.note:'';
+      var articleNote=note?'<div class="meta">'+escText(note)+'</div>':'';
+      return '<article class="card word-card frequency-entry" role="listitem" data-detail-kind="frequency" data-detail-id="'+row.rank+'"><div class="frequency-row"><span class="frequency-rank" aria-label="'+rankLabel+'">#'+row.rank+'</span><div class="frequency-main"><span class="word-link" lang="de">'+escText(shownWord)+' <span aria-hidden="true">&#8594;</span></span><div class="meaning">'+escText(entry?entry.english_meaning:row.gloss)+'</div>'+articleNote+'</div></div>'+window.pronunciationButtons(shownWord)+'</article>';
     }).join("");
     document.getElementById("frequencyMore").classList.toggle("hidden",shown.length>=matches.length);
   };
@@ -116,7 +160,19 @@
   var generalNouns=active().filter(function(x){return x.part_of_speech==='noun'&&['der','die','das'].indexOf(x.article)>=0;}).filter(function(x){var k=norm(x.lemma);if(!k||seen.has(k))return false;seen.add(k);return true;}).map(function(x){return {n:x.lemma,a:x.article,articles:[x.article],p:plural(x),en:meaning(x),source:'general',id:x.id,pluralUsage:x.plural_usage};});
   var frequencyNouns=frequencyRows.filter(function(x){return x.pos==='noun';}).filter(function(x){var k=norm(x.lemma);if(!k||seen.has(k)||!genderInfo(x.lemma))return false;seen.add(k);return true;}).map(function(x){var info=genderInfo(x.lemma),articles=genderArticles(info);return {n:x.lemma,a:articles.join(' / '),articles:articles,p:'',en:x.gloss,source:'frequency',frequencyRank:x.rank,note:info.note||''};});
   window.VW_ARTICLE_BANK=base.concat(generalNouns,frequencyNouns);
-  window.VW_ARTICLE_PRACTICE_BANK=window.VW_ARTICLE_BANK.filter(function(x){return ['der','die','das'].indexOf(x.a)>=0;});
+  var articleSlots=null;
+  if(hasStudy&&Array.isArray(latestDatabase.article_bank)){
+    var mapped=latestDatabase.article_bank.map(function(row){
+      return {id:row.id||'',entryId:row.entry_id,n:row.lemma,a:row.article,articles:row.articles,p:row.plural,en:row.english,
+        eligible:row.eligible,scheduled:row.scheduled,browsable:row.browsable,source:row.source,note:row.note,numberNote:row.number_note,candidatePlural:row.candidate_plural};
+    });
+    articleSlots=mapped.filter(function(row){return row.scheduled;});
+    window.VW_ARTICLE_BANK=mapped.filter(function(row){return row.browsable;});
+  }
+  function eligibleArticle(row){return row.eligible===true||(row.eligible==null&&['der','die','das'].indexOf(row.a)>=0);}
+  window.VW_ARTICLE_PRACTICE_BANK=window.VW_ARTICLE_BANK.filter(eligibleArticle);
+  window.VW_ARTICLE_LESSON_SLOTS=articleSlots||window.VW_ARTICLE_PRACTICE_BANK;
+  function articleLessonWords(start,end){return window.VW_ARTICLE_LESSON_SLOTS.slice(start,end).filter(eligibleArticle);}
   function setCount(id,count){var node=document.getElementById(id);if(node)node.textContent=new Intl.NumberFormat('en-US').format(count);}
   setCount('frequencyCollectionCount',frequencyRows.length);
   setCount('pilotCollectionCount',(window.VW_PILOT_DATA||[]).length);
@@ -282,9 +338,10 @@
     if(more)more.classList.toggle('hidden',articleRendered>=articleMatches.length);
   }
   window.showMoreArticleNouns=appendArticleBatch;
+  window.articlePluralLabel=articlePluralLabel;
   window.renderArticleLibrary=function(){
     var q=norm((document.getElementById('articleLibrarySearch')||{}).value||'');
-    articleMatches=window.VW_ARTICLE_BANK.filter(function(x){return norm([x.a,(x.articles||[]).join(' '),x.n,x.en,x.p,x.note].join(' ')).indexOf(q)>=0;});
+    articleMatches=window.VW_ARTICLE_BANK.filter(function(x){return norm([x.a,(x.articles||[]).join(' '),x.n,x.en,x.p,x.note,x.numberNote].join(' ')).indexOf(q)>=0;});
     articleRendered=0;
     var root=document.getElementById('articleLibrary');if(root)root.replaceChildren();
     var note=document.getElementById('articleLibraryPracticeNote');
@@ -293,21 +350,21 @@
   };
   window.renderArticleHome=function(){
     var s=access.state,done=Array.isArray(s.articleCompleted)?s.articleCompleted.length:0,day=Math.max(1,done+1);
-    var fresh=window.VW_ARTICLE_PRACTICE_BANK.slice((day-1)*5,day*5);
+    var fresh=articleLessonWords((day-1)*5,day*5);
     document.getElementById('articleDayTitle').textContent='Day '+day+' · Article training';
     document.getElementById('articleDayInfo').textContent=fresh.length?fresh.length+' new nouns · previous nouns return in revision':'All available nouns have been introduced. Use article practice for review.';
     document.getElementById('articleDailyWords').textContent=fresh.map(function(x){return x.a+' '+x.n+' · '+x.en;}).join('  |  ');
     var b=document.querySelector('#articlePage button[onclick="startArticleLesson()"]');if(b)b.disabled=!fresh.length;
   };
   window.startArticleLesson=function(){
-    var s=access.state,day=Math.max(1,(s.articleCompleted||[]).length+1),fresh=window.VW_ARTICLE_PRACTICE_BANK.slice((day-1)*5,day*5),prior=window.VW_ARTICLE_PRACTICE_BANK.slice(0,(day-1)*5).slice(-5);
+    var s=access.state,day=Math.max(1,(s.articleCompleted||[]).length+1),fresh=articleLessonWords((day-1)*5,day*5),prior=articleLessonWords(0,(day-1)*5).slice(-5);
     if(!fresh.length){alert('All currently bundled article lessons are complete.');return;}
     access.articleItems=fresh.concat(prior);access.articleMode='lesson';access.articleIndex=0;access.articleScore=0;access.articleDone=false;access.articleChoice='';
     window.vwNav('review',null,true);window.renderArticleQuestion();
   };
   window.startArticlePractice=function(k){
     var s=access.state;access.articleMode=k;
-    var learned=window.VW_ARTICLE_PRACTICE_BANK.slice(0,Math.min(window.VW_ARTICLE_PRACTICE_BANK.length,Math.max(5,(s.articleCompleted||[]).length*5)));
+    var learned=articleLessonWords(0,Math.max(5,(s.articleCompleted||[]).length*5));
     access.articleItems=learned.slice().sort(function(a,b){return ((s.articleWeak||{})[b.n]||0)-((s.articleWeak||{})[a.n]||0);}).slice(0,k==='quickTest'?10:k==='deepTest'?12:8);
     access.articleIndex=0;access.articleScore=0;access.articleDone=false;access.articleChoice='';
     window.vwNav('review',null,true);window.renderArticleQuestion();
@@ -382,7 +439,7 @@
   var oldProgress=window.renderProgress;
   window.renderProgress=function(){oldProgress();var e=document.getElementById('generalProgressSummary');if(e){var s=ensure();var due=active().filter(function(x){return isDue(x.id);}).length;e.textContent=s.generalKnown.length+' entries learned · '+s.generalSaved.length+' saved · '+due+' due for review · '+s.generalAnswers+' answers, '+s.generalCorrect+' correct.';}};
   populateWordTypes("generalWordType",active());
-  populateWordTypes("frequencyWordType",frequencyRows);
+  populateWordTypes("frequencyWordType",frequencyRows.map(function(row){var entry=lookup('frequency',row.rank);return entry?{lemma:row.lemma,part_of_speech:entry.word_class}:row;}));
   document.addEventListener('click',function(event){
     var menu=document.getElementById('libraryMoreKinds');
     if(menu&&menu.open&&!menu.contains(event.target))menu.open=false;

@@ -1,0 +1,352 @@
+{
+  "batch_id": "v11-vocabulary-review-58",
+  "review_date": "2026-11-11",
+  "input_database_sha256": "77cb0feb930178da6af6015d4622f3bcebd159b2ff77ca7da295eb274b91d055",
+  "accepted_examples": [
+    {
+      "entry_id": "frequency:4792",
+      "german": "Tom ist einer der besten Produzenten, die ich kenne.",
+      "english": "Tom is one of the best producers I know.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4793",
+      "german": "Ich erinnere mich nicht mehr an den Zwischenfall.",
+      "english": "I don't remember the incident.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4795",
+      "german": "Tom benötigt ständige Pflege.",
+      "english": "Tom requires constant care.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4797",
+      "german": "Sag Tom, dass er Nachforschungen anstellen soll.",
+      "english": "Tell Tom to investigate.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4798",
+      "german": "Gerhard Schröder ist der erste deutsche Kanzler, der nicht den Zweiten Weltkrieg miterlebt hat.",
+      "english": "Gerhard Schroeder is the first German chancellor not to have lived through World War II.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4799",
+      "german": "Ich habe Sahne in meinen Kaffee getan.",
+      "english": "I put cream in my coffee.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4801",
+      "german": "Der Schlitten des Weihnachtsmannes wird von Rentieren gezogen.",
+      "english": "Reindeer pull Santa's sleigh.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4803",
+      "german": "Die Ergebnisse der Prüfung werden erst nächste Woche verkündet.",
+      "english": "The results of the test will only be announced next week.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4804",
+      "german": "Tom war vorgestern nicht in seiner Wohnung.",
+      "english": "Tom wasn't in his apartment the day before yesterday.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4806",
+      "german": "Was Tom tat, war ziemlich bemerkenswert.",
+      "english": "What Tom did was pretty remarkable.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4807",
+      "german": "Die Dinosaurier sind vor langer Zeit ausgestorben.",
+      "english": "Dinosaurs died out a very long time ago.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4809",
+      "german": "Ich habe gerade herausgefunden, worin das Problem besteht.",
+      "english": "I just figured out what the problem is.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4810",
+      "german": "Tom ist kein Rabbi.",
+      "english": "Tom isn't a rabbi.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4811",
+      "german": "Die Nachfrage ist größer als das Angebot.",
+      "english": "Demand is outstripping supply.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4812",
+      "german": "Ich fühlte mich unwohl.",
+      "english": "I felt unwell.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4814",
+      "german": "Die Wissenschaftler wissen nicht, woraus die dunkle Materie besteht.",
+      "english": "Scientists don't know what dark matter is made of.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4817",
+      "german": "Lassen Sie Ihren Schirm an der Haustür!",
+      "english": "Leave your umbrella at the front door.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4819",
+      "german": "Tom ist im letzten Semester in Englisch durchgefallen.",
+      "english": "Tom failed English last semester.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4820",
+      "german": "Das Fell unserer Katze hat seinen Glanz verloren.",
+      "english": "Our cat's fur has lost its luster.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4821",
+      "german": "Am leichtesten kommt man mit der Fähre auf die Insel.",
+      "english": "The easiest way to get to the island is by ferry.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4823",
+      "german": "Tom ist ziemlich arrogant, nicht wahr?",
+      "english": "Tom is very arrogant, isn't he?",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4825",
+      "german": "Tom ist ein guter Fotograf, nicht wahr?",
+      "english": "Tom is a good photographer, isn't he?",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4827",
+      "german": "Wie haben die das hingekriegt?",
+      "english": "How did they manage that?",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4829",
+      "german": "Ich finde, euer Plan ist nicht realistisch.",
+      "english": "I think your plan isn't realistic.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4830",
+      "german": "Tom und Maria sind seit dem Kindergarten befreundet.",
+      "english": "Tom and Mary have been friends since kindergarten.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4831",
+      "german": "Um wieviel Uhr macht der Pub zu?",
+      "english": "What time does the pub close?",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4832",
+      "german": "Ich fühle mich bedrückt, da ich viele Dinge zu erledigen habe.",
+      "english": "I feel depressed because there are a lot of things I have to do.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4834",
+      "german": "Seit wie vielen Jahren bist du schon Klempner?",
+      "english": "How many years have you been a plumber?",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4836",
+      "german": "Mit einem Schlauch bewässert man große Grünflächen in Parks.",
+      "english": "Large green areas in parks are irrigated with a hose.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4837",
+      "german": "Wir verbinden den Namen Einstein mit der Relativitätstheorie.",
+      "english": "We associate the name of Einstein with the theory of relativity.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4839",
+      "german": "Er weiß, wie man Fisch grillt.",
+      "english": "He knows how to grill fish.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4841",
+      "german": "Soweit ich weiß, gibt es eine solche Funktion nicht.",
+      "english": "As far as I know, there is no such function.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4842",
+      "german": "Ich wünsche, anonym zu bleiben.",
+      "english": "I wish to remain anonymous.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "curated:lex-de-veranstaltung",
+      "german": "Die Veranstaltung lockte über 300 Menschen an.",
+      "english": "The event attracted more than 300 people.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4844",
+      "german": "Tom ist seiner Verpflichtung nicht nachgekommen.",
+      "english": "Tom didn't fulfil his obligation.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4845",
+      "german": "Ich war die schlechteste Schülerin in der Klasse.",
+      "english": "I was the worst student in the class.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4846",
+      "german": "Das Medikament ist zur innerlichen Anwendung gedacht.",
+      "english": "The drug is intended for internal use.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4847",
+      "german": "Aus ihr wurde eine große Künstlerin.",
+      "english": "She became a great artist.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4850",
+      "german": "Tom stieß einen Seufzer der Erleichterung aus.",
+      "english": "Tom let out a sigh of relief.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4851",
+      "german": "Tom hat dieses Pferd bei einer Auktion erworben.",
+      "english": "Tom bought this horse at an auction.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4852",
+      "german": "Tom nahm eines der Bücher aus dem Regal.",
+      "english": "Tom took one of the books off the shelf.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    }
+  ],
+  "editorial_examples": [
+    {
+      "entry_id": "frequency:4790",
+      "german": "Mein älterer Bruder hat alle Vorbereitungen für uns getroffen.",
+      "english": "My older brother made all the preparations for us.",
+      "note": "Corrected the English number to match the German plural."
+    },
+    {
+      "entry_id": "frequency:4791",
+      "german": "Wir fahren nach der Pause mit der Arbeit fort.",
+      "english": "We will continue working after the break.",
+      "note": "Replaced an awkwardly ordered sentence with a natural example of fortfahren meaning continue."
+    },
+    {
+      "entry_id": "frequency:4794",
+      "german": "Autsch! Das tat weh!",
+      "english": "Ouch! That hurt!",
+      "note": "Added the omitted English translation of the interjection."
+    },
+    {
+      "entry_id": "frequency:4800",
+      "german": "Der Ausbilder zwiebelte die Rekruten mit zusätzlichen Übungen.",
+      "english": "The instructor put the recruits through extra drills.",
+      "note": "Replaced an opaque machine translation with an example and translation that make the colloquial sense clear."
+    },
+    {
+      "entry_id": "frequency:4808",
+      "german": "Aller Wahrscheinlichkeit nach wird es heute nicht schneien.",
+      "english": "In all likelihood, it will not snow today.",
+      "note": "Removed the incorrect comma after the introductory phrase."
+    },
+    {
+      "entry_id": "frequency:4822",
+      "german": "Der Zahnarzt betäubt das Zahnfleisch, bevor er operiert.",
+      "english": "The dentist numbs the gums before operating.",
+      "note": "Corrected the machine translation of the medical verb."
+    },
+    {
+      "entry_id": "frequency:4826",
+      "german": "Das Unternehmen hat mindestens dreimal den Eigentümer gewechselt.",
+      "english": "The company has changed owners at least three times.",
+      "note": "Made the English match the German subject and clarified the change-of-ownership sense."
+    },
+    {
+      "entry_id": "frequency:4833",
+      "german": "Ich fand eine alte Kassette in der Schublade.",
+      "english": "I found an old cassette in the drawer.",
+      "note": "Replaced an awkward purchasing scenario with a simple, natural example for this older media term."
+    },
+    {
+      "entry_id": "frequency:4848",
+      "german": "Viele Menschen glauben an einen Schöpfer.",
+      "english": "Many people believe in a creator.",
+      "note": "Replaced a sentence centered on imminent death with a neutral example of the noun."
+    }
+  ],
+  "entry_updates": [
+    {
+      "entry_id": "frequency:4791",
+      "field": "meaning",
+      "value": "to continue, proceed (with something); to drive away or off (in another construction)",
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/fortfahren",
+      "note": "Added the continue/proceed sense used by the reviewed example and retained the distinct driving-away sense."
+    },
+    {
+      "entry_id": "frequency:4798",
+      "field": "meaning",
+      "value": "chancellor (head of government); senior administrative officer at a university",
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Kanzler",
+      "note": "Corrected the gloss to include the political sense used by the source example and the university sense."
+    },
+    {
+      "entry_id": "frequency:4800",
+      "field": "meaning",
+      "value": "to bully, hassle, or torment (colloquial); to sting or hurt (of a wound)",
+      "source": "German Wiktionary; Duden Universalwörterbuch",
+      "url": "https://de.wiktionary.org/wiki/zwiebeln",
+      "note": "Clarified the colloquial sense and marked the register; the example illustrates the bullying/hassling sense."
+    },
+    {
+      "entry_id": "frequency:4822",
+      "field": "meaning",
+      "value": "to numb, anesthetize; to stun or daze",
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/betaeuben",
+      "note": "Corrected the gloss to the medical sense used by the example and retained the related stun/daze sense."
+    },
+    {
+      "entry_id": "frequency:4826",
+      "field": "meaning",
+      "value": "owner (of property, an object, or a company)",
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Eigentuemer",
+      "note": "Replaced an overly technical definition with a concise, learner-friendly gloss."
+    }
+  ],
+  "plural_reviews": []
+}

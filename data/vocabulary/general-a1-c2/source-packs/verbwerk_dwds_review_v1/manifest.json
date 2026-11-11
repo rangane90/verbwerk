@@ -1,0 +1,11 @@
+{
+  "pack_id": "verbwerk.dwds.review.v1",
+  "pack_role": "supplemental",
+  "version": "1.0.0",
+  "entry_count": 12,
+  "source_url": "https://clarin.bbaw.de/de/objects/dwds%3A2/",
+  "source_dataset_version": "2022-07-28",
+  "source_license": "CC-BY-SA-4.0",
+  "learner_text_license": "CC-BY-4.0",
+  "reviewed_at": "2026-11-10"
+}

@@ -1,0 +1,532 @@
+{
+  "batch_id": "v11-vocabulary-review-08",
+  "review_date": "2026-11-11",
+  "input_database_sha256": "8f030d990a1d5777f04eea08e3bcda02f94e8c8982db1c3c5264444122eb25b7",
+  "accepted_examples": [
+    {
+      "entry_id": "frequency:509",
+      "german": "In weniger als drei Stunden sind wir weg.",
+      "english": "We'll be gone in less than three hours.",
+      "note": "weniger means less in a direct comparison of quantity or time."
+    },
+    {
+      "entry_id": "frequency:513",
+      "german": "Wie kommt es, dass der Himmel blau ist?",
+      "english": "How come the sky is blue?",
+      "note": "Himmel refers to the sky in the ordinary weather/space sense."
+    },
+    {
+      "entry_id": "frequency:518",
+      "german": "Laut Tom hat Mary ihr Auto verkauft.",
+      "english": "According to Tom, Mary has sold her car.",
+      "note": "laut is the preposition meaning according to and introduces the source of a statement."
+    },
+    {
+      "entry_id": "frequency:520",
+      "german": "Es ist wahr, dass die Erde rund ist.",
+      "english": "It is true that the earth is round.",
+      "note": "Erde refers to the planet Earth in this sentence."
+    },
+    {
+      "entry_id": "frequency:522",
+      "german": "Den Rest des Tages haben wir für uns.",
+      "english": "We have the rest of the day to ourselves.",
+      "note": "Rest means the remainder of a whole period."
+    },
+    {
+      "entry_id": "frequency:525",
+      "german": "Tom kommt eher aus dem Gefängnis als du.",
+      "english": "Tom will get out of prison before you do.",
+      "note": "Gefängnis names the prison building or institution."
+    },
+    {
+      "entry_id": "frequency:526",
+      "german": "Dein Opfer war nicht vergebens.",
+      "english": "Your sacrifice was not in vain.",
+      "note": "Opfer means a sacrifice in this sentence."
+    },
+    {
+      "entry_id": "frequency:527",
+      "german": "Mein Körper ist nicht so biegsam wie früher.",
+      "english": "My body isn't as flexible as it used to be.",
+      "note": "Körper refers to a person's physical body; this is a literal example."
+    },
+    {
+      "entry_id": "frequency:532",
+      "german": "Ich werde Sie dem Rest der Besatzung vorstellen.",
+      "english": "I'll introduce you to the rest of the crew.",
+      "note": "vorstellen means to introduce a person to others."
+    },
+    {
+      "entry_id": "frequency:535",
+      "german": "Wenn du mir hilfst, versuche ich es nochmal.",
+      "english": "If you help me, I'll try it again.",
+      "note": "nochmal means once again or again in this context."
+    },
+    {
+      "entry_id": "frequency:537",
+      "german": "Diese Wohnung ist größer als alle anderen in diesem Gebäude.",
+      "english": "This apartment is bigger than any other one in the building.",
+      "note": "Wohnung means an apartment or dwelling in this example."
+    },
+    {
+      "entry_id": "frequency:540",
+      "german": "Er verdient eine halbe Million Yen im Monat.",
+      "english": "He earns half a million yen a month.",
+      "note": "Million means one million; the quantified amount is explicit."
+    },
+    {
+      "entry_id": "frequency:541",
+      "german": "Du bist in der dritten Klasse, richtig?",
+      "english": "You're in third grade, right?",
+      "note": "Klasse means a school grade or year in this example."
+    },
+    {
+      "entry_id": "frequency:550",
+      "german": "Tom hob die Kiste vorsichtig in die Höhe.",
+      "english": "Tom carefully lifted the box.",
+      "note": "vorsichtig is used adverbially to describe how Tom lifted the box."
+    },
+    {
+      "entry_id": "frequency:552",
+      "german": "Er ist stark genug, um das zu heben.",
+      "english": "He's strong enough to lift that.",
+      "note": "stark describes physical strength in this sentence."
+    },
+    {
+      "entry_id": "frequency:558",
+      "german": "Es war großartig, mit Tom zu arbeiten.",
+      "english": "It was great working with Tom.",
+      "note": "Duden classifies großartig as an adjective; here it is predicative after war."
+    },
+    {
+      "entry_id": "frequency:559",
+      "german": "Tom konnte es sich nicht verkneifen zu lachen.",
+      "english": "Tom couldn't help but laugh.",
+      "note": "lachen is the infinitive meaning to laugh."
+    }
+  ],
+  "held_examples": [
+    {
+      "entry_id": "frequency:509",
+      "german": "Je mehr du trinkst, desto weniger ißt du.",
+      "reason": "The sentence uses the superseded spelling ißt; current standard spelling is isst. The other candidate was accepted."
+    },
+    {
+      "entry_id": "frequency:513",
+      "german": "Die Wolken mag ich am Himmel am meisten.",
+      "reason": "Grammatically possible but less clear and natural for a learner than the direct sky-colour example selected."
+    },
+    {
+      "entry_id": "frequency:520",
+      "german": "Die Erde ist viel größer als der Mond.",
+      "reason": "Valid, but the selected example provides a short direct statement of the planet sense."
+    },
+    {
+      "entry_id": "frequency:522",
+      "german": "Tom ist älter als der Rest von uns.",
+      "reason": "Valid, but the selected example more directly illustrates the remainder of a time period."
+    },
+    {
+      "entry_id": "frequency:525",
+      "german": "Tom kommt eher aus dem Gefängnis als ihr.",
+      "reason": "Valid translation variant with the same structure; retained as an alternate rather than the primary learner example."
+    },
+    {
+      "entry_id": "frequency:526",
+      "german": "Niemand wusste sein Opfer zu schätzen.",
+      "reason": "Valid, but the selected sentence expresses the sacrifice sense more directly and simply."
+    },
+    {
+      "entry_id": "frequency:527",
+      "german": "Ich bin am ganzen Körper grün und blau.",
+      "reason": "Idiomatic meaning is bruised all over, so it is less direct than the literal body example selected."
+    },
+    {
+      "entry_id": "frequency:532",
+      "german": "Ich werde Sie dem Rest der Crew vorstellen.",
+      "reason": "Near-duplicate of the selected sentence with the synonymous English loanword Crew; keep one primary example."
+    },
+    {
+      "entry_id": "frequency:535",
+      "german": "Tom probierte nochmal, Marias Aufmerksamkeit zu erregen.",
+      "reason": "Valid but longer and less useful for a first learner example than the short repetition example selected."
+    },
+    {
+      "entry_id": "frequency:537",
+      "german": "Tom hat eine größere Wohnung als ich.",
+      "reason": "Valid translation is approximate and the selected example maps the comparative construction more exactly."
+    },
+    {
+      "entry_id": "frequency:540",
+      "german": "Tom hat immer eine Million Einfälle im Kopf.",
+      "reason": "Million is hyperbolic here; the selected example uses an explicit numeric quantity."
+    },
+    {
+      "entry_id": "frequency:541",
+      "german": "Ich gehe in die achte Klasse.",
+      "reason": "Valid alternate; the selected example has a clear question-and-confirmation structure."
+    },
+    {
+      "entry_id": "frequency:550",
+      "german": "Tom bat mich, sehr vorsichtig dabei zu sein.",
+      "reason": "The referent of dabei is omitted, making the sentence less self-contained than the selected example."
+    },
+    {
+      "entry_id": "frequency:552",
+      "german": "Ich bin nicht so stark, wie ihr denkt.",
+      "reason": "Valid but comparative and context-dependent; the selected example gives a simple positive use."
+    },
+    {
+      "entry_id": "frequency:559",
+      "german": "Was ist passiert, dass Sie so lachen müssen?",
+      "reason": "Translation adds so much; the selected example is shorter and more direct."
+    },
+    {
+      "entry_id": "frequency:512",
+      "german": "Du hast den Nagel auf den Kopf getroffen.",
+      "reason": "The idiom means to get something exactly right, not to hit or strike a physical target."
+    },
+    {
+      "entry_id": "frequency:512",
+      "german": "Tom hat den Nagel auf den Kopf getroffen.",
+      "reason": "The idiom means to get something exactly right, not to hit or strike a physical target."
+    },
+    {
+      "entry_id": "frequency:524",
+      "german": "Hätte ich dich doch nur um Rat gefragt!",
+      "reason": "This is the past participle of fragen meaning asked, not the adjective gefragt meaning sought after or in demand."
+    },
+    {
+      "entry_id": "frequency:524",
+      "german": "Ich hab Tom gefragt, wo er das herhat.",
+      "reason": "This is a verbal use meaning asked, not the adjective sense in demand."
+    },
+    {
+      "entry_id": "frequency:529",
+      "german": "Ich weiß, daß ich Mist gemacht habe.",
+      "reason": "Mist means made a mistake in this idiom, not animal manure; daß is also superseded spelling."
+    },
+    {
+      "entry_id": "frequency:533",
+      "german": "Wovon spricht Tom genau?",
+      "reason": "This is interrogative wovon (what about/of what), not the relative use referring back to a clause."
+    },
+    {
+      "entry_id": "frequency:543",
+      "german": "Mir kam eine Idee in den Sinn.",
+      "reason": "This is an idiomatic use meaning came to mind; the editorial example will express sense as meaning/cogency more directly."
+    },
+    {
+      "entry_id": "frequency:545",
+      "german": "Er hat sich an der linken Hand verletzt.",
+      "reason": "The sentence uses the reflexive verb sich verletzen, not the predicative adjective verletzt."
+    },
+    {
+      "entry_id": "frequency:545",
+      "german": "Tom hat sich an der linken Hand verletzt.",
+      "reason": "The sentence uses the reflexive verb sich verletzen, not the predicative adjective verletzt."
+    },
+    {
+      "entry_id": "frequency:556",
+      "german": "Was würdest du schätzen, wieviel das kosten wird?",
+      "reason": "Current standard spelling is wie viel (two words); the translation is also less idiomatic and overstates the money meaning."
+    },
+    {
+      "entry_id": "frequency:556",
+      "german": "Was würdet ihr schätzen, wieviel das kosten wird?",
+      "reason": "Current standard spelling is wie viel (two words); the translation is also less idiomatic and overstates the money meaning."
+    }
+  ],
+  "editorial_examples": [
+    {
+      "entry_id": "frequency:512",
+      "german": "Der Ball hat das Fenster getroffen.",
+      "english": "The ball hit the window.",
+      "note": "Original literal example for treffen in its physical-contact sense.",
+      "evidence_url": "https://www.duden.de/konjugation/treffen"
+    },
+    {
+      "entry_id": "frequency:524",
+      "german": "Dieser Beruf ist bei jungen Leuten sehr gefragt.",
+      "english": "This profession is in high demand among young people.",
+      "note": "Original example for the adjective meaning sought after or in demand.",
+      "evidence_url": "https://www.duden.de/rechtschreibung/gefragt"
+    },
+    {
+      "entry_id": "frequency:529",
+      "german": "Der Mist muss noch aus dem Stall gebracht werden.",
+      "english": "The manure still needs to be removed from the stable.",
+      "note": "Original literal example for the animal-manure sense, avoiding the idiom einen Fehler machen.",
+      "evidence_url": "https://www.landwirtschaft.de/umwelt/duengung-und-pflanzenschutz/duengung/guelle-und-jauche-alles-mist"
+    },
+    {
+      "entry_id": "frequency:533",
+      "german": "Er zog nach Berlin, wovon ich nichts wusste.",
+      "english": "He moved to Berlin, which I didn't know about.",
+      "note": "Original relative-clause example where wovon refers back to the fact of his move.",
+      "evidence_url": "https://www.duden.de/rechtschreibung/wovon"
+    },
+    {
+      "entry_id": "frequency:543",
+      "german": "Dieser Satz ergibt keinen Sinn.",
+      "english": "This sentence doesn't make any sense.",
+      "note": "Original example for Sinn as meaning or intelligibility.",
+      "evidence_url": "https://www.duden.de/rechtschreibung/Sinn"
+    },
+    {
+      "entry_id": "frequency:545",
+      "german": "Sein Fuß ist verletzt.",
+      "english": "His foot is injured.",
+      "note": "Original predicative adjective example; Duden gives the pattern er ist verletzt.",
+      "evidence_url": "https://www.duden.de/rechtschreibung/verletzen"
+    },
+    {
+      "entry_id": "frequency:556",
+      "german": "Was schätzt du, wie viel die Reparatur kostet?",
+      "english": "How much do you think the repair will cost?",
+      "note": "Original present-tense example for estimating an amount; current spelling separates wie viel.",
+      "evidence_url": "https://www.duden.de/rechtschreibung/wie_viel"
+    }
+  ],
+  "entry_updates": [
+    {
+      "entry_id": "frequency:512",
+      "field": "word_class",
+      "value": "verb",
+      "note": "getroffen is the Partizip II of treffen here, not an adjective.",
+      "url": "https://www.duden.de/konjugation/treffen"
+    },
+    {
+      "entry_id": "frequency:512",
+      "field": "meaning",
+      "value": "hit; struck (past participle of treffen)",
+      "note": "Clarify the grammatical form and literal meaning to prevent the idiom example from teaching the wrong sense.",
+      "url": "https://www.duden.de/konjugation/treffen"
+    },
+    {
+      "entry_id": "frequency:512",
+      "field": "usage",
+      "value": "Past participle of treffen; used in perfect tenses and passive constructions.",
+      "note": "Participle classification checked against the conjugation table.",
+      "url": "https://www.duden.de/konjugation/treffen"
+    },
+    {
+      "entry_id": "frequency:558",
+      "field": "word_class",
+      "value": "adjective",
+      "note": "Duden classifies großartig as an adjective; this example uses it predicatively after sein.",
+      "url": "https://www.duden.de/rechtschreibung/groszartig"
+    },
+    {
+      "entry_id": "frequency:558",
+      "field": "meaning",
+      "value": "great; magnificent; excellent",
+      "note": "Replace the adverb gloss with the adjective meaning used in the example.",
+      "url": "https://www.duden.de/rechtschreibung/groszartig"
+    },
+    {
+      "entry_id": "frequency:558",
+      "field": "usage",
+      "value": "Adjective; in this example it is predicative after sein.",
+      "note": "Word class and example use checked against Duden.",
+      "url": "https://www.duden.de/rechtschreibung/groszartig"
+    }
+  ],
+  "inflected_links": [
+    {
+      "entry_id": "frequency:512",
+      "base_lemma": "treffen",
+      "form_note": "Partizip II getroffen",
+      "source_url": "https://www.duden.de/konjugation/treffen"
+    }
+  ],
+  "plural_reviews": [
+    {
+      "entry_id": "frequency:1165",
+      "value": [
+        "Kunden"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Kunde_Kundin",
+      "note": "The weak masculine noun Kunde forms its plural with -n: Kunden."
+    },
+    {
+      "entry_id": "frequency:1173",
+      "value": [
+        "Weiße",
+        "Weißen"
+      ],
+      "source": "Wiktionary and declension reference",
+      "url": "https://de.wiktionary.org/wiki/Wei%C3%9Fer",
+      "note": "Substantivized adjective; the plural form varies with declension and determiner. Both Weiße (strong/without article) and Weißen (weak/with definite article) occur; avoid presenting these as invariant noun endings.",
+      "usage_note": "Substantivized adjective with variable gender and adjective declension. Plural forms include Weiße without a determiner and die Weißen with the definite article; refer to people using respectful, context-appropriate wording."
+    },
+    {
+      "entry_id": "frequency:1178",
+      "value": "Plural-only in this sense",
+      "source": "Wiktionary",
+      "url": "https://en.wiktionary.org/wiki/Karten#German",
+      "note": "Karten names the card game in this entry; the individual playing card is a Karte, a different sense.",
+      "usage_note": "In the card-game sense, Karten is used as a plural-only noun; Karte refers to an individual card."
+    },
+    {
+      "entry_id": "frequency:1183",
+      "value": [
+        "Streite"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/deklination/substantive/Streit",
+      "note": "Duden lists Streite as the plural and marks it rare.",
+      "usage_note": "Rare plural. Streit is normally used as a singular abstract noun; use Auseinandersetzungen for ordinary countable disputes."
+    },
+    {
+      "entry_id": "frequency:1206",
+      "value": [
+        "Labore",
+        "Labors"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Labor",
+      "note": "Duden lists both plural forms Labors and Labore."
+    },
+    {
+      "entry_id": "frequency:1212",
+      "value": [
+        "Gäste"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Gast_eingeladene_Person",
+      "note": "Duden lists Gäste as the plural of Gast."
+    },
+    {
+      "entry_id": "frequency:1232",
+      "value": [
+        "Lager"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Lager",
+      "note": "For the sleep-place sense, Duden gives the plural Lager. Läger belongs to the commercial-storage sense.",
+      "usage_note": "In the sleep-place sense, use Lager. Läger is a business-language variant for storage depots, not this sense."
+    },
+    {
+      "entry_id": "frequency:1254",
+      "value": [
+        "Gänge"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Gang",
+      "note": "The plural Gänge is the form for this masculine noun sense."
+    },
+    {
+      "entry_id": "frequency:1255",
+      "value": "No plural in the right-hand/side sense",
+      "source": "Duden and German declension reference",
+      "url": "https://www.duden.de/rechtschreibung/Hand",
+      "note": "Rechte means the (right) hand/side here; the lexical item is normally singular. For plural hands use Hände, or use the phrase rechte Hände; the candidate declensions Rechte/Rechten do not represent this sense’s noun plural.",
+      "usage_note": "Die Rechte can mean the right hand and is normally singular. The plural of Hand is Hände; say rechte Hände when counting hands."
+    },
+    {
+      "entry_id": "frequency:1258",
+      "value": "No plural in the broadcast-medium sense",
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Radio",
+      "note": "Duden marks the broadcast-medium sense without plural; radios is the plural of the physical radio receiver.",
+      "usage_note": "For radio as a medium or broadcast, use the singular. Physical radio receivers pluralize as Radios."
+    },
+    {
+      "entry_id": "frequency:1267",
+      "value": [
+        "Tests",
+        "Teste"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/deklination/substantive/Test",
+      "note": "Duden lists both Tests and Teste; Tests is the usual contemporary form."
+    },
+    {
+      "entry_id": "frequency:1284",
+      "value": [
+        "Fässer"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Fass",
+      "note": "The strong plural of Fass is Fässer."
+    },
+    {
+      "entry_id": "frequency:1289",
+      "value": [
+        "Knie"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Knie",
+      "note": "Knie has an unchanged nominative plural."
+    },
+    {
+      "entry_id": "frequency:1293",
+      "value": [
+        "Schutze",
+        "Schütze"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Schutz",
+      "note": "Duden lists Schutze and Schütze as rare plural forms, particularly in Swiss usage; the abstract protection sense is normally singular.",
+      "usage_note": "Rare plural forms Schutze/Schütze occur, especially in Swiss usage. For ordinary abstract protection, Schutz is generally singular; technical contexts often use Schutzvorrichtungen for countable devices."
+    },
+    {
+      "entry_id": "frequency:1300",
+      "value": [
+        "Roma"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/deklination/substantive/Roma_Volksgruppe",
+      "note": "Roma is the plural form used for members of the Roma people; the entry’s singular Rom is masculine.",
+      "usage_note": "Plural Roma; use community-preferred names and wording in context."
+    },
+    {
+      "entry_id": "frequency:1307",
+      "value": [
+        "Milche",
+        "Milchen"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Milch",
+      "note": "Duden permits these sortal plurals in technical use when distinguishing varieties; ordinary milk as a substance is generally singular.",
+      "usage_note": "Usually singular for milk as a substance. Fachsprachlich Milche/Milchen can distinguish varieties or types."
+    },
+    {
+      "entry_id": "frequency:1311",
+      "value": "Plural-only in this financial-liabilities sense",
+      "source": "Wiktionary and Duden",
+      "url": "https://de.wiktionary.org/wiki/Schulden",
+      "note": "Schulden is the normal plural form for debts/liabilities; this entry does not teach the separate singular Schuld meaning guilt or an individual obligation.",
+      "usage_note": "Plural-only in this financial-liabilities sense. Schuld can be used separately for guilt or an individual obligation."
+    },
+    {
+      "entry_id": "frequency:1325",
+      "value": [
+        "Monde"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Mond",
+      "note": "Monde is the plural for the moon and other natural satellites."
+    },
+    {
+      "entry_id": "frequency:1327",
+      "value": "Plural-only in this sense",
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Datum",
+      "note": "Daten is the plural of Datum when it means pieces of information; the singular lemma is Datum.",
+      "usage_note": "Plural-only in this information sense; one item is ein Datum, several are Daten."
+    },
+    {
+      "entry_id": "frequency:1331",
+      "value": [
+        "Siege"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Sieg",
+      "note": "Siege is the regular plural of victory."
+    }
+  ]
+}

@@ -1,0 +1,3527 @@
+{
+  "schema_version": 1,
+  "pack_id": "verbwerk.everflip.de.supplement.v1",
+  "entries": [
+    {
+      "id": "supplement-everflip-abbiegen",
+      "concept_id": "everflip-de-abbiegen",
+      "source_pack": "verbwerk_everflip_de_supplement_v1",
+      "entry_kind": "vocabulary",
+      "lemma": "abbiegen",
+      "display_form": "abbiegen",
+      "part_of_speech": "verb",
+      "article": null,
+      "gender": "none",
+      "plural_forms": [],
+      "forms": [],
+      "english_terms": [
+        {
+          "term": "to turn; to turn off",
+          "lemma": "to turn; to turn off",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "to turn; to turn off",
+      "german_definition": "Die Richtung wechseln und in eine andere Straße oder einen anderen Weg fahren oder gehen.",
+      "german_examples": [
+        {
+          "sentence": "Biegen Sie an der nächsten Straße links ab.",
+          "translation_language": "en",
+          "translation": "Turn left at the next street."
+        }
+      ],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "source_dataset": "EverFlip Multilingual Flashcard Corpus",
+        "dataset_version": "1.0.0",
+        "source_release_commit": "0f76c389e3cbcddd61408b433ea6df8d8c9b1613",
+        "source_url": "https://everflip.app/dataset",
+        "source_license": "CC-BY-4.0",
+        "source_deck": "Directions",
+        "source_card_front": "abbiegen",
+        "source_card_meaning": "to turn",
+        "modifications": "Verbwerk selected this German card, edited its English gloss for a standalone learner entry, and added a German definition, original example and translation"
+      },
+      "usage_note": "A separable verb: ab moves to the end in a main clause, as in Biegen Sie links ab."
+    },
+    {
+      "id": "supplement-everflip-aber",
+      "concept_id": "everflip-de-aber",
+      "source_pack": "verbwerk_everflip_de_supplement_v1",
+      "entry_kind": "vocabulary",
+      "lemma": "aber",
+      "display_form": "aber",
+      "part_of_speech": "conjunction",
+      "article": null,
+      "gender": "none",
+      "plural_forms": [],
+      "forms": [],
+      "english_terms": [
+        {
+          "term": "but",
+          "lemma": "but",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "but",
+      "german_definition": "Verbindet Wörter oder Aussagen, die einen Gegensatz ausdrücken.",
+      "german_examples": [
+        {
+          "sentence": "Ich möchte mitkommen, aber ich muss noch arbeiten.",
+          "translation_language": "en",
+          "translation": "I would like to come along, but I still have to work."
+        }
+      ],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "source_dataset": "EverFlip Multilingual Flashcard Corpus",
+        "dataset_version": "1.0.0",
+        "source_release_commit": "0f76c389e3cbcddd61408b433ea6df8d8c9b1613",
+        "source_url": "https://everflip.app/dataset",
+        "source_license": "CC-BY-4.0",
+        "source_deck": "Questions & connectors",
+        "source_card_front": "aber",
+        "source_card_meaning": "but | Ich bin müde, aber glücklich. = I'm tired, but happy.",
+        "modifications": "Verbwerk selected this German card, edited its English gloss for a standalone learner entry, and added a German definition, original example and translation"
+      }
+    },
+    {
+      "id": "supplement-everflip-acht",
+      "concept_id": "everflip-de-acht",
+      "source_pack": "verbwerk_everflip_de_supplement_v1",
+      "entry_kind": "vocabulary",
+      "lemma": "acht",
+      "display_form": "acht",
+      "part_of_speech": "numeral",
+      "article": null,
+      "gender": "none",
+      "plural_forms": [],
+      "forms": [],
+      "english_terms": [
+        {
+          "term": "eight",
+          "lemma": "eight",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "eight",
+      "german_definition": "Grundzahl nach sieben und vor neun.",
+      "german_examples": [
+        {
+          "sentence": "Acht Gäste sitzen schon am Tisch.",
+          "translation_language": "en",
+          "translation": "Eight guests are already sitting at the table."
+        }
+      ],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "source_dataset": "EverFlip Multilingual Flashcard Corpus",
+        "dataset_version": "1.0.0",
+        "source_release_commit": "0f76c389e3cbcddd61408b433ea6df8d8c9b1613",
+        "source_url": "https://everflip.app/dataset",
+        "source_license": "CC-BY-4.0",
+        "source_deck": "Numbers 1–10",
+        "source_card_front": "acht",
+        "source_card_meaning": "8",
+        "modifications": "Verbwerk selected this German card, edited its English gloss for a standalone learner entry, and added a German definition, original example and translation"
+      }
+    },
+    {
+      "id": "supplement-everflip-angstlich",
+      "concept_id": "everflip-de-angstlich",
+      "source_pack": "verbwerk_everflip_de_supplement_v1",
+      "entry_kind": "vocabulary",
+      "lemma": "ängstlich",
+      "display_form": "ängstlich",
+      "part_of_speech": "adj",
+      "article": null,
+      "gender": "none",
+      "plural_forms": [],
+      "forms": [],
+      "english_terms": [
+        {
+          "term": "afraid; anxious",
+          "lemma": "afraid; anxious",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "afraid; anxious",
+      "german_definition": "Von Angst erfüllt oder durch Furcht verunsichert.",
+      "german_examples": [
+        {
+          "sentence": "Vor dem großen Hund ist das Kind ängstlich.",
+          "translation_language": "en",
+          "translation": "The child is afraid of the big dog."
+        }
+      ],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "source_dataset": "EverFlip Multilingual Flashcard Corpus",
+        "dataset_version": "1.0.0",
+        "source_release_commit": "0f76c389e3cbcddd61408b433ea6df8d8c9b1613",
+        "source_url": "https://everflip.app/dataset",
+        "source_license": "CC-BY-4.0",
+        "source_deck": "Feelings",
+        "source_card_front": "ängstlich",
+        "source_card_meaning": "afraid",
+        "modifications": "Verbwerk selected this German card, edited its English gloss for a standalone learner entry, and added a German definition, original example and translation"
+      }
+    },
+    {
+      "id": "supplement-everflip-aufgeregt",
+      "concept_id": "everflip-de-aufgeregt",
+      "source_pack": "verbwerk_everflip_de_supplement_v1",
+      "entry_kind": "vocabulary",
+      "lemma": "aufgeregt",
+      "display_form": "aufgeregt",
+      "part_of_speech": "adj",
+      "article": null,
+      "gender": "none",
+      "plural_forms": [],
+      "forms": [],
+      "english_terms": [
+        {
+          "term": "excited; nervous",
+          "lemma": "excited; nervous",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "excited; nervous",
+      "german_definition": "In einem starken Zustand freudiger oder nervöser Erwartung.",
+      "german_examples": [
+        {
+          "sentence": "Vor dem Konzert ist sie sehr aufgeregt.",
+          "translation_language": "en",
+          "translation": "She is very excited before the concert."
+        }
+      ],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "source_dataset": "EverFlip Multilingual Flashcard Corpus",
+        "dataset_version": "1.0.0",
+        "source_release_commit": "0f76c389e3cbcddd61408b433ea6df8d8c9b1613",
+        "source_url": "https://everflip.app/dataset",
+        "source_license": "CC-BY-4.0",
+        "source_deck": "Feelings",
+        "source_card_front": "aufgeregt",
+        "source_card_meaning": "excited",
+        "modifications": "Verbwerk selected this German card, edited its English gloss for a standalone learner entry, and added a German definition, original example and translation"
+      }
+    },
+    {
+      "id": "supplement-everflip-bezahlen",
+      "concept_id": "everflip-de-bezahlen",
+      "source_pack": "verbwerk_everflip_de_supplement_v1",
+      "entry_kind": "vocabulary",
+      "lemma": "bezahlen",
+      "display_form": "bezahlen",
+      "part_of_speech": "verb",
+      "article": null,
+      "gender": "none",
+      "plural_forms": [],
+      "forms": [],
+      "english_terms": [
+        {
+          "term": "to pay",
+          "lemma": "to pay",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "to pay",
+      "german_definition": "Geld geben, um Waren oder Dienstleistungen zu erhalten.",
+      "german_examples": [
+        {
+          "sentence": "Kann ich mit Karte bezahlen?",
+          "translation_language": "en",
+          "translation": "Can I pay by card?"
+        }
+      ],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "source_dataset": "EverFlip Multilingual Flashcard Corpus",
+        "dataset_version": "1.0.0",
+        "source_release_commit": "0f76c389e3cbcddd61408b433ea6df8d8c9b1613",
+        "source_url": "https://everflip.app/dataset",
+        "source_license": "CC-BY-4.0",
+        "source_deck": "Shopping",
+        "source_card_front": "bezahlen",
+        "source_card_meaning": "to pay",
+        "modifications": "Verbwerk selected this German card, edited its English gloss for a standalone learner entry, and added a German definition, original example and translation"
+      }
+    },
+    {
+      "id": "supplement-everflip-billig",
+      "concept_id": "everflip-de-billig",
+      "source_pack": "verbwerk_everflip_de_supplement_v1",
+      "entry_kind": "vocabulary",
+      "lemma": "billig",
+      "display_form": "billig",
+      "part_of_speech": "adj",
+      "article": null,
+      "gender": "none",
+      "plural_forms": [],
+      "forms": [],
+      "english_terms": [
+        {
+          "term": "cheap; inexpensive",
+          "lemma": "cheap; inexpensive",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "cheap; inexpensive",
+      "german_definition": "Nicht teuer; zu einem niedrigen Preis erhältlich.",
+      "german_examples": [
+        {
+          "sentence": "Auf dem Markt sind die Äpfel heute billig.",
+          "translation_language": "en",
+          "translation": "The apples are cheap at the market today."
+        }
+      ],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "source_dataset": "EverFlip Multilingual Flashcard Corpus",
+        "dataset_version": "1.0.0",
+        "source_release_commit": "0f76c389e3cbcddd61408b433ea6df8d8c9b1613",
+        "source_url": "https://everflip.app/dataset",
+        "source_license": "CC-BY-4.0",
+        "source_deck": "Adjectives",
+        "source_card_front": "billig",
+        "source_card_meaning": "cheap",
+        "modifications": "Verbwerk selected this German card, edited its English gloss for a standalone learner entry, and added a German definition, original example and translation"
+      },
+      "usage_note": "Billig can mean low-priced and may sometimes suggest low quality; günstig is often more positive."
+    },
+    {
+      "id": "supplement-everflip-bitte",
+      "concept_id": "everflip-de-bitte",
+      "source_pack": "verbwerk_everflip_de_supplement_v1",
+      "entry_kind": "vocabulary",
+      "lemma": "bitte",
+      "display_form": "bitte",
+      "part_of_speech": "interjection",
+      "article": null,
+      "gender": "none",
+      "plural_forms": [],
+      "forms": [],
+      "english_terms": [
+        {
+          "term": "please; you're welcome",
+          "lemma": "please; you're welcome",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "please; you're welcome",
+      "german_definition": "Höfliches Wort für eine Bitte oder eine freundliche Antwort auf Danke.",
+      "german_examples": [
+        {
+          "sentence": "Ein Glas Wasser, bitte.",
+          "translation_language": "en",
+          "translation": "A glass of water, please."
+        }
+      ],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "source_dataset": "EverFlip Multilingual Flashcard Corpus",
+        "dataset_version": "1.0.0",
+        "source_release_commit": "0f76c389e3cbcddd61408b433ea6df8d8c9b1613",
+        "source_url": "https://everflip.app/dataset",
+        "source_license": "CC-BY-4.0",
+        "source_deck": "Greetings",
+        "source_card_front": "bitte",
+        "source_card_meaning": "please / you're welcome",
+        "modifications": "Verbwerk selected this German card, edited its English gloss for a standalone learner entry, and added a German definition, original example and translation"
+      },
+      "usage_note": "Bitte can make a request polite and can also mean you're welcome after Danke."
+    },
+    {
+      "id": "supplement-everflip-braun",
+      "concept_id": "everflip-de-braun",
+      "source_pack": "verbwerk_everflip_de_supplement_v1",
+      "entry_kind": "vocabulary",
+      "lemma": "braun",
+      "display_form": "braun",
+      "part_of_speech": "adj",
+      "article": null,
+      "gender": "none",
+      "plural_forms": [],
+      "forms": [],
+      "english_terms": [
+        {
+          "term": "brown",
+          "lemma": "brown",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "brown",
+      "german_definition": "Von einer dunklen, erdigen Farbe.",
+      "german_examples": [
+        {
+          "sentence": "Die Tasche ist braun.",
+          "translation_language": "en",
+          "translation": "The bag is brown."
+        }
+      ],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "source_dataset": "EverFlip Multilingual Flashcard Corpus",
+        "dataset_version": "1.0.0",
+        "source_release_commit": "0f76c389e3cbcddd61408b433ea6df8d8c9b1613",
+        "source_url": "https://everflip.app/dataset",
+        "source_license": "CC-BY-4.0",
+        "source_deck": "Colors",
+        "source_card_front": "braun",
+        "source_card_meaning": "brown",
+        "modifications": "Verbwerk selected this German card, edited its English gloss for a standalone learner entry, and added a German definition, original example and translation"
+      }
+    },
+    {
+      "id": "supplement-everflip-danke",
+      "concept_id": "everflip-de-danke",
+      "source_pack": "verbwerk_everflip_de_supplement_v1",
+      "entry_kind": "vocabulary",
+      "lemma": "danke",
+      "display_form": "danke",
+      "part_of_speech": "interjection",
+      "article": null,
+      "gender": "none",
+      "plural_forms": [],
+      "forms": [],
+      "english_terms": [
+        {
+          "term": "thank you; thanks",
+          "lemma": "thank you; thanks",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "thank you; thanks",
+      "german_definition": "Wird verwendet, um Dankbarkeit auszudrücken.",
+      "german_examples": [
+        {
+          "sentence": "Danke für deine schnelle Antwort.",
+          "translation_language": "en",
+          "translation": "Thank you for your quick reply."
+        }
+      ],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "source_dataset": "EverFlip Multilingual Flashcard Corpus",
+        "dataset_version": "1.0.0",
+        "source_release_commit": "0f76c389e3cbcddd61408b433ea6df8d8c9b1613",
+        "source_url": "https://everflip.app/dataset",
+        "source_license": "CC-BY-4.0",
+        "source_deck": "Greetings",
+        "source_card_front": "danke",
+        "source_card_meaning": "thank you",
+        "modifications": "Verbwerk selected this German card, edited its English gloss for a standalone learner entry, and added a German definition, original example and translation"
+      }
+    },
+    {
+      "id": "supplement-everflip-denn",
+      "concept_id": "everflip-de-denn",
+      "source_pack": "verbwerk_everflip_de_supplement_v1",
+      "entry_kind": "vocabulary",
+      "lemma": "denn",
+      "display_form": "denn",
+      "part_of_speech": "conjunction",
+      "article": null,
+      "gender": "none",
+      "plural_forms": [],
+      "forms": [],
+      "english_terms": [
+        {
+          "term": "because; for",
+          "lemma": "because; for",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "because; for",
+      "german_definition": "Leitet eine Begründung in einem Hauptsatz ein.",
+      "german_examples": [
+        {
+          "sentence": "Ich nehme einen Regenschirm, denn es regnet.",
+          "translation_language": "en",
+          "translation": "I am taking an umbrella because it is raining."
+        }
+      ],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "source_dataset": "EverFlip Multilingual Flashcard Corpus",
+        "dataset_version": "1.0.0",
+        "source_release_commit": "0f76c389e3cbcddd61408b433ea6df8d8c9b1613",
+        "source_url": "https://everflip.app/dataset",
+        "source_license": "CC-BY-4.0",
+        "source_deck": "Questions & connectors",
+        "source_card_front": "denn",
+        "source_card_meaning": "because (coordinating, easier word order) | Ich bleibe zu Hause, denn es regnet. = I'm staying home because it's raining.",
+        "modifications": "Verbwerk selected this German card, edited its English gloss for a standalone learner entry, and added a German definition, original example and translation"
+      },
+      "usage_note": "With denn, the conjugated verb stays in second position: denn es regnet. With weil, it normally moves to the end."
+    },
+    {
+      "id": "supplement-everflip-dienstag",
+      "concept_id": "everflip-de-dienstag",
+      "source_pack": "verbwerk_everflip_de_supplement_v1",
+      "entry_kind": "vocabulary",
+      "lemma": "Dienstag",
+      "display_form": "der Dienstag",
+      "part_of_speech": "noun",
+      "article": "der",
+      "gender": "masc",
+      "plural_forms": [
+        "die Dienstage"
+      ],
+      "forms": [
+        {
+          "surface": "der Dienstag",
+          "number": "sg",
+          "case": "nom",
+          "role": "core",
+          "tags": {}
+        },
+        {
+          "surface": "die Dienstage",
+          "number": "pl",
+          "case": "nom",
+          "role": "core",
+          "tags": {}
+        }
+      ],
+      "english_terms": [
+        {
+          "term": "Tuesday",
+          "lemma": "Tuesday",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "Tuesday",
+      "german_definition": "Wochentag zwischen Montag und Mittwoch.",
+      "german_examples": [
+        {
+          "sentence": "Am Dienstag haben wir einen Termin.",
+          "translation_language": "en",
+          "translation": "We have an appointment on Tuesday."
+        }
+      ],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "source_dataset": "EverFlip Multilingual Flashcard Corpus",
+        "dataset_version": "1.0.0",
+        "source_release_commit": "0f76c389e3cbcddd61408b433ea6df8d8c9b1613",
+        "source_url": "https://everflip.app/dataset",
+        "source_license": "CC-BY-4.0",
+        "source_deck": "Days of the week",
+        "source_card_front": "Dienstag",
+        "source_card_meaning": "Tuesday",
+        "modifications": "Verbwerk selected this German card, edited its English gloss for a standalone learner entry, and added a German definition, original example and translation"
+      }
+    },
+    {
+      "id": "supplement-everflip-donnerstag",
+      "concept_id": "everflip-de-donnerstag",
+      "source_pack": "verbwerk_everflip_de_supplement_v1",
+      "entry_kind": "vocabulary",
+      "lemma": "Donnerstag",
+      "display_form": "der Donnerstag",
+      "part_of_speech": "noun",
+      "article": "der",
+      "gender": "masc",
+      "plural_forms": [
+        "die Donnerstage"
+      ],
+      "forms": [
+        {
+          "surface": "der Donnerstag",
+          "number": "sg",
+          "case": "nom",
+          "role": "core",
+          "tags": {}
+        },
+        {
+          "surface": "die Donnerstage",
+          "number": "pl",
+          "case": "nom",
+          "role": "core",
+          "tags": {}
+        }
+      ],
+      "english_terms": [
+        {
+          "term": "Thursday",
+          "lemma": "Thursday",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "Thursday",
+      "german_definition": "Wochentag zwischen Mittwoch und Freitag.",
+      "german_examples": [
+        {
+          "sentence": "Der Laden ist am Donnerstag geschlossen.",
+          "translation_language": "en",
+          "translation": "The shop is closed on Thursday."
+        }
+      ],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "source_dataset": "EverFlip Multilingual Flashcard Corpus",
+        "dataset_version": "1.0.0",
+        "source_release_commit": "0f76c389e3cbcddd61408b433ea6df8d8c9b1613",
+        "source_url": "https://everflip.app/dataset",
+        "source_license": "CC-BY-4.0",
+        "source_deck": "Days of the week",
+        "source_card_front": "Donnerstag",
+        "source_card_meaning": "Thursday",
+        "modifications": "Verbwerk selected this German card, edited its English gloss for a standalone learner entry, and added a German definition, original example and translation"
+      }
+    },
+    {
+      "id": "supplement-everflip-drei",
+      "concept_id": "everflip-de-drei",
+      "source_pack": "verbwerk_everflip_de_supplement_v1",
+      "entry_kind": "vocabulary",
+      "lemma": "drei",
+      "display_form": "drei",
+      "part_of_speech": "numeral",
+      "article": null,
+      "gender": "none",
+      "plural_forms": [],
+      "forms": [],
+      "english_terms": [
+        {
+          "term": "three",
+          "lemma": "three",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "three",
+      "german_definition": "Grundzahl nach zwei und vor vier.",
+      "german_examples": [
+        {
+          "sentence": "Drei Kinder spielen im Garten.",
+          "translation_language": "en",
+          "translation": "Three children are playing in the garden."
+        }
+      ],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "source_dataset": "EverFlip Multilingual Flashcard Corpus",
+        "dataset_version": "1.0.0",
+        "source_release_commit": "0f76c389e3cbcddd61408b433ea6df8d8c9b1613",
+        "source_url": "https://everflip.app/dataset",
+        "source_license": "CC-BY-4.0",
+        "source_deck": "Numbers 1–10",
+        "source_card_front": "drei",
+        "source_card_meaning": "3",
+        "modifications": "Verbwerk selected this German card, edited its English gloss for a standalone learner entry, and added a German definition, original example and translation"
+      }
+    },
+    {
+      "id": "supplement-everflip-durstig",
+      "concept_id": "everflip-de-durstig",
+      "source_pack": "verbwerk_everflip_de_supplement_v1",
+      "entry_kind": "vocabulary",
+      "lemma": "durstig",
+      "display_form": "durstig",
+      "part_of_speech": "adj",
+      "article": null,
+      "gender": "none",
+      "plural_forms": [],
+      "forms": [],
+      "english_terms": [
+        {
+          "term": "thirsty",
+          "lemma": "thirsty",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "thirsty",
+      "german_definition": "Das Bedürfnis nach etwas zu trinken verspürend.",
+      "german_examples": [
+        {
+          "sentence": "Nach dem Lauf bin ich durstig.",
+          "translation_language": "en",
+          "translation": "I am thirsty after the run."
+        }
+      ],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "source_dataset": "EverFlip Multilingual Flashcard Corpus",
+        "dataset_version": "1.0.0",
+        "source_release_commit": "0f76c389e3cbcddd61408b433ea6df8d8c9b1613",
+        "source_url": "https://everflip.app/dataset",
+        "source_license": "CC-BY-4.0",
+        "source_deck": "Feelings",
+        "source_card_front": "durstig",
+        "source_card_meaning": "thirsty",
+        "modifications": "Verbwerk selected this German card, edited its English gloss for a standalone learner entry, and added a German definition, original example and translation"
+      }
+    },
+    {
+      "id": "supplement-everflip-eins",
+      "concept_id": "everflip-de-eins",
+      "source_pack": "verbwerk_everflip_de_supplement_v1",
+      "entry_kind": "vocabulary",
+      "lemma": "eins",
+      "display_form": "eins",
+      "part_of_speech": "numeral",
+      "article": null,
+      "gender": "none",
+      "plural_forms": [],
+      "forms": [],
+      "english_terms": [
+        {
+          "term": "one",
+          "lemma": "one",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "one",
+      "german_definition": "Grundzahl nach null und vor zwei; als Zahlwort steht eins häufig allein.",
+      "german_examples": [
+        {
+          "sentence": "Ich nehme eins, bitte.",
+          "translation_language": "en",
+          "translation": "I will have one, please."
+        }
+      ],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "source_dataset": "EverFlip Multilingual Flashcard Corpus",
+        "dataset_version": "1.0.0",
+        "source_release_commit": "0f76c389e3cbcddd61408b433ea6df8d8c9b1613",
+        "source_url": "https://everflip.app/dataset",
+        "source_license": "CC-BY-4.0",
+        "source_deck": "Numbers 1–10",
+        "source_card_front": "eins",
+        "source_card_meaning": "1",
+        "modifications": "Verbwerk selected this German card, edited its English gloss for a standalone learner entry, and added a German definition, original example and translation"
+      },
+      "usage_note": "Before a noun, the form ein or eine is normally used: ein Glas, eine Flasche."
+    },
+    {
+      "id": "supplement-everflip-entschuldigung",
+      "concept_id": "everflip-de-entschuldigung",
+      "source_pack": "verbwerk_everflip_de_supplement_v1",
+      "entry_kind": "vocabulary",
+      "lemma": "Entschuldigung",
+      "display_form": "Entschuldigung",
+      "part_of_speech": "interjection",
+      "article": null,
+      "gender": "none",
+      "plural_forms": [],
+      "forms": [],
+      "english_terms": [
+        {
+          "term": "excuse me; sorry",
+          "lemma": "excuse me; sorry",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "excuse me; sorry",
+      "german_definition": "Höflicher Ausruf, mit dem man sich entschuldigt oder die Aufmerksamkeit auf sich lenkt.",
+      "german_examples": [
+        {
+          "sentence": "Entschuldigung, wo ist der Bahnhof?",
+          "translation_language": "en",
+          "translation": "Excuse me, where is the train station?"
+        }
+      ],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "source_dataset": "EverFlip Multilingual Flashcard Corpus",
+        "dataset_version": "1.0.0",
+        "source_release_commit": "0f76c389e3cbcddd61408b433ea6df8d8c9b1613",
+        "source_url": "https://everflip.app/dataset",
+        "source_license": "CC-BY-4.0",
+        "source_deck": "Greetings",
+        "source_card_front": "Entschuldigung",
+        "source_card_meaning": "excuse me / sorry",
+        "modifications": "Verbwerk selected this German card, edited its English gloss for a standalone learner entry, and added a German definition, original example and translation"
+      }
+    },
+    {
+      "id": "supplement-everflip-freitag",
+      "concept_id": "everflip-de-freitag",
+      "source_pack": "verbwerk_everflip_de_supplement_v1",
+      "entry_kind": "vocabulary",
+      "lemma": "Freitag",
+      "display_form": "der Freitag",
+      "part_of_speech": "noun",
+      "article": "der",
+      "gender": "masc",
+      "plural_forms": [
+        "die Freitage"
+      ],
+      "forms": [
+        {
+          "surface": "der Freitag",
+          "number": "sg",
+          "case": "nom",
+          "role": "core",
+          "tags": {}
+        },
+        {
+          "surface": "die Freitage",
+          "number": "pl",
+          "case": "nom",
+          "role": "core",
+          "tags": {}
+        }
+      ],
+      "english_terms": [
+        {
+          "term": "Friday",
+          "lemma": "Friday",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "Friday",
+      "german_definition": "Wochentag zwischen Donnerstag und Samstag.",
+      "german_examples": [
+        {
+          "sentence": "Am Freitag besuchen wir unsere Freunde.",
+          "translation_language": "en",
+          "translation": "We are visiting our friends on Friday."
+        }
+      ],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "source_dataset": "EverFlip Multilingual Flashcard Corpus",
+        "dataset_version": "1.0.0",
+        "source_release_commit": "0f76c389e3cbcddd61408b433ea6df8d8c9b1613",
+        "source_url": "https://everflip.app/dataset",
+        "source_license": "CC-BY-4.0",
+        "source_deck": "Days of the week",
+        "source_card_front": "Freitag",
+        "source_card_meaning": "Friday",
+        "modifications": "Verbwerk selected this German card, edited its English gloss for a standalone learner entry, and added a German definition, original example and translation"
+      }
+    },
+    {
+      "id": "supplement-everflip-froh",
+      "concept_id": "everflip-de-froh",
+      "source_pack": "verbwerk_everflip_de_supplement_v1",
+      "entry_kind": "vocabulary",
+      "lemma": "froh",
+      "display_form": "froh",
+      "part_of_speech": "adj",
+      "article": null,
+      "gender": "none",
+      "plural_forms": [],
+      "forms": [],
+      "english_terms": [
+        {
+          "term": "glad; happy",
+          "lemma": "glad; happy",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "glad; happy",
+      "german_definition": "Erleichtert oder glücklich über etwas.",
+      "german_examples": [
+        {
+          "sentence": "Ich bin froh, dass du heute kommen kannst.",
+          "translation_language": "en",
+          "translation": "I am glad that you can come today."
+        }
+      ],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "source_dataset": "EverFlip Multilingual Flashcard Corpus",
+        "dataset_version": "1.0.0",
+        "source_release_commit": "0f76c389e3cbcddd61408b433ea6df8d8c9b1613",
+        "source_url": "https://everflip.app/dataset",
+        "source_license": "CC-BY-4.0",
+        "source_deck": "Feelings",
+        "source_card_front": "froh",
+        "source_card_meaning": "glad",
+        "modifications": "Verbwerk selected this German card, edited its English gloss for a standalone learner entry, and added a German definition, original example and translation"
+      }
+    },
+    {
+      "id": "supplement-everflip-fruh",
+      "concept_id": "everflip-de-fruh",
+      "source_pack": "verbwerk_everflip_de_supplement_v1",
+      "entry_kind": "vocabulary",
+      "lemma": "früh",
+      "display_form": "früh",
+      "part_of_speech": "adv",
+      "article": null,
+      "gender": "none",
+      "plural_forms": [],
+      "forms": [],
+      "english_terms": [
+        {
+          "term": "early",
+          "lemma": "early",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "early",
+      "german_definition": "Zu einem frühen Zeitpunkt und nicht spät.",
+      "german_examples": [
+        {
+          "sentence": "Morgen stehe ich früh auf.",
+          "translation_language": "en",
+          "translation": "Tomorrow I am getting up early."
+        }
+      ],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "source_dataset": "EverFlip Multilingual Flashcard Corpus",
+        "dataset_version": "1.0.0",
+        "source_release_commit": "0f76c389e3cbcddd61408b433ea6df8d8c9b1613",
+        "source_url": "https://everflip.app/dataset",
+        "source_license": "CC-BY-4.0",
+        "source_deck": "Time",
+        "source_card_front": "früh",
+        "source_card_meaning": "early",
+        "modifications": "Verbwerk selected this German card, edited its English gloss for a standalone learner entry, and added a German definition, original example and translation"
+      }
+    },
+    {
+      "id": "supplement-everflip-funf",
+      "concept_id": "everflip-de-funf",
+      "source_pack": "verbwerk_everflip_de_supplement_v1",
+      "entry_kind": "vocabulary",
+      "lemma": "fünf",
+      "display_form": "fünf",
+      "part_of_speech": "numeral",
+      "article": null,
+      "gender": "none",
+      "plural_forms": [],
+      "forms": [],
+      "english_terms": [
+        {
+          "term": "five",
+          "lemma": "five",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "five",
+      "german_definition": "Grundzahl nach vier und vor sechs.",
+      "german_examples": [
+        {
+          "sentence": "Der Zug fährt in fünf Minuten ab.",
+          "translation_language": "en",
+          "translation": "The train leaves in five minutes."
+        }
+      ],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "source_dataset": "EverFlip Multilingual Flashcard Corpus",
+        "dataset_version": "1.0.0",
+        "source_release_commit": "0f76c389e3cbcddd61408b433ea6df8d8c9b1613",
+        "source_url": "https://everflip.app/dataset",
+        "source_license": "CC-BY-4.0",
+        "source_deck": "Numbers 1–10",
+        "source_card_front": "fünf",
+        "source_card_meaning": "5",
+        "modifications": "Verbwerk selected this German card, edited its English gloss for a standalone learner entry, and added a German definition, original example and translation"
+      }
+    },
+    {
+      "id": "supplement-everflip-gelangweilt",
+      "concept_id": "everflip-de-gelangweilt",
+      "source_pack": "verbwerk_everflip_de_supplement_v1",
+      "entry_kind": "vocabulary",
+      "lemma": "gelangweilt",
+      "display_form": "gelangweilt",
+      "part_of_speech": "adj",
+      "article": null,
+      "gender": "none",
+      "plural_forms": [],
+      "forms": [],
+      "english_terms": [
+        {
+          "term": "bored",
+          "lemma": "bored",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "bored",
+      "german_definition": "Ohne Interesse, weil etwas gerade nicht spannend oder abwechslungsreich ist.",
+      "german_examples": [
+        {
+          "sentence": "Die Kinder sind gelangweilt und möchten nach draußen.",
+          "translation_language": "en",
+          "translation": "The children are bored and want to go outside."
+        }
+      ],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "source_dataset": "EverFlip Multilingual Flashcard Corpus",
+        "dataset_version": "1.0.0",
+        "source_release_commit": "0f76c389e3cbcddd61408b433ea6df8d8c9b1613",
+        "source_url": "https://everflip.app/dataset",
+        "source_license": "CC-BY-4.0",
+        "source_deck": "Feelings",
+        "source_card_front": "gelangweilt",
+        "source_card_meaning": "bored",
+        "modifications": "Verbwerk selected this German card, edited its English gloss for a standalone learner entry, and added a German definition, original example and translation"
+      }
+    },
+    {
+      "id": "supplement-everflip-geradeaus",
+      "concept_id": "everflip-de-geradeaus",
+      "source_pack": "verbwerk_everflip_de_supplement_v1",
+      "entry_kind": "vocabulary",
+      "lemma": "geradeaus",
+      "display_form": "geradeaus",
+      "part_of_speech": "adv",
+      "article": null,
+      "gender": "none",
+      "plural_forms": [],
+      "forms": [],
+      "english_terms": [
+        {
+          "term": "straight ahead",
+          "lemma": "straight ahead",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "straight ahead",
+      "german_definition": "In derselben Richtung weiter, ohne nach links oder rechts abzubiegen.",
+      "german_examples": [
+        {
+          "sentence": "Gehen Sie geradeaus bis zur Ampel.",
+          "translation_language": "en",
+          "translation": "Go straight ahead as far as the traffic light."
+        }
+      ],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "source_dataset": "EverFlip Multilingual Flashcard Corpus",
+        "dataset_version": "1.0.0",
+        "source_release_commit": "0f76c389e3cbcddd61408b433ea6df8d8c9b1613",
+        "source_url": "https://everflip.app/dataset",
+        "source_license": "CC-BY-4.0",
+        "source_deck": "Directions",
+        "source_card_front": "geradeaus",
+        "source_card_meaning": "straight ahead",
+        "modifications": "Verbwerk selected this German card, edited its English gloss for a standalone learner entry, and added a German definition, original example and translation"
+      }
+    },
+    {
+      "id": "supplement-everflip-glucklich",
+      "concept_id": "everflip-de-glucklich",
+      "source_pack": "verbwerk_everflip_de_supplement_v1",
+      "entry_kind": "vocabulary",
+      "lemma": "glücklich",
+      "display_form": "glücklich",
+      "part_of_speech": "adj",
+      "article": null,
+      "gender": "none",
+      "plural_forms": [],
+      "forms": [],
+      "english_terms": [
+        {
+          "term": "happy",
+          "lemma": "happy",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "happy",
+      "german_definition": "Von Freude erfüllt oder mit der eigenen Lage zufrieden.",
+      "german_examples": [
+        {
+          "sentence": "Sie ist glücklich über die gute Nachricht.",
+          "translation_language": "en",
+          "translation": "She is happy about the good news."
+        }
+      ],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "source_dataset": "EverFlip Multilingual Flashcard Corpus",
+        "dataset_version": "1.0.0",
+        "source_release_commit": "0f76c389e3cbcddd61408b433ea6df8d8c9b1613",
+        "source_url": "https://everflip.app/dataset",
+        "source_license": "CC-BY-4.0",
+        "source_deck": "Feelings",
+        "source_card_front": "glücklich",
+        "source_card_meaning": "happy",
+        "modifications": "Verbwerk selected this German card, edited its English gloss for a standalone learner entry, and added a German definition, original example and translation"
+      }
+    },
+    {
+      "id": "supplement-everflip-grau",
+      "concept_id": "everflip-de-grau",
+      "source_pack": "verbwerk_everflip_de_supplement_v1",
+      "entry_kind": "vocabulary",
+      "lemma": "grau",
+      "display_form": "grau",
+      "part_of_speech": "adj",
+      "article": null,
+      "gender": "none",
+      "plural_forms": [],
+      "forms": [],
+      "english_terms": [
+        {
+          "term": "grey; gray",
+          "lemma": "grey; gray",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "grey; gray",
+      "german_definition": "In der Farbe zwischen Schwarz und Weiß.",
+      "german_examples": [
+        {
+          "sentence": "Heute ist der Himmel grau.",
+          "translation_language": "en",
+          "translation": "The sky is grey today."
+        }
+      ],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "source_dataset": "EverFlip Multilingual Flashcard Corpus",
+        "dataset_version": "1.0.0",
+        "source_release_commit": "0f76c389e3cbcddd61408b433ea6df8d8c9b1613",
+        "source_url": "https://everflip.app/dataset",
+        "source_license": "CC-BY-4.0",
+        "source_deck": "Colors",
+        "source_card_front": "grau",
+        "source_card_meaning": "grey",
+        "modifications": "Verbwerk selected this German card, edited its English gloss for a standalone learner entry, and added a German definition, original example and translation"
+      }
+    },
+    {
+      "id": "supplement-everflip-hallo",
+      "concept_id": "everflip-de-hallo",
+      "source_pack": "verbwerk_everflip_de_supplement_v1",
+      "entry_kind": "vocabulary",
+      "lemma": "hallo",
+      "display_form": "hallo",
+      "part_of_speech": "interjection",
+      "article": null,
+      "gender": "none",
+      "plural_forms": [],
+      "forms": [],
+      "english_terms": [
+        {
+          "term": "hello",
+          "lemma": "hello",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "hello",
+      "german_definition": "Begrüßung, mit der man ein Gespräch oder eine Begegnung beginnt.",
+      "german_examples": [
+        {
+          "sentence": "Hallo, wie geht es dir?",
+          "translation_language": "en",
+          "translation": "Hello, how are you?"
+        }
+      ],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "source_dataset": "EverFlip Multilingual Flashcard Corpus",
+        "dataset_version": "1.0.0",
+        "source_release_commit": "0f76c389e3cbcddd61408b433ea6df8d8c9b1613",
+        "source_url": "https://everflip.app/dataset",
+        "source_license": "CC-BY-4.0",
+        "source_deck": "Greetings",
+        "source_card_front": "hallo",
+        "source_card_meaning": "hello",
+        "modifications": "Verbwerk selected this German card, edited its English gloss for a standalone learner entry, and added a German definition, original example and translation"
+      }
+    },
+    {
+      "id": "supplement-everflip-hungrig",
+      "concept_id": "everflip-de-hungrig",
+      "source_pack": "verbwerk_everflip_de_supplement_v1",
+      "entry_kind": "vocabulary",
+      "lemma": "hungrig",
+      "display_form": "hungrig",
+      "part_of_speech": "adj",
+      "article": null,
+      "gender": "none",
+      "plural_forms": [],
+      "forms": [],
+      "english_terms": [
+        {
+          "term": "hungry",
+          "lemma": "hungry",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "hungry",
+      "german_definition": "Das Bedürfnis nach Essen verspürend.",
+      "german_examples": [
+        {
+          "sentence": "Wir sind hungrig und suchen ein Restaurant.",
+          "translation_language": "en",
+          "translation": "We are hungry and looking for a restaurant."
+        }
+      ],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "source_dataset": "EverFlip Multilingual Flashcard Corpus",
+        "dataset_version": "1.0.0",
+        "source_release_commit": "0f76c389e3cbcddd61408b433ea6df8d8c9b1613",
+        "source_url": "https://everflip.app/dataset",
+        "source_license": "CC-BY-4.0",
+        "source_deck": "Feelings",
+        "source_card_front": "hungrig",
+        "source_card_meaning": "hungry",
+        "modifications": "Verbwerk selected this German card, edited its English gloss for a standalone learner entry, and added a German definition, original example and translation"
+      }
+    },
+    {
+      "id": "supplement-everflip-kaufen",
+      "concept_id": "everflip-de-kaufen",
+      "source_pack": "verbwerk_everflip_de_supplement_v1",
+      "entry_kind": "vocabulary",
+      "lemma": "kaufen",
+      "display_form": "kaufen",
+      "part_of_speech": "verb",
+      "article": null,
+      "gender": "none",
+      "plural_forms": [],
+      "forms": [],
+      "english_terms": [
+        {
+          "term": "to buy",
+          "lemma": "to buy",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "to buy",
+      "german_definition": "Etwas gegen Geld erwerben.",
+      "german_examples": [
+        {
+          "sentence": "Ich kaufe heute ein neues Wörterbuch.",
+          "translation_language": "en",
+          "translation": "I am buying a new dictionary today."
+        }
+      ],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "source_dataset": "EverFlip Multilingual Flashcard Corpus",
+        "dataset_version": "1.0.0",
+        "source_release_commit": "0f76c389e3cbcddd61408b433ea6df8d8c9b1613",
+        "source_url": "https://everflip.app/dataset",
+        "source_license": "CC-BY-4.0",
+        "source_deck": "Shopping",
+        "source_card_front": "kaufen",
+        "source_card_meaning": "to buy",
+        "modifications": "Verbwerk selected this German card, edited its English gloss for a standalone learner entry, and added a German definition, original example and translation"
+      }
+    },
+    {
+      "id": "supplement-everflip-konnen",
+      "concept_id": "everflip-de-konnen",
+      "source_pack": "verbwerk_everflip_de_supplement_v1",
+      "entry_kind": "vocabulary",
+      "lemma": "können",
+      "display_form": "können",
+      "part_of_speech": "verb",
+      "article": null,
+      "gender": "none",
+      "plural_forms": [],
+      "forms": [],
+      "english_terms": [
+        {
+          "term": "can; to be able to",
+          "lemma": "can; to be able to",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "can; to be able to",
+      "german_definition": "Die Fähigkeit oder Möglichkeit haben, etwas zu tun.",
+      "german_examples": [
+        {
+          "sentence": "Kannst du mir kurz helfen?",
+          "translation_language": "en",
+          "translation": "Can you help me for a moment?"
+        }
+      ],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "source_dataset": "EverFlip Multilingual Flashcard Corpus",
+        "dataset_version": "1.0.0",
+        "source_release_commit": "0f76c389e3cbcddd61408b433ea6df8d8c9b1613",
+        "source_url": "https://everflip.app/dataset",
+        "source_license": "CC-BY-4.0",
+        "source_deck": "Verbs",
+        "source_card_front": "können",
+        "source_card_meaning": "to be able",
+        "modifications": "Verbwerk selected this German card, edited its English gloss for a standalone learner entry, and added a German definition, original example and translation"
+      },
+      "usage_note": "Modal verb: the main verb usually stays in the infinitive at the end of the clause."
+    },
+    {
+      "id": "supplement-everflip-kurz",
+      "concept_id": "everflip-de-kurz",
+      "source_pack": "verbwerk_everflip_de_supplement_v1",
+      "entry_kind": "vocabulary",
+      "lemma": "kurz",
+      "display_form": "kurz",
+      "part_of_speech": "adj",
+      "article": null,
+      "gender": "none",
+      "plural_forms": [],
+      "forms": [],
+      "english_terms": [
+        {
+          "term": "short; brief",
+          "lemma": "short; brief",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "short; brief",
+      "german_definition": "Von geringer Länge oder Dauer.",
+      "german_examples": [
+        {
+          "sentence": "Der Text ist kurz und leicht zu verstehen.",
+          "translation_language": "en",
+          "translation": "The text is short and easy to understand."
+        }
+      ],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "source_dataset": "EverFlip Multilingual Flashcard Corpus",
+        "dataset_version": "1.0.0",
+        "source_release_commit": "0f76c389e3cbcddd61408b433ea6df8d8c9b1613",
+        "source_url": "https://everflip.app/dataset",
+        "source_license": "CC-BY-4.0",
+        "source_deck": "Adjectives",
+        "source_card_front": "kurz",
+        "source_card_meaning": "short",
+        "modifications": "Verbwerk selected this German card, edited its English gloss for a standalone learner entry, and added a German definition, original example and translation"
+      }
+    },
+    {
+      "id": "supplement-everflip-lang",
+      "concept_id": "everflip-de-lang",
+      "source_pack": "verbwerk_everflip_de_supplement_v1",
+      "entry_kind": "vocabulary",
+      "lemma": "lang",
+      "display_form": "lang",
+      "part_of_speech": "adj",
+      "article": null,
+      "gender": "none",
+      "plural_forms": [],
+      "forms": [],
+      "english_terms": [
+        {
+          "term": "long",
+          "lemma": "long",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "long",
+      "german_definition": "Eine große Länge oder Dauer habend.",
+      "german_examples": [
+        {
+          "sentence": "Der Film ist lang, aber sehr spannend.",
+          "translation_language": "en",
+          "translation": "The film is long but very exciting."
+        }
+      ],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "source_dataset": "EverFlip Multilingual Flashcard Corpus",
+        "dataset_version": "1.0.0",
+        "source_release_commit": "0f76c389e3cbcddd61408b433ea6df8d8c9b1613",
+        "source_url": "https://everflip.app/dataset",
+        "source_license": "CC-BY-4.0",
+        "source_deck": "Adjectives",
+        "source_card_front": "lang",
+        "source_card_meaning": "long",
+        "modifications": "Verbwerk selected this German card, edited its English gloss for a standalone learner entry, and added a German definition, original example and translation"
+      }
+    },
+    {
+      "id": "supplement-everflip-lila",
+      "concept_id": "everflip-de-lila",
+      "source_pack": "verbwerk_everflip_de_supplement_v1",
+      "entry_kind": "vocabulary",
+      "lemma": "lila",
+      "display_form": "lila",
+      "part_of_speech": "adj",
+      "article": null,
+      "gender": "none",
+      "plural_forms": [],
+      "forms": [],
+      "english_terms": [
+        {
+          "term": "purple; violet",
+          "lemma": "purple; violet",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "purple; violet",
+      "german_definition": "Von einer Farbe zwischen Rot und Blau.",
+      "german_examples": [
+        {
+          "sentence": "Die Bluse ist lila.",
+          "translation_language": "en",
+          "translation": "The blouse is purple."
+        }
+      ],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "source_dataset": "EverFlip Multilingual Flashcard Corpus",
+        "dataset_version": "1.0.0",
+        "source_release_commit": "0f76c389e3cbcddd61408b433ea6df8d8c9b1613",
+        "source_url": "https://everflip.app/dataset",
+        "source_license": "CC-BY-4.0",
+        "source_deck": "Colors",
+        "source_card_front": "lila",
+        "source_card_meaning": "purple",
+        "modifications": "Verbwerk selected this German card, edited its English gloss for a standalone learner entry, and added a German definition, original example and translation"
+      },
+      "usage_note": "In a sentence with sein, the color word stays unchanged: Die Bluse ist lila."
+    },
+    {
+      "id": "supplement-everflip-links",
+      "concept_id": "everflip-de-links",
+      "source_pack": "verbwerk_everflip_de_supplement_v1",
+      "entry_kind": "vocabulary",
+      "lemma": "links",
+      "display_form": "links",
+      "part_of_speech": "adv",
+      "article": null,
+      "gender": "none",
+      "plural_forms": [],
+      "forms": [],
+      "english_terms": [
+        {
+          "term": "left; on the left",
+          "lemma": "left; on the left",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "left; on the left",
+      "german_definition": "Auf der linken Seite oder in diese Richtung.",
+      "german_examples": [
+        {
+          "sentence": "Die Apotheke ist links neben dem Café.",
+          "translation_language": "en",
+          "translation": "The pharmacy is on the left next to the café."
+        }
+      ],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "source_dataset": "EverFlip Multilingual Flashcard Corpus",
+        "dataset_version": "1.0.0",
+        "source_release_commit": "0f76c389e3cbcddd61408b433ea6df8d8c9b1613",
+        "source_url": "https://everflip.app/dataset",
+        "source_license": "CC-BY-4.0",
+        "source_deck": "Directions",
+        "source_card_front": "links",
+        "source_card_meaning": "left",
+        "modifications": "Verbwerk selected this German card, edited its English gloss for a standalone learner entry, and added a German definition, original example and translation"
+      }
+    },
+    {
+      "id": "supplement-everflip-mittwoch",
+      "concept_id": "everflip-de-mittwoch",
+      "source_pack": "verbwerk_everflip_de_supplement_v1",
+      "entry_kind": "vocabulary",
+      "lemma": "Mittwoch",
+      "display_form": "der Mittwoch",
+      "part_of_speech": "noun",
+      "article": "der",
+      "gender": "masc",
+      "plural_forms": [
+        "die Mittwoche"
+      ],
+      "forms": [
+        {
+          "surface": "der Mittwoch",
+          "number": "sg",
+          "case": "nom",
+          "role": "core",
+          "tags": {}
+        },
+        {
+          "surface": "die Mittwoche",
+          "number": "pl",
+          "case": "nom",
+          "role": "core",
+          "tags": {}
+        }
+      ],
+      "english_terms": [
+        {
+          "term": "Wednesday",
+          "lemma": "Wednesday",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "Wednesday",
+      "german_definition": "Wochentag zwischen Dienstag und Donnerstag.",
+      "german_examples": [
+        {
+          "sentence": "Am Mittwoch gehen wir zusammen schwimmen.",
+          "translation_language": "en",
+          "translation": "We are going swimming together on Wednesday."
+        }
+      ],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "source_dataset": "EverFlip Multilingual Flashcard Corpus",
+        "dataset_version": "1.0.0",
+        "source_release_commit": "0f76c389e3cbcddd61408b433ea6df8d8c9b1613",
+        "source_url": "https://everflip.app/dataset",
+        "source_license": "CC-BY-4.0",
+        "source_deck": "Days of the week",
+        "source_card_front": "Mittwoch",
+        "source_card_meaning": "Wednesday",
+        "modifications": "Verbwerk selected this German card, edited its English gloss for a standalone learner entry, and added a German definition, original example and translation"
+      }
+    },
+    {
+      "id": "supplement-everflip-montag",
+      "concept_id": "everflip-de-montag",
+      "source_pack": "verbwerk_everflip_de_supplement_v1",
+      "entry_kind": "vocabulary",
+      "lemma": "Montag",
+      "display_form": "der Montag",
+      "part_of_speech": "noun",
+      "article": "der",
+      "gender": "masc",
+      "plural_forms": [
+        "die Montage"
+      ],
+      "forms": [
+        {
+          "surface": "der Montag",
+          "number": "sg",
+          "case": "nom",
+          "role": "core",
+          "tags": {}
+        },
+        {
+          "surface": "die Montage",
+          "number": "pl",
+          "case": "nom",
+          "role": "core",
+          "tags": {}
+        }
+      ],
+      "english_terms": [
+        {
+          "term": "Monday",
+          "lemma": "Monday",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "Monday",
+      "german_definition": "Wochentag nach Sonntag und vor Dienstag.",
+      "german_examples": [
+        {
+          "sentence": "Am Montag beginnt mein neuer Kurs.",
+          "translation_language": "en",
+          "translation": "My new course starts on Monday."
+        }
+      ],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "source_dataset": "EverFlip Multilingual Flashcard Corpus",
+        "dataset_version": "1.0.0",
+        "source_release_commit": "0f76c389e3cbcddd61408b433ea6df8d8c9b1613",
+        "source_url": "https://everflip.app/dataset",
+        "source_license": "CC-BY-4.0",
+        "source_deck": "Days of the week",
+        "source_card_front": "Montag",
+        "source_card_meaning": "Monday",
+        "modifications": "Verbwerk selected this German card, edited its English gloss for a standalone learner entry, and added a German definition, original example and translation"
+      }
+    },
+    {
+      "id": "supplement-everflip-mude",
+      "concept_id": "everflip-de-mude",
+      "source_pack": "verbwerk_everflip_de_supplement_v1",
+      "entry_kind": "vocabulary",
+      "lemma": "müde",
+      "display_form": "müde",
+      "part_of_speech": "adj",
+      "article": null,
+      "gender": "none",
+      "plural_forms": [],
+      "forms": [],
+      "english_terms": [
+        {
+          "term": "tired",
+          "lemma": "tired",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "tired",
+      "german_definition": "Ruhe oder Schlaf brauchend, weil man wenig Energie hat.",
+      "german_examples": [
+        {
+          "sentence": "Nach der langen Reise sind wir müde.",
+          "translation_language": "en",
+          "translation": "We are tired after the long trip."
+        }
+      ],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "source_dataset": "EverFlip Multilingual Flashcard Corpus",
+        "dataset_version": "1.0.0",
+        "source_release_commit": "0f76c389e3cbcddd61408b433ea6df8d8c9b1613",
+        "source_url": "https://everflip.app/dataset",
+        "source_license": "CC-BY-4.0",
+        "source_deck": "Feelings",
+        "source_card_front": "müde",
+        "source_card_meaning": "tired",
+        "modifications": "Verbwerk selected this German card, edited its English gloss for a standalone learner entry, and added a German definition, original example and translation"
+      }
+    },
+    {
+      "id": "supplement-everflip-nein",
+      "concept_id": "everflip-de-nein",
+      "source_pack": "verbwerk_everflip_de_supplement_v1",
+      "entry_kind": "vocabulary",
+      "lemma": "nein",
+      "display_form": "nein",
+      "part_of_speech": "particle",
+      "article": null,
+      "gender": "none",
+      "plural_forms": [],
+      "forms": [],
+      "english_terms": [
+        {
+          "term": "no",
+          "lemma": "no",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "no",
+      "german_definition": "Negatives Antwortwort, mit dem man eine Frage verneint oder etwas ablehnt.",
+      "german_examples": [
+        {
+          "sentence": "Nein, heute habe ich keine Zeit.",
+          "translation_language": "en",
+          "translation": "No, I do not have time today."
+        }
+      ],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "source_dataset": "EverFlip Multilingual Flashcard Corpus",
+        "dataset_version": "1.0.0",
+        "source_release_commit": "0f76c389e3cbcddd61408b433ea6df8d8c9b1613",
+        "source_url": "https://everflip.app/dataset",
+        "source_license": "CC-BY-4.0",
+        "source_deck": "Yes, no & small talk",
+        "source_card_front": "nein",
+        "source_card_meaning": "no",
+        "modifications": "Verbwerk selected this German card, edited its English gloss for a standalone learner entry, and added a German definition, original example and translation"
+      }
+    },
+    {
+      "id": "supplement-everflip-nervos",
+      "concept_id": "everflip-de-nervos",
+      "source_pack": "verbwerk_everflip_de_supplement_v1",
+      "entry_kind": "vocabulary",
+      "lemma": "nervös",
+      "display_form": "nervös",
+      "part_of_speech": "adj",
+      "article": null,
+      "gender": "none",
+      "plural_forms": [],
+      "forms": [],
+      "english_terms": [
+        {
+          "term": "nervous",
+          "lemma": "nervous",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "nervous",
+      "german_definition": "Unruhig oder angespannt, oft vor einer wichtigen Situation.",
+      "german_examples": [
+        {
+          "sentence": "Vor der Prüfung ist er nervös.",
+          "translation_language": "en",
+          "translation": "He is nervous before the exam."
+        }
+      ],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "source_dataset": "EverFlip Multilingual Flashcard Corpus",
+        "dataset_version": "1.0.0",
+        "source_release_commit": "0f76c389e3cbcddd61408b433ea6df8d8c9b1613",
+        "source_url": "https://everflip.app/dataset",
+        "source_license": "CC-BY-4.0",
+        "source_deck": "Feelings",
+        "source_card_front": "nervös",
+        "source_card_meaning": "nervous",
+        "modifications": "Verbwerk selected this German card, edited its English gloss for a standalone learner entry, and added a German definition, original example and translation"
+      }
+    },
+    {
+      "id": "supplement-everflip-neun",
+      "concept_id": "everflip-de-neun",
+      "source_pack": "verbwerk_everflip_de_supplement_v1",
+      "entry_kind": "vocabulary",
+      "lemma": "neun",
+      "display_form": "neun",
+      "part_of_speech": "numeral",
+      "article": null,
+      "gender": "none",
+      "plural_forms": [],
+      "forms": [],
+      "english_terms": [
+        {
+          "term": "nine",
+          "lemma": "nine",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "nine",
+      "german_definition": "Grundzahl nach acht und vor zehn.",
+      "german_examples": [
+        {
+          "sentence": "Der Bus kommt um neun Uhr.",
+          "translation_language": "en",
+          "translation": "The bus arrives at nine o’clock."
+        }
+      ],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "source_dataset": "EverFlip Multilingual Flashcard Corpus",
+        "dataset_version": "1.0.0",
+        "source_release_commit": "0f76c389e3cbcddd61408b433ea6df8d8c9b1613",
+        "source_url": "https://everflip.app/dataset",
+        "source_license": "CC-BY-4.0",
+        "source_deck": "Numbers 1–10",
+        "source_card_front": "neun",
+        "source_card_meaning": "9",
+        "modifications": "Verbwerk selected this German card, edited its English gloss for a standalone learner entry, and added a German definition, original example and translation"
+      }
+    },
+    {
+      "id": "supplement-everflip-oben",
+      "concept_id": "everflip-de-oben",
+      "source_pack": "verbwerk_everflip_de_supplement_v1",
+      "entry_kind": "vocabulary",
+      "lemma": "oben",
+      "display_form": "oben",
+      "part_of_speech": "adv",
+      "article": null,
+      "gender": "none",
+      "plural_forms": [],
+      "forms": [],
+      "english_terms": [
+        {
+          "term": "up; above; upstairs",
+          "lemma": "up; above; upstairs",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "up; above; upstairs",
+      "german_definition": "An einer höher gelegenen Stelle oder in Richtung nach oben.",
+      "german_examples": [
+        {
+          "sentence": "Die Bücher stehen oben im Regal.",
+          "translation_language": "en",
+          "translation": "The books are on the upper shelf."
+        }
+      ],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "source_dataset": "EverFlip Multilingual Flashcard Corpus",
+        "dataset_version": "1.0.0",
+        "source_release_commit": "0f76c389e3cbcddd61408b433ea6df8d8c9b1613",
+        "source_url": "https://everflip.app/dataset",
+        "source_license": "CC-BY-4.0",
+        "source_deck": "Directions",
+        "source_card_front": "oben",
+        "source_card_meaning": "up / above",
+        "modifications": "Verbwerk selected this German card, edited its English gloss for a standalone learner entry, and added a German definition, original example and translation"
+      }
+    },
+    {
+      "id": "supplement-everflip-oder",
+      "concept_id": "everflip-de-oder",
+      "source_pack": "verbwerk_everflip_de_supplement_v1",
+      "entry_kind": "vocabulary",
+      "lemma": "oder",
+      "display_form": "oder",
+      "part_of_speech": "conjunction",
+      "article": null,
+      "gender": "none",
+      "plural_forms": [],
+      "forms": [],
+      "english_terms": [
+        {
+          "term": "or",
+          "lemma": "or",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "or",
+      "german_definition": "Verbindet mögliche Alternativen oder Wahlmöglichkeiten.",
+      "german_examples": [
+        {
+          "sentence": "Möchtest du Tee oder Kaffee?",
+          "translation_language": "en",
+          "translation": "Would you like tea or coffee?"
+        }
+      ],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "source_dataset": "EverFlip Multilingual Flashcard Corpus",
+        "dataset_version": "1.0.0",
+        "source_release_commit": "0f76c389e3cbcddd61408b433ea6df8d8c9b1613",
+        "source_url": "https://everflip.app/dataset",
+        "source_license": "CC-BY-4.0",
+        "source_deck": "Questions & connectors",
+        "source_card_front": "oder",
+        "source_card_meaning": "or | Tee oder Kaffee? = Tea or coffee?",
+        "modifications": "Verbwerk selected this German card, edited its English gloss for a standalone learner entry, and added a German definition, original example and translation"
+      }
+    },
+    {
+      "id": "supplement-everflip-okay",
+      "concept_id": "everflip-de-okay",
+      "source_pack": "verbwerk_everflip_de_supplement_v1",
+      "entry_kind": "vocabulary",
+      "lemma": "okay",
+      "display_form": "okay",
+      "part_of_speech": "interjection",
+      "article": null,
+      "gender": "none",
+      "plural_forms": [],
+      "forms": [],
+      "english_terms": [
+        {
+          "term": "okay; all right",
+          "lemma": "okay; all right",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "okay; all right",
+      "german_definition": "Wird verwendet, um Zustimmung oder Einverständnis auszudrücken.",
+      "german_examples": [
+        {
+          "sentence": "Okay, wir treffen uns um acht.",
+          "translation_language": "en",
+          "translation": "Okay, we will meet at eight."
+        }
+      ],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "source_dataset": "EverFlip Multilingual Flashcard Corpus",
+        "dataset_version": "1.0.0",
+        "source_release_commit": "0f76c389e3cbcddd61408b433ea6df8d8c9b1613",
+        "source_url": "https://everflip.app/dataset",
+        "source_license": "CC-BY-4.0",
+        "source_deck": "Yes, no & small talk",
+        "source_card_front": "okay",
+        "source_card_meaning": "okay",
+        "modifications": "Verbwerk selected this German card, edited its English gloss for a standalone learner entry, and added a German definition, original example and translation"
+      }
+    },
+    {
+      "id": "supplement-everflip-orange",
+      "concept_id": "everflip-de-orange",
+      "source_pack": "verbwerk_everflip_de_supplement_v1",
+      "entry_kind": "vocabulary",
+      "lemma": "orange",
+      "display_form": "orange",
+      "part_of_speech": "adj",
+      "article": null,
+      "gender": "none",
+      "plural_forms": [],
+      "forms": [],
+      "english_terms": [
+        {
+          "term": "orange",
+          "lemma": "orange",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "orange",
+      "german_definition": "Von der Farbe einer reifen Orange.",
+      "german_examples": [
+        {
+          "sentence": "Der Ball ist orange.",
+          "translation_language": "en",
+          "translation": "The ball is orange."
+        }
+      ],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "source_dataset": "EverFlip Multilingual Flashcard Corpus",
+        "dataset_version": "1.0.0",
+        "source_release_commit": "0f76c389e3cbcddd61408b433ea6df8d8c9b1613",
+        "source_url": "https://everflip.app/dataset",
+        "source_license": "CC-BY-4.0",
+        "source_deck": "Colors",
+        "source_card_front": "orange",
+        "source_card_meaning": "orange",
+        "modifications": "Verbwerk selected this German card, edited its English gloss for a standalone learner entry, and added a German definition, original example and translation"
+      },
+      "usage_note": "In a sentence with sein, the color word stays unchanged: Der Ball ist orange."
+    },
+    {
+      "id": "supplement-everflip-rechts",
+      "concept_id": "everflip-de-rechts",
+      "source_pack": "verbwerk_everflip_de_supplement_v1",
+      "entry_kind": "vocabulary",
+      "lemma": "rechts",
+      "display_form": "rechts",
+      "part_of_speech": "adv",
+      "article": null,
+      "gender": "none",
+      "plural_forms": [],
+      "forms": [],
+      "english_terms": [
+        {
+          "term": "right; on the right",
+          "lemma": "right; on the right",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "right; on the right",
+      "german_definition": "Auf der rechten Seite oder in diese Richtung.",
+      "german_examples": [
+        {
+          "sentence": "Die Bank ist rechts neben dem Eingang.",
+          "translation_language": "en",
+          "translation": "The bench is on the right next to the entrance."
+        }
+      ],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "source_dataset": "EverFlip Multilingual Flashcard Corpus",
+        "dataset_version": "1.0.0",
+        "source_release_commit": "0f76c389e3cbcddd61408b433ea6df8d8c9b1613",
+        "source_url": "https://everflip.app/dataset",
+        "source_license": "CC-BY-4.0",
+        "source_deck": "Directions",
+        "source_card_front": "rechts",
+        "source_card_meaning": "right",
+        "modifications": "Verbwerk selected this German card, edited its English gloss for a standalone learner entry, and added a German definition, original example and translation"
+      }
+    },
+    {
+      "id": "supplement-everflip-regnerisch",
+      "concept_id": "everflip-de-regnerisch",
+      "source_pack": "verbwerk_everflip_de_supplement_v1",
+      "entry_kind": "vocabulary",
+      "lemma": "regnerisch",
+      "display_form": "regnerisch",
+      "part_of_speech": "adj",
+      "article": null,
+      "gender": "none",
+      "plural_forms": [],
+      "forms": [],
+      "english_terms": [
+        {
+          "term": "rainy",
+          "lemma": "rainy",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "rainy",
+      "german_definition": "Von häufigem oder starkem Regen geprägt.",
+      "german_examples": [
+        {
+          "sentence": "Der Vormittag war regnerisch, aber der Nachmittag ist sonnig.",
+          "translation_language": "en",
+          "translation": "The morning was rainy, but the afternoon is sunny."
+        }
+      ],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "source_dataset": "EverFlip Multilingual Flashcard Corpus",
+        "dataset_version": "1.0.0",
+        "source_release_commit": "0f76c389e3cbcddd61408b433ea6df8d8c9b1613",
+        "source_url": "https://everflip.app/dataset",
+        "source_license": "CC-BY-4.0",
+        "source_deck": "Weather",
+        "source_card_front": "regnerisch",
+        "source_card_meaning": "rainy",
+        "modifications": "Verbwerk selected this German card, edited its English gloss for a standalone learner entry, and added a German definition, original example and translation"
+      }
+    },
+    {
+      "id": "supplement-everflip-rosa",
+      "concept_id": "everflip-de-rosa",
+      "source_pack": "verbwerk_everflip_de_supplement_v1",
+      "entry_kind": "vocabulary",
+      "lemma": "rosa",
+      "display_form": "rosa",
+      "part_of_speech": "adj",
+      "article": null,
+      "gender": "none",
+      "plural_forms": [],
+      "forms": [],
+      "english_terms": [
+        {
+          "term": "pink",
+          "lemma": "pink",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "pink",
+      "german_definition": "Von einem hellen Rotton.",
+      "german_examples": [
+        {
+          "sentence": "Das Kind trägt einen rosa Pullover.",
+          "translation_language": "en",
+          "translation": "The child is wearing a pink sweater."
+        }
+      ],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "source_dataset": "EverFlip Multilingual Flashcard Corpus",
+        "dataset_version": "1.0.0",
+        "source_release_commit": "0f76c389e3cbcddd61408b433ea6df8d8c9b1613",
+        "source_url": "https://everflip.app/dataset",
+        "source_license": "CC-BY-4.0",
+        "source_deck": "Colors",
+        "source_card_front": "rosa",
+        "source_card_meaning": "pink",
+        "modifications": "Verbwerk selected this German card, edited its English gloss for a standalone learner entry, and added a German definition, original example and translation"
+      }
+    },
+    {
+      "id": "supplement-everflip-ruhig",
+      "concept_id": "everflip-de-ruhig",
+      "source_pack": "verbwerk_everflip_de_supplement_v1",
+      "entry_kind": "vocabulary",
+      "lemma": "ruhig",
+      "display_form": "ruhig",
+      "part_of_speech": "adj",
+      "article": null,
+      "gender": "none",
+      "plural_forms": [],
+      "forms": [],
+      "english_terms": [
+        {
+          "term": "calm; quiet",
+          "lemma": "calm; quiet",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "calm; quiet",
+      "german_definition": "Ohne viel Lärm oder Bewegung; gelassen.",
+      "german_examples": [
+        {
+          "sentence": "Am Morgen ist der Park sehr ruhig.",
+          "translation_language": "en",
+          "translation": "The park is very quiet in the morning."
+        }
+      ],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "source_dataset": "EverFlip Multilingual Flashcard Corpus",
+        "dataset_version": "1.0.0",
+        "source_release_commit": "0f76c389e3cbcddd61408b433ea6df8d8c9b1613",
+        "source_url": "https://everflip.app/dataset",
+        "source_license": "CC-BY-4.0",
+        "source_deck": "Feelings",
+        "source_card_front": "ruhig",
+        "source_card_meaning": "calm",
+        "modifications": "Verbwerk selected this German card, edited its English gloss for a standalone learner entry, and added a German definition, original example and translation"
+      }
+    },
+    {
+      "id": "supplement-everflip-samstag",
+      "concept_id": "everflip-de-samstag",
+      "source_pack": "verbwerk_everflip_de_supplement_v1",
+      "entry_kind": "vocabulary",
+      "lemma": "Samstag",
+      "display_form": "der Samstag",
+      "part_of_speech": "noun",
+      "article": "der",
+      "gender": "masc",
+      "plural_forms": [
+        "die Samstage"
+      ],
+      "forms": [
+        {
+          "surface": "der Samstag",
+          "number": "sg",
+          "case": "nom",
+          "role": "core",
+          "tags": {}
+        },
+        {
+          "surface": "die Samstage",
+          "number": "pl",
+          "case": "nom",
+          "role": "core",
+          "tags": {}
+        }
+      ],
+      "english_terms": [
+        {
+          "term": "Saturday",
+          "lemma": "Saturday",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "Saturday",
+      "german_definition": "Wochentag zwischen Freitag und Sonntag.",
+      "german_examples": [
+        {
+          "sentence": "Am Samstag besuchen wir den Markt.",
+          "translation_language": "en",
+          "translation": "We are visiting the market on Saturday."
+        }
+      ],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "source_dataset": "EverFlip Multilingual Flashcard Corpus",
+        "dataset_version": "1.0.0",
+        "source_release_commit": "0f76c389e3cbcddd61408b433ea6df8d8c9b1613",
+        "source_url": "https://everflip.app/dataset",
+        "source_license": "CC-BY-4.0",
+        "source_deck": "Days of the week",
+        "source_card_front": "Samstag",
+        "source_card_meaning": "Saturday",
+        "modifications": "Verbwerk selected this German card, edited its English gloss for a standalone learner entry, and added a German definition, original example and translation"
+      }
+    },
+    {
+      "id": "supplement-everflip-sechs",
+      "concept_id": "everflip-de-sechs",
+      "source_pack": "verbwerk_everflip_de_supplement_v1",
+      "entry_kind": "vocabulary",
+      "lemma": "sechs",
+      "display_form": "sechs",
+      "part_of_speech": "numeral",
+      "article": null,
+      "gender": "none",
+      "plural_forms": [],
+      "forms": [],
+      "english_terms": [
+        {
+          "term": "six",
+          "lemma": "six",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "six",
+      "german_definition": "Grundzahl nach fünf und vor sieben.",
+      "german_examples": [
+        {
+          "sentence": "Sechs Personen warten vor dem Kino.",
+          "translation_language": "en",
+          "translation": "Six people are waiting outside the cinema."
+        }
+      ],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "source_dataset": "EverFlip Multilingual Flashcard Corpus",
+        "dataset_version": "1.0.0",
+        "source_release_commit": "0f76c389e3cbcddd61408b433ea6df8d8c9b1613",
+        "source_url": "https://everflip.app/dataset",
+        "source_license": "CC-BY-4.0",
+        "source_deck": "Numbers 1–10",
+        "source_card_front": "sechs",
+        "source_card_meaning": "6",
+        "modifications": "Verbwerk selected this German card, edited its English gloss for a standalone learner entry, and added a German definition, original example and translation"
+      }
+    },
+    {
+      "id": "supplement-everflip-sieben",
+      "concept_id": "everflip-de-sieben",
+      "source_pack": "verbwerk_everflip_de_supplement_v1",
+      "entry_kind": "vocabulary",
+      "lemma": "sieben",
+      "display_form": "sieben",
+      "part_of_speech": "numeral",
+      "article": null,
+      "gender": "none",
+      "plural_forms": [],
+      "forms": [],
+      "english_terms": [
+        {
+          "term": "seven",
+          "lemma": "seven",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "seven",
+      "german_definition": "Grundzahl nach sechs und vor acht.",
+      "german_examples": [
+        {
+          "sentence": "Wir fahren um sieben Uhr los.",
+          "translation_language": "en",
+          "translation": "We are leaving at seven o’clock."
+        }
+      ],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "source_dataset": "EverFlip Multilingual Flashcard Corpus",
+        "dataset_version": "1.0.0",
+        "source_release_commit": "0f76c389e3cbcddd61408b433ea6df8d8c9b1613",
+        "source_url": "https://everflip.app/dataset",
+        "source_license": "CC-BY-4.0",
+        "source_deck": "Numbers 1–10",
+        "source_card_front": "sieben",
+        "source_card_meaning": "7",
+        "modifications": "Verbwerk selected this German card, edited its English gloss for a standalone learner entry, and added a German definition, original example and translation"
+      }
+    },
+    {
+      "id": "supplement-everflip-sonnig",
+      "concept_id": "everflip-de-sonnig",
+      "source_pack": "verbwerk_everflip_de_supplement_v1",
+      "entry_kind": "vocabulary",
+      "lemma": "sonnig",
+      "display_form": "sonnig",
+      "part_of_speech": "adj",
+      "article": null,
+      "gender": "none",
+      "plural_forms": [],
+      "forms": [],
+      "english_terms": [
+        {
+          "term": "sunny",
+          "lemma": "sunny",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "sunny",
+      "german_definition": "Mit viel Sonne oder klarem Sonnenschein.",
+      "german_examples": [
+        {
+          "sentence": "Am Wochenende wird es sonnig und warm.",
+          "translation_language": "en",
+          "translation": "It will be sunny and warm at the weekend."
+        }
+      ],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "source_dataset": "EverFlip Multilingual Flashcard Corpus",
+        "dataset_version": "1.0.0",
+        "source_release_commit": "0f76c389e3cbcddd61408b433ea6df8d8c9b1613",
+        "source_url": "https://everflip.app/dataset",
+        "source_license": "CC-BY-4.0",
+        "source_deck": "Weather",
+        "source_card_front": "sonnig",
+        "source_card_meaning": "sunny",
+        "modifications": "Verbwerk selected this German card, edited its English gloss for a standalone learner entry, and added a German definition, original example and translation"
+      }
+    },
+    {
+      "id": "supplement-everflip-sonntag",
+      "concept_id": "everflip-de-sonntag",
+      "source_pack": "verbwerk_everflip_de_supplement_v1",
+      "entry_kind": "vocabulary",
+      "lemma": "Sonntag",
+      "display_form": "der Sonntag",
+      "part_of_speech": "noun",
+      "article": "der",
+      "gender": "masc",
+      "plural_forms": [
+        "die Sonntage"
+      ],
+      "forms": [
+        {
+          "surface": "der Sonntag",
+          "number": "sg",
+          "case": "nom",
+          "role": "core",
+          "tags": {}
+        },
+        {
+          "surface": "die Sonntage",
+          "number": "pl",
+          "case": "nom",
+          "role": "core",
+          "tags": {}
+        }
+      ],
+      "english_terms": [
+        {
+          "term": "Sunday",
+          "lemma": "Sunday",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "Sunday",
+      "german_definition": "Wochentag nach Samstag und vor Montag.",
+      "german_examples": [
+        {
+          "sentence": "Am Sonntag frühstücken wir lange.",
+          "translation_language": "en",
+          "translation": "We have a long breakfast on Sunday."
+        }
+      ],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "source_dataset": "EverFlip Multilingual Flashcard Corpus",
+        "dataset_version": "1.0.0",
+        "source_release_commit": "0f76c389e3cbcddd61408b433ea6df8d8c9b1613",
+        "source_url": "https://everflip.app/dataset",
+        "source_license": "CC-BY-4.0",
+        "source_deck": "Days of the week",
+        "source_card_front": "Sonntag",
+        "source_card_meaning": "Sunday",
+        "modifications": "Verbwerk selected this German card, edited its English gloss for a standalone learner entry, and added a German definition, original example and translation"
+      }
+    },
+    {
+      "id": "supplement-everflip-spat",
+      "concept_id": "everflip-de-spat",
+      "source_pack": "verbwerk_everflip_de_supplement_v1",
+      "entry_kind": "vocabulary",
+      "lemma": "spät",
+      "display_form": "spät",
+      "part_of_speech": "adv",
+      "article": null,
+      "gender": "none",
+      "plural_forms": [],
+      "forms": [],
+      "english_terms": [
+        {
+          "term": "late",
+          "lemma": "late",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "late",
+      "german_definition": "Zu einem späten Zeitpunkt oder später als üblich.",
+      "german_examples": [
+        {
+          "sentence": "Der Zug kommt heute spät.",
+          "translation_language": "en",
+          "translation": "The train is arriving late today."
+        }
+      ],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "source_dataset": "EverFlip Multilingual Flashcard Corpus",
+        "dataset_version": "1.0.0",
+        "source_release_commit": "0f76c389e3cbcddd61408b433ea6df8d8c9b1613",
+        "source_url": "https://everflip.app/dataset",
+        "source_license": "CC-BY-4.0",
+        "source_deck": "Time",
+        "source_card_front": "spät",
+        "source_card_meaning": "late",
+        "modifications": "Verbwerk selected this German card, edited its English gloss for a standalone learner entry, and added a German definition, original example and translation"
+      }
+    },
+    {
+      "id": "supplement-everflip-sprechen",
+      "concept_id": "everflip-de-sprechen",
+      "source_pack": "verbwerk_everflip_de_supplement_v1",
+      "entry_kind": "vocabulary",
+      "lemma": "sprechen",
+      "display_form": "sprechen",
+      "part_of_speech": "verb",
+      "article": null,
+      "gender": "none",
+      "plural_forms": [],
+      "forms": [],
+      "english_terms": [
+        {
+          "term": "to speak; to talk",
+          "lemma": "to speak; to talk",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "to speak; to talk",
+      "german_definition": "Worte sagen oder sich mit jemandem in einer Sprache verständigen.",
+      "german_examples": [
+        {
+          "sentence": "Sie spricht sehr gut Deutsch.",
+          "translation_language": "en",
+          "translation": "She speaks German very well."
+        }
+      ],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "source_dataset": "EverFlip Multilingual Flashcard Corpus",
+        "dataset_version": "1.0.0",
+        "source_release_commit": "0f76c389e3cbcddd61408b433ea6df8d8c9b1613",
+        "source_url": "https://everflip.app/dataset",
+        "source_license": "CC-BY-4.0",
+        "source_deck": "Verbs",
+        "source_card_front": "sprechen",
+        "source_card_meaning": "to speak",
+        "modifications": "Verbwerk selected this German card, edited its English gloss for a standalone learner entry, and added a German definition, original example and translation"
+      }
+    },
+    {
+      "id": "supplement-everflip-teuer",
+      "concept_id": "everflip-de-teuer",
+      "source_pack": "verbwerk_everflip_de_supplement_v1",
+      "entry_kind": "vocabulary",
+      "lemma": "teuer",
+      "display_form": "teuer",
+      "part_of_speech": "adj",
+      "article": null,
+      "gender": "none",
+      "plural_forms": [],
+      "forms": [],
+      "english_terms": [
+        {
+          "term": "expensive",
+          "lemma": "expensive",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "expensive",
+      "german_definition": "Zu einem hohen Preis erhältlich.",
+      "german_examples": [
+        {
+          "sentence": "Dieses Hotel ist im Sommer sehr teuer.",
+          "translation_language": "en",
+          "translation": "This hotel is very expensive in summer."
+        }
+      ],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "source_dataset": "EverFlip Multilingual Flashcard Corpus",
+        "dataset_version": "1.0.0",
+        "source_release_commit": "0f76c389e3cbcddd61408b433ea6df8d8c9b1613",
+        "source_url": "https://everflip.app/dataset",
+        "source_license": "CC-BY-4.0",
+        "source_deck": "Adjectives",
+        "source_card_front": "teuer",
+        "source_card_meaning": "expensive",
+        "modifications": "Verbwerk selected this German card, edited its English gloss for a standalone learner entry, and added a German definition, original example and translation"
+      }
+    },
+    {
+      "id": "supplement-everflip-traurig",
+      "concept_id": "everflip-de-traurig",
+      "source_pack": "verbwerk_everflip_de_supplement_v1",
+      "entry_kind": "vocabulary",
+      "lemma": "traurig",
+      "display_form": "traurig",
+      "part_of_speech": "adj",
+      "article": null,
+      "gender": "none",
+      "plural_forms": [],
+      "forms": [],
+      "english_terms": [
+        {
+          "term": "sad",
+          "lemma": "sad",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "sad",
+      "german_definition": "Unglücklich oder betrübt wegen eines Problems oder Verlusts.",
+      "german_examples": [
+        {
+          "sentence": "Er ist traurig, weil sein Freund wegzieht.",
+          "translation_language": "en",
+          "translation": "He is sad because his friend is moving away."
+        }
+      ],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "source_dataset": "EverFlip Multilingual Flashcard Corpus",
+        "dataset_version": "1.0.0",
+        "source_release_commit": "0f76c389e3cbcddd61408b433ea6df8d8c9b1613",
+        "source_url": "https://everflip.app/dataset",
+        "source_license": "CC-BY-4.0",
+        "source_deck": "Feelings",
+        "source_card_front": "traurig",
+        "source_card_meaning": "sad",
+        "modifications": "Verbwerk selected this German card, edited its English gloss for a standalone learner entry, and added a German definition, original example and translation"
+      }
+    },
+    {
+      "id": "supplement-everflip-tschuss",
+      "concept_id": "everflip-de-tschuss",
+      "source_pack": "verbwerk_everflip_de_supplement_v1",
+      "entry_kind": "vocabulary",
+      "lemma": "tschüss",
+      "display_form": "tschüss",
+      "part_of_speech": "interjection",
+      "article": null,
+      "gender": "none",
+      "plural_forms": [],
+      "forms": [],
+      "english_terms": [
+        {
+          "term": "bye; goodbye",
+          "lemma": "bye; goodbye",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "bye; goodbye",
+      "german_definition": "Lockerer Abschiedsgruß.",
+      "german_examples": [
+        {
+          "sentence": "Tschüss, bis morgen!",
+          "translation_language": "en",
+          "translation": "Bye, see you tomorrow!"
+        }
+      ],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "source_dataset": "EverFlip Multilingual Flashcard Corpus",
+        "dataset_version": "1.0.0",
+        "source_release_commit": "0f76c389e3cbcddd61408b433ea6df8d8c9b1613",
+        "source_url": "https://everflip.app/dataset",
+        "source_license": "CC-BY-4.0",
+        "source_deck": "Greetings",
+        "source_card_front": "tschüss",
+        "source_card_meaning": "bye",
+        "modifications": "Verbwerk selected this German card, edited its English gloss for a standalone learner entry, and added a German definition, original example and translation"
+      }
+    },
+    {
+      "id": "supplement-everflip-und",
+      "concept_id": "everflip-de-und",
+      "source_pack": "verbwerk_everflip_de_supplement_v1",
+      "entry_kind": "vocabulary",
+      "lemma": "und",
+      "display_form": "und",
+      "part_of_speech": "conjunction",
+      "article": null,
+      "gender": "none",
+      "plural_forms": [],
+      "forms": [],
+      "english_terms": [
+        {
+          "term": "and",
+          "lemma": "and",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "and",
+      "german_definition": "Verbindet Wörter oder Aussagen, die zusammengehören.",
+      "german_examples": [
+        {
+          "sentence": "Am Sonntag besuchen wir Freunde und gehen danach spazieren.",
+          "translation_language": "en",
+          "translation": "On Sunday we are visiting friends and then going for a walk."
+        }
+      ],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "source_dataset": "EverFlip Multilingual Flashcard Corpus",
+        "dataset_version": "1.0.0",
+        "source_release_commit": "0f76c389e3cbcddd61408b433ea6df8d8c9b1613",
+        "source_url": "https://everflip.app/dataset",
+        "source_license": "CC-BY-4.0",
+        "source_deck": "Questions & connectors",
+        "source_card_front": "und",
+        "source_card_meaning": "and | Kaffee und Kuchen, bitte. = Coffee and cake, please.",
+        "modifications": "Verbwerk selected this German card, edited its English gloss for a standalone learner entry, and added a German definition, original example and translation"
+      }
+    },
+    {
+      "id": "supplement-everflip-unten",
+      "concept_id": "everflip-de-unten",
+      "source_pack": "verbwerk_everflip_de_supplement_v1",
+      "entry_kind": "vocabulary",
+      "lemma": "unten",
+      "display_form": "unten",
+      "part_of_speech": "adv",
+      "article": null,
+      "gender": "none",
+      "plural_forms": [],
+      "forms": [],
+      "english_terms": [
+        {
+          "term": "down; below; downstairs",
+          "lemma": "down; below; downstairs",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "down; below; downstairs",
+      "german_definition": "An einer tiefer gelegenen Stelle oder in Richtung nach unten.",
+      "german_examples": [
+        {
+          "sentence": "Die Kinder warten unten vor dem Haus.",
+          "translation_language": "en",
+          "translation": "The children are waiting downstairs in front of the house."
+        }
+      ],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "source_dataset": "EverFlip Multilingual Flashcard Corpus",
+        "dataset_version": "1.0.0",
+        "source_release_commit": "0f76c389e3cbcddd61408b433ea6df8d8c9b1613",
+        "source_url": "https://everflip.app/dataset",
+        "source_license": "CC-BY-4.0",
+        "source_deck": "Directions",
+        "source_card_front": "unten",
+        "source_card_meaning": "down / below",
+        "modifications": "Verbwerk selected this German card, edited its English gloss for a standalone learner entry, and added a German definition, original example and translation"
+      }
+    },
+    {
+      "id": "supplement-everflip-verkaufen",
+      "concept_id": "everflip-de-verkaufen",
+      "source_pack": "verbwerk_everflip_de_supplement_v1",
+      "entry_kind": "vocabulary",
+      "lemma": "verkaufen",
+      "display_form": "verkaufen",
+      "part_of_speech": "verb",
+      "article": null,
+      "gender": "none",
+      "plural_forms": [],
+      "forms": [],
+      "english_terms": [
+        {
+          "term": "to sell",
+          "lemma": "to sell",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "to sell",
+      "german_definition": "Etwas gegen Geld an eine andere Person abgeben.",
+      "german_examples": [
+        {
+          "sentence": "Der Laden verkauft frisches Brot.",
+          "translation_language": "en",
+          "translation": "The shop sells fresh bread."
+        }
+      ],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "source_dataset": "EverFlip Multilingual Flashcard Corpus",
+        "dataset_version": "1.0.0",
+        "source_release_commit": "0f76c389e3cbcddd61408b433ea6df8d8c9b1613",
+        "source_url": "https://everflip.app/dataset",
+        "source_license": "CC-BY-4.0",
+        "source_deck": "Shopping",
+        "source_card_front": "verkaufen",
+        "source_card_meaning": "to sell",
+        "modifications": "Verbwerk selected this German card, edited its English gloss for a standalone learner entry, and added a German definition, original example and translation"
+      }
+    },
+    {
+      "id": "supplement-everflip-verliebt",
+      "concept_id": "everflip-de-verliebt",
+      "source_pack": "verbwerk_everflip_de_supplement_v1",
+      "entry_kind": "vocabulary",
+      "lemma": "verliebt",
+      "display_form": "verliebt",
+      "part_of_speech": "adj",
+      "article": null,
+      "gender": "none",
+      "plural_forms": [],
+      "forms": [],
+      "english_terms": [
+        {
+          "term": "in love",
+          "lemma": "in love",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "in love",
+      "german_definition": "Von romantischer Liebe für eine Person erfüllt.",
+      "german_examples": [
+        {
+          "sentence": "Sie ist in ihren besten Freund verliebt.",
+          "translation_language": "en",
+          "translation": "She is in love with her best friend."
+        }
+      ],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "source_dataset": "EverFlip Multilingual Flashcard Corpus",
+        "dataset_version": "1.0.0",
+        "source_release_commit": "0f76c389e3cbcddd61408b433ea6df8d8c9b1613",
+        "source_url": "https://everflip.app/dataset",
+        "source_license": "CC-BY-4.0",
+        "source_deck": "Feelings",
+        "source_card_front": "verliebt",
+        "source_card_meaning": "in love",
+        "modifications": "Verbwerk selected this German card, edited its English gloss for a standalone learner entry, and added a German definition, original example and translation"
+      },
+      "usage_note": "Common pattern: in jemanden verliebt sein; the person follows in in the accusative."
+    },
+    {
+      "id": "supplement-everflip-vier",
+      "concept_id": "everflip-de-vier",
+      "source_pack": "verbwerk_everflip_de_supplement_v1",
+      "entry_kind": "vocabulary",
+      "lemma": "vier",
+      "display_form": "vier",
+      "part_of_speech": "numeral",
+      "article": null,
+      "gender": "none",
+      "plural_forms": [],
+      "forms": [],
+      "english_terms": [
+        {
+          "term": "four",
+          "lemma": "four",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "four",
+      "german_definition": "Grundzahl nach drei und vor fünf.",
+      "german_examples": [
+        {
+          "sentence": "Vier Stühle stehen am Tisch.",
+          "translation_language": "en",
+          "translation": "Four chairs are around the table."
+        }
+      ],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "source_dataset": "EverFlip Multilingual Flashcard Corpus",
+        "dataset_version": "1.0.0",
+        "source_release_commit": "0f76c389e3cbcddd61408b433ea6df8d8c9b1613",
+        "source_url": "https://everflip.app/dataset",
+        "source_license": "CC-BY-4.0",
+        "source_deck": "Numbers 1–10",
+        "source_card_front": "vier",
+        "source_card_meaning": "4",
+        "modifications": "Verbwerk selected this German card, edited its English gloss for a standalone learner entry, and added a German definition, original example and translation"
+      }
+    },
+    {
+      "id": "supplement-everflip-wann",
+      "concept_id": "everflip-de-wann",
+      "source_pack": "verbwerk_everflip_de_supplement_v1",
+      "entry_kind": "vocabulary",
+      "lemma": "wann",
+      "display_form": "wann",
+      "part_of_speech": "adv",
+      "article": null,
+      "gender": "none",
+      "plural_forms": [],
+      "forms": [],
+      "english_terms": [
+        {
+          "term": "when",
+          "lemma": "when",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "when",
+      "german_definition": "Fragewort, mit dem man nach einem Zeitpunkt fragt.",
+      "german_examples": [
+        {
+          "sentence": "Wann beginnt der Film?",
+          "translation_language": "en",
+          "translation": "When does the film start?"
+        }
+      ],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "source_dataset": "EverFlip Multilingual Flashcard Corpus",
+        "dataset_version": "1.0.0",
+        "source_release_commit": "0f76c389e3cbcddd61408b433ea6df8d8c9b1613",
+        "source_url": "https://everflip.app/dataset",
+        "source_license": "CC-BY-4.0",
+        "source_deck": "Questions & connectors",
+        "source_card_front": "wann",
+        "source_card_meaning": "when | Wann kommst du? = When are you coming?",
+        "modifications": "Verbwerk selected this German card, edited its English gloss for a standalone learner entry, and added a German definition, original example and translation"
+      }
+    },
+    {
+      "id": "supplement-everflip-warum",
+      "concept_id": "everflip-de-warum",
+      "source_pack": "verbwerk_everflip_de_supplement_v1",
+      "entry_kind": "vocabulary",
+      "lemma": "warum",
+      "display_form": "warum",
+      "part_of_speech": "adv",
+      "article": null,
+      "gender": "none",
+      "plural_forms": [],
+      "forms": [],
+      "english_terms": [
+        {
+          "term": "why",
+          "lemma": "why",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "why",
+      "german_definition": "Fragewort, mit dem man nach einem Grund fragt.",
+      "german_examples": [
+        {
+          "sentence": "Warum lernst du Deutsch?",
+          "translation_language": "en",
+          "translation": "Why are you learning German?"
+        }
+      ],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "source_dataset": "EverFlip Multilingual Flashcard Corpus",
+        "dataset_version": "1.0.0",
+        "source_release_commit": "0f76c389e3cbcddd61408b433ea6df8d8c9b1613",
+        "source_url": "https://everflip.app/dataset",
+        "source_license": "CC-BY-4.0",
+        "source_deck": "Questions & connectors",
+        "source_card_front": "warum",
+        "source_card_meaning": "why | Warum lernst du Deutsch? = Why are you learning German?",
+        "modifications": "Verbwerk selected this German card, edited its English gloss for a standalone learner entry, and added a German definition, original example and translation"
+      }
+    },
+    {
+      "id": "supplement-everflip-was",
+      "concept_id": "everflip-de-was",
+      "source_pack": "verbwerk_everflip_de_supplement_v1",
+      "entry_kind": "vocabulary",
+      "lemma": "was",
+      "display_form": "was",
+      "part_of_speech": "pronoun",
+      "article": null,
+      "gender": "none",
+      "plural_forms": [],
+      "forms": [],
+      "english_terms": [
+        {
+          "term": "what",
+          "lemma": "what",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "what",
+      "german_definition": "Fragewort, mit dem man nach einer Sache oder Handlung fragt.",
+      "german_examples": [
+        {
+          "sentence": "Was kochst du heute?",
+          "translation_language": "en",
+          "translation": "What are you cooking today?"
+        }
+      ],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "source_dataset": "EverFlip Multilingual Flashcard Corpus",
+        "dataset_version": "1.0.0",
+        "source_release_commit": "0f76c389e3cbcddd61408b433ea6df8d8c9b1613",
+        "source_url": "https://everflip.app/dataset",
+        "source_license": "CC-BY-4.0",
+        "source_deck": "Questions & connectors",
+        "source_card_front": "was",
+        "source_card_meaning": "what | Was machst du? = What are you doing?",
+        "modifications": "Verbwerk selected this German card, edited its English gloss for a standalone learner entry, and added a German definition, original example and translation"
+      }
+    },
+    {
+      "id": "supplement-everflip-weil",
+      "concept_id": "everflip-de-weil",
+      "source_pack": "verbwerk_everflip_de_supplement_v1",
+      "entry_kind": "vocabulary",
+      "lemma": "weil",
+      "display_form": "weil",
+      "part_of_speech": "conjunction",
+      "article": null,
+      "gender": "none",
+      "plural_forms": [],
+      "forms": [],
+      "english_terms": [
+        {
+          "term": "because",
+          "lemma": "because",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "because",
+      "german_definition": "Leitet einen Nebensatz ein, der einen Grund nennt.",
+      "german_examples": [
+        {
+          "sentence": "Wir bleiben zu Hause, weil es draußen regnet.",
+          "translation_language": "en",
+          "translation": "We are staying home because it is raining outside."
+        }
+      ],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "source_dataset": "EverFlip Multilingual Flashcard Corpus",
+        "dataset_version": "1.0.0",
+        "source_release_commit": "0f76c389e3cbcddd61408b433ea6df8d8c9b1613",
+        "source_url": "https://everflip.app/dataset",
+        "source_license": "CC-BY-4.0",
+        "source_deck": "Questions & connectors",
+        "source_card_front": "weil",
+        "source_card_meaning": "because | Ich bleibe zu Hause, weil es regnet. = I'm staying home because it's raining.",
+        "modifications": "Verbwerk selected this German card, edited its English gloss for a standalone learner entry, and added a German definition, original example and translation"
+      },
+      "usage_note": "In a standard weil-clause, the conjugated verb goes to the end: weil es regnet."
+    },
+    {
+      "id": "supplement-everflip-wer",
+      "concept_id": "everflip-de-wer",
+      "source_pack": "verbwerk_everflip_de_supplement_v1",
+      "entry_kind": "vocabulary",
+      "lemma": "wer",
+      "display_form": "wer",
+      "part_of_speech": "pronoun",
+      "article": null,
+      "gender": "none",
+      "plural_forms": [],
+      "forms": [],
+      "english_terms": [
+        {
+          "term": "who",
+          "lemma": "who",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "who",
+      "german_definition": "Fragewort, mit dem man nach einer Person als Handelnder fragt.",
+      "german_examples": [
+        {
+          "sentence": "Wer wartet vor der Tür?",
+          "translation_language": "en",
+          "translation": "Who is waiting outside the door?"
+        }
+      ],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "source_dataset": "EverFlip Multilingual Flashcard Corpus",
+        "dataset_version": "1.0.0",
+        "source_release_commit": "0f76c389e3cbcddd61408b433ea6df8d8c9b1613",
+        "source_url": "https://everflip.app/dataset",
+        "source_license": "CC-BY-4.0",
+        "source_deck": "Questions & connectors",
+        "source_card_front": "wer",
+        "source_card_meaning": "who (subject) | Wer ist das? = Who is that?",
+        "modifications": "Verbwerk selected this German card, edited its English gloss for a standalone learner entry, and added a German definition, original example and translation"
+      },
+      "usage_note": "Wer is the nominative form; use wen for the accusative and wem for the dative."
+    },
+    {
+      "id": "supplement-everflip-wie",
+      "concept_id": "everflip-de-wie",
+      "source_pack": "verbwerk_everflip_de_supplement_v1",
+      "entry_kind": "vocabulary",
+      "lemma": "wie",
+      "display_form": "wie",
+      "part_of_speech": "adv",
+      "article": null,
+      "gender": "none",
+      "plural_forms": [],
+      "forms": [],
+      "english_terms": [
+        {
+          "term": "how",
+          "lemma": "how",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "how",
+      "german_definition": "Fragewort, mit dem man nach der Art oder dem Zustand von etwas fragt.",
+      "german_examples": [
+        {
+          "sentence": "Wie heißt du?",
+          "translation_language": "en",
+          "translation": "What is your name?"
+        }
+      ],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "source_dataset": "EverFlip Multilingual Flashcard Corpus",
+        "dataset_version": "1.0.0",
+        "source_release_commit": "0f76c389e3cbcddd61408b433ea6df8d8c9b1613",
+        "source_url": "https://everflip.app/dataset",
+        "source_license": "CC-BY-4.0",
+        "source_deck": "Questions & connectors",
+        "source_card_front": "wie",
+        "source_card_meaning": "how | Wie geht es dir? = How are you?",
+        "modifications": "Verbwerk selected this German card, edited its English gloss for a standalone learner entry, and added a German definition, original example and translation"
+      }
+    },
+    {
+      "id": "supplement-everflip-windig",
+      "concept_id": "everflip-de-windig",
+      "source_pack": "verbwerk_everflip_de_supplement_v1",
+      "entry_kind": "vocabulary",
+      "lemma": "windig",
+      "display_form": "windig",
+      "part_of_speech": "adj",
+      "article": null,
+      "gender": "none",
+      "plural_forms": [],
+      "forms": [],
+      "english_terms": [
+        {
+          "term": "windy",
+          "lemma": "windy",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "windy",
+      "german_definition": "Von starkem oder häufigem Wind geprägt.",
+      "german_examples": [
+        {
+          "sentence": "Am Meer ist es heute sehr windig.",
+          "translation_language": "en",
+          "translation": "It is very windy by the sea today."
+        }
+      ],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "source_dataset": "EverFlip Multilingual Flashcard Corpus",
+        "dataset_version": "1.0.0",
+        "source_release_commit": "0f76c389e3cbcddd61408b433ea6df8d8c9b1613",
+        "source_url": "https://everflip.app/dataset",
+        "source_license": "CC-BY-4.0",
+        "source_deck": "Weather",
+        "source_card_front": "windig",
+        "source_card_meaning": "windy",
+        "modifications": "Verbwerk selected this German card, edited its English gloss for a standalone learner entry, and added a German definition, original example and translation"
+      }
+    },
+    {
+      "id": "supplement-everflip-wo",
+      "concept_id": "everflip-de-wo",
+      "source_pack": "verbwerk_everflip_de_supplement_v1",
+      "entry_kind": "vocabulary",
+      "lemma": "wo",
+      "display_form": "wo",
+      "part_of_speech": "adv",
+      "article": null,
+      "gender": "none",
+      "plural_forms": [],
+      "forms": [],
+      "english_terms": [
+        {
+          "term": "where",
+          "lemma": "where",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "where",
+      "german_definition": "Fragewort, mit dem man nach einem Ort oder einer Position fragt.",
+      "german_examples": [
+        {
+          "sentence": "Wo ist dein Schlüssel?",
+          "translation_language": "en",
+          "translation": "Where is your key?"
+        }
+      ],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "source_dataset": "EverFlip Multilingual Flashcard Corpus",
+        "dataset_version": "1.0.0",
+        "source_release_commit": "0f76c389e3cbcddd61408b433ea6df8d8c9b1613",
+        "source_url": "https://everflip.app/dataset",
+        "source_license": "CC-BY-4.0",
+        "source_deck": "Directions",
+        "source_card_front": "wo",
+        "source_card_meaning": "where",
+        "modifications": "Verbwerk selected this German card, edited its English gloss for a standalone learner entry, and added a German definition, original example and translation"
+      },
+      "usage_note": "Wo asks about a location. For a destination, use wohin."
+    },
+    {
+      "id": "supplement-everflip-woher",
+      "concept_id": "everflip-de-woher",
+      "source_pack": "verbwerk_everflip_de_supplement_v1",
+      "entry_kind": "vocabulary",
+      "lemma": "woher",
+      "display_form": "woher",
+      "part_of_speech": "adv",
+      "article": null,
+      "gender": "none",
+      "plural_forms": [],
+      "forms": [],
+      "english_terms": [
+        {
+          "term": "where from; from where",
+          "lemma": "where from; from where",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "where from; from where",
+      "german_definition": "Fragewort, mit dem man nach dem Ausgangsort oder der Herkunft fragt.",
+      "german_examples": [
+        {
+          "sentence": "Woher kommst du?",
+          "translation_language": "en",
+          "translation": "Where are you from?"
+        }
+      ],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "source_dataset": "EverFlip Multilingual Flashcard Corpus",
+        "dataset_version": "1.0.0",
+        "source_release_commit": "0f76c389e3cbcddd61408b433ea6df8d8c9b1613",
+        "source_url": "https://everflip.app/dataset",
+        "source_license": "CC-BY-4.0",
+        "source_deck": "Questions & connectors",
+        "source_card_front": "woher",
+        "source_card_meaning": "where from (origin) | Woher kommst du? = Where are you from?",
+        "modifications": "Verbwerk selected this German card, edited its English gloss for a standalone learner entry, and added a German definition, original example and translation"
+      }
+    },
+    {
+      "id": "supplement-everflip-wohin",
+      "concept_id": "everflip-de-wohin",
+      "source_pack": "verbwerk_everflip_de_supplement_v1",
+      "entry_kind": "vocabulary",
+      "lemma": "wohin",
+      "display_form": "wohin",
+      "part_of_speech": "adv",
+      "article": null,
+      "gender": "none",
+      "plural_forms": [],
+      "forms": [],
+      "english_terms": [
+        {
+          "term": "where to; to where",
+          "lemma": "where to; to where",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "where to; to where",
+      "german_definition": "Fragewort, mit dem man nach einem Ziel fragt.",
+      "german_examples": [
+        {
+          "sentence": "Wohin fährst du am Wochenende?",
+          "translation_language": "en",
+          "translation": "Where are you going this weekend?"
+        }
+      ],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "source_dataset": "EverFlip Multilingual Flashcard Corpus",
+        "dataset_version": "1.0.0",
+        "source_release_commit": "0f76c389e3cbcddd61408b433ea6df8d8c9b1613",
+        "source_url": "https://everflip.app/dataset",
+        "source_license": "CC-BY-4.0",
+        "source_deck": "Questions & connectors",
+        "source_card_front": "wohin",
+        "source_card_meaning": "where to (direction) | Wohin gehst du? = Where are you going (to)?",
+        "modifications": "Verbwerk selected this German card, edited its English gloss for a standalone learner entry, and added a German definition, original example and translation"
+      },
+      "usage_note": "Wohin asks about a destination; wo asks about a current location."
+    },
+    {
+      "id": "supplement-everflip-wohnen",
+      "concept_id": "everflip-de-wohnen",
+      "source_pack": "verbwerk_everflip_de_supplement_v1",
+      "entry_kind": "vocabulary",
+      "lemma": "wohnen",
+      "display_form": "wohnen",
+      "part_of_speech": "verb",
+      "article": null,
+      "gender": "none",
+      "plural_forms": [],
+      "forms": [],
+      "english_terms": [
+        {
+          "term": "to live; to reside",
+          "lemma": "to live; to reside",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "to live; to reside",
+      "german_definition": "An einem Ort leben oder dort zu Hause sein.",
+      "german_examples": [
+        {
+          "sentence": "Meine Freunde wohnen in einer kleinen Stadt.",
+          "translation_language": "en",
+          "translation": "My friends live in a small town."
+        }
+      ],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "source_dataset": "EverFlip Multilingual Flashcard Corpus",
+        "dataset_version": "1.0.0",
+        "source_release_commit": "0f76c389e3cbcddd61408b433ea6df8d8c9b1613",
+        "source_url": "https://everflip.app/dataset",
+        "source_license": "CC-BY-4.0",
+        "source_deck": "Verbs",
+        "source_card_front": "wohnen",
+        "source_card_meaning": "to live",
+        "modifications": "Verbwerk selected this German card, edited its English gloss for a standalone learner entry, and added a German definition, original example and translation"
+      }
+    },
+    {
+      "id": "supplement-everflip-wollen",
+      "concept_id": "everflip-de-wollen",
+      "source_pack": "verbwerk_everflip_de_supplement_v1",
+      "entry_kind": "vocabulary",
+      "lemma": "wollen",
+      "display_form": "wollen",
+      "part_of_speech": "verb",
+      "article": null,
+      "gender": "none",
+      "plural_forms": [],
+      "forms": [],
+      "english_terms": [
+        {
+          "term": "to want; to want to",
+          "lemma": "to want; to want to",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "to want; to want to",
+      "german_definition": "Den Wunsch oder die Absicht haben, etwas zu tun.",
+      "german_examples": [
+        {
+          "sentence": "Wir wollen am Samstag früh losfahren.",
+          "translation_language": "en",
+          "translation": "We want to set off early on Saturday."
+        }
+      ],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "source_dataset": "EverFlip Multilingual Flashcard Corpus",
+        "dataset_version": "1.0.0",
+        "source_release_commit": "0f76c389e3cbcddd61408b433ea6df8d8c9b1613",
+        "source_url": "https://everflip.app/dataset",
+        "source_license": "CC-BY-4.0",
+        "source_deck": "Verbs",
+        "source_card_front": "wollen",
+        "source_card_meaning": "to want",
+        "modifications": "Verbwerk selected this German card, edited its English gloss for a standalone learner entry, and added a German definition, original example and translation"
+      },
+      "usage_note": "Modal verb: the main verb usually stays in the infinitive at the end of the clause."
+    },
+    {
+      "id": "supplement-everflip-wutend",
+      "concept_id": "everflip-de-wutend",
+      "source_pack": "verbwerk_everflip_de_supplement_v1",
+      "entry_kind": "vocabulary",
+      "lemma": "wütend",
+      "display_form": "wütend",
+      "part_of_speech": "adj",
+      "article": null,
+      "gender": "none",
+      "plural_forms": [],
+      "forms": [],
+      "english_terms": [
+        {
+          "term": "angry",
+          "lemma": "angry",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "angry",
+      "german_definition": "Sehr ärgerlich oder zornig.",
+      "german_examples": [
+        {
+          "sentence": "Er ist wütend, weil der Bus nicht kommt.",
+          "translation_language": "en",
+          "translation": "He is angry because the bus is not coming."
+        }
+      ],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "source_dataset": "EverFlip Multilingual Flashcard Corpus",
+        "dataset_version": "1.0.0",
+        "source_release_commit": "0f76c389e3cbcddd61408b433ea6df8d8c9b1613",
+        "source_url": "https://everflip.app/dataset",
+        "source_license": "CC-BY-4.0",
+        "source_deck": "Feelings",
+        "source_card_front": "wütend",
+        "source_card_meaning": "angry",
+        "modifications": "Verbwerk selected this German card, edited its English gloss for a standalone learner entry, and added a German definition, original example and translation"
+      }
+    },
+    {
+      "id": "supplement-everflip-zehn",
+      "concept_id": "everflip-de-zehn",
+      "source_pack": "verbwerk_everflip_de_supplement_v1",
+      "entry_kind": "vocabulary",
+      "lemma": "zehn",
+      "display_form": "zehn",
+      "part_of_speech": "numeral",
+      "article": null,
+      "gender": "none",
+      "plural_forms": [],
+      "forms": [],
+      "english_terms": [
+        {
+          "term": "ten",
+          "lemma": "ten",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "ten",
+      "german_definition": "Grundzahl nach neun und vor elf.",
+      "german_examples": [
+        {
+          "sentence": "Der Unterricht beginnt um zehn Uhr.",
+          "translation_language": "en",
+          "translation": "Class starts at ten o’clock."
+        }
+      ],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "source_dataset": "EverFlip Multilingual Flashcard Corpus",
+        "dataset_version": "1.0.0",
+        "source_release_commit": "0f76c389e3cbcddd61408b433ea6df8d8c9b1613",
+        "source_url": "https://everflip.app/dataset",
+        "source_license": "CC-BY-4.0",
+        "source_deck": "Numbers 1–10",
+        "source_card_front": "zehn",
+        "source_card_meaning": "10",
+        "modifications": "Verbwerk selected this German card, edited its English gloss for a standalone learner entry, and added a German definition, original example and translation"
+      }
+    },
+    {
+      "id": "supplement-everflip-zwei",
+      "concept_id": "everflip-de-zwei",
+      "source_pack": "verbwerk_everflip_de_supplement_v1",
+      "entry_kind": "vocabulary",
+      "lemma": "zwei",
+      "display_form": "zwei",
+      "part_of_speech": "numeral",
+      "article": null,
+      "gender": "none",
+      "plural_forms": [],
+      "forms": [],
+      "english_terms": [
+        {
+          "term": "two",
+          "lemma": "two",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "two",
+      "german_definition": "Grundzahl nach eins und vor drei.",
+      "german_examples": [
+        {
+          "sentence": "Zwei Gäste warten im Flur.",
+          "translation_language": "en",
+          "translation": "Two guests are waiting in the hallway."
+        }
+      ],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "source_dataset": "EverFlip Multilingual Flashcard Corpus",
+        "dataset_version": "1.0.0",
+        "source_release_commit": "0f76c389e3cbcddd61408b433ea6df8d8c9b1613",
+        "source_url": "https://everflip.app/dataset",
+        "source_license": "CC-BY-4.0",
+        "source_deck": "Numbers 1–10",
+        "source_card_front": "zwei",
+        "source_card_meaning": "2",
+        "modifications": "Verbwerk selected this German card, edited its English gloss for a standalone learner entry, and added a German definition, original example and translation"
+      }
+    }
+  ]
+}

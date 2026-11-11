@@ -1,0 +1,86 @@
+{
+  "batch_id": "v11-vocabulary-review-61",
+  "review_date": "2026-11-11",
+  "input_database_sha256": "01a392810bd2d6f0aa608d396b29c6c09849831e3b63bd48a5dbdff2abca7fdf",
+  "accepted_examples": [
+    {
+      "entry_id": "frequency:4989",
+      "german": "Ein Astronaut kann im Weltraum schweben.",
+      "english": "An astronaut can float in space.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4993",
+      "german": "Du solltest mehr auf Details achten.",
+      "english": "You should pay more attention to details.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4995",
+      "german": "Unser Haus ist nicht isoliert.",
+      "english": "Our house isn't insulated.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4996",
+      "german": "Wie lange hast du schon diesen Ausschlag?",
+      "english": "How long have you had this rash?",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4998",
+      "german": "Hebe dir die Quittung bloß auf!",
+      "english": "Make sure you save the receipt.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:5000",
+      "german": "Tom wollte bei seinen Großeltern in Boston wohnen.",
+      "english": "Tom wanted to live in Boston with his grandparents.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    }
+  ],
+  "editorial_examples": [
+    {
+      "entry_id": "frequency:4988",
+      "german": "Der Leichnam wurde nach der Untersuchung an die Familie übergeben.",
+      "english": "The body was handed over to the family after the examination.",
+      "note": "Replaced a gratuitously graphic shooting detail with a neutral forensic sentence."
+    },
+    {
+      "entry_id": "frequency:4990",
+      "german": "Im Wald wachsen viele verschiedene Pilze.",
+      "english": "Many different mushrooms grow in the forest.",
+      "note": "Replaced a potentially unsafe identification question with a neutral example."
+    },
+    {
+      "entry_id": "frequency:4991",
+      "german": "Sein langjähriger Wunsch ging in Erfüllung.",
+      "english": "His long-held wish came true.",
+      "note": "Made the English concise and idiomatic while preserving the meaning."
+    },
+    {
+      "entry_id": "frequency:4992",
+      "german": "Die beiden Länder verbündeten sich gegen einen gemeinsamen Gegner.",
+      "english": "The two countries allied against a common enemy.",
+      "note": "Replaced a sentence about specific wartime states with a general example of the verb."
+    },
+    {
+      "entry_id": "frequency:4994",
+      "german": "Viele Menschen meiden die Innenstadt während der Bauarbeiten.",
+      "english": "Many people avoid downtown during the construction work.",
+      "note": "Replaced a personal label about an aggressive individual with a neutral everyday example."
+    }
+  ],
+  "entry_updates": [
+    {
+      "entry_id": "frequency:4998",
+      "field": "meaning",
+      "value": "receipt (proof of payment); written acknowledgment that something was received",
+      "source": "Duden; Verbwerk gloss review",
+      "url": "https://www.duden.de/rechtschreibung/Quittung",
+      "note": "Replaced an overlong legalistic gloss with a concise learner definition."
+    }
+  ],
+  "plural_reviews": []
+}

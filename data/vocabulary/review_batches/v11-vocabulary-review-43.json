@@ -1,0 +1,409 @@
+{
+  "batch_id": "v11-vocabulary-review-43",
+  "review_date": "2026-11-11",
+  "input_database_sha256": "70f25c328672e005f95c9f620deb097508ebcbb627aba9dbbb41a2f97ca73418",
+  "accepted_examples": [
+    {
+      "entry_id": "frequency:3824",
+      "german": "Er arbeitet als Wachmann bei einem Lagerhaus.",
+      "english": "He is working as a security guard at a warehouse.",
+      "note": "Reviewed German usage, intended sense, and English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3828",
+      "german": "Wir haben die Produktion um 20 % zurückgefahren.",
+      "english": "We have cut back production by 20%.",
+      "note": "Reviewed German usage, intended sense, and English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3829",
+      "german": "Tom und Maria hatten starke Gefühle füreinander.",
+      "english": "Tom and Mary had strong feelings for each other.",
+      "note": "Reviewed German usage, intended sense, and English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3832",
+      "german": "Ich habe etwas mit dir zu bereden.",
+      "english": "I have something to talk to you about.",
+      "note": "Reviewed German usage, intended sense, and English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3833",
+      "german": "Ich wollte mich nicht einmischen.",
+      "english": "I didn't want to interfere.",
+      "note": "Reviewed German usage, intended sense, and English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3834",
+      "german": "Tom tat Futter in den Napf seiner Katze.",
+      "english": "Tom put food in his cat's bowl.",
+      "note": "Reviewed German usage, intended sense, and English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3835",
+      "german": "Tom stritt ab, in Maria verknallt zu sein.",
+      "english": "Tom denied he had a crush on Mary.",
+      "note": "Reviewed German usage, intended sense, and English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3838",
+      "german": "Er hat sein Geld in Aktien investiert.",
+      "english": "He invested his money in stocks.",
+      "note": "Reviewed German usage, intended sense, and English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3840",
+      "german": "Das war nicht gerade ein Kinderspiel.",
+      "english": "It wasn't exactly a piece of cake.",
+      "note": "Reviewed German usage, intended sense, and English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3841",
+      "german": "Und der magische Kobold gab der Prinzessin ein magisches Amulett.",
+      "english": "And the magic goblin gave the princess a magical amulet.",
+      "note": "Reviewed German usage, intended sense, and English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "curated:lex-de-bedarf",
+      "german": "Es besteht dringender Bedarf an einem neuen System.",
+      "english": "There is an urgent need for a new system.",
+      "note": "Reviewed German usage, intended sense, and English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3847",
+      "german": "Er schenkte mir diese Puppe als Zeichen seiner Dankbarkeit.",
+      "english": "He gave me this doll in token of his gratitude.",
+      "note": "Reviewed German usage, intended sense, and English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3849",
+      "german": "Ich finde, dass Mary ohne Make-up besser aussieht.",
+      "english": "I think Mary looks better without makeup.",
+      "note": "Reviewed German usage, intended sense, and English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3850",
+      "german": "Er weiß, wie man Leute verhört.",
+      "english": "He knows how to interrogate people.",
+      "note": "Reviewed German usage, intended sense, and English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3851",
+      "german": "Auf der Messe gab es eine Reihe von etwa 20 Ständen.",
+      "english": "There was a row of about 20 stalls at the fair.",
+      "note": "Reviewed German usage, intended sense, and English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3852",
+      "german": "Er hat ein Anwesen auf dem Land.",
+      "english": "He has an estate in the country.",
+      "note": "Reviewed German usage, intended sense, and English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3854",
+      "german": "Tom hat Anerkennung verdient.",
+      "english": "Tom deserves recognition.",
+      "note": "Reviewed German usage, intended sense, and English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3855",
+      "german": "Unsere Galaxie wird Milchstraße genannt.",
+      "english": "Our galaxy is called the Milky Way.",
+      "note": "Reviewed German usage, intended sense, and English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3856",
+      "german": "Deine Vermutung ist so gut wie meine.",
+      "english": "Your guess is as good as mine.",
+      "note": "Reviewed German usage, intended sense, and English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3858",
+      "german": "Die Überwachung des Geländes erfordert viel Personal.",
+      "english": "Monitoring the terrain requires a lot of personnel.",
+      "note": "Reviewed German usage, intended sense, and English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3861",
+      "german": "Wir müssen diese Statue sehr vorsichtig bewegen.",
+      "english": "We must move this statue very carefully.",
+      "note": "Reviewed German usage, intended sense, and English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3862",
+      "german": "Bitte stornieren Sie meine Bestellung und schicken Sie mir darüber eine Bestätigung.",
+      "english": "Please cancel my order and send confirmation that this has been done.",
+      "note": "Reviewed German usage, intended sense, and English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3864",
+      "german": "Man konnte die Verzweiflung in Marias Stimme hören.",
+      "english": "You could hear the desperation in Mary's voice.",
+      "note": "Reviewed German usage, intended sense, and English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3865",
+      "german": "Ich dachte, unsere Liebe würde ewig währen.",
+      "english": "I thought our love would last forever.",
+      "note": "Reviewed German usage, intended sense, and English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3866",
+      "german": "Wie kommt es denn, dass Tom so deprimiert aussieht?",
+      "english": "I wonder why Tom looks so depressed.",
+      "note": "Reviewed German usage, intended sense, and English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3867",
+      "german": "Ich werde Tom einmal einen Rat erteilen.",
+      "english": "I'll give Tom a piece of advice.",
+      "note": "Reviewed German usage, intended sense, and English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3868",
+      "german": "Der Rahmen muss abgeschmirgelt und lackiert werden.",
+      "english": "The frame has to be sanded and varnished.",
+      "note": "Reviewed German usage, intended sense, and English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3871",
+      "german": "Der Klub wählte eine Reihe neuer Funktionäre.",
+      "english": "The club elected a new group of officers.",
+      "note": "Reviewed German usage, intended sense, and English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3872",
+      "german": "Nigeria war früher mal eine britische Kolonie.",
+      "english": "At one time Nigeria was a British colony.",
+      "note": "Reviewed German usage, intended sense, and English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3874",
+      "german": "Viele Populärwissenschaftler prognostizieren eine weltweite Klimakatastrophe.",
+      "english": "Many popular scientists predict a global climate catastrophe.",
+      "note": "Reviewed German usage, intended sense, and English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3875",
+      "german": "Meine Mission ist es, die Dokumente zu fotografieren.",
+      "english": "My mission is to photograph the documents.",
+      "note": "Reviewed German usage, intended sense, and English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3876",
+      "german": "Toms Mannschaft musste eine vernichtende Niederlage einstecken.",
+      "english": "Tom's team suffered a crushing defeat.",
+      "note": "Reviewed German usage, intended sense, and English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3877",
+      "german": "Ich habe Schmerzen in meinem kleinen Zeh.",
+      "english": "I have a pain in my little toe.",
+      "note": "Reviewed German usage, intended sense, and English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3880",
+      "german": "Wir waren nicht imstande, seiner Logik zu folgen.",
+      "english": "We were unable to follow his logic.",
+      "note": "Reviewed German usage, intended sense, and English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3883",
+      "german": "Tom ist ein klassisch ausgebildeter Musiker.",
+      "english": "Tom is a classically trained musician.",
+      "note": "Reviewed German usage, intended sense, and English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3884",
+      "german": "Heute Abend ist der Mond außergewöhnlich schön.",
+      "english": "The moon is exceptionally pretty tonight.",
+      "note": "Reviewed German usage, intended sense, and English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3888",
+      "german": "Wenn Maria das herausfindet, wird sie einen Anfall bekommen.",
+      "english": "When Mary finds out about it she'll throw a fit.",
+      "note": "Reviewed German usage, intended sense, and English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3889",
+      "german": "Tom und Maria waren wütend aufeinander.",
+      "english": "Tom and Mary were angry at each other.",
+      "note": "Reviewed German usage, intended sense, and English translation; accepted as suitable."
+    }
+  ],
+  "editorial_examples": [
+    {
+      "entry_id": "frequency:3825",
+      "german": "Die Polizei untersucht den Raub.",
+      "english": "The police are investigating the robbery.",
+      "note": "Replaced a crime catalogue sentence with a concise news-style example.",
+      "evidence_url": "https://www.duden.de/rechtschreibung/Raub"
+    },
+    {
+      "entry_id": "frequency:3826",
+      "german": "Der Bischof firmte 20 Jugendliche in der Pfarrkirche.",
+      "english": "The bishop confirmed twenty young people in the parish church.",
+      "note": "Corrected the machine translation; firmen here means administering the Catholic sacrament of Confirmation.",
+      "evidence_url": "https://de.wiktionary.org/wiki/firmen"
+    },
+    {
+      "entry_id": "frequency:3827",
+      "german": "Das Fleisch ist verdorben und darf nicht mehr gegessen werden.",
+      "english": "The meat has spoiled and must not be eaten.",
+      "note": "The source uses verdorben as a finite verb; this adjective entry now shows the food-adjective sense.",
+      "evidence_url": "https://www.duden.de/rechtschreibung/verdorben"
+    },
+    {
+      "entry_id": "frequency:3836",
+      "german": "„Muschi“ ist ein umgangssprachlicher, oft vulgärer Ausdruck für die Vulva.",
+      "english": "“Muschi” is a colloquial, often vulgar term for the vulva.",
+      "note": "Replaced a personal and intimate example with a neutral register note; explicitly marks the word as vulgar slang.",
+      "evidence_url": "https://de.wiktionary.org/wiki/Muschi"
+    },
+    {
+      "entry_id": "frequency:3843",
+      "german": "Die Karre steht im Schuppen.",
+      "english": "The cart is in the shed.",
+      "note": "The source uses the related masculine word Karren, not the entry lemma Karre; replaced it with the correct lemma form.",
+      "evidence_url": "https://www.duden.de/rechtschreibung/Karre"
+    },
+    {
+      "entry_id": "frequency:3846",
+      "german": "Der Inhalt des Briefes überraschte mich.",
+      "english": "The contents of the letter surprised me.",
+      "note": "Replaced an awkward example about a letter affecting a marriage with a simple everyday sentence.",
+      "evidence_url": "https://www.duden.de/rechtschreibung/Inhalt"
+    },
+    {
+      "entry_id": "frequency:3848",
+      "german": "Es machte „peng“, und das Seil riss.",
+      "english": "There was a bang, and the rope snapped.",
+      "note": "Corrected the machine translation pen to bang and simplified the source sentence.",
+      "evidence_url": "https://de.wiktionary.org/wiki/peng"
+    },
+    {
+      "entry_id": "frequency:3863",
+      "german": "Nichts ist bedauerlicher, als im Finale zu verlieren.",
+      "english": "Nothing is more disappointing than losing in the final.",
+      "note": "Corrected the number in English; the sentence refers to one final match.",
+      "evidence_url": "https://www.duden.de/rechtschreibung/Finale"
+    },
+    {
+      "entry_id": "frequency:3869",
+      "german": "Tom ist durchgedreht, als er die Nachricht hörte.",
+      "english": "Tom lost it when he heard the news.",
+      "note": "Corrected the unnatural present-tense translation and gave the idiomatic meaning of durchdrehen.",
+      "evidence_url": "https://www.duden.de/rechtschreibung/durchdrehen"
+    },
+    {
+      "entry_id": "frequency:3881",
+      "german": "Die genaue Todesursache ist noch unklar.",
+      "english": "The exact cause of death is still unclear.",
+      "note": "Replaced a graphic cause-of-death detail with a neutral context for this technical noun.",
+      "evidence_url": "https://www.duden.de/rechtschreibung/Todesursache"
+    },
+    {
+      "entry_id": "frequency:3887",
+      "german": "Ich möchte diese Forderung nicht ablehnen.",
+      "english": "I do not want to turn down this demand.",
+      "note": "Used the everyday sense demand rather than the narrower financial/legal sense claim.",
+      "evidence_url": "https://www.duden.de/rechtschreibung/Forderung"
+    },
+    {
+      "entry_id": "frequency:3890",
+      "german": "Ich habe Ihren Namen nicht mitbekommen.",
+      "english": "I didn’t catch your name.",
+      "note": "Corrected the gloss mismatch: mitbekommen here means hear or catch information, not receive something when leaving.",
+      "evidence_url": "https://www.duden.de/rechtschreibung/mitbekommen"
+    }
+  ],
+  "held_examples": [
+    {
+      "entry_id": "frequency:3825",
+      "german": "Mord und Raub sind Verbrechen.",
+      "reason": "Replaced a crime catalogue sentence with a concise news-style example."
+    },
+    {
+      "entry_id": "frequency:3827",
+      "german": "Der Regen und der Wind haben uns den Spaziergang verdorben.",
+      "reason": "The source uses verdorben as a finite verb; this adjective entry now shows the food-adjective sense."
+    },
+    {
+      "entry_id": "frequency:3836",
+      "german": "Ich habe mir meine Muschi frisch rasiert.",
+      "reason": "Replaced a personal and intimate example with a neutral register note; explicitly marks the word as vulgar slang."
+    },
+    {
+      "entry_id": "frequency:3843",
+      "german": "Der Karren stand im Schuppen.",
+      "reason": "The source uses the related masculine word Karren, not the entry lemma Karre; replaced it with the correct lemma form."
+    },
+    {
+      "entry_id": "frequency:3846",
+      "german": "Der Inhalt des Briefes hatte einen interessanten Einfluss auf meine Ehe.",
+      "reason": "Replaced an awkward example about a letter affecting a marriage with a simple everyday sentence."
+    },
+    {
+      "entry_id": "frequency:3848",
+      "german": "Es machte peng und das dicke Seil der Brücke war gerissen.",
+      "reason": "Corrected the machine translation pen to bang and simplified the source sentence."
+    },
+    {
+      "entry_id": "frequency:3869",
+      "german": "Tom ist durchgedreht.",
+      "reason": "Corrected the unnatural present-tense translation and gave the idiomatic meaning of durchdrehen."
+    },
+    {
+      "entry_id": "frequency:3881",
+      "german": "Die Todesursache scheint eine Schussverletzung zu sein.",
+      "reason": "Replaced a graphic cause-of-death detail with a neutral context for this technical noun."
+    }
+  ],
+  "entry_updates": [
+    {
+      "entry_id": "frequency:3826",
+      "field": "meaning",
+      "value": "to administer the sacrament of Confirmation (Christian religion)",
+      "note": "Narrowed the misleading generic gloss to the sacramental meaning shown in the example.",
+      "url": "https://de.wiktionary.org/wiki/firmen"
+    },
+    {
+      "entry_id": "frequency:3836",
+      "field": "meaning",
+      "value": "vulgar slang: pussy (vulva; sometimes vagina); also a familiar term for a cat",
+      "note": "Added the strong informal/vulgar register label to avoid presenting this as neutral vocabulary.",
+      "url": "https://de.wiktionary.org/wiki/Muschi"
+    },
+    {
+      "entry_id": "frequency:3840",
+      "field": "meaning",
+      "value": "children’s game; (in the expression ein Kinderspiel sein) a very easy task",
+      "note": "Added the figurative idiom sense used in the example; Duden defines the expression as something very easy.",
+      "url": "https://www.duden.de/rechtschreibung/Kinderspiel"
+    },
+    {
+      "entry_id": "frequency:3863",
+      "field": "meaning",
+      "value": "final match or round; final movement of a musical work; concluding highlight",
+      "note": "Replaced the vague gloss final with the noun senses used in sport and general contexts.",
+      "url": "https://www.duden.de/rechtschreibung/Finale"
+    },
+    {
+      "entry_id": "frequency:3871",
+      "field": "meaning",
+      "value": "club or association; (Austrian politics) parliamentary party group; nightclub",
+      "note": "Expanded an overly narrow Austrian parliamentary gloss to include the common club sense while retaining the regional political sense.",
+      "url": "https://www.duden.de/rechtschreibung/Klub"
+    },
+    {
+      "entry_id": "frequency:3890",
+      "field": "meaning",
+      "value": "to catch or hear information; to notice or learn something; to receive something as an extra",
+      "note": "Corrected the narrow gloss to match the example and Duden’s listening/perception senses.",
+      "url": "https://www.duden.de/rechtschreibung/mitbekommen"
+    }
+  ],
+  "plural_reviews": [],
+  "inflected_links": []
+}

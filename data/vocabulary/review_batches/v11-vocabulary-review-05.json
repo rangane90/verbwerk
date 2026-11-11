@@ -1,0 +1,57 @@
+{
+  "batch_id": "v11-vocabulary-review-05",
+  "review_date": "2026-11-11",
+  "input_database_sha256": "f5f315ed19d36bd69088aa4454a615acfc03f10e80535c169f56a61fafd746a7",
+  "accepted_examples": [
+    {"entry_id":"frequency:383","german":"Du bist bloß drei Jahre älter als ich.","english":"You're only three years older than me.","note":"bloß means only/merely here."},
+    {"entry_id":"frequency:385","german":"In dem Teil der Stadt gefällt’s mir nicht.","english":"I don't like that part of town.","note":"Teil means a part or section of the city here."},
+    {"entry_id":"curated:lex-de-oft","german":"Wie oft geht die Vier in die Zwölf?","english":"How many times does four go into twelve?","note":"oft occurs in the question word combination wie oft."},
+    {"entry_id":"frequency:390","german":"Ich kann Tom nicht an den Hörer kriegen.","english":"I can't get Tom on the phone.","note":"kriegen means get/reach someone in this colloquial construction."},
+    {"entry_id":"frequency:391","german":"Es ist immer noch Blut an der Wand.","english":"There's still blood on the wall.","note":"Blut means blood."},
+    {"entry_id":"frequency:393","german":"Du musst es deinen Eltern ja nicht sagen.","english":"You don't have to tell that to your parents.","note":"Eltern means parents and takes the plural form deinen here."},
+    {"entry_id":"frequency:394","german":"Die Sonne scheint nicht immer.","english":"The sun doesn't always shine.","note":"scheinen means shine in this sentence."},
+    {"entry_id":"frequency:395","german":"Da wo mein Herz ist, bin ich zuhause.","english":"Home is where the heart is.","note":"Herz means heart in this idiom."},
+    {"entry_id":"curated:lex-de-alt","german":"Damals bin ich erst dreizehn Jahre alt gewesen.","english":"I was only thirteen years old at the time.","note":"alt means old in the age expression Jahre alt."},
+    {"entry_id":"frequency:398","german":"Tom fragte mich, ob er mich wiedersehen dürfe.","english":"Tom asked me if he could see me again.","note":"wiedersehen means see again."},
+    {"entry_id":"frequency:399","german":"Wir sind nicht so frei, wie wir denken.","english":"We're not as free as we think.","note":"The example expresses being free/unrestrained, matching the target gloss."},
+    {"entry_id":"curated:lex-de-moglich","german":"An einem Ort wie diesem ist alles möglich.","english":"Anything could happen in a place like this.","note":"möglich expresses that something can happen/be possible."},
+    {"entry_id":"frequency:404","german":"Ich wollte Tom nicht so fest schlagen.","english":"I didn't mean to hit Tom so hard.","note":"fest means hard/forcefully in this context."},
+    {"entry_id":"frequency:405","german":"Ich sehe mich gerade nach einer Waffe um.","english":"I'm looking for a weapon.","note":"Waffe means weapon; the English is a concise rendering of the German search construction."},
+    {"entry_id":"curated:lex-de-kaum","german":"Wir haben kaum noch Geld.","english":"We barely have any money left.","note":"Kaikki/Wiktionary provides this aligned example for kaum meaning barely/almost no."},
+    {"entry_id":"frequency:411","german":"Was er sagte, stellte sich als falsch heraus.","english":"What he said turned out to be false.","note":"falsch means false/untrue in this context."},
+    {"entry_id":"frequency:413","german":"Erinnerst du dich an die Nummer deines Passes?","english":"Do you remember your passport number?","note":"Nummer means a numeric identifier here."},
+    {"entry_id":"curated:lex-de-sitzen","german":"Sie sitzen auf meinem Stuhl.","english":"You're sitting in my chair.","note":"sitzen means sit; the English subject can be singular formal or plural Sie."},
+    {"entry_id":"curated:lex-de-wahrscheinlich","german":"Es ist recht wahrscheinlich, dass das, was Tom dir gesagt hat, gar nicht stimmt.","english":"There's a good chance that what Tom told you isn't true.","note":"wahrscheinlich means likely/probable; the translation preserves the likelihood claim."}
+  ],
+  "held_examples": [
+    {"entry_id":"curated:lex-de-papa","german":"Papa sein ist schwerer, als ich dachte.","reason":"The English translation says parent generically and omits the male/father meaning of Papa; replaced with a gender-specific example."},
+    {"entry_id":"frequency:399","german":"Nur neben Tom war noch ein Platz frei.","reason":"frei means unoccupied/available in this sentence, while this entry's approved gloss is freedom from being enslaved or imprisoned."},
+    {"entry_id":"frequency:413","german":"Wie bist du denn auf diese Nummer gekommen?","reason":"Nummer is idiomatic here (an idea/ploy), not the numeric identifier sense in this entry."}
+  ],
+  "editorial_examples": [
+    {"entry_id":"curated:lex-de-papa","german":"Mein Papa holt mich heute von der Schule ab.","english":"My dad is picking me up from school today.","note":"The translation keeps the specific male-parent meaning of Papa.","evidence_url":"https://www.duden.de/rechtschreibung/Papa_Vater"}
+  ],
+  "plural_reviews": [
+    {"entry_id":"frequency:429","value":["Dollars"],"source":"Duden Online","url":"https://www.duden.de/deklination/substantive/Dollar","note":"Dollars is the plural; after a numeral, currency amounts commonly use invariant Dollar.","usage_note":"The noun plural is Dollars. In prices or amounts after a number, German often uses the unchanged form Dollar (for example, dreißig Dollar)."},
+    {"entry_id":"frequency:470","value":["Kumpel"],"source":"Duden Online","url":"https://www.duden.de/rechtschreibung/Kumpel","note":"For the miner sense, the standard plural is Kumpel. Duden also records regional or colloquial alternatives in other uses.","usage_note":"For a miner, use Kumpel as the plural. Kumpels is colloquial mainly for the companion/friend sense; Kumpeln is an Austrian alternative."},
+    {"entry_id":"frequency:473","value":"No regular plural in the everyday air/atmosphere sense","source":"Duden Online","url":"https://www.duden.de/rechtschreibung/Luft","note":"Duden marks the ordinary air and atmosphere senses as without a plural; Lüfte belongs to poetic wind/air-current senses.","usage_note":"Luft meaning the air or atmosphere is normally uncountable. Lüfte is poetic or literary for breezes/air currents, not the everyday plural."},
+    {"entry_id":"frequency:489","value":["Onkel","Onkels"],"source":"Duden Online","url":"https://www.duden.de/rechtschreibung/Onkel_Verwandter","note":"Onkel is standard; Onkels is colloquial.","usage_note":"The standard plural is Onkel. Onkels is a colloquial alternative."},
+    {"entry_id":"frequency:492","value":["Partys"],"source":"Duden Online","url":"https://www.duden.de/rechtschreibung/Party","note":"Duden gives Partys as the plural."},
+    {"entry_id":"frequency:503","value":["Typen"],"source":"Duden Online","url":"https://www.duden.de/rechtschreibung/Type","note":"The feminine typesetting noun Type has plural Typen."},
+    {"entry_id":"frequency:506","value":["Stücke"],"source":"Duden Online","url":"https://www.duden.de/rechtschreibung/Stueck","note":"Stücke is the plural for countable pieces/items; Stück also appears unchanged as a measure word.","usage_note":"Use Stücke for several pieces or items. In measure expressions, the singular form Stück can remain unchanged (for example, fünf Stück)."},
+    {"entry_id":"frequency:511","value":"No plural in the intended light-as-radiation sense","source":"Duden Online","url":"https://www.duden.de/rechtschreibung/Licht","note":"The visible-light/radiation senses are marked without plural; Lichter refers to separate light sources, and Lichte is a special or older form.","usage_note":"Licht as visible radiation or general illumination is normally singular-only. Lichter means separate lamps/light sources; Lichte is an older/poetic variant or a plural for candles."},
+    {"entry_id":"frequency:522","value":["Reste"],"source":"Duden Online","url":"https://www.duden.de/rechtschreibung/Rest","note":"Reste is the standard plural; Rester is commercial and Resten Swiss regional."},
+    {"entry_id":"frequency:543","value":["Sinne"],"source":"Duden Online","url":"https://www.duden.de/rechtschreibung/Sinn","note":"Sinne is used for perceptual faculties; meanings such as a word's sense are normally singular.","usage_note":"Use Sinne for sensory faculties (the five senses). Sinn meaning a word's meaning or purpose is usually singular."},
+    {"entry_id":"frequency:561","value":["Böden"],"source":"Duden Online","url":"https://www.duden.de/rechtschreibung/Boden","note":"Böden applies to countable grounds, floors or soil types; some abstract/material senses are singular-only.","usage_note":"Use Böden for separate floors, patches of ground or soil types. Soil/ground as a material or abstract basis is often singular."},
+    {"entry_id":"frequency:567","value":["Münder"],"source":"Duden Online","url":"https://www.duden.de/rechtschreibung/Mund_Lippen","note":"Münder is the ordinary plural; Munde and Münde are rare alternatives."},
+    {"entry_id":"frequency:576","value":["Läden"],"source":"Duden Online","url":"https://www.duden.de/rechtschreibung/Laden","note":"Läden is the usual plural for shops; Laden is less common in some senses."},
+    {"entry_id":"frequency:589","value":["Generale","Generäle"],"source":"Duden Online","url":"https://www.duden.de/rechtschreibung/General","note":"Both Generale and Generäle are accepted plurals for officers holding the rank; the rank itself is singular-only.","usage_note":"For people with the rank, both Generale and Generäle are used. The rank/title General itself is normally singular-only."},
+    {"entry_id":"frequency:650","value":["Rums","Rume"],"source":"Duden Online","url":"https://www.duden.de/rechtschreibung/Rum","note":"Rums is standard; Rume is an Austrian regional variant."},
+    {"entry_id":"frequency:662","value":["Biere"],"source":"Duden Online","url":"https://www.duden.de/rechtschreibung/Bier","note":"Biere counts varieties/sorts; servings often use invariant Bier.","usage_note":"Use Biere for different kinds or varieties of beer. A serving is often counted with unchanged Bier (for example, zwei Bier)."},
+    {"entry_id":"frequency:669","value":["Rollen"],"source":"Duden Online","url":"https://www.duden.de/rechtschreibung/Rolle","note":"Rollen is the plural for rolls/reels/spools."},
+    {"entry_id":"frequency:670","value":["Hochzeiten"],"source":"Duden Online","url":"https://www.duden.de/rechtschreibung/Hochzeit_Fest","note":"Hochzeiten is the plural for weddings."},
+    {"entry_id":"frequency:692","value":["Fotos"],"source":"Duden Online","url":"https://www.duden.de/rechtschreibung/Foto_Fotografie","note":"Fotos is the standard plural."},
+    {"entry_id":"frequency:695","value":"No plural","source":"German Wiktionary","url":"https://de.wiktionary.org/wiki/Weile","note":"The dictionary's declension table marks Weile as having no plural. The form Weilen in zuweilen is a frozen dative plural, not the ordinary noun plural."}
+  ]
+}
+

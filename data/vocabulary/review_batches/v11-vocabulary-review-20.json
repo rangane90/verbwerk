@@ -1,0 +1,942 @@
+{
+  "batch_id": "v11-vocabulary-review-20",
+  "review_date": "2026-11-11",
+  "input_database_sha256": "b1cee1134062f09afe763fd72efbc08fd029a38939f04ed3e60205f39b075b26",
+  "accepted_examples": [
+    {
+      "entry_id": "frequency:1009",
+      "german": "Der Feind warf Bomben über der Fabrik ab.",
+      "english": "The enemy dropped bombs on the factory.",
+      "note": "The German example uses Feind in the listed sense, and the English pair matches in context."
+    },
+    {
+      "entry_id": "frequency:1010",
+      "german": "Es freut mich, dass du einverstanden bist.",
+      "english": "I'm glad you agree.",
+      "note": "The German example uses einverstanden in the listed sense, and the English pair matches in context."
+    },
+    {
+      "entry_id": "curated:lex-de-bauen",
+      "german": "Das Haus wurde aus wiederverwendeten Materialien gebaut.",
+      "english": "The house was built from recycled materials.",
+      "note": "The German example uses bauen in the listed sense, and the English pair matches in context."
+    },
+    {
+      "entry_id": "frequency:1013",
+      "german": "Beeilen Sie sich, oder Sie verpassen den Zug.",
+      "english": "Be quick, or you will miss the train.",
+      "note": "The German example uses verpassen in the listed sense, and the English pair matches in context."
+    },
+    {
+      "entry_id": "frequency:1014",
+      "german": "Tom öffnete die Tür so leise wie möglich.",
+      "english": "Tom opened the door as quietly as he could.",
+      "note": "The German example uses leise in the listed sense, and the English pair matches in context."
+    },
+    {
+      "entry_id": "frequency:1017",
+      "german": "Ich habe kein Geld, aber ich habe Träume.",
+      "english": "I have no money, but I have dreams.",
+      "note": "The German example uses Träume in the listed sense, and the English pair matches in context."
+    },
+    {
+      "entry_id": "frequency:1020",
+      "german": "Der Mensch ist das einzige Tier, das lacht.",
+      "english": "Man is the only animal that laughs.",
+      "note": "The German example uses Tier in the listed sense, and the English pair matches in context."
+    },
+    {
+      "entry_id": "frequency:1021",
+      "german": "Das einzige, was ich will, ist meine Freiheit.",
+      "english": "All I want is my freedom.",
+      "note": "The German example uses Freiheit in the listed sense, and the English pair matches in context."
+    },
+    {
+      "entry_id": "curated:lex-de-verdienen",
+      "german": "Wir arbeiten, um Geld zu verdienen.",
+      "english": "We work to earn money.",
+      "note": "The German example uses verdienen in the listed sense, and the English pair matches in context."
+    },
+    {
+      "entry_id": "frequency:1024",
+      "german": "Japan unterhält freundschaftliche Beziehungen mit den Vereinigten Staaten.",
+      "english": "Japan maintains friendly relations with the United States.",
+      "note": "The German example uses unterhalten in the listed sense, and the English pair matches in context."
+    },
+    {
+      "entry_id": "frequency:1027",
+      "german": "Die Rose wird die Königin der Blumen genannt.",
+      "english": "The rose is called the queen of flowers.",
+      "note": "The German example uses genannt in the listed sense, and the English pair matches in context."
+    },
+    {
+      "entry_id": "curated:lex-de-beenden",
+      "german": "Die Ankündigung beendete die Spekulationen über die Zukunft des Unternehmens.",
+      "english": "The announcement put an end to speculation about the company's future.",
+      "note": "The German example uses beenden in the listed sense, and the English pair matches in context."
+    },
+    {
+      "entry_id": "frequency:1029",
+      "german": "Stimmt es, dass Tom seinen Namen geändert hat?",
+      "english": "Is it true that Tom changed his name?",
+      "note": "The German example uses geändert in the listed sense, and the English pair matches in context."
+    },
+    {
+      "entry_id": "frequency:1030",
+      "german": "Ich komme mir in diesem Kleid lächerlich vor.",
+      "english": "I feel ridiculous in this dress.",
+      "note": "The German example uses lächerlich in the listed sense, and the English pair matches in context."
+    },
+    {
+      "entry_id": "frequency:1031",
+      "german": "Gibt es hier in der Nähe einen Park?",
+      "english": "Is there a park near here?",
+      "note": "The German example uses Park in the listed sense, and the English pair matches in context."
+    },
+    {
+      "entry_id": "frequency:1032",
+      "german": "Ich bin geehrt, hier zu sein.",
+      "english": "I'm honored to be here.",
+      "note": "The German example uses ehren in the listed sense, and the English pair matches in context."
+    },
+    {
+      "entry_id": "frequency:1033",
+      "german": "Ich fühle mich jung und voller Energie.",
+      "english": "I feel young and full of energy.",
+      "note": "The German example uses Energie in the listed sense, and the English pair matches in context."
+    },
+    {
+      "entry_id": "frequency:1034",
+      "german": "Tom ist mein Fleisch und Blut.",
+      "english": "Tom is my flesh and blood.",
+      "note": "The German example uses Fleisch in the listed sense, and the English pair matches in context."
+    },
+    {
+      "entry_id": "frequency:1037",
+      "german": "Ich habe in der Zeitung über ihn gelesen.",
+      "english": "I read about him in the newspaper.",
+      "note": "The German example uses Zeitung in the listed sense, and the English pair matches in context."
+    },
+    {
+      "entry_id": "frequency:1040",
+      "german": "Er hat es getan, als er betrunken war.",
+      "english": "He did it while he was drunk.",
+      "note": "The German example uses betrunken in the listed sense, and the English pair matches in context."
+    },
+    {
+      "entry_id": "frequency:1042",
+      "german": "Beim Anblick von Blut wurde der Patient ohnmächtig.",
+      "english": "The patient fainted at the sight of blood.",
+      "note": "The German example uses Patient in the listed sense, and the English pair matches in context."
+    },
+    {
+      "entry_id": "curated:lex-de-gesprach",
+      "german": "Erinnerst du dich noch an unser erstes Gespräch?",
+      "english": "Do you remember the first time we spoke to each other?",
+      "note": "The German example uses Gespräch in the listed sense, and the English pair matches in context."
+    },
+    {
+      "entry_id": "curated:lex-de-unterschied",
+      "german": "Es besteht kein großer Unterschied zwischen den beiden.",
+      "english": "There isn't much difference between the two.",
+      "note": "The German example uses Unterschied in the listed sense, and the English pair matches in context."
+    },
+    {
+      "entry_id": "frequency:1048",
+      "german": "Ich kann den Wind in den Bäumen hören.",
+      "english": "I can hear the wind in the trees.",
+      "note": "The German example uses Wind in the listed sense, and the English pair matches in context."
+    },
+    {
+      "entry_id": "frequency:1050",
+      "german": "Tom fährt mit dem Bus in die Stadt.",
+      "english": "Tom takes the bus to the city.",
+      "note": "The German example uses Bus in the listed sense, and the English pair matches in context."
+    },
+    {
+      "entry_id": "frequency:1052",
+      "german": "Ich bin nicht stolz auf mein Verhalten.",
+      "english": "I'm not proud of my behavior.",
+      "note": "The German example uses Verhalten in the listed sense, and the English pair matches in context."
+    },
+    {
+      "entry_id": "frequency:1053",
+      "german": "Pass auf! Da ist ein Loch im Boden!",
+      "english": "Be careful. There's a hole in the floor.",
+      "note": "The German example uses Loch in the listed sense, and the English pair matches in context."
+    },
+    {
+      "entry_id": "frequency:1054",
+      "german": "Tom hatte ein großes Interesse an der Malerei.",
+      "english": "Tom had a great interest in painting.",
+      "note": "The German example uses Interesse in the listed sense, and the English pair matches in context."
+    },
+    {
+      "entry_id": "frequency:1057",
+      "german": "Der Polizist fragte mich, wie ich heiße.",
+      "english": "The police officer asked me what my name was.",
+      "note": "The German example uses Polizist in the listed sense, and the English pair matches in context."
+    },
+    {
+      "entry_id": "frequency:1059",
+      "german": "Als er die Neuigkeit hörte, wurde er blass.",
+      "english": "When he heard the news, he turned pale.",
+      "note": "The German example uses Neuigkeit in the listed sense, and the English pair matches in context."
+    },
+    {
+      "entry_id": "frequency:1061",
+      "german": "Kunihiko traf das Ziel mit seinem ersten Schuss.",
+      "english": "Kunihiko hit the target with his first shot.",
+      "note": "The German example uses Schuss in the listed sense, and the English pair matches in context."
+    },
+    {
+      "entry_id": "frequency:1062",
+      "german": "Es war etwas, was sie nicht in Worte fassen wollte.",
+      "english": "It was something she did not want to put into words.",
+      "note": "The German example uses fassen in the listed sense, and the English pair matches in context."
+    },
+    {
+      "entry_id": "frequency:1063",
+      "german": "Manche Fische leben im Fluss, andere im Meer.",
+      "english": "Some fish live in rivers, others in the sea.",
+      "note": "The German example uses Meer in the listed sense, and the English pair matches in context."
+    },
+    {
+      "entry_id": "frequency:1064",
+      "german": "Ich weiß nicht, wie man diese Maschine bedient.",
+      "english": "I don't know how to operate this machine.",
+      "note": "The German example uses Maschine in the listed sense, and the English pair matches in context."
+    },
+    {
+      "entry_id": "frequency:1066",
+      "german": "Für wie blöd haltet ihr Tom und mich?",
+      "english": "How stupid do you think Tom and I are?",
+      "note": "The German example uses blöd in the listed sense, and the English pair matches in context."
+    },
+    {
+      "entry_id": "curated:lex-de-fruhstuck",
+      "german": "Das Frühstück ist die wichtigste Mahlzeit am Tage.",
+      "english": "Breakfast is the most important meal of the day.",
+      "note": "The German example uses Frühstück in the listed sense, and the English pair matches in context."
+    },
+    {
+      "entry_id": "frequency:1070",
+      "german": "Das ist das Mädchen, dessen Vater Arzt ist.",
+      "english": "That's the girl whose father is a doctor.",
+      "note": "The German example uses dessen in the listed sense, and the English pair matches in context."
+    },
+    {
+      "entry_id": "frequency:1072",
+      "german": "Du weißt offenbar nicht viel über dieses Thema.",
+      "english": "You obviously don't know much about this subject.",
+      "note": "The German example uses offenbar in the listed sense, and the English pair matches in context."
+    },
+    {
+      "entry_id": "curated:lex-de-gelegenheit",
+      "german": "Bei geeigneter Gelegenheit werde ich dich Tom vorstellen.",
+      "english": "If there is a suitable occasion, I'll introduce you to Tom.",
+      "note": "The German example uses Gelegenheit in the listed sense, and the English pair matches in context."
+    },
+    {
+      "entry_id": "frequency:1075",
+      "german": "Au! Eine Biene hat mich gestochen!",
+      "english": "Ouch!! I've been stung by a bee!!",
+      "note": "The German example uses au in the listed sense, and the English pair matches in context."
+    },
+    {
+      "entry_id": "frequency:1078",
+      "german": "Nur Liebe kann einem das Herz brechen.",
+      "english": "Only love can break your heart.",
+      "note": "The German example uses brechen in the listed sense, and the English pair matches in context."
+    },
+    {
+      "entry_id": "frequency:1079",
+      "german": "Tom ist einer der Brüder von Maria.",
+      "english": "Tom is one of Mary's brothers.",
+      "note": "The German example uses Brüder in the listed sense, and the English pair matches in context."
+    },
+    {
+      "entry_id": "frequency:1080",
+      "german": "Warst du zu diesem Zeitpunkt in der Schule?",
+      "english": "Were you at school at that time?",
+      "note": "The German example uses Zeitpunkt in the listed sense, and the English pair matches in context."
+    },
+    {
+      "entry_id": "frequency:1082",
+      "german": "Ich werde mit dir bis zur Brücke gehen.",
+      "english": "I'll go with you as far as the bridge.",
+      "note": "The German example uses Brücke in the listed sense, and the English pair matches in context."
+    },
+    {
+      "entry_id": "curated:lex-de-der-druck",
+      "german": "Ich möchte nicht, dass du dich unter Druck gesetzt fühlst.",
+      "english": "I don't want you to feel pressured.",
+      "note": "The German example uses Druck in the listed sense, and the English pair matches in context."
+    },
+    {
+      "entry_id": "curated:lex-de-mitbringen",
+      "german": "Soll ich dir etwas aus dem Supermarkt mitbringen?",
+      "english": "Would you like me to get you something from the supermarket?",
+      "note": "The German example uses mitbringen in the listed sense, and the English pair matches in context."
+    },
+    {
+      "entry_id": "frequency:1086",
+      "german": "Sie lud ihn zu einem Date ein.",
+      "english": "She asked him out on a date.",
+      "note": "The German example uses Date in the listed sense, and the English pair matches in context."
+    },
+    {
+      "entry_id": "frequency:1087",
+      "german": "Ich habe einen Haufen Briefe auf dem Schreibtisch liegen, die ich beantworten muss.",
+      "english": "There's a pile of letters on my desk that I have to answer.",
+      "note": "The German example uses Haufen in the listed sense, and the English pair matches in context."
+    },
+    {
+      "entry_id": "frequency:1088",
+      "german": "Wir machen uns Sorgen um Oma und Opa.",
+      "english": "We're worried about Grandma and Grandpa.",
+      "note": "The German example uses Oma in the listed sense, and the English pair matches in context."
+    },
+    {
+      "entry_id": "frequency:1089",
+      "german": "Können Sie den Auftrag in zwei Tagen abarbeiten?",
+      "english": "Can you complete the job in two days?",
+      "note": "The German example uses Auftrag in the listed sense, and the English pair matches in context."
+    },
+    {
+      "entry_id": "frequency:1090",
+      "german": "Das Haus war leer bis auf eine Katze.",
+      "english": "The house was empty except for a cat.",
+      "note": "The German example uses leer in the listed sense, and the English pair matches in context."
+    },
+    {
+      "entry_id": "curated:lex-de-losung",
+      "german": "Alkohol ist keine Lösung für ein Problem.",
+      "english": "Alcohol is not a solution to a problem.",
+      "note": "The German example uses Lösung in the listed sense, and the English pair matches in context."
+    },
+    {
+      "entry_id": "frequency:1094",
+      "german": "Er sprach 10 Minuten ohne Pause.",
+      "english": "He spoke for ten minutes without a pause.",
+      "note": "The German example uses Pause in the listed sense, and the English pair matches in context."
+    },
+    {
+      "entry_id": "frequency:1097",
+      "german": "Tom brachte unseren alten Computer in den Keller.",
+      "english": "Tom put our old computer in the cellar.",
+      "note": "The German example uses Keller in the listed sense, and the English pair matches in context."
+    },
+    {
+      "entry_id": "frequency:1098",
+      "german": "Ich glaube, ich habe mir den Arm gebrochen.",
+      "english": "I think I've broken my arm.",
+      "note": "The German example uses gebrochen in the listed sense, and the English pair matches in context."
+    },
+    {
+      "entry_id": "frequency:1099",
+      "german": "Wer hat davon einen Nutzen?",
+      "english": "Who stands to benefit?",
+      "note": "The German example uses Nutzen in the listed sense, and the English pair matches in context."
+    },
+    {
+      "entry_id": "frequency:1100",
+      "german": "Der Löwe öffnete sein riesiges Maul und brüllte.",
+      "english": "The lion opened its huge mouth and roared.",
+      "note": "The German example uses Maul in the listed sense, and the English pair matches in context."
+    },
+    {
+      "entry_id": "frequency:1102",
+      "german": "Tom hat fast jeden Tag einen Hut auf.",
+      "english": "Tom wears a hat almost every day.",
+      "note": "The German example uses Hut in the listed sense, and the English pair matches in context."
+    },
+    {
+      "entry_id": "frequency:1103",
+      "german": "Ich will Tom ein Lächeln ins Gesicht zaubern.",
+      "english": "I want to make Tom smile.",
+      "note": "The German example uses Lächeln in the listed sense, and the English pair matches in context."
+    },
+    {
+      "entry_id": "frequency:1105",
+      "german": "Sie ging hinaus, ohne ein Wort zu sagen.",
+      "english": "She went out without saying a word.",
+      "note": "The German example uses hinaus in the listed sense, and the English pair matches in context."
+    },
+    {
+      "entry_id": "frequency:1107",
+      "german": "Gerade vorhin haben Tom und ich darüber gesprochen.",
+      "english": "Tom and I were just talking about that earlier.",
+      "note": "The German example uses vorhin in the listed sense, and the English pair matches in context."
+    },
+    {
+      "entry_id": "frequency:1109",
+      "german": "War das als Scherz gemeint?",
+      "english": "Was that intended as a joke?",
+      "note": "The German example uses gemeint in the listed sense, and the English pair matches in context."
+    },
+    {
+      "entry_id": "frequency:1110",
+      "german": "Lass uns ernsthaft über deine Zukunft sprechen.",
+      "english": "Let's have a serious talk about your future.",
+      "note": "The German example uses ernsthaft in the listed sense, and the English pair matches in context."
+    },
+    {
+      "entry_id": "frequency:1111",
+      "german": "Ich habe meinem Sohn ein neues Haus gebaut.",
+      "english": "I built my son a new house.",
+      "note": "The German example uses gebaut in the listed sense, and the English pair matches in context."
+    },
+    {
+      "entry_id": "frequency:1112",
+      "german": "Bitte sage mir, dass das keine Bombe ist.",
+      "english": "Please tell me that's not a bomb.",
+      "note": "The German example uses Bombe in the listed sense, and the English pair matches in context."
+    },
+    {
+      "entry_id": "frequency:1113",
+      "german": "Er muss sich nächste Woche einer Operation unterziehen.",
+      "english": "He has to have an operation next week.",
+      "note": "The German example uses Operation in the listed sense, and the English pair matches in context."
+    },
+    {
+      "entry_id": "frequency:1114",
+      "german": "Meine Beine schmerzen immer noch.",
+      "english": "My legs still hurt.",
+      "note": "The German example uses schmerzen in the listed sense, and the English pair matches in context."
+    },
+    {
+      "entry_id": "frequency:1115",
+      "german": "Er sagte, Amerika habe 1776 seine Unabhängigkeit erklärt.",
+      "english": "He said that America declared its independence in 1776.",
+      "note": "The German example uses erklärt in the listed sense, and the English pair matches in context."
+    },
+    {
+      "entry_id": "frequency:1116",
+      "german": "Was machst du da oben auf dem Dach?",
+      "english": "What are you doing up there on the roof?",
+      "note": "The German example uses Dach in the listed sense, and the English pair matches in context."
+    },
+    {
+      "entry_id": "frequency:1117",
+      "german": "Es hat drei Tage in Folge geregnet.",
+      "english": "It rained three days on end.",
+      "note": "The German example uses Folge in the listed sense, and the English pair matches in context."
+    },
+    {
+      "entry_id": "frequency:1124",
+      "german": "Die Mehrheit der Großbanken führt dieses System ein.",
+      "english": "The majority of big banks are introducing this system.",
+      "note": "The German example uses System in the listed sense, and the English pair matches in context."
+    },
+    {
+      "entry_id": "frequency:1125",
+      "german": "Das ist doch der helle Wahnsinn.",
+      "english": "That's utter madness.",
+      "note": "The German example uses Wahnsinn in the listed sense, and the English pair matches in context."
+    },
+    {
+      "entry_id": "frequency:1126",
+      "german": "Die Rose wird die Königin der Blumen genannt.",
+      "english": "The rose is called the queen of flowers.",
+      "note": "The German example uses Rose in the listed sense, and the English pair matches in context."
+    },
+    {
+      "entry_id": "frequency:1127",
+      "german": "Der Club hat fünfzig Mitglieder.",
+      "english": "There are 50 members in the club.",
+      "note": "The German example uses Club in the listed sense, and the English pair matches in context."
+    },
+    {
+      "entry_id": "frequency:1128",
+      "german": "Die Tür war geschlossen, aber nicht abgesperrt.",
+      "english": "The door was closed, but not locked.",
+      "note": "The German example uses geschlossen in the listed sense, and the English pair matches in context."
+    },
+    {
+      "entry_id": "frequency:1132",
+      "german": "Ich möchte, dass du mit Tom dorthin gehst.",
+      "english": "I want you to go there with Tom.",
+      "note": "The German example uses dorthin in the listed sense, and the English pair matches in context."
+    },
+    {
+      "entry_id": "frequency:1133",
+      "german": "Ich bin nicht hier, um Urlaub zu machen.",
+      "english": "I'm not here for a vacation.",
+      "note": "The German example uses Urlaub in the listed sense, and the English pair matches in context."
+    },
+    {
+      "entry_id": "frequency:1134",
+      "german": "Die Gehälter fangen endlich wieder an, zu steigen.",
+      "english": "Wages are finally starting to rise again.",
+      "note": "The German example uses steigen in the listed sense, and the English pair matches in context."
+    },
+    {
+      "entry_id": "frequency:1135",
+      "german": "Sie machten einige Schritte vorwärts.",
+      "english": "They stepped a few paces forward.",
+      "note": "The German example uses vorwärts in the listed sense, and the English pair matches in context."
+    },
+    {
+      "entry_id": "curated:lex-de-uberprufen",
+      "german": "Ich bin nur gegangen, um etwas zu überprüfen.",
+      "english": "I just went to check something.",
+      "note": "The German example uses überprüfen in the listed sense, and the English pair matches in context."
+    },
+    {
+      "entry_id": "frequency:1138",
+      "german": "Tom hat es anscheinend mit den Ohren.",
+      "english": "Tom can't hear very well, apparently.",
+      "note": "The German example uses anscheinend in the listed sense, and the English pair matches in context."
+    },
+    {
+      "entry_id": "frequency:1140",
+      "german": "Das wird sich in zwei, drei Tagen bessern.",
+      "english": "It'll be better in two or three days.",
+      "note": "The German example uses bessern in the listed sense, and the English pair matches in context."
+    },
+    {
+      "entry_id": "frequency:1141",
+      "german": "Tom und Maria schwelgten den ganzen Nachmittag in Kindheitserinnerungen.",
+      "english": "Tom and Mary spent the afternoon reminiscing about their childhood.",
+      "note": "The German example uses Nachmittag in the listed sense, and the English pair matches in context."
+    },
+    {
+      "entry_id": "frequency:1142",
+      "german": "Das Risiko kann ich nicht in Kauf nehmen.",
+      "english": "I can't take that risk.",
+      "note": "The German example uses Risiko in the listed sense, and the English pair matches in context."
+    },
+    {
+      "entry_id": "frequency:1143",
+      "german": "Ich dachte, Tom wäre noch im Knast.",
+      "english": "I thought Tom was still in jail.",
+      "note": "The German example uses Knast in the listed sense, and the English pair matches in context."
+    },
+    {
+      "entry_id": "frequency:1144",
+      "german": "Das Ticket gilt eine Woche lang.",
+      "english": "The ticket is valid for a week.",
+      "note": "The German example uses gelten in the listed sense, and the English pair matches in context."
+    },
+    {
+      "entry_id": "frequency:1145",
+      "german": "Er träumte davon, ein Held zu sein.",
+      "english": "He dreamed of being a hero.",
+      "note": "The German example uses Held in the listed sense, and the English pair matches in context."
+    },
+    {
+      "entry_id": "frequency:1146",
+      "german": "Ich möchte keine große Sache daraus machen.",
+      "english": "I don't want to make a big deal out of this.",
+      "note": "The German example uses daraus in the listed sense, and the English pair matches in context."
+    },
+    {
+      "entry_id": "frequency:1148",
+      "german": "Tom kommt in der Schule prima zurecht.",
+      "english": "Tom is doing great in school.",
+      "note": "The German example uses prima in the listed sense, and the English pair matches in context."
+    }
+  ],
+  "held_examples": [
+    {
+      "entry_id": "frequency:1045",
+      "german": "Es ist nicht nötig ein Taxi zu rufen.",
+      "reason": "The German infinitive clause needs a comma after nötig in standard punctuation."
+    },
+    {
+      "entry_id": "frequency:1049",
+      "german": "Tom faßte die Wand an. Sie war naß.",
+      "reason": "The sentence uses superseded spellings faßte and naß; current standard forms are fasste and nass."
+    },
+    {
+      "entry_id": "frequency:1068",
+      "german": "Tommy konnte die letzte Frage nicht beantworten.",
+      "reason": "Tommy is a person’s name here and does not demonstrate the historical term for a British soldier."
+    },
+    {
+      "entry_id": "frequency:1069",
+      "german": "Auf die Fußgänger aufpassen!",
+      "reason": "The candidate is an infinitive fragment; a direct imperative is a clearer learner example."
+    },
+    {
+      "entry_id": "curated:lex-de-ohr",
+      "german": "Du steckst bis über beide Ohren drin!",
+      "reason": "The idiom uses Ohren figuratively and does not demonstrate the selected literal body-part meaning."
+    },
+    {
+      "entry_id": "frequency:1076",
+      "german": "Sie wissen, was sie mir angetan haben.",
+      "reason": "The example uses the different phrase jemandem etwas antun, not angetan sein von (be taken with)."
+    },
+    {
+      "entry_id": "frequency:1085",
+      "german": "Tom seufzte erleichtert auf.",
+      "reason": "erleichtert means with relief; content is not an accurate translation of that emotion."
+    },
+    {
+      "entry_id": "curated:lex-de-weiss",
+      "german": "Ich weiß, daß ihr genauso empfindet wie ich.",
+      "reason": "The sentence uses weiß as the first-person form of wissen, not the adjective meaning white; it also uses obsolete daß."
+    },
+    {
+      "entry_id": "frequency:1108",
+      "german": "Fahrt ihr je mit dem Auto zur Arbeit?",
+      "reason": "The sentence uses the verb Fahrt/Fahrt ihr as a form of fahren, not the noun Fahrt."
+    },
+    {
+      "entry_id": "frequency:1118",
+      "german": "Der Verdächtige ist ein männlicher Schwarzer.",
+      "reason": "The wording associates a racialized label with a suspect; use a neutral object/colour context."
+    },
+    {
+      "entry_id": "frequency:1129",
+      "german": "Setz dich mit dem Hintern ins Auto!",
+      "reason": "The imperative is unnecessarily rude for a learner example; use a neutral sentence with Hintern."
+    }
+  ],
+  "editorial_examples": [
+    {
+      "entry_id": "frequency:1045",
+      "german": "Es ist nicht nötig, ein Taxi zu rufen.",
+      "english": "There is no need to call a taxi.",
+      "note": "Includes the comma required before the infinitive clause."
+    },
+    {
+      "entry_id": "frequency:1049",
+      "german": "Tom fasste die Wand an. Sie war nass.",
+      "english": "Tom touched the wall. It was wet.",
+      "note": "Uses current standard spelling."
+    },
+    {
+      "entry_id": "curated:lex-de-weiss",
+      "german": "Der Schnee ist weiß.",
+      "english": "The snow is white.",
+      "note": "Direct adjective example distinct from the homographic verb weiß."
+    },
+    {
+      "entry_id": "frequency:1068",
+      "german": "Ein Tommy war früher ein britischer Soldat.",
+      "english": "A Tommy was historically a British soldier.",
+      "note": "Makes the historical sense explicit and avoids a proper-name false match."
+    },
+    {
+      "entry_id": "frequency:1069",
+      "german": "Pass auf die Fußgänger auf!",
+      "english": "Watch out for the pedestrians!",
+      "note": "Natural second-person imperative for aufpassen."
+    },
+    {
+      "entry_id": "curated:lex-de-ohr",
+      "german": "Sie flüsterte ihm etwas ins Ohr.",
+      "english": "She whispered something in his ear.",
+      "note": "Literal body-part context for Ohr."
+    },
+    {
+      "entry_id": "frequency:1076",
+      "german": "Die neuen Nachbarn waren von der Aussicht auf die Berge sehr angetan.",
+      "english": "The new neighbors were very taken with the view of the mountains.",
+      "note": "Demonstrates angetan sein von as being taken with something."
+    },
+    {
+      "entry_id": "frequency:1085",
+      "german": "Tom seufzte erleichtert, als die Prüfung vorbei war.",
+      "english": "Tom sighed with relief when the exam was over.",
+      "note": "Accurately translates erleichtert."
+    },
+    {
+      "entry_id": "frequency:1108",
+      "german": "Die Fahrt zur Arbeit dauert eine halbe Stunde.",
+      "english": "The drive to work takes half an hour.",
+      "note": "Uses Fahrt as a noun, not the verb form Fahrt ihr."
+    },
+    {
+      "entry_id": "frequency:1118",
+      "german": "Das Schwarze im Bild ist ein Schatten.",
+      "english": "The black shape in the picture is a shadow.",
+      "note": "Uses Schwarze for an object rather than labeling a person."
+    },
+    {
+      "entry_id": "frequency:1129",
+      "german": "Er landete mit dem Hintern auf dem Boden.",
+      "english": "He landed on his bottom.",
+      "note": "Neutral sentence for the body-part noun."
+    }
+  ],
+  "plural_reviews": [
+    {
+      "entry_id": "frequency:4138",
+      "value": [
+        "Prostituierte"
+      ],
+      "source": "English Wiktionary via Kaikki/Wiktextract",
+      "url": "https://en.wiktionary.org/wiki/Prostituierter#German",
+      "note": "Prostituierte is nominative plural; Prostituierten is an oblique-case form."
+    },
+    {
+      "entry_id": "frequency:4154",
+      "value": [
+        "Prügel"
+      ],
+      "source": "English Wiktionary via Kaikki/Wiktextract",
+      "url": "https://en.wiktionary.org/wiki/Pr%C3%BCgel#German",
+      "note": "Unchanged plural in the club/cudgel sense; distinguish from Prügel meaning a beating."
+    },
+    {
+      "entry_id": "frequency:4155",
+      "value": [
+        "Balkone",
+        "Balkons"
+      ],
+      "source": "English Wiktionary via Kaikki/Wiktextract",
+      "url": "https://en.wiktionary.org/wiki/Balkon#German",
+      "note": "Both plural forms are established."
+    },
+    {
+      "entry_id": "frequency:4160",
+      "value": [
+        "Shirts"
+      ],
+      "source": "English Wiktionary via Kaikki/Wiktextract",
+      "url": "https://en.wiktionary.org/wiki/Shirt#German",
+      "note": "Standard plural of Shirt."
+    },
+    {
+      "entry_id": "frequency:4182",
+      "value": [
+        "Vorsitzende"
+      ],
+      "source": "English Wiktionary via Kaikki/Wiktextract",
+      "url": "https://en.wiktionary.org/wiki/Vorsitzender#German",
+      "note": "Vorsitzende is nominative plural; Vorsitzenden is an oblique-case form."
+    },
+    {
+      "entry_id": "frequency:4194",
+      "value": "Usually singular in the education/upbringing sense",
+      "source": "English Wiktionary via Kaikki/Wiktextract",
+      "url": "https://en.wiktionary.org/wiki/Erziehung#German",
+      "note": "Erziehung is normally abstract and singular; Erziehungen is rare and refers to distinct processes.",
+      "usage_note": "Erziehung is normally abstract and singular; Erziehungen is rare and refers to distinct processes.",
+      "usage_source": "English Wiktionary via Kaikki/Wiktextract"
+    },
+    {
+      "entry_id": "frequency:4209",
+      "value": [
+        "Schwule"
+      ],
+      "source": "English Wiktionary via Kaikki/Wiktextract",
+      "url": "https://en.wiktionary.org/wiki/Schwuler#German",
+      "note": "Schwule is nominative plural; Schwulen is an oblique-case form."
+    },
+    {
+      "entry_id": "frequency:4219",
+      "value": [
+        "Abdrücke",
+        "Abdrucke"
+      ],
+      "source": "English Wiktionary via Kaikki/Wiktextract",
+      "url": "https://en.wiktionary.org/wiki/Abdruck#German",
+      "note": "Both forms are recorded; Abdrücke is the more usual general form."
+    },
+    {
+      "entry_id": "frequency:4229",
+      "value": "Usually singular in the plague sense",
+      "source": "German Wiktionary via gambolputty/german-nouns",
+      "url": "https://de.wiktionary.org/wiki/Pest",
+      "note": "Pest is normally singular for the disease; Pesten is rare and context-specific.",
+      "usage_note": "Pest is normally singular for the disease; Pesten is rare and context-specific.",
+      "usage_source": "German Wiktionary via gambolputty/german-nouns"
+    },
+    {
+      "entry_id": "frequency:4235",
+      "value": [
+        "Vaginas",
+        "Vaginen"
+      ],
+      "source": "English Wiktionary via Kaikki/Wiktextract",
+      "url": "https://en.wiktionary.org/wiki/Vagina#German",
+      "note": "Both plural forms occur."
+    },
+    {
+      "entry_id": "frequency:4236",
+      "value": [
+        "Zölle"
+      ],
+      "source": "English Wiktionary via Kaikki/Wiktextract",
+      "url": "https://en.wiktionary.org/wiki/Zoll#German",
+      "note": "Standard plural for customs duties."
+    },
+    {
+      "entry_id": "frequency:4238",
+      "value": [
+        "Wachleute",
+        "Wachmänner"
+      ],
+      "source": "English Wiktionary via Kaikki/Wiktextract",
+      "url": "https://en.wiktionary.org/wiki/Wachmann#German",
+      "note": "Both forms occur; Wachleute is the usual gender-inclusive collective form."
+    },
+    {
+      "entry_id": "frequency:4240",
+      "value": "Usually no plural in the misery sense",
+      "source": "English Wiktionary via Kaikki/Wiktextract and German Wiktionary via Kaikki/Wiktextract",
+      "url": "https://de.wiktionary.org/wiki/Jammer",
+      "note": "Jammer is an abstract singular noun here; the extracted unchanged form belongs to the unrelated device sense.",
+      "usage_note": "Jammer is an abstract singular noun here; the extracted unchanged form belongs to the unrelated device sense.",
+      "usage_source": "English Wiktionary via Kaikki/Wiktextract and German Wiktionary via Kaikki/Wiktextract"
+    },
+    {
+      "entry_id": "frequency:4243",
+      "value": [
+        "Mönche"
+      ],
+      "source": "English Wiktionary via Kaikki/Wiktextract",
+      "url": "https://en.wiktionary.org/wiki/M%C3%B6nch#German",
+      "note": "Standard plural of Mönch."
+    },
+    {
+      "entry_id": "frequency:4249",
+      "value": "Plural-only in this sense",
+      "source": "English Wiktionary via Kaikki/Wiktextract",
+      "url": "https://en.wiktionary.org/wiki/News#German",
+      "note": "News is conventionally plural-only in German; retain its fixed form."
+    },
+    {
+      "entry_id": "frequency:4279",
+      "value": [
+        "Deltas"
+      ],
+      "source": "English Wiktionary via Kaikki/Wiktextract",
+      "url": "https://en.wiktionary.org/wiki/Delta#German",
+      "note": "Deltas is the usual plural for geological landforms; omit the less common Delten variant."
+    },
+    {
+      "entry_id": "frequency:4295",
+      "value": [
+        "Philosophien"
+      ],
+      "source": "German Wiktionary via gambolputty/german-nouns",
+      "url": "https://de.wiktionary.org/wiki/Philosophie",
+      "note": "Plural for distinct philosophical systems or schools."
+    },
+    {
+      "entry_id": "frequency:4304",
+      "value": [
+        "Schals"
+      ],
+      "source": "English Wiktionary via Kaikki/Wiktextract",
+      "url": "https://en.wiktionary.org/wiki/Schal#German",
+      "note": "For the scarf sense of masculine Schal, use Schals; Schale is a different feminine noun."
+    },
+    {
+      "entry_id": "frequency:4314",
+      "value": [
+        "Tücher",
+        "Tuche"
+      ],
+      "source": "English Wiktionary via Kaikki/Wiktextract",
+      "url": "https://en.wiktionary.org/wiki/Tuch#German",
+      "note": "Both are recorded; Tücher is the usual general form for fabric pieces."
+    },
+    {
+      "entry_id": "frequency:4337",
+      "value": [
+        "Mottos",
+        "Motti"
+      ],
+      "source": "English Wiktionary via Kaikki/Wiktextract",
+      "url": "https://en.wiktionary.org/wiki/Motto#German",
+      "note": "Both variants are established."
+    },
+    {
+      "entry_id": "frequency:4338",
+      "value": [
+        "Eintritte"
+      ],
+      "source": "German Wiktionary via gambolputty/german-nouns",
+      "url": "https://de.wiktionary.org/wiki/Eintritt",
+      "note": "Plural for distinct occurrences/events in this sense."
+    },
+    {
+      "entry_id": "frequency:4339",
+      "value": [
+        "BHs"
+      ],
+      "source": "English Wiktionary via Kaikki/Wiktextract",
+      "url": "https://en.wiktionary.org/wiki/BH#German",
+      "note": "Standard plural formation for the abbreviation."
+    },
+    {
+      "entry_id": "frequency:4378",
+      "value": [
+        "Vollmonde"
+      ],
+      "source": "German Wiktionary via gambolputty/german-nouns",
+      "url": "https://de.wiktionary.org/wiki/Vollmond",
+      "note": "Standard plural of Vollmond."
+    },
+    {
+      "entry_id": "frequency:4381",
+      "value": [
+        "Rohre"
+      ],
+      "source": "English Wiktionary via Kaikki/Wiktextract",
+      "url": "https://en.wiktionary.org/wiki/Rohr#German",
+      "note": "Standard plural of Rohr."
+    },
+    {
+      "entry_id": "frequency:4386",
+      "value": [
+        "Aliens"
+      ],
+      "source": "English Wiktionary via Kaikki/Wiktextract",
+      "url": "https://en.wiktionary.org/wiki/Alien#German",
+      "note": "Regular plural of Alien."
+    },
+    {
+      "entry_id": "frequency:4396",
+      "value": "Usually singular in the education/cultivation sense",
+      "source": "English Wiktionary via Kaikki/Wiktextract",
+      "url": "https://en.wiktionary.org/wiki/Bildung#German",
+      "note": "Bildung is normally singular as an abstract concept; Bildungen is uncommon or belongs to specialized senses.",
+      "usage_note": "Bildung is normally singular as an abstract concept; Bildungen is uncommon or belongs to specialized senses.",
+      "usage_source": "English Wiktionary via Kaikki/Wiktextract"
+    },
+    {
+      "entry_id": "frequency:4424",
+      "value": [
+        "Stipendien"
+      ],
+      "source": "German Wiktionary via gambolputty/german-nouns",
+      "url": "https://de.wiktionary.org/wiki/Stipendium",
+      "note": "Standard plural of Stipendium."
+    },
+    {
+      "entry_id": "frequency:4433",
+      "value": "Usually singular in this sense",
+      "source": "English Wiktionary via Kaikki/Wiktextract",
+      "url": "https://en.wiktionary.org/wiki/Gewahrsam#German",
+      "note": "Gewahrsam is a mass noun for custody and is normally singular.",
+      "usage_note": "Gewahrsam is a mass noun for custody and is normally singular.",
+      "usage_source": "English Wiktionary via Kaikki/Wiktextract"
+    },
+    {
+      "entry_id": "frequency:4436",
+      "value": [
+        "Parfüms"
+      ],
+      "source": "German Wiktionary via gambolputty/german-nouns",
+      "url": "https://de.wiktionary.org/wiki/Parf%C3%BCm",
+      "note": "Standard plural for bottles or types of perfume."
+    },
+    {
+      "entry_id": "frequency:4463",
+      "value": [
+        "Tausche"
+      ],
+      "source": "English Wiktionary via Kaikki/Wiktextract",
+      "url": "https://en.wiktionary.org/wiki/Tausch#German",
+      "note": "Recorded plural for distinct exchanges/barter acts; general use is often singular."
+    }
+  ]
+}

@@ -1,0 +1,289 @@
+{
+  "batch_id": "v11-vocabulary-review-03",
+  "review_date": "2026-11-11",
+  "input_database_sha256": "610ae253f580e33bee3a6ed2f9f97bd620d635c5af01a96e426f8779d00ad6c1",
+  "accepted_examples": [
+    {
+      "entry_id": "curated:lex-de-gross",
+      "german": "Tom ist in etwa so groß wie ich.",
+      "english": "Tom is about the same height as me.",
+      "note": "groß means large/tall; the sentence compares height."
+    },
+    {
+      "entry_id": "curated:lex-de-hand",
+      "german": "Was hast du da in der linken Hand?",
+      "english": "What's that you have in your left hand?",
+      "note": "Hand is the body part used in the literal sense."
+    },
+    {
+      "entry_id": "frequency:312",
+      "german": "Er bewahrte die Ruhe im Angesicht der Gefahr.",
+      "english": "He kept calm in the face of the danger.",
+      "note": "Ruhe means calm/composure in this context."
+    },
+    {
+      "entry_id": "curated:lex-de-gestern",
+      "german": "Ich weiß nicht, wann Tom angerufen hat, aber es war entweder gestern oder vorgestern.",
+      "english": "I don't know when Tom called, but it was either yesterday or the day before.",
+      "note": "gestern means yesterday."
+    },
+    {
+      "entry_id": "frequency:320",
+      "german": "Was für eine Art von Mädchen bist du?",
+      "english": "What kind of girl are you?",
+      "note": "Art means kind/type."
+    },
+    {
+      "entry_id": "frequency:321",
+      "german": "Wer hat sich als Letzter eingeloggt?",
+      "english": "Who was the last person to log on to the computer?",
+      "note": "Letzter is substantivized as the last person."
+    },
+    {
+      "entry_id": "frequency:322",
+      "german": "Er gab zu, den Schatz gestohlen zu haben.",
+      "english": "He admitted that he had stolen the treasure.",
+      "note": "Schatz means treasure."
+    },
+    {
+      "entry_id": "curated:lex-de-endlich",
+      "german": "Nach langem Warten kamen wir endlich hinein.",
+      "english": "After a long wait, we finally got in.",
+      "note": "endlich means finally/after a long wait."
+    },
+    {
+      "entry_id": "frequency:324",
+      "german": "He, Leute! Es wird spät.",
+      "english": "Hey guys, it's getting late.",
+      "note": "he is used as an attention-getting interjection."
+    },
+    {
+      "entry_id": "frequency:327",
+      "german": "Es ist zu schwer, um es zu bewegen.",
+      "english": "It's too heavy to move.",
+      "note": "schwer means heavy here."
+    },
+    {
+      "entry_id": "frequency:329",
+      "german": "Kannst du die Länge messen?",
+      "english": "Can you measure the length?",
+      "note": "messen means to measure a quantity."
+    },
+    {
+      "entry_id": "curated:lex-de-wasser",
+      "german": "Wasser ist für das Leben unverzichtbar.",
+      "english": "Water is essential to life.",
+      "note": "Wasser means water, the liquid essential for life."
+    },
+    {
+      "entry_id": "frequency:332",
+      "german": "Das erste, was ich sah, war ein Hund.",
+      "english": "The first thing I saw was a dog.",
+      "note": "erste means first."
+    },
+    {
+      "entry_id": "frequency:334",
+      "german": "Wir denken zu viel und fühlen zu wenig.",
+      "english": "We think too much and feel too little.",
+      "note": "wenig means little/a small amount."
+    },
+    {
+      "entry_id": "frequency:337",
+      "german": "Es war nett von dir, das zu sagen.",
+      "english": "It was nice of you to say that.",
+      "note": "nett means nice/kind."
+    },
+    {
+      "entry_id": "curated:lex-de-woche",
+      "german": "Eine Woche hat sieben Tage.",
+      "english": "A week has seven days.",
+      "note": "Woche means a period of seven days."
+    },
+    {
+      "entry_id": "curated:lex-de-deshalb",
+      "german": "Wolltest du deshalb nicht, dass ich komme?",
+      "english": "Is this the reason you didn't want me to come?",
+      "note": "deshalb expresses the reason/result relation."
+    },
+    {
+      "entry_id": "frequency:341",
+      "german": "Welche Vorteile hat es, früh aufzustehen?",
+      "english": "What are some of the benefits of waking up early?",
+      "note": "welche asks which/what; the English uses some in this construction."
+    },
+    {
+      "entry_id": "frequency:343",
+      "german": "Die Brücke ist sehr lang und sehr hoch.",
+      "english": "The bridge is very long and very tall.",
+      "note": "hoch describes the bridge's height."
+    },
+    {
+      "entry_id": "frequency:344",
+      "german": "Das Alter beschleicht uns, ohn’ dass wir’s bemerken.",
+      "english": "Old age creeps upon us unnoticed.",
+      "note": "Alter means old age here."
+    },
+    {
+      "entry_id": "curated:lex-de-zimmer",
+      "german": "Der Tisch nimmt in diesem Zimmer viel Platz ein.",
+      "english": "The table takes up a lot of space in this room.",
+      "note": "Zimmer means a room within a building."
+    },
+    {
+      "entry_id": "curated:lex-de-der-wagen",
+      "german": "Ich stieg in meinen Wagen und ließ den Motor an.",
+      "english": "I got in my car and started the motor.",
+      "note": "Wagen means car in this context."
+    },
+    {
+      "entry_id": "frequency:352",
+      "german": "Es klingt so, als ob ihr Spaß habt.",
+      "english": "It sounds like you're having fun.",
+      "note": "Spaß means enjoyment/fun."
+    },
+    {
+      "entry_id": "curated:lex-de-niemals",
+      "german": "Warum wollen Sie niemals über die Vergangenheit reden?",
+      "english": "Why don't you ever want to talk about the past?",
+      "note": "niemals means never/at no time."
+    },
+    {
+      "entry_id": "frequency:357",
+      "german": "Du weißt, wie ernst die Lage ist, oder?",
+      "english": "You know how serious things are, don't you?",
+      "note": "ernst means serious."
+    }
+  ],
+  "held_examples": [
+    {
+      "entry_id": "frequency:310",
+      "german": "Das Haus ist bis auf den Grund abgebrannt.",
+      "reason": "This is the idiom 'burned to the ground'; Grund means ground/foundation here, not a property or piece of land."
+    },
+    {
+      "entry_id": "curated:lex-de-mama",
+      "german": "Mama sein ist schwerer, als ich dachte.",
+      "reason": "The English translation says parent and loses the specific female-parent meaning of Mama."
+    },
+    {
+      "entry_id": "frequency:313",
+      "german": "Tom war schon oft allein gewesen, aber an jenem Nachmittage war ihm zum erstenmal richtig einsam zumute.",
+      "reason": "This uses gewesen as the Partizip II of sein, not as the rare adjective meaning former."
+    },
+    {
+      "entry_id": "frequency:342",
+      "german": "Hast du auch bestimmt die Tür geschlossen?",
+      "reason": "bestimmt functions adverbially as surely/definitely here, not as the adjective certain in this entry."
+    }
+  ],
+  "editorial_examples": [
+    {
+      "entry_id": "frequency:310",
+      "german": "Das Haus steht auf eigenem Grund und Boden.",
+      "english": "The house stands on privately owned land.",
+      "note": "This expresses Grund as property/land belonging to an owner.",
+      "evidence_url": "https://www.duden.de/rechtschreibung/Grund"
+    },
+    {
+      "entry_id": "curated:lex-de-mama",
+      "german": "Meine Mama wohnt in Berlin.",
+      "english": "My mom lives in Berlin.",
+      "note": "The translation preserves Mama as a female parent."
+    },
+    {
+      "entry_id": "frequency:313",
+      "german": "Ich bin noch nie in Berlin gewesen.",
+      "english": "I have never been to Berlin.",
+      "note": "gewesen is the Partizip II of sein in a perfect construction.",
+      "evidence_url": "https://www.duden.de/rechtschreibung/gewesen_zu_sein"
+    },
+    {
+      "entry_id": "frequency:342",
+      "german": "Er hat eine bestimmte Vorstellung davon.",
+      "english": "He has a certain idea of it.",
+      "note": "bestimmte is the inflected adjective meaning specific/certain.",
+      "evidence_url": "https://www.duden.de/rechtschreibung/bestimmt_Adjektiv"
+    }
+  ],
+  "entry_updates": [
+    {
+      "entry_id": "frequency:313",
+      "field": "meaning",
+      "value": "been (past participle of sein)",
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/gewesen_zu_sein",
+      "note": "Duden identifies gewesen as the Partizip II of sein; the prior 'former' sense was for the homographic rare adjective."
+    },
+    {
+      "entry_id": "frequency:313",
+      "field": "word_class",
+      "value": "verb",
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/gewesen_zu_sein",
+      "note": "Treat this frequency form as a participle of sein, not as the rare adjective."
+    },
+    {
+      "entry_id": "frequency:313",
+      "field": "usage",
+      "value": "Partizip II of sein; used with sein to form the perfect, e.g. Ich bin in Berlin gewesen.",
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/gewesen_zu_sein",
+      "note": "Replace the adjective-declension note with the correct verb-form note."
+    },
+    {
+      "entry_id": "frequency:313",
+      "field": "comparison",
+      "value": "Not applicable: this entry is the Partizip II of sein.",
+      "source": "Verbwerk editorial",
+      "url": "https://www.duden.de/rechtschreibung/gewesen_zu_sein",
+      "note": "The adjective comparison candidate does not apply to the corrected verb-form entry."
+    }
+  ],
+  "inflected_links": [
+    {
+      "entry_id": "frequency:313",
+      "base_lemma": "sein",
+      "form_note": "Partizip II of sein; this is an inflected verb form, not a separate verb lemma.",
+      "source_url": "https://www.duden.de/rechtschreibung/gewesen_zu_sein"
+    }
+  ],
+  "plural_reviews": [
+    {
+      "entry_id": "frequency:321",
+      "lemma": "Letzter",
+      "value": [
+        "Letzte",
+        "Letzten"
+      ],
+      "source": "Wiktionary",
+      "url": "https://en.wiktionary.org/wiki/Letzter#German",
+      "note": "Both appear as substantivized adjective forms: strong plural Letzte and weak/definite plural die Letzten."
+    },
+    {
+      "entry_id": "frequency:333",
+      "lemma": "Geschichte",
+      "value": "Usually no plural in the history sense; Geschichten means stories.",
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Geschichte",
+      "note": "Duden marks the historical development/discipline senses as singular-only; plural Geschichten belongs to the story sense."
+    },
+    {
+      "entry_id": "frequency:344",
+      "lemma": "Alter",
+      "value": [
+        "Alter"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Alter_Lebensabschnitt",
+      "note": "Duden records the plural Alter for the neuter life-age sense."
+    },
+    {
+      "entry_id": "frequency:352",
+      "lemma": "Spaß",
+      "value": "No plural in the enjoyment/fun sense; Späße means jokes.",
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Spasz",
+      "note": "Duden marks the enjoyment/fun sense as singular-only; Späße is the plural for the joke sense."
+    }
+  ]
+}

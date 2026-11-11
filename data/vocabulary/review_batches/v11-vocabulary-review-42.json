@@ -1,0 +1,409 @@
+{
+  "batch_id": "v11-vocabulary-review-42",
+  "review_date": "2026-11-11",
+  "input_database_sha256": "035acea7a725f279ade8444061f87e2a396289321f102d979d389ecfb7bb3825",
+  "accepted_examples": [
+    {
+      "entry_id": "frequency:3766",
+      "german": "Er ist ein überaus freimütiger Mensch.",
+      "english": "He is an extremely frank person.",
+      "note": "Reviewed German grammar, intended sense and part of speech, and English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3767",
+      "german": "Der Erdkern besteht aus geschmolzenem Eisen und Nickel.",
+      "english": "Earth has a core of molten iron and nickel.",
+      "note": "Reviewed German grammar, intended sense and part of speech, and English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3769",
+      "german": "Es liegt ein Haftbefehl gegen dich vor.",
+      "english": "There's a warrant out for your arrest.",
+      "note": "Reviewed German grammar, intended sense and part of speech, and English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3770",
+      "german": "Es gab viele Verletzte, aber kaum Vermisste.",
+      "english": "There were many injured people, but hardly any people were missing.",
+      "note": "Reviewed German grammar, intended sense and part of speech, and English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3772",
+      "german": "Wenn es Gott nicht gäbe, dann müsste man ihn erfinden.",
+      "english": "If God did not exist, it would be necessary to invent him.",
+      "note": "Reviewed German grammar, intended sense and part of speech, and English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3773",
+      "german": "Wir erwarten eine gute Ernte in diesem Jahr.",
+      "english": "We're expecting a good harvest this year.",
+      "note": "Reviewed German grammar, intended sense and part of speech, and English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3774",
+      "german": "Warum setzen wir uns nicht zum Kamin?",
+      "english": "Why don't we sit by the fireplace?",
+      "note": "Reviewed German grammar, intended sense and part of speech, and English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3779",
+      "german": "Meine Damen und Herren, bitte erheben Sie sich für die Nationalhymne der Russischen Föderation, aufgeführt vom Chor des Sretenski-Klosters.",
+      "english": "Ladies and gentlemen, please stand for the national anthem of the Russian Federation performed by the Sretensky Monastery Choir.",
+      "note": "Reviewed German grammar, intended sense and part of speech, and English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3781",
+      "german": "Sie rückten eng aneinander, um sich zu wärmen.",
+      "english": "They huddled close together to stay warm.",
+      "note": "Reviewed German grammar, intended sense and part of speech, and English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3783",
+      "german": "Ich habe ihm ein Magazin gekauft.",
+      "english": "I bought him a magazine.",
+      "note": "Reviewed German grammar, intended sense and part of speech, and English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3784",
+      "german": "Wir helfen einander immer aus der Klemme.",
+      "english": "We always help each other out.",
+      "note": "Reviewed German grammar, intended sense and part of speech, and English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3786",
+      "german": "Ballettänzer müssen kräftig und biegsam zugleich sein.",
+      "english": "Ballet dancers need to be both strong and flexible.",
+      "note": "Reviewed German grammar, intended sense and part of speech, and English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3787",
+      "german": "Meine Nachbarin hat sich über den Lärm beschwert.",
+      "english": "My neighbor complained about the noise.",
+      "note": "Reviewed German grammar, intended sense and part of speech, and English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3791",
+      "german": "Hervor aus der dunklen Ecke! Zeig dich!",
+      "english": "Get out of the dark corner!",
+      "note": "Reviewed German grammar, intended sense and part of speech, and English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3792",
+      "german": "Tom lebt in einem Wohnwagen.",
+      "english": "Tom lives in a trailer.",
+      "note": "Reviewed German grammar, intended sense and part of speech, and English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3793",
+      "german": "Lassen Sie uns all diese Dinge wegwerfen.",
+      "english": "Let's throw all these things away.",
+      "note": "Reviewed German grammar, intended sense and part of speech, and English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3794",
+      "german": "Da ist eine Spinne an der Wand.",
+      "english": "There's a spider on the wall.",
+      "note": "Reviewed German grammar, intended sense and part of speech, and English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3795",
+      "german": "Der Tumor war gutartig.",
+      "english": "The tumor was benign.",
+      "note": "Reviewed German grammar, intended sense and part of speech, and English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3796",
+      "german": "Er fordert sofortige Bezahlung.",
+      "english": "He demands immediate payment.",
+      "note": "Reviewed German grammar, intended sense and part of speech, and English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3797",
+      "german": "Können Sie bitte dieses Päckchen zur Post bringen?",
+      "english": "Can you please take this package to the post office?",
+      "note": "Reviewed German grammar, intended sense and part of speech, and English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3798",
+      "german": "Behandle die Werkzeuge nicht grob.",
+      "english": "Don't handle these tools roughly.",
+      "note": "Reviewed German grammar, intended sense and part of speech, and English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3801",
+      "german": "Geld im Beutel vertreibt die Schwermut.",
+      "english": "Money in your pocket helps chase the blues away.",
+      "note": "Reviewed German grammar, intended sense and part of speech, and English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3802",
+      "german": "Die Polizei bringt dich für zwanzig Jahre hinter Gitter.",
+      "english": "The police will put you behind bars for twenty years.",
+      "note": "Reviewed German grammar, intended sense and part of speech, and English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3803",
+      "german": "Es dauerte sechs Jahre, bis wir Konstantinopel erobert hatten.",
+      "english": "It took us six years to conquer Constantinople.",
+      "note": "Reviewed German grammar, intended sense and part of speech, and English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3804",
+      "german": "Ich hätte gern einen Gin Tonic.",
+      "english": "I'd like a gin and tonic.",
+      "note": "Reviewed German grammar, intended sense and part of speech, and English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3806",
+      "german": "Mein Auto schafft dreißig Kilometer pro Liter.",
+      "english": "My car gets thirty kilometers a liter.",
+      "note": "Reviewed German grammar, intended sense and part of speech, and English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3807",
+      "german": "Das ist eine Illusion.",
+      "english": "It's an illusion.",
+      "note": "Reviewed German grammar, intended sense and part of speech, and English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3808",
+      "german": "Immer, wenn sich Tom und Maria unterwegs begegnen, bleiben sie stehen und plaudern miteinander.",
+      "english": "Whenever Tom and Mary see each other out and about, they always stop to have a chat.",
+      "note": "Reviewed German grammar, intended sense and part of speech, and English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3809",
+      "german": "Wellen barsten über die Promenade.",
+      "english": "Waves crashed over the promenade.",
+      "note": "Reviewed German grammar, intended sense and part of speech, and English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3810",
+      "german": "Tom bleibt in Haft.",
+      "english": "Tom will remain in custody.",
+      "note": "Reviewed German grammar, intended sense and part of speech, and English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3811",
+      "german": "Dem Spiel hat es an Spannung gefehlt.",
+      "english": "The game lacked excitement.",
+      "note": "Reviewed German grammar, intended sense and part of speech, and English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3812",
+      "german": "Der Sektkorken knallte.",
+      "english": "The champagne cork popped out.",
+      "note": "Reviewed German grammar, intended sense and part of speech, and English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3813",
+      "german": "Leiden ist die Bestimmung des Menschen.",
+      "english": "It is man's destiny to suffer.",
+      "note": "Reviewed German grammar, intended sense and part of speech, and English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3814",
+      "german": "Die Räuber stahlen das gesamte Geld im Tresor.",
+      "english": "The robbers made away with all the money in the safe.",
+      "note": "Reviewed German grammar, intended sense and part of speech, and English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3815",
+      "german": "Tom ist Jäger und Fischer.",
+      "english": "Tom is a hunter and fisherman.",
+      "note": "Reviewed German grammar, intended sense and part of speech, and English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3817",
+      "german": "Hast du einen Revolver?",
+      "english": "Do you have a revolver?",
+      "note": "Reviewed German grammar, intended sense and part of speech, and English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3818",
+      "german": "Das ist Schrott. Wirf es weg.",
+      "english": "It's junk. Throw it away.",
+      "note": "Reviewed German grammar, intended sense and part of speech, and English translation; accepted as suitable."
+    },
+    {
+      "entry_id": "frequency:3823",
+      "german": "Die Fingerabdrücke auf der Waffe stimmen mit jenen des Verdächtigen überein.",
+      "english": "The fingerprints left on the weapon match the suspect's.",
+      "note": "Reviewed German grammar, intended sense and part of speech, and English translation; accepted as suitable."
+    }
+  ],
+  "editorial_examples": [
+    {
+      "entry_id": "frequency:3768",
+      "german": "Die Hauptfigur beamt sich im Film an einen anderen Ort.",
+      "english": "In the film, the main character beams themself to another place.",
+      "note": "Replaced a long machine-translated sentence with a clear fictional use of beamen.",
+      "evidence_url": "https://de.wiktionary.org/wiki/beamen"
+    },
+    {
+      "entry_id": "frequency:3775",
+      "german": "Er hat noch immer eine weiße Weste.",
+      "english": "He still has a clean record.",
+      "note": "The source uses the idiom eine weiße Weste haben (“to have a clean record”), not the literal garment.",
+      "evidence_url": "https://www.duden.de/rechtschreibung/Weste"
+    },
+    {
+      "entry_id": "frequency:3776",
+      "german": "Ein besonderes Kennzeichen des Täters ist eine Narbe über dem rechten Auge.",
+      "english": "A distinguishing feature of the perpetrator is a scar above the right eye.",
+      "note": "Replaced the unnatural translation special sign with distinguishing feature.",
+      "evidence_url": "https://de.wiktionary.org/wiki/Kennzeichen"
+    },
+    {
+      "entry_id": "frequency:3780",
+      "german": "In der Dose waren nur noch Krümel.",
+      "english": "There were only crumbs left in the tin.",
+      "note": "Changed box to tin, the appropriate container sense of Dose.",
+      "evidence_url": "https://www.duden.de/rechtschreibung/Dose"
+    },
+    {
+      "entry_id": "frequency:3782",
+      "german": "Der kürzlich erschienene Roman wurde später verfilmt.",
+      "english": "The recently published novel was later made into a film.",
+      "note": "Changed a finite perfect-tense use to an attributive adjective example, matching this adjective entry.",
+      "evidence_url": "https://www.duden.de/rechtschreibung/erschienen"
+    },
+    {
+      "entry_id": "frequency:3789",
+      "german": "Die Formel für die Fläche eines Kreises lautet A = πr².",
+      "english": "The formula for the area of a circle is A = πr².",
+      "note": "Replaced an inaccurate claim that Einstein’s theory itself is a formula with a correct mathematical example.",
+      "evidence_url": "https://www.duden.de/rechtschreibung/Formel"
+    },
+    {
+      "entry_id": "frequency:3800",
+      "german": "Tom starrte Maria an.",
+      "english": "Tom stared at Maria.",
+      "note": "The source uses starren as an adjective modifying Blick; this verb entry now demonstrates the verb.",
+      "evidence_url": "https://www.duden.de/rechtschreibung/starren"
+    },
+    {
+      "entry_id": "frequency:3816",
+      "german": "Die Lehre des Philosophen beeinflusste viele Menschen.",
+      "english": "The philosopher’s teachings influenced many people.",
+      "note": "Replaced a nominalized verb example (Lehren) with the noun Lehre.",
+      "evidence_url": "https://www.duden.de/rechtschreibung/Lehre"
+    },
+    {
+      "entry_id": "frequency:3819",
+      "german": "Ich zog den Vorhang zurück und schaute hinaus.",
+      "english": "I pulled back the curtain and looked outside.",
+      "note": "Corrected the German accusative case error dem to den.",
+      "evidence_url": "https://www.duden.de/rechtschreibung/Vorhang"
+    },
+    {
+      "entry_id": "frequency:3820",
+      "german": "Jetzt muss nur noch das Wetter mitspielen.",
+      "english": "Now we just need the weather to cooperate.",
+      "note": "Translated mitspielen idiomatically as cooperate instead of the literal play.",
+      "evidence_url": "https://www.duden.de/rechtschreibung/mitspielen"
+    },
+    {
+      "entry_id": "frequency:3821",
+      "german": "Die Debatte wurde zunehmend erregt.",
+      "english": "The debate became increasingly heated.",
+      "note": "Replaced an ambiguous sentence with an emotionally neutral adjective use.",
+      "evidence_url": "https://www.duden.de/rechtschreibung/erregt"
+    },
+    {
+      "entry_id": "frequency:3822",
+      "german": "Das im Wasser aufgelöste Salz kann man nicht mehr sehen.",
+      "english": "You can no longer see the salt dissolved in the water.",
+      "note": "Changed a passive-voice sentence to an attributive adjective use, matching this adjective entry.",
+      "evidence_url": "https://www.duden.de/rechtschreibung/aufgeloest"
+    }
+  ],
+  "held_examples": [
+    {
+      "entry_id": "frequency:3768",
+      "german": "Frisch vom Strand nach Berlin gebeamt, bewegen wir uns immer noch mit 700 km/h, also 700 km/h schneller als die Berliner Bürokollegen.",
+      "reason": "Replaced a long machine-translated sentence with a clear fictional use of beamen."
+    },
+    {
+      "entry_id": "frequency:3782",
+      "german": "Diese Romane sind auch auf Französisch erschienen.",
+      "reason": "Changed a finite perfect-tense use to an attributive adjective example, matching this adjective entry."
+    },
+    {
+      "entry_id": "frequency:3789",
+      "german": "Albert Einsteins Relativitätstheorie ist die berühmteste Formel der Welt.",
+      "reason": "Replaced an inaccurate claim that Einstein’s theory itself is a formula with a correct mathematical example."
+    },
+    {
+      "entry_id": "frequency:3800",
+      "german": "Tom erwiderte Marias starren Blick.",
+      "reason": "The source uses starren as an adjective modifying Blick; this verb entry now demonstrates the verb."
+    },
+    {
+      "entry_id": "frequency:3816",
+      "german": "Erklären Sie den Unterschied zwischen Lernen und Lehren!",
+      "reason": "Replaced a nominalized verb example (Lehren) with the noun Lehre."
+    },
+    {
+      "entry_id": "frequency:3819",
+      "german": "Ich zog dem Vorhang zurück und schaute hinaus.",
+      "reason": "Corrected the German accusative case error dem to den."
+    },
+    {
+      "entry_id": "frequency:3821",
+      "german": "Tom wurde erregt.",
+      "reason": "Replaced an ambiguous sentence with an emotionally neutral adjective use."
+    },
+    {
+      "entry_id": "frequency:3822",
+      "german": "Es ist wahrscheinlich, dass das Parlament aufgelöst wird.",
+      "reason": "Changed a passive-voice sentence to an attributive adjective use, matching this adjective entry."
+    }
+  ],
+  "entry_updates": [
+    {
+      "entry_id": "frequency:3775",
+      "field": "meaning",
+      "value": "waistcoat or vest; (in the idiom eine weiße Weste haben) an unblemished legal record",
+      "note": "Added the figurative sense used by the example; Duden defines the idiom as having done nothing legally improper.",
+      "url": "https://www.duden.de/rechtschreibung/Weste"
+    },
+    {
+      "entry_id": "frequency:3780",
+      "field": "meaning",
+      "value": "can, tin, or box (container, often metal or plastic)",
+      "note": "Clarified the everyday food-container sense used in the example.",
+      "url": "https://www.duden.de/rechtschreibung/Dose"
+    },
+    {
+      "entry_id": "frequency:3784",
+      "field": "meaning",
+      "value": "clamp; tight spot or predicament (in the idiom aus der Klemme helfen)",
+      "note": "Added the figurative “predicament” sense used by the idiom in the source example.",
+      "url": "https://www.duden.de/rechtschreibung/Klemme"
+    },
+    {
+      "entry_id": "frequency:3811",
+      "field": "meaning",
+      "value": "suspense, excitement, tension; voltage (electric potential difference)",
+      "note": "Added the suspense/excitement sense used by the example; the existing gloss listed only the electrical sense.",
+      "url": "https://www.duden.de/rechtschreibung/Spannung"
+    },
+    {
+      "entry_id": "frequency:3813",
+      "field": "meaning",
+      "value": "determination; purpose, destiny; specification or identification",
+      "note": "Added the destiny/purpose sense used in the example while retaining the established determination sense.",
+      "url": "https://www.duden.de/rechtschreibung/Bestimmung"
+    },
+    {
+      "entry_id": "frequency:3821",
+      "field": "meaning",
+      "value": "excited, agitated, emotionally stirred; aroused",
+      "note": "Clarified the emotional range of erregt while replacing an ambiguous isolated sentence with a debate example.",
+      "url": "https://www.duden.de/rechtschreibung/erregt"
+    }
+  ],
+  "plural_reviews": [],
+  "inflected_links": []
+}

@@ -1,0 +1,383 @@
+{
+  "batch_id": "v11-vocabulary-review-07",
+  "review_date": "2026-11-11",
+  "input_database_sha256": "e0ed4d3000e4b95d3fdfe96140181a78a58bae2b67627144076ed61368f4a514",
+  "accepted_examples": [
+    {
+      "entry_id": "frequency:455",
+      "german": "Ich habe die Informationen direkt von ihm bekommen.",
+      "english": "I got the information from him directly.",
+      "note": "direkt means directly in the sense of getting information from its source."
+    },
+    {
+      "entry_id": "frequency:456",
+      "german": "Ich kann ein Schiff in der Ferne sehen.",
+      "english": "I can see a ship in the distance.",
+      "note": "Schiff means a vessel in this sentence."
+    },
+    {
+      "entry_id": "frequency:457",
+      "german": "Der König lud alle auf eine Feier ein.",
+      "english": "The king invited everyone to a party.",
+      "note": "König means a monarch here."
+    },
+    {
+      "entry_id": "frequency:458",
+      "german": "Hast du danach noch etwas zu tun?",
+      "english": "Do you have anything to do after that?",
+      "note": "danach refers to what happens after the preceding event or time."
+    },
+    {
+      "entry_id": "frequency:463",
+      "german": "Der Mann hat mir seinen Namen nicht genannt.",
+      "english": "That man didn't give me his name.",
+      "note": "genannt is the past participle of nennen, used here to say what someone is called or named."
+    },
+    {
+      "entry_id": "frequency:465",
+      "german": "Es brach ein Feuer in der Nähe aus.",
+      "english": "A fire broke out nearby.",
+      "note": "Feuer refers to a fire as an event/process."
+    },
+    {
+      "entry_id": "frequency:467",
+      "german": "Tom und Mary erinnern mich an meine Eltern.",
+      "english": "Tom and Mary remind me of my parents.",
+      "note": "This uses erinnern in the transitive sense to remind someone of a person."
+    },
+    {
+      "entry_id": "frequency:469",
+      "german": "Der See ist an dieser Stelle am tiefsten.",
+      "english": "The lake is deepest at this spot.",
+      "note": "Stelle means a specific location or spot here."
+    },
+    {
+      "entry_id": "frequency:470",
+      "german": "Viele Kumpel befürchten, dass die Zeche bald geschlossen wird.",
+      "english": "Many miners are afraid that the mine will be closed down soon.",
+      "note": "Kumpel is used for a miner; this also illustrates its unchanged standard plural."
+    },
+    {
+      "entry_id": "frequency:473",
+      "german": "Das ist wie die Luft, die wir atmen.",
+      "english": "It is like the air we breathe.",
+      "note": "Luft means ordinary air or atmosphere."
+    },
+    {
+      "entry_id": "frequency:485",
+      "german": "Er scheiterte bei seinem Versuch, den Fluss zu durchschwimmen.",
+      "english": "He failed in his attempt to swim across the river.",
+      "note": "Versuch means an attempt."
+    },
+    {
+      "entry_id": "frequency:487",
+      "german": "Ich frage mich, ob ich je heiraten werde.",
+      "english": "I wonder if I'll ever get married.",
+      "note": "heiraten means to marry or get married."
+    },
+    {
+      "entry_id": "frequency:488",
+      "german": "Du siehst auf diesem Bild echt super aus.",
+      "english": "You look great in this picture.",
+      "note": "super means great here."
+    },
+    {
+      "entry_id": "frequency:489",
+      "german": "Mein Onkel ruft mich alle drei Tage an.",
+      "english": "My uncle calls me every three days.",
+      "note": "Onkel means uncle."
+    },
+    {
+      "entry_id": "frequency:490",
+      "german": "Es tut mir leid, wir sind total ausverkauft.",
+      "english": "I'm sorry, we're completely sold out.",
+      "note": "total intensifies the meaning of completely."
+    },
+    {
+      "entry_id": "frequency:491",
+      "german": "Tom hat seinen Hund mit zur Schule gebracht.",
+      "english": "Tom brought his dog to school.",
+      "note": "gebracht is the Partizip II of bringen and is used with haben."
+    },
+    {
+      "entry_id": "frequency:492",
+      "german": "Es waren nur sechs Leute auf der Party.",
+      "english": "There were only six people at the party.",
+      "note": "Party means a social gathering."
+    },
+    {
+      "entry_id": "frequency:496",
+      "german": "Rom war damals die größte Stadt der Welt.",
+      "english": "Rome was the largest city in the world at the time.",
+      "note": "damals means at that time in the past."
+    },
+    {
+      "entry_id": "frequency:507",
+      "german": "Ich mache mir genauso viele Sorgen wie du.",
+      "english": "I'm just as worried as you are.",
+      "note": "genauso viele expresses the same degree or quantity."
+    }
+  ],
+  "held_examples": [
+    {
+      "entry_id": "frequency:497",
+      "german": "Am Dienstag tagt das Parlament.",
+      "reason": "The German sentence is valid, but the candidate English uses the context-specific, dated word Diet. The replacement uses a clearer translation and the entry meaning is being refined to a formal session."
+    }
+  ],
+  "editorial_examples": [
+    {
+      "entry_id": "frequency:497",
+      "german": "Der Ausschuss tagt am Dienstag.",
+      "english": "The committee is meeting on Tuesday.",
+      "note": "Duden confirms that tagen is used for holding a session and lists a committee as a typical subject.",
+      "evidence_url": "https://www.duden.de/rechtschreibung/tagen"
+    }
+  ],
+  "entry_updates": [
+    {
+      "entry_id": "frequency:491",
+      "field": "meaning",
+      "value": "brought (past participle of bringen)",
+      "note": "Duden lists gebracht as the Partizip II of bringen.",
+      "url": "https://www.duden.de/konjugation/bringen",
+      "source": "Duden Online"
+    },
+    {
+      "entry_id": "frequency:491",
+      "field": "word_class",
+      "value": "verb",
+      "note": "This is a verb form, not an adjective; link it to the base lemma bringen.",
+      "url": "https://www.duden.de/konjugation/bringen",
+      "source": "Duden Online"
+    },
+    {
+      "entry_id": "frequency:491",
+      "field": "usage",
+      "value": "Inflected form: Partizip II of bringen; combines with haben (for example, hat gebracht).",
+      "note": "Replaces the adjective-only usage note with the checked participle pattern.",
+      "url": "https://www.duden.de/konjugation/bringen",
+      "source": "Duden Online"
+    },
+    {
+      "entry_id": "frequency:497",
+      "field": "meaning",
+      "value": "to hold a formal session; (of a parliament, court, or committee) to meet",
+      "note": "Duden defines the target sense as holding a meeting or session; a separate impersonal sense means to dawn.",
+      "url": "https://www.duden.de/rechtschreibung/tagen",
+      "source": "Duden Online"
+    },
+    {
+      "entry_id": "frequency:497",
+      "field": "usage",
+      "value": "Used of a formal body such as a parliament, court, or committee holding a session; tagen also has a separate impersonal sense meaning to dawn.",
+      "note": "Clarifies the formal-session use shown in the accepted example.",
+      "url": "https://www.duden.de/rechtschreibung/tagen",
+      "source": "Duden Online"
+    }
+  ],
+  "inflected_links": [
+    {
+      "entry_id": "frequency:491",
+      "base_lemma": "bringen",
+      "form_note": "Partizip II of bringen; combines with haben.",
+      "source_url": "https://www.duden.de/konjugation/bringen"
+    }
+  ],
+  "plural_reviews": [
+    {
+      "entry_id": "frequency:960",
+      "value": [
+        "Bälle"
+      ],
+      "source": "Duden Online",
+      "url": "https://www.duden.de/rechtschreibung/Ball_Spielgeraet",
+      "note": "Bälle is the standard plural for a game ball."
+    },
+    {
+      "entry_id": "frequency:971",
+      "value": "No regular plural in the frozen-water sense",
+      "source": "Duden Online",
+      "url": "https://www.duden.de/rechtschreibung/Eis_Gefrorenes",
+      "note": "Duden marks frozen water as without a plural; servings of ice cream are a separate count expression.",
+      "usage_note": "Eis meaning frozen water is normally singular-only. Expressions such as zwei Eis refer to servings of ice cream, not plural ice as frozen water."
+    },
+    {
+      "entry_id": "frequency:1008",
+      "value": [
+        "Bullen"
+      ],
+      "source": "Duden Online",
+      "url": "https://www.duden.de/rechtschreibung/Bulle_Stier",
+      "note": "Bullen is the plural for a male bovine; it also occurs in several colloquial senses."
+    },
+    {
+      "entry_id": "frequency:1031",
+      "value": [
+        "Parks",
+        "Parke",
+        "Pärke"
+      ],
+      "source": "Duden Online",
+      "url": "https://www.duden.de/deklination/substantive/Park",
+      "note": "Parks is the usual plural, Parke is less common, and Pärke is the usual Swiss variant.",
+      "usage_note": "Use Parks as the usual plural. Parke is less common; Pärke is common in Switzerland."
+    },
+    {
+      "entry_id": "frequency:1045",
+      "value": [
+        "Taxis"
+      ],
+      "source": "Duden Online",
+      "url": "https://www.duden.de/deklination/substantive/Taxi",
+      "note": "Taxis is the standard plural; the candidate Taxen is not listed in Duden for this noun."
+    },
+    {
+      "entry_id": "frequency:1046",
+      "value": "No regular plural in the usual sea/ocean sense",
+      "source": "Duden Online",
+      "url": "https://www.duden.de/rechtschreibung/See_Meer",
+      "note": "Duden marks the ordinary sea and sea-state senses as without a plural; Seen belongs to a maritime wave sense or the separate masculine noun for an inland lake.",
+      "usage_note": "See meaning the sea or ocean is normally singular-only. Seen usually means inland lakes, or appears in a separate seafaring sense for waves."
+    },
+    {
+      "entry_id": "frequency:1050",
+      "value": [
+        "Busse"
+      ],
+      "source": "Duden Online",
+      "url": "https://www.duden.de/rechtschreibung/Bus",
+      "note": "The plural is Busse, with double s."
+    },
+    {
+      "entry_id": "frequency:1053",
+      "value": [
+        "Löcher"
+      ],
+      "source": "Duden Online",
+      "url": "https://www.duden.de/deklination/substantive/Loch_Oeffnung",
+      "note": "Löcher is the plural for an opening or hole."
+    },
+    {
+      "entry_id": "frequency:1068",
+      "value": [
+        "Tommys"
+      ],
+      "source": "Duden Online",
+      "url": "https://www.duden.de/rechtschreibung/Tommy_Soldat",
+      "note": "Tommys is the plural for the historical term for a British soldier."
+    },
+    {
+      "entry_id": "frequency:1094",
+      "value": [
+        "Pausen"
+      ],
+      "source": "Duden Online",
+      "url": "https://www.duden.de/rechtschreibung/Pause_Unterbrechung",
+      "note": "Pausen is the standard plural for breaks or pauses."
+    },
+    {
+      "entry_id": "frequency:1102",
+      "value": [
+        "Hüte"
+      ],
+      "source": "Duden Online",
+      "url": "https://www.duden.de/deklination/substantive/Hut_Kopfbedeckung",
+      "note": "Hüte is the plural for hats."
+    },
+    {
+      "entry_id": "frequency:1104",
+      "value": [
+        "Grade",
+        "Grad"
+      ],
+      "source": "Duden Online",
+      "url": "https://www.duden.de/rechtschreibung/Grad",
+      "note": "Grade is the ordinary plural; Grad remains unchanged in measurement expressions such as 30 Grad.",
+      "usage_note": "Grade is used for degrees in general. After a number in temperature or angle measurements, Grad is often unchanged (for example, 30 Grad)."
+    },
+    {
+      "entry_id": "frequency:1118",
+      "value": [
+        "Schwarze",
+        "Schwarzen"
+      ],
+      "source": "Duden Online",
+      "url": "https://www.duden.de/rechtschreibung/schwarz",
+      "note": "This is a substantivized adjective, so endings vary with case and determiner; the forms are not interchangeable free variants.",
+      "usage_note": "Schwarzer is a substantivized adjective. Plural endings depend on grammar: e.g. die Schwarzen with a definite article, but Schwarze without an article. When referring to people, Duden notes the respectful wording Schwarze Menschen."
+    },
+    {
+      "entry_id": "frequency:1121",
+      "value": [
+        "Mädel",
+        "Mädels",
+        "Mädeln"
+      ],
+      "source": "Duden Online",
+      "url": "https://www.duden.de/rechtschreibung/Maedel",
+      "note": "Mädel and Mädels are standard; Mädeln is a Bavarian and Austrian regional variant.",
+      "usage_note": "The common plurals are Mädel and Mädels. Mädeln is regional in Bavaria and Austria."
+    },
+    {
+      "entry_id": "frequency:1130",
+      "value": [
+        "Themen"
+      ],
+      "source": "Duden Online",
+      "url": "https://www.duden.de/rechtschreibung/Thema",
+      "note": "Themen is the standard plural; Themata is dated/formal and Themas is rarer.",
+      "usage_note": "Use Themen in ordinary German. Themata is dated or formal; Themas is also possible but rarer."
+    },
+    {
+      "entry_id": "frequency:1142",
+      "value": [
+        "Risiken"
+      ],
+      "source": "Duden Online",
+      "url": "https://www.duden.de/rechtschreibung/Risiko",
+      "note": "Risiken is standard; Risikos is rare, and Risken is also used in Austria.",
+      "usage_note": "Use Risiken as the normal plural. Risikos is rare; Risken is an Austrian variant."
+    },
+    {
+      "entry_id": "frequency:1143",
+      "value": [
+        "Knäste"
+      ],
+      "source": "Duden Online",
+      "url": "https://www.duden.de/rechtschreibung/Knast_Gefaengnis",
+      "note": "Knäste is the preferred plural for prison; Duden also records Knaste.",
+      "usage_note": "Knäste is the usual plural for a prison. Knaste is an accepted alternative; Knast meaning a prison sentence is singular-only."
+    },
+    {
+      "entry_id": "frequency:1147",
+      "value": [
+        "Fräulein",
+        "Fräuleins"
+      ],
+      "source": "Duden Online",
+      "url": "https://www.duden.de/rechtschreibung/Fraeulein",
+      "note": "Both Fräulein and Fräuleins are listed plurals. The term is dated and should not be used as a form of address unless wanted by the person.",
+      "usage_note": "The plural can be Fräulein or Fräuleins. The word is dated; for addressing an adult woman, use Frau unless she prefers Fräulein."
+    },
+    {
+      "entry_id": "frequency:1154",
+      "value": [
+        "Runden"
+      ],
+      "source": "Duden Online",
+      "url": "https://www.duden.de/rechtschreibung/Runde",
+      "note": "Runden is the standard plural; it also covers rounds of drinks."
+    },
+    {
+      "entry_id": "frequency:1158",
+      "value": [
+        "Lords"
+      ],
+      "source": "Duden Online",
+      "url": "https://www.duden.de/rechtschreibung/Lord",
+      "note": "Lords refers to people who hold the title; the title itself has no plural.",
+      "usage_note": "Use Lords for people with the title. The title Lord itself is normally singular-only."
+    }
+  ]
+}

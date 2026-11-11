@@ -1,0 +1,320 @@
+{
+  "batch_id": "v11-vocabulary-review-62",
+  "review_date": "2026-11-11",
+  "input_database_sha256": "6d1abfbd09751f5f8a4b746e1d96e84c99f6eb14d2a1bf3c44bc8a761f90778a",
+  "accepted_examples": [
+    {
+      "entry_id": "curated:lex-de-der-ablauf",
+      "german": "Können Sie den vorgesehenen Ablauf noch einmal erklären?",
+      "english": "Can you explain the planned procedure again?",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "curated:lex-de-aufzug",
+      "german": "Der Aufzug ist zwischen den Stockwerken stecken geblieben.",
+      "english": "The elevator is stuck between floors.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "curated:lex-de-bewerbung",
+      "german": "Wir wurden mit Bewerbungen um die Stelle überschwemmt.",
+      "english": "We were flooded with applications for the job.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "curated:lex-de-bleistift",
+      "german": "Kannst du mir einen anderen Bleistift holen?",
+      "english": "Can you get me another pencil?",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "curated:lexeme-de-a2-dart",
+      "german": "Ich wollte mit dir Dart spielen.",
+      "english": "I wanted to play darts with you.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "curated:lexeme-de-c2-feinheit",
+      "german": "Schau mal, mit welchen Feinheiten das Dach verziert ist!",
+      "english": "Look at the subtleties the roof is decorated with!",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "curated:lex-de-freundin",
+      "german": "Ich übernachte heute bei einer Freundin.",
+      "english": "I'm spending tonight at a friend's.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "curated:lexeme-de-c2-gratwanderung",
+      "german": "Man darf sein Kind nicht vernachlässigen, muss es aber auch zu Freiheit und Selbständigkeit erziehen – das ist immer eine Gratwanderung.",
+      "english": "You mustn’t neglect your child, but you must also raise it to be free and independent – this is always a balancing act.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "curated:lex-de-heft",
+      "german": "Zuerst versuchte ich, alles in meinem Heft aufzuschreiben.",
+      "english": "At first I tried to write everything down in my notebook.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "curated:lexeme-de-c2-inbegriff",
+      "german": "Die Stadt Bordeaux gilt als ein Inbegriff der französischen Weinkultur.",
+      "english": "The city of Bordeaux is regarded as an epitome of French wine culture.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "curated:lex-de-klasse",
+      "german": "Wie viele Schüler gibt es in deiner Klasse?",
+      "english": "How many students are there in your class?",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "curated:lexeme-de-c2-konsens",
+      "german": "Es scheint da keinen Konsens zu geben.",
+      "english": "There doesn't seem to be consensus on this.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "curated:lex-de-das-kriterium",
+      "german": "Nach welchen Kriterien entscheidest du, wen du wählst?",
+      "english": "What criteria do you use in deciding who to vote for?",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "curated:lex-de-lehrer",
+      "german": "Es gibt an unserer Schule viele gute Lehrer.",
+      "english": "There are a lot of good teachers at our school.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "curated:lex-de-der-massstab",
+      "german": "Du solltest deine Maßstäbe herunterschrauben.",
+      "english": "You should lower your standards.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "curated:lex-de-der-nachweis",
+      "german": "Ich werde den Nachweis dafür erbringen.",
+      "english": "I will provide proof of this.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "curated:lex-de-sessel",
+      "german": "Tom zeigte auf den Sessel neben dem seinen.",
+      "english": "Tom pointed to the chair next to his.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "curated:lex-de-sitzplatz",
+      "german": "Ich habe mir einen Sitzplatz gesucht.",
+      "english": "I found myself a place to sit.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "curated:lex-de-stift",
+      "german": "Der Stift, mit dem ich schreibe, gehört Tom.",
+      "english": "The pen I'm writing with belongs to Tom.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "curated:lex-de-termin",
+      "german": "Ich nahm ein Taxi, um pünktlich zum Termin zu kommen.",
+      "english": "I took a taxi so I'd be in time for the appointment.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "curated:lex-de-die-verbesserung",
+      "german": "Wir werden solange etwas an den Einstellungen ändern, bis eine Verbesserung eintritt.",
+      "english": "We will change the settings until an improvement occurs.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "curated:lex-de-voraussetzung",
+      "german": "Es gibt Voraussetzungen.",
+      "english": "There are conditions.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "curated:lex-de-vorgehen",
+      "german": "Mein Vorgehen hat Tom nie gefallen.",
+      "english": "Tom never liked the way I did things.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "curated:56cd7948-b81a-79ff-ff64-4bbb50a82791",
+      "german": "Tom und ich leben im selben Wohnhaus.",
+      "english": "Tom and I live in the same apartment building.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "curated:lex-de-das-ziel",
+      "german": "Tom wird vor nichts haltmachen, um sein Ziel zu erreichen.",
+      "english": "Tom will stop at nothing to achieve his goal.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "curated:lex-de-die-zusage",
+      "german": "Tom hat seine Zusage anscheinend nicht eingehalten.",
+      "english": "Tom apparently didn't do what he said he would do.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "curated:lex-de-abstrakt",
+      "german": "Als der erste abstrakte Expressionist gilt JMW Turner.",
+      "english": "The first abstract expressionist is JMW Turner.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "curated:lexeme-de-c2-akribisch",
+      "german": "Er erledigte diese Arbeit akribisch.",
+      "english": "He did this work meritically.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "curated:lex-de-alleine",
+      "german": "Wir lieben uns, und nur das alleine zählt.",
+      "english": "We love each other and that's all that matters.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "curated:lex-de-angemessen",
+      "german": "Tom findet, dass der Preis angemessen ist.",
+      "english": "Tom thinks this price is reasonable.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "curated:lexeme-de-c1-aufschlussreich",
+      "german": "Der Artikel war gut recherchiert und aufschlussreich.",
+      "english": "The article was well researched and insightful.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "curated:lex-de-ausdrucklich",
+      "german": "Wer eine ausdrückliche Warnung missachtet, muss sich nicht wundern, wenn ihm etwas zustößt.",
+      "english": "Anyone who disregards an explicit warning does not have to be surprised if something happens to him.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "curated:lex-de-aushandeln",
+      "german": "Die beiden Länder haben einen Vertrag ausgehandelt.",
+      "english": "The two countries negotiated a treaty.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "curated:lex-de-bedeutsam",
+      "german": "Wissenschaftler sehen die Entdeckung als bedeutsam an.",
+      "english": "Scientists regard the discovery as important.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "curated:lex-de-behandeln",
+      "german": "Wir werden dieses Problem im dritten Kapitel behandeln.",
+      "english": "We'll deal with this problem in Chapter 3.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "curated:lexeme-de-c2-bekraeftigen",
+      "german": "In seiner Eröffnungsrede bekräftigte der Geschäftsinhaber seine Absichten, weitere Filialen zu errichten.",
+      "english": "In his opening speech, the business owner reaffirmed his intentions to establish further branches.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "curated:lex-de-belastend",
+      "german": "Der berufliche Druck ist sehr belastend.",
+      "english": "Vocational pressure is very burdensome.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    }
+  ],
+  "editorial_examples": [
+    {
+      "entry_id": "curated:lex-de-der-aufwand",
+      "german": "Bitte keinen unnötigen Aufwand treiben.",
+      "english": "Please don’t go to any unnecessary trouble.",
+      "note": "Corrected the awkward literal translation and made the expression idiomatic."
+    },
+    {
+      "entry_id": "curated:lex-de-die-ausdauer",
+      "german": "Mit viel Ausdauer lernte sie jeden Tag Klavier.",
+      "english": "She practiced piano every day with great perseverance.",
+      "note": "Replaced an oddly coercive example with a clear sentence about persistence."
+    },
+    {
+      "entry_id": "curated:lex-de-die-bahn",
+      "german": "Ich fahre morgen mit der Bahn nach Berlin.",
+      "english": "I’m taking the train to Berlin tomorrow.",
+      "note": "Replaced a source sentence that used Hahn (rooster), not Bahn (train/rail)."
+    },
+    {
+      "entry_id": "curated:lex-de-der-einwand",
+      "german": "Niemand hatte einen Einwand gegen seine Wahl zum Vorsitzenden.",
+      "english": "Nobody objected to his election as chair.",
+      "note": "Made the English concise and more faithful to the noun Einwand."
+    },
+    {
+      "entry_id": "curated:lex-de-fleisch",
+      "german": "Fleisch muss richtig gekühlt werden.",
+      "english": "Meat needs to be kept properly chilled.",
+      "note": "Replaced a graphic hunting example with a neutral everyday sentence."
+    },
+    {
+      "entry_id": "curated:lex-de-die-folgerung",
+      "german": "Jede Folgerung, die wir aus unseren Beobachtungen ziehen, ist meist voreilig.",
+      "english": "Any conclusion we draw from our observations is usually premature.",
+      "note": "Corrected consequence to conclusion for the logical-inference sense."
+    },
+    {
+      "entry_id": "curated:lexeme-de-c2-gespuer",
+      "german": "Sein Gespür hat ihn nicht betrogen.",
+      "english": "His instincts did not let him down.",
+      "note": "Corrected the English idiom while preserving the German sense."
+    },
+    {
+      "entry_id": "curated:lex-de-gesuch",
+      "german": "Der Student stellte ein vernünftiges Gesuch.",
+      "english": "The student submitted a reasonable application.",
+      "note": "Corrected the German collocation: one stellt ein Gesuch, rather than macht ein Gesuch."
+    },
+    {
+      "entry_id": "curated:lex-de-hose",
+      "german": "Die Hose ist zu kurz.",
+      "english": "The trousers are too short.",
+      "note": "Replaced an idiom-only example with a clear literal use of the clothing noun."
+    },
+    {
+      "entry_id": "curated:lex-de-leistungsfahigkeit",
+      "german": "Regelmäßige Bewegung steigert die körperliche Leistungsfähigkeit.",
+      "english": "Regular exercise improves physical performance.",
+      "note": "Replaced an unnatural literal example with a natural sentence for the noun."
+    },
+    {
+      "entry_id": "curated:lexeme-de-c1-spielraum",
+      "german": "Bei dieser Entscheidung gibt es noch Spielraum.",
+      "english": "There is still room for maneuver in this decision.",
+      "note": "Replaced an opaque source sentence and mistranslation with a concise example."
+    },
+    {
+      "entry_id": "curated:lexeme-de-c1-stellenwert",
+      "german": "Gutes Aussehen hat für sie einen hohen Stellenwert.",
+      "english": "Good looks are very important to her.",
+      "note": "Corrected the English meaning and made the German word order natural."
+    },
+    {
+      "entry_id": "curated:lex-de-zusammenhang",
+      "german": "Zwischen den beiden Ereignissen besteht ein enger Zusammenhang.",
+      "english": "There is a close connection between the two events.",
+      "note": "Replaced a murder-related example with a neutral sentence showing the same sense."
+    }
+  ],
+  "entry_updates": [
+    {
+      "entry_id": "curated:lex-de-hose",
+      "field": "meaning",
+      "value": "trousers; pants (the garment worn on the lower body)",
+      "source": "Duden; Verbwerk example review",
+      "url": "https://www.duden.de/rechtschreibung/Hose",
+      "note": "Clarified the literal clothing sense used by the new example; removed the idiom-only ambiguity."
+    }
+  ],
+  "plural_reviews": []
+}

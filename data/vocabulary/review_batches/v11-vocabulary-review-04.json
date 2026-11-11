@@ -1,0 +1,42 @@
+{
+  "batch_id": "v11-vocabulary-review-04",
+  "review_date": "2026-11-11",
+  "input_database_sha256": "b971ce9300683cd85efa6ba6e5e7c5eae171c606f62b69b5b395e442e704fe64",
+  "accepted_examples": [
+    {"entry_id":"frequency:333","german":"Tom hat bei der Klausur in Geschichte geschummelt.","english":"Tom cheated on the history exam.","note":"Geschichte is used in the history subject sense."},
+    {"entry_id":"frequency:359","german":"Dies ist weder die Zeit noch der Ort.","english":"This isn't the time or the place.","note":"Ort means place/location in this sentence."},
+    {"entry_id":"frequency:360","german":"Er fährt manchmal mit dem Auto zur Arbeit.","english":"He sometimes goes to work by car.","note":"manchmal means sometimes."},
+    {"entry_id":"frequency:362","german":"Wo wart ihr zwischen ein und drei Uhr?","english":"Where were you between one and three o'clock?","note":"zwischen expresses the time interval between one and three."},
+    {"entry_id":"frequency:365","german":"Die Eltern spielen ein Spiel mit ihren Kindern.","english":"The parents are playing a game with their children.","note":"Spiel means a game in this example."},
+    {"entry_id":"frequency:366","german":"Tom flehte Mary um eine andere Chance an.","english":"Tom begged Mary for another chance.","note":"Chance means an opportunity in this context."},
+    {"entry_id":"curated:lex-de-wichtig","german":"Es ist wichtig, viele Bücher zu lesen.","english":"It's important to read a lot of books.","note":"wichtig means important; the translation conveys the same clause."},
+    {"entry_id":"frequency:372","german":"Er hat von uns allen am wenigsten Geld.","english":"He has the least money of us all.","note":"allen is an inflected form meaning all of us in the dative phrase von uns allen."},
+    {"entry_id":"curated:lex-de-bett","german":"Das ist das Bett, in dem Tom schläft.","english":"This is the bed that Tom sleeps in.","note":"Bett means bed in the example."},
+    {"entry_id":"curated:lex-de-schlecht","german":"Er ist schlecht in Chemie.","english":"He is poor at chemistry.","note":"schlecht has the intended poor/bad-quality sense here."},
+    {"entry_id":"curated:lex-de-schule","german":"Heutzutage lernen die Kinder in der Schule schwimmen.","english":"Nowadays, children learn to swim in school.","note":"Schule means school in this sentence."},
+    {"entry_id":"frequency:376","german":"Denkt ihr nicht, dass ich eine Entschuldigung verdiene?","english":"Don't you think I deserve an apology?","note":"Entschuldigung means apology in this context."},
+    {"entry_id":"curated:lex-de-wort","german":"Soweit ich weiß, gibt es kein solches Wort.","english":"As far as I know, there is no such word.","note":"Wort means a word/linguistic unit."},
+    {"entry_id":"curated:lex-de-schlafen","german":"Tom machte die Augen zu und schlief ein.","english":"Tom closed his eyes and fell asleep.","note":"schlief is a past-tense form of schlafen, used in the literal sleep sense."},
+    {"entry_id":"frequency:381","german":"Tom wusch sich die Hände und das Gesicht.","english":"Tom washed his hands and face.","note":"Gesicht means face in this sentence."}
+  ],
+  "entry_updates": [
+    {"entry_id":"frequency:372","field":"meaning","value":"all (inflected form of alle; dative plural here)","source":"Duden Online","url":"https://www.duden.de/rechtschreibung/alle","note":"Corrected the incorrect genitive-singular gloss; allen is an inflected form and the example uses dative plural von uns allen."}
+  ],
+  "plural_reviews": [
+    {"entry_id":"frequency:113","value":["Götter"],"source":"Duden Online","url":"https://www.duden.de/rechtschreibung/Gott","note":"Götter is the plural for individual deities; the monotheistic sense is normally singular-only.","usage_note":"Use Götter for multiple deities. In the monotheistic sense, Gott has no plural."},
+    {"entry_id":"frequency:191","value":["Momente"],"source":"Duden Online","url":"https://www.duden.de/rechtschreibung/Moment_Zeitpunkt","note":"The time-point sense has plural Momente."},
+    {"entry_id":"frequency:192","value":["Jungen","Jungens","Jungs"],"source":"Duden Online","url":"https://www.duden.de/rechtschreibung/Junge","note":"Jungen is standard; Jungens and Jungs are colloquial regional alternatives.","usage_note":"Standard plural: Jungen. Jungens and Jungs are colloquial, especially regional alternatives."},
+    {"entry_id":"frequency:195","value":["Musiken"],"source":"Duden Online","url":"https://www.duden.de/rechtschreibung/Musik","note":"Duden lists Musiken but marks plural use rare and the everyday music-as-sound sense as without plural.","usage_note":"Musik is normally uncountable in the everyday sense. Duden lists the rare plural Musiken; do not treat it as the ordinary plural for music generally."},
+    {"entry_id":"frequency:231","value":["Fälle"],"source":"Duden Online","url":"https://www.duden.de/rechtschreibung/Fall_Sache","note":"Fälle is correct for cases/instances; the act of falling is often singular-only.","usage_note":"Use Fälle for cases or instances. The meaning 'the act of falling' is usually singular-only."},
+    {"entry_id":"frequency:242","value":["Babys"],"source":"Duden Online","url":"https://www.duden.de/rechtschreibung/Baby","note":"Duden gives Babys as the plural for infants."},
+    {"entry_id":"frequency:258","value":["Dinge","Dinger"],"source":"Duden Online","url":"https://www.duden.de/rechtschreibung/Ding_Gegenstand","note":"Dinge is the standard plural; Dinger is colloquial and sense-restricted.","usage_note":"Dinge is the usual plural. Dinger is colloquial, especially for unspecified objects or people described dismissively."},
+    {"entry_id":"frequency:359","value":["Orte","Örter"],"source":"Duden Online","url":"https://www.duden.de/rechtschreibung/Ort_Platz","note":"Orte is the ordinary plural; Örter is limited to nautical, mathematical and related technical usage.","usage_note":"Use Orte for everyday places. Örter is a technical alternative, especially in nautical or mathematical contexts."},
+    {"entry_id":"frequency:369","value":"Plural-only in the menstruation sense","source":"Duden Online","url":"https://www.duden.de/rechtschreibung/Tag_Zeiteinheit","note":"Duden marks the euphemistic menstruation sense of Tage as plural-only."},
+    {"entry_id":"frequency:378","value":["Typen"],"source":"Duden Online","url":"https://www.duden.de/rechtschreibung/Typ","note":"Typen is the plural for the category/person senses."},
+    {"entry_id":"frequency:381","value":["Gesichter"],"source":"Duden Online","url":"https://www.duden.de/rechtschreibung/Gesicht_Miene","note":"Gesichter is the plural for faces and people described as familiar or unfamiliar faces."},
+    {"entry_id":"frequency:385","value":["Teile"],"source":"Duden Online","url":"https://www.duden.de/rechtschreibung/Teil","note":"Teile is the plural for parts or pieces."},
+    {"entry_id":"frequency:393","value":"Plural-only","source":"Duden Online","url":"https://www.duden.de/rechtschreibung/Eltern","note":"Eltern is a plural-only noun."},
+    {"entry_id":"frequency:395","value":["Herzen"],"source":"Duden Online","url":"https://www.duden.de/rechtschreibung/Herz","note":"Herzen is the standard plural for the organ, feeling and heart-shaped object senses; playing-card suit has a separate use.","usage_note":"The ordinary plural is Herzen. For the card suit, Duden also records a separate plural use Herz."},
+    {"entry_id":"frequency:425","value":["Pläne"],"source":"Duden Online","url":"https://www.duden.de/rechtschreibung/Plan_Vorhaben","note":"Pläne is the plural for plans or projects."}
+  ]
+}

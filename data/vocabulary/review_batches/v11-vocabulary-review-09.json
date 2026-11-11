@@ -1,0 +1,555 @@
+{
+  "batch_id": "v11-vocabulary-review-09",
+  "review_date": "2026-11-11",
+  "input_database_sha256": "c3fd732f266c187baeeef8da0531bb016112408391ab4924650d99409ca67d1a",
+  "accepted_examples": [
+    {
+      "entry_id": "frequency:562",
+      "german": "Hast du den neuen Boss getroffen?",
+      "english": "Have you met the new boss?",
+      "note": "Boss refers to a supervisor or person in charge."
+    },
+    {
+      "entry_id": "frequency:563",
+      "german": "Es ist schön, Ihre Stimme wieder zu hören.",
+      "english": "It's great to hear your voice again.",
+      "note": "Stimme means a person's speaking voice here."
+    },
+    {
+      "entry_id": "frequency:564",
+      "german": "Tom und Maria waren im Wagen sehr still.",
+      "english": "Tom and Mary were very quiet in the car.",
+      "note": "still describes people being quiet, matching the adjective sense."
+    },
+    {
+      "entry_id": "frequency:566",
+      "german": "Warum setzen Sie sich nicht und entspannen sich?",
+      "english": "Why don't you sit down and relax?",
+      "note": "sich setzen means to sit down; the reflexive form is explicit."
+    },
+    {
+      "entry_id": "frequency:568",
+      "german": "Sie waren zu müde, um zu kämpfen.",
+      "english": "They were too tired to fight.",
+      "note": "kämpfen is used as the plain infinitive meaning to fight."
+    },
+    {
+      "entry_id": "frequency:569",
+      "german": "Was willst du für das ganze Zeug haben?",
+      "english": "How much do you want for all this stuff?",
+      "note": "Zeug is used colloquially for a collection of things or stuff."
+    },
+    {
+      "entry_id": "frequency:575",
+      "german": "In diesem Sommer ist es unglaublich heiß.",
+      "english": "This summer is incredibly hot.",
+      "note": "unglaublich intensifies the adjective heiß and means incredibly."
+    },
+    {
+      "entry_id": "frequency:577",
+      "german": "Rücksichtsloses Fahren kann schnell zu einem Unfall führen.",
+      "english": "Reckless driving can easily lead to an accident.",
+      "note": "führen zu means to lead to or result in."
+    },
+    {
+      "entry_id": "frequency:581",
+      "german": "Ich glaube nicht, dass Tom der Mörder ist.",
+      "english": "I don't believe Tom is the killer.",
+      "note": "Mörder names the person who committed a murder; the noun meaning is clear from context."
+    },
+    {
+      "entry_id": "frequency:584",
+      "german": "Es gibt auf der Insel nur ein Geschäft.",
+      "english": "There's only one store on the island.",
+      "note": "Geschäft means a shop or store in this sentence."
+    },
+    {
+      "entry_id": "frequency:585",
+      "german": "Sehe ich für dich wie ein Idiot aus?",
+      "english": "Do I look like an idiot to you?",
+      "note": "Idi(o)t is used as a noun referring to a person; this is colloquial and insulting language."
+    },
+    {
+      "entry_id": "frequency:586",
+      "german": "Ich bitte dich um Verzeihung.",
+      "english": "I ask your forgiveness.",
+      "note": "Verzeihung is the noun meaning forgiveness in the phrase um Verzeihung bitten."
+    },
+    {
+      "entry_id": "frequency:588",
+      "german": "Du und ich, wir sind ein gutes Team.",
+      "english": "You and I make a good team.",
+      "note": "Team is used as a straightforward count noun."
+    },
+    {
+      "entry_id": "frequency:589",
+      "german": "Er wurde zum General befördert.",
+      "english": "He was advanced to the rank of general.",
+      "note": "General refers to a military rank in this sentence."
+    },
+    {
+      "entry_id": "frequency:591",
+      "german": "Ich hörte nur den Schluss von Toms Rede.",
+      "english": "I only heard the end of Tom's speech.",
+      "note": "Schluss means the end of a speech here."
+    },
+    {
+      "entry_id": "frequency:594",
+      "german": "Du bist perfekt, so wie du bist.",
+      "english": "You're perfect the way you are.",
+      "note": "perfekt is a predicative adjective after bist."
+    },
+    {
+      "entry_id": "frequency:600",
+      "german": "Es sind dringend Friedensgespräche nötig.",
+      "english": "There is an urgent need for peace talks.",
+      "note": "nötig means necessary or needed; dringend contributes the urgent meaning."
+    }
+  ],
+  "held_examples": [
+    {
+      "entry_id": "frequency:562",
+      "german": "Er ist seinem Boss gegenüber loyal.",
+      "reason": "Valid but more abstract; the selected short question demonstrates the supervisor sense more directly."
+    },
+    {
+      "entry_id": "frequency:563",
+      "german": "Es ist schön, deine Stimme wieder zu hören.",
+      "reason": "Valid near-duplicate of the selected example; keep one primary pair."
+    },
+    {
+      "entry_id": "frequency:564",
+      "german": "Seit du weg bist, ist hier alles still.",
+      "reason": "Valid, but the selected sentence gives a shorter, concrete use for quiet people."
+    },
+    {
+      "entry_id": "frequency:566",
+      "german": "Wir haben keinen Platz, um uns zu setzen.",
+      "reason": "Valid, but the selected example more clearly shows sich setzen as an invitation to sit down."
+    },
+    {
+      "entry_id": "frequency:568",
+      "german": "Ethnische Minderheiten kämpfen mit Vorurteilen, Armut und Unterdrückung.",
+      "reason": "Valid, but it is abstract and more complex than the selected direct sentence."
+    },
+    {
+      "entry_id": "frequency:569",
+      "german": "Wieviel von diesem Zeug hast du selbst gekauft?",
+      "reason": "The standard spelling is wie viel (two words); the selected candidate is a clearer sale context."
+    },
+    {
+      "entry_id": "frequency:575",
+      "german": "Die Schlange vor dem Kartenverkauf war unglaublich lang.",
+      "reason": "Valid, but less concise; the selected sentence uses a common adjective combination."
+    },
+    {
+      "entry_id": "frequency:577",
+      "german": "Zu viel Stress kann zu physischer Krankheit führen.",
+      "reason": "The collocation physische Krankheit is less natural than the selected example's Unfall."
+    },
+    {
+      "entry_id": "frequency:581",
+      "german": "Ich hätte Tom nicht für den Mörder gehalten.",
+      "reason": "Valid, but the selected sentence is shorter and more direct."
+    },
+    {
+      "entry_id": "frequency:584",
+      "german": "Es ist das Einzige, das es im Geschäft gibt.",
+      "reason": "The context is unclear and the sentence is less natural as an isolated learner example."
+    },
+    {
+      "entry_id": "frequency:585",
+      "german": "Was denkt der Idiot, wo er hin geht?",
+      "reason": "The selected example is more natural and less needlessly insulting in its conversational context."
+    },
+    {
+      "entry_id": "frequency:586",
+      "german": "Du musst zu Tom gehen und ihn um Verzeihung bitten.",
+      "reason": "Valid but longer and less direct than the selected example."
+    },
+    {
+      "entry_id": "frequency:588",
+      "german": "Wen willst du noch in deinem Team haben?",
+      "reason": "Valid but the selected sentence is simpler and self-contained."
+    },
+    {
+      "entry_id": "frequency:589",
+      "german": "Ein General ist ein hochrangiger Militäroffizier.",
+      "reason": "The definition-like sentence is tautological; the selected sentence shows the rank in context."
+    },
+    {
+      "entry_id": "frequency:591",
+      "german": "Wie bist du zu diesem Schluss gelangt?",
+      "reason": "This is the conclusion sense; the selected sentence targets the entry's end/finish gloss."
+    },
+    {
+      "entry_id": "frequency:594",
+      "german": "Sie sind perfekt, so wie Sie sind.",
+      "reason": "Valid near-duplicate of the selected example; keep one primary pair."
+    },
+    {
+      "entry_id": "frequency:560",
+      "german": "Es kam nicht so, wie Tom erwartet hatte.",
+      "reason": "erwartet is part of the past-perfect verb form hatte erwartet here, not the target attributive adjective."
+    },
+    {
+      "entry_id": "frequency:560",
+      "german": "Es war nicht das, was Tom erwartet hatte.",
+      "reason": "This also uses the past-perfect verb form, not the target adjective."
+    },
+    {
+      "entry_id": "frequency:561",
+      "german": "Der Ball rollte am Boden auf mich zu.",
+      "reason": "This illustrates the surface/ground sense, while the entry gloss specifically includes soil; an original soil example replaces it."
+    },
+    {
+      "entry_id": "frequency:561",
+      "german": "Er ließ die Wurst auf den Boden fallen.",
+      "reason": "This illustrates the surface/ground sense, while the entry gloss specifically includes soil; an original soil example replaces it."
+    },
+    {
+      "entry_id": "frequency:565",
+      "german": "Hier bei mir bist du in Sicherheit.",
+      "reason": "This means you are safe/in safety, not certainty, which is the current entry gloss."
+    },
+    {
+      "entry_id": "frequency:567",
+      "german": "Er lebt von der Hand in den Mund.",
+      "reason": "This is the idiom live hand to mouth and does not teach the literal body-part sense clearly."
+    },
+    {
+      "entry_id": "frequency:567",
+      "german": "Tom lebt von der Hand in den Mund.",
+      "reason": "This is the same idiom and does not teach the literal body-part sense clearly."
+    },
+    {
+      "entry_id": "frequency:571",
+      "german": "Ich kann Tom mich nicht einfach umbringen lassen.",
+      "reason": "The word order is awkward and less suitable for a learner example."
+    },
+    {
+      "entry_id": "frequency:571",
+      "german": "Wenn Sie Tom umbringen, bringe ich Sie um.",
+      "reason": "The meaning is clear but the threat context is unnecessarily aggressive for the primary learner example."
+    },
+    {
+      "entry_id": "frequency:593",
+      "german": "Du hast bekommen, was du verdient hast.",
+      "reason": "verdient is used as a verbal participle in the perfect tense, not as the target adjective."
+    },
+    {
+      "entry_id": "frequency:593",
+      "german": "Er hat bekommen, was er verdient hat.",
+      "reason": "verdient is used as a verbal participle in the perfect tense, not as the target adjective."
+    },
+    {
+      "entry_id": "frequency:595",
+      "german": "Versprechen Sie mir, das nie wieder zu tun!",
+      "reason": "Versprechen is an imperative verb here, not the noun meaning a promise."
+    },
+    {
+      "entry_id": "frequency:595",
+      "german": "Versprechen Sie mir, dass Sie das tun werden!",
+      "reason": "Versprechen is an imperative verb here, not the noun meaning a promise."
+    }
+  ],
+  "editorial_examples": [
+    {
+      "entry_id": "frequency:560",
+      "german": "Die erwartete Lieferung ist noch nicht angekommen.",
+      "english": "The expected delivery hasn't arrived yet.",
+      "note": "Original attributive-adjective example for erwartet, avoiding the finite/perfect verb form.",
+      "evidence_url": "https://www.duden.de/rechtschreibung/erwartet"
+    },
+    {
+      "entry_id": "frequency:561",
+      "german": "Die Pflanzen wachsen gut in diesem Boden.",
+      "english": "The plants grow well in this soil.",
+      "note": "Original example for Boden in the soil sense, distinguishing it from a floor or surface.",
+      "evidence_url": "https://www.duden.de/rechtschreibung/Boden_Erdreich"
+    },
+    {
+      "entry_id": "frequency:565",
+      "german": "Absolute Sicherheit gibt es nicht.",
+      "english": "There is no absolute certainty.",
+      "note": "Original example for Sicherheit meaning certainty, not physical safety.",
+      "evidence_url": "https://www.duden.de/rechtschreibung/Sicherheit"
+    },
+    {
+      "entry_id": "frequency:567",
+      "german": "Bitte mach den Mund auf.",
+      "english": "Please open your mouth.",
+      "note": "Original literal example for Mund as the mouth of a person.",
+      "evidence_url": "https://www.duden.de/rechtschreibung/Mund"
+    },
+    {
+      "entry_id": "frequency:571",
+      "german": "Ich wollte die Fliege umbringen, aber sie flog weg.",
+      "english": "I wanted to kill the fly, but it flew away.",
+      "note": "Original simple transitive example for umbringen in a neutral everyday context.",
+      "evidence_url": "https://www.duden.de/rechtschreibung/umbringen"
+    },
+    {
+      "entry_id": "frequency:593",
+      "german": "Das war ein verdienter Sieg.",
+      "english": "That was a well-deserved victory.",
+      "note": "Original attributive-adjective example for verdient, not a finite verb or perfect-tense use.",
+      "evidence_url": "https://www.duden.de/rechtschreibung/verdient"
+    },
+    {
+      "entry_id": "frequency:595",
+      "german": "Er hat sein Versprechen gehalten.",
+      "english": "He kept his promise.",
+      "note": "Original example for Versprechen as a noun meaning a promise.",
+      "evidence_url": "https://www.duden.de/rechtschreibung/Versprechen"
+    }
+  ],
+  "entry_updates": [
+    {
+      "entry_id": "frequency:600",
+      "field": "word_class",
+      "value": "adjective",
+      "note": "nötig is an adjective meaning necessary/needed; dringend is the adverb in the example.",
+      "url": "https://www.duden.de/rechtschreibung/noetig"
+    },
+    {
+      "entry_id": "frequency:600",
+      "field": "meaning",
+      "value": "necessary; needed",
+      "note": "Correct the gloss so it matches nötig rather than dringend.",
+      "url": "https://www.duden.de/rechtschreibung/noetig"
+    },
+    {
+      "entry_id": "frequency:600",
+      "field": "usage",
+      "value": "Adjective meaning necessary or needed. In the example, dringend modifies nötige and supplies the meaning urgently.",
+      "note": "Clarifies the adjective/adverb distinction visible in this example.",
+      "url": "https://www.duden.de/rechtschreibung/noetig"
+    }
+  ],
+  "plural_reviews": [
+    {
+      "entry_id": "frequency:1348",
+      "value": [
+        "Stöcke",
+        "Stöcker"
+      ],
+      "source": "Duden and Wiktionary",
+      "url": "https://de.wiktionary.org/wiki/Stock#German",
+      "note": "Stöcke is the standard plural for the stick sense; Stöcker is an attested regional alternative.",
+      "usage_note": "Use Stöcke as the standard form for wooden sticks. Stöcker is a regional variant."
+    },
+    {
+      "entry_id": "frequency:1368",
+      "value": [
+        "Nachbarn"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Nachbar",
+      "note": "Nachbar is a weak masculine noun and forms the plural Nachbarn."
+    },
+    {
+      "entry_id": "frequency:1370",
+      "value": "Usually singular in the abstract 'best thing' sense",
+      "source": "Duden and Wiktionary",
+      "url": "https://www.duden.de/rechtschreibung/beste_Adjektiv",
+      "note": "Bestes is a substantivized superlative used chiefly as the singular das Beste. The forms Beste/Besten are declensional forms or refer to substantivized adjective uses, not a stable count plural for this abstract sense.",
+      "usage_note": "Usually singular when das Beste means the best thing. For several countable things, say die besten Dinge; die Besten commonly refers to the best people."
+    },
+    {
+      "entry_id": "frequency:1376",
+      "value": [
+        "Drehs",
+        "Drehe"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/deklination/substantive/Dreh",
+      "note": "Duden lists both Drehs and Drehe; the source does not mark either as wrong."
+    },
+    {
+      "entry_id": "frequency:1386",
+      "value": [
+        "Pistolen"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Pistole",
+      "note": "The regular plural of Pistole is Pistolen."
+    },
+    {
+      "entry_id": "frequency:1392",
+      "value": [
+        "Leos"
+      ],
+      "source": "Wiktionary",
+      "url": "https://de.wiktionary.org/wiki/Leo#German",
+      "note": "For this game-zone sense, the proper-noun-like game term takes the regular plural Leos."
+    },
+    {
+      "entry_id": "frequency:1395",
+      "value": [
+        "Gentlemen"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Gentleman",
+      "note": "Gentleman uses the borrowed plural Gentlemen."
+    },
+    {
+      "entry_id": "frequency:1414",
+      "value": [
+        "Stare"
+      ],
+      "source": "Wiktionary",
+      "url": "https://en.wiktionary.org/wiki/Star#German",
+      "note": "Star meaning a starling has the German plural Stare; do not use Stars, which is the plural for a celebrity or celestial star sense."
+    },
+    {
+      "entry_id": "frequency:1419",
+      "value": "No regular plural in the mail-as-mass-noun sense",
+      "source": "Duden and Wiktionary",
+      "url": "https://en.wiktionary.org/wiki/Post#German",
+      "note": "Post meaning mail or post is normally a mass noun. Posten is a different sense such as a position or sentry, not the plural of mail.",
+      "usage_note": "Usually singular when Post means mail. Posten belongs to other senses such as a job/position or guard post."
+    },
+    {
+      "entry_id": "frequency:1426",
+      "value": "No regular plural in the abstract magic sense",
+      "source": "Duden and Langenscheidt",
+      "url": "https://www.duden.de/rechtschreibung/Magie",
+      "note": "Duden gives only singular forms for abstract Magie; Langenscheidt labels the plural as absent.",
+      "usage_note": "Usually singular for magic as an abstract concept. Avoid Magien in general learner use."
+    },
+    {
+      "entry_id": "frequency:1428",
+      "value": [
+        "Fluchten"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Flucht_Linie",
+      "note": "The technical line/alignment sense is countable and forms Fluchten; the abstract escape sense is normally singular.",
+      "usage_note": "Fluchten means alignments/lines in this technical sense. The abstract sense of escape is normally singular."
+    },
+    {
+      "entry_id": "frequency:1468",
+      "value": [
+        "Kohlen"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Kohle",
+      "note": "Kohlen is the plural for separate pieces or kinds of coal; the material is commonly singular.",
+      "usage_note": "Kohle is usually singular as a mass noun; Kohlen can refer to pieces, supplies, or kinds of coal."
+    },
+    {
+      "entry_id": "frequency:1491",
+      "value": [
+        "Riesen"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Riese",
+      "note": "Riese forms the plural Riesen."
+    },
+    {
+      "entry_id": "frequency:1519",
+      "value": [
+        "Motoren"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Motor",
+      "note": "Motor forms the plural Motoren."
+    },
+    {
+      "entry_id": "frequency:1536",
+      "value": [
+        "Kisten"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Kiste",
+      "note": "Kiste forms the plural Kisten."
+    },
+    {
+      "entry_id": "frequency:1580",
+      "value": [
+        "Gifte"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Gift",
+      "note": "Gifte is the plural for distinct poisons or toxins; the generic substance is often singular."
+    },
+    {
+      "entry_id": "frequency:1581",
+      "value": [
+        "Töne"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Ton_Klang",
+      "note": "Ton meaning a sound or tone forms the plural Töne; this is distinct from Ton meaning clay."
+    },
+    {
+      "entry_id": "frequency:1597",
+      "value": [
+        "Röcke"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Rock_Kleidungsstueck",
+      "note": "Rock meaning a skirt forms the plural Röcke."
+    },
+    {
+      "entry_id": "frequency:1602",
+      "value": [
+        "Rosse",
+        "Rösser"
+      ],
+      "source": "Duden and declension reference",
+      "url": "https://www.korrekturen.de/flexion/deklination/Ross/",
+      "note": "Both forms are listed. Rösser is the common form; Rosse is literary or elevated.",
+      "usage_note": "Rösser is the usual plural; Rosse is a literary/elevated alternative."
+    },
+    {
+      "entry_id": "frequency:1603",
+      "value": [
+        "Wetter"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Wetter_Klima",
+      "note": "Wetter has an unchanged plural; the weather-as-condition sense is normally singular but count plurals can compare kinds or periods of weather.",
+      "usage_note": "Plural Wetter is possible for separate weather conditions or periods; ordinary weather is usually singular."
+    },
+    {
+      "entry_id": "frequency:1622",
+      "value": [
+        "Staaten"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Staat",
+      "note": "Staat forms the plural Staaten."
+    },
+    {
+      "entry_id": "frequency:1648",
+      "value": [
+        "Talente"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Talent",
+      "note": "Talent forms the plural Talente."
+    },
+    {
+      "entry_id": "frequency:1662",
+      "value": [
+        "Geschmäcker"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Geschmack",
+      "note": "Geschmäcker is used for distinct tastes or preferences; the entry retains the general taste gloss.",
+      "usage_note": "Geschmäcker refers to different tastes/preferences. The singular may mean the sense of taste or a particular preference."
+    },
+    {
+      "entry_id": "frequency:1666",
+      "value": [
+        "Peche"
+      ],
+      "source": "Duden and Wiktionary",
+      "url": "https://en.wiktionary.org/wiki/Pech#German",
+      "note": "Peche is the plural in the sticky pitch/resin sense. Pech meaning bad luck is normally singular.",
+      "usage_note": "This entry teaches Pech as pitch/resin, whose plural is Peche. Pech meaning bad luck is usually singular."
+    }
+  ]
+}

@@ -1,0 +1,1199 @@
+{
+  "schema_version": 1,
+  "pack_id": "verbwerk.wikidata.supplement.v1",
+  "entries": [
+    {
+      "id": "supplement-wikidata-L221973",
+      "concept_id": "wikidata-L221973",
+      "source_pack": "verbwerk_wikidata_supplement_v1",
+      "entry_kind": "vocabulary",
+      "lemma": "Handy",
+      "display_form": "das Handy",
+      "part_of_speech": "noun",
+      "article": "das",
+      "gender": "neuter",
+      "plural_forms": [
+        "die Handys"
+      ],
+      "forms": [
+        {
+          "surface": "das Handy",
+          "number": "sg",
+          "case": "nom",
+          "role": "core",
+          "tags": {}
+        },
+        {
+          "surface": "die Handys",
+          "number": "pl",
+          "case": "nom",
+          "role": "core",
+          "tags": {}
+        }
+      ],
+      "english_terms": [
+        {
+          "term": "mobile phone",
+          "lemma": "mobile phone",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "mobile phone",
+      "german_definition": "Tragbares Telefon für Anrufe, Nachrichten und andere digitale Funktionen.",
+      "german_examples": [
+        {
+          "sentence": "Mein Handy ist fast leer, deshalb lade ich es auf.",
+          "translation_language": "en",
+          "translation": "My phone is nearly out of battery, so I am charging it."
+        }
+      ],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "wikidata_lexeme_id": "L221973",
+        "wikidata_uri": "https://www.wikidata.org/entity/L221973",
+        "wikidata_license": "CC0-1.0",
+        "verbwerk_source_record": "v7:VW_ARTICLES:1",
+        "meaning_source": "Verbwerk v7"
+      },
+      "usage_note": "The usual German word for a mobile phone is Handy."
+    },
+    {
+      "id": "supplement-wikidata-L295829",
+      "concept_id": "wikidata-L295829",
+      "source_pack": "verbwerk_wikidata_supplement_v1",
+      "entry_kind": "vocabulary",
+      "lemma": "Tasche",
+      "display_form": "die Tasche",
+      "part_of_speech": "noun",
+      "article": "die",
+      "gender": "feminine",
+      "plural_forms": [
+        "die Taschen"
+      ],
+      "forms": [
+        {
+          "surface": "die Tasche",
+          "number": "sg",
+          "case": "nom",
+          "role": "core",
+          "tags": {}
+        },
+        {
+          "surface": "die Taschen",
+          "number": "pl",
+          "case": "nom",
+          "role": "core",
+          "tags": {}
+        }
+      ],
+      "english_terms": [
+        {
+          "term": "bag",
+          "lemma": "bag",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "bag",
+      "german_definition": "Behältnis, das man tragen und zum Aufbewahren oder Transportieren von Gegenständen benutzen kann.",
+      "german_examples": [
+        {
+          "sentence": "Meine Schlüssel sind in der Tasche.",
+          "translation_language": "en",
+          "translation": "My keys are in the bag."
+        }
+      ],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "wikidata_lexeme_id": "L295829",
+        "wikidata_uri": "https://www.wikidata.org/entity/L295829",
+        "wikidata_license": "CC0-1.0",
+        "verbwerk_source_record": "v7:VW_ARTICLES:2",
+        "meaning_source": "Verbwerk v7"
+      }
+    },
+    {
+      "id": "supplement-wikidata-L447511",
+      "concept_id": "wikidata-L447511",
+      "source_pack": "verbwerk_wikidata_supplement_v1",
+      "entry_kind": "vocabulary",
+      "lemma": "Wohnung",
+      "display_form": "die Wohnung",
+      "part_of_speech": "noun",
+      "article": "die",
+      "gender": "feminine",
+      "plural_forms": [
+        "die Wohnungen"
+      ],
+      "forms": [
+        {
+          "surface": "die Wohnung",
+          "number": "sg",
+          "case": "nom",
+          "role": "core",
+          "tags": {}
+        },
+        {
+          "surface": "die Wohnungen",
+          "number": "pl",
+          "case": "nom",
+          "role": "core",
+          "tags": {}
+        }
+      ],
+      "english_terms": [
+        {
+          "term": "apartment",
+          "lemma": "apartment",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "apartment",
+      "german_definition": "Räume, in denen eine Person oder eine Familie lebt.",
+      "german_examples": [
+        {
+          "sentence": "Wir suchen eine größere Wohnung.",
+          "translation_language": "en",
+          "translation": "We are looking for a larger apartment."
+        }
+      ],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "wikidata_lexeme_id": "L447511",
+        "wikidata_uri": "https://www.wikidata.org/entity/L447511",
+        "wikidata_license": "CC0-1.0",
+        "verbwerk_source_record": "v7:VW_ARTICLES:4",
+        "meaning_source": "Verbwerk v7"
+      }
+    },
+    {
+      "id": "supplement-wikidata-L24088",
+      "concept_id": "wikidata-L24088",
+      "source_pack": "verbwerk_wikidata_supplement_v1",
+      "entry_kind": "vocabulary",
+      "lemma": "Arbeit",
+      "display_form": "die Arbeit",
+      "part_of_speech": "noun",
+      "article": "die",
+      "gender": "feminine",
+      "plural_forms": [
+        "die Arbeiten"
+      ],
+      "forms": [
+        {
+          "surface": "die Arbeit",
+          "number": "sg",
+          "case": "nom",
+          "role": "core",
+          "tags": {}
+        },
+        {
+          "surface": "die Arbeiten",
+          "number": "pl",
+          "case": "nom",
+          "role": "core",
+          "tags": {}
+        }
+      ],
+      "english_terms": [
+        {
+          "term": "work",
+          "lemma": "work",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "work",
+      "german_definition": "Tätigkeit, für die man Zeit und Mühe aufwendet; oft als Beruf.",
+      "german_examples": [
+        {
+          "sentence": "Nach der Arbeit gehe ich nach Hause.",
+          "translation_language": "en",
+          "translation": "I go home after work."
+        }
+      ],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "wikidata_lexeme_id": "L24088",
+        "wikidata_uri": "https://www.wikidata.org/entity/L24088",
+        "wikidata_license": "CC0-1.0",
+        "verbwerk_source_record": "v7:VW_ARTICLES:6",
+        "meaning_source": "Verbwerk v7"
+      },
+      "usage_note": "Arbeit is usually uncountable when it means work in general. The plural Arbeiten can refer to tasks or pieces of work."
+    },
+    {
+      "id": "supplement-wikidata-L447529",
+      "concept_id": "wikidata-L447529",
+      "source_pack": "verbwerk_wikidata_supplement_v1",
+      "entry_kind": "vocabulary",
+      "lemma": "Beruf",
+      "display_form": "der Beruf",
+      "part_of_speech": "noun",
+      "article": "der",
+      "gender": "masculine",
+      "plural_forms": [
+        "die Berufe"
+      ],
+      "forms": [
+        {
+          "surface": "der Beruf",
+          "number": "sg",
+          "case": "nom",
+          "role": "core",
+          "tags": {}
+        },
+        {
+          "surface": "die Berufe",
+          "number": "pl",
+          "case": "nom",
+          "role": "core",
+          "tags": {}
+        }
+      ],
+      "english_terms": [
+        {
+          "term": "profession",
+          "lemma": "profession",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "profession",
+      "german_definition": "Dauerhafte Tätigkeit, mit der eine Person ihren Lebensunterhalt verdient oder eine berufliche Aufgabe erfüllt.",
+      "german_examples": [
+        {
+          "sentence": "Welchen Beruf möchtest du später ausüben?",
+          "translation_language": "en",
+          "translation": "What profession would you like to pursue later?"
+        }
+      ],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "wikidata_lexeme_id": "L447529",
+        "wikidata_uri": "https://www.wikidata.org/entity/L447529",
+        "wikidata_license": "CC0-1.0",
+        "verbwerk_source_record": "v7:VW_ARTICLES:7",
+        "meaning_source": "Verbwerk v7"
+      }
+    },
+    {
+      "id": "supplement-wikidata-L290392",
+      "concept_id": "wikidata-L290392",
+      "source_pack": "verbwerk_wikidata_supplement_v1",
+      "entry_kind": "vocabulary",
+      "lemma": "Rechnung",
+      "display_form": "die Rechnung",
+      "part_of_speech": "noun",
+      "article": "die",
+      "gender": "feminine",
+      "plural_forms": [
+        "die Rechnungen"
+      ],
+      "forms": [
+        {
+          "surface": "die Rechnung",
+          "number": "sg",
+          "case": "nom",
+          "role": "core",
+          "tags": {}
+        },
+        {
+          "surface": "die Rechnungen",
+          "number": "pl",
+          "case": "nom",
+          "role": "core",
+          "tags": {}
+        }
+      ],
+      "english_terms": [
+        {
+          "term": "bill / invoice",
+          "lemma": "bill / invoice",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "bill / invoice",
+      "german_definition": "Dokument, das die Kosten für gekaufte Waren oder erbrachte Dienstleistungen auflistet.",
+      "german_examples": [
+        {
+          "sentence": "Die Rechnung kommt heute per E-Mail.",
+          "translation_language": "en",
+          "translation": "The invoice will arrive by email today."
+        }
+      ],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "wikidata_lexeme_id": "L290392",
+        "wikidata_uri": "https://www.wikidata.org/entity/L290392",
+        "wikidata_license": "CC0-1.0",
+        "verbwerk_source_record": "v7:VW_ARTICLES:11",
+        "meaning_source": "Verbwerk v7"
+      }
+    },
+    {
+      "id": "supplement-wikidata-L872760",
+      "concept_id": "wikidata-L872760",
+      "source_pack": "verbwerk_wikidata_supplement_v1",
+      "entry_kind": "vocabulary",
+      "lemma": "Unterlage",
+      "display_form": "die Unterlage",
+      "part_of_speech": "noun",
+      "article": "die",
+      "gender": "feminine",
+      "plural_forms": [
+        "die Unterlagen"
+      ],
+      "forms": [
+        {
+          "surface": "die Unterlage",
+          "number": "sg",
+          "case": "nom",
+          "role": "core",
+          "tags": {}
+        },
+        {
+          "surface": "die Unterlagen",
+          "number": "pl",
+          "case": "nom",
+          "role": "core",
+          "tags": {}
+        }
+      ],
+      "english_terms": [
+        {
+          "term": "document / paperwork",
+          "lemma": "document / paperwork",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "document / paperwork",
+      "german_definition": "Dokument oder Papier, das für eine Information, einen Antrag oder eine Entscheidung gebraucht wird.",
+      "german_examples": [
+        {
+          "sentence": "Bitte bringen Sie alle Unterlagen zum Termin mit.",
+          "translation_language": "en",
+          "translation": "Please bring all the documents to the appointment."
+        }
+      ],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "wikidata_lexeme_id": "L872760",
+        "wikidata_uri": "https://www.wikidata.org/entity/L872760",
+        "wikidata_license": "CC0-1.0",
+        "verbwerk_source_record": "v7:VW_ARTICLES:15",
+        "meaning_source": "Verbwerk v7"
+      }
+    },
+    {
+      "id": "supplement-wikidata-L36351",
+      "concept_id": "wikidata-L36351",
+      "source_pack": "verbwerk_wikidata_supplement_v1",
+      "entry_kind": "vocabulary",
+      "lemma": "Entwicklung",
+      "display_form": "die Entwicklung",
+      "part_of_speech": "noun",
+      "article": "die",
+      "gender": "feminine",
+      "plural_forms": [
+        "die Entwicklungen"
+      ],
+      "forms": [
+        {
+          "surface": "die Entwicklung",
+          "number": "sg",
+          "case": "nom",
+          "role": "core",
+          "tags": {}
+        },
+        {
+          "surface": "die Entwicklungen",
+          "number": "pl",
+          "case": "nom",
+          "role": "core",
+          "tags": {}
+        }
+      ],
+      "english_terms": [
+        {
+          "term": "development",
+          "lemma": "development",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "development",
+      "german_definition": "Prozess, in dem etwas entsteht oder sich im Laufe der Zeit verändert.",
+      "german_examples": [
+        {
+          "sentence": "Die Entwicklung des Projekts läuft nach Plan.",
+          "translation_language": "en",
+          "translation": "The development of the project is on schedule."
+        }
+      ],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "wikidata_lexeme_id": "L36351",
+        "wikidata_uri": "https://www.wikidata.org/entity/L36351",
+        "wikidata_license": "CC0-1.0",
+        "verbwerk_source_record": "v7:VW_ARTICLES:19",
+        "meaning_source": "Verbwerk v7"
+      }
+    },
+    {
+      "id": "supplement-wikidata-L36349",
+      "concept_id": "wikidata-L36349",
+      "source_pack": "verbwerk_wikidata_supplement_v1",
+      "entry_kind": "vocabulary",
+      "lemma": "Unternehmen",
+      "display_form": "das Unternehmen",
+      "part_of_speech": "noun",
+      "article": "das",
+      "gender": "neuter",
+      "plural_forms": [
+        "die Unternehmen"
+      ],
+      "forms": [
+        {
+          "surface": "das Unternehmen",
+          "number": "sg",
+          "case": "nom",
+          "role": "core",
+          "tags": {}
+        },
+        {
+          "surface": "die Unternehmen",
+          "number": "pl",
+          "case": "nom",
+          "role": "core",
+          "tags": {}
+        }
+      ],
+      "english_terms": [
+        {
+          "term": "company",
+          "lemma": "company",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "company",
+      "german_definition": "Organisation, die Waren herstellt oder Dienstleistungen anbietet.",
+      "german_examples": [
+        {
+          "sentence": "Das Unternehmen sucht neue Mitarbeiter.",
+          "translation_language": "en",
+          "translation": "The company is looking for new employees."
+        }
+      ],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "wikidata_lexeme_id": "L36349",
+        "wikidata_uri": "https://www.wikidata.org/entity/L36349",
+        "wikidata_license": "CC0-1.0",
+        "verbwerk_source_record": "v7:VW_ARTICLES:20",
+        "meaning_source": "Verbwerk v7"
+      }
+    },
+    {
+      "id": "supplement-wikidata-L295764",
+      "concept_id": "wikidata-L295764",
+      "source_pack": "verbwerk_wikidata_supplement_v1",
+      "entry_kind": "vocabulary",
+      "lemma": "Mitarbeiter",
+      "display_form": "der Mitarbeiter",
+      "part_of_speech": "noun",
+      "article": "der",
+      "gender": "masculine",
+      "plural_forms": [
+        "die Mitarbeiter"
+      ],
+      "forms": [
+        {
+          "surface": "der Mitarbeiter",
+          "number": "sg",
+          "case": "nom",
+          "role": "core",
+          "tags": {}
+        },
+        {
+          "surface": "die Mitarbeiter",
+          "number": "pl",
+          "case": "nom",
+          "role": "core",
+          "tags": {}
+        }
+      ],
+      "english_terms": [
+        {
+          "term": "employee",
+          "lemma": "employee",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "employee",
+      "german_definition": "Person, die in einer Organisation oder an einer gemeinsamen Aufgabe mitarbeitet.",
+      "german_examples": [
+        {
+          "sentence": "Die Mitarbeiter treffen sich um neun Uhr.",
+          "translation_language": "en",
+          "translation": "The employees meet at nine o’clock."
+        }
+      ],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "wikidata_lexeme_id": "L295764",
+        "wikidata_uri": "https://www.wikidata.org/entity/L295764",
+        "wikidata_license": "CC0-1.0",
+        "verbwerk_source_record": "v7:VW_ARTICLES:21",
+        "meaning_source": "Verbwerk v7"
+      },
+      "usage_note": "This record uses the masculine form Mitarbeiter. The feminine form is Mitarbeiterin."
+    },
+    {
+      "id": "supplement-wikidata-L814659",
+      "concept_id": "wikidata-L814659",
+      "source_pack": "verbwerk_wikidata_supplement_v1",
+      "entry_kind": "vocabulary",
+      "lemma": "Besprechung",
+      "display_form": "die Besprechung",
+      "part_of_speech": "noun",
+      "article": "die",
+      "gender": "feminine",
+      "plural_forms": [
+        "die Besprechungen"
+      ],
+      "forms": [
+        {
+          "surface": "die Besprechung",
+          "number": "sg",
+          "case": "nom",
+          "role": "core",
+          "tags": {}
+        },
+        {
+          "surface": "die Besprechungen",
+          "number": "pl",
+          "case": "nom",
+          "role": "core",
+          "tags": {}
+        }
+      ],
+      "english_terms": [
+        {
+          "term": "meeting",
+          "lemma": "meeting",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "meeting",
+      "german_definition": "Geplantes Treffen, bei dem mehrere Personen Informationen austauschen oder etwas besprechen.",
+      "german_examples": [
+        {
+          "sentence": "Die Besprechung beginnt um neun Uhr.",
+          "translation_language": "en",
+          "translation": "The meeting starts at nine o’clock."
+        }
+      ],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "wikidata_lexeme_id": "L814659",
+        "wikidata_uri": "https://www.wikidata.org/entity/L814659",
+        "wikidata_license": "CC0-1.0",
+        "verbwerk_source_record": "v7:VW_ARTICLES:22",
+        "meaning_source": "Verbwerk v7"
+      }
+    },
+    {
+      "id": "supplement-wikidata-L429",
+      "concept_id": "wikidata-L429",
+      "source_pack": "verbwerk_wikidata_supplement_v1",
+      "entry_kind": "vocabulary",
+      "lemma": "Aufgabe",
+      "display_form": "die Aufgabe",
+      "part_of_speech": "noun",
+      "article": "die",
+      "gender": "feminine",
+      "plural_forms": [
+        "die Aufgaben"
+      ],
+      "forms": [
+        {
+          "surface": "die Aufgabe",
+          "number": "sg",
+          "case": "nom",
+          "role": "core",
+          "tags": {}
+        },
+        {
+          "surface": "die Aufgaben",
+          "number": "pl",
+          "case": "nom",
+          "role": "core",
+          "tags": {}
+        }
+      ],
+      "english_terms": [
+        {
+          "term": "task",
+          "lemma": "task",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "task",
+      "german_definition": "Arbeit oder Problem, das erledigt oder gelöst werden soll.",
+      "german_examples": [
+        {
+          "sentence": "Meine Aufgabe ist, den Bericht zu prüfen.",
+          "translation_language": "en",
+          "translation": "My task is to review the report."
+        }
+      ],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "wikidata_lexeme_id": "L429",
+        "wikidata_uri": "https://www.wikidata.org/entity/L429",
+        "wikidata_license": "CC0-1.0",
+        "verbwerk_source_record": "v7:VW_ARTICLES:24",
+        "meaning_source": "Verbwerk v7"
+      }
+    },
+    {
+      "id": "supplement-wikidata-L34160",
+      "concept_id": "wikidata-L34160",
+      "source_pack": "verbwerk_wikidata_supplement_v1",
+      "entry_kind": "vocabulary",
+      "lemma": "Fehler",
+      "display_form": "der Fehler",
+      "part_of_speech": "noun",
+      "article": "der",
+      "gender": "masculine",
+      "plural_forms": [
+        "die Fehler"
+      ],
+      "forms": [
+        {
+          "surface": "der Fehler",
+          "number": "sg",
+          "case": "nom",
+          "role": "core",
+          "tags": {}
+        },
+        {
+          "surface": "die Fehler",
+          "number": "pl",
+          "case": "nom",
+          "role": "core",
+          "tags": {}
+        }
+      ],
+      "english_terms": [
+        {
+          "term": "mistake",
+          "lemma": "mistake",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "mistake",
+      "german_definition": "Etwas, das falsch gemacht wurde, oder eine Abweichung vom richtigen Ergebnis.",
+      "german_examples": [
+        {
+          "sentence": "In diesem Text ist ein kleiner Fehler.",
+          "translation_language": "en",
+          "translation": "There is a small mistake in this text."
+        }
+      ],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "wikidata_lexeme_id": "L34160",
+        "wikidata_uri": "https://www.wikidata.org/entity/L34160",
+        "wikidata_license": "CC0-1.0",
+        "verbwerk_source_record": "v7:VW_ARTICLES:25",
+        "meaning_source": "Verbwerk v7"
+      }
+    },
+    {
+      "id": "supplement-wikidata-L833305",
+      "concept_id": "wikidata-L833305",
+      "source_pack": "verbwerk_wikidata_supplement_v1",
+      "entry_kind": "vocabulary",
+      "lemma": "zuständig",
+      "display_form": "zuständig",
+      "part_of_speech": "adj",
+      "article": null,
+      "gender": "none",
+      "plural_forms": [],
+      "forms": [],
+      "english_terms": [
+        {
+          "term": "responsible / in charge",
+          "lemma": "responsible / in charge",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "responsible / in charge",
+      "german_definition": "Für eine bestimmte Aufgabe oder einen bestimmten Bereich verantwortlich.",
+      "german_examples": [
+        {
+          "sentence": "Frau Keller ist für die Anmeldung zuständig.",
+          "translation_language": "en",
+          "translation": "Ms Keller is responsible for registration."
+        }
+      ],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "wikidata_lexeme_id": "L833305",
+        "wikidata_uri": "https://www.wikidata.org/entity/L833305",
+        "wikidata_license": "CC0-1.0",
+        "verbwerk_source_record": "v7:VW_WORDS:19",
+        "meaning_source": "Verbwerk v7"
+      },
+      "usage_note": "Common pattern: zuständig sein für + accusative."
+    },
+    {
+      "id": "supplement-wikidata-L344597",
+      "concept_id": "wikidata-L344597",
+      "source_pack": "verbwerk_wikidata_supplement_v1",
+      "entry_kind": "vocabulary",
+      "lemma": "erfolgreich",
+      "display_form": "erfolgreich",
+      "part_of_speech": "adj",
+      "article": null,
+      "gender": "none",
+      "plural_forms": [],
+      "forms": [],
+      "english_terms": [
+        {
+          "term": "successful",
+          "lemma": "successful",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "successful",
+      "german_definition": "Ein Ziel erreichend oder gute Ergebnisse erzielend.",
+      "german_examples": [
+        {
+          "sentence": "Unser Team war mit dem Projekt erfolgreich.",
+          "translation_language": "en",
+          "translation": "Our team was successful with the project."
+        }
+      ],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "wikidata_lexeme_id": "L344597",
+        "wikidata_uri": "https://www.wikidata.org/entity/L344597",
+        "wikidata_license": "CC0-1.0",
+        "verbwerk_source_record": "v7:VW_WORDS:20",
+        "meaning_source": "Verbwerk v7"
+      }
+    },
+    {
+      "id": "supplement-wikidata-L366643",
+      "concept_id": "wikidata-L366643",
+      "source_pack": "verbwerk_wikidata_supplement_v1",
+      "entry_kind": "vocabulary",
+      "lemma": "während",
+      "display_form": "während",
+      "part_of_speech": "preposition",
+      "article": null,
+      "gender": "none",
+      "plural_forms": [],
+      "forms": [],
+      "english_terms": [
+        {
+          "term": "during / while",
+          "lemma": "during / while",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "during / while",
+      "german_definition": "Leitet eine Zeitangabe ein und bedeutet, dass etwas in einem bestimmten Zeitraum geschieht.",
+      "german_examples": [
+        {
+          "sentence": "Während des Kurses machen wir eine kurze Pause.",
+          "translation_language": "en",
+          "translation": "We take a short break during the course."
+        }
+      ],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "wikidata_lexeme_id": "L366643",
+        "wikidata_uri": "https://www.wikidata.org/entity/L366643",
+        "wikidata_license": "CC0-1.0",
+        "verbwerk_source_record": "v7:VW_WORDS:24",
+        "meaning_source": "Verbwerk v7"
+      },
+      "usage_note": "In standard written German, während is commonly followed by the genitive: während des Kurses."
+    },
+    {
+      "id": "supplement-wikidata-L6737",
+      "concept_id": "wikidata-L6737",
+      "source_pack": "verbwerk_wikidata_supplement_v1",
+      "entry_kind": "vocabulary",
+      "lemma": "wegen",
+      "display_form": "wegen",
+      "part_of_speech": "preposition",
+      "article": null,
+      "gender": "none",
+      "plural_forms": [],
+      "forms": [],
+      "english_terms": [
+        {
+          "term": "because of (+ Genitive; Dative in colloquial usage)",
+          "lemma": "because of (+ Genitive; Dative in colloquial usage)",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "because of (+ Genitive; Dative in colloquial usage)",
+      "german_definition": "Gibt den Grund für eine Handlung oder einen Zustand an.",
+      "german_examples": [
+        {
+          "sentence": "Wegen des Wetters bleiben wir heute zu Hause.",
+          "translation_language": "en",
+          "translation": "Because of the weather, we are staying home today."
+        }
+      ],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "wikidata_lexeme_id": "L6737",
+        "wikidata_uri": "https://www.wikidata.org/entity/L6737",
+        "wikidata_license": "CC0-1.0",
+        "verbwerk_source_record": "v7:VW_WORDS:25",
+        "meaning_source": "Verbwerk v7"
+      },
+      "usage_note": "Standard written German usually uses the genitive after wegen; the dative is also common in everyday speech."
+    },
+    {
+      "id": "supplement-wikidata-L6739",
+      "concept_id": "wikidata-L6739",
+      "source_pack": "verbwerk_wikidata_supplement_v1",
+      "entry_kind": "vocabulary",
+      "lemma": "mit",
+      "display_form": "mit",
+      "part_of_speech": "preposition",
+      "article": null,
+      "gender": "none",
+      "plural_forms": [],
+      "forms": [],
+      "english_terms": [
+        {
+          "term": "with (+ Dative)",
+          "lemma": "with (+ Dative)",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "with (+ Dative)",
+      "german_definition": "Zeigt eine Begleitung, ein verwendetes Mittel oder ein gemeinsames Handeln an.",
+      "german_examples": [
+        {
+          "sentence": "Ich fahre mit dem Bus zur Arbeit.",
+          "translation_language": "en",
+          "translation": "I take the bus to work."
+        }
+      ],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "wikidata_lexeme_id": "L6739",
+        "wikidata_uri": "https://www.wikidata.org/entity/L6739",
+        "wikidata_license": "CC0-1.0",
+        "verbwerk_source_record": "v7:VW_WORDS:26",
+        "meaning_source": "Verbwerk v7"
+      },
+      "usage_note": "Mit takes the dative: mit dem Bus."
+    },
+    {
+      "id": "supplement-wikidata-L6732",
+      "concept_id": "wikidata-L6732",
+      "source_pack": "verbwerk_wikidata_supplement_v1",
+      "entry_kind": "vocabulary",
+      "lemma": "für",
+      "display_form": "für",
+      "part_of_speech": "preposition",
+      "article": null,
+      "gender": "none",
+      "plural_forms": [],
+      "forms": [],
+      "english_terms": [
+        {
+          "term": "for (+ Accusative)",
+          "lemma": "for (+ Accusative)",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "for (+ Accusative)",
+      "german_definition": "Zeigt, für wen oder wofür etwas bestimmt ist.",
+      "german_examples": [
+        {
+          "sentence": "Dieses Geschenk ist für dich.",
+          "translation_language": "en",
+          "translation": "This gift is for you."
+        }
+      ],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "wikidata_lexeme_id": "L6732",
+        "wikidata_uri": "https://www.wikidata.org/entity/L6732",
+        "wikidata_license": "CC0-1.0",
+        "verbwerk_source_record": "v7:VW_WORDS:27",
+        "meaning_source": "Verbwerk v7"
+      },
+      "usage_note": "Für takes the accusative: für dich."
+    },
+    {
+      "id": "supplement-wikidata-L815340",
+      "concept_id": "wikidata-L815340",
+      "source_pack": "verbwerk_wikidata_supplement_v1",
+      "entry_kind": "vocabulary",
+      "lemma": "sich bewerben",
+      "display_form": "sich bewerben",
+      "part_of_speech": "verb",
+      "article": null,
+      "gender": "none",
+      "plural_forms": [],
+      "forms": [],
+      "english_terms": [
+        {
+          "term": "to apply (for a job / position)",
+          "lemma": "to apply (for a job / position)",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "to apply (for a job / position)",
+      "german_definition": "Bei einer Organisation um eine Stelle oder einen Platz bitten.",
+      "german_examples": [
+        {
+          "sentence": "Sie bewirbt sich um eine Stelle bei einer Bank.",
+          "translation_language": "en",
+          "translation": "She is applying for a position at a bank."
+        }
+      ],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "wikidata_lexeme_id": "L815340",
+        "wikidata_uri": "https://www.wikidata.org/entity/L815340",
+        "wikidata_license": "CC0-1.0",
+        "verbwerk_source_record": "v7:VERBS:3",
+        "meaning_source": "Verbwerk v7"
+      },
+      "usage_note": "Reflexive verb: sich bewerben um + accusative (the position) and bei + dative (the organization)."
+    },
+    {
+      "id": "supplement-wikidata-L501341",
+      "concept_id": "wikidata-L501341",
+      "source_pack": "verbwerk_wikidata_supplement_v1",
+      "entry_kind": "vocabulary",
+      "lemma": "sich erinnern",
+      "display_form": "sich erinnern",
+      "part_of_speech": "verb",
+      "article": null,
+      "gender": "none",
+      "plural_forms": [],
+      "forms": [],
+      "english_terms": [
+        {
+          "term": "to remember",
+          "lemma": "to remember",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "to remember",
+      "german_definition": "Etwas wieder ins Gedächtnis rufen oder noch im Gedächtnis haben.",
+      "german_examples": [
+        {
+          "sentence": "Ich erinnere mich an unseren ersten Urlaub.",
+          "translation_language": "en",
+          "translation": "I remember our first holiday."
+        }
+      ],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "wikidata_lexeme_id": "L501341",
+        "wikidata_uri": "https://www.wikidata.org/entity/L501341",
+        "wikidata_license": "CC0-1.0",
+        "verbwerk_source_record": "v7:VERBS:6",
+        "meaning_source": "Verbwerk v7"
+      },
+      "usage_note": "Reflexive verb: sich erinnern an + accusative."
+    },
+    {
+      "id": "supplement-wikidata-L1569178",
+      "concept_id": "wikidata-L1569178",
+      "source_pack": "verbwerk_wikidata_supplement_v1",
+      "entry_kind": "vocabulary",
+      "lemma": "sich kümmern",
+      "display_form": "sich kümmern",
+      "part_of_speech": "verb",
+      "article": null,
+      "gender": "none",
+      "plural_forms": [],
+      "forms": [],
+      "english_terms": [
+        {
+          "term": "to take care of / look after",
+          "lemma": "to take care of / look after",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "to take care of / look after",
+      "german_definition": "Sich um eine Person oder Sache sorgen und dafür sorgen, dass sie gut versorgt wird.",
+      "german_examples": [
+        {
+          "sentence": "Er kümmert sich um die Kinder.",
+          "translation_language": "en",
+          "translation": "He takes care of the children."
+        }
+      ],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "wikidata_lexeme_id": "L1569178",
+        "wikidata_uri": "https://www.wikidata.org/entity/L1569178",
+        "wikidata_license": "CC0-1.0",
+        "verbwerk_source_record": "v7:VERBS:7",
+        "meaning_source": "Verbwerk v7"
+      },
+      "usage_note": "Reflexive verb: sich kümmern um + accusative."
+    },
+    {
+      "id": "supplement-wikidata-L477045",
+      "concept_id": "wikidata-L477045",
+      "source_pack": "verbwerk_wikidata_supplement_v1",
+      "entry_kind": "vocabulary",
+      "lemma": "gehören",
+      "display_form": "gehören",
+      "part_of_speech": "verb",
+      "article": null,
+      "gender": "none",
+      "plural_forms": [],
+      "forms": [],
+      "english_terms": [
+        {
+          "term": "to belong to",
+          "lemma": "to belong to",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "to belong to",
+      "german_definition": "Eigentum einer Person sein oder einer Person beziehungsweise Gruppe zugeordnet sein.",
+      "german_examples": [
+        {
+          "sentence": "Das Fahrrad gehört meiner Schwester.",
+          "translation_language": "en",
+          "translation": "The bicycle belongs to my sister."
+        }
+      ],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "wikidata_lexeme_id": "L477045",
+        "wikidata_uri": "https://www.wikidata.org/entity/L477045",
+        "wikidata_license": "CC0-1.0",
+        "verbwerk_source_record": "v7:VERBS:8",
+        "meaning_source": "Verbwerk v7"
+      },
+      "usage_note": "The person or owner is in the dative: meiner Schwester."
+    },
+    {
+      "id": "supplement-wikidata-L408869",
+      "concept_id": "wikidata-L408869",
+      "source_pack": "verbwerk_wikidata_supplement_v1",
+      "entry_kind": "vocabulary",
+      "lemma": "bald",
+      "display_form": "bald",
+      "part_of_speech": "adv",
+      "article": null,
+      "gender": "none",
+      "plural_forms": [],
+      "forms": [],
+      "english_terms": [
+        {
+          "term": "soon",
+          "lemma": "soon",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "soon",
+      "german_definition": "In kurzer Zeit; nicht lange von jetzt an.",
+      "german_examples": [
+        {
+          "sentence": "Bald beginnt der Film.",
+          "translation_language": "en",
+          "translation": "The film starts soon."
+        }
+      ],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "wikidata_lexeme_id": "L408869",
+        "wikidata_uri": "https://www.wikidata.org/entity/L408869",
+        "wikidata_license": "CC0-1.0",
+        "verbwerk_source_record": null,
+        "meaning_source": "Wikidata Lexemes"
+      }
+    }
+  ]
+}

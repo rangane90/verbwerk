@@ -1,0 +1,1320 @@
+{
+  "schema_version": 1,
+  "pack_id": "verbwerk.dwds.audit.v2",
+  "entries": [
+    {
+      "id": "dwds-audit-werden",
+      "concept_id": "dwds-audit-werden",
+      "source_pack": "verbwerk_dwds_audit_v2",
+      "entry_kind": "vocabulary",
+      "lemma": "werden",
+      "display_form": "werden",
+      "part_of_speech": "verb",
+      "article": null,
+      "gender": "none",
+      "plural_forms": [],
+      "forms": [
+        {
+          "surface": "werden",
+          "number": null,
+          "case": null,
+          "role": "core",
+          "tags": {
+            "verb_class": "simple",
+            "aux": "sein"
+          }
+        }
+      ],
+      "english_terms": [
+        {
+          "term": "to become",
+          "lemma": "to become",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "to become",
+      "german_definition": "Sich verändern und einen neuen Zustand erreichen.",
+      "german_examples": [
+        {
+          "sentence": "Im November wird es früh dunkel.",
+          "translation_language": "en",
+          "translation": "In November it gets dark early."
+        }
+      ],
+      "grammar_note": "Als Vollverb: wird, wurde, ist geworden. Als Hilfsverb: werden + Infinitiv für das Futur, werden + Partizip II für das Vorgangspassiv. Im Perfekt des Vorgangspassivs steht worden: Die Tür ist geöffnet worden.",
+      "domains": [],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "dwds_headword_id": "E_w_3657",
+        "dwds_part_of_speech": "V",
+        "dwds_snapshot_url": "https://clarin.bbaw.de/de/objects/dwds%3A2/",
+        "dwds_license": "CC-BY-SA-4.0",
+        "editorial_references": [
+          "https://www.duden.de/rechtschreibung/werden",
+          "https://www.duden.de/sprachwissen/sprachratgeber/modalverben"
+        ],
+        "reviewed_at": "2026-11-10"
+      }
+    },
+    {
+      "id": "dwds-audit-lassen",
+      "concept_id": "dwds-audit-lassen",
+      "source_pack": "verbwerk_dwds_audit_v2",
+      "entry_kind": "vocabulary",
+      "lemma": "lassen",
+      "display_form": "lassen",
+      "part_of_speech": "verb",
+      "article": null,
+      "gender": "none",
+      "plural_forms": [],
+      "forms": [
+        {
+          "surface": "lassen",
+          "number": null,
+          "case": null,
+          "role": "core",
+          "tags": {
+            "verb_class": "simple",
+            "aux": "haben"
+          }
+        }
+      ],
+      "english_terms": [
+        {
+          "term": "to let",
+          "lemma": "to let",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "to let",
+      "german_definition": "Einer Person erlauben, etwas zu tun.",
+      "german_examples": [
+        {
+          "sentence": "Meine Eltern lassen mich allein verreisen.",
+          "translation_language": "en",
+          "translation": "My parents let me travel on my own."
+        }
+      ],
+      "grammar_note": "Muster: jemanden + Infinitiv ohne zu. Präteritum: ließ. Perfekt mit zweitem Verb: Sie haben mich allein verreisen lassen.",
+      "domains": [],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "dwds_headword_id": "E_l_1299",
+        "dwds_part_of_speech": "V",
+        "dwds_snapshot_url": "https://clarin.bbaw.de/de/objects/dwds%3A2/",
+        "dwds_license": "CC-BY-SA-4.0",
+        "editorial_references": [
+          "https://www.duden.de/rechtschreibung/lassen",
+          "https://www.duden.de/sprachwissen/sprachratgeber/modalverben"
+        ],
+        "reviewed_at": "2026-11-10"
+      }
+    },
+    {
+      "id": "dwds-audit-moegen",
+      "concept_id": "dwds-audit-moegen",
+      "source_pack": "verbwerk_dwds_audit_v2",
+      "entry_kind": "vocabulary",
+      "lemma": "mögen",
+      "display_form": "mögen",
+      "part_of_speech": "verb",
+      "article": null,
+      "gender": "none",
+      "plural_forms": [],
+      "forms": [
+        {
+          "surface": "mögen",
+          "number": null,
+          "case": null,
+          "role": "core",
+          "tags": {
+            "verb_class": "simple",
+            "aux": "haben"
+          }
+        }
+      ],
+      "english_terms": [
+        {
+          "term": "to like",
+          "lemma": "to like",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "to like",
+      "german_definition": "Etwas gernhaben oder angenehm finden.",
+      "german_examples": [
+        {
+          "sentence": "Ich mag den Geruch von frischem Brot.",
+          "translation_language": "en",
+          "translation": "I like the smell of fresh bread."
+        }
+      ],
+      "grammar_note": "Vorlieben: jemanden oder etwas mögen. Formen: er mag, mochte, hat gemocht. Möchte ist Konjunktiv II von mögen und drückt oft einen höflichen Wunsch aus.",
+      "domains": [],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "dwds_headword_id": "E_m_5616",
+        "dwds_part_of_speech": "V",
+        "dwds_snapshot_url": "https://clarin.bbaw.de/de/objects/dwds%3A2/",
+        "dwds_license": "CC-BY-SA-4.0",
+        "editorial_references": [
+          "https://www.duden.de/rechtschreibung/moegen",
+          "https://www.duden.de/sprachwissen/sprachratgeber/modalverben"
+        ],
+        "reviewed_at": "2026-11-10"
+      }
+    },
+    {
+      "id": "dwds-audit-bekommen",
+      "concept_id": "dwds-audit-bekommen",
+      "source_pack": "verbwerk_dwds_audit_v2",
+      "entry_kind": "vocabulary",
+      "lemma": "bekommen",
+      "display_form": "bekommen",
+      "part_of_speech": "verb",
+      "article": null,
+      "gender": "none",
+      "plural_forms": [],
+      "forms": [
+        {
+          "surface": "bekommen",
+          "number": null,
+          "case": null,
+          "role": "core",
+          "tags": {
+            "verb_class": "inseparable",
+            "aux": "haben"
+          }
+        }
+      ],
+      "english_terms": [
+        {
+          "term": "to receive",
+          "lemma": "to receive",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "to receive",
+      "german_definition": "Etwas erhalten, das eine andere Person gibt oder schickt.",
+      "german_examples": [
+        {
+          "sentence": "Heute bekomme ich eine Nachricht von der Schule.",
+          "translation_language": "en",
+          "translation": "I’m getting a message from the school today."
+        }
+      ],
+      "grammar_note": "Untrennbar: er bekommt, bekam, hat bekommen. Was man bekommt, steht im Akkusativ.",
+      "domains": [],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "dwds_headword_id": "E_b_5150",
+        "dwds_part_of_speech": "V",
+        "dwds_snapshot_url": "https://clarin.bbaw.de/de/objects/dwds%3A2/",
+        "dwds_license": "CC-BY-SA-4.0",
+        "editorial_references": [
+          "https://www.duden.de/rechtschreibung/bekommen",
+          "https://www.duden.de/sprachwissen/sprachratgeber/modalverben"
+        ],
+        "reviewed_at": "2026-11-10"
+      }
+    },
+    {
+      "id": "dwds-audit-wenn",
+      "concept_id": "dwds-audit-wenn",
+      "source_pack": "verbwerk_dwds_audit_v2",
+      "entry_kind": "vocabulary",
+      "lemma": "wenn",
+      "display_form": "wenn",
+      "part_of_speech": "conjunction",
+      "article": null,
+      "gender": "none",
+      "plural_forms": [],
+      "forms": [],
+      "english_terms": [
+        {
+          "term": "if; when",
+          "lemma": "if; when",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "if; when",
+      "german_definition": "Leitet einen Nebensatz ein, der eine Bedingung oder einen Zeitpunkt nennt.",
+      "german_examples": [
+        {
+          "sentence": "Wenn der Bus pünktlich ist, komme ich vor acht an.",
+          "translation_language": "en",
+          "translation": "If the bus is on time, I’ll arrive before eight."
+        }
+      ],
+      "grammar_note": "Im Nebensatz steht das finite Verb am Ende. Wenn passt auch zu wiederholten Ereignissen in der Vergangenheit.",
+      "domains": [],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "dwds_headword_id": "E_w_3600",
+        "dwds_part_of_speech": "KO",
+        "dwds_snapshot_url": "https://clarin.bbaw.de/de/objects/dwds%3A2/",
+        "dwds_license": "CC-BY-SA-4.0",
+        "editorial_references": [
+          "https://www.duden.de/rechtschreibung/wenn",
+          "https://www.duden.de/sprachwissen/sprachratgeber/adverbialer-nebensatz-typen-arten-unterschiede"
+        ],
+        "reviewed_at": "2026-11-10"
+      }
+    },
+    {
+      "id": "dwds-audit-als",
+      "concept_id": "dwds-audit-als",
+      "source_pack": "verbwerk_dwds_audit_v2",
+      "entry_kind": "vocabulary",
+      "lemma": "als",
+      "display_form": "als",
+      "part_of_speech": "conjunction",
+      "article": null,
+      "gender": "none",
+      "plural_forms": [],
+      "forms": [],
+      "english_terms": [
+        {
+          "term": "when (a past event)",
+          "lemma": "when (a past event)",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "when (a past event)",
+      "german_definition": "Leitet hier einen Nebensatz über ein einmaliges Ereignis oder eine Phase in der Vergangenheit ein.",
+      "german_examples": [
+        {
+          "sentence": "Als ich in Bremen wohnte, fuhr ich jeden Tag mit dem Rad.",
+          "translation_language": "en",
+          "translation": "When I lived in Bremen, I cycled every day."
+        }
+      ],
+      "grammar_note": "Einmal in der Vergangenheit: als. Bei Wiederholungen in der Vergangenheit: wenn. Das finite Verb steht im Nebensatz am Ende.",
+      "domains": [],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "dwds_headword_id": "E_a_3420",
+        "dwds_part_of_speech": "KO",
+        "dwds_snapshot_url": "https://clarin.bbaw.de/de/objects/dwds%3A2/",
+        "dwds_license": "CC-BY-SA-4.0",
+        "editorial_references": [
+          "https://www.duden.de/rechtschreibung/als",
+          "https://www.duden.de/sprachwissen/sprachratgeber/adverbialer-nebensatz-typen-arten-unterschiede"
+        ],
+        "reviewed_at": "2026-11-10"
+      }
+    },
+    {
+      "id": "dwds-audit-ob",
+      "concept_id": "dwds-audit-ob",
+      "source_pack": "verbwerk_dwds_audit_v2",
+      "entry_kind": "vocabulary",
+      "lemma": "ob",
+      "display_form": "ob",
+      "part_of_speech": "conjunction",
+      "article": null,
+      "gender": "none",
+      "plural_forms": [],
+      "forms": [],
+      "english_terms": [
+        {
+          "term": "whether",
+          "lemma": "whether",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "whether",
+      "german_definition": "Leitet eine indirekte Frage ein, die man mit Ja oder Nein beantworten kann.",
+      "german_examples": [
+        {
+          "sentence": "Weißt du, ob die Apotheke noch offen ist?",
+          "translation_language": "en",
+          "translation": "Do you know whether the pharmacy is still open?"
+        }
+      ],
+      "grammar_note": "Indirekte Ja-Nein-Frage: ob + Nebensatz mit dem finiten Verb am Ende.",
+      "domains": [],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "dwds_headword_id": "E_o_7",
+        "dwds_part_of_speech": "KO",
+        "dwds_snapshot_url": "https://clarin.bbaw.de/de/objects/dwds%3A2/",
+        "dwds_license": "CC-BY-SA-4.0",
+        "editorial_references": [
+          "https://www.duden.de/rechtschreibung/ob",
+          "https://www.duden.de/sprachwissen/sprachratgeber/adverbialer-nebensatz-typen-arten-unterschiede"
+        ],
+        "reviewed_at": "2026-11-10"
+      }
+    },
+    {
+      "id": "dwds-audit-damit",
+      "concept_id": "dwds-audit-damit",
+      "source_pack": "verbwerk_dwds_audit_v2",
+      "entry_kind": "vocabulary",
+      "lemma": "damit",
+      "display_form": "damit",
+      "part_of_speech": "conjunction",
+      "article": null,
+      "gender": "none",
+      "plural_forms": [],
+      "forms": [],
+      "english_terms": [
+        {
+          "term": "so that",
+          "lemma": "so that",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "so that",
+      "german_definition": "Leitet einen Nebensatz ein, der den Zweck einer Handlung nennt.",
+      "german_examples": [
+        {
+          "sentence": "Ich schreibe dir die Adresse auf, damit du den Laden findest.",
+          "translation_language": "en",
+          "translation": "I’m writing down the address so that you can find the shop."
+        }
+      ],
+      "grammar_note": "Damit + Nebensatz beschreibt ein Ziel. Das finite Verb steht am Ende. Die Subjekte können verschieden sein.",
+      "domains": [],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "dwds_headword_id": "E_d_335",
+        "dwds_part_of_speech": "KO",
+        "dwds_snapshot_url": "https://clarin.bbaw.de/de/objects/dwds%3A2/",
+        "dwds_license": "CC-BY-SA-4.0",
+        "editorial_references": [
+          "https://www.duden.de/rechtschreibung/damit",
+          "https://www.duden.de/sprachwissen/sprachratgeber/adverbialer-nebensatz-typen-arten-unterschiede"
+        ],
+        "reviewed_at": "2026-11-10"
+      }
+    },
+    {
+      "id": "dwds-audit-bevor",
+      "concept_id": "dwds-audit-bevor",
+      "source_pack": "verbwerk_dwds_audit_v2",
+      "entry_kind": "vocabulary",
+      "lemma": "bevor",
+      "display_form": "bevor",
+      "part_of_speech": "conjunction",
+      "article": null,
+      "gender": "none",
+      "plural_forms": [],
+      "forms": [],
+      "english_terms": [
+        {
+          "term": "before",
+          "lemma": "before",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "before",
+      "german_definition": "Leitet einen Nebensatz ein, dessen Handlung später stattfindet als die Handlung im Hauptsatz.",
+      "german_examples": [
+        {
+          "sentence": "Ich lade mein Handy auf, bevor ich losfahre.",
+          "translation_language": "en",
+          "translation": "I charge my phone before I leave."
+        }
+      ],
+      "grammar_note": "Das finite Verb steht im Nebensatz am Ende. Die Handlung des Hauptsatzes geschieht zuerst.",
+      "domains": [],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "dwds_headword_id": "E_b_8134",
+        "dwds_part_of_speech": "KO",
+        "dwds_snapshot_url": "https://clarin.bbaw.de/de/objects/dwds%3A2/",
+        "dwds_license": "CC-BY-SA-4.0",
+        "editorial_references": [
+          "https://www.duden.de/rechtschreibung/bevor",
+          "https://www.duden.de/sprachwissen/sprachratgeber/adverbialer-nebensatz-typen-arten-unterschiede"
+        ],
+        "reviewed_at": "2026-11-10"
+      }
+    },
+    {
+      "id": "dwds-audit-nachdem",
+      "concept_id": "dwds-audit-nachdem",
+      "source_pack": "verbwerk_dwds_audit_v2",
+      "entry_kind": "vocabulary",
+      "lemma": "nachdem",
+      "display_form": "nachdem",
+      "part_of_speech": "conjunction",
+      "article": null,
+      "gender": "none",
+      "plural_forms": [],
+      "forms": [],
+      "english_terms": [
+        {
+          "term": "after",
+          "lemma": "after",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "after",
+      "german_definition": "Leitet einen Nebensatz ein, dessen Handlung vor der Handlung im Hauptsatz liegt.",
+      "german_examples": [
+        {
+          "sentence": "Nachdem wir bezahlt hatten, gingen wir nach draußen.",
+          "translation_language": "en",
+          "translation": "After we had paid, we went outside."
+        }
+      ],
+      "grammar_note": "Der Nebensatz nennt das frühere Ereignis. Im Beispiel steht dort Plusquamperfekt, im Hauptsatz Präteritum.",
+      "domains": [],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "dwds_headword_id": "E_n_290",
+        "dwds_part_of_speech": "KO",
+        "dwds_snapshot_url": "https://clarin.bbaw.de/de/objects/dwds%3A2/",
+        "dwds_license": "CC-BY-SA-4.0",
+        "editorial_references": [
+          "https://www.duden.de/rechtschreibung/nachdem",
+          "https://www.duden.de/sprachwissen/sprachratgeber/adverbialer-nebensatz-typen-arten-unterschiede"
+        ],
+        "reviewed_at": "2026-11-10"
+      }
+    },
+    {
+      "id": "dwds-audit-in",
+      "concept_id": "dwds-audit-in",
+      "source_pack": "verbwerk_dwds_audit_v2",
+      "entry_kind": "vocabulary",
+      "lemma": "in",
+      "display_form": "in",
+      "part_of_speech": "preposition",
+      "article": null,
+      "gender": "none",
+      "plural_forms": [],
+      "forms": [],
+      "english_terms": [
+        {
+          "term": "in; into",
+          "lemma": "in; into",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "in; into",
+      "german_definition": "Bezeichnet bei einer Ortsangabe das Innere eines Bereichs oder ein Ziel darin.",
+      "german_examples": [
+        {
+          "sentence": "Ich gehe in den Garten und lese dann im Garten.",
+          "translation_language": "en",
+          "translation": "I go into the garden and then read in the garden."
+        }
+      ],
+      "grammar_note": "Wo? Dativ: in dem Garten → im Garten. Wohin? Akkusativ: in den Garten.",
+      "domains": [],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "dwds_headword_id": "E_i_478",
+        "dwds_part_of_speech": "AP",
+        "dwds_snapshot_url": "https://clarin.bbaw.de/de/objects/dwds%3A2/",
+        "dwds_license": "CC-BY-SA-4.0",
+        "editorial_references": [
+          "https://www.duden.de/rechtschreibung/in",
+          "https://www.duden.de/sprachwissen/fuer-lernende/wortarten-pr%C3%A4positionen"
+        ],
+        "reviewed_at": "2026-11-10"
+      }
+    },
+    {
+      "id": "dwds-audit-auf",
+      "concept_id": "dwds-audit-auf",
+      "source_pack": "verbwerk_dwds_audit_v2",
+      "entry_kind": "vocabulary",
+      "lemma": "auf",
+      "display_form": "auf",
+      "part_of_speech": "preposition",
+      "article": null,
+      "gender": "none",
+      "plural_forms": [],
+      "forms": [],
+      "english_terms": [
+        {
+          "term": "on; onto",
+          "lemma": "on; onto",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "on; onto",
+      "german_definition": "Bezeichnet hier eine Position auf einer Fläche oder ein Ziel auf dieser Fläche.",
+      "german_examples": [
+        {
+          "sentence": "Ich stelle die Tasse auf den Tisch. Jetzt steht sie auf dem Tisch.",
+          "translation_language": "en",
+          "translation": "I put the cup on the table. Now it’s on the table."
+        }
+      ],
+      "grammar_note": "Wo? Dativ: auf dem Tisch. Wohin? Akkusativ: auf den Tisch. Bei festen Verbverbindungen gilt das jeweilige Muster, etwa warten auf + Akkusativ.",
+      "domains": [],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "dwds_headword_id": "E_a_7852",
+        "dwds_part_of_speech": "AP",
+        "dwds_snapshot_url": "https://clarin.bbaw.de/de/objects/dwds%3A2/",
+        "dwds_license": "CC-BY-SA-4.0",
+        "editorial_references": [
+          "https://www.duden.de/rechtschreibung/auf",
+          "https://www.duden.de/sprachwissen/fuer-lernende/wortarten-pr%C3%A4positionen"
+        ],
+        "reviewed_at": "2026-11-10"
+      }
+    },
+    {
+      "id": "dwds-audit-an",
+      "concept_id": "dwds-audit-an",
+      "source_pack": "verbwerk_dwds_audit_v2",
+      "entry_kind": "vocabulary",
+      "lemma": "an",
+      "display_form": "an",
+      "part_of_speech": "preposition",
+      "article": null,
+      "gender": "none",
+      "plural_forms": [],
+      "forms": [],
+      "english_terms": [
+        {
+          "term": "at; onto",
+          "lemma": "at; onto",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "at; onto",
+      "german_definition": "Bezeichnet hier einen Ort an einer Fläche oder das Ziel einer Handlung an dieser Fläche.",
+      "german_examples": [
+        {
+          "sentence": "Ich hänge das Bild an die Wand. Jetzt hängt es an der Wand.",
+          "translation_language": "en",
+          "translation": "I hang the picture on the wall. Now it’s hanging on the wall."
+        }
+      ],
+      "grammar_note": "Wo? Dativ: an der Wand. Wohin? Akkusativ: an die Wand.",
+      "domains": [],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "dwds_headword_id": "E_a_3897",
+        "dwds_part_of_speech": "AP",
+        "dwds_snapshot_url": "https://clarin.bbaw.de/de/objects/dwds%3A2/",
+        "dwds_license": "CC-BY-SA-4.0",
+        "editorial_references": [
+          "https://www.duden.de/rechtschreibung/an",
+          "https://www.duden.de/sprachwissen/fuer-lernende/wortarten-pr%C3%A4positionen"
+        ],
+        "reviewed_at": "2026-11-10"
+      }
+    },
+    {
+      "id": "dwds-audit-bei",
+      "concept_id": "dwds-audit-bei",
+      "source_pack": "verbwerk_dwds_audit_v2",
+      "entry_kind": "vocabulary",
+      "lemma": "bei",
+      "display_form": "bei",
+      "part_of_speech": "preposition",
+      "article": null,
+      "gender": "none",
+      "plural_forms": [],
+      "forms": [],
+      "english_terms": [
+        {
+          "term": "at; with",
+          "lemma": "at; with",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "at; with",
+      "german_definition": "Bezeichnet hier, dass man sich an einem Ort in der Nähe einer Person oder bei ihr zu Hause befindet.",
+      "german_examples": [
+        {
+          "sentence": "Am Sonntag esse ich bei meinem Bruder.",
+          "translation_language": "en",
+          "translation": "On Sunday I’m eating at my brother’s place."
+        }
+      ],
+      "grammar_note": "Bei verlangt den Dativ: bei meinem Bruder. Bei dem kann zu beim werden.",
+      "domains": [],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "dwds_headword_id": "E_b_4553",
+        "dwds_part_of_speech": "AP",
+        "dwds_snapshot_url": "https://clarin.bbaw.de/de/objects/dwds%3A2/",
+        "dwds_license": "CC-BY-SA-4.0",
+        "editorial_references": [
+          "https://www.duden.de/rechtschreibung/bei",
+          "https://www.duden.de/sprachwissen/fuer-lernende/wortarten-pr%C3%A4positionen"
+        ],
+        "reviewed_at": "2026-11-10"
+      }
+    },
+    {
+      "id": "dwds-audit-von",
+      "concept_id": "dwds-audit-von",
+      "source_pack": "verbwerk_dwds_audit_v2",
+      "entry_kind": "vocabulary",
+      "lemma": "von",
+      "display_form": "von",
+      "part_of_speech": "preposition",
+      "article": null,
+      "gender": "none",
+      "plural_forms": [],
+      "forms": [],
+      "english_terms": [
+        {
+          "term": "from",
+          "lemma": "from",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "from",
+      "german_definition": "Gibt hier an, woher etwas oder jemand kommt.",
+      "german_examples": [
+        {
+          "sentence": "Das Paket kommt von meiner Tante.",
+          "translation_language": "en",
+          "translation": "The parcel is from my aunt."
+        }
+      ],
+      "grammar_note": "Von verlangt den Dativ: von meiner Tante. Von dem wird oft zu vom.",
+      "domains": [],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "dwds_headword_id": "E_v_5206",
+        "dwds_part_of_speech": "AP",
+        "dwds_snapshot_url": "https://clarin.bbaw.de/de/objects/dwds%3A2/",
+        "dwds_license": "CC-BY-SA-4.0",
+        "editorial_references": [
+          "https://www.duden.de/rechtschreibung/von_aus_ab_durch_per_seitens",
+          "https://www.duden.de/sprachwissen/fuer-lernende/wortarten-pr%C3%A4positionen"
+        ],
+        "reviewed_at": "2026-11-10"
+      }
+    },
+    {
+      "id": "dwds-audit-vergessen",
+      "concept_id": "dwds-audit-vergessen",
+      "source_pack": "verbwerk_dwds_audit_v2",
+      "entry_kind": "vocabulary",
+      "lemma": "vergessen",
+      "display_form": "vergessen",
+      "part_of_speech": "verb",
+      "article": null,
+      "gender": "none",
+      "plural_forms": [],
+      "forms": [
+        {
+          "surface": "vergessen",
+          "number": null,
+          "case": null,
+          "role": "core",
+          "tags": {
+            "verb_class": "inseparable",
+            "aux": "haben"
+          }
+        }
+      ],
+      "english_terms": [
+        {
+          "term": "to forget",
+          "lemma": "to forget",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "to forget",
+      "german_definition": "Etwas nicht mehr wissen oder aus Unachtsamkeit nicht daran denken.",
+      "german_examples": [
+        {
+          "sentence": "Ich habe meinen Schlüssel im Büro vergessen.",
+          "translation_language": "en",
+          "translation": "I left my key at the office."
+        }
+      ],
+      "grammar_note": "Starkes, untrennbares Verb: er vergisst, vergaß, hat vergessen. Was man vergisst, steht häufig im Akkusativ.",
+      "domains": [],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "dwds_headword_id": "E_v_1409",
+        "dwds_part_of_speech": "V",
+        "dwds_snapshot_url": "https://clarin.bbaw.de/de/objects/dwds%3A2/",
+        "dwds_license": "CC-BY-SA-4.0",
+        "editorial_references": [
+          "https://www.duden.de/rechtschreibung/vergessen",
+          "https://www.duden.de/sprachwissen/sprachratgeber/modalverben"
+        ],
+        "reviewed_at": "2026-11-10"
+      }
+    },
+    {
+      "id": "dwds-audit-durch",
+      "concept_id": "dwds-audit-durch",
+      "source_pack": "verbwerk_dwds_audit_v2",
+      "entry_kind": "vocabulary",
+      "lemma": "durch",
+      "display_form": "durch",
+      "part_of_speech": "preposition",
+      "article": null,
+      "gender": "none",
+      "plural_forms": [],
+      "forms": [],
+      "english_terms": [
+        {
+          "term": "through",
+          "lemma": "through",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "through",
+      "german_definition": "Beschreibt hier einen Weg innerhalb eines Bereichs von einer Seite zur anderen.",
+      "german_examples": [
+        {
+          "sentence": "Wir gehen durch den Park zum Bahnhof.",
+          "translation_language": "en",
+          "translation": "We walk through the park to the station."
+        }
+      ],
+      "grammar_note": "Durch verlangt den Akkusativ: durch den Park.",
+      "domains": [],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "dwds_headword_id": "E_d_4972",
+        "dwds_part_of_speech": "AP",
+        "dwds_snapshot_url": "https://clarin.bbaw.de/de/objects/dwds%3A2/",
+        "dwds_license": "CC-BY-SA-4.0",
+        "editorial_references": [
+          "https://www.duden.de/rechtschreibung/durch",
+          "https://www.duden.de/sprachwissen/fuer-lernende/wortarten-pr%C3%A4positionen"
+        ],
+        "reviewed_at": "2026-11-10"
+      }
+    },
+    {
+      "id": "dwds-audit-nicht",
+      "concept_id": "dwds-audit-nicht",
+      "source_pack": "verbwerk_dwds_audit_v2",
+      "entry_kind": "vocabulary",
+      "lemma": "nicht",
+      "display_form": "nicht",
+      "part_of_speech": "particle",
+      "article": null,
+      "gender": "none",
+      "plural_forms": [],
+      "forms": [],
+      "english_terms": [
+        {
+          "term": "not",
+          "lemma": "not",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "not",
+      "german_definition": "Verneint eine Aussage oder einen bestimmten Teil davon.",
+      "german_examples": [
+        {
+          "sentence": "Der Kaffee ist nicht kalt.",
+          "translation_language": "en",
+          "translation": "The coffee isn’t cold."
+        }
+      ],
+      "grammar_note": "Nicht kann ein Adjektiv oder eine Aussage verneinen. Bei vielen Nomen mit unbestimmtem Artikel steht stattdessen kein: Ich habe keinen Kaffee.",
+      "domains": [],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "dwds_headword_id": "E_n_2373",
+        "dwds_part_of_speech": "ADV",
+        "dwds_snapshot_url": "https://clarin.bbaw.de/de/objects/dwds%3A2/",
+        "dwds_license": "CC-BY-SA-4.0",
+        "editorial_references": [
+          "https://www.duden.de/sprachwissen/fuer-lernende/wortarten-partikeln"
+        ],
+        "reviewed_at": "2026-11-10"
+      }
+    },
+    {
+      "id": "dwds-audit-ich",
+      "concept_id": "dwds-audit-ich",
+      "source_pack": "verbwerk_dwds_audit_v2",
+      "entry_kind": "vocabulary",
+      "lemma": "ich",
+      "display_form": "ich",
+      "part_of_speech": "pronoun",
+      "article": null,
+      "gender": "none",
+      "plural_forms": [],
+      "forms": [],
+      "english_terms": [
+        {
+          "term": "I",
+          "lemma": "I",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "I",
+      "german_definition": "Steht für die Person, die gerade spricht oder schreibt.",
+      "german_examples": [
+        {
+          "sentence": "Heute koche ich für meine Freunde.",
+          "translation_language": "en",
+          "translation": "Today I’m cooking for my friends."
+        }
+      ],
+      "grammar_note": "Nominativ: ich. Akkusativ: mich. Dativ: mir.",
+      "domains": [],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "dwds_headword_id": "E_i_9",
+        "dwds_part_of_speech": "P",
+        "dwds_snapshot_url": "https://clarin.bbaw.de/de/objects/dwds%3A2/",
+        "dwds_license": "CC-BY-SA-4.0",
+        "editorial_references": [
+          "https://www.duden.de/rechtschreibung/ich",
+          "https://www.duden.de/sprachwissen/fuer-lernende/wortarten-pronomen"
+        ],
+        "reviewed_at": "2026-11-10"
+      }
+    },
+    {
+      "id": "dwds-audit-du",
+      "concept_id": "dwds-audit-du",
+      "source_pack": "verbwerk_dwds_audit_v2",
+      "entry_kind": "vocabulary",
+      "lemma": "du",
+      "display_form": "du",
+      "part_of_speech": "pronoun",
+      "article": null,
+      "gender": "none",
+      "plural_forms": [],
+      "forms": [],
+      "english_terms": [
+        {
+          "term": "you (informal singular)",
+          "lemma": "you (informal singular)",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "you (informal singular)",
+      "german_definition": "Steht für eine einzelne Person, die man vertraut anspricht.",
+      "german_examples": [
+        {
+          "sentence": "Wann kommst du nach Hause?",
+          "translation_language": "en",
+          "translation": "When are you coming home?"
+        }
+      ],
+      "grammar_note": "Nominativ: du. Akkusativ: dich. Dativ: dir.",
+      "domains": [],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "dwds_headword_id": "E_d_4629",
+        "dwds_part_of_speech": "P",
+        "dwds_snapshot_url": "https://clarin.bbaw.de/de/objects/dwds%3A2/",
+        "dwds_license": "CC-BY-SA-4.0",
+        "editorial_references": [
+          "https://www.duden.de/rechtschreibung/du",
+          "https://www.duden.de/sprachwissen/fuer-lernende/wortarten-pronomen"
+        ],
+        "reviewed_at": "2026-11-10"
+      }
+    },
+    {
+      "id": "dwds-audit-er",
+      "concept_id": "dwds-audit-er",
+      "source_pack": "verbwerk_dwds_audit_v2",
+      "entry_kind": "vocabulary",
+      "lemma": "er",
+      "display_form": "er",
+      "part_of_speech": "pronoun",
+      "article": null,
+      "gender": "none",
+      "plural_forms": [],
+      "forms": [],
+      "english_terms": [
+        {
+          "term": "he",
+          "lemma": "he",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "he",
+      "german_definition": "Steht im Nominativ für eine männliche Person oder ein maskulines Nomen.",
+      "german_examples": [
+        {
+          "sentence": "Mein Onkel wohnt in Köln. Morgen kommt er zu uns.",
+          "translation_language": "en",
+          "translation": "My uncle lives in Cologne. Tomorrow he’s coming to see us."
+        }
+      ],
+      "grammar_note": "Nominativ: er. Akkusativ: ihn. Dativ: ihm.",
+      "domains": [],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "dwds_headword_id": "E_e_4915",
+        "dwds_part_of_speech": "P",
+        "dwds_snapshot_url": "https://clarin.bbaw.de/de/objects/dwds%3A2/",
+        "dwds_license": "CC-BY-SA-4.0",
+        "editorial_references": [
+          "https://www.duden.de/rechtschreibung/er",
+          "https://www.duden.de/sprachwissen/fuer-lernende/wortarten-pronomen"
+        ],
+        "reviewed_at": "2026-11-10"
+      }
+    },
+    {
+      "id": "dwds-audit-wir",
+      "concept_id": "dwds-audit-wir",
+      "source_pack": "verbwerk_dwds_audit_v2",
+      "entry_kind": "vocabulary",
+      "lemma": "wir",
+      "display_form": "wir",
+      "part_of_speech": "pronoun",
+      "article": null,
+      "gender": "none",
+      "plural_forms": [],
+      "forms": [],
+      "english_terms": [
+        {
+          "term": "we",
+          "lemma": "we",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "we",
+      "german_definition": "Bezeichnet die sprechende Person zusammen mit mindestens einer weiteren Person.",
+      "german_examples": [
+        {
+          "sentence": "Nach der Arbeit gehen wir einkaufen.",
+          "translation_language": "en",
+          "translation": "We go shopping after work."
+        }
+      ],
+      "grammar_note": "Nominativ: wir. Akkusativ und Dativ: uns.",
+      "domains": [],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "dwds_headword_id": "E_w_5150",
+        "dwds_part_of_speech": "P",
+        "dwds_snapshot_url": "https://clarin.bbaw.de/de/objects/dwds%3A2/",
+        "dwds_license": "CC-BY-SA-4.0",
+        "editorial_references": [
+          "https://www.duden.de/rechtschreibung/wir",
+          "https://www.duden.de/sprachwissen/fuer-lernende/wortarten-pronomen"
+        ],
+        "reviewed_at": "2026-11-10"
+      }
+    },
+    {
+      "id": "dwds-audit-geld",
+      "concept_id": "dwds-audit-geld",
+      "source_pack": "verbwerk_dwds_audit_v2",
+      "entry_kind": "vocabulary",
+      "lemma": "Geld",
+      "display_form": "das Geld",
+      "part_of_speech": "noun",
+      "article": "das",
+      "gender": "neut",
+      "plural_forms": [
+        "die Gelder"
+      ],
+      "forms": [
+        {
+          "surface": "das Geld",
+          "number": "sg",
+          "case": "nom",
+          "role": "core",
+          "tags": {}
+        },
+        {
+          "surface": "die Gelder",
+          "number": "pl",
+          "case": "nom",
+          "role": "core",
+          "tags": {}
+        }
+      ],
+      "english_terms": [
+        {
+          "term": "money",
+          "lemma": "money",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "money",
+      "german_definition": "Ein Mittel, mit dem man Waren oder Dienstleistungen bezahlt.",
+      "german_examples": [
+        {
+          "sentence": "Ich spare Geld für ein neues Fahrrad.",
+          "translation_language": "en",
+          "translation": "I’m saving money for a new bicycle."
+        }
+      ],
+      "grammar_note": "Im Alltag meist Singular. Der Plural Gelder bezeichnet häufig Beträge, die für einen bestimmten Zweck bereitgestellt werden.",
+      "domains": [],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "dwds_headword_id": "E_g_3452",
+        "dwds_part_of_speech": "N",
+        "dwds_snapshot_url": "https://clarin.bbaw.de/de/objects/dwds%3A2/",
+        "dwds_license": "CC-BY-SA-4.0",
+        "editorial_references": [
+          "https://www.duden.de/rechtschreibung/Geld"
+        ],
+        "reviewed_at": "2026-11-10"
+      }
+    },
+    {
+      "id": "dwds-audit-welt",
+      "concept_id": "dwds-audit-welt",
+      "source_pack": "verbwerk_dwds_audit_v2",
+      "entry_kind": "vocabulary",
+      "lemma": "Welt",
+      "display_form": "die Welt",
+      "part_of_speech": "noun",
+      "article": "die",
+      "gender": "fem",
+      "plural_forms": [
+        "die Welten"
+      ],
+      "forms": [
+        {
+          "surface": "die Welt",
+          "number": "sg",
+          "case": "nom",
+          "role": "core",
+          "tags": {}
+        },
+        {
+          "surface": "die Welten",
+          "number": "pl",
+          "case": "nom",
+          "role": "core",
+          "tags": {}
+        }
+      ],
+      "english_terms": [
+        {
+          "term": "world",
+          "lemma": "world",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "world",
+      "german_definition": "Bezeichnet hier die Erde und die Menschen, die auf ihr leben.",
+      "german_examples": [
+        {
+          "sentence": "In vielen Teilen der Welt gibt es ähnliche Feste.",
+          "translation_language": "en",
+          "translation": "There are similar festivals in many parts of the world."
+        }
+      ],
+      "grammar_note": "Der Plural Welten wird zum Beispiel für unterschiedliche Lebensbereiche oder fiktive Welten verwendet.",
+      "domains": [],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "dwds_headword_id": "E_w_3291",
+        "dwds_part_of_speech": "N",
+        "dwds_snapshot_url": "https://clarin.bbaw.de/de/objects/dwds%3A2/",
+        "dwds_license": "CC-BY-SA-4.0",
+        "editorial_references": [
+          "https://www.duden.de/rechtschreibung/Welt"
+        ],
+        "reviewed_at": "2026-11-10"
+      }
+    },
+    {
+      "id": "dwds-audit-antwort",
+      "concept_id": "dwds-audit-antwort",
+      "source_pack": "verbwerk_dwds_audit_v2",
+      "entry_kind": "vocabulary",
+      "lemma": "Antwort",
+      "display_form": "die Antwort",
+      "part_of_speech": "noun",
+      "article": "die",
+      "gender": "fem",
+      "plural_forms": [
+        "die Antworten"
+      ],
+      "forms": [
+        {
+          "surface": "die Antwort",
+          "number": "sg",
+          "case": "nom",
+          "role": "core",
+          "tags": {}
+        },
+        {
+          "surface": "die Antworten",
+          "number": "pl",
+          "case": "nom",
+          "role": "core",
+          "tags": {}
+        }
+      ],
+      "english_terms": [
+        {
+          "term": "answer",
+          "lemma": "answer",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "answer",
+      "german_definition": "Eine Aussage, mit der jemand auf eine Frage reagiert.",
+      "german_examples": [
+        {
+          "sentence": "Auf meine Frage bekam ich erst am Abend eine Antwort.",
+          "translation_language": "en",
+          "translation": "I didn’t get an answer to my question until the evening."
+        }
+      ],
+      "grammar_note": "Muster: eine Antwort auf + Akkusativ. Plural: die Antworten.",
+      "domains": [],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "dwds_headword_id": "E_a_5682",
+        "dwds_part_of_speech": "N",
+        "dwds_snapshot_url": "https://clarin.bbaw.de/de/objects/dwds%3A2/",
+        "dwds_license": "CC-BY-SA-4.0",
+        "editorial_references": [
+          "https://www.duden.de/rechtschreibung/Antwort"
+        ],
+        "reviewed_at": "2026-11-10"
+      }
+    },
+    {
+      "id": "dwds-audit-beispiel",
+      "concept_id": "dwds-audit-beispiel",
+      "source_pack": "verbwerk_dwds_audit_v2",
+      "entry_kind": "vocabulary",
+      "lemma": "Beispiel",
+      "display_form": "das Beispiel",
+      "part_of_speech": "noun",
+      "article": "das",
+      "gender": "neut",
+      "plural_forms": [
+        "die Beispiele"
+      ],
+      "forms": [
+        {
+          "surface": "das Beispiel",
+          "number": "sg",
+          "case": "nom",
+          "role": "core",
+          "tags": {}
+        },
+        {
+          "surface": "die Beispiele",
+          "number": "pl",
+          "case": "nom",
+          "role": "core",
+          "tags": {}
+        }
+      ],
+      "english_terms": [
+        {
+          "term": "example",
+          "lemma": "example",
+          "primary": true,
+          "meaning_status": "exact"
+        }
+      ],
+      "meaning": "example",
+      "german_definition": "Ein einzelner Fall, der etwas Allgemeines verständlicher macht.",
+      "german_examples": [
+        {
+          "sentence": "Die Lehrerin erklärt die Regel mit einem Beispiel.",
+          "translation_language": "en",
+          "translation": "The teacher explains the rule with an example."
+        }
+      ],
+      "grammar_note": "Plural: die Beispiele. Zum Beispiel wird oft als z. B. abgekürzt.",
+      "domains": [],
+      "status": "approved",
+      "is_active": true,
+      "is_primary": true,
+      "provenance": {
+        "dwds_headword_id": "E_b_4874",
+        "dwds_part_of_speech": "N",
+        "dwds_snapshot_url": "https://clarin.bbaw.de/de/objects/dwds%3A2/",
+        "dwds_license": "CC-BY-SA-4.0",
+        "editorial_references": [
+          "https://www.duden.de/rechtschreibung/Beispiel"
+        ],
+        "reviewed_at": "2026-11-10"
+      }
+    }
+  ]
+}

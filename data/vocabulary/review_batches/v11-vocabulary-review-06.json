@@ -1,0 +1,382 @@
+{
+  "batch_id": "v11-vocabulary-review-06",
+  "review_date": "2026-11-11",
+  "input_database_sha256": "cf2591e46b139eb4ae646d72790bca574d9f26ca45535cfa1f735e76894ecb14",
+  "accepted_examples": [
+    {
+      "entry_id": "frequency:423",
+      "german": "Darf ich für eine Weile das Telefon benutzen?",
+      "english": "May I use the telephone for a while?",
+      "note": "The sentence directly uses Telefon for a telephone."
+    },
+    {
+      "entry_id": "frequency:425",
+      "german": "Sagen Sie mir, was Ihr Plan ist.",
+      "english": "Tell me your plan.",
+      "note": "Plan is used as a proposed course of action."
+    },
+    {
+      "entry_id": "frequency:427",
+      "german": "Ich komme so oft hierher, wie ich kann.",
+      "english": "I come here as often as I can.",
+      "note": "This clearly shows movement or direction to this place."
+    },
+    {
+      "entry_id": "frequency:429",
+      "german": "Ich habe auf der Straße einen Dollar gefunden.",
+      "english": "I found a dollar in the street.",
+      "note": "Dollar refers to one unit of currency."
+    },
+    {
+      "entry_id": "frequency:433",
+      "german": "Stell das Glas nicht zu nah an die Tischkante.",
+      "english": "Don't put the glass near the edge of the table.",
+      "note": "nah describes spatial proximity to the table edge."
+    },
+    {
+      "entry_id": "frequency:436",
+      "german": "Nicht die Menge macht's, sondern die Qualität.",
+      "english": "It is quality, not quantity that counts.",
+      "note": "Menge means quantity in this contrast."
+    },
+    {
+      "entry_id": "frequency:440",
+      "german": "Das hier ist dein Schirm. Wo ist meiner?",
+      "english": "This umbrella's yours. Where's mine?",
+      "note": "meiner is a substantival possessive pronoun meaning mine."
+    },
+    {
+      "entry_id": "frequency:442",
+      "german": "Tom drehte sich, als er Mary rufen hörte.",
+      "english": "Tom turned when he heard Mary shout.",
+      "note": "rufen is used for calling or shouting aloud."
+    },
+    {
+      "entry_id": "frequency:444",
+      "german": "Ich habe leider gerade zu viel zu tun.",
+      "english": "Unfortunately, I'm too busy right now.",
+      "note": "leider expresses unfortunately."
+    },
+    {
+      "entry_id": "frequency:450",
+      "german": "Warum ist das Leben so voll mit Leiden?",
+      "english": "Why is life so full of suffering?",
+      "note": "voll expresses being full of or filled with something."
+    },
+    {
+      "entry_id": "frequency:454",
+      "german": "Ich weiß nicht, was aus ihm geworden ist.",
+      "english": "I don't know what has become of him.",
+      "note": "geworden is the Partizip II of werden, used here with sein."
+    }
+  ],
+  "held_examples": [
+    {
+      "entry_id": "frequency:422",
+      "german": "Dieser Ort ist am Arsch der Welt.",
+      "reason": "This idiom means a remote place, not the target body-part sense."
+    },
+    {
+      "entry_id": "frequency:427",
+      "german": "Ich gehöre nicht hierher.",
+      "reason": "This is a stative belonging/location use and is less direct for the target directional meaning 'to here'."
+    },
+    {
+      "entry_id": "frequency:431",
+      "german": "Alles in allem ist er ein guter Lehrer.",
+      "reason": "This is a fixed idiom meaning all things considered; it does not clearly teach allem as a productive dative form."
+    },
+    {
+      "entry_id": "frequency:431",
+      "german": "Das war, alles in allem, gar nicht schlecht.",
+      "reason": "This is a fixed idiom meaning all in all; it does not clearly teach allem as a productive dative form."
+    },
+    {
+      "entry_id": "frequency:432",
+      "german": "Ich darf Sie ohne Pass nicht hereinlassen.",
+      "reason": "Pass means a permit or document here, not a mountain pass."
+    },
+    {
+      "entry_id": "frequency:432",
+      "german": "Tom fing einen Pass ab, der für Johannes bestimmt war.",
+      "reason": "Pass means a sports pass here, not a mountain pass."
+    },
+    {
+      "entry_id": "frequency:435",
+      "german": "Es hat uns noch nie jemand Geld gegeben.",
+      "reason": "This uses gegeben as a verbal participle, while the entry targets adjectival given."
+    },
+    {
+      "entry_id": "frequency:435",
+      "german": "Ich habe Tom schon zu viele Chancen gegeben.",
+      "reason": "This uses gegeben as a verbal participle, while the entry targets adjectival given."
+    },
+    {
+      "entry_id": "frequency:450",
+      "german": "Ich habe hier alle Hände voll zu tun.",
+      "reason": "This is an idiom meaning to be busy, rather than the target full/filled sense."
+    },
+    {
+      "entry_id": "frequency:451",
+      "german": "Dieser Film ist es wert, gesehen zu werden.",
+      "reason": "Film means a movie here, not a thin layer."
+    },
+    {
+      "entry_id": "frequency:451",
+      "german": "Sie drehten den Film in einer wirklichen Wüste.",
+      "reason": "Film means a movie here, not a thin layer."
+    }
+  ],
+  "editorial_examples": [
+    {
+      "entry_id": "frequency:422",
+      "german": "Er fiel auf den Arsch.",
+      "english": "He fell on his ass.",
+      "note": "A concise sentence for the colloquial body-part sense; checked against Duden's Arsch entry.",
+      "evidence_url": "https://www.duden.de/rechtschreibung/Arsch"
+    },
+    {
+      "entry_id": "frequency:431",
+      "german": "Mit allem, was du gesagt hast, bin ich einverstanden.",
+      "english": "I agree with everything you said.",
+      "note": "mit governs the dative; allem is the target inflected pronoun form.",
+      "evidence_url": "https://www.duden.de/rechtschreibung/alle"
+    },
+    {
+      "entry_id": "frequency:432",
+      "german": "Der Pass war wegen des Schnees gesperrt.",
+      "english": "The mountain pass was closed because of the snow.",
+      "note": "Pass is unambiguously a mountain pass in this context.",
+      "evidence_url": "https://www.duden.de/rechtschreibung/Gebirgspass"
+    },
+    {
+      "entry_id": "frequency:435",
+      "german": "Unter den gegebenen Umstaänden ist eine Änderung nötig.",
+      "english": "Under the given circumstances, a change is necessary.",
+      "note": "This uses gegeben as an attributive adjective meaning given; Duden confirms the adjectival participle use.",
+      "evidence_url": "https://www.duden.de/rechtschreibung/gegeben"
+    },
+    {
+      "entry_id": "frequency:451",
+      "german": "Ein dünner Film aus Staub bedeckte die Oberfläche.",
+      "english": "A thin film of dust covered the surface.",
+      "note": "Film refers to a thin continuous layer, not a movie.",
+      "evidence_url": "https://www.duden.de/rechtschreibung/Film"
+    }
+  ],
+  "entry_updates": [
+    {
+      "entry_id": "frequency:454",
+      "field": "meaning",
+      "value": "become (past participle of werden)",
+      "note": "Duden conjugation lists geworden as the Partizip II of the full verb werden.",
+      "url": "https://www.duden.de/konjugation/werden_Vollverb",
+      "source": "Duden Online"
+    },
+    {
+      "entry_id": "frequency:454",
+      "field": "word_class",
+      "value": "verb",
+      "note": "The entry is an inflected verb form, not an adjective; link it to its base lemma werden.",
+      "url": "https://www.duden.de/konjugation/werden_Vollverb",
+      "source": "Duden Online"
+    },
+    {
+      "entry_id": "frequency:454",
+      "field": "usage",
+      "value": "Inflected form: Partizip II of werden; combines with sein (for example, ist geworden).",
+      "note": "Replaces the adjective-only usage note with the checked participle pattern.",
+      "url": "https://www.duden.de/konjugation/werden_Vollverb",
+      "source": "Duden Online"
+    }
+  ],
+  "inflected_links": [
+    {
+      "entry_id": "frequency:454",
+      "base_lemma": "werden",
+      "form_note": "Partizip II of werden (become); used with sein.",
+      "source_url": "https://www.duden.de/konjugation/werden_Vollverb"
+    }
+  ],
+  "plural_reviews": [
+    {
+      "entry_id": "frequency:714",
+      "value": [
+        "Ladys"
+      ],
+      "source": "Duden Online",
+      "url": "https://www.duden.de/rechtschreibung/Lady",
+      "note": "Duden gives Ladys as the plural for the general common-noun use; its aristocratic title sense is marked without plural."
+    },
+    {
+      "entry_id": "frequency:718",
+      "value": [
+        "Weisen"
+      ],
+      "source": "Duden Online",
+      "url": "https://www.duden.de/rechtschreibung/Weise_Art",
+      "note": "Weisen is the plural for Weise meaning way or manner."
+    },
+    {
+      "entry_id": "frequency:748",
+      "value": [
+        "Geister"
+      ],
+      "source": "Duden Online",
+      "url": "https://www.duden.de/rechtschreibung/Geist_Person",
+      "note": "Geister is the plural for Geist in the sense spirit."
+    },
+    {
+      "entry_id": "frequency:756",
+      "value": [
+        "Boote"
+      ],
+      "source": "Duden Online",
+      "url": "https://www.duden.de/rechtschreibung/Boot_Wasserfahrzeug",
+      "note": "Boote is the standard plural."
+    },
+    {
+      "entry_id": "frequency:782",
+      "value": [
+        "Colonels"
+      ],
+      "source": "Duden Online",
+      "url": "https://www.duden.de/rechtschreibung/Colonel",
+      "note": "The plural is Colonels; the candidate incorrectly included the unchanged singular Colonel."
+    },
+    {
+      "entry_id": "frequency:791",
+      "value": "Plural-only in this sense",
+      "source": "Duden Online",
+      "url": "https://www.duden.de/rechtschreibung/Nachricht",
+      "note": "Nachrichten meaning news broadcasts is used only in the plural; singular Nachricht is a separate message/news-item sense.",
+      "usage_note": "This entry refers to news broadcasts or news bulletins and is plural-only. A singular Nachricht means an individual message or piece of news."
+    },
+    {
+      "entry_id": "frequency:792",
+      "value": [
+        "Frieden"
+      ],
+      "source": "Duden Online",
+      "url": "https://www.duden.de/rechtschreibung/Friede",
+      "note": "Frieden is the listed plural, but Duden marks the common abstract peace sense as usually singular and without plural.",
+      "usage_note": "For the abstract state of peace, German normally uses singular Frieden. The plural Frieden is possible but rare and sense-dependent."
+    },
+    {
+      "entry_id": "frequency:802",
+      "value": [
+        "Gerichte"
+      ],
+      "source": "Duden Online",
+      "url": "https://www.duden.de/rechtschreibung/Gericht_Gerichtshof",
+      "note": "Gerichte is the plural for Gericht meaning court of justice."
+    },
+    {
+      "entry_id": "frequency:810",
+      "value": "Same written form; usually singular",
+      "source": "Duden Online",
+      "url": "https://www.duden.de/rechtschreibung/Weihnachten",
+      "note": "Standard usage normally treats das Weihnachten as singular; the same form occurs in plural expressions and regional plural use.",
+      "usage_note": "Weihnachten is usually neuter singular in standard usage. The same form is also used as a plural in set phrases such as fröhliche Weihnachten and in regional usage."
+    },
+    {
+      "entry_id": "frequency:813",
+      "value": [
+        "Henry"
+      ],
+      "source": "Duden Online",
+      "url": "https://www.duden.de/rechtschreibung/Henry_Maszeinheit",
+      "note": "The unit Henry has an unchanged written plural."
+    },
+    {
+      "entry_id": "frequency:829",
+      "value": "No regular plural in the sleep-state sense",
+      "source": "Duden Online",
+      "url": "https://www.duden.de/deklination/substantive/Schlaf_Ruhezustand",
+      "note": "Schlaf meaning the state of sleep has no regular plural; Schläfe is a different feminine noun meaning temple.",
+      "usage_note": "Schlaf meaning the state of sleeping is normally singular-only. Schläfe means temple and is a separate noun, not its plural."
+    },
+    {
+      "entry_id": "frequency:845",
+      "value": [
+        "Haare"
+      ],
+      "source": "Duden Online",
+      "url": "https://www.duden.de/rechtschreibung/Haar_Kopfhaar",
+      "note": "Haare is the usual plural for countable hairs; hair as a mass can also be used in the singular."
+    },
+    {
+      "entry_id": "frequency:859",
+      "value": [
+        "Vergangenheiten"
+      ],
+      "source": "Duden Online",
+      "url": "https://www.duden.de/rechtschreibung/Vergangenheit",
+      "note": "The plural is rare and does not describe ordinary general past usage.",
+      "usage_note": "Vergangenheit is normally singular when it means the past in general. Vergangenheiten is rare and refers to distinct historical pasts or technical contexts."
+    },
+    {
+      "entry_id": "frequency:871",
+      "value": [
+        "Sheriffs"
+      ],
+      "source": "Duden Online",
+      "url": "https://www.duden.de/rechtschreibung/Sheriff",
+      "note": "Sheriffs is the standard plural."
+    },
+    {
+      "entry_id": "frequency:884",
+      "value": [
+        "Schicksale"
+      ],
+      "source": "Duden Online",
+      "url": "https://www.duden.de/rechtschreibung/Schicksal",
+      "note": "Schicksale is the standard plural."
+    },
+    {
+      "entry_id": "frequency:899",
+      "value": "No regular plural in the abstract intellect sense",
+      "source": "Duden Online",
+      "url": "https://www.duden.de/rechtschreibung/Verstand",
+      "note": "Duden's common intellect sense is used as an abstract noun and gives no regular plural.",
+      "usage_note": "Verstand meaning the ability to think or reason is normally singular-only."
+    },
+    {
+      "entry_id": "frequency:900",
+      "value": [
+        "Borde"
+      ],
+      "source": "Duden Online",
+      "url": "https://www.duden.de/rechtschreibung/Bord_Wandbrett",
+      "note": "Borde is the plural for Bord meaning a shelf or board fixed to a wall."
+    },
+    {
+      "entry_id": "frequency:914",
+      "value": [
+        "Gläser"
+      ],
+      "source": "Duden Online",
+      "url": "https://www.duden.de/rechtschreibung/Glas_Material",
+      "note": "Gläser is the count plural for drinking vessels; unchanged Glas is used as a measure expression and as a rare material plural.",
+      "usage_note": "For countable drinking vessels, use Gläser. The unchanged form Glas appears in measure expressions such as zwei Glas Wein; the material plural is rare."
+    },
+    {
+      "entry_id": "frequency:927",
+      "value": [
+        "Bänder"
+      ],
+      "source": "Duden Online",
+      "url": "https://www.duden.de/rechtschreibung/Band_Gewebestreifen",
+      "note": "Bänder is the plural for a strip, tape or ribbon; Bande belongs to other Band senses such as bonds or fetters."
+    },
+    {
+      "entry_id": "frequency:954",
+      "value": [
+        "Messer"
+      ],
+      "source": "Duden Online",
+      "url": "https://www.duden.de/rechtschreibung/Messer_Pruefer",
+      "note": "Messer is unchanged in the plural for the agent noun meaning a person who measures."
+    }
+  ]
+}

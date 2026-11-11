@@ -1,0 +1,537 @@
+{
+  "batch_id": "v11-vocabulary-review-10",
+  "review_date": "2026-11-11",
+  "input_database_sha256": "bac413d1bd81a238f22561b20903a49ca6b050743b8b3fb188758075dc65cf90",
+  "accepted_examples": [
+    {
+      "entry_id": "frequency:602",
+      "german": "Es gibt keinen Weg hier heraus. Wir sitzen in der Falle.",
+      "english": "There's no way out of here. We're trapped.",
+      "note": "heraus means out from a place; the phrase here heraus gives a clear local direction."
+    },
+    {
+      "entry_id": "frequency:603",
+      "german": "Es ist mir unmöglich, dir zu helfen.",
+      "english": "It is impossible for me to help you.",
+      "note": "unmöglich is an adjective meaning impossible; the example uses it predicatively after ist."
+    },
+    {
+      "entry_id": "frequency:604",
+      "german": "Sie ist der Liebling des Lehrers.",
+      "english": "She's the teacher's pet.",
+      "note": "Liebling means a person especially favored by someone; Duden gives der Liebling des Lehrers as an example."
+    },
+    {
+      "entry_id": "frequency:605",
+      "german": "Ist es tatsächlich das, was Tom gesagt hat?",
+      "english": "Is that really what Tom said?",
+      "note": "tatsächlich means actually or really in this question."
+    },
+    {
+      "entry_id": "frequency:607",
+      "german": "Er kam, um uns um Hilfe zu bitten.",
+      "english": "He came to ask us for our help.",
+      "note": "bitten um Hilfe means to ask for help."
+    },
+    {
+      "entry_id": "frequency:608",
+      "german": "Ich werde den Wagen und den Hund behalten.",
+      "english": "I'll keep the car and the dog.",
+      "note": "behalten means to keep items in one's possession."
+    },
+    {
+      "entry_id": "frequency:609",
+      "german": "Der Supermarkt bei uns in der Nähe hat letzte Woche dichtgemacht.",
+      "english": "The supermarket near our house closed last week.",
+      "note": "in der Nähe means nearby or in the vicinity."
+    },
+    {
+      "entry_id": "frequency:613",
+      "german": "Wann hast du jemals etwas für mich getan?",
+      "english": "When have you ever done anything for me?",
+      "note": "jemals means ever; the selected sentence is correctly punctuated."
+    },
+    {
+      "entry_id": "frequency:615",
+      "german": "Mach das nicht! Es ist dumm und gefährlich.",
+      "english": "Don't do it! It's stupid and dangerous.",
+      "note": "gefährlich is a predicative adjective describing the action."
+    },
+    {
+      "entry_id": "frequency:618",
+      "german": "Wie weit ist es von hier zum Hotel?",
+      "english": "How far is it from here to the hotel?",
+      "note": "Hotel is used as a straightforward destination noun."
+    },
+    {
+      "entry_id": "frequency:619",
+      "german": "Tom ist ein Meister der Verkleidung.",
+      "english": "Tom is a master of disguise.",
+      "note": "Meister means someone highly skilled in a field."
+    },
+    {
+      "entry_id": "frequency:620",
+      "german": "Wie bist du in den Kampf verwickelt worden?",
+      "english": "How did you get involved in the fight?",
+      "note": "Kampf refers to a fight or struggle in this question."
+    },
+    {
+      "entry_id": "frequency:622",
+      "german": "Das Mädchen ist geschickt im Stricken.",
+      "english": "The girl is skillful at knitting.",
+      "note": "geschickt is an adjective meaning skillful; here it follows ist."
+    },
+    {
+      "entry_id": "frequency:624",
+      "german": "Das Mehl sieben, um die Klumpen zu entfernen.",
+      "english": "Sift the flour to remove the lumps.",
+      "note": "sieben means to sift or sieve; the imperative-style instruction is natural in a recipe."
+    },
+    {
+      "entry_id": "frequency:626",
+      "german": "Tom kann nicht gewinnen, und er weiß das.",
+      "english": "Tom can't win and he knows it.",
+      "note": "gewinnen means to win or be victorious."
+    },
+    {
+      "entry_id": "frequency:630",
+      "german": "Es kommt mir dumm vor, das zu tun.",
+      "english": "It seems stupid to me to do that.",
+      "note": "dumm is used predicatively to describe the action."
+    },
+    {
+      "entry_id": "frequency:634",
+      "german": "Sie war erschrocken beim Anblick der Leiche.",
+      "english": "She was scared at the sight of the dead body.",
+      "note": "Leiche means a dead body; the example directly illustrates the noun."
+    },
+    {
+      "entry_id": "frequency:637",
+      "german": "Ich bin ein Agent.",
+      "english": "I'm an agent.",
+      "note": "Agent is used as a simple noun for a person acting on behalf of an organization or client."
+    },
+    {
+      "entry_id": "frequency:638",
+      "german": "Toms Traum ist ein Leben in den Bergen.",
+      "english": "Tom's dream is to live in the mountains.",
+      "note": "Traum means a dream or aspiration in this sentence."
+    },
+    {
+      "entry_id": "frequency:640",
+      "german": "Es ist sogar noch schlimmer, als ich dachte.",
+      "english": "It's even worse than I thought.",
+      "note": "schlimmer is the comparative form meaning worse."
+    },
+    {
+      "entry_id": "frequency:644",
+      "german": "Während du fort warst, ist eine Menge passiert.",
+      "english": "A lot's happened while you've been away.",
+      "note": "fort means away in this temporal clause."
+    },
+    {
+      "entry_id": "frequency:646",
+      "german": "Wir waren in Gefahr, ums Leben zu kommen.",
+      "english": "We were in danger of losing our lives.",
+      "note": "Gefahr means danger and appears in the common phrase in Gefahr sein."
+    },
+    {
+      "entry_id": "frequency:647",
+      "german": "Wir hatten damit absolut nichts zu tun.",
+      "english": "We had absolutely nothing to do with that.",
+      "note": "absolut intensifies the negative phrase and means absolutely."
+    }
+  ],
+  "held_examples": [
+    {
+      "entry_id": "frequency:602",
+      "german": "Es scheint nur einen einzigen Weg hier heraus zu geben.",
+      "reason": "Valid near-duplicate of the selected phrase; the chosen example adds a complete, clear context."
+    },
+    {
+      "entry_id": "frequency:605",
+      "german": "Das ist tatsächlich eine wirklich gute Idee.",
+      "reason": "Valid but redundantly uses tatsächlich and wirklich together; the selected question is more concise."
+    },
+    {
+      "entry_id": "frequency:607",
+      "german": "Tom kam, um uns um Hilfe zu bitten.",
+      "reason": "Valid near-duplicate of the selected example; keep one primary pair."
+    },
+    {
+      "entry_id": "frequency:608",
+      "german": "Wir wollen es erst einmal für uns behalten.",
+      "reason": "This is the figurative keep-a-secret sense, not the target possession/retention sense."
+    },
+    {
+      "entry_id": "frequency:613",
+      "german": "Hast du jemals daran gedacht das zu tun?",
+      "reason": "The extended infinitive clause requires a comma after gedacht; use the other correctly punctuated candidate."
+    },
+    {
+      "entry_id": "frequency:615",
+      "german": "Hast du eine Ahnung, wie gefährlich das ist?",
+      "reason": "Valid but longer; the selected imperative is a direct, self-contained example."
+    },
+    {
+      "entry_id": "frequency:618",
+      "german": "Bitte hol mich um sechs vom Hotel ab.",
+      "reason": "Valid but longer than the selected concise location question."
+    },
+    {
+      "entry_id": "frequency:619",
+      "german": "Er hat seinen Meister gefunden.",
+      "reason": "This is an idiom meaning he met his match, not the skillful-master sense taught by the entry."
+    },
+    {
+      "entry_id": "frequency:620",
+      "german": "Es war ein Kampf wie um Leben und Tod.",
+      "reason": "Valid but the simile adds complexity; the selected sentence shows the noun in a direct question."
+    },
+    {
+      "entry_id": "frequency:626",
+      "german": "Tom sollte in der Lage sein zu gewinnen.",
+      "reason": "The extended infinitive clause should be set off with a comma before zu gewinnen."
+    },
+    {
+      "entry_id": "frequency:630",
+      "german": "Wer wäre dumm genug, um das zu tun?",
+      "reason": "Valid, but the selected example demonstrates dumm in a simple opinion construction."
+    },
+    {
+      "entry_id": "frequency:634",
+      "german": "Tom bekam Angst, als er die Leiche sah.",
+      "reason": "Valid alternate but more graphic and less direct than the selected sentence."
+    },
+    {
+      "entry_id": "frequency:637",
+      "german": "Nur damit ihr’s wisst: Ich bin Agent des Bundesfahndungsamts!",
+      "reason": "The institution name is not the standard German agency name and is not a clean transferable example."
+    },
+    {
+      "entry_id": "frequency:638",
+      "german": "Die Zeit kommt, wenn dein Traum wahr wird.",
+      "reason": "Valid but less idiomatic/straightforward than the selected sentence about an aspiration."
+    },
+    {
+      "entry_id": "frequency:640",
+      "german": "Es sieht viel schlimmer aus, als es ist.",
+      "reason": "Valid alternate; the selected sentence is more self-contained."
+    },
+    {
+      "entry_id": "frequency:644",
+      "german": "Regen, Regen gehe fort, geh an einen anderen Ort.",
+      "reason": "A nursery-rhyme line; the selected sentence shows the ordinary away sense."
+    },
+    {
+      "entry_id": "frequency:646",
+      "german": "Er hat es auf eigene Gefahr hin getan.",
+      "reason": "Valid fixed phrase, but less direct than the selected sentence about being in danger."
+    },
+    {
+      "entry_id": "frequency:647",
+      "german": "Tom war absolut von sich selbst überzeugt.",
+      "reason": "Valid but context-heavy; the selected phrase makes the adverb's scope clearer."
+    },
+    {
+      "entry_id": "frequency:601",
+      "german": "Die Polizei klagte ihn wegen Mord an.",
+      "reason": "The standard construction is wegen Mordes or wegen des Mordes; this candidate is missing the required form."
+    },
+    {
+      "entry_id": "frequency:601",
+      "german": "Tom stritt ab, an dem Mord beteiligt gewesen zu sein.",
+      "reason": "Grammatical German, but the supplied translation loses the past-time meaning; replaced with a short, precise example."
+    }
+  ],
+  "editorial_examples": [
+    {
+      "entry_id": "frequency:601",
+      "german": "Tom wurde wegen Mordes angeklagt.",
+      "english": "Tom was charged with murder.",
+      "note": "Original example using the standard genitive after wegen and a precise English translation.",
+      "evidence_url": "https://www.duden.de/rechtschreibung/Mord"
+    }
+  ],
+  "entry_updates": [
+    {
+      "entry_id": "frequency:603",
+      "field": "word_class",
+      "value": "adjective",
+      "note": "unmöglich is an adjective in the predicative example Es ist mir unmöglich.",
+      "url": "https://www.duden.de/suchen/dudenonline/unm%C3%B6glich"
+    },
+    {
+      "entry_id": "frequency:603",
+      "field": "meaning",
+      "value": "impossible",
+      "note": "Correct the gloss from an adverbial form impossibly to the adjective used in the example.",
+      "url": "https://www.duden.de/suchen/dudenonline/unm%C3%B6glich"
+    },
+    {
+      "entry_id": "frequency:603",
+      "field": "usage",
+      "value": "Adjective meaning impossible; in the example it is predicative after ist.",
+      "note": "Word class and example use checked against Duden.",
+      "url": "https://www.duden.de/suchen/dudenonline/unm%C3%B6glich"
+    },
+    {
+      "entry_id": "frequency:604",
+      "field": "meaning",
+      "value": "darling; favorite person",
+      "note": "Include both documented senses: an affectionate term and a person especially favored by someone.",
+      "url": "https://www.duden.de/rechtschreibung/Liebling"
+    },
+    {
+      "entry_id": "frequency:622",
+      "field": "word_class",
+      "value": "adjective",
+      "note": "geschickt is an adjective in the predicative phrase geschickt im Stricken.",
+      "url": "https://www.duden.de/deklination/adjektive/geschickt"
+    },
+    {
+      "entry_id": "frequency:622",
+      "field": "meaning",
+      "value": "skillful; adept",
+      "note": "Correct the adverb gloss to match the adjective used in the example.",
+      "url": "https://www.duden.de/deklination/adjektive/geschickt"
+    },
+    {
+      "entry_id": "frequency:622",
+      "field": "usage",
+      "value": "Adjective meaning skillful; in the example it follows ist and takes the complement im Stricken.",
+      "note": "Word class and example use checked against Duden.",
+      "url": "https://www.duden.de/deklination/adjektive/geschickt"
+    }
+  ],
+  "plural_reviews": [
+    {
+      "entry_id": "frequency:1677",
+      "value": [
+        "Stürme"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Sturm",
+      "note": "Sturm meaning a strong wind forms the plural Stürme."
+    },
+    {
+      "entry_id": "frequency:1678",
+      "value": [
+        "Nullen"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Null",
+      "note": "Null meaning the numeral zero forms the plural Nullen."
+    },
+    {
+      "entry_id": "frequency:1679",
+      "value": [
+        "Pennys",
+        "Pence"
+      ],
+      "source": "Wiktionary and Duden reference",
+      "url": "https://de.wiktionary.org/wiki/Penny",
+      "note": "Both plural forms are attested for the borrowed currency noun: Pennys for individual coins and Pence for a sum/denomination.",
+      "usage_note": "Pennys counts individual coins; Pence is used for a sum or denomination in British currency."
+    },
+    {
+      "entry_id": "frequency:1685",
+      "value": [
+        "Abteilungen"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Abteilung",
+      "note": "Abteilung forms the plural Abteilungen."
+    },
+    {
+      "entry_id": "frequency:1686",
+      "value": [
+        "Papiere"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/deklination/substantive/Papier",
+      "note": "Papiere is the plural for sheets, documents, or kinds; bulk paper as a material is ordinarily singular.",
+      "usage_note": "Papiere is used for individual documents/sheets or kinds. Papier as a material is usually singular."
+    },
+    {
+      "entry_id": "frequency:1689",
+      "value": [
+        "Genies"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Genie",
+      "note": "Genie forms the plural Genies."
+    },
+    {
+      "entry_id": "frequency:1696",
+      "value": [
+        "Patres"
+      ],
+      "source": "Wiktionary",
+      "url": "https://de.wiktionary.org/wiki/Pater#German",
+      "note": "Pater in the religious-order sense has the Latin plural Patres."
+    },
+    {
+      "entry_id": "frequency:1705",
+      "value": [
+        "Wölfe"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Wolf",
+      "note": "Wolf forms the plural Wölfe."
+    },
+    {
+      "entry_id": "frequency:1712",
+      "value": [
+        "Pizzas",
+        "Pizzen"
+      ],
+      "source": "Duden and Wiktionary",
+      "url": "https://www.duden.de/rechtschreibung/Pizza",
+      "note": "Both Pizzas and Pizzen are accepted plural forms."
+    },
+    {
+      "entry_id": "frequency:1719",
+      "value": [
+        "Mittage"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Mittag",
+      "note": "Mittage is the plural for separate noon periods or days; the ordinary time-of-day sense is usually singular.",
+      "usage_note": "Use Mittage for multiple separate days/noon periods; Mittag as the time of day is commonly singular."
+    },
+    {
+      "entry_id": "frequency:1728",
+      "value": [
+        "Säcke"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Sack",
+      "note": "Sack meaning a large bag forms Säcke."
+    },
+    {
+      "entry_id": "frequency:1733",
+      "value": [
+        "Mittel"
+      ],
+      "source": "Duden and Wiktionary",
+      "url": "https://en.wiktionary.org/wiki/Mittel#German",
+      "note": "Mittel meaning an agent, means, or appliance has an unchanged plural form Mittel."
+    },
+    {
+      "entry_id": "frequency:1747",
+      "value": [
+        "Obersten",
+        "Oberste"
+      ],
+      "source": "Duden and Wiktionary",
+      "url": "https://en.wiktionary.org/wiki/Oberst#German",
+      "note": "Both forms occur; Obersten is the more usual plural, while Oberste is less common.",
+      "usage_note": "Plural is usually Obersten; Oberste is a less common variant. The noun denotes the military rank colonel."
+    },
+    {
+      "entry_id": "frequency:1749",
+      "value": [
+        "Gnaden"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/deklination/substantive/Gnade",
+      "note": "Duden lists Gnaden but marks the plural rare.",
+      "usage_note": "Rare plural; Gnade is normally singular in the sense of mercy or grace."
+    },
+    {
+      "entry_id": "frequency:1750",
+      "value": [
+        "Viren"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Virus",
+      "note": "Duden gives Viren as the standard German plural. Vira is a New Latin form, while Virus(s)e is not the standard form for this learner entry.",
+      "usage_note": "Use Viren in standard German, regardless of the article der/das in singular. Do not use Latin Vira in ordinary German."
+    },
+    {
+      "entry_id": "frequency:1758",
+      "value": [
+        "Felder"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Feld",
+      "note": "Feld meaning a plot of open land forms Felder."
+    },
+    {
+      "entry_id": "frequency:1774",
+      "value": [
+        "Hämmer"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Hammer",
+      "note": "Duden gives Hämmer for the tool sense; remove Hammer as a distractor form."
+    },
+    {
+      "entry_id": "frequency:1783",
+      "value": [
+        "Kommandos",
+        "Kommanden"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Kommando",
+      "note": "Duden lists Kommandos and, in Austria, Kommanden. Kommanda is not a standard German plural.",
+      "usage_note": "Kommandos is standard; Kommanden is an Austrian variant. The sense 'command authority' has no plural."
+    },
+    {
+      "entry_id": "frequency:1784",
+      "value": [
+        "Krankenwagen"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Krankenwagen",
+      "note": "Krankenwagen has the same form in singular and plural."
+    },
+    {
+      "entry_id": "frequency:1794",
+      "value": [
+        "Leiter"
+      ],
+      "source": "Wiktionary",
+      "url": "https://en.wiktionary.org/wiki/Leiter#German",
+      "note": "For the masculine person/leader sense, the plural is unchanged Leiter; do not confuse with feminine die Leiter (ladder), plural Leitern."
+    },
+    {
+      "entry_id": "frequency:1798",
+      "value": [
+        "Cent",
+        "Cents"
+      ],
+      "source": "Duden and LEO German grammar",
+      "url": "https://dict.leo.org/grammatik/deutsch/Wort/Nomen/Kategorien/Numerus/Menge.xml?lang=de",
+      "note": "Cent stays unchanged in price/amount expressions; Cents is used when counting individual coins.",
+      "usage_note": "Use Cent after a number in an amount (fünf Cent). Cents can count separate physical coins."
+    },
+    {
+      "entry_id": "frequency:1812",
+      "value": "Usually singular in this material sense",
+      "source": "Duden and Wiktionary",
+      "url": "https://de.wiktionary.org/wiki/Holz#German",
+      "note": "Holz as a material is a mass noun and usually singular; Hölzer refers to types or pieces of wood.",
+      "usage_note": "Usually singular for wood as a material. Hölzer is possible for types or individual pieces."
+    },
+    {
+      "entry_id": "frequency:1827",
+      "value": [
+        "Sterne"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Stern",
+      "note": "Stern meaning a celestial star forms Sterne."
+    },
+    {
+      "entry_id": "frequency:1850",
+      "value": [
+        "Lippen"
+      ],
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/Lippe",
+      "note": "Lippe forms the plural Lippen."
+    }
+  ]
+}

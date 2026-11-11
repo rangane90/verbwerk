@@ -1,0 +1,24 @@
+{
+  "pack_id": "verbwerk.everflip.de.supplement.v1",
+  "pack_role": "supplemental",
+  "version": "1.0.0",
+  "entry_count": 77,
+  "languages_target_supported": [
+    "de"
+  ],
+  "gloss_languages_supported": [
+    "en"
+  ],
+  "source_dataset": "EverFlip Multilingual Flashcard Corpus",
+  "source_dataset_version": "1.0.0",
+  "source_release_commit": "0f76c389e3cbcddd61408b433ea6df8d8c9b1613",
+  "source_license": "CC-BY-4.0",
+  "source_attribution": "EverFlip (2026), EverFlip Multilingual Flashcard Corpus, version 1.0.0, licensed under CC BY 4.0. https://everflip.app/dataset",
+  "source_url": "https://everflip.app/dataset",
+  "source_license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "source_card_count": 77,
+  "learner_text_license": "Verbwerk original German definitions, example sentences and English translations in this supplement are released under CC BY 4.0.",
+  "retrieved_at": "2026-11-01",
+  "changes_made": "Filtered the German-language cards to standalone headwords absent from the pinned General Library; excluded grammar patterns and existing lemmas. Rewrote the source English meanings as concise learner glosses, then added original German definitions, examples and translations; supplied noun articles and plural forms where relevant.",
+  "notes": "This is an additional flat General Library pack. CEFR levels and source deck names are retained only in source provenance and are not used as Library filters or labels."
+}

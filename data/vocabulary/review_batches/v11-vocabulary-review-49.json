@@ -1,0 +1,405 @@
+{
+  "batch_id": "v11-vocabulary-review-49",
+  "review_date": "2026-11-11",
+  "input_database_sha256": "fea696beff0fd9d1a5260eb98cf26470793f5734582676cdcffee9ad512ede6c",
+  "accepted_examples": [
+    {
+      "entry_id": "frequency:4211",
+      "german": "Das war genauso eine Sackgasse.",
+      "english": "That was a dead end as well.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4212",
+      "german": "Warum ist Tom nicht stehengeblieben?",
+      "english": "Why didn't Tom stop?",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4214",
+      "german": "Bitte trinken Sie viel Fl\u00fcssigkeit.",
+      "english": "You should drink a lot of liquid.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4216",
+      "german": "Ich k\u00f6nnte ebenso gut auch einen Vorsprung bekommen.",
+      "english": "I might as well get a head start.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4220",
+      "german": "Das ist eine gef\u00e4hrliche Kurve. Es ist dort schon zu vielen Unf\u00e4llen gekommen.",
+      "english": "That's a dangerous curve. There've been many accidents there.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4221",
+      "german": "Frankreich und Gro\u00dfbritannien schlossen sich der Invasion an.",
+      "english": "France and Britain joined the invasion.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4223",
+      "german": "Wie gef\u00e4llt dir dieses Outfit?",
+      "english": "How do you like this outfit?",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4224",
+      "german": "Es war entz\u00fcckend.",
+      "english": "It was lovely.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4227",
+      "german": "Das war der H\u00f6hepunkt meiner Reise.",
+      "english": "This was the highlight of my trip.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4230",
+      "german": "Dudels\u00e4cke erzeugen einen sehr seltsamen Klang.",
+      "english": "Bagpipes produce a very strange sound.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4231",
+      "german": "Es ist f\u00fcrchterlich dringend.",
+      "english": "It's terribly urgent.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4232",
+      "german": "Die Zeitungen haben nichts ver\u00f6ffentlicht.",
+      "english": "The newspapers didn't publish anything.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4233",
+      "german": "Ungl\u00fccklicherweise sind meine Lehrer nicht die schlechtesten.",
+      "english": "Unfortunately, my teachers are not the worst ones.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4234",
+      "german": "Ich werde ihm einen Ratschlag geben.",
+      "english": "I'll give him a piece of advice.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4236",
+      "german": "Wo ist der Zoll?",
+      "english": "Where is Customs?",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4237",
+      "german": "Der Fluss hat die ganze Region \u00fcberschwemmt.",
+      "english": "The river flooded the entire region.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4238",
+      "german": "Er arbeitet als Wachmann bei einem Lagerhaus.",
+      "english": "He is working as a security guard at a warehouse.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4239",
+      "german": "Der Gipfel des Berges war von Schnee bedeckt.",
+      "english": "The mountain peak was covered with snow.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4242",
+      "german": "Meine Enkelin ist acht Jahre alt.",
+      "english": "My granddaughter is eight.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4243",
+      "german": "Tom sprach davon, M\u00f6nch zu werden.",
+      "english": "Tom talked about becoming a monk.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4244",
+      "german": "In meinem F\u00fcller ist keine Tinte mehr.",
+      "english": "My pen is out of ink.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4245",
+      "german": "Tom ist Journalist bei einer bekannten Tageszeitung.",
+      "english": "Tom is a journalist at a well-known daily newspaper.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4248",
+      "german": "Toms Ego wurde angeschlagen.",
+      "english": "Tom's ego has been bruised.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4250",
+      "german": "Ich habe Kopfweh. Vielleicht sollte ich Aspirin nehmen.",
+      "english": "I've got a headache. Maybe I should take some aspirin.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4252",
+      "german": "Die Bank weigerte sich, mir einen Kredit zu gew\u00e4hren.",
+      "english": "The bank refused to grant me the loan.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4253",
+      "german": "Die Prophezeiung ging in Erf\u00fcllung.",
+      "english": "The prophecy came to pass.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4254",
+      "german": "Du siehst winzig neben einem Sumoringer aus.",
+      "english": "You look tiny next to a sumo wrestler.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4255",
+      "german": "Viele Tonnen M\u00fcll landen jeden Monat auf dieser M\u00fcllkippe.",
+      "english": "Many tons of waste go into the landfill each month.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4256",
+      "german": "Unsere Lizenz ist vorletzte Woche abgelaufen.",
+      "english": "Our license expired the week before last.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4257",
+      "german": "Die W\u00e4hler haben letztes Jahr eine \u00e4hnliche Ma\u00dfnahme abgelehnt.",
+      "english": "Voters rejected a similar measure last year.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4258",
+      "german": "Die Brandursache ist noch nicht ermittelt worden.",
+      "english": "The cause of the fire hasn't yet been determined.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4261",
+      "german": "Tom ist nicht gerne arbeitslos.",
+      "english": "Tom doesn't like being unemployed.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4264",
+      "german": "Toms Hund hat mit seinen Pfoten \u00fcberall auf dem neuen Teppich schmutzige Spuren hinterlassen.",
+      "english": "Tom's dog left muddy paw prints all over his new carpet.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4265",
+      "german": "Ich habe Englisch von einem Ausl\u00e4nder gelernt.",
+      "english": "I was taught English by a foreigner.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4266",
+      "german": "Ich habe den Kalender an die Wand geh\u00e4ngt.",
+      "english": "I've hung the calendar on the wall.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4268",
+      "german": "Ich werde dich nicht mit den Details langweilen.",
+      "english": "I won't bore you with the details.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    }
+  ],
+  "editorial_examples": [
+    {
+      "entry_id": "frequency:4210",
+      "german": "Die dreiundzwanzigste Kompanie verteidigte unerm\u00fcdlich ihre Stellung an der franz\u00f6sischen Kirche.",
+      "english": "The 23rd company tirelessly defended its position near the French church.",
+      "note": "Corrected the ordinal and location in the machine-translated sentence."
+    },
+    {
+      "entry_id": "frequency:4213",
+      "german": "Es blieb hinter meinen Erwartungen zur\u00fcck.",
+      "english": "It fell short of my expectations.",
+      "note": "Matched the plural in the German sentence."
+    },
+    {
+      "entry_id": "frequency:4217",
+      "german": "Der Verk\u00e4ufer zeigte, wie man es benutzt.",
+      "english": "The salesperson showed me how to use it.",
+      "note": "Used a gender-neutral English occupation term for the masculine German noun."
+    },
+    {
+      "entry_id": "frequency:4219",
+      "german": "Meine Finger hinterlie\u00dfen Abdr\u00fccke auf dem Glas.",
+      "english": "My fingers left prints on the glass.",
+      "note": "Corrected the overly vague translation while retaining the sense of marks left by touch.",
+      "evidence_url": "https://www.duden.de/rechtschreibung/Abdruck_zu_abdruecken"
+    },
+    {
+      "entry_id": "frequency:4222",
+      "german": "Das Verb \u201epissen\u201c ist derb und bedeutet \u201eurinieren\u201c.",
+      "english": "The verb \u201cpissen\u201d is vulgar and means \u201cto urinate.\u201d",
+      "note": "Replaced an inappropriate imperative with a neutral definition sentence and made the coarse register explicit.",
+      "evidence_url": "https://www.duden.de/rechtschreibung/pissen"
+    },
+    {
+      "entry_id": "frequency:4226",
+      "german": "In der Stahlherstellung frischt man Roheisen zu Stahl.",
+      "english": "In steelmaking, pig iron is refined into steel.",
+      "note": "Replaced a sentence using the adjective frische with one using the specialized verb frischen.",
+      "evidence_url": "https://de.wiktionary.org/wiki/frischen"
+    },
+    {
+      "entry_id": "frequency:4235",
+      "german": "Die Vagina ist ein muskul\u00f6ser Kanal, der von der Geb\u00e4rmutter nach au\u00dfen f\u00fchrt.",
+      "english": "The vagina is a muscular canal that leads from the uterus to the outside of the body.",
+      "note": "Replaced an anatomically incorrect sentence with an accurate, neutral definition example.",
+      "evidence_url": "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/vagina"
+    },
+    {
+      "entry_id": "frequency:4240",
+      "german": "Es wird ein Jammer sein, von hier wegzugehen.",
+      "english": "It will be a shame to leave this place.",
+      "note": "Translated the idiom es ist ein Jammer naturally in context.",
+      "evidence_url": "https://www.duden.de/rechtschreibung/Jammer"
+    },
+    {
+      "entry_id": "frequency:4241",
+      "german": "Die Besucher der Galerie verursachten viel L\u00e4rm.",
+      "english": "The gallery visitors were making a lot of noise.",
+      "note": "Corrected spectators, which implies an event audience rather than gallery visitors."
+    },
+    {
+      "entry_id": "frequency:4246",
+      "german": "Tom war schon immer ein Gl\u00fcckspilz.",
+      "english": "Tom has always been a lucky devil.",
+      "note": "Preserved the idiomatic sense of Gl\u00fcckspilz in the English translation."
+    },
+    {
+      "entry_id": "frequency:4247",
+      "german": "Ein Ballon platzt, wenn er zu stark aufgeblasen wird.",
+      "english": "A balloon bursts if it is inflated too much.",
+      "note": "Replaced a serious medical example with a clear, neutral example of pressure causing something to burst."
+    },
+    {
+      "entry_id": "frequency:4260",
+      "german": "Der Schwindel flog nach einigen Wochen auf.",
+      "english": "The fraud was exposed after a few weeks.",
+      "note": "Replaced a conspiracy-themed example with a neutral use meaning fraud or deception.",
+      "evidence_url": "https://www.duden.de/rechtschreibung/Schwindel"
+    },
+    {
+      "entry_id": "frequency:4262",
+      "german": "Die Barkeeperin mischte Saft in das Getr\u00e4nk.",
+      "english": "The bartender mixed juice into the drink.",
+      "note": "Replaced an example implying drink spiking with a neutral everyday use."
+    },
+    {
+      "entry_id": "frequency:4267",
+      "german": "Wann hast du das letzte Mal \u00dcberstunden gemacht?",
+      "english": "When was the last time you worked overtime?",
+      "note": "Corrected the German spelling of letzte Mal."
+    }
+  ],
+  "held_examples": [
+    {
+      "entry_id": "frequency:4222",
+      "german": "Na so was! Pisst einfach in die Ecke!",
+      "reason": "Replaced an inappropriate imperative with a neutral definition sentence and made the coarse register explicit."
+    },
+    {
+      "entry_id": "frequency:4226",
+      "german": "Lass ab und zu frische Luft ins Zimmer!",
+      "reason": "Replaced a sentence using the adjective frische with one using the specialized verb frischen."
+    },
+    {
+      "entry_id": "frequency:4235",
+      "german": "Man sieht deine Vagina durch die Leggins!",
+      "reason": "Replaced an anatomically incorrect sentence with an accurate, neutral definition example."
+    },
+    {
+      "entry_id": "frequency:4247",
+      "german": "Eine Ader ist in seinem Gehirn geplatzt.",
+      "reason": "Replaced a serious medical example with a clear, neutral example of pressure causing something to burst."
+    },
+    {
+      "entry_id": "frequency:4260",
+      "german": "Mein Gro\u00dfvater glaubt, dass die Mondlandung ein Schwindel war.",
+      "reason": "Replaced a conspiracy-themed example with a neutral use meaning fraud or deception."
+    },
+    {
+      "entry_id": "frequency:4262",
+      "german": "Hast du mir etwas in mein Getr\u00e4nk gemischt?",
+      "reason": "Replaced an example implying drink spiking with a neutral everyday use."
+    },
+    {
+      "entry_id": "frequency:4267",
+      "german": "Wann hast du das letztemal \u00dcberstunden gemacht?",
+      "reason": "Corrected the German spelling of letzte Mal."
+    }
+  ],
+  "entry_updates": [
+    {
+      "entry_id": "frequency:4216",
+      "field": "meaning",
+      "value": "projection, protrusion; lead, advantage, head start",
+      "note": "Added the advantage/head-start sense used by the candidate sentence.",
+      "url": "https://www.duden.de/rechtschreibung/Vorsprung"
+    },
+    {
+      "entry_id": "frequency:4222",
+      "field": "meaning",
+      "value": "to urinate (vulgar/coarse)",
+      "note": "Added an explicit register label for this informal and coarse verb.",
+      "url": "https://www.duden.de/rechtschreibung/pissen"
+    },
+    {
+      "entry_id": "frequency:4231",
+      "field": "word_class",
+      "value": "adjective",
+      "note": "Corrected the lexical part of speech: f\u00fcrchterlich is an adjective, also used as an intensifier with adverbial function.",
+      "url": "https://www.duden.de/rechtschreibung/fuerchterlich"
+    },
+    {
+      "entry_id": "frequency:4231",
+      "field": "meaning",
+      "value": "terrible, awful; terribly, extremely (as an intensifier)",
+      "note": "Aligned the gloss with the adjective and its common intensifier use.",
+      "url": "https://www.duden.de/rechtschreibung/fuerchterlich"
+    },
+    {
+      "entry_id": "frequency:4240",
+      "field": "meaning",
+      "value": "misery, distress; a pity or shame (in the phrase \u201ces ist ein Jammer\u201d)",
+      "note": "Added the common idiomatic meaning used by the example to the existing misery gloss.",
+      "url": "https://www.duden.de/rechtschreibung/Jammer"
+    },
+    {
+      "entry_id": "frequency:4255",
+      "field": "meaning",
+      "value": "ton (1,000 kg); large container or barrel; (waste) bin",
+      "note": "Added the metric weight sense used by the candidate sentence while retaining the large-container sense.",
+      "url": "https://www.duden.de/rechtschreibung/Tonne"
+    },
+    {
+      "entry_id": "frequency:4260",
+      "field": "meaning",
+      "value": "fraud, scam, deception; hoax",
+      "note": "Broadened swindle to include the hoax/deception sense and match the revised example.",
+      "url": "https://www.duden.de/rechtschreibung/Schwindel"
+    }
+  ],
+  "plural_reviews": [],
+  "inflected_links": []
+}

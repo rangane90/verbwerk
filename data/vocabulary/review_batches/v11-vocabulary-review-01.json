@@ -1,0 +1,90 @@
+{
+  "batch_id": "v11-vocabulary-review-01",
+  "review_date": "2026-11-11",
+  "input_database_sha256": "8a143eaaed64222dc1031efc6c16057982e205260a2293eabcc3127b22db8455",
+  "article_exact_sense_rule": {
+    "expected_count": 130,
+    "criterion": "English meaning matches the dictionary sense after punctuation/case normalization, and each candidate article is present in the existing German noun-gender index."
+  },
+  "reviewed_examples": [
+    {"entry_id":"curated:lex-de-brauchen","german":"Wir brauchen nicht viel Platz.","english":"We don't require much space.","note":"The example uses brauchen in the sense require."},
+    {"entry_id":"frequency:191","german":"Tom hörte für einen Moment auf zu lesen.","english":"Tom stopped reading for a moment.","note":"Moment is used with its time-interval meaning."},
+    {"entry_id":"frequency:192","german":"Der Junge hat eine Uhr in der Hand.","english":"The boy has a watch in his hand.","note":"Junge means boy."},
+    {"entry_id":"frequency:198","german":"Da ist ein Herr, der dich sehen will.","english":"There is a gentleman to see you.","note":"Herr means gentleman."},
+    {"entry_id":"curated:lex-de-heissen","german":"Darf ich fragen, wie du heißt?","english":"May I have your name, please?","note":"heißen is used to ask a person's name."},
+    {"entry_id":"frequency:203","german":"Mein Rat an Sie ist, sofort zu gehen.","english":"My advice to you is to leave immediately.","note":"sofort means immediately."},
+    {"entry_id":"frequency:208","german":"Mein Sohn ist jetzt so groß wie ich.","english":"My son is now as tall as I am.","note":"Sohn means son."},
+    {"entry_id":"curated:lex-de-allein","german":"Ich bin lieber für mich allein.","english":"I prefer my own company.","note":"allein means without company."},
+    {"entry_id":"frequency:214","german":"Wir wissen beide, dass es zu spät ist.","english":"We both know it's too late.","note":"beide means both."},
+    {"entry_id":"frequency:220","german":"Geben Sie mir bitte von jeder Sorte drei.","english":"Please give me three of each kind.","note":"jeder expresses each/every."},
+    {"entry_id":"curated:lex-de-bruder","german":"Ich nehme an, der Junge, der dir so ähnlich sieht, ist dein Bruder.","english":"I assume that boy who looks so much like you is your brother.","note":"Bruder means brother."},
+    {"entry_id":"frequency:229","german":"Vielen Dank für alles, was ihr getan habt!","english":"Thanks a lot for everything you've done.","note":"Dank means thanks/gratitude."},
+    {"entry_id":"frequency:230","german":"Ich habe immer noch meine Würde.","english":"I still have my dignity.","note":"Würde means dignity."},
+    {"entry_id":"frequency:231","german":"Der Baum stand kurz vor dem Fall.","english":"The tree was ready to fall down.","note":"Fall means a falling event here."},
+    {"entry_id":"frequency:232","german":"Mein Kuli ist nicht so gut wie deiner.","english":"My pen isn't as good as yours.","note":"deiner is used as a possessive pronoun."},
+    {"entry_id":"curated:lex-de-kennen","german":"Das Buch kennen alle kleinen Kinder.","english":"That book is familiar to all young children.","note":"kennen means be familiar with."},
+    {"entry_id":"curated:lex-de-frage","german":"Er hat eine Frage zum Abendessen an Sie, Herr.","english":"He has a question for you regarding dinner, sir.","note":"Frage means question."},
+    {"entry_id":"curated:lex-de-uhr","german":"Um wie viel Uhr esst ihr zu Abend?","english":"What time do you have dinner?","note":"Uhr refers to clock time."},
+    {"entry_id":"curated:lex-de-stadt","german":"Es gibt viele hohe Häuser in dieser Stadt.","english":"The town has many tall buildings.","note":"Selected this alternative because it better illustrates Stadt than the other candidate."},
+    {"entry_id":"frequency:242","german":"Bald schlief das Baby in der Wiege ein.","english":"The baby soon fell asleep in the cradle.","note":"Baby means infant."},
+    {"entry_id":"curated:lex-de-name","german":"Er hörte nicht, dass sein Name gerufen wurde.","english":"He didn't hear his name called.","note":"Name means a person's name."},
+    {"entry_id":"curated:lex-de-kopf","german":"Es hatte den Kopf einer Frau, den Körper eines Löwen, die Flügel eines Vogels und den Schwanz einer Schlange.","english":"It had the head of a woman, the body of a lion, the wings of a bird, and the tail of a serpent.","note":"Kopf means head."},
+    {"entry_id":"curated:lex-de-klein","german":"Ich trage lieber ein T-Shirt, das zu groß ist, als eines, das zu klein ist.","english":"I'd rather wear a T-shirt that's too large than one that's too small.","note":"Selected this alternative because it directly uses klein to mean small."},
+    {"entry_id":"curated:lex-de-spater","german":"Tom wachte etwas später auf als ich.","english":"Tom woke up a little after I did.","note":"später means later."},
+    {"entry_id":"frequency:252","german":"Ich habe ein paar Freunde in den USA.","english":"I have a few friends in the United States.","note":"Freunde means friends."},
+    {"entry_id":"frequency:255","german":"Du musst bis zum Ende des Monats mit dieser Arbeit fertig sein.","english":"You are to finish this work by the end of this month.","note":"Ende means end."},
+    {"entry_id":"frequency:261","german":"Könnte ich eine Minute deiner Zeit haben?","english":"Could I have a minute of your time?","note":"Minute means a unit of time."},
+    {"entry_id":"frequency:262","german":"Ich bin bereit, alles für dich zu tun.","english":"I'm ready to do anything for you.","note":"bereit means ready."},
+    {"entry_id":"frequency:263","german":"Er machte seinen Mund weit auf.","english":"He opened his mouth wide.","note":"weit means wide."},
+    {"entry_id":"frequency:264","german":"Tom hatte nur eine leise Ahnung davon, was Mary meinte.","english":"Tom only had a faint inkling of what Mary was talking about.","note":"Ahnung means inkling."},
+    {"entry_id":"curated:lex-de-tur","german":"Du musst ziehen, um die Tür zu öffnen.","english":"You need to pull that door to open it.","note":"Tür means door."},
+    {"entry_id":"curated:lex-de-auto","german":"Ein Auto hat vier Räder.","english":"An automobile has four wheels.","note":"Auto means automobile/car."},
+    {"entry_id":"frequency:1015","german":"Sie hielt ihr Baby in den Armen.","english":"She held her baby in her arms.","note":"The context identifies Armen as dative plural of Arm, the body part; this corrected the prior homograph mapping."},
+    {"entry_id":"frequency:3450","german":"Ich werde es in Betracht ziehen.","english":"I'll take that into consideration.","note":"This illustrates the fixed expression in Betracht ziehen."},
+    {"entry_id":"frequency:3739","german":"Das Kind schlief auf dem Schoß seiner Mutter.","english":"The child slept on its mother's lap.","note":"Schoß means lap."}
+  ],
+  "held_examples": [
+    {"entry_id":"frequency:215","lemma":"gefunden","reason":"The supplied example uses the verbal participle of finden, while the entry is tagged adjective; no adjective-sense candidate was confirmed."},
+    {"entry_id":"frequency:223","lemma":"halten","reason":"The supplied examples use the idiom Händchen halten and do not match the entry gloss about holding an object."},
+    {"entry_id":"frequency:254","lemma":"darauf","reason":"Available examples use fixed phrases and do not clearly illustrate the current standalone English gloss."}
+  ],
+  "article_exceptions": {
+    "Biest": {
+      "article":["das"],"plural":["Biester"],"source":"Duden",
+      "url":"https://www.duden.de/rechtschreibung/Biest_Tier",
+      "note":"Duden confirms das Biest and the plural Biester for the animal/figurative sense."
+    },
+    "Lake": {
+      "article":["die"],"plural":["Laken"],"source":"Duden",
+      "url":"https://www.duden.de/rechtschreibung/Lake",
+      "note":"Duden confirms feminine Lake and plural Laken for brine."
+    },
+    "Diner": {
+      "article":["der"],"plural":["Diner"],"source":"Duden",
+      "url":"https://www.duden.de/rechtschreibung/Diner_Restaurant",
+      "meaning":"diner; small restaurant, especially in the United States",
+      "note":"Correct the candidate das to der for the restaurant sense; Duden distinguishes the neuter meal sense."
+    },
+    "Schoß": {
+      "article":["der"],"plural":["Schöße"],"source":"Duden",
+      "url":"https://www.duden.de/rechtschreibung/Schosz_Koerperteil",
+      "note":"Duden confirms masculine Schoß for the lap/body-part sense and plural Schöße."
+    },
+    "Armen": {
+      "article_note":"Inflected dative plural of the noun der Arm (body part); its nominative plural is die Arme. The surface form Armen appears after den, as in in den Armen.",
+      "plural_note":"Inflected form: dative plural of der Arm; nominative plural die Arme, dative plural den Armen.",
+      "meaning":"arms (dative plural of Arm, the body part)",
+      "base_lemma":"Arm",
+      "form_note":"Dative plural of Arm (body part); example usage: in den Armen.",
+      "article_url":"https://www.duden.de/rechtschreibung/Arm",
+      "plural_url":"https://www.duden.de/deklination/substantive/Arm",
+      "note":"The original candidate described forms of Armer, but the bilingual example uses the noun Arm. Keep Armen as a frequency surface form and link it to Arm."
+    },
+    "Betracht": {
+      "article_note":"Used in fixed expressions such as in Betracht ziehen and außer Betracht lassen; no standalone article is used in these constructions.",
+      "plural_note":"Usually singular; occurs mainly in fixed expressions such as in Betracht ziehen and außer Betracht lassen.",
+      "url":"https://www.duden.de/rechtschreibung/Betracht",
+      "note":"Duden records fixed expressions rather than an independent article-bearing use."
+    }
+  }
+}

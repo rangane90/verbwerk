@@ -1,0 +1,344 @@
+{
+  "batch_id": "v11-vocabulary-review-54",
+  "review_date": "2026-11-11",
+  "input_database_sha256": "da0b2cea243e422f1ce1e8a64a5695737e30671c7d5734bb3cadd8fab32b44bd",
+  "accepted_examples": [
+    {
+      "entry_id": "frequency:4530",
+      "german": "Wie können wir den Konflikt entschärfen?",
+      "english": "How can we diffuse the conflict?",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4533",
+      "german": "Ich denke, dieses Jahr werde ich Mais statt Kartoffeln anbauen.",
+      "english": "This year I think I'll grow corn instead of potatoes.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4534",
+      "german": "Das Eichhörnchen frisst eine Nuss.",
+      "english": "The squirrel is eating a nut.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4536",
+      "german": "Sie sind der beste Sänger, den ich kenne.",
+      "english": "You're the best singer I know.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4537",
+      "german": "Wünschen Sie einen Kaffee zum Dessert?",
+      "english": "Would you like coffee with your dessert?",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4538",
+      "german": "Da ist eine Menschenmenge vor dem Rathaus.",
+      "english": "There is a crowd of people in front of the town hall.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4539",
+      "german": "Die hohen Temperaturen bewirken das Schmelzen des Stahls.",
+      "english": "The high temperatures cause melting of the steel.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4540",
+      "german": "Ich weiß, wer die Mörderin ist.",
+      "english": "I know who the killer is.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4541",
+      "german": "Es ist kein Wasser in der Wanne.",
+      "english": "There's no water in the tub.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4544",
+      "german": "Ich bin beeindruckt, wie sehr du dich verbessert hast.",
+      "english": "I'm impressed with how much you've improved.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4545",
+      "german": "Was hier gestern passiert ist, war unerwartet.",
+      "english": "What happened here yesterday was unexpected.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4547",
+      "german": "Die Kommodenschublade hat mehrere Fächer.",
+      "english": "The bureau drawer has several compartments.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4549",
+      "german": "Du hast einen Fleck am Kragen.",
+      "english": "Your collar has a stain on it.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4554",
+      "german": "Bitte markieren Sie die richtige Antwort.",
+      "english": "Please mark the correct answer.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4556",
+      "german": "Sie hat ihn aus dem Schlamm herausgezogen.",
+      "english": "She pulled him out of the mud.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4558",
+      "german": "Die Handlung war so kompliziert, dass ich ihr nicht folgen konnte.",
+      "english": "The plot was so complicated that I couldn't follow it.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4560",
+      "german": "Das ist ein Klassiker.",
+      "english": "It's a classic.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4561",
+      "german": "Tom öffnete die Kiste mit einem Brecheisen und nahm eine Stange Dynamit heraus.",
+      "english": "Tom opened up the crate with a crowbar and took out a stick of dynamite.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4562",
+      "german": "Der Lehrer hat uns dieses Wörterbuch empfohlen.",
+      "english": "The teacher recommended this dictionary to us.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4563",
+      "german": "Ich werde den Wagen von einem Mechaniker nachsehen lassen.",
+      "english": "I'll have a mechanic check the car out.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4564",
+      "german": "Er beichtete all seine Sünden.",
+      "english": "He confessed all his sins.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4565",
+      "german": "Hier ist eine Liste mit häufigen Abkürzungen.",
+      "english": "Here is a list of common abbreviations.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4566",
+      "german": "Sie waren sehr professionell.",
+      "english": "They were very professional.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4567",
+      "german": "Das Begräbnis der Dame fand bei der örtlichen Kirche statt.",
+      "english": "The lady's funeral was held at the local church.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4570",
+      "german": "Das Dienstmädchen kündigte jeden Gast einzeln an.",
+      "english": "The maid announced each guest.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4571",
+      "german": "Der Chirurg entfernte dem Patienten den Blinddarm.",
+      "english": "The surgeon took out his patient's appendix.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4572",
+      "german": "Hast du schon mal einen Wal gesehen?",
+      "english": "Have you ever seen a whale?",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4573",
+      "german": "2001 griffen Terroristen das World Trade Center in New York City an.",
+      "english": "Terrorists attacked the World Trade Center in New York City in 2001.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4574",
+      "german": "Tom ist amüsant, nicht wahr?",
+      "english": "Tom is amusing, isn't he?",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4575",
+      "german": "Man sagt, dass Menschen mit absolutem Gehör durch das reine Zuhören ermitteln können, welche Tonhöhe eine Note hat.",
+      "english": "They say that a person who has perfect pitch can tell just by listening what pitch a note is.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4576",
+      "german": "Manchmal ist es schwierig, taktvoll und ehrlich zugleich zu sein.",
+      "english": "Sometimes it's hard to be tactful and honest at the same time.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4577",
+      "german": "Ich habe deine Aufrichtigkeit immer bewundert.",
+      "english": "I've always admired your honesty.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4578",
+      "german": "Das fügt unserem Problem eine neue Dimension hinzu.",
+      "english": "That adds a new dimension to our problem.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4579",
+      "german": "Du kommst nur in die Quere.",
+      "english": "You're just getting in the way.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4580",
+      "german": "Mein Vater stellte den Wecker auf sechs Uhr.",
+      "english": "My father set the alarm for six o'clock.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4581",
+      "german": "Diese Tradition ist in China entstanden.",
+      "english": "The custom originated in China.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4582",
+      "german": "Tom ist in der Lobby.",
+      "english": "Tom is in the lobby.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4583",
+      "german": "Er hörte auf, nach der Perle zu suchen.",
+      "english": "He stopped looking for the pearl.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4585",
+      "german": "Ich habe sie gestern auf dem Campus getroffen.",
+      "english": "I met her on campus yesterday.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    },
+    {
+      "entry_id": "frequency:4588",
+      "german": "Mein Vater hat mir zum Geburtstag ein kleines Hündchen geschenkt.",
+      "english": "My father gave me a puppy for my birthday.",
+      "note": "Checked the German form and syntax, intended sense, register, and English translation; suitable as a learner example."
+    }
+  ],
+  "editorial_examples": [
+    {
+      "entry_id": "frequency:4532",
+      "german": "Der Tauber sitzt auf dem Dach.",
+      "english": "The male pigeon is sitting on the roof.",
+      "note": "Corrected the example to match the masculine pigeon sense of Tauber."
+    },
+    {
+      "entry_id": "frequency:4542",
+      "german": "Ich habe versucht, dich telefonisch zu erreichen, aber ich bin nicht durchgekommen.",
+      "english": "I tried to reach you by phone, but I couldn’t get through.",
+      "note": "Added the required comma after versucht and smoothed the English."
+    },
+    {
+      "entry_id": "frequency:4546",
+      "german": "Die Polizei nahm mehrere Drogendealer fest.",
+      "english": "The police arrested several drug dealers.",
+      "note": "Replaced a clumsy “offensive” construction with a clear, natural example."
+    },
+    {
+      "entry_id": "frequency:4548",
+      "german": "Sie spielte den Ball cross.",
+      "english": "She hit the ball cross-court.",
+      "note": "Corrected the source inflection and used cross as the adverb in its tennis sense."
+    },
+    {
+      "entry_id": "frequency:4551",
+      "german": "Das Porzellan klirrt laut.",
+      "english": "The porcelain clinks loudly.",
+      "note": "Corrected the English translation of the sound verb."
+    },
+    {
+      "entry_id": "frequency:4552",
+      "german": "Hast du am Valentinstag schon etwas Romantisches vor?",
+      "english": "Do you have any romantic plans for Valentine’s Day?",
+      "note": "Corrected the translation, which had added an unsupported date."
+    },
+    {
+      "entry_id": "frequency:4555",
+      "german": "Reicht dir mein Ehrenwort nicht?",
+      "english": "Isn’t my word of honor enough for you?",
+      "note": "Made the English translation preserve the oath/promise sense."
+    },
+    {
+      "entry_id": "frequency:4559",
+      "german": "Versaue die Überraschung nicht!",
+      "english": "Don’t ruin the surprise!",
+      "note": "Replaced an unclear pronoun with an explicit object and natural usage."
+    },
+    {
+      "entry_id": "frequency:4568",
+      "german": "Wir ließen uns von der Werbung verführen, dort Urlaub zu machen.",
+      "english": "The advertising tempted us to spend our holiday there.",
+      "note": "Corrected an awkward literal translation while retaining the sense “tempt.”"
+    },
+    {
+      "entry_id": "frequency:4587",
+      "german": "Die Aufsicht hat sehr gut aufgepasst und Schlimmeres verhindert.",
+      "english": "The supervisor kept a close watch and prevented anything worse from happening.",
+      "note": "Clarified that Aufsicht refers to the person supervising in this sentence and corrected the translation."
+    }
+  ],
+  "entry_updates": [
+    {
+      "entry_id": "frequency:4548",
+      "field": "word_class",
+      "value": "adverb",
+      "source": "German Wiktionary",
+      "url": "https://de.wiktionary.org/wiki/cross",
+      "note": "Corrected the part of speech: cross is used as an adverb in the tennis sense."
+    },
+    {
+      "entry_id": "frequency:4548",
+      "field": "meaning",
+      "value": "cross-court; diagonally into the opponent’s court (tennis, adverb)",
+      "source": "German Wiktionary",
+      "url": "https://de.wiktionary.org/wiki/cross",
+      "note": "Clarified the tennis-specific adverbial meaning used by the reviewed example."
+    },
+    {
+      "entry_id": "frequency:4559",
+      "field": "meaning",
+      "value": "to ruin, spoil; to make very dirty (figurative sense is colloquial and coarse)",
+      "source": "Duden",
+      "url": "https://www.duden.de/rechtschreibung/versauen",
+      "note": "Added the register marking for the figurative sense illustrated by the example."
+    },
+    {
+      "entry_id": "frequency:4587",
+      "field": "meaning",
+      "value": "supervision, oversight; the person on duty who supervises",
+      "source": "Duden; German Wiktionary",
+      "url": "https://de.wiktionary.org/wiki/Aufsicht",
+      "note": "Added the person sense required by the example and removed the mistranslation."
+    }
+  ],
+  "plural_reviews": []
+}
