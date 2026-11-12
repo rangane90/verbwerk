@@ -1,4 +1,4 @@
-const CACHE='verbwerk-v11-online-16';
+const CACHE='verbwerk-v11-online-17';
 const RETIRED_PREFIXES=['verbwerk-v8-','verbwerk-v9-','verbwerk-v10-','verbwerk-v11-'];
 const FILES=['./','./index.html','./manifest.webmanifest','./icon.svg','./vocabulary-pilot.js','./vocabulary-general-a1-c2.js?v=21','./vocabulary-wordly-de.js?v=1','./vocabulary-gender-index.js?v=1','./vocabulary-latest-database.js?v=4','./vocabulary-general-ui.js?v=36','./vocabulary-unified-library.js?v=10','./vocabulary-manifest.json','./VOCABULARY-LICENSE.md'];
 const DATA_PATHS=['vocabulary-general-a1-c2.js','vocabulary-wordly-de.js','vocabulary-gender-index.js','vocabulary-manifest.json'];

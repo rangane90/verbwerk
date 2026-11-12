@@ -347,11 +347,20 @@ function reviewVerbs(day){let prior=introducedVerbsBefore(day);return prior.slic
 function esc(s){return String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
 function showPage(id,btn){document.querySelectorAll('main').forEach(x=>x.classList.add('hidden'));document.getElementById(id).classList.remove('hidden');document.querySelectorAll('.tabs button').forEach(x=>x.classList.remove('active'));if(btn)btn.classList.add('active');page=id}
 function renderHome(){let day=currentDay(),bank=lessonVerbBank(),news=verbsForDay(day),revs=reviewVerbs(day),allComplete=day>lessonDays();document.getElementById('dayLabel').textContent=allComplete?'VERB COLLECTION COMPLETE':'YOUR DAILY PRACTICE · DAY '+day;document.getElementById('streak').textContent=state.streak||0;document.getElementById('total').textContent=state.known.length;document.getElementById('accuracy').textContent=state.answers?Math.round(state.correct/state.answers*100)+'%':'—';document.getElementById('lessonSectionTitle').textContent=allComplete?'All verbs introduced':"Today's lesson";document.getElementById('lessonTitle').textContent=allComplete?'Verb set complete':'Day '+day+' · Verbs';document.getElementById('lessonDesc').textContent=allComplete?'You have worked through all '+bank.length+' verb entries. Review them or browse the Verb library.':(news.length||5)+' new verbs from the full vocabulary set, with a short cumulative review.';document.getElementById('lessonCount').textContent=allComplete?bank.length+' verb entries introduced':news.length+' new verbs · '+revs.length+' review verbs';let done=allComplete||state.completed.includes(day);document.getElementById('lessonStatus').textContent=done?'COMPLETED':'READY';document.getElementById('lessonProgress').style.width=done?'100%':'0%';document.getElementById('reviewCount').textContent=revs.length+' verbs to review';document.getElementById('todayList').innerHTML=allComplete?'<div class="empty">All verbs have been introduced. Start a review or explore the complete Verb library.</div>':news.map(v=>{let key=encodeURIComponent(lessonProgressId(v)),meta=v.pattern||v.case||'';return '<div class="card" onclick="openLessonVerbDetail(decodeURIComponent(&quot;'+key+'&quot;))"><div class="verb-row"><div><div class="verb">'+esc(v.id)+'</div><div class="meaning">'+esc(v.meaning)+'</div></div></div>'+(meta?'<div class="meta">'+esc(meta)+'</div>':'')+'</div>'}).join('')||'<div class="empty">No verbs are available for this lesson.</div>';let start=document.getElementById('startLessonButton');if(start){start.textContent=allComplete?'Review verbs →':"Start today's lesson →";start.onclick=allComplete?startReview:startLesson}}
-const exampleWordPattern=/[A-Za-zÄÖÜäöüßẞ]+(?:['’][A-Za-zÄÖÜäöüßẞ]+)*/g;
+const exampleWordPattern=/[A-Za-zÄÖÜäöüßẞ]+(?:[-‐‑][A-Za-zÄÖÜäöüßẞ]+)*(?:['’][A-Za-zÄÖÜäöüßẞ]+)*/g;
 let exampleVocabularyCache=null;
 function exampleNormalize(value){return String(value||'').toLocaleLowerCase('de-DE')}
 function exampleMeaning(record){if(!record)return '';if(record.meaning)return record.meaning;let terms=Array.isArray(record.english_terms)?record.english_terms.map(x=>x&&x.term).filter(Boolean):[];if(!terms.length&&record.en)terms=[record.en];return terms.join(' · ')}
-function exampleRecord(kind,lemma,meaning,englishTerms){return {kind:kind,lemma:String(lemma||''),meaning:String(meaning||''),englishTerms:Array.isArray(englishTerms)?englishTerms:[]}}
+function exampleRecord(kind,lemma,meaning,englishTerms,sourceIds){return {kind:kind,lemma:String(lemma||''),meaning:String(meaning||''),englishTerms:Array.isArray(englishTerms)?englishTerms:[],sourceIds:Array.isArray(sourceIds)?sourceIds:[]}}
+function exampleMergeLinkedTerms(map,record){
+  if(!record||!record.sourceIds||!record.sourceIds.length)return;
+  map.forEach(function(existing){
+    if(!existing||existing.kind!==record.kind||exampleNormalize(existing.lemma)!==exampleNormalize(record.lemma))return;
+    if(!(existing.sourceIds||[]).some(function(id){return record.sourceIds.includes(id)}))return;
+    let incoming=new Set((existing.englishTerms||[]).map(function(item){return String(typeof item==='string'?item:item&&item.term||'').toLocaleLowerCase('en-US')}));
+    (record.englishTerms||[]).forEach(function(item){let term=String(typeof item==='string'?item:item&&item.term||'').trim(),key=term.toLocaleLowerCase('en-US');if(term&&key&&!incoming.has(key)){existing.englishTerms.push({term:term});incoming.add(key)}});
+  });
+}
 function exampleAddNoun(map,surface,record){let words=String(surface||'').match(exampleWordPattern)||[];if(words.length){let key=exampleNormalize(words[words.length-1]);if(!map.has(key))map.set(key,record)}}
 const exampleIrregularPresent=new Map([
   ['sein',['bin','bist','ist','sind','seid']],['haben',['habe','hast','hat','haben','habt']],['werden',['werde','wirst','wird','werden','werdet']],
@@ -365,7 +374,7 @@ const exampleIrregularPresent=new Map([
 function exampleAddVerb(map,surface,record,prefixes,inflections,generatePresent){
   let words=String(surface||'').match(exampleWordPattern)||[];if(!words.length)return;
   let first=words[0];if(exampleNormalize(first)==='sich'&&words.length>1)first=words[1];
-  let key=exampleNormalize(first);map.set(key,record);
+  let key=exampleNormalize(first);if(!map.has(key))map.set(key,record);
   if(!generatePresent||!inflections||words.length>2)return;
   let infinitive=exampleNormalize(first);
   if(Array.from(prefixes).some(function(prefix){return infinitive.startsWith(prefix)&&infinitive.length>prefix.length+3}))return;
@@ -376,19 +385,191 @@ function exampleAddVerb(map,surface,record,prefixes,inflections,generatePresent)
   }
   (forms||[]).forEach(function(form){let formKey=exampleNormalize(form);if(formKey&&!inflections.has(formKey))inflections.set(formKey,record)});
 }
+function exampleSplitEnglishTerms(value){
+  let text=String(value||''),parts=[],current='',depth=0;
+  for(let i=0;i<text.length;i++){
+    let character=text[i];if(character==='(')depth++;else if(character===')'&&depth>0)depth--;
+    if(depth===0&&/[;·|,]/.test(character)){if(current.trim())parts.push(current.trim());current=''}else current+=character;
+  }
+  if(current.trim())parts.push(current.trim());
+  return parts.map(function(part){return part.replace(/\s*\([^)]*\)\s*$/,'').trim()}).filter(Boolean);
+}
+let exampleLinkedTermIndexes=null;
+function exampleBuildLinkedTermIndexes(){
+  if(exampleLinkedTermIndexes)return exampleLinkedTermIndexes;
+  let general=new Map(),frequency=new Map();
+  (window.VW_GENERAL_DATA&&window.VW_GENERAL_DATA.entries||[]).forEach(function(row){let terms=(row.english_terms||[]).map(function(item){return typeof item==='string'?item:(item&&item.term)||''}).filter(Boolean);general.set(row.id,terms)});
+  (window.VW_WORDLY_DE||[]).forEach(function(row){if(!row.gloss)return;let key=String(row.rank);if(!frequency.has(key))frequency.set(key,[]);frequency.get(key).push(row.gloss)});
+  return exampleLinkedTermIndexes={general:general,frequency:frequency};
+}
+function exampleLatestTerms(entry){
+  let values=[],indexes=exampleBuildLinkedTermIndexes(),generalIds=entry&&entry.links&&entry.links.general||[];
+  generalIds.forEach(function(id){values=values.concat(indexes.general.get(id)||[])});
+  let ranks=entry&&entry.links&&entry.links.frequency||[];
+  ranks.forEach(function(rank){values=values.concat(indexes.frequency.get(String(rank))||[])});
+  let course=typeof VERBS!=='undefined'?VERBS.find(function(row){return row.id===entry.course_id||row.id===entry.lemma}):null;
+  if(course&&course.meaning)values.push(course.meaning);
+  let conciseMeaning=String(entry&&entry.english_meaning||'').replace(/\s*\([^)]*\)\s*$/,'').trim();
+  if(conciseMeaning.length<=72&&!/[.!?]$/.test(conciseMeaning))values.push(conciseMeaning);
+  if(!values.length&&entry&&entry.english_meaning)values.push(entry.english_meaning);
+  let expanded=[];values.forEach(function(value){expanded=expanded.concat(exampleSplitEnglishTerms(value))});
+  let seen=new Set();return expanded.filter(function(value){let key=value.toLocaleLowerCase('en-US');if(!key||seen.has(key))return false;seen.add(key);return true});
+}
+function exampleAddVerifiedVerbForm(map,surface,record,prefixes,examples,entry){
+  let classText=[entry&&entry.grammar&&entry.grammar.verb_class,entry&&entry.candidate_grammar&&entry.candidate_grammar.verb_class].flat().join(' ').toLocaleLowerCase('de-DE');
+  let forms=exampleFiniteFormVariants(surface,/strong|irregular/.test(classText));if(!forms.length)return;
+  let exampleTokens=new Set();(examples||[]).forEach(function(example){(String(example&&example.german||'').match(exampleWordPattern)||[]).forEach(function(token){exampleTokens.add(exampleNormalize(token))})});
+  forms.forEach(function(form){if(exampleTokens.has(form))exampleAddVerb(map,form,record,prefixes,null,false)});
+}
+function exampleAddVerifiedPerfectTail(map,surface,record,prefixes,examples){
+  let words=String(surface||'').match(exampleWordPattern)||[];if(words.length<2)return;
+  let tail=words[words.length-1],key=exampleNormalize(tail),found=(examples||[]).some(function(example){return (String(example&&example.german||'').match(exampleWordPattern)||[]).some(function(token){return exampleNormalize(token)===key})});
+  if(found)exampleAddVerb(map,tail,record,prefixes,null,false);
+}
+function exampleRegisterLatestNoun(nouns,entry,record){
+  let lemma=String(entry.lemma||entry.display_form||''),key=exampleNormalize(lemma),noun=entry.noun||{},grammar=entry.grammar||{},articles=noun.articles||grammar.article||[],plurals=(noun.plurals||[]).concat(grammar.plural||[]),forms=[];
+  plurals.forEach(function(form){forms.push(form);let pluralKey=exampleNormalize(form);if(pluralKey&&!/[ns]$/.test(pluralKey))forms.push(String(form)+'n')});
+  let weak=/e$|(?:ant|ent|ist|oge|at|graph|log|nom|soph)$/i.test(lemma);
+  if(weak)forms.push(lemma+'n');
+  if(/es$/i.test(lemma)&&/\bdas\b/i.test(String(grammar.usage||'')))forms.push(lemma.slice(0,-1));
+  if((articles.includes('der')||articles.includes('das'))&&!weak&&!lemma.endsWith('e')){
+    forms.push(lemma+'s');
+    if(/[tdsxzßm]$/i.test(lemma)||/[aeiouäöü]/i.test(lemma)&&lemma.match(/[aeiouäöü]/gi).length<=1)forms.push(lemma+'es');
+  }
+  forms.forEach(function(form){exampleAddNoun(nouns,form,record)});
+  let umlauted=key.replace(/au/g,'@@').replace(/a/g,'ä').replace(/o/g,'ö').replace(/u/g,'ü').replace(/@@/g,'äu');
+  (entry.examples||[]).forEach(function(example){
+    let tokens=String(example&&example.german||'').match(exampleWordPattern)||[];
+    tokens.forEach(function(token){let tokenKey=exampleNormalize(token),compound=key&&tokenKey.length>key.length&&(tokenKey.endsWith(key)||key.length>=5&&tokenKey.startsWith(key));let diminutive=umlauted!==key&&tokenKey.startsWith(umlauted)&&/(?:chen|lein)$/.test(tokenKey);if(compound||diminutive)exampleAddNoun(nouns,token,record)});
+  });
+}
+function exampleRegisterVerbPrefixParticiples(verbs,entry,record,prefixes){
+  let forms=[];exampleFlattenStrings(entry.grammar&&entry.grammar.participle,forms);exampleFlattenStrings(entry.candidate_grammar&&entry.candidate_grammar.participle,forms);
+  let tokens=[];(entry.examples||[]).forEach(function(example){(String(example&&example.german||'').match(exampleWordPattern)||[]).forEach(function(token){tokens.push(token)})});
+  forms.forEach(function(form){let key=exampleNormalize(form);if(!key.startsWith('ge'))return;tokens.forEach(function(token){let tokenKey=exampleNormalize(token);if(tokenKey.endsWith(key)&&tokenKey.length>key.length){let prefix=tokenKey.slice(0,-key.length);if(prefixes.has(prefix)&&!verbs.has(tokenKey))verbs.set(tokenKey,record)}})});
+}
+function exampleAddTargetVerbForms(map,value,record,prefixes,inflections){
+  if(Array.isArray(value)){value.forEach(function(item){exampleAddTargetVerbForms(map,item,record,prefixes,inflections)});return}
+  if(value&&typeof value==='object'){if(value.surface){exampleAddTargetVerbForms(map,value.surface,record,prefixes,inflections);return}Object.values(value).forEach(function(item){exampleAddTargetVerbForms(map,item,record,prefixes,inflections)});return}
+  exampleAddVerb(map,value,record,prefixes,inflections,false);exampleFiniteFormVariants(value,!!record.allowUmlaut).forEach(function(form){exampleAddVerb(map,form,record,prefixes,inflections,false)});
+}
+function exampleFlattenStrings(value,output){
+  if(typeof value==='string')output.push(value);
+  else if(Array.isArray(value))value.forEach(function(item){exampleFlattenStrings(item,output)});
+  else if(value&&typeof value==='object')Object.keys(value).forEach(function(key){exampleFlattenStrings(value[key],output)});
+}
+function exampleFiniteFormVariants(value,allowUmlaut){
+  let words=String(value||'').match(exampleWordPattern)||[];if(!words.length)return [];
+  let word=exampleNormalize(words[0]),values=[word];
+  if(word.endsWith('st'))values.push(word.slice(0,-2));
+  if(word.endsWith('e'))values.push(word.slice(0,-1));
+  if(word.endsWith('t'))values.push(word.slice(0,-1));
+  if(word.endsWith('te'))values.push(word.slice(0,-1)+'n');
+  else if(!word.endsWith('en')&&!word.endsWith('n'))values.push(word+'en');
+  if(allowUmlaut&&!/[äöü]/.test(word)){
+    let subjunctive=word.replace(/au/g,'äu').replace(/a/g,'ä').replace(/o/g,'ö').replace(/u/g,'ü');
+    if(subjunctive!==word)values.push(subjunctive+'e');
+  }
+  return Array.from(new Set(values.filter(Boolean)));
+}
+function exampleSentenceTokens(sentence){
+  let regex=new RegExp(exampleWordPattern.source,'g'),tokens=[],match;
+  while((match=regex.exec(String(sentence||''))))tokens.push({key:exampleNormalize(match[0]),start:match.index,end:regex.lastIndex});
+  return tokens;
+}
+function exampleParticleAtClauseEnd(tokens,index,sentence){
+  let allowed=new Set(['und','oder','aber','doch','ja','mal','denn','wohl','auch','nicht','bitte']),end=index+1;
+  while(end<tokens.length&&!/[.!?;:\n]/.test(String(sentence||'').slice(tokens[end-1].end,tokens[end].start)))end++;
+  let trailing=tokens.slice(index+1,end);
+  if(tokens[index]&&tokens[index].key==='klar'&&trailing[0]&&trailing[0].key==='auf'&&trailing.length<=5)return true;
+  return trailing.every(function(token){return allowed.has(token.key)});
+}
+function exampleRegisterSeparableVerb(patterns,attachedForms,entry,record){
+  let candidate=entry.candidate_grammar||{},grammar=entry.grammar||{},lemma=exampleNormalize(entry.lemma||''),examples=entry.examples||[];
+  let particleValues=[],separabilityLabels=[];exampleFlattenStrings(candidate.separability,particleValues);exampleFlattenStrings(grammar.separability,particleValues);separabilityLabels=particleValues.slice();
+  particleValues=Array.from(new Set(particleValues.map(exampleNormalize).filter(function(value){return /^[a-zäöüß]+$/.test(value)&&lemma.startsWith(value)&&lemma.length>value.length})));
+  let labelText=separabilityLabels.join(' ').toLocaleLowerCase('de-DE');
+  if(!particleValues.length&&/separab/.test(labelText)&&!/\b(?:no|not)\s+separab/.test(labelText))particleValues=['ab','an','auf','aus','bei','ein','mit','nach','vor','zu','zurück','weg','los','zusammen','her','hin','um','nieder','vorbei','weiter','hervor','raus','rein','klar','hoch','fort','durch'].filter(function(value){return lemma.startsWith(value)&&lemma.length>value.length}).sort(function(a,b){return b.length-a.length}).slice(0,1);
+  if(!particleValues.length||!examples.length)return;
+  let sourceForms=[];exampleFlattenStrings(candidate.present,sourceForms);exampleFlattenStrings(grammar.present,sourceForms);exampleFlattenStrings(candidate.preterite,sourceForms);exampleFlattenStrings(grammar.preterite,sourceForms);
+  let finiteForms=new Set(),ownTokens=new Set(),ownSentences=examples.map(function(example){return exampleSentenceTokens(example&&example.german||'')});
+  ownSentences.forEach(function(tokens){tokens.forEach(function(token){ownTokens.add(token.key)})});
+  let classText=[grammar.verb_class,candidate.verb_class].flat().join(' ').toLocaleLowerCase('de-DE'),allowUmlaut=/strong|irregular/.test(classText);
+  sourceForms.forEach(function(surface){exampleFiniteFormVariants(surface,allowUmlaut).forEach(function(form){
+    if(ownTokens.has(form))finiteForms.add(form);
+    particleValues.forEach(function(particle){let compound=particle+form;if(ownTokens.has(compound)){attachedForms.set(compound,record);finiteForms.add(form)};if(/(?:en|n)$/.test(form)){let zuCompound=particle+'zu'+form;if(ownTokens.has(zuCompound))attachedForms.set(zuCompound,record)}});
+  })});
+  if(!finiteForms.size)return;
+  particleValues.forEach(function(particle){
+    let verified=false;
+    ownSentences.forEach(function(tokens){
+      for(let i=0;i<tokens.length;i++){
+        if(!finiteForms.has(tokens[i].key))continue;
+        for(let j=i+1;j<tokens.length&&j<=i+14;j++){
+          if(/[.!?;:\n]/.test(String(examples[ownSentences.indexOf(tokens)]&&examples[ownSentences.indexOf(tokens)].german||'').slice(tokens[j-1].end,tokens[j].start)))break;
+          if(tokens[j].key===particle&&exampleParticleAtClauseEnd(tokens,j,examples[ownSentences.indexOf(tokens)]&&examples[ownSentences.indexOf(tokens)].german||'')){verified=true;break}
+        }
+        if(verified)break;
+      }
+    });
+    if(verified)patterns.push({particle:particle,finiteForms:finiteForms,record:record});
+  });
+}
+const exampleGermanDeterminers=new Set(['der','die','das','den','dem','des','ein','eine','einen','einem','einer','eines','dieser','diese','dieses','diesen','diesem','mein','meine','meinen','meinem','meiner','sein','seine','seinen','seinem','ihr','ihre','ihren','ihrem','unser','unsere','unseren','unserem']);
+const exampleGermanPersonalPronouns=new Set(['ich','du','er','sie','es','wir','ihr']);
+function exampleHasGermanDeterminerBefore(sentence,index){let before=String(sentence||'').slice(0,index).replace(/^.*[.!?;:–—]/s,'');let beforeWords=before.match(/[A-Za-zÄÖÜäöüßẞ]+/g)||[];return beforeWords.slice(-4).some(function(word){return exampleGermanDeterminers.has(word.toLocaleLowerCase('de-DE'))})}
+function exampleCompoundRecordAt(books,tokens,index,sentence){
+  let token=tokens[index];if(!token)return null;
+  let surface=String(sentence||'').slice(token.start,token.end);
+  if(/^[A-ZÄÖÜẞ]/.test(surface)&&exampleHasGermanDeterminerBefore(sentence,token.start))return null;
+  let attached=books.attachedCompoundForms.get(token.key);if(attached)return attached;
+  let following=books.separableByFinite.get(token.key)||[];
+  for(let p=0;p<following.length;p++){
+    for(let j=index+1;j<tokens.length&&j<=index+14;j++){
+      if(/[.!?;:\n]/.test(String(sentence||'').slice(tokens[j-1].end,tokens[j].start)))break;
+      if(tokens[j].key===following[p].particle&&exampleParticleAtClauseEnd(tokens,j,sentence))return following[p].record;
+    }
+  }
+  let preceding=books.separableByParticle.get(token.key)||[];
+  for(let p=0;p<preceding.length;p++){
+    for(let j=index-1;j>=0&&j>=index-14;j--){
+      if(/[.!?;:\n]/.test(String(sentence||'').slice(tokens[j].end,tokens[j+1].start)))break;
+      if(preceding[p].finiteForms.has(tokens[j].key)&&exampleParticleAtClauseEnd(tokens,index,sentence))return preceding[p].record;
+    }
+  }
+  return null;
+}
 function exampleVocabulary(){
   if(exampleVocabularyCache)return exampleVocabularyCache;
-  let verbs=new Map(),verbInflections=new Map(),nouns=new Map(),modals=new Map(),prefixes=new Set(['ab','an','auf','aus','bei','ein','mit','nach','vor','zu','zurück','weg','teil','los','zusammen','her','hin','um','nieder','vorbei','weiter','hervor','raus','rein']);
+  let verbs=new Map(),verbInflections=new Map(),nouns=new Map(),modals=new Map(),separablePatterns=[],attachedCompoundForms=new Map(),prefixes=new Set(['ab','an','auf','aus','bei','ein','mit','nach','vor','zu','zurück','weg','teil','los','zusammen','her','hin','um','nieder','vorbei','weiter','hervor','raus','rein','klar','hoch','fort','durch']);
   (window.VW_GENERAL_DATA&&Array.isArray(window.VW_GENERAL_DATA.entries)?window.VW_GENERAL_DATA.entries:[]).forEach(function(x){
     if(x.status!=='approved'||x.is_active===false)return;
     let lemma=x.lemma||x.display_form||'',m=exampleMeaning(x);
     if(x.part_of_speech==='noun'){
-      let rec=exampleRecord('noun',lemma,m,x.english_terms);exampleAddNoun(nouns,x.lemma,rec);exampleAddNoun(nouns,x.display_form,rec);
+      let rec=exampleRecord('noun',lemma,m,x.english_terms,[x.id]);exampleAddNoun(nouns,x.lemma,rec);exampleAddNoun(nouns,x.display_form,rec);
       (Array.isArray(x.plural_forms)?x.plural_forms:[]).forEach(function(f){exampleAddNoun(nouns,f,rec)});
       (Array.isArray(x.forms)?x.forms:[]).forEach(function(f){if(f&&f.surface)exampleAddNoun(nouns,f.surface,rec)});
     }else if(x.part_of_speech==='verb'){
-      let rec=exampleRecord('verb',lemma,m,x.english_terms);exampleAddVerb(verbs,x.lemma,rec,prefixes,verbInflections,true);exampleAddVerb(verbs,x.display_form,rec,prefixes,verbInflections,false);
+      let rec=exampleRecord('verb',lemma,m,x.english_terms,[x.id]);exampleAddVerb(verbs,x.lemma,rec,prefixes,verbInflections,true);exampleAddVerb(verbs,x.display_form,rec,prefixes,verbInflections,false);
       (Array.isArray(x.forms)?x.forms:[]).forEach(function(f){if(f&&f.surface)exampleAddVerb(verbs,f.surface,rec,prefixes,verbInflections,false)});
+    }
+  });
+  (window.VW_LATEST_VOCABULARY&&Array.isArray(window.VW_LATEST_VOCABULARY.entries)?window.VW_LATEST_VOCABULARY.entries:[]).forEach(function(x){
+    if(!x||!['noun','verb'].includes(x.word_class))return;
+    let lemma=x.lemma||x.display_form||'',terms=exampleLatestTerms(x),meaning=terms.join(' · ')||x.english_meaning||'',rec=exampleRecord(x.word_class,lemma,meaning,terms.map(function(term){return {term:term}}),x.links&&x.links.general||[]),examples=x.examples||[];
+    if(x.word_class==='noun'){
+      exampleAddNoun(nouns,lemma,rec);exampleAddNoun(nouns,x.display_form,rec);
+      exampleRegisterLatestNoun(nouns,x,rec);
+      exampleMergeLinkedTerms(nouns,rec);
+    }else{
+      exampleAddVerb(verbs,lemma,rec,prefixes,verbInflections,true);exampleAddVerb(verbs,x.display_form,rec,prefixes,verbInflections,false);
+      let grammar=x.grammar||{},candidate=x.candidate_grammar||{};
+      [grammar.present,candidate.present].forEach(function(group){if(group)Object.values(group).forEach(function(forms){(Array.isArray(forms)?forms:[forms]).forEach(function(form){exampleAddVerifiedVerbForm(verbs,form,rec,prefixes,examples,x)})})});
+      [grammar.preterite,grammar.participle,candidate.preterite,candidate.participle].forEach(function(forms){(Array.isArray(forms)?forms:[forms]).forEach(function(form){exampleAddVerifiedVerbForm(verbs,form,rec,prefixes,examples,x)})});
+      [grammar.perfect,candidate.perfect].forEach(function(forms){let perfectForms=[];exampleFlattenStrings(forms,perfectForms);perfectForms.forEach(function(form){exampleAddVerifiedPerfectTail(verbs,form,rec,prefixes,examples)})});
+      exampleRegisterVerbPrefixParticiples(verbs,x,rec,prefixes);
+      exampleRegisterSeparableVerb(separablePatterns,attachedCompoundForms,x,rec);
+      exampleMergeLinkedTerms(verbs,rec);
     }
   });
   (window.VW_ARTICLE_BANK||[]).forEach(function(x){
@@ -414,7 +595,12 @@ function exampleVocabulary(){
     ['möchten','would like to','möchten möchte möchtest möchtet möchten']
   ];
   modalRows.forEach(function(row){let rec=exampleRecord('modal',row[0],row[1]);row[2].split(' ').forEach(function(form){modals.set(exampleNormalize(form),rec)})});
-  return exampleVocabularyCache={verbs:verbs,verbInflections:verbInflections,nouns:nouns,modals:modals,prefixes:prefixes};
+  let separableByFinite=new Map(),separableByParticle=new Map();
+  separablePatterns.forEach(function(pattern){pattern.finiteForms.forEach(function(form){if(!separableByFinite.has(form))separableByFinite.set(form,[]);separableByFinite.get(form).push(pattern)});if(!separableByParticle.has(pattern.particle))separableByParticle.set(pattern.particle,[]);separableByParticle.get(pattern.particle).push(pattern)});
+  let nounFormsByLemma=new Map(),verbFormsByLemma=new Map(),verbInflectionsByLemma=new Map();
+  function indexForms(source,index){source.forEach(function(record,key){let lemma=exampleNormalize(record&&record.lemma);if(!lemma)return;if(!index.has(lemma))index.set(lemma,[]);index.get(lemma).push(key)})}
+  indexForms(nouns,nounFormsByLemma);indexForms(verbs,verbFormsByLemma);indexForms(verbInflections,verbInflectionsByLemma);
+  return exampleVocabularyCache={verbs:verbs,verbInflections:verbInflections,nouns:nouns,modals:modals,prefixes:prefixes,separablePatterns:separablePatterns,separableByFinite:separableByFinite,separableByParticle:separableByParticle,attachedCompoundForms:attachedCompoundForms,nounFormsByLemma:nounFormsByLemma,verbFormsByLemma:verbFormsByLemma,verbInflectionsByLemma:verbInflectionsByLemma};
 }
 function exampleColorLegend(){return '<div class="example-legend" aria-label="Example color key"><span class="example-key"><span class="example-color vocab-verb"></span>Verb</span><span class="example-key"><span class="example-color vocab-noun"></span>Noun</span><span class="example-key"><span class="example-color vocab-modal"></span>Modal verb</span><span class="example-hint">Tap a highlighted German word for its meaning.</span></div>'}
 let exampleMeaningCounter=0;
@@ -425,28 +611,59 @@ function exampleDisplayMeaning(record){
   raw.forEach(function(value){let label=String(value).trim().replace(/^(?:the|a|an)\s+/i,'');let key=label.toLocaleLowerCase('en-US').replace(/^to\s+/,'');if(label&&key&&!seen.has(key)){seen.add(key);values.push(label)}});
   return values.slice(0,4).join('; ')||String(record&&record.meaning||'');
 }
+const exampleEnglishExtraTerms=new Map([['nennen',['give']],['gründen',['set up']],['schlampen',['do']]]);
 function exampleEnglishTerms(record){
   let values=(record&&record.englishTerms||[]).map(function(x){return typeof x==='string'?x:(x&&x.term)||''}).filter(Boolean);
   if(!values.length&&record&&record.meaning){let meaning=String(record.meaning).trim();if(meaning.length<=64&&!/[.!?]/.test(meaning))values=meaning.split(/\s*(?:;|·|\|)\s*/).filter(Boolean)}
-  let seen=new Set();
-  return values.map(function(value){return String(value).trim().replace(/^(?:to|the|a|an)\s+/i,'')}).filter(function(value){let key=value.toLocaleLowerCase('en-US');if(!key||seen.has(key))return false;seen.add(key);return true});
+  values=values.concat(exampleEnglishExtraTerms.get(exampleNormalize(record&&record.lemma))||[]);
+  let expanded=[];
+  values.forEach(function(value){
+    exampleSplitEnglishTerms(value).forEach(function(part){
+      let term=part.replace(/^(?:to|the|a|an)\s+/i,'');if(!term)return;expanded.push(term);
+    });
+  });
+  let seen=new Set();return expanded.filter(function(value){let key=value.toLocaleLowerCase('en-US');if(!key||seen.has(key))return false;seen.add(key);return true});
 }
-function exampleGerund(term){let word=String(term||'').trim().toLocaleLowerCase('en-US').split(/\s+/)[0];if(!word)return '';if(word.endsWith('ie'))return word.slice(0,-2)+'ying';if(word.endsWith('e')&&!word.endsWith('ee'))return word.slice(0,-1)+'ing';if(/^[^aeiou][aeiou][^aeiou]$/.test(word)&&!/^[wxy]$/.test(word.slice(-1)))return word+word.slice(-1)+'ing';return word+'ing'}
+function exampleDoublesFinalConsonant(word){return word.length<=4&&word.length>=3&&/^[^aeiou]*[aeiou][^aeiouwxy]$/.test(word)}
+function exampleGerund(term){let word=String(term||'').trim().toLocaleLowerCase('en-US').split(/\s+/)[0];if(!word)return '';if(word.endsWith('ie'))return word.slice(0,-2)+'ying';if(word.endsWith('e')&&!word.endsWith('ee'))return word.slice(0,-1)+'ing';if(exampleDoublesFinalConsonant(word))return word+word.slice(-1)+'ing';return word+'ing'}
+const exampleNominalizedNounTerms=new Map([['aussehen',['appearance','looks']]]);
+const exampleNominalizedModalMeanings=new Map([['können',['ability','possibility']],['müssen',['must','necessity']],['dürfen',['permission']],['sollen',['obligation']],['wollen',['desire','wish']],['mögen',['liking']],['möchten',['wish']] ]);
+function exampleNominalizedModal(record,surface){let terms=exampleNominalizedModalMeanings.get(exampleNormalize(record&&record.lemma));return terms?exampleRecord('noun',surface,terms.join(' · '),terms):null}
 function exampleNominalizedVerb(record,sentence,index){
   if(!record)return null;
   let before=String(sentence||'').slice(0,index).trimEnd();
-  if(!/(?:\b(?:beim|zum|am|im|vom|ins|ans|aufs|durchs|ohne|statt|bei|mit|von|nach|vor|für|über|um|in|zu|aus)\b|\b(?:das|des|dem|den|ein|eine|einem|einen|einer)\b)$/i.test(before))return null;
-  let base=exampleEnglishTerms(record)[0],meaning=exampleGerund(base);
-  return meaning?exampleRecord('noun',record.lemma,meaning,[meaning]):null;
+  let lemma=exampleNormalize(record.lemma),knownAdjectiveNominalization=lemma==='aussehen'&&/\bgutes\s*$/i.test(before);
+  if(!knownAdjectiveNominalization&&!/(?:\b(?:beim|zum|am|im|vom|ins|ans|aufs|durchs|ohne|statt|bei|mit|von|nach|vor|für|über|um|in|zu|aus)\b|\b(?:das|des|dem|den|ein|eine|einem|einen|einer)\b)$/i.test(before))return null;
+  let nominalizedTerms=exampleNominalizedNounTerms.get(lemma),base=exampleEnglishTerms(record)[0],meaning=nominalizedTerms?nominalizedTerms.join(' · '):exampleGerund(base),terms=nominalizedTerms||[meaning];
+  return meaning?exampleRecord('noun',record.lemma,meaning,terms):null;
 }
+const exampleEnglishVerbIrregular=new Map([
+  ['be',['am','is','are','was','were','been','being']],['have',['has','had']],['do',['does','did','done']],['go',['goes','went','gone']],['come',['comes','came']],['see',['sees','saw','seen']],['say',['says','said']],['make',['makes','made']],['get',['gets','got','gotten']],['give',['gives','gave','given']],['take',['takes','took','taken']],['know',['knows','knew','known']],['think',['thinks','thought']],['find',['finds','found']],['tell',['tells','told']],['leave',['leaves','left']],['feel',['feels','felt']],['put',['puts']],['read',['reads']],['run',['runs','ran']],['write',['writes','wrote','written']],['eat',['eats','ate','eaten']],['speak',['speaks','spoke','spoken']],['teach',['teaches','taught']],['buy',['buys','bought']],['bring',['brings','brought']],['choose',['chooses','chose','chosen']],['drive',['drives','drove','driven']],['fall',['falls','fell','fallen']],['keep',['keeps','kept']],['meet',['meets','met']],['pay',['pays','paid']],['sell',['sells','sold']],['send',['sends','sent']],['sit',['sits','sat']],['stand',['stands','stood']],['understand',['understands','understood']],['win',['wins','won']],['break',['breaks','broke','broken']],['build',['builds','built']],['catch',['catches','caught']],['fight',['fights','fought']],['grow',['grows','grew','grown']],['lose',['loses','lost']],['sleep',['sleeps','slept']],['wear',['wears','wore','worn']],['become',['becomes','became']],['begin',['begins','began','begun']],['hear',['hears','heard']],['hold',['holds','held']],['lead',['leads','led']],['learn',['learns','learned','learnt']],['mean',['means','meant']],['ride',['rides','rode','ridden']],['ring',['rings','rang','rung']],['rise',['rises','rose','risen']],['shake',['shakes','shook','shaken']],['steal',['steals','stole','stolen']],['swim',['swims','swam','swum']],['throw',['throws','threw','thrown']],['wake',['wakes','woke','woken']],['deal',['deals','dealt']],['fly',['flies','flew','flown']],['lay',['lays','laid']],['lie',['lies','lay','lain']],['set',['sets']],['cut',['cuts']],['hit',['hits']],['let',['lets']],['hurt',['hurts']],['cost',['costs']],['spread',['spreads']],['shut',['shuts']],['quit',['quits']],['can',['could']],['may',['might']],['will',['would']],['shall',['should']]
+]);
+const exampleEnglishNounIrregular=new Map([['life',['lives']],['man',['men']],['woman',['women']],['child',['children']],['person',['people']],['foot',['feet']],['tooth',['teeth']],['mouse',['mice']],['goose',['geese']] ]);
+const exampleEnglishPhraseVariants=new Map([['have to',['has to','had to']],['be able to',['am able to','is able to','are able to','was able to','were able to','been able to']]]);
 function exampleEnglishVariants(term,kind){
   let value=String(term||'').trim().toLocaleLowerCase('en-US'),words=value.split(/\s+/);
-  if(words.length!==1||value.length<3)return value?[value]:[];
+  if(!value)return [];
+  if(words.length!==1){
+    let phraseVariants=exampleEnglishPhraseVariants.get(value);
+    if(phraseVariants)return Array.from(new Set([value].concat(phraseVariants)));
+    let firstVariants=exampleEnglishVariants(words[0],kind),tail=words.slice(1).join(' ');
+    return Array.from(new Set([value].concat(firstVariants.filter(function(first){return first!==words[0]}).map(function(first){return first+' '+tail}))));
+  }
   let variants=[value],last=value.slice(-1);
-  if(kind==='noun'){if(/[^aeiou]y$/.test(value))variants.push(value.slice(0,-1)+'ies');else if(/(?:s|x|z|ch|sh)$/.test(value))variants.push(value+'es');else variants.push(value+'s')}
-  else if(/[^aeiou]y$/.test(value))variants.push(value.slice(0,-1)+'ies',value.slice(0,-1)+'ied',value.slice(0,-1)+'ying');
-  else if(value.endsWith('e')&&!value.endsWith('ee'))variants.push(value+'s',value+'d',value.slice(0,-1)+'ing');
-  else{variants.push(value+'s',value+'es',value+'ed',value+'ing');if(value.length<=5&&/[^aeiou]$/.test(last)&&/[aeiou]/.test(value.slice(0,-1))&&!/[wxy]$/.test(last))variants.push(value+last+'ed',value+last+'ing')}
+  let irregular=(kind==='noun'?exampleEnglishNounIrregular:exampleEnglishVerbIrregular).get(value)||[];
+  if(kind==='noun'&&irregular.length)return Array.from(new Set(variants.concat(irregular)));
+  if(kind==='modal')return Array.from(new Set(variants.concat(irregular)));
+  if(irregular.length)return Array.from(new Set(variants.concat(irregular,exampleGerund(value))));
+  if(value.length<3)return Array.from(new Set(variants));
+  if(kind==='noun'){if(/[^aeiou]y$/.test(value))variants.push(value.slice(0,-1)+'ies');else if(/(?:s|x|z|ch|sh|o)$/.test(value))variants.push(value+'es');else variants.push(value+'s')}
+  else{
+    if(/[^aeiou]y$/.test(value)){variants.push(value.slice(0,-1)+'ies',value.slice(0,-1)+'ied')}
+    else if(value.endsWith('e')&&!value.endsWith('ee'))variants.push(value+'s',value+'d')
+    else{variants.push(/(?:s|x|z|ch|sh|o)$/.test(value)?value+'es':value+'s');variants.push(exampleDoublesFinalConsonant(value)?value+last+'ed':value+'ed')}
+    variants.push(exampleGerund(value));
+  }
   let seen=new Set();
   return variants.filter(function(item){if(seen.has(item))return false;seen.add(item);return true});
 }
@@ -458,6 +675,42 @@ function exampleFindEnglishMatches(text,phrase,kind,sourceIndex){
 function exampleTranslationHTML(translation,semanticWords){
   let candidates=[];
   semanticWords.forEach(function(item,index){exampleEnglishTerms(item.record).forEach(function(term){candidates=candidates.concat(exampleFindEnglishMatches(translation,term,item.record.kind,index))})});
+  let kindsBySpan=new Map();candidates.forEach(function(candidate){let span=candidate.start+':'+candidate.end;if(!kindsBySpan.has(span))kindsBySpan.set(span,new Set());kindsBySpan.get(span).add(candidate.kind)});
+  let ambiguousSpans=new Set(Array.from(kindsBySpan.entries()).filter(function(pair){return pair[1].size>1}).map(function(pair){return pair[0]}));
+  let sourcesBySpan=new Map(),spansBySurface=new Map();
+  candidates.forEach(function(candidate){
+    let span=candidate.start+':'+candidate.end,source=candidate.sourceIndex+':'+candidate.kind,surface=translation.slice(candidate.start,candidate.end).toLocaleLowerCase('en-US');
+    if(!sourcesBySpan.has(span))sourcesBySpan.set(span,new Set());sourcesBySpan.get(span).add(source);
+    if(!spansBySurface.has(surface))spansBySurface.set(surface,new Map());spansBySurface.get(surface).set(span,{start:candidate.start,end:candidate.end});
+  });
+  let alignedAmbiguities=new Map();
+  function contextKind(start,end){
+    let before=translation.slice(0,start).toLocaleLowerCase('en-US').match(/[a-z]+(?:'[a-z]+)?\s*$/),after=translation.slice(end).toLocaleLowerCase('en-US').match(/^\s*[a-z]+(?:'[a-z]+)?/);
+    let previous=before?before[0].trim().replace(/[^a-z']+$/,'').split(/\s+/).pop():'',next=after?after[0].trim().split(/\s+/)[0]:'';
+    let surface=translation.slice(start,end).toLocaleLowerCase('en-US'),previousWords=translation.slice(0,start).toLocaleLowerCase('en-US').match(/[a-z]+(?:'[a-z]+)?/g)||[];
+    if(['itself','themselves','himself','herself','ourselves','yourself','yourselves'].includes(next))return 'noun';
+    if(['the','a','an','this','that','these','those','my','your','his','her','its','our','their'].includes(previous))return 'noun';
+    let determinerIndex=-1;for(let i=previousWords.length-1;i>=Math.max(0,previousWords.length-4);i--){if(['the','a','an','this','that','these','those','my','your','his','her','its','our','their'].includes(previousWords[i])){determinerIndex=i;break}}
+    if(determinerIndex>=0&&previousWords.length-determinerIndex-1<=3)return 'noun';
+    if(['in','on','at','with','without','of','for','from','by','about','under','over','after','before','against','between','through','during','as'].includes(previous))return 'noun';
+    if(['can','could','may','might','must','shall','should','will','would'].includes(surface)||['have to','has to','had to','be able to','am able to','is able to','are able to','was able to','were able to','been able to'].includes(surface))return 'modal';
+    if(previous==='to')return 'verb';
+    if(['can','could','may','might','must','shall','should','will','would','do','does','did',"don't","doesn't","didn't"].includes(previous))return 'verb';
+    if(['is','are','was','were','be','been','being'].includes(previous)&&surface.endsWith('ing'))return 'verb';
+    if(['i','you','he','she','it','we','they'].includes(previous))return 'verb';
+    return '';
+  }
+  spansBySurface.forEach(function(spans,surface){
+    let spanValues=Array.from(spans.entries()).sort(function(a,b){return a[1].start-b[1].start}),sourceValues=new Set();
+    spanValues.forEach(function(pair){(sourcesBySpan.get(pair[0])||new Set()).forEach(function(source){sourceValues.add(source)})});
+    let orderedSources=Array.from(sourceValues).sort(function(a,b){return Number(a.split(':')[0])-Number(b.split(':')[0])});
+    if(spanValues.length>1&&spanValues.length===orderedSources.length){spanValues.forEach(function(pair,index){alignedAmbiguities.set(pair[0],orderedSources[index])})}
+  });
+  candidates=candidates.filter(function(candidate){
+    let span=candidate.start+':'+candidate.end;if(!ambiguousSpans.has(span))return true;
+    let hint=contextKind(candidate.start,candidate.end),kinds=kindsBySpan.get(span)||new Set();if(hint&&kinds.has(hint))return candidate.kind===hint;
+    return alignedAmbiguities.get(span)===candidate.sourceIndex+':'+candidate.kind;
+  });
   candidates.sort(function(a,b){return (b.end-b.start)-(a.end-a.start)||a.start-b.start||a.sourceIndex-b.sourceIndex});
   let selected=[];
   candidates.forEach(function(candidate){if(!selected.some(function(existing){return candidate.start<existing.end&&candidate.end>existing.start}))selected.push(candidate)});
@@ -485,27 +738,38 @@ function renderExampleSentence(sentence,translation,target){
   sentence=String(sentence||'');translation=String(translation||'');
   let books=exampleVocabulary(),targetWords=new Map(),targetInflections=new Map(),targetKind='',semanticWords=[];
   if(target){
-    targetKind=target.part_of_speech==='noun'||target.kind==='Noun'||target.article||target.a?'noun':(target.part_of_speech==='verb'||target.kind==='Verb'||(target.id&&target.forms&&!Array.isArray(target.forms))?'verb':'');
+    let targetPartOfSpeech=target.part_of_speech||target.word_class||'';
+    targetKind=targetPartOfSpeech==='noun'||target.kind==='Noun'||target.article||target.a?'noun':(targetPartOfSpeech==='verb'||target.kind==='Verb'||(!targetPartOfSpeech&&target.id&&target.forms&&!Array.isArray(target.forms))?'verb':'');
     if(targetKind){
       let lemma=target.lemma||target.id||target.word||target.n||target.display_form||'',rec=exampleRecord(targetKind,lemma,exampleMeaning(target),target.english_terms);
       if(targetKind==='noun'){
         exampleAddNoun(targetWords,lemma,rec);exampleAddNoun(targetWords,target.display_form,rec);exampleAddNoun(targetWords,target.n,rec);
-        (Array.isArray(target.plural_forms)?target.plural_forms:[]).forEach(function(f){exampleAddNoun(targetWords,f,rec)});
+        let targetPlurals=Array.isArray(target.plural_forms)?target.plural_forms:[];targetPlurals.forEach(function(f){exampleAddNoun(targetWords,f,rec);if(!/[ns]$/i.test(String(f)))exampleAddNoun(targetWords,String(f)+'n',rec)});
+        let targetArticles=Array.isArray(target.articles)?target.articles:String(target.article||'').split(/\s*\/\s*/).filter(Boolean);
+        if(/e$/i.test(String(lemma)))exampleAddNoun(targetWords,String(lemma)+'n',rec);
+        if((targetArticles.includes('der')||targetArticles.includes('das'))&&!/e$/i.test(String(lemma))){exampleAddNoun(targetWords,String(lemma)+'s',rec);if(/[tdsxzßm]$/i.test(String(lemma))||String(lemma).match(/[aeiouäöü]/gi)?.length<=1)exampleAddNoun(targetWords,String(lemma)+'es',rec)}
+        if(/es$/i.test(String(lemma))&&/\bdas\b/i.test(String(target.grammar&&target.grammar.usage||'')))exampleAddNoun(targetWords,String(lemma).slice(0,-1),rec);
         (Array.isArray(target.forms)?target.forms:[]).forEach(function(f){if(f&&f.surface)exampleAddNoun(targetWords,f.surface,rec)});
+        (books.nounFormsByLemma.get(exampleNormalize(lemma))||[]).forEach(function(key){targetWords.set(key,rec)});
       }else{
-        exampleAddVerb(targetWords,lemma,rec,books.prefixes,targetInflections,true);Object.values(target.forms||{}).forEach(function(f){exampleAddVerb(targetWords,f,rec,books.prefixes,targetInflections,false)});
+        exampleAddVerb(targetWords,lemma,rec,books.prefixes,targetInflections,true);exampleAddTargetVerbForms(targetWords,target.forms,rec,books.prefixes,targetInflections);
         if(Array.isArray(target.forms))target.forms.forEach(function(f){if(f&&f.surface)exampleAddVerb(targetWords,f.surface,rec,books.prefixes,targetInflections,false)});
-        exampleAddVerb(targetWords,target.preterite,rec,books.prefixes,targetInflections,false);exampleAddVerb(targetWords,target.participle,rec,books.prefixes,targetInflections,false);
+        exampleAddTargetVerbForms(targetWords,target.preterite,rec,books.prefixes,targetInflections);exampleAddTargetVerbForms(targetWords,target.participle,rec,books.prefixes,targetInflections);
+        (books.verbFormsByLemma.get(exampleNormalize(lemma))||[]).forEach(function(key){targetWords.set(key,rec)});
+        (books.verbInflectionsByLemma.get(exampleNormalize(lemma))||[]).forEach(function(key){targetInflections.set(key,rec)});
       }
     }
   }
-  let cursor=0,html='',match;exampleWordPattern.lastIndex=0;
+  let cursor=0,html='',match,sentenceTokens=exampleSentenceTokens(sentence),sentenceTokenIndex=0;exampleWordPattern.lastIndex=0;
   while((match=exampleWordPattern.exec(sentence))){
     html+=esc(sentence.slice(cursor,match.index));
     let token=match[0],key=exampleNormalize(token),capitalized=/^[A-ZÄÖÜẞ]/.test(token);
-    let targetWord=targetKind==='noun'&&!capitalized?null:targetWords.get(key);
-    let record=books.modals.get(key)||targetWord||targetInflections.get(key);
-    if(!record&&capitalized)record=books.nouns.get(key);
+    while(sentenceTokenIndex<sentenceTokens.length&&sentenceTokens[sentenceTokenIndex].start<match.index)sentenceTokenIndex++;
+    let compoundRecord=sentenceTokens[sentenceTokenIndex]&&sentenceTokens[sentenceTokenIndex].start===match.index?exampleCompoundRecordAt(books,sentenceTokens,sentenceTokenIndex,sentence):null;
+    let nounContext=capitalized&&exampleHasGermanDeterminerBefore(sentence,match.index),pronounContext=capitalized&&exampleGermanPersonalPronouns.has(key)&&!nounContext,targetWord=pronounContext||(targetKind==='verb'&&nounContext)||(targetKind==='noun'&&!capitalized)?null:targetWords.get(key);
+    let record=compoundRecord||(!nounContext?books.modals.get(key):null)||targetWord||(!nounContext?targetInflections.get(key):null);
+    if(!record&&capitalized&&!pronounContext)record=books.nouns.get(key);
+    if(capitalized&&nounContext&&(!record||record.kind==='verb'||record.kind==='modal')){let sourceModal=books.modals.get(key),nominalizedModal=exampleNominalizedModal(sourceModal,token);if(nominalizedModal)record=nominalizedModal}
     if(capitalized&&(!record||record.kind==='verb')){let sourceVerb=books.verbs.get(key)||(record&&record.kind==='verb'?record:null),nominalized=exampleNominalizedVerb(sourceVerb,sentence,match.index);if(nominalized)record=nominalized}
     if(!record&&(!capitalized||targetWord))record=books.verbs.get(key)||books.verbInflections.get(key);
     if(record){
