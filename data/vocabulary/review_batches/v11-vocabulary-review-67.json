@@ -1,0 +1,25 @@
+{
+  "batch_id": "v11-vocabulary-review-67",
+  "review_date": "2026-11-12",
+  "input_database_sha256": "8a66e59579408a2095888a2030d8fc18670f082e6362512df476345b41a4417c",
+  "accepted_examples": [],
+  "editorial_examples": [
+    {"entry_id":"frequency:1613","german":"Die Mönche leben in einfachen Zellen.","english":"The monks live in simple cells.","note":"Restores the monastery/convent sense of Zelle and keeps the target noun in the German example.","evidence_url":"https://www.duden.de/rechtschreibung/Zelle"},
+    {"entry_id":"frequency:1618","german":"Die Nachbarn rechten um den Grenzverlauf.","english":"The neighbors are disputing the boundary line.","note":"Moves the correctly matched, already-authored example back to the verb rechten; use is elevated and uncommon.","evidence_url":"https://de.wiktionary.org/wiki/rechten"},
+    {"entry_id":"frequency:1628","german":"Diese Theorie erklärt das Ergebnis.","english":"This theory explains the result.","note":"Replaces a cell example with a clear example for Theorie.","evidence_url":"https://www.duden.de/rechtschreibung/Theorie"},
+    {"entry_id":"frequency:1919","german":"Der Markt öffnet heute um acht Uhr.","english":"The market opens at eight today.","note":"Replaces an unrelated sentence with a direct example of Markt.","evidence_url":"https://www.duden.de/rechtschreibung/Markt"},
+    {"entry_id":"frequency:2578","german":"Wir können jetzt einsteigen.","english":"We can get on now.","note":"Replaces a toast example with the vehicle sense of einsteigen; includes the infinitive target form.","evidence_url":"https://www.duden.de/rechtschreibung/einsteigen"},
+    {"entry_id":"frequency:3156","german":"Bitte schreiben Sie das Datum auf das Formular.","english":"Please write the date on the form.","note":"Replaces an unrelated fixed-phrase example with a direct example of Datum.","evidence_url":"https://www.duden.de/rechtschreibung/Datum"},
+    {"entry_id":"frequency:4706","german":"Der Wechsel war für alle überraschend.","english":"The change surprised everyone.","note":"Replaces a synonym-only German example with a direct noun use of Wechsel and a literal English alignment.","evidence_url":"https://www.duden.de/rechtschreibung/Wechsel"}
+  ],
+  "retired_examples": [
+    {"entry_id":"frequency:1613","german":"Die Nachbarn rechten um den Grenzverlauf.","reason":"This verb example was attached to the unrelated noun Zelle; it belongs under rechten.","replacement_german":"Die Mönche leben in einfachen Zellen."},
+    {"entry_id":"frequency:1618","german":"Das technisch hoch entwickelte Gerät ist teuer.","reason":"This adjective example was attached to the verb rechten.","replacement_german":"Die Nachbarn rechten um den Grenzverlauf."},
+    {"entry_id":"frequency:1628","german":"Die Mönche leben in einfachen Zellen.","reason":"This Zelle example was attached to Theorie.","replacement_german":"Diese Theorie erklärt das Ergebnis."},
+    {"entry_id":"frequency:1919","german":"Liebe ist blind, und Hass ist es auch.","reason":"This sentence does not contain or illustrate Markt.","replacement_german":"Der Markt öffnet heute um acht Uhr."},
+    {"entry_id":"frequency:2578","german":"Tom brachte einen Toast auf Maria aus.","reason":"This Toast example was attached to einsteigen.","replacement_german":"Wir können jetzt einsteigen."},
+    {"entry_id":"frequency:3156","german":"Das war in Bezug auf Tom gemeint.","reason":"This Bezug example was attached to Datum.","replacement_german":"Bitte schreiben Sie das Datum auf das Formular."},
+    {"entry_id":"frequency:4706","german":"Die Jugend passt sich leicht an Veränderungen an.","reason":"The sentence illustrates Veränderungen rather than the headword Wechsel and prevents precise target highlighting.","replacement_german":"Der Wechsel war für alle überraschend."}
+  ],
+  "plural_reviews": []
+}

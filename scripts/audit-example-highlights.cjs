@@ -4,7 +4,7 @@ const fs = require('node:fs');
 const path = require('node:path');
 const vm = require('node:vm');
 
-const root = path.resolve(__dirname, '..');
+const root = process.env.VERBWERK_AUDIT_ROOT ? path.resolve(process.env.VERBWERK_AUDIT_ROOT) : path.resolve(__dirname, '..');
 function readJsonAssignment(relativePath, variableName) {
   const text = fs.readFileSync(path.join(root, relativePath), 'utf8');
   const marker = 'window.' + variableName;
@@ -215,6 +215,7 @@ const targetAbsentFromSentence = [];
 const targetRoleExceptions = [];
 const directEnglishMisses = [];
 const noDirectEnglishTerm = [];
+const targetEnglishAlignmentExceptions = [];
 const crossClassAmbiguity = [];
 const lexicalPrecisionChecks = [];
 const germanCaseAnomalies = [];
@@ -378,7 +379,10 @@ latest.entries.forEach(function (entry) {
         totals.targetDirectEnglishMissingColor++;
         directEnglishMisses.push({ id: entry.entry_id, lemma: entry.lemma, kind: kind, example: example.german, translation: example.english, directMatches: unresolved.map(function (x) { return example.english.slice(x.start, x.end); }), germanHighlighted: german.map(function (x) { return x.token + ':' + x.kind + ':' + x.meaning; }), highlighted: english.map(function (x) { return x.text + ':' + x.kind; }) });
       }
-      if (!unresolved.length && !directMatches.some(function (candidate) { return english.some(function (item) { return item.kind === kind && item.start <= candidate.start && item.end >= candidate.end; }); })) totals.targetEnglishMatchesAlignedToOtherWords++;
+      if (!unresolved.length && !directMatches.some(function (candidate) { return english.some(function (item) { return item.kind === kind && item.start <= candidate.start && item.end >= candidate.end; }); })) {
+        totals.targetEnglishMatchesAlignedToOtherWords++;
+        targetEnglishAlignmentExceptions.push({id:entry.entry_id,lemma:entry.lemma,kind:kind,example:example.german,translation:example.english,directMatches:directMatches.map(function(x){return example.english.slice(x.start,x.end);}),highlighted:english.map(function(x){return x.text+':'+x.kind;})});
+      }
     } else if (kind) {
       totals.targetNoLiteralEnglishGlossInTranslation++;
       if (noDirectEnglishTerm.length < 80) noDirectEnglishTerm.push({ id: entry.entry_id, lemma: entry.lemma, kind: kind, example: example.german, translation: example.english, terms: terms });
@@ -513,19 +517,61 @@ function auditSupplementalSource(sourceName, entries, examplesFor, targetFor, ki
     });
   });
 }
-auditSupplementalSource('general', general.entries || [], function (row) { return row.german_examples || row.examples || []; }, function (row) { return row; }, function (row) {
+function rawGeneralExampleIsDisplayable(row, example) {
+  const sentence = String(example && (example.sentence || example.german || example.de) || '').trim();
+  const translation = String(example && (example.translation || example.english) || '').trim();
+  if (!sentence || !translation) return false;
+  const forms = Array.isArray(row.forms) ? row.forms.map(function(form){return form && form.surface;}) : [];
+  const terms = [row.lemma,row.display_form,row.word].concat(forms).filter(Boolean);
+  return terms.some(function(term){
+    const pattern = String(term).trim().split(/\s+/).map(function(part){return part.replace(/[.*+?^${}()|[\]\\]/g,'\\$&');}).join('\\s+');
+    return pattern && new RegExp('(^|[^\\p{L}\\p{M}])'+pattern+'(?=$|[^\\p{L}\\p{M}])','iu').test(sentence);
+  });
+}
+const generalRoutes = latest.routes && latest.routes.general || {};
+const allGeneralRows = general.entries || [];
+const activeGeneralRows = allGeneralRows.filter(function(row){return row.status==='approved'&&row.is_active!==false;});
+const allUnmappedGeneralRows = allGeneralRows.filter(function(row){return !generalRoutes[String(row.id)];});
+const generalUnmappedRows = activeGeneralRows.filter(function(row){return !generalRoutes[String(row.id)];});
+const generalVisibleExamples = new Map(generalUnmappedRows.map(function(row){
+  return [row.id,(row.german_examples || row.examples || []).filter(function(example){return rawGeneralExampleIsDisplayable(row,example);})];
+}));
+const generalRawExamples = allGeneralRows.flatMap(function(row){return row.german_examples || row.examples || [];});
+const generalMappedRawExamples = allGeneralRows.filter(function(row){return !!generalRoutes[String(row.id)];}).flatMap(function(row){return row.german_examples || row.examples || [];});
+const generalUnmappedRawExamples = allUnmappedGeneralRows.flatMap(function(row){return row.german_examples || row.examples || [];});
+const generalVisibleFallbackCount = Array.from(generalVisibleExamples.values()).reduce(function(total,examples){return total+examples.length;},0);
+const generalRouting = {
+  rawEntries: allGeneralRows.length,
+  activeEntries: activeGeneralRows.length,
+  rawExampleInstances: generalRawExamples.length,
+  rawExamplesWithoutEnglish: generalRawExamples.filter(function(example){return !String(example.translation || example.english || '').trim();}).length,
+  activeEntriesUsingReviewedMergedDatabase: activeGeneralRows.filter(function(row){return !!generalRoutes[String(row.id)];}).length,
+  rawExamplesOverriddenByReviewedDatabase: generalMappedRawExamples.length,
+  inactiveUnmappedEntries: allUnmappedGeneralRows.length - generalUnmappedRows.length,
+  inactiveUnmappedRawExampleInstances: allUnmappedGeneralRows.filter(function(row){return row.status!=='approved'||row.is_active===false;}).flatMap(function(row){return row.german_examples || row.examples || [];}).length,
+  activeUnmappedEntries: generalUnmappedRows.length,
+  activeUnmappedRawExampleInstances: generalUnmappedRows.flatMap(function(row){return row.german_examples || row.examples || [];}).length,
+  activeUnmappedExamplesSuppressed: generalUnmappedRows.flatMap(function(row){return row.german_examples || row.examples || [];}).length-generalVisibleFallbackCount,
+  visibleUnmappedExamples: generalVisibleFallbackCount
+};
+auditSupplementalSource('general', generalUnmappedRows, function (row) { return generalVisibleExamples.get(row.id) || []; }, function (row) { return row; }, function (row) {
   const pos = row.part_of_speech || '';
   if (pos === 'noun') return 'noun';
   if (pos === 'verb') return modals.has(String(row.lemma || '').toLocaleLowerCase('de-DE')) ? 'modal' : 'verb';
   return '';
 });
 auditSupplementalSource('course', courseVerbs, function (row) { return row.examples || []; }, function (row) { return Object.assign({}, row, { part_of_speech: 'verb', english_terms: [{ term: row.meaning || '' }] }); }, function () { return 'verb'; });
+const unsafeTargetEnglishAlignmentExceptions = targetEnglishAlignmentExceptions.filter(function(item){
+  return item.id !== 'frequency:1254' || !item.highlighted.includes('going:verb') || item.highlighted.includes('going:noun');
+});
+if (unsafeTargetEnglishAlignmentExceptions.length) throw new Error('An English target-gloss match was not safely aligned: '+JSON.stringify(unsafeTargetEnglishAlignmentExceptions));
 const uniqueExamplePairs = new Set();
 latest.entries.forEach(function (row) { (row.examples || []).forEach(function (example) { uniqueExamplePairs.add(String(example.german || '').trim() + '\u0000' + String(example.english || '').trim()); }); });
-(general.entries || []).forEach(function (row) { (row.german_examples || row.examples || []).forEach(function (example) { uniqueExamplePairs.add(String(example.sentence || example.german || '').trim() + '\u0000' + String(example.translation || example.english || '').trim()); }); });
+generalUnmappedRows.forEach(function (row) { (generalVisibleExamples.get(row.id) || []).forEach(function (example) { uniqueExamplePairs.add(String(example.sentence || example.german || '').trim() + '\u0000' + String(example.translation || example.english || '').trim()); }); });
 courseVerbs.forEach(function (row) { (row.examples || []).forEach(function (example) { uniqueExamplePairs.add(String(Array.isArray(example) ? example[0] : example.german || '').trim() + '\u0000' + String(Array.isArray(example) ? example[1] : example.english || '').trim()); }); });
 const summary = {
   metadata: latest.metadata,
+  generalRouting: generalRouting,
   coverage: {
     latestDatabaseExamples: totals.examples,
     generalAndCourseExamples: supplementalTotals.sources.general.examples + supplementalTotals.sources.course.examples,
@@ -551,6 +597,7 @@ const summary = {
   targetMissingGerman: targetMissingGerman.slice(0, 120),
   targetRoleExceptions: targetRoleExceptions,
   targetAbsentFromSentence: targetAbsentFromSentence.slice(0, 120),
+  targetEnglishAlignmentExceptions: targetEnglishAlignmentExceptions,
   supplementalTargetMissingGerman: supplementalTargetMissingGerman,
   supplementalTargetAbsentFromSentence: supplementalTargetAbsentFromSentence,
   directEnglishMisses: directEnglishMisses.slice(0, 120),

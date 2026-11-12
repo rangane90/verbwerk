@@ -10,7 +10,7 @@ import sqlite3
 ARTICLES = {"der", "die", "das"}
 REVIEW = "source_candidate"
 EXAMPLE_PRIORITY = {"editorial": 0, "course_reviewed": 1, "reference_match": 2, "inherited": 3, REVIEW: 4}
-VERSION = "2026-11-11.4"
+VERSION = "2026-11-12.1"
 
 
 def sha256(path):

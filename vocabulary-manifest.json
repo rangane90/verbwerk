@@ -19,9 +19,9 @@
   "generated_at_utc": "2026-11-10T16:51:31.8032419+00:00",
   "latest_database": {
     "dataset_id": "verbwerk.merged.de",
-    "version": "2026-11-11.4",
+    "version": "2026-11-12.1",
     "source_database": "verbwerk-v11-study-reviewed.sqlite",
-    "source_database_sha256": "8a66e59579408a2095888a2030d8fc18670f082e6362512df476345b41a4417c",
+    "source_database_sha256": "7bf7414a67d3c1f9581ed30fc6796f9e07a1affff87eaf1ea63729dddada9cf4",
     "entry_count": 5396,
     "word_class_counts": {
       "adjective": 834,
@@ -45,6 +45,6 @@
     "candidate_bilingual_example_count": 0,
     "german_only_fallback_count": 0,
     "asset": "vocabulary-latest-database.js",
-    "asset_sha256": "d3474e4e8d670a3058bb4d8d6f32e7ccf7234aa4d673999c1d70b1c07e4ffd8c"
+    "asset_sha256": "2255d0b97b837c6fddf05e38b61b988108b30ffe28c408216b8a6bdb9e88d9d8"
   }
 }

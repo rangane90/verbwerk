@@ -35,7 +35,7 @@ for (const file of ["vocabulary-general-a1-c2.js", "vocabulary-pilot.js", "vocab
   run(read(file));
 }
 const general = read("vocabulary-general-ui.js");
-run(general.slice(0, general.indexOf("  function setCount(")) + "\nwindow.auditGeneral={active,articleLessonWords,articlePluralLabel};\n})();");
+run(general.slice(0, general.indexOf("  function setCount(")) + "\nwindow.auditGeneral={active,articleLessonWords,articlePluralLabel,rawGeneralExamples};\n})();");
 const unified = read("vocabulary-unified-library.js");
 const marker = "  populateFilters();";
 assert.equal(unified.split(marker).length, 2);
@@ -46,7 +46,7 @@ const {entries, examplesOf} = context.auditUnified;
 const {active, articleLessonWords, articlePluralLabel} = context.auditGeneral;
 const manifest = JSON.parse(read("vocabulary-manifest.json")).latest_database;
 assert.equal(crypto.createHash("sha256").update(read(asset), "utf8").digest("hex"), manifest.asset_sha256);
-assert.equal(payload.metadata.version, "2026-11-11.4");
+assert.equal(payload.metadata.version, "2026-11-12.1");
 assert.equal(payload.metadata.trusted_bilingual_example_count, 5396);
 assert.equal(payload.metadata.candidate_bilingual_example_count, 0);
 const reviewedById = new Map(payload.entries.map(row => [row.entry_id, row]));
@@ -74,6 +74,22 @@ assert.equal(Object.keys(payload.routes.general).length, 891);
 assert.equal(Object.keys(payload.routes.pilot).length, 50);
 assert.equal(Object.keys(payload.routes.course).length, 28);
 assert.equal(active().length, 891);
+const activeGeneralRows = active();
+assert.equal(activeGeneralRows.filter(row => !payload.routes.general[row.id]).length, 0, "Every active general word must resolve to the reviewed database.");
+const inactiveUnlinkedGeneral = context.VW_GENERAL_DATA.entries.filter(row => !payload.routes.general[row.id]);
+assert.equal(inactiveUnlinkedGeneral.length, 5);
+assert.ok(inactiveUnlinkedGeneral.every(row => row.status !== "approved" || row.is_active === false), "Unlinked raw examples must not be attached to active general words.");
+for (const row of inactiveUnlinkedGeneral) assert.equal(context.auditGeneral.rawGeneralExamples(row).length, 0, "Untranslated or off-word fallback examples must stay hidden: " + row.id);
+const correctedExamples = {
+  "frequency:1613": "Die Mönche leben in einfachen Zellen.",
+  "frequency:1618": "Die Nachbarn rechten um den Grenzverlauf.",
+  "frequency:1628": "Diese Theorie erklärt das Ergebnis.",
+  "frequency:1919": "Der Markt öffnet heute um acht Uhr.",
+  "frequency:2578": "Wir können jetzt einsteigen.",
+  "frequency:3156": "Bitte schreiben Sie das Datum auf das Formular.",
+  "frequency:4706": "Der Wechsel war für alle überraschend."
+};
+for (const [id, german] of Object.entries(correctedExamples)) assert.equal(reviewedById.get(id).examples[0].german, german, "Reviewed example mismatch: " + id);
 for (const [index, item] of entries.entries()) {
   const entry = payload.entries[index];
   assert.equal(item.key, entry.entry_id);
@@ -131,7 +147,7 @@ assert.equal(reviewedById.get("frequency:4548").word_class, "noun");
 assert.ok(reviewedById.get("frequency:4548").examples.some(example => example.german === "Sie schlug einen Cross."));
 
 const worker = read("sw.js");
-for (const url of ["vocabulary-latest-database.js?v=4", "vocabulary-general-ui.js?v=36", "vocabulary-unified-library.js?v=10"]) {
+for (const url of ["vocabulary-latest-database.js?v=5", "vocabulary-general-ui.js?v=37", "vocabulary-unified-library.js?v=11"]) {
   assert.ok(html.includes(url) && worker.includes(url), url);
 }
 console.log("PASS: 5,396 stable entries, 5,000 frequency routes, course and article schedules, shared details, candidate labels and cache versions.");

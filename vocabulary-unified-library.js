@@ -180,16 +180,26 @@
     });
     return norm(values.filter(Boolean).join(" "));
   }
+  function rawExampleMatchesWord(sentence,record) {
+    var terms=[record.lemma,record.display_form,record.word].concat(Array.isArray(record.forms)?record.forms.map(function(form){return form&&form.surface;}):[]).filter(Boolean);
+    return terms.some(function(term){
+      var escaped=String(term).trim().split(/\s+/).map(function(part){return part.replace(/[.*+?^${}()|[\]\\]/g,'\\$&');}).join('\\s+');
+      return escaped&&new RegExp('(^|[^\\p{L}\\p{M}])'+escaped+'(?=$|[^\\p{L}\\p{M}])','iu').test(sentence);
+    });
+  }
   function examplesOf(x) {
     var out = [], seen = Object.create(null);
-    if(x.database)return study.examples(x.database,true);
+    if(x.database)return study.examples(x.database,true).filter(function(example){return String(example.translation||'').trim();});
     ["curated","pilot","course","articles"].forEach(function (source) {
       (x.records[source] || []).forEach(function (record) {
         var examples = Array.isArray(record.german_examples) ? record.german_examples : (Array.isArray(record.examples) ? record.examples : []);
         examples.forEach(function (example) {
           var value = Array.isArray(example) ? {sentence:example[0],translation_language:"en",translation:example[1] || ""} : (typeof example === "string" ? {sentence:example} : Object.assign({},example || {}));
-          var sentence = value.sentence || value.de;
-          if (sentence && !seen[norm(sentence)]) { seen[norm(sentence)] = true; out.push(value); }
+          var sentence = String(value.sentence || value.de || '').trim();
+          var translation = String(value.translation || value.english || '').trim();
+          if (!sentence || !translation) return;
+          if (source === "curated" && !rawExampleMatchesWord(sentence,record)) return;
+          if (!seen[norm(sentence)]) { seen[norm(sentence)] = true; out.push(value); }
         });
       });
     });

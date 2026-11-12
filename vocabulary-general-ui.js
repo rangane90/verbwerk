@@ -30,9 +30,22 @@
     if(includeCandidate&&entry.candidate_example)list.push(entry.candidate_example);
     return list.map(function(x){return {sentence:x.german,translation:x.english,translation_language:'en',databaseStatus:x.status,source:x.source,attribution:x.attribution};});
   }
+  function rawGeneralExamples(row){
+    var examples=Array.isArray(row.german_examples)?row.german_examples:(Array.isArray(row.examples)?row.examples:[]);
+    var terms=[row.lemma,row.display_form,row.word].concat(Array.isArray(row.forms)?row.forms.map(function(form){return form&&form.surface;}):[]).filter(Boolean);
+    return examples.filter(function(example){
+      var sentence=String(example&& (example.sentence||example.german||example.de)||'').trim();
+      var translation=String(example&& (example.translation||example.english)||'').trim();
+      if(!sentence||!translation)return false;
+      return terms.some(function(term){
+        var escaped=String(term).trim().split(/\s+/).map(function(part){return part.replace(/[.*+?^${}()|[\]\\]/g,'\\$&');}).join('\\s+');
+        return escaped&&new RegExp('(^|[^\\p{L}\\p{M}])'+escaped+'(?=$|[^\\p{L}\\p{M}])','iu').test(sentence);
+      });
+    });
+  }
   function enrichGeneral(row){
     var entry=lookup('general',row.id);
-    if(!entry)return row;
+    if(!entry)return Object.assign({},row,{german_examples:rawGeneralExamples(row)});
     var noun=entry.noun,grammar=entry.grammar||{};
     return Object.assign({},row,{latestDatabase:entry,meaning:entry.english_meaning,
       english_terms:[{term:entry.english_meaning,primary:true}],part_of_speech:entry.word_class,
