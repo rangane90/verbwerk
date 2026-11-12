@@ -63,6 +63,17 @@ const morphologyCases = [
   if (missing.length || incorrect.length) throw new Error('English morphology failed for ' + test.term + ': ' + JSON.stringify({ missing: missing, incorrect: incorrect, variants: variants }));
   return { term: test.term, kind: test.kind, variants: variants };
 });
+const glossaryCases = [
+  { source: 'to excuse (something or (formal) someone)', expected: ['excuse'] },
+  { source: 'government/administration', expected: ['government','administration'] },
+  { source: 'a (phone) call', expected: ['call'] },
+  { source: 'trace (rest of something; (by extension) any small amount)', expected: ['trace'] }
+].map(function (test) {
+  const terms = sandbox.window.__exampleEnglishTerms({kind:'noun',lemma:'audit',englishTerms:[{term:test.source}]});
+  const missing = test.expected.filter(function (term) { return !terms.includes(term); });
+  if (missing.length) throw new Error('Gloss parsing failed for ' + test.source + ': ' + JSON.stringify({missing:missing,terms:terms}));
+  return {source:test.source,terms:terms};
+});
 
 function decode(value) {
   return String(value || '').replace(/&amp;/g, '&').replace(/&lt;/g, '<')
@@ -533,6 +544,7 @@ const summary = {
     crossClassLexiconKeyCount: crossClassKeys.length
   },
   morphologyChecks: morphologyCases,
+  glossaryParserChecks: glossaryCases,
   lexicalPrecisionChecks: lexicalPrecisionChecks,
   germanCaseAnomalies: germanCaseAnomalies,
   germanPronounNounMisclassifications: germanPronounNounMisclassifications,

@@ -389,10 +389,10 @@ function exampleSplitEnglishTerms(value){
   let text=String(value||''),parts=[],current='',depth=0;
   for(let i=0;i<text.length;i++){
     let character=text[i];if(character==='(')depth++;else if(character===')'&&depth>0)depth--;
-    if(depth===0&&/[;·|,]/.test(character)){if(current.trim())parts.push(current.trim());current=''}else current+=character;
+    if(depth===0&&/[;·|,/]/.test(character)){if(current.trim())parts.push(current.trim());current=''}else current+=character;
   }
   if(current.trim())parts.push(current.trim());
-  return parts.map(function(part){return part.replace(/\s*\([^)]*\)\s*$/,'').trim()}).filter(Boolean);
+  return parts.map(function(part){let clean='',nested=0;for(let i=0;i<part.length;i++){let character=part[i];if(character==='('){nested++;continue}if(character===')'&&nested>0){nested--;continue}if(nested===0)clean+=character}return clean.replace(/\s+/g,' ').trim()}).filter(Boolean);
 }
 let exampleLinkedTermIndexes=null;
 function exampleBuildLinkedTermIndexes(){
